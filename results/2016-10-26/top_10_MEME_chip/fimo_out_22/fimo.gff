@@ -1,0 +1,17 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	271	286	48.2	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-1438525;pvalue=1.51e-05;qvalue= 0.152;sequence=ATTAAAAGTACTACTT;
+1438525	fimo	nucleotide_motif	270	285	44.4	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-2-1438525;pvalue=3.63e-05;qvalue= 0.152;sequence=AGTAGTACTTTTAATT;
+4990825	fimo	nucleotide_motif	231	246	40.8	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-4990825;pvalue=8.33e-05;qvalue= 0.19;sequence=TCAGAAAGTATTCCTA;
+8216200	fimo	nucleotide_motif	250	265	46.8	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-8216200;pvalue=2.09e-05;qvalue= 0.152;sequence=TCAAAAAGCATATTTT;
+8216200	fimo	nucleotide_motif	251	266	43.9	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-2-8216200;pvalue=4.08e-05;qvalue= 0.152;sequence=GAAAATATGCTTTTTG;
+8216200	fimo	nucleotide_motif	249	264	42.9	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-3-8216200;pvalue=5.07e-05;qvalue= 0.152;sequence=AAATATGCTTTTTGAG;
+5111575	fimo	nucleotide_motif	269	284	42.3	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-5111575;pvalue=5.84e-05;qvalue= 0.154;sequence=TGGAGAACGGTTTCCG;
+4776750	fimo	nucleotide_motif	259	274	41.5	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-4776750;pvalue=7.05e-05;qvalue= 0.173;sequence=GAATAAACGATGGCAA;
+7962850	fimo	nucleotide_motif	248	263	42.7	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-7962850;pvalue=5.31e-05;qvalue= 0.152;sequence=AGGTAAATTACTTACT;
+1446675	fimo	nucleotide_motif	231	246	45.7	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-1446675;pvalue=2.67e-05;qvalue= 0.152;sequence=ATTAATATGAATGCAT;
+8216150	fimo	nucleotide_motif	300	315	46.8	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-8216150;pvalue=2.09e-05;qvalue= 0.152;sequence=TCAAAAAGCATATTTT;
+8216150	fimo	nucleotide_motif	301	316	43.9	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-2-8216150;pvalue=4.08e-05;qvalue= 0.152;sequence=GAAAATATGCTTTTTG;
+8216150	fimo	nucleotide_motif	299	314	42.9	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-3-8216150;pvalue=5.07e-05;qvalue= 0.152;sequence=AAATATGCTTTTTGAG;
+2685875	fimo	nucleotide_motif	269	284	 54	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-2685875;pvalue=3.99e-06;qvalue= 0.137;sequence=TCGGAATCGTTATCAT;
+2685875	fimo	nucleotide_motif	269	284	40.2	-	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-2-2685875;pvalue=9.45e-05;qvalue= 0.202;sequence=ATGATAACGATTCCGA;
+7472425	fimo	nucleotide_motif	257	272	43.1	+	.	Name=EXPREG_00000d10;ID=EXPREG_00000d10-1-7472425;pvalue=4.94e-05;qvalue= 0.152;sequence=TGAAAAAGGATCAGAT;

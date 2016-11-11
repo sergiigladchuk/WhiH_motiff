@@ -1,0 +1,35 @@
+<dreme version="4.11.2" release="Mon Oct 24 12:27:06 2016 -0700">
+  <model>
+    <command_line>dreme -v 1 -oc dreme_out -png -dna -p ./seqs-centered -n ./seqs-shuffled -t 7134 -e 0.05</command_line>
+    <positives name="seqs-centered" count="36" file="./seqs-centered" last_mod_date="Wed Oct 26 18:36:30 UTC 2016" />
+    <negatives name="seqs-shuffled" count="36" from="file" file="./seqs-shuffled" last_mod_date="Wed Oct 26 18:36:30 UTC 2016" />
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background A="0.201" C="0.296" G="0.311" T="0.191" from="dataset"/>
+    <stop evalue="0.05" time="7134"/>
+    <ngen>100</ngen>
+    <add_pv_thresh>0.01</add_pv_thresh>
+    <seed>1</seed>
+    <host>node116</host>
+    <when>Wed Oct 26 18:35:02 UTC 2016</when>
+  </model>
+  <motifs>
+  </motifs>
+  <run_time cpu="0.68" real="0.69" stop="evalue"/>
+</dreme>

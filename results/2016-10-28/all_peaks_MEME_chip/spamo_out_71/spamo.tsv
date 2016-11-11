@@ -1,0 +1,95 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dpinteract	metR	.	dpinteract	farR	.	0	0	.	.	.	7.02e-02	10	0	3	6	1.23e-08	1.11e-07
+dpinteract	metR	.	dpinteract	farR	.	0	0	.	.	.	7.02e-02	10	4	3	6	9.83e-08	8.85e-07
+dpinteract	metR	.	dpinteract	farR	.	0	0	.	.	.	7.02e-02	10	5	3	6	9.83e-08	8.85e-07
+dpinteract	metR	.	dpinteract	farR	.	0	0	.	.	.	7.02e-02	10	8	3	6	7.80e-07	7.02e-06
+dpinteract	metR	.	prodoric	MX000117	CspA	0	0	prodoric	farR	.	1.83e-01	8	1	3	8	3.10e-08	2.79e-07
+dpinteract	metR	.	prodoric	MX000117	CspA	0	0	prodoric	farR	.	1.83e-01	8	4	3	8	2.47e-07	2.22e-06
+dpinteract	metR	.	prodoric	MX000117	CspA	0	0	prodoric	farR	.	1.83e-01	8	6	3	8	2.47e-07	2.22e-06
+dpinteract	metR	.	prodoric	MX000117	CspA	0	0	prodoric	farR	.	1.83e-01	8	8	3	8	1.95e-06	1.75e-05
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	12	6	4	17	3.51e-08	3.16e-07
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	1	2	3	17	3.73e-07	3.35e-06
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	12	1	3	17	3.73e-07	3.35e-06
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	12	8	4	17	5.42e-07	4.88e-06
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	12	4	3	17	2.93e-06	2.63e-05
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	1	6	3	17	2.93e-06	2.63e-05
+dpinteract	metR	.	prodoric	MX000202	CovR	0	0	prodoric	farR	.	2.07e-01	1	7	3	17	2.93e-06	2.63e-05
+dpinteract	metR	.	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	farR	.	2.07e-01	2	0	3	8	3.76e-08	3.38e-07
+dpinteract	metR	.	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	farR	.	2.07e-01	2	4	3	8	2.98e-07	2.69e-06
+dpinteract	metR	.	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	farR	.	2.07e-01	2	5	3	8	2.98e-07	2.69e-06
+dpinteract	metR	.	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	farR	.	2.07e-01	2	8	3	8	2.35e-06	2.12e-05
+dpinteract	metR	.	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	farR	.	2.89e-01	3	0	3	9	5.05e-08	4.55e-07
+dpinteract	metR	.	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	farR	.	2.89e-01	3	4	3	9	4.01e-07	3.61e-06
+dpinteract	metR	.	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	farR	.	2.89e-01	3	5	3	9	4.01e-07	3.61e-06
+dpinteract	metR	.	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	farR	.	2.89e-01	3	8	3	9	3.16e-06	2.84e-05
+dpinteract	metR	.	collectf	EXPREG_000004d0	AmrZ_P.aeruginosa	6	4	collectf	farR	.	8.10e-01	3	0	3	12	1.47e-07	1.32e-06
+dpinteract	metR	.	collectf	EXPREG_000004d0	AmrZ_P.aeruginosa	6	4	collectf	farR	.	8.10e-01	3	4	3	12	1.16e-06	1.04e-05
+dpinteract	metR	.	collectf	EXPREG_000004d0	AmrZ_P.aeruginosa	6	4	collectf	farR	.	8.10e-01	3	5	3	12	1.16e-06	1.04e-05
+dpinteract	metR	.	dpinteract	ompR	.	0	0	dpinteract	farR	.	2.13e+00	11	1	2	2	4.05e-07	3.64e-06
+dpinteract	metR	.	dpinteract	ompR	.	0	0	dpinteract	farR	.	2.13e+00	11	4	2	2	1.62e-06	1.46e-05
+dpinteract	metR	.	dpinteract	ompR	.	0	0	dpinteract	farR	.	2.13e+00	11	6	2	2	1.62e-06	1.46e-05
+dpinteract	metR	.	prodoric	MX000032	PvdS	0	2	prodoric	farR	.	3.19e+00	10	0	3	19	5.52e-07	4.97e-06
+dpinteract	metR	.	prodoric	MX000032	PvdS	0	2	prodoric	farR	.	3.19e+00	10	4	3	19	4.32e-06	3.89e-05
+dpinteract	metR	.	prodoric	MX000032	PvdS	0	2	prodoric	farR	.	3.19e+00	10	5	3	19	4.32e-06	3.89e-05
+dpinteract	metR	.	dpinteract	hns	.	2	0	dpinteract	farR	.	3.28e+00	10	0	3	19	5.75e-07	5.18e-06
+dpinteract	metR	.	prodoric	MX000157	PdhR	0	0	prodoric	farR	.	4.98e+00	8	1	3	22	8.56e-07	7.70e-06
+dpinteract	metR	.	prodoric	MX000169	NarP	0	0	prodoric	farR	.	5.05e+00	13	1	3	22	8.74e-07	7.86e-06
+dpinteract	metR	.	collectf	EXPREG_00000950	PhoP_E.coli	3	2	collectf	farR	.	6.27e+00	12	0	2	3	1.18e-06	1.06e-05
+dpinteract	metR	.	collectf	EXPREG_00000950	PhoP_E.coli	3	2	collectf	farR	.	6.27e+00	12	4	2	3	4.70e-06	4.23e-05
+dpinteract	metR	.	collectf	EXPREG_00000950	PhoP_E.coli	3	2	collectf	farR	.	6.27e+00	12	5	2	3	4.70e-06	4.23e-05
+dpinteract	metR	.	collectf	EXPREG_00001190	PhhR_P.putida	1	1	collectf	farR	.	6.72e+00	3	0	2	3	1.35e-06	1.22e-05
+dpinteract	metR	.	prodoric	MX000011	RhlR	0	0	.	.	.	1.34e-01	10	3	3	7	2.46e-08	2.21e-07
+dpinteract	metR	.	prodoric	MX000011	RhlR	0	0	.	.	.	1.34e-01	10	5	3	7	1.95e-07	1.76e-06
+dpinteract	metR	.	prodoric	MX000011	RhlR	0	0	.	.	.	1.34e-01	10	7	3	7	1.95e-07	1.76e-06
+dpinteract	metR	.	prodoric	MX000011	RhlR	0	0	.	.	.	1.34e-01	10	8	3	7	1.55e-06	1.39e-05
+dpinteract	metR	.	meme.xml	3	MEME	0	0	.	.	.	5.49e-01	66	3	3	10	1.11e-07	9.97e-07
+dpinteract	metR	.	meme.xml	3	MEME	0	0	.	.	.	5.49e-01	66	5	3	10	8.77e-07	7.89e-06
+dpinteract	metR	.	meme.xml	3	MEME	0	0	.	.	.	5.49e-01	66	7	3	10	8.77e-07	7.89e-06
+dpinteract	metR	.	prodoric	MX000003	NarL	0	0	.	.	.	9.52e-01	44	3	3	13	1.64e-07	1.48e-06
+dpinteract	metR	.	prodoric	MX000003	NarL	0	0	.	.	.	9.52e-01	44	5	3	13	1.30e-06	1.17e-05
+dpinteract	metR	.	prodoric	MX000003	NarL	0	0	.	.	.	9.52e-01	44	7	3	13	1.30e-06	1.17e-05
+dpinteract	metR	.	collectf	EXPREG_00000020	LexA_C.glutamicum	0	0	.	.	.	1.08e+00	42	7	3	7	2.00e-07	1.80e-06
+dpinteract	metR	.	collectf	EXPREG_00000020	LexA_C.glutamicum	0	0	.	.	.	1.08e+00	42	8	3	7	1.58e-06	1.42e-05
+dpinteract	metR	.	prodoric	MX000152	GlnG	0	0	.	.	.	1.49e+00	3	1	3	15	2.55e-07	2.30e-06
+dpinteract	metR	.	prodoric	MX000152	GlnG	0	0	.	.	.	1.49e+00	3	4	3	15	2.01e-06	1.81e-05
+dpinteract	metR	.	prodoric	MX000152	GlnG	0	0	.	.	.	1.49e+00	3	6	3	15	2.01e-06	1.81e-05
+dpinteract	metR	.	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	2.04e+00	43	2	2	2	3.70e-07	3.33e-06
+dpinteract	metR	.	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	2.04e+00	43	6	2	2	1.48e-06	1.33e-05
+dpinteract	metR	.	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	2.04e+00	43	7	2	2	1.48e-06	1.33e-05
+dpinteract	metR	.	prodoric	MX000096	Lrp	6	0	.	.	.	3.80e+00	0	2	3	20	6.62e-07	5.96e-06
+dpinteract	metR	.	prodoric	MX000058	PucR	0	0	.	.	.	3.97e+00	2	2	3	20	7.05e-07	6.35e-06
+dpinteract	metR	.	prodoric	MX000204	murR	0	0	.	.	.	5.72e+00	60	1	3	23	9.83e-07	8.85e-06
+dpinteract	metR	.	prodoric	MX000204	murR	0	0	.	.	.	5.72e+00	60	8	4	23	2.00e-06	1.80e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

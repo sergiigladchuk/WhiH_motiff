@@ -1,0 +1,2 @@
+#Query ID	Target ID	Optimal offset	p-value	E-value	q-value	Overlap	Query consensus	Target consensus	Orientation
+GWTCA	MX000093	11	0.000352067	0.173921	0.347842	5	GATCA	ATTGTGATCTAGATCACATT	+

@@ -1,0 +1,22 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	274	280	46.4	-	.	Name=MX000169;ID=MX000169-1-1438525;pvalue=2.27e-05;qvalue= 0.975;sequence=TACTTTT;
+1438525	fimo	nucleotide_motif	282	288	46.4	+	.	Name=MX000169;ID=MX000169-2-1438525;pvalue=2.27e-05;qvalue= 0.975;sequence=TACTTTT;
+3765675	fimo	nucleotide_motif	304	310	41.6	-	.	Name=MX000169;ID=MX000169-1-3765675;pvalue=6.94e-05;qvalue= 1;sequence=TACAATT;
+4842075	fimo	nucleotide_motif	227	233	46.4	-	.	Name=MX000169;ID=MX000169-1-4842075;pvalue=2.27e-05;qvalue= 0.975;sequence=TACTTTT;
+6323575	fimo	nucleotide_motif	306	312	40.3	+	.	Name=MX000169;ID=MX000169-1-6323575;pvalue=9.36e-05;qvalue= 1;sequence=TACCTTA;
+5840050	fimo	nucleotide_motif	159	165	43.3	+	.	Name=MX000169;ID=MX000169-1-5840050;pvalue=4.68e-05;qvalue= 1;sequence=TACGTTT;
+7838825	fimo	nucleotide_motif	191	197	41.6	-	.	Name=MX000169;ID=MX000169-1-7838825;pvalue=6.94e-05;qvalue= 1;sequence=TACAATT;
+2297325	fimo	nucleotide_motif	268	274	40.3	+	.	Name=MX000169;ID=MX000169-1-2297325;pvalue=9.36e-05;qvalue= 1;sequence=TACCTTT;
+3673125	fimo	nucleotide_motif	185	191	46.4	-	.	Name=MX000169;ID=MX000169-1-3673125;pvalue=2.27e-05;qvalue= 0.975;sequence=TACTTTA;
+3014450	fimo	nucleotide_motif	494	500	40.3	-	.	Name=MX000169;ID=MX000169-1-3014450;pvalue=9.36e-05;qvalue= 1;sequence=TACCTTT;
+2425525	fimo	nucleotide_motif	329	335	46.4	+	.	Name=MX000169;ID=MX000169-1-2425525;pvalue=2.27e-05;qvalue= 0.975;sequence=TACATTA;
+5480100	fimo	nucleotide_motif	191	197	41.6	+	.	Name=MX000169;ID=MX000169-1-5480100;pvalue=6.94e-05;qvalue= 1;sequence=TACAATT;
+2425575	fimo	nucleotide_motif	279	285	46.4	+	.	Name=MX000169;ID=MX000169-1-2425575;pvalue=2.27e-05;qvalue= 0.975;sequence=TACATTA;
+5671025	fimo	nucleotide_motif	303	309	43.3	-	.	Name=MX000169;ID=MX000169-1-5671025;pvalue=4.68e-05;qvalue= 1;sequence=TACGTTT;
+2384725	fimo	nucleotide_motif	279	285	46.4	+	.	Name=MX000169;ID=MX000169-1-2384725;pvalue=2.27e-05;qvalue= 0.975;sequence=TACTTTT;
+2425425	fimo	nucleotide_motif	429	435	46.4	+	.	Name=MX000169;ID=MX000169-1-2425425;pvalue=2.27e-05;qvalue= 0.975;sequence=TACATTA;
+5671100	fimo	nucleotide_motif	228	234	43.3	-	.	Name=MX000169;ID=MX000169-1-5671100;pvalue=4.68e-05;qvalue= 1;sequence=TACGTTT;
+5670975	fimo	nucleotide_motif	353	359	43.3	-	.	Name=MX000169;ID=MX000169-1-5670975;pvalue=4.68e-05;qvalue= 1;sequence=TACGTTT;
+6502975	fimo	nucleotide_motif	239	245	41.6	-	.	Name=MX000169;ID=MX000169-1-6502975;pvalue=6.94e-05;qvalue= 1;sequence=TACAATA;
+7155400	fimo	nucleotide_motif	284	290	43.3	+	.	Name=MX000169;ID=MX000169-1-7155400;pvalue=4.68e-05;qvalue= 1;sequence=TACGTTT;
+7838700	fimo	nucleotide_motif	316	322	41.6	-	.	Name=MX000169;ID=MX000169-1-7838700;pvalue=6.94e-05;qvalue= 1;sequence=TACAATT;

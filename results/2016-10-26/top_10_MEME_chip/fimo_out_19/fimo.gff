@@ -1,0 +1,25 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	270	297	51.6	-	.	Name=rpoD16;ID=rpoD16-1-1438525;pvalue=6.97e-06;qvalue= 0.0399;sequence=CTGTGACATAAAAGTAGTACTTTTAATT;
+1438525	fimo	nucleotide_motif	256	283	50.6	-	.	Name=rpoD16;ID=rpoD16-2-1438525;pvalue=8.71e-06;qvalue= 0.0408;sequence=TAGTACTTTTAATTCCCGATGTGATCAT;
+1438525	fimo	nucleotide_motif	303	330	42.3	+	.	Name=rpoD16;ID=rpoD16-3-1438525;pvalue=5.88e-05;qvalue= 0.105;sequence=TGAATACGTCGTACCCAATGGGTTTCAT;
+1438525	fimo	nucleotide_motif	271	298	41.8	+	.	Name=rpoD16;ID=rpoD16-4-1438525;pvalue=6.66e-05;qvalue= 0.105;sequence=ATTAAAAGTACTACTTTTATGTCACAGG;
+1438525	fimo	nucleotide_motif	272	299	40.5	+	.	Name=rpoD16;ID=rpoD16-5-1438525;pvalue=8.97e-05;qvalue= 0.128;sequence=TTAAAAGTACTACTTTTATGTCACAGGC;
+1483575	fimo	nucleotide_motif	50	77	 47	+	.	Name=rpoD16;ID=rpoD16-1-1483575;pvalue=1.99e-05;qvalue= 0.0592;sequence=TTGCAGACCTTCGGTTCGTTGCTCTGAT;
+4990825	fimo	nucleotide_motif	174	201	51.3	-	.	Name=rpoD16;ID=rpoD16-1-4990825;pvalue=7.31e-06;qvalue= 0.0399;sequence=TGATCAGTAGTCCATTAGAGGATTTCAT;
+1538675	fimo	nucleotide_motif	216	243	44.7	+	.	Name=rpoD16;ID=rpoD16-1-1538675;pvalue=3.35e-05;qvalue= 0.0844;sequence=TTGTGGCACGACTTTCATATTTTCAGCT;
+5970350	fimo	nucleotide_motif	216	243	41.7	+	.	Name=rpoD16;ID=rpoD16-1-5970350;pvalue=6.82e-05;qvalue= 0.105;sequence=TGAAATCTGCCGGTTATGTCCGATTAAT;
+4776750	fimo	nucleotide_motif	247	274	58.9	-	.	Name=rpoD16;ID=rpoD16-1-4776750;pvalue=1.27e-06;qvalue= 0.0242;sequence=TTGCCATCGTTTATTCCTTTTGTCGTAC;
+4776750	fimo	nucleotide_motif	238	265	47.5	-	.	Name=rpoD16;ID=rpoD16-2-4776750;pvalue=1.76e-05;qvalue= 0.0577;sequence=TTTATTCCTTTTGTCGTACGAGTCGTAT;
+7962850	fimo	nucleotide_motif	227	254	53.6	+	.	Name=rpoD16;ID=rpoD16-1-7962850;pvalue=4.39e-06;qvalue= 0.0399;sequence=TTGCCATGCGTGGATATTATCAGTAAGT;
+7962850	fimo	nucleotide_motif	232	259	43.7	+	.	Name=rpoD16;ID=rpoD16-2-7962850;pvalue=4.28e-05;qvalue= 0.1;sequence=ATGCGTGGATATTATCAGTAAGTAATTT;
+7962850	fimo	nucleotide_motif	237	264	42.3	+	.	Name=rpoD16;ID=rpoD16-3-7962850;pvalue=5.88e-05;qvalue= 0.105;sequence=TGGATATTATCAGTAAGTAATTTACCTC;
+7962850	fimo	nucleotide_motif	251	278	41.6	+	.	Name=rpoD16;ID=rpoD16-4-7962850;pvalue=6.86e-05;qvalue= 0.105;sequence=AAGTAATTTACCTCTCGGTAAATTCACT;
+7962850	fimo	nucleotide_motif	247	274	41.5	+	.	Name=rpoD16;ID=rpoD16-5-7962850;pvalue=7.07e-05;qvalue= 0.105;sequence=CAGTAAGTAATTTACCTCTCGGTAAATT;
+4056750	fimo	nucleotide_motif	222	249	48.8	+	.	Name=rpoD16;ID=rpoD16-1-4056750;pvalue=1.31e-05;qvalue= 0.0501;sequence=TGGATAACTGCTGTGGGGAAGTGAAAAT;
+1446675	fimo	nucleotide_motif	215	242	58.3	+	.	Name=rpoD16;ID=rpoD16-1-1446675;pvalue=1.48e-06;qvalue= 0.0242;sequence=TTTTCTAATGTCGAGCATTAATATGAAT;
+1446675	fimo	nucleotide_motif	214	241	51.3	-	.	Name=rpoD16;ID=rpoD16-2-1446675;pvalue=7.31e-06;qvalue= 0.0399;sequence=TTCATATTAATGCTCGACATTAGAAAAC;
+1446675	fimo	nucleotide_motif	216	243	41.6	-	.	Name=rpoD16;ID=rpoD16-3-1446675;pvalue=6.86e-05;qvalue= 0.105;sequence=CATTCATATTAATGCTCGACATTAGAAA;
+4792100	fimo	nucleotide_motif	235	262	48.6	-	.	Name=rpoD16;ID=rpoD16-1-4792100;pvalue=1.38e-05;qvalue= 0.0501;sequence=TTCGCAATGAGTCATATTTACATCTACT;
+4792100	fimo	nucleotide_motif	229	256	42.6	-	.	Name=rpoD16;ID=rpoD16-2-4792100;pvalue=5.44e-05;qvalue= 0.105;sequence=ATGAGTCATATTTACATCTACTTAGACA;
+4792100	fimo	nucleotide_motif	229	256	40.3	+	.	Name=rpoD16;ID=rpoD16-3-4792100;pvalue=9.34e-05;qvalue= 0.128;sequence=TGTCTAAGTAGATGTAAATATGACTCAT;
+7472425	fimo	nucleotide_motif	250	277	45.3	-	.	Name=rpoD16;ID=rpoD16-1-7472425;pvalue=2.98e-05;qvalue= 0.0813;sequence=TGGTCATCTGATCCTTTTTCATGACCAA;

@@ -1,0 +1,68 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+prodoric	MX000091	ArcA	prodoric	MX000181	Crp	0	0	.	.	.	1.46e-01	12	0	3	7	2.81e-08	2.53e-07
+prodoric	MX000091	ArcA	prodoric	MX000181	Crp	0	0	.	.	.	1.46e-01	12	4	3	7	2.24e-07	2.01e-06
+prodoric	MX000091	ArcA	prodoric	MX000181	Crp	0	0	.	.	.	1.46e-01	12	5	3	7	2.24e-07	2.01e-06
+prodoric	MX000091	ArcA	prodoric	MX000181	Crp	0	0	.	.	.	1.46e-01	12	8	3	7	1.77e-06	1.59e-05
+prodoric	MX000091	ArcA	dpinteract	farR	.	0	0	dpinteract	MX000181	Crp	2.93e-01	23	0	3	9	5.16e-08	4.64e-07
+prodoric	MX000091	ArcA	dpinteract	farR	.	0	0	dpinteract	MX000181	Crp	2.93e-01	23	4	3	9	4.10e-07	3.69e-06
+prodoric	MX000091	ArcA	dpinteract	farR	.	0	0	dpinteract	MX000181	Crp	2.93e-01	23	5	3	9	4.10e-07	3.69e-06
+prodoric	MX000091	ArcA	dpinteract	farR	.	0	0	dpinteract	MX000181	Crp	2.93e-01	23	8	3	9	3.22e-06	2.90e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_000004b0	PvdS_P.aeruginosa	0	0	collectf	MX000181	Crp	7.08e-01	22	0	3	11	1.38e-07	1.24e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_000004b0	PvdS_P.aeruginosa	0	0	collectf	MX000181	Crp	7.08e-01	22	4	3	11	1.09e-06	9.83e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_000004b0	PvdS_P.aeruginosa	0	0	collectf	MX000181	Crp	7.08e-01	22	5	3	11	1.09e-06	9.83e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	MX000181	Crp	8.10e-01	15	0	3	12	1.47e-07	1.32e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	MX000181	Crp	8.10e-01	15	4	3	12	1.16e-06	1.04e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_00000760	NtcA_N.sp.	0	0	collectf	MX000181	Crp	8.10e-01	15	5	3	12	1.16e-06	1.04e-05
+prodoric	MX000091	ArcA	dpinteract	crp	.	0	0	dpinteract	MX000181	Crp	9.13e-01	11	1	3	12	1.76e-07	1.58e-06
+prodoric	MX000091	ArcA	dpinteract	crp	.	0	0	dpinteract	MX000181	Crp	9.13e-01	11	4	3	12	1.39e-06	1.25e-05
+prodoric	MX000091	ArcA	dpinteract	crp	.	0	0	dpinteract	MX000181	Crp	9.13e-01	11	6	3	12	1.39e-06	1.25e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_000009e0	RpoN_S.enterica	0	1	collectf	MX000181	Crp	1.10e+00	7	0	3	13	2.03e-07	1.83e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_000009e0	RpoN_S.enterica	0	1	collectf	MX000181	Crp	1.10e+00	7	4	3	13	1.61e-06	1.44e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_000009e0	RpoN_S.enterica	0	1	collectf	MX000181	Crp	1.10e+00	7	5	3	13	1.61e-06	1.44e-05
+prodoric	MX000091	ArcA	prodoric	MX000117	CspA	0	0	prodoric	MX000181	Crp	2.19e+00	21	1	3	17	3.73e-07	3.35e-06
+prodoric	MX000091	ArcA	prodoric	MX000117	CspA	0	0	prodoric	MX000181	Crp	2.19e+00	21	4	3	17	2.93e-06	2.63e-05
+prodoric	MX000091	ArcA	prodoric	MX000117	CspA	0	0	prodoric	MX000181	Crp	2.19e+00	21	6	3	17	2.93e-06	2.63e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	MX000181	Crp	2.31e+00	16	0	3	17	4.05e-07	3.64e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	MX000181	Crp	2.31e+00	16	4	3	17	3.18e-06	2.86e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_00000810	OmpR_S.enterica	0	0	collectf	MX000181	Crp	2.31e+00	16	5	3	17	3.18e-06	2.86e-05
+prodoric	MX000091	ArcA	dpinteract	hns	.	2	0	dpinteract	MX000181	Crp	2.40e+00	6	0	4	58	4.20e-07	3.78e-06
+prodoric	MX000091	ArcA	prodoric	MX000165	MarA	0	1	prodoric	MX000181	Crp	8.88e+00	27	1	3	25	1.68e-06	1.51e-05
+prodoric	MX000091	ArcA	prodoric	MX000011	RhlR	0	0	.	.	.	1.38e+00	1	3	3	14	2.53e-07	2.28e-06
+prodoric	MX000091	ArcA	prodoric	MX000011	RhlR	0	0	.	.	.	1.38e+00	1	5	3	14	1.99e-06	1.79e-05
+prodoric	MX000091	ArcA	prodoric	MX000011	RhlR	0	0	.	.	.	1.38e+00	1	7	3	14	1.99e-06	1.79e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	6.09e+00	34	2	2	3	1.11e-06	9.98e-06
+prodoric	MX000091	ArcA	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	6.09e+00	34	6	2	3	4.43e-06	3.99e-05
+prodoric	MX000091	ArcA	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	6.09e+00	34	7	2	3	4.43e-06	3.99e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

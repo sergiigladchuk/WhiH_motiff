@@ -1,0 +1,27 @@
+##gff-version 3
+8015225	fimo	nucleotide_motif	246	255	45.6	+	.	Name=farR;ID=farR-1-8015225;pvalue=2.74e-05;qvalue= 0.939;sequence=CGTTTTGATG;
+1446675	fimo	nucleotide_motif	230	239	40.6	-	.	Name=farR;ID=farR-1-1446675;pvalue=8.64e-05;qvalue= 1;sequence=CATATTAATG;
+945550	fimo	nucleotide_motif	208	217	50.7	+	.	Name=farR;ID=farR-1-945550;pvalue=8.45e-06;qvalue= 0.771;sequence=CGTATAAATG;
+3813825	fimo	nucleotide_motif	228	237	47.4	-	.	Name=farR;ID=farR-1-3813825;pvalue=1.8e-05;qvalue= 0.771;sequence=TGTTTAGATG;
+3813825	fimo	nucleotide_motif	366	375	41.8	+	.	Name=farR;ID=farR-2-3813825;pvalue=6.67e-05;qvalue= 0.992;sequence=TTTTTTGATT;
+4682500	fimo	nucleotide_motif	195	204	42.9	+	.	Name=farR;ID=farR-1-4682500;pvalue=5.08e-05;qvalue= 0.992;sequence=GGTATTGTTT;
+884600	fimo	nucleotide_motif	258	267	45.6	-	.	Name=farR;ID=farR-1-884600;pvalue=2.74e-05;qvalue= 0.939;sequence=CGGATAATTG;
+4956850	fimo	nucleotide_motif	224	233	44.4	+	.	Name=farR;ID=farR-1-4956850;pvalue=3.63e-05;qvalue= 0.992;sequence=TGTACTAAAT;
+4682475	fimo	nucleotide_motif	220	229	42.9	+	.	Name=farR;ID=farR-1-4682475;pvalue=5.08e-05;qvalue= 0.992;sequence=GGTATTGTTT;
+6703550	fimo	nucleotide_motif	251	260	49.5	+	.	Name=farR;ID=farR-1-6703550;pvalue=1.13e-05;qvalue= 0.771;sequence=TGGATAGTTT;
+1201525	fimo	nucleotide_motif	178	187	 44	-	.	Name=farR;ID=farR-1-1201525;pvalue=3.97e-05;qvalue= 0.992;sequence=TGTATTCATG;
+5284925	fimo	nucleotide_motif	419	428	41.8	+	.	Name=farR;ID=farR-1-5284925;pvalue=6.67e-05;qvalue= 0.992;sequence=TTTTTTGATT;
+3147525	fimo	nucleotide_motif	236	245	48.4	+	.	Name=farR;ID=farR-1-3147525;pvalue=1.43e-05;qvalue= 0.771;sequence=TGTCTTATTT;
+3147525	fimo	nucleotide_motif	241	250	42.4	+	.	Name=farR;ID=farR-2-3147525;pvalue=5.73e-05;qvalue= 0.992;sequence=TATTTTATTG;
+2129325	fimo	nucleotide_motif	15	24	40.8	+	.	Name=farR;ID=farR-1-2129325;pvalue=8.24e-05;qvalue= 1;sequence=TGGATAAGTT;
+4090875	fimo	nucleotide_motif	249	258	41.8	-	.	Name=farR;ID=farR-1-4090875;pvalue=6.67e-05;qvalue= 0.992;sequence=TCTTTTGTTT;
+4754900	fimo	nucleotide_motif	183	192	42.5	+	.	Name=farR;ID=farR-1-4754900;pvalue=5.61e-05;qvalue= 0.992;sequence=CGGTTTGTTA;
+4090850	fimo	nucleotide_motif	274	283	41.8	-	.	Name=farR;ID=farR-1-4090850;pvalue=6.67e-05;qvalue= 0.992;sequence=TCTTTTGTTT;
+3147425	fimo	nucleotide_motif	336	345	48.4	+	.	Name=farR;ID=farR-1-3147425;pvalue=1.43e-05;qvalue= 0.771;sequence=TGTCTTATTT;
+3147425	fimo	nucleotide_motif	341	350	42.4	+	.	Name=farR;ID=farR-2-3147425;pvalue=5.73e-05;qvalue= 0.992;sequence=TATTTTATTG;
+248575	fimo	nucleotide_motif	252	261	48.9	-	.	Name=farR;ID=farR-1-248575;pvalue=1.29e-05;qvalue= 0.771;sequence=CGTATTGATG;
+1446775	fimo	nucleotide_motif	130	139	40.6	-	.	Name=farR;ID=farR-1-1446775;pvalue=8.64e-05;qvalue= 1;sequence=CATATTAATG;
+6502975	fimo	nucleotide_motif	220	229	42.5	-	.	Name=farR;ID=farR-1-6502975;pvalue=5.61e-05;qvalue= 0.992;sequence=CGGTTTAAAG;
+6502975	fimo	nucleotide_motif	398	407	42.5	-	.	Name=farR;ID=farR-2-6502975;pvalue=5.61e-05;qvalue= 0.992;sequence=CGGTTTGTTA;
+7637350	fimo	nucleotide_motif	247	256	53.6	+	.	Name=farR;ID=farR-1-7637350;pvalue=4.37e-06;qvalue= 0.771;sequence=TGTTTAATTG;
+2960700	fimo	nucleotide_motif	279	288	47.4	-	.	Name=farR;ID=farR-1-2960700;pvalue=1.8e-05;qvalue= 0.771;sequence=TGGTTTGTTA;

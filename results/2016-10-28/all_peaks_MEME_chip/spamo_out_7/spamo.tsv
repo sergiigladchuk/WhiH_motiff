@@ -1,0 +1,94 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	8	1	10	16	6.09e-25	5.48e-24
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	8	4	10	16	6.17e-22	5.55e-21
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	8	6	10	16	6.17e-22	5.55e-21
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	8	8	10	16	6.19e-19	5.57e-18
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	7	1	3	16	4.34e-07	3.91e-06
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	7	4	3	16	3.41e-06	3.07e-05
+meme.xml	3	MEME	meme.xml	2	MEME	0	0	.	.	.	3.19e-18	7	6	3	16	3.41e-06	3.07e-05
+meme.xml	3	MEME	prodoric	MX000036	AlgU	0	2	prodoric	2	MEME	5.26e-11	19	4	10	37	9.05e-18	8.15e-17
+meme.xml	3	MEME	prodoric	MX000036	AlgU	0	2	prodoric	2	MEME	5.26e-11	19	8	10	37	8.51e-15	7.66e-14
+meme.xml	3	MEME	prodoric	MX000036	AlgU	0	2	prodoric	2	MEME	5.26e-11	19	1	7	37	5.20e-14	4.68e-13
+meme.xml	3	MEME	prodoric	MX000036	AlgU	0	2	prodoric	2	MEME	5.26e-11	19	6	7	37	6.35e-12	5.72e-11
+meme.xml	3	MEME	prodoric	MX000036	AlgU	0	2	prodoric	2	MEME	5.26e-11	19	0	3	37	4.32e-06	3.89e-05
+meme.xml	3	MEME	prodoric	MX000036	AlgU	0	2	prodoric	2	MEME	5.26e-11	18	1	3	37	4.32e-06	3.89e-05
+meme.xml	3	MEME	dreme.xml	GWTCA	DREME	0	0	dreme.xml	2	MEME	9.53e-09	19	1	7	24	1.62e-15	1.46e-14
+meme.xml	3	MEME	dreme.xml	GWTCA	DREME	0	0	dreme.xml	2	MEME	9.53e-09	19	4	7	24	2.02e-13	1.82e-12
+meme.xml	3	MEME	dreme.xml	GWTCA	DREME	0	0	dreme.xml	2	MEME	9.53e-09	19	6	7	24	2.02e-13	1.82e-12
+meme.xml	3	MEME	dreme.xml	GWTCA	DREME	0	0	dreme.xml	2	MEME	9.53e-09	19	8	7	24	2.46e-11	2.21e-10
+meme.xml	3	MEME	prodoric	MX000204	murR	0	0	prodoric	2	MEME	1.88e-08	23	0	7	26	3.22e-15	2.89e-14
+meme.xml	3	MEME	prodoric	MX000204	murR	0	0	prodoric	2	MEME	1.88e-08	23	4	7	26	4.00e-13	3.60e-12
+meme.xml	3	MEME	prodoric	MX000204	murR	0	0	prodoric	2	MEME	1.88e-08	23	5	7	26	4.00e-13	3.60e-12
+meme.xml	3	MEME	prodoric	MX000204	murR	0	0	prodoric	2	MEME	1.88e-08	23	8	7	26	4.83e-11	4.35e-10
+meme.xml	3	MEME	prodoric	MX000204	murR	0	0	prodoric	2	MEME	1.88e-08	22	0	3	26	1.44e-06	1.29e-05
+meme.xml	3	MEME	prodoric	MX000071	SigB	2	0	prodoric	2	MEME	4.96e-08	20	5	7	16	8.72e-15	7.84e-14
+meme.xml	3	MEME	prodoric	MX000071	SigB	2	0	prodoric	2	MEME	4.96e-08	20	0	6	16	2.72e-14	2.45e-13
+meme.xml	3	MEME	prodoric	MX000071	SigB	2	0	prodoric	2	MEME	4.96e-08	20	8	7	16	1.08e-12	9.76e-12
+meme.xml	3	MEME	prodoric	MX000071	SigB	2	0	prodoric	2	MEME	4.96e-08	20	4	6	16	1.72e-12	1.54e-11
+meme.xml	3	MEME	collectf	EXPREG_00001730	H-NS_V.cholerae	0	0	collectf	2	MEME	9.69e-08	17	1	6	15	1.70e-14	1.53e-13
+meme.xml	3	MEME	collectf	EXPREG_00001730	H-NS_V.cholerae	0	0	collectf	2	MEME	9.69e-08	17	4	6	15	1.08e-12	9.68e-12
+meme.xml	3	MEME	collectf	EXPREG_00001730	H-NS_V.cholerae	0	0	collectf	2	MEME	9.69e-08	17	6	6	15	1.08e-12	9.68e-12
+meme.xml	3	MEME	collectf	EXPREG_00001730	H-NS_V.cholerae	0	0	collectf	2	MEME	9.69e-08	17	8	6	15	6.70e-11	6.03e-10
+meme.xml	3	MEME	prodoric	MX000157	PdhR	0	0	prodoric	2	MEME	2.08e-07	21	1	6	17	3.55e-14	3.20e-13
+meme.xml	3	MEME	prodoric	MX000157	PdhR	0	0	prodoric	2	MEME	2.08e-07	21	4	6	17	2.24e-12	2.01e-11
+meme.xml	3	MEME	prodoric	MX000157	PdhR	0	0	prodoric	2	MEME	2.08e-07	21	6	6	17	2.24e-12	2.01e-11
+meme.xml	3	MEME	prodoric	MX000157	PdhR	0	0	prodoric	2	MEME	2.08e-07	21	8	6	17	1.39e-10	1.25e-09
+meme.xml	3	MEME	prodoric	MX000211	SdpR	0	0	prodoric	2	MEME	3.22e-07	21	1	6	18	5.55e-14	4.99e-13
+meme.xml	3	MEME	prodoric	MX000211	SdpR	0	0	prodoric	2	MEME	3.22e-07	21	4	6	18	3.49e-12	3.14e-11
+meme.xml	3	MEME	prodoric	MX000211	SdpR	0	0	prodoric	2	MEME	3.22e-07	21	6	6	18	3.49e-12	3.14e-11
+meme.xml	3	MEME	prodoric	MX000211	SdpR	0	0	prodoric	2	MEME	3.22e-07	21	8	6	18	2.15e-10	1.94e-09
+meme.xml	3	MEME	prodoric	MX000076	SigH	0	3	prodoric	2	MEME	9.15e-05	23	0	4	6	1.60e-11	1.44e-10
+meme.xml	3	MEME	prodoric	MX000076	SigH	0	3	prodoric	2	MEME	9.15e-05	23	4	4	6	2.55e-10	2.29e-09
+meme.xml	3	MEME	prodoric	MX000076	SigH	0	3	prodoric	2	MEME	9.15e-05	23	5	4	6	2.55e-10	2.29e-09
+meme.xml	3	MEME	prodoric	MX000076	SigH	0	3	prodoric	2	MEME	9.15e-05	23	8	4	6	4.05e-09	3.65e-08
+meme.xml	3	MEME	prodoric	MX000064	SigB	1	4	prodoric	2	MEME	3.43e-02	23	0	4	21	5.90e-09	5.31e-08
+meme.xml	3	MEME	prodoric	MX000064	SigB	1	4	prodoric	2	MEME	3.43e-02	23	4	4	21	9.22e-08	8.30e-07
+meme.xml	3	MEME	prodoric	MX000064	SigB	1	4	prodoric	2	MEME	3.43e-02	23	5	4	21	9.22e-08	8.30e-07
+meme.xml	3	MEME	prodoric	MX000064	SigB	1	4	prodoric	2	MEME	3.43e-02	23	8	4	21	1.41e-06	1.27e-05
+meme.xml	3	MEME	dpinteract	hns	.	2	0	dpinteract	2	MEME	3.57e-02	23	0	4	21	6.24e-09	5.61e-08
+meme.xml	3	MEME	dpinteract	hns	.	2	0	dpinteract	2	MEME	3.57e-02	23	4	4	21	9.74e-08	8.77e-07
+meme.xml	3	MEME	dpinteract	hns	.	2	0	dpinteract	2	MEME	3.57e-02	23	5	4	21	9.74e-08	8.77e-07
+meme.xml	3	MEME	dpinteract	hns	.	2	0	dpinteract	2	MEME	3.57e-02	23	8	4	21	1.49e-06	1.34e-05
+meme.xml	3	MEME	prodoric	MX000029	Fis	0	0	prodoric	2	MEME	2.11e-01	19	0	3	8	3.84e-08	3.45e-07
+meme.xml	3	MEME	prodoric	MX000029	Fis	0	0	prodoric	2	MEME	2.11e-01	19	4	3	8	3.05e-07	2.74e-06
+meme.xml	3	MEME	prodoric	MX000029	Fis	0	0	prodoric	2	MEME	2.11e-01	19	5	3	8	3.05e-07	2.74e-06
+meme.xml	3	MEME	prodoric	MX000029	Fis	0	0	prodoric	2	MEME	2.11e-01	19	8	3	8	2.41e-06	2.17e-05
+meme.xml	3	MEME	collectf	EXPREG_00001190	PhhR_P.putida	1	1	.	.	.	7.22e-01	11	5	3	6	1.44e-07	1.30e-06
+meme.xml	3	MEME	collectf	EXPREG_00001190	PhhR_P.putida	1	1	.	.	.	7.22e-01	11	8	3	6	1.14e-06	1.03e-05
+meme.xml	3	MEME	prodoric	MX000151	NhaR	0	0	.	.	.	2.00e+00	6	2	2	2	3.54e-07	3.19e-06
+meme.xml	3	MEME	prodoric	MX000151	NhaR	0	0	.	.	.	2.00e+00	6	6	2	2	1.42e-06	1.28e-05
+meme.xml	3	MEME	prodoric	MX000151	NhaR	0	0	.	.	.	2.00e+00	6	7	2	2	1.42e-06	1.28e-05
+meme.xml	3	MEME	prodoric	MX000104	FleQ	0	1	.	.	.	3.31e+00	4	7	3	10	5.84e-07	5.25e-06
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

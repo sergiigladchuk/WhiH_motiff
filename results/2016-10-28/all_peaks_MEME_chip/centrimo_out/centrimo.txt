@@ -1,0 +1,237 @@
+# WARNING: this file is not sorted!
+# db	id                         alt	 E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	 p-value	mult_tests
+   1	1                         MEME	7.6e-060	   1.5e-062	        -142.34	         0.0	       66	        480	         170	        308	  0.13750	6.4e-065	       239
+   1	2                         MEME	3.9e-004	   7.8e-007	         -14.06	         0.0	      180	        480	          46	         61	  0.37500	3.3e-009	       239
+   1	3                         MEME	4.1e-001	   8.3e-004	          -7.10	         0.0	       27	        473	           9	         21	  0.05708	3.5e-006	       236
+   2	GWTCA                    DREME	5.2e-001	   1.0e-003	          -6.86	         0.0	       64	        496	          68	        306	  0.12903	4.2e-006	       247
+   2	GTACKA                   DREME	5.3e-003	   1.1e-005	         -11.45	         0.0	       27	        495	          24	        125	  0.05455	4.3e-008	       247
+   3	EXPREG_00000020 LexA_C.glutamicum	2.2e-007	   4.3e-010	         -21.56	         0.0	       82	        484	          60	        143	  0.16942	1.8e-012	       241
+   3	EXPREG_00000050  PhoP_Y.pestis	5.1e-010	   1.0e-012	         -27.61	         0.0	      174	        480	          88	        124	  0.36250	4.3e-015	       239
+   3	EXPREG_000000e0 CcpA_S.pneumoniae	1.9e-007	   3.9e-010	         -21.67	         0.0	      159	        481	          38	         45	  0.33056	1.6e-012	       240
+   3	EXPREG_00000120 LexA_P.difficile	6.0e-001	   1.2e-003	          -6.72	         0.0	      175	        485	          38	         58	  0.36082	5.0e-006	       242
+   3	EXPREG_00000130 HapR_V.cholerae	5.4e-004	   1.1e-006	         -13.74	         0.0	       47	        479	          10	         12	  0.09812	4.5e-009	       239
+   3	EXPREG_00000200 GlnR_S.erythraea	1.9e-001	   3.7e-004	          -7.89	         0.0	       87	        485	          81	        273	  0.17938	1.5e-006	       242
+   3	EXPREG_00000240 ToxT_V.cholerae	1.4e-004	   2.8e-007	         -15.09	         0.0	       75	        487	          22	         37	  0.15400	1.2e-009	       243
+   3	EXPREG_00000290 LuxR_V.campbellii	6.3e-005	   1.3e-007	         -15.88	         0.0	       48	        480	          25	         63	  0.10000	5.3e-010	       239
+   3	EXPREG_00000360 Fur_A.salmonicida	5.0e0000	   1.0e-002	          -4.60	         0.0	       66	        476	           9	         15	  0.13866	4.3e-005	       237
+   3	EXPREG_00000370 Fur_A.ferrooxidans	1.5e-010	   3.0e-013	         -28.85	         0.0	       62	        480	          44	         94	  0.12917	1.2e-015	       239
+   3	EXPREG_000006f0   IHF_P.putida	1.5e-002	   3.0e-005	         -10.40	         0.0	      229	        473	          73	         98	  0.48414	1.3e-007	       236
+   3	EXPREG_00000700   IHF_P.putida	2.1e-002	   4.1e-005	         -10.09	         0.0	       25	        487	          22	        119	  0.05133	1.7e-007	       243
+   3	EXPREG_00000760     NtcA_N.sp.	2.5e-005	   4.9e-008	         -16.83	         0.0	      177	        487	         102	        169	  0.36345	2.0e-010	       243
+   3	EXPREG_000007c0     Fur_E.coli	1.1e-001	   2.2e-004	          -8.40	         0.0	       62	        470	          10	         14	  0.13191	9.6e-007	       234
+   3	EXPREG_00000800    ArcA_E.coli	8.5e-004	   1.7e-006	         -13.28	         0.0	       88	        480	          25	         43	  0.18333	7.1e-009	       239
+   3	EXPREG_00000810 OmpR_S.enterica	2.3e-017	   4.7e-020	         -44.51	         0.0	      140	        492	         136	        229	  0.28455	1.9e-022	       245
+   3	EXPREG_00000840     Lrp_E.coli	1.4e-007	   2.8e-010	         -21.98	         0.0	      168	        486	         116	        194	  0.34568	1.2e-012	       242
+   3	EXPREG_00000850     CRP_E.coli	5.3e0000	   1.1e-002	          -4.55	         0.0	      309	        479	          41	         45	  0.64509	4.4e-005	       239
+   3	EXPREG_00000870    RutR_E.coli	2.3e-001	   4.7e-004	          -7.67	         0.0	       67	        485	          41	        141	  0.13814	1.9e-006	       242
+   3	EXPREG_000008b0 Fur_V.cholerae	1.5e-011	   3.1e-014	         -31.11	         0.0	       80	        478	          43	         71	  0.16736	1.3e-016	       238
+   3	EXPREG_000008e0 PhoP_S.enterica	7.9e-006	   1.6e-008	         -17.97	         0.0	       90	        474	          29	         46	  0.18987	6.7e-011	       236
+   3	EXPREG_00000950    PhoP_E.coli	7.4e-002	   1.5e-004	          -8.82	         0.0	       68	        478	          15	         27	  0.14226	6.2e-007	       238
+   3	EXPREG_000009a0 AmpR_P.aeruginosa	1.2e-023	   2.3e-026	         -59.02	         0.0	       75	        485	         127	        300	  0.15464	9.6e-029	       242
+   3	EXPREG_000009b0 LasR_P.aeruginosa	2.7e-011	   5.4e-014	         -30.54	         0.0	      176	        478	         154	        245	  0.36820	2.3e-016	       238
+   3	EXPREG_000009c0 CcpA_B.subtilis	3.5e-001	   7.1e-004	          -7.25	         0.0	       94	        474	          12	         16	  0.19831	3.0e-006	       236
+   3	EXPREG_000009e0 RpoN_S.enterica	9.6e-007	   1.9e-009	         -20.07	         0.0	      155	        483	          65	         99	  0.32091	8.0e-012	       241
+   3	EXPREG_00000b00    CsgD_E.coli	2.2e-025	   4.4e-028	         -63.00	         0.0	      166	        484	         159	        220	  0.34298	1.8e-030	       241
+   3	EXPREG_00000b50 Vfr_P.aeruginosa	7.6e-010	   1.5e-012	         -27.21	         0.0	       47	        469	          54	        170	  0.10021	6.5e-015	       234
+   3	EXPREG_00000c80 Fur_P.aeruginosa	2.9e-004	   5.8e-007	         -14.36	         0.0	      200	        482	          47	         59	  0.41494	2.4e-009	       240
+   3	EXPREG_00000d10 CcpA_C.difficile	2.3e-005	   4.6e-008	         -16.90	         0.0	      135	        485	          41	         61	  0.27835	1.9e-010	       242
+   3	EXPREG_00000ec0 Fur_N.gonorrhoeae	1.5e-016	   2.9e-019	         -42.67	         0.0	       91	        477	          70	        119	  0.19078	1.2e-021	       238
+   3	EXPREG_00000f90 GlxR_C.glutamicum	8.1e-009	   1.6e-011	         -24.84	         0.0	       29	        475	          43	        190	  0.06105	6.9e-014	       237
+   3	EXPREG_00000ff0   CRP_Y.pestis	7.5e-002	   1.5e-004	          -8.80	         0.0	       41	        469	          11	         22	  0.08742	6.4e-007	       234
+   3	EXPREG_00001020 Fur_S.enterica	5.5e-007	   1.1e-009	         -20.62	         0.0	      174	        482	          61	         83	  0.36100	4.6e-012	       240
+   3	EXPREG_00001030 CRP_V.vulnificus	5.1e-010	   1.0e-012	         -27.60	         0.0	      126	        476	          53	         76	  0.26471	4.4e-015	       237
+   3	EXPREG_000010c0 CodY_B.anthracis	1.9e-007	   3.8e-010	         -21.69	         0.0	       54	        490	          34	         82	  0.11020	1.6e-012	       244
+   3	EXPREG_00001110 Fur_P.syringae	1.3e-011	   2.5e-014	         -31.31	         0.0	      176	        484	         156	        251	  0.36364	1.0e-016	       241
+   3	EXPREG_00001190  PhhR_P.putida	1.2e-004	   2.3e-007	         -15.28	         0.0	      102	        472	          58	        126	  0.21610	9.8e-010	       235
+   3	EXPREG_00001280 ArcA_S.oneidensis	2.1e-001	   4.3e-004	          -7.75	         0.0	       62	        486	          12	         21	  0.12757	1.8e-006	       242
+   3	EXPREG_00001440 ExpR_S.meliloti	1.1e-003	   2.2e-006	         -13.04	         0.0	      102	        474	          50	        108	  0.21519	9.2e-009	       236
+   3	EXPREG_00001520  CcpA_L.lactis	3.1e-004	   6.1e-007	         -14.30	         0.0	      303	        487	          74	         81	  0.62218	2.5e-009	       243
+   3	EXPREG_00001560 OxyR_P.aeruginosa	1.1e-012	   2.2e-015	         -33.74	         0.0	      119	        461	          74	        116	  0.25813	9.7e-018	       230
+   3	EXPREG_000016a0 Zur_N.meningitidis	8.6e-002	   1.7e-004	          -8.66	         0.0	       50	        486	          13	         27	  0.10288	7.2e-007	       242
+   3	EXPREG_000016e0 RpoN_V.cholerae	9.1e-001	   1.8e-003	          -6.31	         0.0	      136	        486	          56	        119	  0.27984	7.6e-006	       242
+   3	EXPREG_00001730 H-NS_V.cholerae	7.7e-008	   1.5e-010	         -22.59	         0.0	      201	        491	         160	        253	  0.40937	6.3e-013	       245
+   3	EXPREG_00001770 AdpA_S.coelicolor	1.7e0000	   3.3e-003	          -5.70	         0.0	      229	        491	         197	        339	  0.46640	1.4e-005	       245
+   3	EXPREG_00001810    CcpA_S.suis	3.2e-010	   6.4e-013	         -28.08	         0.0	      154	        478	          56	         72	  0.32218	2.7e-015	       238
+   4	MX000003                  NarL	2.0e-006	   3.9e-009	         -19.35	         0.0	      160	        494	         167	        332	  0.32389	1.6e-011	       246
+   4	MX000004                   Fnr	8.5e-006	   1.7e-008	         -17.89	         0.0	       89	        487	          69	        176	  0.18275	7.0e-011	       243
+   4	MX000006               SpoIIID	4.5e-003	   9.0e-006	         -11.62	         0.0	       75	        491	          88	        323	  0.15275	3.7e-008	       245
+   4	MX000007                  ArgR	5.0e-004	   1.0e-006	         -13.81	         0.0	      102	        484	          84	        219	  0.21074	4.2e-009	       241
+   4	MX000008                  GlpR	2.3e-013	   4.7e-016	         -35.30	         0.0	       67	        481	          81	        211	  0.13929	1.9e-018	       240
+   4	MX000009                  ResD	1.4e-001	   2.7e-004	          -8.20	         0.0	       60	        480	           9	         12	  0.12500	1.1e-006	       239
+   4	MX000010                   IHF	1.3e-003	   2.7e-006	         -12.82	         0.0	      119	        493	          75	        170	  0.24138	1.1e-008	       246
+   4	MX000013                   Fur	3.3e-008	   6.6e-011	         -23.43	         0.0	       68	        482	          39	         81	  0.14108	2.8e-013	       240
+   4	MX000015                  MtrB	1.7e-005	   3.5e-008	         -17.17	         0.0	       31	        493	          29	        117	  0.06288	1.4e-010	       246
+   4	MX000019                 Spo0A	4.9e-007	   9.8e-010	         -20.74	         0.0	       51	        489	          59	        217	  0.10429	4.0e-012	       244
+   4	MX000022                   CRE	3.5e0000	   7.1e-003	          -4.95	         0.0	      113	        493	          62	        166	  0.22921	2.9e-005	       246
+   4	MX000023                  ComK	8.2e-006	   1.6e-008	         -17.92	         0.0	      186	        488	          53	         69	  0.38115	6.8e-011	       243
+   4	MX000024                  CcpC	1.6e-001	   3.3e-004	          -8.02	         0.0	       22	        486	           8	         20	  0.04527	1.4e-006	       242
+   4	MX000026                  TnrA	1.3e-005	   2.7e-008	         -17.44	         0.0	       50	        484	          14	         19	  0.10331	1.1e-010	       241
+   4	MX000027                  GlnR	8.1e0000	   1.6e-002	          -4.12	         0.0	       44	        484	           4	          4	  0.09091	6.8e-005	       241
+   4	MX000028                   IHF	2.1e-016	   4.2e-019	         -42.32	         0.0	       87	        487	          74	        137	  0.17864	1.7e-021	       243
+   4	MX000029                   Fis	1.6e-022	   3.2e-025	         -56.41	         0.0	      162	        486	         188	        291	  0.33333	1.3e-027	       242
+   4	MX000032                  PvdS	2.7e-008	   5.4e-011	         -23.64	         0.0	      156	        492	         137	        253	  0.31707	2.2e-013	       245
+   4	MX000036                  AlgU	7.9e-017	   1.6e-019	         -43.29	         0.0	      122	        492	         164	        333	  0.24797	6.4e-022	       245
+   4	MX000038                  CovR	2.2e-003	   4.5e-006	         -12.32	         0.0	      246	        490	          51	         60	  0.50204	1.8e-008	       244
+   4	MX000047                  GerE	8.5e-015	   1.7e-017	         -38.61	         0.0	      127	        489	         115	        205	  0.25971	7.0e-020	       244
+   4	MX000048                  GltC	7.6e0000	   1.5e-002	          -4.19	         0.0	      166	        486	           9	          9	  0.34156	6.3e-005	       242
+   4	MX000050                   Hpr	7.5e-008	   1.5e-010	         -22.62	         0.0	       94	        482	          32	         47	  0.19502	6.2e-013	       240
+   4	MX000057                  PhoP	5.2e-025	   1.0e-027	         -62.13	         0.0	      132	        470	          83	        100	  0.28085	4.4e-030	       234
+   4	MX000058                  PucR	8.7e-014	   1.7e-016	         -36.29	         0.0	      186	        490	         182	        285	  0.37959	7.1e-019	       244
+   4	MX000063                  SenS	2.1e-003	   4.2e-006	         -12.38	         0.0	      112	        480	          24	         35	  0.23333	1.8e-008	       239
+   4	MX000064                  SigB	1.4e-008	   2.7e-011	         -24.33	         0.0	      255	        489	         170	        223	  0.52147	1.1e-013	       244
+   4	MX000066                  SigE	3.7e-017	   7.4e-020	         -44.05	         0.0	      120	        490	         147	        288	  0.24490	3.0e-022	       244
+   4	MX000067                  SigE	1.3e-024	   2.7e-027	         -61.18	         0.0	       47	        489	          75	        180	  0.09611	1.1e-029	       244
+   4	MX000068                  SigE	5.3e-002	   1.1e-004	          -9.15	         0.0	       90	        464	          14	         19	  0.19397	4.6e-007	       231
+   4	MX000071                  SigB	8.1e-004	   1.6e-006	         -13.32	         0.0	      107	        489	         105	        285	  0.21881	6.7e-009	       244
+   4	MX000073                  SigB	8.7e-002	   1.7e-004	          -8.66	         0.0	      161	        469	          27	         36	  0.34328	7.4e-007	       234
+   4	MX000076                  SigH	2.4e-004	   4.8e-007	         -14.55	         0.0	      107	        489	          84	        209	  0.21881	2.0e-009	       244
+   4	MX000077                  SigH	1.5e0000	   3.0e-003	          -5.79	         0.0	      185	        491	         128	        250	  0.37678	1.2e-005	       245
+   4	MX000081                  SigW	3.8e-007	   7.6e-010	         -21.00	         0.0	      173	        491	         136	        237	  0.35234	3.1e-012	       245
+   4	MX000083                  SigX	1.4e-003	   2.8e-006	         -12.78	         0.0	      153	        489	          62	        107	  0.31288	1.1e-008	       244
+   4	MX000084                  SigX	3.2e-002	   6.4e-005	          -9.65	         0.0	      127	        489	          79	        182	  0.25971	2.6e-007	       244
+   4	MX000090                   Zur	5.4e-001	   1.1e-003	          -6.82	         0.0	       62	        482	           6	          6	  0.12863	4.5e-006	       240
+   4	MX000091                  ArcA	4.6e-011	   9.1e-014	         -30.02	         0.0	       91	        491	          88	        203	  0.18534	3.7e-016	       245
+   4	MX000093                   Crp	1.1e-017	   2.2e-020	         -45.25	         0.0	      163	        481	         140	        208	  0.33888	9.2e-023	       240
+   4	MX000094                  CysB	1.7e-001	   3.3e-004	          -8.01	         0.0	       66	        470	          18	         39	  0.14043	1.4e-006	       234
+   4	MX000096                   Lrp	6.5e-019	   1.3e-021	         -48.09	         0.0	      103	        487	         120	        235	  0.21150	5.4e-024	       243
+   4	MX000097                   Mlc	2.6e-002	   5.3e-005	          -9.85	         0.0	      189	        495	         177	        341	  0.38182	2.1e-007	       247
+   4	MX000098                  DnaA	5.3e-014	   1.1e-016	         -36.79	         0.0	       64	        492	          94	        279	  0.13008	4.3e-019	       245
+   4	MX000099                  PhoB	3.8e-012	   7.6e-015	         -32.51	         0.0	       83	        485	          84	        196	  0.17113	3.1e-017	       242
+   4	MX000106                  NarL	1.4e-003	   2.8e-006	         -12.79	         0.0	      168	        494	         165	        337	  0.34008	1.1e-008	       246
+   4	MX000114                   Ada	5.7e-001	   1.1e-003	          -6.78	         0.0	      123	        483	          13	         16	  0.25466	4.7e-006	       241
+   4	MX000116                  ArgR	3.1e-007	   6.3e-010	         -21.19	         0.0	      139	        487	          60	         95	  0.28542	2.6e-012	       243
+   4	MX000117                  CspA	1.9e-002	   3.8e-005	         -10.18	         0.0	      228	        496	          47	         59	  0.45968	1.5e-007	       247
+   4	MX000119                  CpxR	2.6e0000	   5.2e-003	          -5.25	         0.0	      199	        485	          25	         32	  0.41031	2.2e-005	       242
+   4	MX000121                  CytR	1.0e-008	   2.0e-011	         -24.62	         0.0	      197	        489	         122	        179	  0.40286	8.4e-014	       244
+   4	MX000124                  FadR	7.9e-008	   1.6e-010	         -22.57	         0.0	       88	        484	          82	        208	  0.18182	6.5e-013	       241
+   4	MX000126               FlhD2C2	2.1e-005	   4.3e-008	         -16.96	         0.0	      174	        484	          59	         84	  0.35950	1.8e-010	       241
+   4	MX000127                  FhlA	3.7e-005	   7.5e-008	         -16.41	         0.0	      218	        494	         176	        281	  0.44130	3.0e-010	       246
+   4	MX000128                   Fur	1.0e-011	   2.1e-014	         -31.50	         0.0	       60	        482	          39	         74	  0.12448	8.7e-017	       240
+   4	MX000133                  GntR	3.1e-001	   6.1e-004	          -7.40	         0.0	      219	        485	          48	         65	  0.45155	2.5e-006	       242
+   4	MX000134                  IciA	6.8e-016	   1.4e-018	         -41.14	         0.0	       63	        489	         102	        298	  0.12883	5.5e-021	       244
+   4	MX000135                  YhiX	2.8e-008	   5.7e-011	         -23.59	         0.0	       87	        483	          48	         93	  0.18012	2.4e-013	       241
+   4	MX000140                  LexA	1.7e-001	   3.5e-004	          -7.96	         0.0	       93	        485	          31	         70	  0.19175	1.4e-006	       242
+   4	MX000141                  OmpR	1.6e-001	   3.2e-004	          -8.04	         0.0	      153	        491	          48	         84	  0.31161	1.3e-006	       245
+   4	MX000142                  OmpR	6.2e-003	   1.2e-005	         -11.29	         0.0	       65	        491	          26	         64	  0.13238	5.1e-008	       245
+   4	MX000143                  GcvA	2.4e-006	   4.7e-009	         -19.17	         0.0	      128	        496	          59	        104	  0.25806	1.9e-011	       247
+   4	MX000145                  MetJ	2.0e-002	   3.9e-005	         -10.14	         0.0	      215	        485	          73	        105	  0.44330	1.6e-007	       242
+   4	MX000149                   Nac	1.7e-012	   3.4e-015	         -33.32	         0.0	       60	        490	          58	        143	  0.12245	1.4e-017	       244
+   4	MX000150                  NagC	8.5e-003	   1.7e-005	         -10.98	         0.0	       78	        478	          13	         17	  0.16318	7.2e-008	       238
+   4	MX000151                  NhaR	4.0e-004	   8.1e-007	         -14.03	         0.0	       86	        490	          31	         61	  0.17551	3.3e-009	       244
+   4	MX000153                  OmpR	2.7e-010	   5.3e-013	         -28.26	         0.0	      156	        494	         109	        181	  0.31579	2.2e-015	       246
+   4	MX000154                  OxyR	1.5e-006	   3.0e-009	         -19.62	         0.0	       55	        467	          28	         59	  0.11777	1.3e-011	       233
+   4	MX000156                  MngR	3.1e0000	   6.3e-003	          -5.07	         0.0	      117	        487	          10	         12	  0.24025	2.6e-005	       243
+   4	MX000157                  PdhR	1.3e-007	   2.6e-010	         -22.08	         0.0	      233	        495	         129	        175	  0.47071	1.0e-012	       247
+   4	MX000160             RcsA-RcsB	6.4e-020	   1.3e-022	         -50.41	         0.0	       63	        487	          90	        220	  0.12936	5.3e-025	       243
+   4	MX000163                   Lrp	3.1e-001	   6.3e-004	          -7.37	         0.0	      328	        476	          84	         94	  0.68908	2.6e-006	       237
+   4	MX000165                  MarA	6.6e-011	   1.3e-013	         -29.65	         0.0	       61	        481	          67	        187	  0.12682	5.5e-016	       240
+   4	MX000169                  NarP	2.2e-011	   4.4e-014	         -30.76	         0.0	      120	        494	         131	        280	  0.24291	1.8e-016	       246
+   4	MX000170                   Rob	3.7e-011	   7.4e-014	         -30.24	         0.0	      193	        481	         105	        142	  0.40125	3.1e-016	       240
+   4	MX000174                  SoxS	1.3e-011	   2.7e-014	         -31.25	         0.0	      213	        481	         151	        207	  0.44283	1.1e-016	       240
+   4	MX000178                  TorR	6.1e0000	   1.2e-002	          -4.40	         0.0	       61	        493	          41	        176	  0.12373	5.0e-005	       246
+   4	MX000181                   Crp	5.4e-004	   1.1e-006	         -13.74	         0.0	       69	        479	          22	         41	  0.14405	4.5e-009	       239
+   4	MX000182                  TyrR	2.2e-008	   4.5e-011	         -23.83	         0.0	       73	        483	          39	         76	  0.15114	1.8e-013	       241
+   4	MX000188                  SarA	7.1e-024	   1.4e-026	         -59.51	         0.0	       75	        485	          81	        145	  0.15464	5.9e-029	       242
+   4	MX000190                  FNRL	3.0e0000	   6.0e-003	          -5.12	         0.0	       75	        487	          21	         54	  0.15400	2.5e-005	       243
+   4	MX000191                  PpsR	5.3e-001	   1.1e-003	          -6.85	         0.0	      148	        482	          20	         27	  0.30705	4.4e-006	       240
+   4	MX000194                  SigI	9.3e-001	   1.9e-003	          -6.28	         0.0	      152	        486	          15	         18	  0.31276	7.7e-006	       242
+   4	MX000196                  YvaN	1.5e-003	   3.0e-006	         -12.72	         0.0	       91	        495	         102	        324	  0.18384	1.2e-008	       247
+   4	MX000199                  CovR	1.7e-004	   3.5e-007	         -14.87	         0.0	       38	        492	          19	         49	  0.07724	1.4e-009	       245
+   4	MX000200                  MelR	3.9e-001	   7.8e-004	          -7.15	         0.0	      127	        483	          43	         86	  0.26294	3.2e-006	       241
+   4	MX000201                  LeuO	1.4e-009	   2.8e-012	         -26.59	         0.0	       56	        492	          38	         85	  0.11382	1.2e-014	       245
+   4	MX000202                  CovR	2.5e-011	   5.0e-014	         -30.62	         0.0	      148	        496	          83	        127	  0.29839	2.0e-016	       247
+   4	MX000203                  DevR	5.5e0000	   1.1e-002	          -4.51	         0.0	      395	        487	         249	        277	  0.81109	4.5e-005	       243
+   4	MX000204                  murR	2.0e-001	   4.0e-004	          -7.82	         0.0	      255	        495	         187	        287	  0.51515	1.6e-006	       247
+   4	MX000205                  CmeR	6.8e-005	   1.4e-007	         -15.81	         0.0	      251	        489	          40	         42	  0.51329	5.6e-010	       244
+   4	MX000209                  NtcA	8.7e-012	   1.7e-014	         -31.68	         0.0	       67	        487	          75	        201	  0.13758	7.1e-017	       243
+   4	MX000210                  NtcA	1.8e-005	   3.5e-008	         -17.17	         0.0	       87	        487	          66	        171	  0.17864	1.4e-010	       243
+   4	MX000211                  SdpR	6.6e-012	   1.3e-014	         -31.96	         0.0	       82	        494	         108	        294	  0.16599	5.3e-017	       246
+   5	ArcA_Gammaproteobacteria ArcA_Gammaproteobacteria	5.6e0000	   1.1e-002	          -4.48	         0.0	       46	        486	           6	          9	  0.09465	4.7e-005	       242
+   5	Crp_Gammaproteobacteria Crp_Gammaproteobacteria	1.8e-017	   3.5e-020	         -44.79	         0.0	      141	        479	         128	        205	  0.29436	1.5e-022	       239
+   5	DeoR_Enterobacteriales DeoR_Enterobacteriales	1.2e0000	   2.4e-003	          -6.02	         0.0	       71	        485	           7	          8	  0.14639	1.0e-005	       242
+   5	FadR_Gammaproteobacteria FadR_Gammaproteobacteria	2.3e-009	   4.5e-012	         -26.12	         0.0	       84	        484	         116	        334	  0.17355	1.9e-014	       241
+   6	argR                      argR	1.9e0000	   3.8e-003	          -5.56	         0.0	       71	        483	          10	         16	  0.14700	1.6e-005	       241
+   6	crp                        crp	2.1e-006	   4.1e-009	         -19.31	         0.0	      167	        479	          71	        106	  0.34864	1.7e-011	       239
+   6	cytR                      cytR	2.0e-001	   4.0e-004	          -7.82	         0.0	      217	        483	          47	         63	  0.44928	1.7e-006	       241
+   6	dnaA                      dnaA	3.1e-001	   6.3e-004	          -7.37	         0.0	      236	        486	          29	         33	  0.48560	2.6e-006	       242
+   6	fadR                      fadR	1.1e0000	   2.2e-003	          -6.14	         0.0	       74	        484	          15	         30	  0.15289	9.0e-006	       241
+   6	farR                      farR	1.4e-005	   2.9e-008	         -17.37	         0.0	       69	        491	          45	        117	  0.14053	1.2e-010	       245
+   6	fis                        fis	5.2e-009	   1.0e-011	         -25.29	         0.0	      164	        466	          63	         83	  0.35193	4.5e-014	       232
+   6	glpR                      glpR	2.8e-002	   5.6e-005	          -9.79	         0.0	      161	        481	          54	         90	  0.33472	2.3e-007	       240
+   6	hns                        hns	2.5e-006	   5.1e-009	         -19.10	         0.0	      162	        490	         127	        234	  0.33061	2.1e-011	       244
+   6	ihf                        ihf	1.1e-013	   2.1e-016	         -36.09	         0.0	       75	        453	          44	         68	  0.16556	9.4e-019	       226
+   6	lrp                        lrp	3.0e-015	   6.0e-018	         -39.66	         0.0	      174	        476	          97	        126	  0.36555	2.5e-020	       237
+   6	metJ                      metJ	3.9e-005	   7.7e-008	         -16.37	         0.0	       57	        485	          26	         58	  0.11753	3.2e-010	       242
+   6	metJ3                    metJ3	1.5e0000	   3.0e-003	          -5.81	         0.0	       31	        477	           6	         10	  0.06499	1.3e-005	       238
+   6	metR                      metR	2.4e-002	   4.9e-005	          -9.93	         0.0	      190	        486	          45	         63	  0.39095	2.0e-007	       242
+   6	ompR                      ompR	4.9e-003	   9.8e-006	         -11.53	         0.0	       63	        481	          26	         64	  0.13098	4.1e-008	       240
+   6	rpoD15                  rpoD15	6.4e-020	   1.3e-022	         -50.41	         0.0	       96	        474	          98	        176	  0.20253	5.4e-025	       236
+   6	rpoD16                  rpoD16	6.2e-024	   1.2e-026	         -59.65	         0.0	       87	        473	          98	        173	  0.18393	5.3e-029	       236
+   6	rpoD17                  rpoD17	3.1e-022	   6.2e-025	         -55.74	         0.0	       76	        472	         100	        206	  0.16102	2.6e-027	       235
+   6	rpoD18                  rpoD18	5.9e-012	   1.2e-014	         -32.07	         0.0	      193	        471	         115	        155	  0.40977	5.0e-017	       235
+   6	rpoD19                  rpoD19	1.7e-018	   3.4e-021	         -47.14	         0.0	       76	        470	          85	        174	  0.16170	1.4e-023	       234
+   6	rpoS17                  rpoS17	6.6e-017	   1.3e-019	         -43.47	         0.0	       72	        472	          82	        180	  0.15254	5.6e-022	       235
+   6	rpoS18                  rpoS18	3.9e-002	   7.9e-005	          -9.45	         0.0	      129	        471	          34	         57	  0.27389	3.4e-007	       235
+   6	soxS                      soxS	3.2e-003	   6.3e-006	         -11.97	         0.0	       72	        466	          33	         80	  0.15451	2.7e-008	       232
+   6	torR                      torR	2.7e-001	   5.3e-004	          -7.54	         0.0	      123	        491	          49	        105	  0.25051	2.2e-006	       245
+   6	tyrR                      tyrR	5.5e-001	   1.1e-003	          -6.82	         0.0	       81	        479	          19	         39	  0.16910	4.6e-006	       239
+##
+# Detailed descriptions of columns in this file:
+#
+# db:	The name of the database (file name) that contains the motif.
+# id:	A name for the motif that is unique in the motif database file.
+# alt:	An alternate name of the motif that may be provided 
+#	in the motif database file.
+# E-value:	The expected number motifs that would have least one 
+#	region as enriched for best matches to the motif as the reported region.
+#	The E-value is the p-value multiplied by the number of motifs in the
+#	input database(s).
+# adj_p-value:	The probability that any tested region would be as enriched for
+#	best matches to this motif as the reported region is.
+#	By default the p-value is calculated by using the one-tailed binomial
+#	test on the number of sequences with a match to the motif 
+#	that have their best match in the reported region, corrected for
+#	the number of regions and score thresholds tested.
+#	The test assumes that the probability that the best match in a sequence
+#	falls in the region is the region width divided by the
+#	number of places a motif
+#	can align in the sequence (sequence length minus motif width plus 1).
+#	When CentriMo is run in discriminative mode with a negative
+#	set of sequences, the p-value of a region is calculated
+#	using the Fisher exact test on the 
+#	enrichment of best matches in the positive sequences relative
+#	to the negative sequences, corrected
+#	for the number of regions and score thresholds tested.
+#	The test assumes that the probability that the best match (if any)
+#	falls into a given region
+#	is the same for all positive and negative sequences.
+# log_adj_p-value:	Log of adjusted p-value.
+# bin_location:	Location of the center of the most enriched region.
+# bin_width:	The width (in sequence positions) of the most enriched region.
+#	A best match to the motif is counted as being in the region if the
+#	center of the motif falls in the region.
+# total_width:	The window maximal size which can be reached for this motif:
+#		rounded(sequence length - motif length +1)/2
+# sites_in_bin:	The number of (positive) sequences whose best match to the motif
+#	falls in the reported region.
+#	Note: This number may be less than the number of
+#	(positive) sequences that have a best match in the region.
+#	The reason for this is that a sequence may have many matches that score
+#	equally best.
+#	If n matches have the best score in a sequence, 1/n is added to the
+#	appropriate bin for each match.
+# total_sites:	The number of sequences containing a match to the motif
+#	above the score threshold.
+# p_success:	The probability of falling in the enriched window:
+#		bin width / total width
+# p-value:	The uncorrected p-value before it gets adjusted to the
+#	number of multiple tests to give the adjusted p-value.
+# mult_tests:	This is the number of multiple tests (n) done for this motif.
+#	It was used to correct the original p-value of a region for
+#	multiple tests using the formula:
+#		p' = 1 - (1-p)^n where p is the uncorrected p-value.
+#	The number of multiple tests is the number of regions
+#	considered times the number of score thresholds considered.
+#	It depends on the motif length, sequence length, and the type of
+#	optimizations being done (central enrichment, local enrichment,
+#	score optimization).

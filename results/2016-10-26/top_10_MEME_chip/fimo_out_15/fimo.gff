@@ -1,0 +1,10 @@
+##gff-version 3
+1538675	fimo	nucleotide_motif	226	245	44.1	-	.	Name=MX000174;ID=MX000174-1-1538675;pvalue=3.86e-05;qvalue= 0.212;sequence=GCAGCTGAAAATATGAAAGT;
+8216200	fimo	nucleotide_motif	245	264	59.5	+	.	Name=MX000174;ID=MX000174-1-8216200;pvalue=1.12e-06;qvalue= 0.017;sequence=ATGGCTCAAAAAGCATATTT;
+8216200	fimo	nucleotide_motif	254	273	 57	+	.	Name=MX000174;ID=MX000174-2-8216200;pvalue=1.98e-06;qvalue= 0.017;sequence=AAAGCATATTTTCGCAAACC;
+1446675	fimo	nucleotide_motif	214	233	40.3	-	.	Name=MX000174;ID=MX000174-1-1446675;pvalue=9.35e-05;qvalue= 0.356;sequence=AATGCTCGACATTAGAAAAC;
+8216150	fimo	nucleotide_motif	295	314	59.5	+	.	Name=MX000174;ID=MX000174-1-8216150;pvalue=1.12e-06;qvalue= 0.017;sequence=ATGGCTCAAAAAGCATATTT;
+8216150	fimo	nucleotide_motif	304	323	 57	+	.	Name=MX000174;ID=MX000174-2-8216150;pvalue=1.98e-06;qvalue= 0.017;sequence=AAAGCATATTTTCGCAAACC;
+4792100	fimo	nucleotide_motif	243	262	 44	-	.	Name=MX000174;ID=MX000174-1-4792100;pvalue=3.94e-05;qvalue= 0.212;sequence=TTCGCAATGAGTCATATTTA;
+4792100	fimo	nucleotide_motif	437	456	43.4	-	.	Name=MX000174;ID=MX000174-2-4792100;pvalue=4.51e-05;qvalue= 0.212;sequence=ATCGCTTGTTCCTTCAACCG;
+4171275	fimo	nucleotide_motif	138	157	 43	+	.	Name=MX000174;ID=MX000174-1-4171275;pvalue=4.95e-05;qvalue= 0.212;sequence=ATGGCATGGTCCATCGACTT;

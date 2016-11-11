@@ -1,0 +1,23 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	288	296	48.1	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-1438525;pvalue=1.54e-05;qvalue= 1;sequence=TATGTCACA;
+1438525	fimo	nucleotide_motif	270	278	41.3	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-2-1438525;pvalue=7.4e-05;qvalue= 1;sequence=CTTTTAATT;
+4607650	fimo	nucleotide_motif	230	238	43.5	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-4607650;pvalue=4.48e-05;qvalue= 1;sequence=TTTGTAGTT;
+2307575	fimo	nucleotide_motif	234	242	48.1	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-2307575;pvalue=1.54e-05;qvalue= 1;sequence=TATGTCACA;
+6449350	fimo	nucleotide_motif	132	140	41.6	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-6449350;pvalue=6.93e-05;qvalue= 1;sequence=TTTGCAACT;
+884600	fimo	nucleotide_motif	254	262	 41	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-884600;pvalue=7.94e-05;qvalue= 1;sequence=TTTGCAATT;
+7838825	fimo	nucleotide_motif	311	319	44.2	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-7838825;pvalue=3.83e-05;qvalue= 1;sequence=TATTTCACA;
+4545350	fimo	nucleotide_motif	250	258	 43	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-4545350;pvalue=5e-05;qvalue= 1;sequence=TTTTTCACA;
+5284925	fimo	nucleotide_motif	217	225	51.2	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-5284925;pvalue=7.63e-06;qvalue= 1;sequence=CTTGTAACA;
+5284925	fimo	nucleotide_motif	442	450	40.8	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-2-5284925;pvalue=8.38e-05;qvalue= 1;sequence=TAGGTCACA;
+3147525	fimo	nucleotide_motif	241	249	42.1	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-3147525;pvalue=6.22e-05;qvalue= 1;sequence=TATTTTATT;
+5992875	fimo	nucleotide_motif	247	255	45.5	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-5992875;pvalue=2.78e-05;qvalue= 1;sequence=TTTGTAAGA;
+4308075	fimo	nucleotide_motif	313	321	40.4	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-4308075;pvalue=9.11e-05;qvalue= 1;sequence=CATGTCACA;
+3147425	fimo	nucleotide_motif	341	349	42.1	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-3147425;pvalue=6.22e-05;qvalue= 1;sequence=TATTTTATT;
+5122650	fimo	nucleotide_motif	392	400	 41	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-5122650;pvalue=7.94e-05;qvalue= 1;sequence=TTTGTCACT;
+3045200	fimo	nucleotide_motif	186	194	44.6	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-3045200;pvalue=3.45e-05;qvalue= 1;sequence=CTTGTAATT;
+3307450	fimo	nucleotide_motif	339	347	42.1	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-3307450;pvalue=6.22e-05;qvalue= 1;sequence=TATTTTATT;
+1155275	fimo	nucleotide_motif	305	313	46.8	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-1155275;pvalue=2.1e-05;qvalue= 1;sequence=TTTGTCACA;
+724000	fimo	nucleotide_motif	203	211	43.3	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-724000;pvalue=4.68e-05;qvalue= 1;sequence=TATGTTGCA;
+2339300	fimo	nucleotide_motif	261	269	45.5	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-2339300;pvalue=2.78e-05;qvalue= 1;sequence=TTTGTAAGA;
+1736575	fimo	nucleotide_motif	166	174	 43	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-1736575;pvalue=5e-05;qvalue= 1;sequence=TTTTTCACA;
+7838700	fimo	nucleotide_motif	436	444	44.2	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-7838700;pvalue=3.83e-05;qvalue= 1;sequence=TATTTCACA;

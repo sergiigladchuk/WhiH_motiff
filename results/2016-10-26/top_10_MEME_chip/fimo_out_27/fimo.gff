@@ -1,0 +1,14 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	282	303	40.9	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-1438525;pvalue=8.2e-05;qvalue= 0.228;sequence=TACTTTTATGTCACAGGCTCTT;
+3765675	fimo	nucleotide_motif	303	324	49.8	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-3765675;pvalue=1.04e-05;qvalue= 0.157;sequence=GAATTGTACGTTGATCGCACTT;
+3765675	fimo	nucleotide_motif	304	325	40.6	-	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-2-3765675;pvalue=8.78e-05;qvalue= 0.228;sequence=AAAGTGCGATCAACGTACAATT;
+1538675	fimo	nucleotide_motif	216	237	45.8	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-1538675;pvalue=2.61e-05;qvalue= 0.178;sequence=TTGTGGCACGACTTTCATATTT;
+1538675	fimo	nucleotide_motif	216	237	41.8	-	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-2-1538675;pvalue=6.65e-05;qvalue= 0.228;sequence=AAATATGAAAGTCGTGCCACAA;
+7962850	fimo	nucleotide_motif	245	266	44.4	-	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-7962850;pvalue=3.63e-05;qvalue= 0.204;sequence=GAGAGGTAAATTACTTACTGAT;
+7962850	fimo	nucleotide_motif	244	265	43.1	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-2-7962850;pvalue=4.93e-05;qvalue= 0.228;sequence=TATCAGTAAGTAATTTACCTCT;
+7962850	fimo	nucleotide_motif	232	253	40.6	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-3-7962850;pvalue=8.71e-05;qvalue= 0.228;sequence=ATGCGTGGATATTATCAGTAAG;
+4798225	fimo	nucleotide_motif	254	275	45.8	-	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-4798225;pvalue=2.63e-05;qvalue= 0.178;sequence=ATGCGGCATATCGGTCATATTT;
+1446675	fimo	nucleotide_motif	215	236	49.3	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-1446675;pvalue=1.17e-05;qvalue= 0.157;sequence=TTTTCTAATGTCGAGCATTAAT;
+1446675	fimo	nucleotide_motif	215	236	42.2	-	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-2-1446675;pvalue=6.01e-05;qvalue= 0.228;sequence=ATTAATGCTCGACATTAGAAAA;
+4792100	fimo	nucleotide_motif	244	265	48.6	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-1-4792100;pvalue=1.39e-05;qvalue= 0.157;sequence=AAATATGACTCATTGCGAATCT;
+4792100	fimo	nucleotide_motif	237	258	40.9	+	.	Name=Crp_Gammaproteobacteria;ID=Crp_Gammaproteobacteria-2-4792100;pvalue=8.07e-05;qvalue= 0.228;sequence=TAGATGTAAATATGACTCATTG;

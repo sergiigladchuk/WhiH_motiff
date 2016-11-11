@@ -1,0 +1,24 @@
+# 1-order Markov frequencies from file ./all_input.fna
+# seqs: 349    min: 500    max: 500    avg: 500.0    sum: 174500    alph: DNA
+# order 0
+A 1.598e-01
+C 3.402e-01
+G 3.402e-01
+T 1.598e-01
+# order 1
+AA 2.524e-02
+AC 5.812e-02
+AG 4.955e-02
+AT 2.690e-02
+CA 5.223e-02
+CC 1.083e-01
+CG 1.301e-01
+CT 4.955e-02
+GA 6.706e-02
+GC 1.067e-01
+GG 1.083e-01
+GT 5.812e-02
+TA 1.528e-02
+TC 6.706e-02
+TG 5.223e-02
+TT 2.524e-02

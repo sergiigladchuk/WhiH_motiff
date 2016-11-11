@@ -1,0 +1,67 @@
+# DREME 4.11.2
+#     command: dreme -v 1 -oc dreme_out -png -dna -p ./seqs-centered -n ./seqs-shuffled -t 6937 -e 0.05
+#   positives: 349 from ./seqs-centered (Fri Oct 28 11:45:45 UTC 2016)
+#   negatives: 349 from ./seqs-shuffled (Fri Oct 28 11:45:45 UTC 2016)
+#        host: node125
+#        when: Fri Oct 28 11:52:26 UTC 2016
+
+MEME version 4.11.2
+
+ALPHABET "DNA" DNA-LIKE
+A "Adenine" CC0000 ~ T "Thymine" 008000
+C "Cytosine" 0000CC ~ G "Guanine" FFB300
+N "Any base" = ACGT
+X = ACGT
+. = ACGT
+V "Not T" = ACG
+H "Not G" = ACT
+D "Not C" = AGT
+B "Not A" = CGT
+M "Amino" = AC
+R "Purine" = AG
+W "Weak" = AT
+S "Strong" = CG
+Y "Pyrimidine" = CT
+K "Keto" = GT
+U = T
+END ALPHABET
+
+strands: + -
+
+Background letter frequencies (from dataset):
+A 0.183 C 0.312 G 0.319 T 0.186
+
+
+MOTIF GWTCA DREME
+
+#             Word    RC Word        Pos        Neg    P-value    E-value
+# BEST       GWTCA      TGAWC        155         84   9.9e-009   2.5e-004
+#            GATCA      TGATC        102         48   4.2e-007   1.1e-002
+#            GTTCA      TGAAC         69         41   2.4e-003   6.2e+001
+
+letter-probability matrix: alength= 4 w= 5 nsites= 189 E= 2.5e-004
+0.000000 0.000000 1.000000 0.000000
+0.597884 0.000000 0.000000 0.402116
+0.000000 0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000 0.000000
+
+
+MOTIF GTACKA DREME
+
+#             Word    RC Word        Pos        Neg    P-value    E-value
+# BEST      GTACKA     TMGTAC         48         13   1.5e-006   3.6e-002
+#           GTACGA     TCGTAC         38         12   9.1e-005   2.2e+000
+#           GTACTA     TAGTAC         12          1   1.6e-003   3.9e+001
+
+letter-probability matrix: alength= 4 w= 6 nsites= 56 E= 3.6e-002
+0.000000 0.000000 1.000000 0.000000
+0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000
+0.000000 1.000000 0.000000 0.000000
+0.000000 0.000000 0.785714 0.214286
+1.000000 0.000000 0.000000 0.000000
+
+
+# Stopping reason: E-value threshold exceeded
+#    Running time: 16.27 seconds

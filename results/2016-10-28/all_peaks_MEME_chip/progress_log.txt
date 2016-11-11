@@ -1,0 +1,622 @@
+Invoking:
+  getsize ./all_input.fna 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.024675
+Invoking:
+  fasta-most -min 50 < ./all_input.fna 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.110197
+Invoking:
+  fasta-center -dna -len 100 < ./all_input.fna 1> ./seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.136281
+Invoking:
+  fasta-shuffle-letters ./seqs-centered ./seqs-shuffled -kmer 2 -tag -dinuc -dna -seed 1
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 0.021655
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 1 ./all_input.fna ./background
+Finished invoke:
+  name: bg  status: 0  time: 0.019878
+Invoking:
+  meme ./seqs-centered -oc meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile ./background -dna -time 5082 -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 506.795168
+Invoking:
+  dreme -v 1 -oc dreme_out -png -dna -p ./seqs-centered -n ./seqs-shuffled -t 6937 -e 0.05
+Finished invoke:
+  name: dreme  status: 0  time: 16.800066
+Invoking:
+  centrimo -seqlen 500 -verbosity 1 -oc centrimo_out -bfile ./background -score 5.0 -ethresh 10.0 ./all_input.fna meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 12.957125
+Invoking:
+  tomtom -verbosity 1 -oc meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile ./background meme_out/meme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 35.553493
+Invoking:
+  tomtom -verbosity 1 -oc dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile ./background dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 1.339652
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 ./combined.meme ./combined.meme 1> ./motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 219.488999
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_1 -bgfile ./background -primary 1 ./all_input.fna meme_out/meme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo1  status: 0  time: 11.040258
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_2 -bgfile ./background -primary 2 ./all_input.fna meme_out/meme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo2  status: 0  time: 6.411817
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_3 -bgfile ./background -primary EXPREG_00000b00 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo3  status: 0  time: 8.278253
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_4 -bgfile ./background -primary MX000057 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo4  status: 0  time: 6.941229
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_5 -bgfile ./background -primary MX000067 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo5  status: 0  time: 8.218669
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_6 -bgfile ./background -primary rpoD16 ./all_input.fna db/ECOLI/dpinteract.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo6  status: 0  time: 7.394478
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_7 -bgfile ./background -primary 3 ./all_input.fna meme_out/meme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo7  status: 0  time: 5.468776
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_8 -bgfile ./background -primary EXPREG_000009a0 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo8  status: 0  time: 10.143105
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_9 -bgfile ./background -primary MX000029 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo9  status: 0  time: 9.374436
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_10 -bgfile ./background -primary MX000160 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo10  status: 0  time: 8.248136
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_11 -bgfile ./background -primary MX000096 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo11  status: 0  time: 8.856414
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_12 -bgfile ./background -primary MX000093 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo12  status: 0  time: 7.89248
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_13 -bgfile ./background -primary EXPREG_00000810 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo13  status: 0  time: 8.407911
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_14 -bgfile ./background -primary MX000066 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo14  status: 0  time: 9.561218
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_15 -bgfile ./background -primary MX000036 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo15  status: 0  time: 11.773465
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_16 -bgfile ./background -primary EXPREG_00000ec0 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo16  status: 0  time: 6.846241
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_17 -bgfile ./background -primary MX000028 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo17  status: 0  time: 7.061708
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_18 -bgfile ./background -primary MX000134 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo18  status: 0  time: 10.194296
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_19 -bgfile ./background -primary MX000047 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo19  status: 0  time: 8.218527
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_20 -bgfile ./background -primary MX000098 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo20  status: 0  time: 9.093256
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_21 -bgfile ./background -primary MX000058 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo21  status: 0  time: 8.943989
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_22 -bgfile ./background -primary MX000008 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo22  status: 0  time: 8.037192
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_23 -bgfile ./background -primary MX000149 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo23  status: 0  time: 7.449361
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_24 -bgfile ./background -primary MX000211 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo24  status: 0  time: 9.038224
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_25 -bgfile ./background -primary MX000209 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo25  status: 0  time: 7.28926
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_26 -bgfile ./background -primary MX000174 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo26  status: 0  time: 8.111837
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_27 -bgfile ./background -primary MX000169 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo27  status: 0  time: 10.527314
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_28 -bgfile ./background -primary MX000202 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo28  status: 0  time: 8.760311
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_29 -bgfile ./background -primary EXPREG_000009b0 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo29  status: 0  time: 8.477598
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_30 -bgfile ./background -primary MX000091 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo30  status: 0  time: 8.0276
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_31 -bgfile ./background -primary MX000153 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo31  status: 0  time: 8.002376
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_32 -bgfile ./background -primary EXPREG_00000050 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo32  status: 0  time: 7.064824
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_33 -bgfile ./background -primary MX000201 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo33  status: 0  time: 7.10737
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_34 -bgfile ./background -primary FadR_Gammaproteobacteria ./all_input.fna db/PROKARYOTE/regtransbase.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo34  status: 0  time: 10.292907
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_35 -bgfile ./background -primary MX000121 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo35  status: 0  time: 8.386157
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_36 -bgfile ./background -primary MX000032 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo36  status: 0  time: 9.615385
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_37 -bgfile ./background -primary MX000135 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo37  status: 0  time: 6.291475
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_38 -bgfile ./background -primary MX000050 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo38  status: 0  time: 5.917925
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_39 -bgfile ./background -primary MX000157 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo39  status: 0  time: 9.009346
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_40 -bgfile ./background -primary EXPREG_000010c0 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo40  status: 0  time: 6.60245
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_41 -bgfile ./background -primary EXPREG_000000e0 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo41  status: 0  time: 6.250632
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_42 -bgfile ./background -primary MX000116 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo42  status: 0  time: 7.105445
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_43 -bgfile ./background -primary MX000081 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo43  status: 0  time: 8.402448
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_44 -bgfile ./background -primary MX000019 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo44  status: 0  time: 8.950445
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_45 -bgfile ./background -primary EXPREG_000009e0 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo45  status: 0  time: 6.394403
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_46 -bgfile ./background -primary MX000143 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo46  status: 0  time: 5.938246
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_47 -bgfile ./background -primary hns ./all_input.fna db/ECOLI/dpinteract.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo47  status: 0  time: 9.263984
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_48 -bgfile ./background -primary MX000023 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo48  status: 0  time: 6.502871
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_49 -bgfile ./background -primary MX000026 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo49  status: 0  time: 5.303525
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_50 -bgfile ./background -primary farR ./all_input.fna db/ECOLI/dpinteract.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo50  status: 0  time: 6.266879
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_51 -bgfile ./background -primary MX000015 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo51  status: 0  time: 6.803823
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_52 -bgfile ./background -primary MX000126 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo52  status: 0  time: 6.591417
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_53 -bgfile ./background -primary MX000127 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo53  status: 0  time: 6.989987
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_54 -bgfile ./background -primary metJ ./all_input.fna db/ECOLI/dpinteract.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo54  status: 0  time: 5.796376
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_55 -bgfile ./background -primary EXPREG_00000290 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo55  status: 0  time: 5.781005
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_56 -bgfile ./background -primary EXPREG_00001190 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo56  status: 0  time: 6.310169
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_57 -bgfile ./background -primary MX000199 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo57  status: 0  time: 5.696287
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_58 -bgfile ./background -primary MX000076 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo58  status: 0  time: 8.722554
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_59 -bgfile ./background -primary GWTCA ./all_input.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo59  status: 0  time: 11.954897
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_60 -bgfile ./background -primary MX000151 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo60  status: 0  time: 5.80037
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_61 -bgfile ./background -primary MX000007 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo61  status: 0  time: 7.435205
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_62 -bgfile ./background -primary EXPREG_00001440 ./all_input.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo62  status: 0  time: 6.404957
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_63 -bgfile ./background -primary MX000010 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo63  status: 0  time: 6.734832
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_64 -bgfile ./background -primary MX000106 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo64  status: 0  time: 10.587803
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_65 -bgfile ./background -primary MX000083 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo65  status: 0  time: 6.490463
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_66 -bgfile ./background -primary MX000196 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo66  status: 0  time: 10.40138
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_67 -bgfile ./background -primary MX000063 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo67  status: 0  time: 5.620395
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_68 -bgfile ./background -primary MX000006 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo68  status: 0  time: 10.067627
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_69 -bgfile ./background -primary ompR ./all_input.fna db/ECOLI/dpinteract.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo69  status: 0  time: 5.884801
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_70 -bgfile ./background -primary MX000142 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo70  status: 0  time: 5.956762
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_71 -bgfile ./background -primary metR ./all_input.fna db/ECOLI/dpinteract.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo71  status: 0  time: 5.922557
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_72 -bgfile ./background -primary MX000084 ./all_input.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo72  status: 0  time: 7.348969
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_1 --bgfile ./background --motif 1 meme_out/meme.xml ./all_input.fna
+Finished invoke:
+  name: fimo1  status: 0  time: 0.318632
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_2 --bgfile ./background --motif 2 meme_out/meme.xml ./all_input.fna
+Finished invoke:
+  name: fimo2  status: 0  time: 0.316273
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_3 --bgfile ./background --motif EXPREG_00000b00 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo3  status: 0  time: 0.300002
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_4 --bgfile ./background --motif MX000057 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo4  status: 0  time: 0.571809
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_5 --bgfile ./background --motif MX000067 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo5  status: 0  time: 0.529182
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_6 --bgfile ./background --motif rpoD16 db/ECOLI/dpinteract.meme ./all_input.fna
+Finished invoke:
+  name: fimo6  status: 0  time: 0.371214
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_7 --bgfile ./background --motif 3 meme_out/meme.xml ./all_input.fna
+Finished invoke:
+  name: fimo7  status: 0  time: 0.33137
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_8 --bgfile ./background --motif EXPREG_000009a0 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo8  status: 0  time: 0.306203
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_9 --bgfile ./background --motif MX000029 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo9  status: 0  time: 0.539863
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_10 --bgfile ./background --motif MX000160 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo10  status: 0  time: 0.523104
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_11 --bgfile ./background --motif MX000096 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo11  status: 0  time: 0.510244
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_12 --bgfile ./background --motif MX000093 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo12  status: 0  time: 0.538877
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_13 --bgfile ./background --motif EXPREG_00000810 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo13  status: 0  time: 0.29107
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_14 --bgfile ./background --motif MX000066 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo14  status: 0  time: 0.535281
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_15 --bgfile ./background --motif MX000036 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo15  status: 0  time: 0.537392
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_16 --bgfile ./background --motif EXPREG_00000ec0 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo16  status: 0  time: 0.319295
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_17 --bgfile ./background --motif MX000028 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo17  status: 0  time: 0.536253
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_18 --bgfile ./background --motif MX000134 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo18  status: 0  time: 0.538246
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_19 --bgfile ./background --motif MX000047 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo19  status: 0  time: 0.531242
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_20 --bgfile ./background --motif MX000098 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo20  status: 0  time: 0.532878
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_21 --bgfile ./background --motif MX000058 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo21  status: 0  time: 0.538238
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_22 --bgfile ./background --motif MX000008 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo22  status: 0  time: 0.544993
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_23 --bgfile ./background --motif MX000149 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo23  status: 0  time: 0.540001
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_24 --bgfile ./background --motif MX000211 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo24  status: 0  time: 0.527674
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_25 --bgfile ./background --motif MX000209 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo25  status: 0  time: 0.536835
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_26 --bgfile ./background --motif MX000174 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo26  status: 0  time: 0.547902
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_27 --bgfile ./background --motif MX000169 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo27  status: 0  time: 0.525994
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_28 --bgfile ./background --motif MX000202 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo28  status: 0  time: 0.499396
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_29 --bgfile ./background --motif EXPREG_000009b0 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo29  status: 0  time: 0.319201
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_30 --bgfile ./background --motif MX000091 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo30  status: 0  time: 0.527725
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_31 --bgfile ./background --motif MX000153 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo31  status: 0  time: 0.523403
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_32 --bgfile ./background --motif EXPREG_00000050 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo32  status: 0  time: 0.313853
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_33 --bgfile ./background --motif MX000201 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo33  status: 0  time: 0.532056
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_34 --bgfile ./background --motif FadR_Gammaproteobacteria db/PROKARYOTE/regtransbase.meme ./all_input.fna
+Finished invoke:
+  name: fimo34  status: 0  time: 0.448508
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_35 --bgfile ./background --motif MX000121 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo35  status: 0  time: 0.519972
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_36 --bgfile ./background --motif MX000032 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo36  status: 0  time: 0.500604
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_37 --bgfile ./background --motif MX000135 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo37  status: 0  time: 0.514794
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_38 --bgfile ./background --motif MX000050 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo38  status: 0  time: 0.539828
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_39 --bgfile ./background --motif MX000157 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo39  status: 0  time: 0.512823
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_40 --bgfile ./background --motif EXPREG_000010c0 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo40  status: 0  time: 0.279253
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_41 --bgfile ./background --motif EXPREG_000000e0 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo41  status: 0  time: 0.276298
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_42 --bgfile ./background --motif MX000116 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo42  status: 0  time: 0.473132
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_43 --bgfile ./background --motif MX000081 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo43  status: 0  time: 0.465344
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_44 --bgfile ./background --motif MX000019 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo44  status: 0  time: 0.471257
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_45 --bgfile ./background --motif EXPREG_000009e0 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo45  status: 0  time: 0.273493
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_46 --bgfile ./background --motif MX000143 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo46  status: 0  time: 0.43532
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_47 --bgfile ./background --motif hns db/ECOLI/dpinteract.meme ./all_input.fna
+Finished invoke:
+  name: fimo47  status: 0  time: 0.311822
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_48 --bgfile ./background --motif MX000023 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo48  status: 0  time: 0.472808
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_49 --bgfile ./background --motif MX000026 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo49  status: 0  time: 0.477392
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_50 --bgfile ./background --motif farR db/ECOLI/dpinteract.meme ./all_input.fna
+Finished invoke:
+  name: fimo50  status: 0  time: 0.29437
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_51 --bgfile ./background --motif MX000015 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo51  status: 0  time: 0.462299
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_52 --bgfile ./background --motif MX000126 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo52  status: 0  time: 0.533297
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_53 --bgfile ./background --motif MX000127 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo53  status: 0  time: 0.517968
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_54 --bgfile ./background --motif metJ db/ECOLI/dpinteract.meme ./all_input.fna
+Finished invoke:
+  name: fimo54  status: 0  time: 0.344266
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_55 --bgfile ./background --motif EXPREG_00000290 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo55  status: 0  time: 0.281738
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_56 --bgfile ./background --motif EXPREG_00001190 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo56  status: 0  time: 0.29066
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_57 --bgfile ./background --motif MX000199 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo57  status: 0  time: 0.459075
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_58 --bgfile ./background --motif MX000076 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo58  status: 0  time: 0.438911
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_59 --bgfile ./background --motif GWTCA dreme_out/dreme.xml ./all_input.fna
+Finished invoke:
+  name: fimo59  status: 0  time: 0.152548
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_60 --bgfile ./background --motif MX000151 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo60  status: 0  time: 0.432717
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_61 --bgfile ./background --motif MX000007 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo61  status: 0  time: 0.445367
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_62 --bgfile ./background --motif EXPREG_00001440 db/PROKARYOTE/collectf.meme ./all_input.fna
+Finished invoke:
+  name: fimo62  status: 0  time: 0.274463
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_63 --bgfile ./background --motif MX000010 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo63  status: 0  time: 0.423035
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_64 --bgfile ./background --motif MX000106 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo64  status: 0  time: 0.428516
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_65 --bgfile ./background --motif MX000083 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo65  status: 0  time: 0.460001
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_66 --bgfile ./background --motif MX000196 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo66  status: 0  time: 0.438264
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_67 --bgfile ./background --motif MX000063 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo67  status: 0  time: 0.461799
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_68 --bgfile ./background --motif MX000006 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo68  status: 0  time: 0.43887
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_69 --bgfile ./background --motif ompR db/ECOLI/dpinteract.meme ./all_input.fna
+Finished invoke:
+  name: fimo69  status: 0  time: 0.306367
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_70 --bgfile ./background --motif MX000142 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo70  status: 0  time: 0.435399
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_71 --bgfile ./background --motif metR db/ECOLI/dpinteract.meme ./all_input.fna
+Finished invoke:
+  name: fimo71  status: 0  time: 0.291988
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_72 --bgfile ./background --motif MX000084 db/PROKARYOTE/prodoric.meme ./all_input.fna
+Finished invoke:
+  name: fimo72  status: 0  time: 0.44859
+Writing output
+Done

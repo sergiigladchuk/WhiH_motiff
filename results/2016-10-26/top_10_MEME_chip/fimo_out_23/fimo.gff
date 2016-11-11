@@ -1,0 +1,6 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	271	279	41.3	-	.	Name=MX000201;ID=MX000201-1-1438525;pvalue=7.38e-05;qvalue= 0.521;sequence=ACTTTTAAT;
+5970350	fimo	nucleotide_motif	238	246	51.8	-	.	Name=MX000201;ID=MX000201-1-5970350;pvalue=6.56e-06;qvalue= 0.231;sequence=ACGATTAAT;
+1446675	fimo	nucleotide_motif	228	236	45.3	+	.	Name=MX000201;ID=MX000201-1-1446675;pvalue=2.96e-05;qvalue= 0.521;sequence=AGCATTAAT;
+2854100	fimo	nucleotide_motif	357	365	41.3	+	.	Name=MX000201;ID=MX000201-1-2854100;pvalue=7.38e-05;qvalue= 0.521;sequence=ACTCTTAAT;
+2854150	fimo	nucleotide_motif	307	315	41.3	+	.	Name=MX000201;ID=MX000201-1-2854150;pvalue=7.38e-05;qvalue= 0.521;sequence=ACTCTTAAT;

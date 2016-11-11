@@ -1,0 +1,36 @@
+# DREME 4.11.2
+#     command: dreme -v 1 -oc dreme_out -png -dna -p ./seqs-centered -n ./seqs-shuffled -t 7134 -e 0.05
+#   positives: 36 from ./seqs-centered (Wed Oct 26 18:36:30 UTC 2016)
+#   negatives: 36 from ./seqs-shuffled (Wed Oct 26 18:36:30 UTC 2016)
+#        host: node116
+#        when: Wed Oct 26 18:35:02 UTC 2016
+
+MEME version 4.11.2
+
+ALPHABET "DNA" DNA-LIKE
+A "Adenine" CC0000 ~ T "Thymine" 008000
+C "Cytosine" 0000CC ~ G "Guanine" FFB300
+N "Any base" = ACGT
+X = ACGT
+. = ACGT
+V "Not T" = ACG
+H "Not G" = ACT
+D "Not C" = AGT
+B "Not A" = CGT
+M "Amino" = AC
+R "Purine" = AG
+W "Weak" = AT
+S "Strong" = CG
+Y "Pyrimidine" = CT
+K "Keto" = GT
+U = T
+END ALPHABET
+
+strands: + -
+
+Background letter frequencies (from dataset):
+A 0.201 C 0.296 G 0.311 T 0.191
+
+
+# Stopping reason: E-value threshold exceeded
+#    Running time: 0.69 seconds

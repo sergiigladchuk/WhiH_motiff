@@ -1,0 +1,19 @@
+##gff-version 3
+1813075	fimo	nucleotide_motif	247	257	41.8	+	.	Name=2;ID=2-1-1813075;pvalue=6.64e-05;qvalue= 0.145;sequence=ATTCGTCATAT;
+4990825	fimo	nucleotide_motif	227	237	40.3	-	.	Name=2;ID=2-1-4990825;pvalue=9.25e-05;qvalue= 0.18;sequence=ATTCCTAATGA;
+5521450	fimo	nucleotide_motif	270	280	60.2	+	.	Name=2;ID=2-1-5521450;pvalue=9.44e-07;qvalue= 0.00661;sequence=ATTCATGAGGA;
+7470575	fimo	nucleotide_motif	252	262	53.8	+	.	Name=2;ID=2-1-7470575;pvalue=4.19e-06;qvalue= 0.0184;sequence=ATTCGTGTGAA;
+1538675	fimo	nucleotide_motif	280	290	62.8	-	.	Name=2;ID=2-1-1538675;pvalue=5.29e-07;qvalue= 0.00617;sequence=ATTCGTCAGGA;
+5970350	fimo	nucleotide_motif	284	294	55.2	-	.	Name=2;ID=2-1-5970350;pvalue=2.99e-06;qvalue= 0.0157;sequence=TTTGGTGAAAA;
+5970350	fimo	nucleotide_motif	330	340	41.5	+	.	Name=2;ID=2-2-5970350;pvalue=7.04e-05;qvalue= 0.145;sequence=ATGCGTGAGTA;
+8216200	fimo	nucleotide_motif	245	255	51.2	+	.	Name=2;ID=2-1-8216200;pvalue=7.63e-06;qvalue= 0.0267;sequence=ATGGCTCAAAA;
+8216150	fimo	nucleotide_motif	295	305	51.2	+	.	Name=2;ID=2-1-8216150;pvalue=7.63e-06;qvalue= 0.0267;sequence=ATGGCTCAAAA;
+4171275	fimo	nucleotide_motif	312	322	44.6	-	.	Name=2;ID=2-1-4171275;pvalue=3.42e-05;qvalue= 0.106;sequence=TTTCCTCTAAA;
+2397475	fimo	nucleotide_motif	286	296	 55	+	.	Name=2;ID=2-1-2397475;pvalue=3.13e-06;qvalue= 0.0157;sequence=ATGGATGAGGA;
+7472425	fimo	nucleotide_motif	249	259	 61	+	.	Name=2;ID=2-1-7472425;pvalue=8e-07;qvalue= 0.00661;sequence=ATTGGTCATGA;
+2854100	fimo	nucleotide_motif	276	286	69.8	+	.	Name=2;ID=2-1-2854100;pvalue=1.05e-07;qvalue= 0.00183;sequence=ATTGGTCAGGA;
+2854100	fimo	nucleotide_motif	222	232	44.1	-	.	Name=2;ID=2-2-2854100;pvalue=3.92e-05;qvalue= 0.106;sequence=ATCCGTCAAAA;
+2854100	fimo	nucleotide_motif	157	167	42.9	+	.	Name=2;ID=2-3-2854100;pvalue=5.14e-05;qvalue= 0.12;sequence=ACTCGTCAAGA;
+2854150	fimo	nucleotide_motif	226	236	69.8	+	.	Name=2;ID=2-1-2854150;pvalue=1.05e-07;qvalue= 0.00183;sequence=ATTGGTCAGGA;
+2854150	fimo	nucleotide_motif	172	182	44.1	-	.	Name=2;ID=2-2-2854150;pvalue=3.92e-05;qvalue= 0.106;sequence=ATCCGTCAAAA;
+2854150	fimo	nucleotide_motif	107	117	42.9	+	.	Name=2;ID=2-3-2854150;pvalue=5.14e-05;qvalue= 0.12;sequence=ACTCGTCAAGA;
