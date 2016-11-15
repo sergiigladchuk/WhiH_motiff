@@ -16,26 +16,37 @@ This is description of results obtained during motif discovery after extracting 
 ***
 ### 2016-11-14 Comparison of all peaks and top 10% most significant peaks motifs
 
-Input for [MEME-ChIP](http://meme-suite.org/tools/meme-chip) was generated via same python script (*seq_extractor.py*), with same settings (*500 bp with the peak in the middle*) except peaks tab-file.
+#### Preparation of input for MEME
+Input for [MEME-ChIP](http://meme-suite.org/tools/meme-chip) was generated via same python script (*seq_extractor.py*), with same settings (*length 500 with the peak in the middle*) except input peaks tab-file.  
 Command for all peaks regions generation:
 ```
->python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_All.csv
+$python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_All.csv
 ```
 Command for 10% of most significant peaks regions generation:
 ```
->python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_Top10per.csv
+$python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_Top10per.csv
 ```
 ***
+#### MEME-Chip input settings
+All defaults, except *Input the motifs section* - selection:  
+> Prokaryote DNA  
+> Combined Prokaryotes
+
+***
+
 #### MEME-ChIP output
+
 Category | All Peaks ranges (349 peaks) | Top 10% significant (36 peaks)
 ---------|------------------------------|-------------------------------
-Motifs | ![](2016-10-28/all_peaks_MEME_chip/meme_out/logo1.png) | ![](2016-10-26/top_10_MEME_chip/meme_out/logo1.png)
+MEME Motifs | [![](2016-10-28/all_peaks_MEME_chip/meme_out/logo1.png)](2016-10-28/all_peaks_MEME_chip/meme-chip.html) | [![](2016-10-26/top_10_MEME_chip/meme_out/logo1.png)](2016-10-26/top_10_MEME_chip/meme-chip.html)
 e-value | **1.6e-64** | 4.2e-33
-**CentriMo results** |  ... | ... 
+**CentriMo results** |  [link](2016-10-28/all_peaks_MEME_chip/centrimo_out/centrimo.html) | [link](2016-10-26/top_10_MEME_chip/centrimo_out/centrimo.html) 
 E-value | **7.6e-60** | 3.2e-20
-Region Width | 66 | 46
 Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
-MEME-ChIP Results links | [all peaks](2016-10-28/all_peaks_MEME_chip/meme-chip.html) | [top10](2016-10-26/top_10_MEME_chip/meme-chip.html)
+**DREME results** | [![](2016-10-28/all_peaks_MEME_chip/dreme_out/m01nc_GWTCA.png)](2016-10-28/all_peaks_MEME_chip/dreme_out/dreme.html) | N/A
+**TOMTOM results** | [link](2016-10-28/all_peaks_MEME_chip/dreme_tomtom_out/tomtom.html) | N/A
+**FIMO results** | [link](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) | [link](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html)
+**SpaMo results** | [link](2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html) | [link](2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html)
 
 #### Previous motiff based on DNaseI footprinting
 ![](previous/previous_motif_logo.png)
