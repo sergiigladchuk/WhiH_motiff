@@ -26,11 +26,19 @@ Command for 10% of most significant peaks regions generation:
 ```
 $python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_Top10per.csv
 ```
+
 ***
+
 #### MEME-Chip input settings
 All defaults, except *Input the motifs section* - selection:  
 > Prokaryote DNA  
 > Combined Prokaryotes
+
+
+
+##### Citations from [MEME-ChIP tutorial](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html):  
+
+> MEME-ChIP uses two de novo motif discovery algorithms with complementary strengths and weaknesses: MEME is highly specific but slower, whereas DREME is less specific but faster. The algorithms are coupled with a motif enrichment algorithm, CentriMo, which is highly sensitive but operates only on previously identified motifs. MEME-ChIP synthesizes the results of these three algorithms by clustering the discovered and enriched motifs according to their similarity.
 
 ***
 
@@ -38,26 +46,28 @@ All defaults, except *Input the motifs section* - selection:
 
 Category | All Peaks ranges (349 peaks) | Top 10% significant (36 peaks)
 ---------|------------------------------|-------------------------------
-MEME Motifs | [![](2016-10-28/all_peaks_MEME_chip/meme_out/logo1.png)](2016-10-28/all_peaks_MEME_chip/meme-chip.html) | [![](2016-10-26/top_10_MEME_chip/meme_out/logo1.png)](2016-10-26/top_10_MEME_chip/meme-chip.html)
+MEME Motifs | [![](2016-10-28/all_peaks_MEME_chip/meme_out/logo1.png)](2016-10-28/all_peaks_MEME_chip/meme-chip.html) | [![](2016-10-26/top_10_MEME_chip/meme_out/logo_rc1.png)](2016-10-26/top_10_MEME_chip/meme-chip.html)
 e-value | **1.6e-64** | 4.2e-33
 **CentriMo results** |  [link](2016-10-28/all_peaks_MEME_chip/centrimo_out/centrimo.html) | [link](2016-10-26/top_10_MEME_chip/centrimo_out/centrimo.html) 
 E-value | **7.6e-60** | 3.2e-20
 Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
-**DREME results** | [![](2016-10-28/all_peaks_MEME_chip/dreme_out/m01nc_GWTCA.png)](2016-10-28/all_peaks_MEME_chip/dreme_out/dreme.html) | N/A
-**TOMTOM results** | [link](2016-10-28/all_peaks_MEME_chip/dreme_tomtom_out/tomtom.html) | N/A
-**FIMO results** | [link](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) | [link](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html)
-**SpaMo results** | [link](2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html) | [link](2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html)
+~~**DREME results**~~ | [![](2016-10-28/all_peaks_MEME_chip/dreme_out/m01nc_GWTCA.png)](2016-10-28/all_peaks_MEME_chip/dreme_out/dreme.html) | N/A
+~~**TOMTOM results**~~ | [link](2016-10-28/all_peaks_MEME_chip/dreme_tomtom_out/tomtom.html) | N/A
+**FIMO results** (to be avaluated)| [link](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) | [link](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html)
+**SpaMo results** (to be avaluated)| [link](2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html) | [link](2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html)
 
 #### Previous motiff based on DNaseI footprinting
 ![](previous/previous_motif_logo.png)
-
 
 ***
 
 ## Next steps section
 
-Last update: 2016-11-15
+Last update: 2016-11-16   
 
+* review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test
+* perform analysis of the same data with other suit, e.g. ChIPMunk
 * check possibility to convert discovered motifs into HMM-profile (contact Markus)
 * get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible)
-* clarify Transcriptomics data and ways to analyse it
+* clarify Transcriptomics data and ways to analyse it:
+  * compare available transcriptomics data for most significant motif based positions with non significant
