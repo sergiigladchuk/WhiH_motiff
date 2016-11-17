@@ -1,15 +1,15 @@
 
 ---
-title: "Notebook for motif discovery for WhiH"
+title: "Notebook - motif discovery for WhiH"
 author: "SG"
 date: "November 01, 2016"
 output:
   html_document:
+    theme: readable
     css: style.css
     toc: true
     toc_depth: 3
     toc_float: true
-    
 ---
 <link href="style.css" rel="stylesheet">
 
@@ -17,11 +17,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Description
-This is description of results obtained during motif discovery after extracting sequence regions from S. venezuelae genome [(Gen-Bank accession number NC_018750)](https://www.ncbi.nlm.nih.gov/nuccore/NC_018750) based on ChIP-seq peak data. Project description can be found by this [link](https://docs.google.com/document/d/1ovCNDeNRCVAEbYnFg1xPN2Wg67dJ2bQ9shSsmo14nLc/edit)
+This is description of results obtained during motif discovery after extracting sequence regions from S. venezuelae genome [(Gen-Bank accession number NC_018750)](https://www.ncbi.nlm.nih.gov/nuccore/NC_018750) based on ChIP-seq peak data. Full project description can be found  [here](https://docs.google.com/document/d/1ovCNDeNRCVAEbYnFg1xPN2Wg67dJ2bQ9shSsmo14nLc/edit)
 
 ***
-# Results
+# Results & Notes
 ## 2016-11-14 Comparison of all peaks and top 10% most significant peaks motifs
 
 ### Preparation of input for MEME
