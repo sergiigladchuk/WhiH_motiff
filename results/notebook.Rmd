@@ -1,22 +1,30 @@
+
 ---
-title: "notebook"
+title: "Notebook for motif discovery for WhiH"
 author: "SG"
 date: "November 01, 2016"
-output: html_document
+output:
+  html_document:
+    css: style.css
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    
 ---
+<link href="style.css" rel="stylesheet">
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Motif discovery for WhiH 
-
-This is description of results obtained during motif discovery after extracting sequence regions from S. venezuelae genome [(Gen-Bank accession number NC_018750)](https://www.ncbi.nlm.nih.gov/nuccore/NC_018750) based on ChIP-seq peak data.
+# Description
+This is description of results obtained during motif discovery after extracting sequence regions from S. venezuelae genome [(Gen-Bank accession number NC_018750)](https://www.ncbi.nlm.nih.gov/nuccore/NC_018750) based on ChIP-seq peak data. Project description can be found by this [link](https://docs.google.com/document/d/1ovCNDeNRCVAEbYnFg1xPN2Wg67dJ2bQ9shSsmo14nLc/edit)
 
 ***
-### 2016-11-14 Comparison of all peaks and top 10% most significant peaks motifs
+# Results
+## 2016-11-14 Comparison of all peaks and top 10% most significant peaks motifs
 
-#### Preparation of input for MEME
+### Preparation of input for MEME
 Input for [MEME-ChIP](http://meme-suite.org/tools/meme-chip) was generated via same python script (*seq_extractor.py*), with same settings (*length 500 with the peak in the middle*) except input peaks tab-file.  
 Command for all peaks regions generation:
 ```
@@ -29,20 +37,20 @@ $python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -
 
 ***
 
-#### MEME-Chip input settings
+### MEME-Chip input settings
 All defaults, except *Input the motifs section* - selection:  
 > Prokaryote DNA  
 > Combined Prokaryotes
 
 
 
-##### Citations from [MEME-ChIP tutorial](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html):  
+#### Citations from [MEME-ChIP tutorial](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html):  
 
 > MEME-ChIP uses two de novo motif discovery algorithms with complementary strengths and weaknesses: MEME is highly specific but slower, whereas DREME is less specific but faster. The algorithms are coupled with a motif enrichment algorithm, CentriMo, which is highly sensitive but operates only on previously identified motifs. MEME-ChIP synthesizes the results of these three algorithms by clustering the discovered and enriched motifs according to their similarity.
 
 ***
 
-#### MEME-ChIP output
+### MEME-ChIP output
 
 Category | All Peaks ranges (349 peaks) | Top 10% significant (36 peaks)
 ---------|------------------------------|-------------------------------
@@ -53,15 +61,21 @@ E-value | **7.6e-60** | 3.2e-20
 Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
 ~~**DREME results**~~ | [![](2016-10-28/all_peaks_MEME_chip/dreme_out/m01nc_GWTCA.png)](2016-10-28/all_peaks_MEME_chip/dreme_out/dreme.html) | N/A
 ~~**TOMTOM results**~~ | [link](2016-10-28/all_peaks_MEME_chip/dreme_tomtom_out/tomtom.html) | N/A
-**FIMO results** (to be avaluated)| [link](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) | [link](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html)
-**SpaMo results** (to be avaluated)| [link](2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html) | [link](2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html)
+**FIMO results** (to be evaluated)| [link](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) | [link](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html)
+**SpaMo results** (to be evaluated)| [link](2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html) | [link](2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html)
 
-#### Previous motiff based on DNaseI footprinting
+### Previous motiff based on DNaseI footprinting
 ![](previous/previous_motif_logo.png)
 
 ***
 
-## Next steps section
+## 2016-11-17 Review with Klas
+
+* DREME results should be disregarded, because of very low significance and no real match with MEME motif.
+* Another DREME run can be done with 50 - 100 ranges just to check if result is better
+* Reverse motif from top-10% peaks is almost identical to both all-peaks MEME motif and motif discovered from DNaseI foot-printing
+
+# Next steps
 
 Last update: 2016-11-16   
 
