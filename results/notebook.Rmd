@@ -77,7 +77,7 @@ Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
 
 ## 2016-11-18 In depth analysis of [MEME-ChIP tutorial](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html)
 
-The size 500pb and center positioning of the peaks are fully supported and suggested by MEME-ChIP protocol. So overall realults are correct with very small room for improvement.
+The size 500pb and center positioning of the peaks are fully supported and suggested by MEME-ChIP protocol. So overall results are correct with very small room for improvement.
 
 ***
 
@@ -86,6 +86,26 @@ The size 500pb and center positioning of the peaks are fully supported and sugge
 * The 'Use a custom background?' field allows you to upload a custom background model file (1 or 2 or 3 order background Markov Models)
 * Restricting the search to palindromes (check the 'look for palindromes only' box) can increase MEME's sensitivity to such motifs
 * By default, CentriMo ignores sequences that do not contain a match to a motif with a score of at least 5 bits. To find only strong matches increase this threshold by using the 'Score' field.
+
+## 2016-11-19 Analysis of discovered motif occurance in whole genome
+
+Discovered by MEME motif can be fed into FIMO (Find Individual Motif Occurrences) tool in the [same suit](http://meme-suite.org//tools/fimo)
+
+And to [MCAST](http://meme-suite.org//tools/mcast), which is more advanced   
+
+> MCAST uses a hidden Markov model to search DNA sequences for regions that are enriched with occurrences of one or more of the given motifs. Thus, MCAST is designed to scan chromosomes to detect cis-regulatory modules containing a known collection of cofactor motifs. Compared with MAST and MCAST, FIMO is simpler and more general. FIMO only assigns scores to individual motif occurrences; it makes no attempt to assign scores to joint occurrences of motifs, to sequence regions or to complete sequences. FIMO is thus a general-purpose tool for identifying individual candidate binding sites or protein motifs.
+
+### Procedure
+
+* Input motif discovered previously by MEME-ChIP in "MEME Motif Format" (can be done directly from the MEME results)
+* Input database, where to look for motif - S. venezuelae genome [(Gen-Bank accession number NC_018750)](https://www.ncbi.nlm.nih.gov/nuccore/NC_018750)
+
+### Abundance results
+
+(to be added after jobs are finished on MEME server)
+
+
+***
 
 # Next steps
 
