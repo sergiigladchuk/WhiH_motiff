@@ -57,10 +57,11 @@ e-value | **1.6e-64** | 4.2e-33
 **CentriMo results** |  [link](2016-10-28/all_peaks_MEME_chip/centrimo_out/centrimo.html) | [link](2016-10-26/top_10_MEME_chip/centrimo_out/centrimo.html) 
 E-value | **7.6e-60** | 3.2e-20
 Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
-~~**DREME results**~~ | [![](2016-10-28/all_peaks_MEME_chip/dreme_out/m01nc_GWTCA.png)](2016-10-28/all_peaks_MEME_chip/dreme_out/dreme.html) | N/A
-~~**TOMTOM results**~~ | [link](2016-10-28/all_peaks_MEME_chip/dreme_tomtom_out/tomtom.html) | N/A
-**FIMO results** (to be evaluated)| [link](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) | [link](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html)
+~~**DREME results**~~ - high e-value| [![](2016-10-28/all_peaks_MEME_chip/dreme_out/m01nc_GWTCA.png)](2016-10-28/all_peaks_MEME_chip/dreme_out/dreme.html)  e-value - 2.5e-004| N/A
+~~**TOMTOM results**~~ - based on DREME results| [link](2016-10-28/all_peaks_MEME_chip/dreme_tomtom_out/tomtom.html) | N/A
+**FIMO results** p-value<0.0001 | [207 motif occurences](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) in 349 500bp-long regions| [54 motif occurences](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html) in 36 500bp-long regions
 **SpaMo results** (to be evaluated)| [link](2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html) | [link](2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html)
+
 
 ### Previous motiff based on DNaseI footprinting
 ![](previous/previous_motif_logo.png)
@@ -75,7 +76,7 @@ Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
 * Transcriptomics data should be used from the peak file in order to get ranked lists of of most influenced genes for selected (significant motifs)
 
 
-## 2016-11-18 In depth analysis of [MEME-ChIP tutorial](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html)
+## 2016-11-18 In-depth analysis of [MEME-ChIP tutorial](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html)
 
 The size 500pb and center positioning of the peaks are fully supported and suggested by MEME-ChIP protocol. So overall results are correct with very small room for improvement.
 
@@ -102,8 +103,16 @@ And to [MCAST](http://meme-suite.org//tools/mcast), which is more advanced
 
 ### Abundance results
 
-(to be added after jobs are finished on MEME server)
+|   Result   |   "All-Peaks" motif   |   "Top-10" motif   |
+|:-----------|:----------------------|:-------------------|
+| **FIMO** p-value<0.0001| [1076 motif occurences](2016-11-18/all_peaks/fimo.html) in whole genome | [756 motif occurences](2016-11-18/top_10/fimo.html) in whole genome |
+| **MCAST** p-value<0.0005 | [20 motif occurences](2016-11-18/all_peaks/mcast.html) in whole genome | [12 motif occurences](2016-11-18/top_10/mcast.html) in whole genome |
+| Previouse **FIMO** p-value<0.0001 | [207 motif occurences](2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html) in 349 500bp-long regions| [54 motif occurences](2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html) in 36 500bp-long regions |
+| *FIMO net of non ChIP-seq regions* | 869 | 702 |
 
+### Interpretation
+
+In contrast to GACAC motif discovered for WhiA and WhiB, which has ~15000 copies in *S. venezuelae* genome, figures above are not that bad.
 
 ***
 
