@@ -246,7 +246,8 @@ Command for all peaks regions generation:</p>
 <div id="citations-from-meme-chip-tutorial" class="section level4">
 <h4>Citations from <a href="http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html">MEME-ChIP tutorial</a>:</h4>
 <blockquote>
-<p>MEME-ChIP uses two de novo motif discovery algorithms with complementary strengths and weaknesses: MEME is highly specific but slower, whereas DREME is less specific but faster. The algorithms are coupled with a motif enrichment algorithm, CentriMo, which is highly sensitive but operates only on previously identified motifs. MEME-ChIP synthesizes the results of these three algorithms by clustering the discovered and enriched motifs according to their similarity.</p>
+<p>MEME-ChIP uses two de novo motif discovery algorithms with complementary strengths and weaknesses: MEME is highly specific but slower, whereas DREME is less specific but faster. The algorithms are coupled with a motif enrichment algorithm, CentriMo, which is highly sensitive but operates only on previously identified motifs. MEME-ChIP synthesizes the results of these three algorithms by clustering the discovered and enriched motifs according to their similarity.<br />
+SpaMo - is able to infer physical interactions between the given TF and TFs bound at neighbouring sites at the DNA interface.</p>
 </blockquote>
 <hr />
 </div>
@@ -308,7 +309,7 @@ Command for all peaks regions generation:</p>
 <td align="left"><a href="2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html">54 motif occurences</a> in 36 500bp-long regions</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>SpaMo results</strong> (to be evaluated)</td>
+<td align="left"><del><strong>SpaMo results</strong></del> (finds related neighbors motifs - not relevant for this study)</td>
 <td align="left"><a href="2016-10-28/all_peaks_MEME_chip/spamo_out_1/spamo.html">link</a></td>
 <td align="left"><a href="2016-10-26/top_10_MEME_chip/spamo_out_1/spamo.html">link</a></td>
 </tr>
@@ -387,9 +388,9 @@ Command for all peaks regions generation:</p>
 <td align="left"><a href="2016-11-18/top_10/mcast.html">12 motif occurences</a> in whole genome</td>
 </tr>
 <tr class="odd">
-<td align="left">Previouse <strong>FIMO</strong> p-value&lt;0.0001</td>
-<td align="left"><a href="2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html">207 motif occurences</a> in 349 500bp-long regions</td>
-<td align="left"><a href="2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html">54 motif occurences</a> in 36 500bp-long regions</td>
+<td align="left">Previous <strong>FIMO</strong> p-value&lt;0.0001</td>
+<td align="left"><a href="2016-10-28/all_peaks_MEME_chip/fimo_out_1/fimo.html">207 motif occurences</a> in 349 “500bp-long” regions</td>
+<td align="left"><a href="2016-10-26/top_10_MEME_chip/fimo_out_1/fimo.html">54 motif occurences</a> in 36 “500bp-long” regions</td>
 </tr>
 <tr class="even">
 <td align="left"><em>FIMO net of non ChIP-seq regions</em></td>
@@ -401,18 +402,22 @@ Command for all peaks regions generation:</p>
 </div>
 <div id="interpretation" class="section level3">
 <h3>Interpretation</h3>
-<p>In contrast to GACAC motif discovered for WhiA and WhiB, which has ~15000 copies in <em>S. venezuelae</em> genome, figures above are not that bad.</p>
+<ul>
+<li>MCAST is very specific to input motif model and uses Markov model to calculate overall score of match, that is why it so few of them.</li>
+<li>FIMO uses simple algorifm for finding matches to motif, and since our motif is not very specific it finds a lot of the matches. Still it finds less matches for more specific motif discovered only from significant peaks - 756 vs. 1076.</li>
+<li>In contrast to GACAC motif, discovered for WhiA and WhiB, which has ~15000 occurances in <em>S. venezuelae</em> genome, figures above are not that bad.</li>
+</ul>
 <hr />
 </div>
 </div>
 </div>
 <div id="next-steps" class="section level1">
 <h1>Next steps</h1>
-<p>Last update: 2016-11-17</p>
+<p>Last update: 2016-11-22</p>
 <ul>
-<li>review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test</li>
+<li><del>review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test</del></li>
 <li>perform analysis of the same data with other suit, e.g. ChIPMunk</li>
-<li>check possibility to convert discovered motifs into HMM-profile (contact Markus)</li>
+<li><del>check possibility to convert discovered motifs into HMM-profile (contact Markus)</del></li>
 <li>get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible)</li>
 <li>compare available transcriptomics data for most significant motif based positions with non significant</li>
 </ul>
