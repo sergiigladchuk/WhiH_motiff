@@ -12,6 +12,7 @@ mcast <- read.csv('2016-11-18/all_peaks/mcast.txt', sep='\t')
 
 
 fimo$mcast <- match(fimo$start,mcast$start)
+fimo$mcast[!is.na(fimo$mcast)] <- fimo$logs[!is.na(fimo$mcast)]
 
 # add matches from Centrimo
 
