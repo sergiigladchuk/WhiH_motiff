@@ -113,9 +113,91 @@ And to [MCAST](http://meme-suite.org//tools/mcast), which is more advanced
 
 ### Interpretation
 
+#### Graphs
+
+```{r index_all_peaks, echo=FALSE, fig.height=9, fig.width=15}
+# all peak analysis
+fimo <- read.csv('2016-11-18/all_peaks/fimo.txt', sep='\t')
+fimo$logs <- -log(fimo$p.value)
+# add matches from MCAST
+mcast <- read.csv('2016-11-18/all_peaks/mcast.txt', sep='\t')
+
+fimo$mcast <- match(fimo$start,mcast$start)
+fimo$mcast[!is.na(fimo$mcast)] <- fimo$logs[!is.na(fimo$mcast)]
+# add matches from Centrimo
+centrimo <- read.csv('2016-11-18/all_peaks/centrimo.txt')
+
+fimo$centrimo_full_match <- c(NA)
+totMathes <- 0
+rangeExtantion <- 100
+for (count1 in 1:length(centrimo$Centrimo_Reg_Matches)) {
+  for (count2 in 1:length(fimo$logs)) {
+    if (centrimo$Centrimo_Reg_Matches[count1] >= (fimo$start[count2] - rangeExtantion)
+        && centrimo$Centrimo_Reg_Matches[count1] <= (fimo$stop[count2] + rangeExtantion)){
+      fimo$centrimo_full_match[count2] = fimo$logs[count2]
+      
+      totMathes = totMathes + 1
+      break;
+    }
+  }
+
+}
+cat(totMathes, "CentriMo regions in all FIMO out of", length(centrimo$Centrimo_Reg_Matches), 
+    "with", rangeExtantion ,"range extention value")
+#plot all results
+plot(fimo$logs, type = 'l', main="'All peaks' motif FIMO matches vs MCAST vs CentriMo", 
+     ylab = "-log of p-value", xlab = "index in FIMO")
+points(fimo$mcast, col='red')
+points(fimo$centrimo_full_match, col='blue',pch=3)
+legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(NA,1,3), col=c('black','red','blue'))
+
+```
+
+***
+
+```{r index_top10_peaks, echo=FALSE, fig.height=9, fig.width=15}
+# all peak analysis
+fimo <- read.csv('2016-11-18/top_10/fimo.txt', sep='\t')
+fimo$logs <- -log(fimo$p.value)
+# add matches from MCAST
+mcast <- read.csv('2016-11-18/top_10/mcast.txt', sep='\t')
+
+fimo$mcast <- match(fimo$start,mcast$start)
+fimo$mcast[!is.na(fimo$mcast)] <- fimo$logs[!is.na(fimo$mcast)]
+# add matches from Centrimo
+centrimo <- read.csv('2016-11-18/top_10/centrimo.txt')
+
+fimo$centrimo_full_match <- c(NA)
+totMathes <- 0
+rangeExtantion <- 100
+for (count1 in 1:length(centrimo$Centrimo_Reg_Matches)) {
+  for (count2 in 1:length(fimo$logs)) {
+    if (centrimo$Centrimo_Reg_Matches[count1] >= (fimo$start[count2] - rangeExtantion)
+        && centrimo$Centrimo_Reg_Matches[count1] <= (fimo$stop[count2] + rangeExtantion)){
+      fimo$centrimo_full_match[count2] = fimo$logs[count2]
+      
+      totMathes = totMathes + 1
+      break;
+    }
+  }
+
+}
+cat(totMathes, "CentriMo regions in all FIMO out of", length(centrimo$Centrimo_Reg_Matches), 
+    "with", rangeExtantion ,"range extention value")
+#plot all results
+plot(fimo$logs, type = 'l', main="'Top 10% peaks' motif FIMO matches vs MCAST vs CentriMo", 
+     ylab = "-log of p-value", xlab = "index in FIMO")
+points(fimo$mcast, col='red')
+points(fimo$centrimo_full_match, col='blue',pch=3)
+legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(NA,1,3), col=c('black','red','blue'))
+
+```
+
+
+#### Conclusions
 * MCAST is very specific to input motif model and uses Markov model to calculate overall score of match, that is why it so few of them.
-* FIMO uses simple algorifm for finding matches to motif, and since our motif is not very specific it finds a lot of the matches. Still it finds less matches for more specific motif discovered only from significant peaks -  756 vs. 1076.
-* In contrast to GACAC motif, discovered for WhiA and WhiB, which has ~15000 occurances in *S. venezuelae* genome, figures above are not that bad.
+* FIMO uses simple algorithm for finding matches to motif, and since our motif is not very specific it finds a lot of the matches. Still it finds less matches for more specific motif discovered only from significant peaks -  756 vs. 1076.
+* In contrast to GACAC motif, discovered for WhiA and WhiB, which has ~15000 occurrences in *S. venezuelae* genome, figures above are not that bad.
 
 ***
 
