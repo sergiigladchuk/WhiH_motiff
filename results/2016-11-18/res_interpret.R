@@ -4,7 +4,7 @@ fimo <- read.csv('2016-11-18/all_peaks/fimo.txt', sep='\t')
 #View(fimo)
 
 
-fimo$logs <- -log(fimo$p.value)
+fimo$logs <- -log10(fimo$p.value)
 # add matches from MCAST
 
 mcast <- read.csv('2016-11-18/all_peaks/mcast.txt', sep='\t')

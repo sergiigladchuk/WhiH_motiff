@@ -118,7 +118,7 @@ And to [MCAST](http://meme-suite.org//tools/mcast), which is more advanced
 ```{r index_all_peaks, echo=FALSE, fig.height=9, fig.width=15}
 # all peak analysis
 fimo <- read.csv('2016-11-18/all_peaks/fimo.txt', sep='\t')
-fimo$logs <- -log(fimo$p.value)
+fimo$logs <- -log10(fimo$p.value)
 # add matches from MCAST
 mcast <- read.csv('2016-11-18/all_peaks/mcast.txt', sep='\t')
 
@@ -158,7 +158,7 @@ legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(
 ```{r index_top10_peaks, echo=FALSE, fig.height=9, fig.width=15}
 # all peak analysis
 fimo <- read.csv('2016-11-18/top_10/fimo.txt', sep='\t')
-fimo$logs <- -log(fimo$p.value)
+fimo$logs <- -log10(fimo$p.value)
 # add matches from MCAST
 mcast <- read.csv('2016-11-18/top_10/mcast.txt', sep='\t')
 
@@ -197,6 +197,7 @@ legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(
 #### Conclusions
 * MCAST is very specific to input motif model and uses Markov model to calculate overall score of match, that is why it so few of them.
 * FIMO uses simple algorithm for finding matches to motif, and since our motif is not very specific it finds a lot of the matches. Still it finds less matches for more specific motif discovered only from significant peaks -  756 vs. 1076.
+* Based on the graphs my suggestion is to change FIMO p-value threshold to e-5 in order to get about 150 - 200 most significant matches of the motif.
 * In contrast to GACAC motif, discovered for WhiA and WhiB, which has ~15000 occurrences in *S. venezuelae* genome, figures above are not that bad.
 
 ***
