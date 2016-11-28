@@ -202,12 +202,20 @@ legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(
 
 ***
 
+## 2016-11-28 Review of MEME alternatives to confirm analysis
+
+* __PREDetector 2.0__ - updated version to predict regulated genes based on the matrix (motif) not ChIP-seq data
+* __ChIPMunk__ - simpler motif discoverer - PWM-based motif discovery present but no Word-based motif discovery, Motif enrichment analysis (new motifs only for known)
+* __Peak-motifs__ - almost as powerful as MEME with all characteristics ChipMunk lacks
+
+__Verdict__: run same ChiP-seq data set with both services, and then conduct further analyses with PREDetector to get "real positions of the motif in genome" and list of regulated genes based on motif matrix not just peaks file transcriptomics.
+
 # Next steps
 
-Last update: 2016-11-22   
+Last update: 2016-11-28   
 
 * ~~review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test~~
 * perform analysis of the same data with other suit, e.g. ChIPMunk
 * ~~check possibility to convert discovered motifs into HMM-profile (contact Markus)~~
-* get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible)
+* get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible). And with PREDetector 2.0
 * compare available transcriptomics data for most significant motif based positions with non significant
