@@ -329,7 +329,7 @@ SpaMo - is able to infer physical interactions between the given TF and TFs boun
 <h2>2016-11-17 Review with Klas</h2>
 <ul>
 <li>DREME results should be disregarded, because of very low significance and no real match with MEME motif.</li>
-<li>Another DREME run can be done with 50 - 100 ranges just to check if result is better</li>
+<li><del>Another DREME run can be done with 50 - 100 ranges just to check if result is better</del> - does not help (2016-11-29)</li>
 <li>Reverse motif from top-10% peaks is almost identical to both all-peaks MEME motif and motif discovered from DNaseI foot-printing</li>
 <li>Transcriptomics data should be used from the peak file in order to get ranked lists of of most influenced genes for selected (significant motifs)</li>
 </ul>
@@ -425,21 +425,21 @@ SpaMo - is able to infer physical interactions between the given TF and TFs boun
 <div id="review-of-meme-alternatives-to-confirm-analysis" class="section level2">
 <h2>2016-11-28 Review of MEME alternatives to confirm analysis</h2>
 <ul>
-<li><strong>PREDetector 2.0</strong> - updated version to predict regulated genes based on the matrix (motif) not ChIP-seq data</li>
-<li><strong>ChIPMunk</strong> - simpler motif discoverer - PWM-based motif discovery present but no Word-based motif discovery, Motif enrichment analysis (new motifs only for known)</li>
-<li><strong>Peak-motifs</strong> - almost as powerful as MEME with all characteristics ChipMunk lacks</li>
+<li><strong><a href="http://predetector.fsc.ulg.ac.be/">PREDetector 2.0</a></strong> - updated version to predict regulated genes based on the matrix (motif) not ChIP-seq data</li>
+<li><strong><a href="http://opera.autosome.ru/chipmunk/discovery/mono/new">ChIPMunk</a></strong> - simpler motif discoverer - PWM-based motif discovery present but no Word-based motif discovery, Motif enrichment analysis (new motifs only for known). <strong>WEB SERVICE IS DOWN CURRENTLY</strong></li>
+<li><strong><a href="http://rsat01.biologie.ens.fr/rsa-tools/peak-motifs_form.cgi">Peak-motifs</a></strong> - almost as powerful as MEME with all characteristics ChipMunk lacks</li>
 </ul>
 <p><strong>Verdict</strong>: run same ChiP-seq data set with both services, and then conduct further analyses with PREDetector to get “real positions of the motif in genome” and list of regulated genes based on motif matrix not just peaks file transcriptomics.</p>
 </div>
 </div>
 <div id="next-steps" class="section level1">
 <h1>Next steps</h1>
-<p>Last update: 2016-11-22</p>
+<p>Last update: 2016-11-28</p>
 <ul>
 <li><del>review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test</del></li>
 <li>perform analysis of the same data with other suit, e.g. ChIPMunk</li>
 <li><del>check possibility to convert discovered motifs into HMM-profile (contact Markus)</del></li>
-<li><del>get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible)</del></li>
+<li>get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible). And with PREDetector 2.0</li>
 <li>compare available transcriptomics data for most significant motif based positions with non significant</li>
 </ul>
 </div>

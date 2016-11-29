@@ -72,7 +72,7 @@ Region Matches | 170 out of 349 (49%) | **30 out of 36 (83%)**
 ## 2016-11-17 Review with Klas
 
 * DREME results should be disregarded, because of very low significance and no real match with MEME motif.
-* Another DREME run can be done with 50 - 100 ranges just to check if result is better
+* ~~Another DREME run can be done with 50 - 100 ranges just to check if result is better~~ - does not help (2016-11-29)
 * Reverse motif from top-10% peaks is almost identical to both all-peaks MEME motif and motif discovered from DNaseI foot-printing
 * Transcriptomics data should be used from the peak file in order to get ranked lists of of most influenced genes for selected (significant motifs)
 
@@ -204,9 +204,9 @@ legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(
 
 ## 2016-11-28 Review of MEME alternatives to confirm analysis
 
-* __PREDetector 2.0__ - updated version to predict regulated genes based on the matrix (motif) not ChIP-seq data
-* __ChIPMunk__ - simpler motif discoverer - PWM-based motif discovery present but no Word-based motif discovery, Motif enrichment analysis (new motifs only for known)
-* __Peak-motifs__ - almost as powerful as MEME with all characteristics ChipMunk lacks
+* __[PREDetector 2.0](http://predetector.fsc.ulg.ac.be/)__ - updated version to predict regulated genes based on the matrix (motif) not ChIP-seq data
+* __[ChIPMunk](http://opera.autosome.ru/chipmunk/discovery/mono/new)__ - simpler motif discoverer - PWM-based motif discovery present but no Word-based motif discovery, Motif enrichment analysis (new motifs only for known). **WEB SERVICE IS DOWN CURRENTLY**
+* __[Peak-motifs](http://rsat01.biologie.ens.fr/rsa-tools/peak-motifs_form.cgi)__ - almost as powerful as MEME with all characteristics ChipMunk lacks
 
 __Verdict__: run same ChiP-seq data set with both services, and then conduct further analyses with PREDetector to get "real positions of the motif in genome" and list of regulated genes based on motif matrix not just peaks file transcriptomics.
 
