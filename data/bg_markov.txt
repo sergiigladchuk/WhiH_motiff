@@ -1,0 +1,24 @@
+# 1-order Markov frequencies from file data/2016-10-26_Check/FR845719_1.fasta
+# seqs: 1    min: 8226158    max: 8226158    avg: 8226158.0    sum: 8226158    alph: DNA
+# order 0
+A 1.376e-01
+C 3.624e-01
+G 3.624e-01
+T 1.376e-01
+# order 1
+AA 1.544e-02
+AC 5.529e-02
+AG 4.849e-02
+AT 1.837e-02
+CA 4.606e-02
+CC 1.166e-01
+CG 1.512e-01
+CT 4.849e-02
+GA 6.653e-02
+GC 1.239e-01
+GG 1.166e-01
+GT 5.529e-02
+TA 9.573e-03
+TC 6.653e-02
+TG 4.606e-02
+TT 1.544e-02

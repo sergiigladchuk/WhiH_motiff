@@ -212,10 +212,11 @@ __Verdict__: run same ChiP-seq data set with both services, and then conduct fur
 
 # Next steps
 
-Last update: 2016-11-28   
+Last update: 2016-11-30   
 
 * ~~review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test~~
 * perform analysis of the same data with other suit, e.g. ChIPMunk
 * ~~check possibility to convert discovered motifs into HMM-profile (contact Markus)~~
+* run full analysis with option to reduce background and search only for palindromes and select best motif
 * get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible). And with PREDetector 2.0
-* compare available transcriptomics data for most significant motif based positions with non significant
+* compare available transcriptomics data for most significant motif based positions with non significant - permutation test
