@@ -1,0 +1,2024 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.11.2 (Release date: Mon Oct 24 12:27:06 2016 -0700)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme-suite.org .
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme-suite.org .
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= data/all_mid100.fna
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+1438525                  1.0000    100  1483575                  1.0000    100  
+1813075                  1.0000    100  3340175                  1.0000    100  
+3765675                  1.0000    100  4021575                  1.0000    100  
+4990825                  1.0000    100  5370500                  1.0000    100  
+5521450                  1.0000    100  7470575                  1.0000    100  
+1574875                  1.0000    100  1538675                  1.0000    100  
+284475                   1.0000    100  5970350                  1.0000    100  
+8216200                  1.0000    100  6781775                  1.0000    100  
+6275525                  1.0000    100  5111575                  1.0000    100  
+502275                   1.0000    100  4776750                  1.0000    100  
+3648850                  1.0000    100  7962850                  1.0000    100  
+107775                   1.0000    100  4056750                  1.0000    100  
+5232875                  1.0000    100  4798225                  1.0000    100  
+8015225                  1.0000    100  1446675                  1.0000    100  
+8216150                  1.0000    100  2685875                  1.0000    100  
+4842075                  1.0000    100  945550                   1.0000    100  
+3813825                  1.0000    100  1629350                  1.0000    100  
+4792100                  1.0000    100  1935550                  1.0000    100  
+7988200                  1.0000    100  1904750                  1.0000    100  
+4157200                  1.0000    100  6889275                  1.0000    100  
+2589100                  1.0000    100  4171275                  1.0000    100  
+2265650                  1.0000    100  5007350                  1.0000    100  
+2070300                  1.0000    100  3957150                  1.0000    100  
+2070275                  1.0000    100  3884875                  1.0000    100  
+5705225                  1.0000    100  6518625                  1.0000    100  
+4117225                  1.0000    100  4607650                  1.0000    100  
+2397475                  1.0000    100  1638500                  1.0000    100  
+6323575                  1.0000    100  7474275                  1.0000    100  
+2731250                  1.0000    100  2307575                  1.0000    100  
+5508725                  1.0000    100  5219425                  1.0000    100  
+4220075                  1.0000    100  7158125                  1.0000    100  
+3757850                  1.0000    100  6449350                  1.0000    100  
+4212500                  1.0000    100  5840050                  1.0000    100  
+905725                   1.0000    100  3757875                  1.0000    100  
+3279250                  1.0000    100  501825                   1.0000    100  
+6076250                  1.0000    100  7493575                  1.0000    100  
+4682500                  1.0000    100  884600                   1.0000    100  
+4956850                  1.0000    100  3275925                  1.0000    100  
+7472425                  1.0000    100  4699325                  1.0000    100  
+7838825                  1.0000    100  2297325                  1.0000    100  
+3144100                  1.0000    100  4682475                  1.0000    100  
+3673125                  1.0000    100  4153050                  1.0000    100  
+2787475                  1.0000    100  2854100                  1.0000    100  
+1086975                  1.0000    100  6703550                  1.0000    100  
+5245650                  1.0000    100  3872400                  1.0000    100  
+1385300                  1.0000    100  1171900                  1.0000    100  
+1528125                  1.0000    100  4192900                  1.0000    100  
+3940375                  1.0000    100  1201525                  1.0000    100  
+5212775                  1.0000    100  3884925                  1.0000    100  
+7626100                  1.0000    100  7001150                  1.0000    100  
+4178950                  1.0000    100  6508200                  1.0000    100  
+703625                   1.0000    100  4600725                  1.0000    100  
+4178925                  1.0000    100  2866075                  1.0000    100  
+6934250                  1.0000    100  4684950                  1.0000    100  
+5117650                  1.0000    100  3940425                  1.0000    100  
+3491200                  1.0000    100  5235600                  1.0000    100  
+594675                   1.0000    100  4684900                  1.0000    100  
+3014450                  1.0000    100  4545350                  1.0000    100  
+5284925                  1.0000    100  2549875                  1.0000    100  
+3301300                  1.0000    100  6348175                  1.0000    100  
+2425525                  1.0000    100  3540325                  1.0000    100  
+1433300                  1.0000    100  3862825                  1.0000    100  
+5480100                  1.0000    100  2425275                  1.0000    100  
+5296600                  1.0000    100  5089475                  1.0000    100  
+4685050                  1.0000    100  6601375                  1.0000    100  
+5032550                  1.0000    100  1346275                  1.0000    100  
+7472475                  1.0000    100  3197200                  1.0000    100  
+3349275                  1.0000    100  2854150                  1.0000    100  
+1503250                  1.0000    100  1337400                  1.0000    100  
+6508300                  1.0000    100  140950                   1.0000    100  
+2278925                  1.0000    100  1043250                  1.0000    100  
+3147525                  1.0000    100  5339400                  1.0000    100  
+5426475                  1.0000    100  8156200                  1.0000    100  
+5149350                  1.0000    100  4802600                  1.0000    100  
+5992875                  1.0000    100  240725                   1.0000    100  
+6733725                  1.0000    100  2129325                  1.0000    100  
+3222650                  1.0000    100  3038300                  1.0000    100  
+3011125                  1.0000    100  6882000                  1.0000    100  
+1189600                  1.0000    100  513600                   1.0000    100  
+8156175                  1.0000    100  169850                   1.0000    100  
+6379725                  1.0000    100  7022500                  1.0000    100  
+4030350                  1.0000    100  2530125                  1.0000    100  
+3051050                  1.0000    100  1777400                  1.0000    100  
+6733750                  1.0000    100  4725700                  1.0000    100  
+5814575                  1.0000    100  7181875                  1.0000    100  
+2577650                  1.0000    100  4980625                  1.0000    100  
+5488600                  1.0000    100  4090875                  1.0000    100  
+2884050                  1.0000    100  5005650                  1.0000    100  
+2009900                  1.0000    100  6058825                  1.0000    100  
+4168375                  1.0000    100  2545475                  1.0000    100  
+1148775                  1.0000    100  2545450                  1.0000    100  
+1920250                  1.0000    100  4734200                  1.0000    100  
+4684700                  1.0000    100  1182850                  1.0000    100  
+1294600                  1.0000    100  7148425                  1.0000    100  
+2425575                  1.0000    100  2573200                  1.0000    100  
+600575                   1.0000    100  1024225                  1.0000    100  
+670825                   1.0000    100  7203100                  1.0000    100  
+4754900                  1.0000    100  86775                    1.0000    100  
+4090850                  1.0000    100  1487100                  1.0000    100  
+1877775                  1.0000    100  8222750                  1.0000    100  
+7953575                  1.0000    100  3610525                  1.0000    100  
+2909800                  1.0000    100  1433250                  1.0000    100  
+3862900                  1.0000    100  608350                   1.0000    100  
+4308075                  1.0000    100  2394675                  1.0000    100  
+3147425                  1.0000    100  3546100                  1.0000    100  
+7066725                  1.0000    100  5122650                  1.0000    100  
+7126775                  1.0000    100  5239675                  1.0000    100  
+1977075                  1.0000    100  1294650                  1.0000    100  
+5671025                  1.0000    100  7526850                  1.0000    100  
+1182875                  1.0000    100  6967475                  1.0000    100  
+5670725                  1.0000    100  6147525                  1.0000    100  
+5234950                  1.0000    100  1288500                  1.0000    100  
+584400                   1.0000    100  1294525                  1.0000    100  
+3045200                  1.0000    100  4566800                  1.0000    100  
+584450                   1.0000    100  3973800                  1.0000    100  
+3745125                  1.0000    100  4741600                  1.0000    100  
+2607075                  1.0000    100  1977050                  1.0000    100  
+7060650                  1.0000    100  5670750                  1.0000    100  
+4906850                  1.0000    100  639750                   1.0000    100  
+2384725                  1.0000    100  3038250                  1.0000    100  
+3670125                  1.0000    100  2096900                  1.0000    100  
+7988075                  1.0000    100  3945125                  1.0000    100  
+7804125                  1.0000    100  3481350                  1.0000    100  
+6588200                  1.0000    100  5479300                  1.0000    100  
+3306225                  1.0000    100  6803300                  1.0000    100  
+3406075                  1.0000    100  1941625                  1.0000    100  
+2425425                  1.0000    100  5682625                  1.0000    100  
+5695000                  1.0000    100  1433375                  1.0000    100  
+3961325                  1.0000    100  3745225                  1.0000    100  
+3101350                  1.0000    100  2466150                  1.0000    100  
+5386525                  1.0000    100  5002275                  1.0000    100  
+5215400                  1.0000    100  1082350                  1.0000    100  
+3307450                  1.0000    100  4747850                  1.0000    100  
+2484975                  1.0000    100  1068000                  1.0000    100  
+6561450                  1.0000    100  7043100                  1.0000    100  
+4580300                  1.0000    100  2836350                  1.0000    100  
+4180400                  1.0000    100  6459350                  1.0000    100  
+1155275                  1.0000    100  5671100                  1.0000    100  
+5386475                  1.0000    100  248575                   1.0000    100  
+7526825                  1.0000    100  444650                   1.0000    100  
+5829700                  1.0000    100  1539850                  1.0000    100  
+5793425                  1.0000    100  3517650                  1.0000    100  
+6018200                  1.0000    100  4144025                  1.0000    100  
+5850025                  1.0000    100  1446775                  1.0000    100  
+1951925                  1.0000    100  6791525                  1.0000    100  
+1500650                  1.0000    100  3093125                  1.0000    100  
+1252325                  1.0000    100  5670975                  1.0000    100  
+1294450                  1.0000    100  96150                    1.0000    100  
+3892350                  1.0000    100  5139725                  1.0000    100  
+4160425                  1.0000    100  5215175                  1.0000    100  
+4694050                  1.0000    100  4694025                  1.0000    100  
+4408025                  1.0000    100  6137550                  1.0000    100  
+8027000                  1.0000    100  8069775                  1.0000    100  
+6467875                  1.0000    100  4381625                  1.0000    100  
+1572750                  1.0000    100  4141575                  1.0000    100  
+3459275                  1.0000    100  6011775                  1.0000    100  
+6502975                  1.0000    100  6470700                  1.0000    100  
+6719475                  1.0000    100  2956875                  1.0000    100  
+3406100                  1.0000    100  1371825                  1.0000    100  
+4708350                  1.0000    100  7157275                  1.0000    100  
+7155400                  1.0000    100  6177175                  1.0000    100  
+2585325                  1.0000    100  6558950                  1.0000    100  
+1093650                  1.0000    100  724000                   1.0000    100  
+2339300                  1.0000    100  7192425                  1.0000    100  
+6219450                  1.0000    100  1553450                  1.0000    100  
+7637350                  1.0000    100  4141600                  1.0000    100  
+4433725                  1.0000    100  463200                   1.0000    100  
+1736575                  1.0000    100  2960700                  1.0000    100  
+7304900                  1.0000    100  5146900                  1.0000    100  
+5694675                  1.0000    100  1812025                  1.0000    100  
+5062425                  1.0000    100  7838700                  1.0000    100  
+4090525                  1.0000    100  2530200                  1.0000    100  
+5052600                  1.0000    100  6184575                  1.0000    100  
+1404675                  1.0000    100  4566750                  1.0000    100  
+3950800                  1.0000    100  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme data/all_mid100.fna -oc results/2016-12-01/meme -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp -nostatus 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            6    maxw=           30
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=      349    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           34900    N=             349    shuffle=        -1
+strands: + -
+sample: seed=            0    ctfrac=         -1    maxwords=       -1
+Letter frequencies in dataset:
+A 0.185 C 0.315 G 0.315 T 0.185 
+Background letter frequencies (from data/bg_markov0.txt):
+A 0.138 C 0.362 G 0.362 T 0.138 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1 MEME	width =  15  sites = 314  llr = 2194  E-value = 1.0e-136
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  235326332:63343
+pos.-specific     C  4:2:51162234313
+probability       G  27::33:1261:141
+matrix            T  2:361:7:41:3313
+
+         bits    2.9                
+                 2.6                
+                 2.3                
+                 2.0                
+Relative         1.7    *  *        
+Entropy          1.4    *  *        
+(10.1 bits)      1.1    *  *        
+                 0.9  *** **   **   
+                 0.6  *** ***  ***  
+                 0.3 **** **********
+                 0.0 ---------------
+
+Multilevel           CGATCATCTGACTGA
+consensus            TATAGGAACCCTCAC
+sequence             A C        AA T
+                                    
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                 Site    
+-------------            ------  ----- ---------            ---------------
+5840050                      +     42  1.80e-10 AATCCGACTC AGATCATCTGATAAA GTCGGAACCG
+1538675                      -     26  1.40e-08 GCCATGCAGC TGAAAATATGAAAGT CGTGCCACAA
+3884875                      +     16  1.24e-07 ACGCTTGATC GGATCATCTGAACAT TCCTGCCGAT
+5117650                      +     59  1.97e-07 GCAATAGGTG TGATCATCTCCAAAT GGAATGAATC
+1446675                      +     30  3.09e-07 TAATGTCGAG CATTAATATGAATGC ATGGCGAGGA
+4090850                      +     73  4.88e-07 GAGCGAAGAC AAAACAAAAGAACAA GCACTCGTAG
+4090875                      +     48  4.88e-07 GAGCGAAGAC AAAACAAAAGAACAA GCACTCGTAG
+1483575                      +     67  4.88e-07 ACAGGTCAAC CGATAATCCGACTAT CCGTCACCAC
+3406100                      +     21  9.19e-07 GTCCACAGGC TGTTCATAAGCCTAT TCGGGTACGC
+3406075                      +     46  9.19e-07 GTCCACAGGC TGTTCATAAGCCTAT TCGGGTACGC
+6733750                      +     37  9.19e-07 GGCGCCGAGC AGATCATAGGAAAGC TCCCTCAGGA
+6733725                      +     62  9.19e-07 GGCGCCGAGC AGATCATAGGAAAGC TCCCTCAGGA
+4792100                      +     41  9.19e-07 TCTAAGTAGA TGTAAATATGACTCA TTGCGAATCT
+284475                       +     30  9.19e-07 ACCCCTTCGG CGTTCATAGGACTAT TCGGGAGATC
+1813075                      -     48  9.19e-07 AGGACCCACC TGTTCATATGACGAA TGCGGCGCCG
+4545350                      -     50  1.12e-06 GCAGTGAGCC CGTAAATGTGAAAAA AGGGCAAAAT
+3144100                      -     74  1.12e-06 GCTAGCCGTG CATACAAATGATCAT GATGCGTTCA
+7637350                      +     75  1.36e-06 TCGCAATAAC AGTTGATCTCCAAAA GGGGTGTGGA
+444650                       -     51  1.36e-06 GACCGCTCGG TGATCATCCGATCAC CGAAAAGGGT
+6348175                      +     33  1.36e-06 ATCGCCGTCG GAATGATCGGAAAAA TGTCCCTGCG
+1638500                      -     27  1.36e-06 GAAGACTTCA TGAAGATCTGACCGA AGAAATCCCC
+5111575                      -     47  1.36e-06 CCGTCCGGAC CGATCATCGGAAATT CCGAGGAACG
+5339400                      +     36  1.65e-06 TGCTTGAATC CGATGAACTGACCAA TGAGGGCCGG
+8216200                      -     53  1.65e-06 TACAGGTTTG CGAAAATATGCTTTT TGAGCCATCA
+3045200                      +     74  2.02e-06 ATGCGGAAAG TGTTCAAATCACCAA AAAACGTGAC
+7022500                      +     47  2.02e-06 GTCCGCGGGA CGATCATCAGACCGA TGACGATGGA
+1935550                      -     34  2.02e-06 GGACCACAGC AGAAAATATGGTCAT TCCGCAGAAC
+945550                       +      1  2.45e-06          . CGAAGATCGTATAAA TGGCCGCGTC
+3197200                      +     36  2.95e-06 GCCTCCGCTC AGCTCATCGGACTAA GCTAAGTCCA
+4798225                      +     51  2.95e-06 TCAGACTAGG CGTAAATATGACCGA TATGCCGCAT
+5370500                      +     86  2.95e-06 ATGACGCGTC AGTTCAACCGATTAC           
+2787475                      +     59  3.53e-06 CGTACCGCGC TGATGATCGGACATA CCGTCCGACC
+5219425                      -     59  3.53e-06 CACCCCACAC CATTCGAATGACTAA TCCCCTCACC
+5705225                      +     54  3.53e-06 CGTGGAGGGG TGATCGTAGGATTAC TTTCGGTACT
+7474275                      +      9  4.20e-06   CATCCGAG TAATCGTCAGATAAG CAGCCCAGTC
+8156175                      -     85  5.00e-06          C GGAAAGTATGATCAA GCGATGTCCG
+8156200                      -     60  5.00e-06 GACACGCCTC GGAAAGTATGATCAA GCGATGTCCG
+4117225                      +     64  5.00e-06 GCCTACTTGA TGATCATGTGATCGC GTCCGGATGG
+1553450                      -     38  5.97e-06 GCCCCGATGT CGAAGATCCGATTTT GGACGACCGG
+4220075                      +     61  7.11e-06 GGCCCCAGTG CACTCATCTGCTTGT CGGATGGGGT
+2070275                      +     54  7.11e-06 CTTCGCCCCA CATTCATCCGATCGT GTGAGGATTG
+3957150                      -     57  7.11e-06 GGACGGGTGG TGTTCATCGGAAGAA CTGCGCGGCA
+2070300                      +     29  7.11e-06 CTTCGCCCCA CATTCATCCGATCGT GTGAGGATTG
+2909800                      -     58  8.43e-06 CAGGCCAGAC CGATGTTCTTATTGA CAGTCGATCC
+4990825                      -     30  8.43e-06 TCCGATGCTC AGAAAGTATTCCTAA TGAGCCGACC
+7192425                      -     43  9.94e-06 ACGCCCCATG TGATGATCTCCCTTT CACGAAAGGG
+1148775                      -      7  9.94e-06 ACTAAAGGTG CAATCGAGTGAAAAA CGGGCG    
+240725                       -     17  9.94e-06 CTTCTCGCCA AGAACGTGAGAAAAT CCGCCATTTG
+502275                       -     50  9.94e-06 TCCGGTCCGT GAAAAGTCTGATATA TGCCTGGGAA
+1574875                      +     47  9.94e-06 TCCCCCGATC GGATCAACAGATCGT CACACCACCC
+3546100                      -     59  1.17e-05 TTCCATGGAG CGATCATCACACCAC CGCCCACACC
+3147525                      -     34  1.17e-05 TCAGACGTCA ATAAAATAAGACAAC ATCGGGCTCA
+3540325                      +     76  1.17e-05 CGACGATACG CGCTAATCGGACAAT TTCCTCTTAG
+3301300                      -     34  1.17e-05 GGGGTGTGAG AATTCATCGCATAAG TGGTTCCGTT
+8015225                      +     22  1.17e-05 CCCGGCGTCT TGATCATCTTTCTGT CCTCTCATCC
+7526850                      -     64  1.37e-05 CCGTGCCCCT CGTAGATCGGATAAC CCGACTCGCC
+5284925                      -     81  1.37e-05      ACACC AGTTGATCTGGCAGT CGGCCCTTCC
+7962850                      -     34  1.37e-05 AATTACTTAC TGATAATATCCACGC ATGGCAACCC
+8222750                      +     46  1.60e-05 CGACCGTACC AACTAGTCTGACAGT ATCGCCGCTT
+7181875                      +     55  1.60e-05 CTCTCGTGTG TGTTCATACGGTAGT CATGGGTGCC
+4607650                      +     18  1.60e-05 AGAACCTGCA AACAAGTCTGAAAAC TACAAAAGCC
+1629350                      +     33  1.60e-05 TGCATGGCGT CGATCATCTCATCCC ATCAACCCGG
+1438525                      +     70  1.60e-05 TCACATCGGG AATTAAAAGTACTAC TTTTATGTCA
+1539850                      +     18  1.87e-05 GCGTACGCCG CGTTCATCACACTGC CGAGCAGCGC
+1941625                      +     69  1.87e-05 ATGCCCGCGC CGATGATCACGTAAT ACGCCGTGAG
+7126775                      -     41  1.87e-05 TGCAGGATGT CGATGATCTGACCGG CGCCGAACTT
+5814575                      +     45  1.87e-05 GGCGTGGAGA TGATGATCAGCTGAT CGGCGAGGTC
+3872400                      +     42  1.87e-05 ACCTGCTGTC CGATATTCATAAAGT GGGGCAATGC
+3648850                      +     44  1.87e-05 GCGGCCGGAA AGATGAAACGACAAG CGGCAATACG
+4685050                      -     51  2.18e-05 ACGGATGGAC GGATGAACGCATAAA AGAGTAGCCG
+7988200                      -     46  2.18e-05 CCCGCCGGAC CGATGATCACACCGT CGGTGACCGC
+8069775                      -     39  2.55e-05 GGGTGGAACC TAAAGGTCTGAACCA GAGGCGTCAA
+1294525                      +     31  2.55e-05 TCGCGCACGC AGAACAACCGAAGAT CCGGTCCGTA
+4030350                      -     63  2.55e-05 CAGTTTGCCC CGATAATCCCACTCA TTACGGGACC
+2589100                      +     61  2.55e-05 CCGGGATCGG CGTTCATATGCCTGG GGGCGACCGA
+5970350                      -     30  2.55e-05 CACAATTGAC GATTAATCGGACATA ACCGGCAGAT
+7470575                      -     58  2.55e-05 ATTCGTGGGA TGAACATCTGTTCAC ACGAATTGAT
+5146900                      -     26  2.96e-05 TCTGTGCTGC TGATCACACGAAAGA GCGGCGAGAG
+248575                       -     39  2.96e-05 ATCGTATTGA TGATCGTGCGACAAA CCAAAACGGG
+4180400                      -     23  2.96e-05 CCGGGCAATG GGATCAAACGATCTA CCACCATACG
+3307450                      +     66  2.96e-05 CGCACGATCT GGCTGATATCACTGA ACTTTTTTGT
+513600                       +     44  2.96e-05 CAAGACCGGA AATACATCTCATGTT TTTCTTGACA
+5235600                      -     84  2.96e-05         CT CGATCCTACGATAGA CAATGTCTAA
+2956875                      -     16  3.42e-05 GGGGCCTGTC AGATGTAATGAATTC GGCACAACAC
+4906850                      -     57  3.42e-05 GTCAACTGCC CGTTGATCACGAAAA GTTCAGCCCG
+6379725                      -     68  3.42e-05 GGTCCGAAAG CGGACATCTTATTGA TTATCCACTT
+5089475                      +     44  3.42e-05 ACACCTGGTC AGATGATGCTACAGA GGGGAGTCGG
+2397475                      +     56  3.42e-05 GAAAGCTCAT GATTCGTACGACAAT GAGACCATGA
+3340175                      -     39  3.42e-05 GCTTCCGATC GGATCATCGGATCGC GGCGGCGCGG
+96150                        -     47  3.94e-05 GACGGCGGCG AACTCATCACACTGC GGCACCCCGA
+5850025                      -     64  3.94e-05 TCCATCAGGA CGATCGTCACATCGT CGTGCTGCTC
+600575                       +     45  3.94e-05 ACCGTTGGAC CGCTCATAGGATTTC ACCTTTCTCG
+8216150                      +     61  3.94e-05 GGACGGGGGA AGATGGTCAGATCGC AAGCTGTCCC
+107775                       -     62  3.94e-05 GGACCCCGCG AACACATGTGATCAC GACGTGATTA
+463200                       -     42  4.53e-05 GTGGCCCCGG CGATGATCTGCTGAC CGTACGAACC
+5671100                      +     27  4.53e-05 CGGATCTGCG GAAACGTATGATCCA AAGCCCCCGT
+4600725                      +     46  4.53e-05 AGGCTGCCCG GATTAGAATTATTTT CCAGTTCCCC
+703625                       -     60  4.53e-05 GGCAAGGCCC TGAAGATCAACAAAT ACGCCGCCGA
+5245650                      +      2  4.53e-05          G CGTATATCAGCTTGT ATCACCCGAT
+4171275                      +     47  4.53e-05 GAGGACAAGC CGTTCGTCCTATAAC CGACTCGGCC
+5232875                      -     52  4.53e-05 CCCTGTCCCC CATAAATACCATCGT CGCACCACCC
+6275525                      -     55  4.53e-05 ACGCCGCCCC CGTTCGTACGACTTA TCTGCCCACT
+4141600                      -     13  5.22e-05 ATCCATCTAG AAATCCTATGACCGC ATCACGACCT
+4141575                      -     38  5.22e-05 ATCCATCTAG AAATCCTATGACCGC ATCACGACCT
+2096900                      +     44  5.22e-05 CCCGTTAGGC TGTTCGTATGACGAC CGGGGTGCGC
+584450                       -     50  5.22e-05 AGCCCTGATA TATTCATCTTGTCGC TGCGGGTGAT
+2394675                      +     34  5.22e-05 CCAGAAAAGC TTCTGATCACAAAAT GTTCACTACC
+6601375                      -     62  5.22e-05 GAGCAGACCT GACAAATATGACCAC GCAATCGTTC
+6934250                      +     50  5.22e-05 CTCCCTCGTA CGATCATCCGCATGG CGGAGACCGT
+884600                       +     58  5.22e-05 CAGAATTTTG CAATTATCCGATCGC GTGGGCAGGA
+5386475                      -     16  6.00e-05 AGATTGACCC TGATCAACTGCCGGA TCACCTTGTT
+5002275                      -     33  6.00e-05 TCCGCTTCCC CGATGGTACGAACAC CCTCGGGTAC
+5426475                      -     61  6.00e-05 ACGGCTTAGC CGAAAATCGCAAGAA CTTCATGAAG
+7472475                      -     13  6.00e-05 CGACGCCCGC TGGTCATCTGATCCT TTTTCATGAC
+3940425                      -     69  6.00e-05 GTCTGCGACG TGCTAATCTTCTGAT GTCGCCAGGC
+5212775                      +     39  6.00e-05 CCATTCCCGG AATTCGTATGACCGG CGACGCGCAC
+7472425                      -     63  6.00e-05 CGACGCCCGC TGGTCATCTGATCCT TTTTCATGAC
+3813825                      +     21  6.00e-05 GCACGGTGAA AATTTGTCATCTAAA CACACGTGAT
+4433725                      +     54  6.89e-05 CGGGAGGGCG AGATAAAATGCCGAC AGATCATGGG
+724000                       -     41  6.89e-05 TTAGGATGTG AGTTAAACCCCATGA GAAGGTCGCG
+1528125                      +     55  6.89e-05 GAATGCCGTG TGAAGATCACATCGG CGGCCGAGGC
+4956850                      -     29  6.89e-05 GAGACGTCAC CGTAAGTCACATTTA GTACAAAACG
+4708350                      +     54  7.87e-05 ACGGTGTGGT GGATCATCACACCGC TGACCGGGCC
+4741600                      +     56  7.87e-05 GTCTGCCGCC CGTACGACTTACTAC GCCGTAGGTC
+3222650                      +     35  7.87e-05 CCTGGCGCCG GGAACGTACGACTGT ACGATCGCGG
+3765675                      +     25  7.87e-05 GCCAGAACCA GAAAGATCTCGATGT CCCGCAGCTC
+6502975                      -     40  8.97e-05 AGGTCACACG AAAAACTCGTACAAT ACCAAGCAGT
+3459275                      -     53  8.97e-05 ACGGGATGTC AGAAGATAGGCTGAT CTGTGAGTAT
+1572750                      +     53  8.97e-05 GGTGTCTAGC CTTTCAAAGTACTAA TCTTCGCCGG
+5122650                      +      9  8.97e-05   GGGGGTGG TGATGTTGTCAAAAC GAGACCACTT
+1920250                      +     23  8.97e-05 GCGTACCCGT CAGTAATCTGACTGC CCGTGACCAG
+2884050                      +     32  8.97e-05 CCCCGGTCCG TAAAGCACCGAAAAA CGCCGAAGCG
+7304900                      -     39  1.02e-04 CAACTGGGGT GGCTGGTATGACTAC CTGCCAGAGA
+3945125                      +     34  1.02e-04 CTCGCCGGTG TGATGGTCTTCCTGC TCCTCTACGG
+5671025                      +     38  1.02e-04 TGTAATTGGC AGCACGACTGATTCT GGTTCAGTTA
+2129325                      +     41  1.02e-04 GGGTCCGGCT TGTAGATAATCAGAT GCGTGGCACT
+3014450                      -     27  1.02e-04 TACGGAAATG GGATGATGTCGATAT GAAGGGACGC
+5521450                      -     72  1.02e-04 CGGAGGACAC GAAAGATCCTCATGA ATGTCACCGT
+4308075                      -     79  1.16e-04    GGAGCAG CACTCATGTGAAATG CCGCAGCGCC
+7953575                      -     81  1.16e-04      ACGCC CATTCGTAGGACTGC GGGAAGTGGC
+86775                        +     39  1.16e-04 GCACCTCGGC AGTTCGTCTGCCGAA AACCACGCAG
+670825                       +     12  1.16e-04 GGACCGGGGC AATTCGTCATCTAAG ATTCAGGGCG
+2425275                      +     44  1.16e-04 GCAGCATAGC CGCTCATACGATCTC CTGCTCCGGA
+5480100                      -     22  1.16e-04 CTCCGGACAC GGAATCTCTCAATAT ACGCGAAGAA
+3491200                      +      7  1.16e-04     TGGGAA TACTCATCTCGAAGC AGGCTTCCCG
+4056750                      +     43  1.16e-04 TGTGGGGAAG TGAAAATACGCAGGT AGGACTATCG
+4776750                      +     42  1.16e-04 GGCGCCATAC GACTCGTACGACAAA AGGAATAAAC
+2339300                      -     61  1.32e-04 AGGGGTAGAG CGCTGCTCTTACAAA GCAGATGTCG
+6791525                      +     60  1.32e-04 GGCAGCAGGT TGTACGACTGGAAGA CGAAACCGAT
+7493575                      +     46  1.32e-04 GGGCATAAAG TGATGGTATCCATGG AACCGCTCCC
+5215175                      -     81  1.49e-04      GGCGT TGCTGGTCTGGATGA TGTTGCTGAT
+3892350                      +     36  1.49e-04 CACCGGCCTA CGATCGTCACACGAA AGCACTGCCG
+1500650                      -      9  1.49e-04 AGTGACATGG AACAGATAGCAATGC GCAGCAGG  
+2425425                      +     56  1.49e-04 GTTAACAGCC GAATGCTCTGCCAAT TGAGCTACAG
+1288500                      +     62  1.49e-04 CCTGAACGAT CACAAAACCGACAGA GGGGTTTACA
+4684700                      +     36  1.49e-04 AGGAGGAGCG CAATAGTCGTACCGA TGAGGCCACG
+4021575                      +     58  1.49e-04 CCGAGCGAAC CGATGATCACACCGG CCAGGAGGAG
+4090525                      -     19  1.69e-04 TGGTGCGTGC AGATGATGACACAGG CGAACCGGCT
+7060650                      -     18  1.69e-04 AGCCTATCGA TGATCATCAACCACA CACTGTAGTC
+5992875                      -      3  1.69e-04 TCACCCTTGC CGCTAATACGGACAT AA        
+4802600                      +     55  1.69e-04 AAGGACTACA AGCACATCGGCATCA AGGGGGTCTC
+4684900                      -     67  1.69e-04 TACACCGCTT TGATGATCCGGATCC CGCCCGAAGG
+4684950                      -     17  1.69e-04 TACACCGCTT TGATGATCCGGATCC CGCCCGAAGG
+3757875                      +     74  1.69e-04 GTTTAATGGT AGAACATGAGCTTCC CAAGCTTATA
+6889275                      -     55  1.69e-04 ACCGCTCCTG GGATCATCGGACCGG TCACCTGACA
+7043100                      +     26  1.90e-04 AAGCGAGATC GGTTCCTCGGACAAT CATCCAGGTG
+6561450                      -     26  1.90e-04 CCTCTCGCCA CTAACAACTTATACC GCAGAGGGGG
+1068000                      +     83  1.90e-04 CAGGAGTGTC AACACTTCGGACAAT CCT       
+2384725                      -     70  1.90e-04 ACCTCCCGGA AAAGTAACAGAATAA TAACGTCACC
+5005650                      -     82  1.90e-04       CTGA TGATGGACCGCATAC CGCTCTTCCT
+4980625                      +     30  1.90e-04 AGGTACTGGG AATACAAAGCATCGC CCTACACGGG
+169850                       +     58  1.90e-04 TAGATTTCTA ATCTAGACTGACAAT CTAGTCAGTG
+7626100                      +      6  1.90e-04      CGCCG CGATCAACGGCCAGC TCAAGGTCTG
+1086975                      +     31  1.90e-04 GGGCACGGAA CAATCGACATATACC AATGTCCTAT
+1736575                      +     78  2.14e-04 CGGAAACGAT CATTCGTAGGACGAA TCAGCGGC  
+4694025                      -     63  2.14e-04 CAATGAAGTA CGTACATGCGCACAA CACCTGGCGG
+4694050                      -     38  2.14e-04 CAATGAAGTA CGTACATGCGCACAA CACCTGGCGG
+7804125                      -     40  2.14e-04 ATGCTGCCGT TGTAGTACTGCATGT TGAGCCACCA
+5032550                      +     28  2.14e-04 GAACCGCTGT TGTAGTACTGCATGT TGACCACCGT
+1171900                      -      6  2.14e-04 CCGCACATTC AGAACGTAAGACCTG TACGC     
+2265650                      -      8  2.14e-04 CCACCGCCCA AGATCACATCACAGG GGGACGG   
+6719475                      -     48  2.41e-04 GGGCGGAAGT AGTACTTCTCCCAGA AGCCCTTGAC
+5386525                      -     39  2.41e-04 ACGAACCCGA TGAACGACATCCAGA CACTCGGCAC
+2466150                      +     22  2.41e-04 TTTCAGCCAC AGTTGAAAAGCATCG CGGCAATCGG
+5695000                      +     41  2.41e-04 GCGGAGCCTG CGCTCACCTGACAAC CCAGCCCCGA
+5234950                      +     72  2.41e-04 TAGCTCGCTG GGCTCATAACCCAGA GGTCGCAGGT
+7203100                      -     46  2.41e-04 GTTGGGAGCG CTCTCATATGACCGC GTCCGAAACC
+4192900                      +     61  2.41e-04 TAGCTCGCTG GGCTCATAACCCAGA GGTCGCAGGT
+2854100                      +     11  2.41e-04 CAACTGTCTG GACAAATCGCATTTT GACGGATCGA
+2731250                      -     39  2.41e-04 GCGCCAGTGA CGAAAATCTTACGCC CTTATAACCC
+1404675                      -     59  2.70e-04 CACGCGTCGG CGTTGATCGGGACGT ACACTTGTCG
+1294450                      -     84  2.70e-04         CG CGATACTGGGATTGA ACCAGTGACC
+3306225                      -     29  2.70e-04 GGGGGTCTGG GGTTCAAATCCCCAC AGGTCCACAG
+5670750                      +      5  2.70e-04       GCAG AGCTCATCTGCACCG TACGTGGATC
+5670725                      +     30  2.70e-04 CAGCTCGCAG AGCTCATCTGCACCG TACGTGGATC
+1294600                      -     45  2.70e-04 ACTGCGTGCG CGATACTGGGATTGA ACCAGTGACC
+501825                       +     56  2.70e-04 CGTGGTTCCC AAAGAAACTTACAGT GCCTTTGACG
+5139725                      -     71  3.03e-04 GCGCCGTTGT TGATCGACTCGTCGT CCGGGTGCGC
+1385300                      -     38  3.03e-04 GTCGAAAAGC TGATCGCCGGAATGT AAGCAGGTCA
+7838825                      +     59  3.03e-04 GTCGGGACCC CGATGATGACCTCGA CGGGTGTCGA
+905725                       -     10  3.03e-04 AGCACCACCA TGAACGTCATCACCA ACCTGCTCG 
+5007350                      +     58  3.03e-04 ACCGGGCGGG TGAAGACACGATTCT TCCCCGCCAC
+5694675                      -     49  3.39e-04 TTGTCGTGCC GGTTCCACTGCCAAA CAGCGAAGGT
+6467875                      +     26  3.39e-04 ACCGACGGCC AGCACATCGGCCTCA CCGCGACGGG
+6459350                      -     22  3.39e-04 CTCCTGCTTC TTCTCAACACACAGA CACCGATCCC
+3147425                      -     78  3.39e-04   CCCCGATA GGCTCATGTGCCAAC GCGGAGCTTC
+2545475                      +     68  3.39e-04 AGCTAAGGAG AATTGAACTCCTGAC CTCCTGCATG
+2549875                      +     13  3.39e-04 AGCTAAGGAG AATTGAACTCCTGAC CTCCTGCATG
+6076250                      +     16  3.39e-04 CCTCCCGGTG AGGAAATATGCCTGC GATGCTGAGC
+6781775                      -     14  3.39e-04 ACCCGCACAG TGATTACCACACTGT TCCGTTCCGC
+6558950                      +     86  3.79e-04 TGAATCTATC GATACGTCATCTCAT           
+4381625                      -     71  3.79e-04 TAACGCCCCA TGATGATCCGTTTTG CCTACATTGC
+2836350                      +     53  3.79e-04 GGTGACGCCC GGTAGATCTGGATCC ATGACGACGT
+1082350                      -     64  4.23e-04 TTGCTCGGTG AACAGTTCCGATATA TCGTTGAGGC
+6147525                      -     62  4.23e-04 GCAAGGGCGG AGATCACCTTCATCC GCACCGATCC
+2545450                      -     72  4.23e-04 AATTCTCCTT AGCTCCACAGAAAAG AAGCGGGTCA
+1189600                      +     47  4.23e-04 TTCTGCGGTC TATTTATCAGGCAGG GTTCCTGATA
+140950                       -     66  4.23e-04 GGCGAAAGAC CGTTCATATGTCCGG TGCCAACGGC
+594675                       -     36  4.23e-04 CAACGCGGTC GAATGGTACGACTGG TACGCGTACA
+1201525                      -     69  4.23e-04 TTTTTCCCCT GGCTGAAATGCCTAG GGGCCGATCC
+2297325                      +     71  4.23e-04 TCCACCATAC CTTTCATGGTATATA CCTCGAAAGA
+5508725                      -     44  4.23e-04 CTGGCCGGTG TGCTCGTCGTACTGC TTGGACACCC
+2530200                      +     12  4.71e-04 ATCGAACCTG TAAAGGTCTTTTCGT GGCGAACATC
+4842075                      -     35  4.71e-04 GTTGTGTCGC TCAAGATACGCTTAT GTACTTTTCC
+5670975                      -     71  5.23e-04 GTCGTGCTGC CAATTACACCATAGA CCAATACGTG
+5682625                      +      8  5.23e-04    ACTTCAG AATTACAGTGAAATC CGGCGCACCG
+2573200                      -     36  5.23e-04 CGGGAGAGGC CGCTCGTCCGATTCC GGAACGCCGC
+5488600                      +     62  5.23e-04 AACCGGTGCC AGTAGTACTGCTTGC GGACCGGGTC
+6177175                      -     59  5.80e-04 CGGCAAGGGT CGATGCACTGCACAC CTTCGGAAAG
+3862825                      -     25  5.80e-04 TGCGGGCGCA CGCTAGTGTTCTTGA TACCCATCGG
+4682475                      -     79  5.80e-04    CCACTCG GGCACATCGCCATGA GATCGCTGCC
+4682500                      -     54  5.80e-04 TGGCCACTCG GGCACATCGCCATGA GATCGCTGCC
+4408025                      -     39  6.43e-04 TTCGGCTCAC CGATGTACTCGATGT GGTCGAGGAC
+3481350                      +     69  6.43e-04 TAGCGCTGCC TGTACGAAGCGTTAT TCTCCTCAGA
+3745125                      -      9  6.43e-04 GGTGACGCGC TGAAGGTCACCCTCT TCGGAGAG  
+584400                       +     10  6.43e-04  CCCCACGCC CGATAAAGGGCACTA GCACCTCAAG
+6967475                      -     60  6.43e-04 CCCCCACGCC CGATAAAGGGCACTA GCACCTCAAG
+3610525                      +     42  6.43e-04 ATTACGAGTG CGTTGCTCTGGCCAA CTGAGCTAAG
+3011125                      +     48  6.43e-04 CCCGAGGCGA AGTAGTACTTGTTGA CCGAACGGTA
+2854150                      +     44  6.43e-04 GGAGCACACC CGCACGTCAGGTAGA GTTCTCTCTG
+1433300                      -     58  6.43e-04 CCCCCACGCC CGATAAAGGGCACTA GCACCTCAAG
+7155400                      +     13  7.12e-04 GCCCTCTTAT CGGTAATCAGTCAAA ACGGCAACAA
+1043250                      +     16  7.12e-04 CATTCGCCAC GGATCAACCGCATCG CGGGATCACG
+2278925                      +     10  7.12e-04  CGTCGACGC AGAAGACATGGACAC ACATCGGCAC
+4212500                      -     25  7.12e-04 CAGCCCCGGC AAATTGTGTGACCGG AGGGGTACGG
+7158125                      -     45  7.12e-04 TCCGCGAGGC GACTGGTATTACTGG TGCATGCAGG
+1433375                      -     49  7.88e-04 CGCCGTAACA AGAAGGACCCCACAA GACTGTGGGG
+6803300                      +     60  7.88e-04 GCTGTGGCAC TGCACATGTCCATGG ACATCGTGAG
+1977050                      +     19  7.88e-04 CCGCGGCCGA GAATGGCCTGAATGC GACGGACGCA
+1433250                      -     11  7.88e-04 CCGACGAGGA AAACCATAGCAAACA TTCGGGGTGG
+2866075                      +     10  7.88e-04  CCGCTCTAC CGCTCGTCCGATCTC CCGCTCGCCT
+3757850                      -     82  7.88e-04       CTAC CATTAAACTACATCC GCGCAGCGGC
+2307575                      +     32  7.88e-04 GCCGAGCAGC CATATGTCACACTGC CCCCATCCGG
+5062425                      +     44  8.70e-04 GCGCCCAACC AGTACGACTGGACCT CCGCGAGCCC
+1182875                      +     27  8.70e-04 GACAGAGAGC GGAACGACGCATTGC ACAGGGTGCG
+1182850                      +     52  8.70e-04 GACAGAGAGC GGAACGACGCATTGC ACAGGGTGCG
+2685875                      -     47  8.70e-04 CGAGTCGGAA TGGTTATCGGACCGT ATGGCAGGGC
+7838700                      -     30  9.59e-04 GTGACCCGCA TGAACAAGCGCACGC GCACCCTGGC
+2585325                      +     34  9.59e-04 TTGTAGTTCT CGCTGGTGTTCTTGT CGTACGTCTT
+2425575                      +     19  9.59e-04 GGGATTGCTG CGTTGCACCGAACGT ACCCACTCCG
+5149350                      -     42  9.59e-04 CGCAATGACG TGTTCGTCCGTTTTC CTCCCCACCC
+2425525                      +     69  9.59e-04 GGGATTGCTG CGTTGCACCGAACGT ACCCACTCCG
+3275925                      +     49  9.59e-04 GGACATTAGT CGATAAGAGGACAAA CCTGTGAGGA
+7148425                      -     70  1.06e-03 GCGAACTGCG CGAACGTCATCAACG TGGCGTCCAC
+1503250                      -     82  1.06e-03       TCGG CGCACCTACGAACAC CGAGCACGGC
+4153050                      +     20  1.06e-03 CTTGGCAAGG TGATGCTCTACCAAC TGAGCCACGT
+5052600                      +     46  1.16e-03 GTGCGAGCGA TGCTGGAAGGAAACC GTGTGAGCCG
+1812025                      +     28  1.16e-03 ACCGAGGGGA CATACAACAGGTACG AGCGCGGCCT
+6470700                      -     26  1.16e-03 TTGTCGTACT GGATCCACTCCTTGC CGCGCAGCGC
+2484975                      -     65  1.16e-03 TCTTCGGTCA TGACTAACTCACCAA GCCCACAGCG
+6588200                      +      4  1.16e-03        GTC TGCAGGAATTACCGC AGGCGGGCCG
+3670125                      -     24  1.16e-03 TCCTTGCGGT CGTTCGTCGTACCGG TCTTGCCCGC
+3884925                      +     12  1.16e-03 GGACTCCTCG TGCTGCTGTGCTTAC TGCCCTGCCT
+6323575                      -     40  1.16e-03 GCGCCGTAAG CAGTTATCTCGATGT CGAGATAACT
+639750                       +      5  1.27e-03       CGCC GACAGGAATGAATTG GCACGGGTTT
+1024225                      +     26  1.27e-03 GAAGTTCACG CGCATGTCCGACATT ATGACCGGGC
+7001150                      +     15  1.27e-03 GAGCTGGCGC CGCACATACAATCAG TCGGGGTTAC
+4699325                      +      8  1.27e-03    AGGGTCG CGAAGAACTCGCCCT GGACATCAGT
+3279250                      -     46  1.27e-03 GACGGCGGGG GTATCTTCGTACTGT ACGAAGTCGT
+5829700                      -     31  1.40e-03 CGGGAGCGCG TACACAAACGGCCGT CACACAGCGT
+7066725                      +     74  1.40e-03 AGGGGTCGCA GGTTCAAATCCTGTC GTCCCGACTC
+1951925                      +     44  1.53e-03 CGACCCCGCG TAATCGACCTGCCGT AATCACCCAA
+4725700                      +     49  1.53e-03 CAAGGCGAGT CATATATCGGCCACC GCGATCCGCG
+6882000                      -      3  1.53e-03 CTGTGGATGT CGCTCAAGCGCATCA TC        
+2009900                      -     58  1.67e-03 GTGCCCCGGG TGATGACCAGGCCGT AGGCAGCGAG
+4178925                      +     19  1.67e-03 GGTGGCGAGC TAACCAACTGCTCCA CAGAGCCAAG
+2960700                      +     78  1.83e-03 CACGACAAGG CTAACAAACCACCCT GCGTGGTG  
+6018200                      -     85  1.83e-03          G TGATCCACCCACCCT CGGCACACCC
+5239675                      +     49  1.83e-03 GCACTTGGTG CGATTATGCACTTAC CTGCCGTGGT
+3051050                      +     23  1.83e-03 ATGGTGGCCC CGATGACCCCATCAG CGCCTTCCCT
+4178950                      +     31  1.83e-03 TGTGCGCGAT CACTAGTCTCGCACA CGGTACTGCG
+1904750                      -     86  1.83e-03          . CGTTCTTCCCGCTGA GTGACGGGCT
+5215400                      -     85  1.99e-03          A AAGTCATAGGCCTTG GCCTTGACTG
+5793425                      +      3  2.17e-03         GG AGGTAGACTTAATCG TGTCTGGCCG
+3101350                      -     20  2.17e-03 ATGCGGCGTG CGAACGTGCGGCAGT GACGGTGACG
+6137550                      -     59  2.36e-03 CTGCGTCAGG GGATGCTCCGATCTG TCCTCGTGGC
+4144025                      -      4  2.36e-03 CTCACGAGTT CGAATCTCGTATCCT CCG       
+5479300                      -     27  2.36e-03 GAGACCACGG GACTCGTAGTACCGC AGGGTCCGCG
+1777400                      +     21  2.36e-03 CCGCGGCCTG TACAGGAATCCCTGC ACGGTCAGGT
+3940375                      +     40  2.36e-03 ACCTGAATCC AGCGCGTCTGCCTAT TCCGCCACCC
+3862900                      +     34  2.57e-03 GTCACCCACG ACAACATCCGCCACA CCACCCGCTT
+5296600                      +     37  2.57e-03 GCGCCGGAGC CGGTCATACCGCTAC AGTCCGCGCA
+4157200                      -     57  2.57e-03 GAAGCACTCC GGTGCATCAGGTAGA GTGGTGCTCG
+4734200                      -     29  2.79e-03 CGAGCAACCC CGACAGTCTGCCATA CGGGGCCATC
+4566750                      +      1  3.02e-03          . GGTACACATGGCAGC CAGGCCACTC
+7526825                      -     81  3.02e-03      AGATC GGATAACCCGACTCG CCGTGCCGCC
+3950800                      +     55  3.28e-03 CGCTTCCTGG GGCTGGTACGCCTGC TCGTGCGGCG
+6219450                      -     60  3.28e-03 CACCCCTGGT GGTTGTTGTGCTCCA TCCGCCCCCG
+1487100                      +     68  3.28e-03 AGGGCGCCGG CCATCGTGTGCACAT TGGGGTTGCC
+3673125                      -     77  3.28e-03  GGTGGCGGG ATTTGAACCCACGAC CTCTTCGTCC
+1371825                      -      3  3.55e-03 GAAGTGACTC GATGGGTCTCAAATA GC        
+2607075                      -      6  3.55e-03 GAGGGCTTCG TGCACACCCCGAAAT CGGGG     
+4168375                      +     78  3.83e-03 TCTTGACACG CGTTCATGATTCGGA ACGGACTC  
+3093125                      +     57  4.14e-03 CGGACAGCGT CGCTCACCTTGCCGA CCCCCCGGTC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+5840050                           1.8e-10  41_[+1]_44
+1538675                           1.4e-08  25_[-1]_60
+3884875                           1.2e-07  15_[+1]_70
+5117650                             2e-07  58_[+1]_27
+1446675                           3.1e-07  29_[+1]_56
+4090850                           4.9e-07  72_[+1]_13
+4090875                           4.9e-07  47_[+1]_38
+1483575                           4.9e-07  66_[+1]_19
+3406100                           9.2e-07  20_[+1]_65
+3406075                           9.2e-07  45_[+1]_40
+6733750                           9.2e-07  36_[+1]_49
+6733725                           9.2e-07  61_[+1]_24
+4792100                           9.2e-07  40_[+1]_45
+284475                            9.2e-07  29_[+1]_56
+1813075                           9.2e-07  47_[-1]_38
+4545350                           1.1e-06  49_[-1]_36
+3144100                           1.1e-06  73_[-1]_12
+7637350                           1.4e-06  74_[+1]_11
+444650                            1.4e-06  50_[-1]_35
+6348175                           1.4e-06  32_[+1]_53
+1638500                           1.4e-06  26_[-1]_59
+5111575                           1.4e-06  46_[-1]_39
+5339400                           1.7e-06  35_[+1]_50
+8216200                           1.7e-06  52_[-1]_33
+3045200                             2e-06  73_[+1]_12
+7022500                             2e-06  46_[+1]_39
+1935550                             2e-06  33_[-1]_52
+945550                            2.5e-06  [+1]_85
+3197200                             3e-06  35_[+1]_50
+4798225                             3e-06  50_[+1]_35
+5370500                             3e-06  85_[+1]
+2787475                           3.5e-06  58_[+1]_27
+5219425                           3.5e-06  58_[-1]_27
+5705225                           3.5e-06  53_[+1]_32
+7474275                           4.2e-06  8_[+1]_77
+8156175                             5e-06  84_[-1]_1
+8156200                             5e-06  59_[-1]_26
+4117225                             5e-06  63_[+1]_22
+1553450                             6e-06  37_[-1]_48
+4220075                           7.1e-06  60_[+1]_25
+2070275                           7.1e-06  53_[+1]_32
+3957150                           7.1e-06  56_[-1]_29
+2070300                           7.1e-06  28_[+1]_57
+2909800                           8.4e-06  57_[-1]_28
+4990825                           8.4e-06  29_[-1]_56
+7192425                           9.9e-06  42_[-1]_43
+1148775                           9.9e-06  6_[-1]_79
+240725                            9.9e-06  16_[-1]_69
+502275                            9.9e-06  49_[-1]_36
+1574875                           9.9e-06  46_[+1]_39
+3546100                           1.2e-05  58_[-1]_27
+3147525                           1.2e-05  33_[-1]_52
+3540325                           1.2e-05  75_[+1]_10
+3301300                           1.2e-05  33_[-1]_52
+8015225                           1.2e-05  21_[+1]_64
+7526850                           1.4e-05  63_[-1]_22
+5284925                           1.4e-05  80_[-1]_5
+7962850                           1.4e-05  33_[-1]_52
+8222750                           1.6e-05  45_[+1]_40
+7181875                           1.6e-05  54_[+1]_31
+4607650                           1.6e-05  17_[+1]_68
+1629350                           1.6e-05  32_[+1]_53
+1438525                           1.6e-05  69_[+1]_16
+1539850                           1.9e-05  17_[+1]_68
+1941625                           1.9e-05  68_[+1]_17
+7126775                           1.9e-05  40_[-1]_45
+5814575                           1.9e-05  44_[+1]_41
+3872400                           1.9e-05  41_[+1]_44
+3648850                           1.9e-05  43_[+1]_42
+4685050                           2.2e-05  50_[-1]_35
+7988200                           2.2e-05  45_[-1]_40
+8069775                           2.5e-05  38_[-1]_47
+1294525                           2.5e-05  30_[+1]_55
+4030350                           2.5e-05  62_[-1]_23
+2589100                           2.5e-05  60_[+1]_25
+5970350                           2.5e-05  29_[-1]_56
+7470575                           2.5e-05  57_[-1]_28
+5146900                             3e-05  25_[-1]_60
+248575                              3e-05  38_[-1]_47
+4180400                             3e-05  22_[-1]_63
+3307450                             3e-05  65_[+1]_20
+513600                              3e-05  43_[+1]_42
+5235600                             3e-05  83_[-1]_2
+2956875                           3.4e-05  15_[-1]_70
+4906850                           3.4e-05  56_[-1]_29
+6379725                           3.4e-05  67_[-1]_18
+5089475                           3.4e-05  43_[+1]_42
+2397475                           3.4e-05  55_[+1]_30
+3340175                           3.4e-05  38_[-1]_47
+96150                             3.9e-05  46_[-1]_39
+5850025                           3.9e-05  63_[-1]_22
+600575                            3.9e-05  44_[+1]_41
+8216150                           3.9e-05  60_[+1]_25
+107775                            3.9e-05  61_[-1]_24
+463200                            4.5e-05  41_[-1]_44
+5671100                           4.5e-05  26_[+1]_59
+4600725                           4.5e-05  45_[+1]_40
+703625                            4.5e-05  59_[-1]_26
+5245650                           4.5e-05  1_[+1]_84
+4171275                           4.5e-05  46_[+1]_39
+5232875                           4.5e-05  51_[-1]_34
+6275525                           4.5e-05  54_[-1]_31
+4141600                           5.2e-05  12_[-1]_73
+4141575                           5.2e-05  37_[-1]_48
+2096900                           5.2e-05  43_[+1]_42
+584450                            5.2e-05  49_[-1]_36
+2394675                           5.2e-05  33_[+1]_52
+6601375                           5.2e-05  61_[-1]_24
+6934250                           5.2e-05  49_[+1]_36
+884600                            5.2e-05  57_[+1]_28
+5386475                             6e-05  15_[-1]_70
+5002275                             6e-05  32_[-1]_53
+5426475                             6e-05  60_[-1]_25
+7472475                             6e-05  12_[-1]_73
+3940425                             6e-05  68_[-1]_17
+5212775                             6e-05  38_[+1]_47
+7472425                             6e-05  62_[-1]_23
+3813825                             6e-05  20_[+1]_65
+4433725                           6.9e-05  53_[+1]_32
+724000                            6.9e-05  40_[-1]_45
+1528125                           6.9e-05  54_[+1]_31
+4956850                           6.9e-05  28_[-1]_57
+4708350                           7.9e-05  53_[+1]_32
+4741600                           7.9e-05  55_[+1]_30
+3222650                           7.9e-05  34_[+1]_51
+3765675                           7.9e-05  24_[+1]_61
+6502975                             9e-05  39_[-1]_46
+3459275                             9e-05  52_[-1]_33
+1572750                             9e-05  52_[+1]_33
+5122650                             9e-05  8_[+1]_77
+1920250                             9e-05  22_[+1]_63
+2884050                             9e-05  31_[+1]_54
+7304900                            0.0001  38_[-1]_47
+3945125                            0.0001  33_[+1]_52
+5671025                            0.0001  37_[+1]_48
+2129325                            0.0001  40_[+1]_45
+3014450                            0.0001  26_[-1]_59
+5521450                            0.0001  71_[-1]_14
+4308075                           0.00012  78_[-1]_7
+7953575                           0.00012  80_[-1]_5
+86775                             0.00012  38_[+1]_47
+670825                            0.00012  11_[+1]_74
+2425275                           0.00012  43_[+1]_42
+5480100                           0.00012  21_[-1]_64
+3491200                           0.00012  6_[+1]_79
+4056750                           0.00012  42_[+1]_43
+4776750                           0.00012  41_[+1]_44
+2339300                           0.00013  60_[-1]_25
+6791525                           0.00013  59_[+1]_26
+7493575                           0.00013  45_[+1]_40
+5215175                           0.00015  80_[-1]_5
+3892350                           0.00015  35_[+1]_50
+1500650                           0.00015  8_[-1]_77
+2425425                           0.00015  55_[+1]_30
+1288500                           0.00015  61_[+1]_24
+4684700                           0.00015  35_[+1]_50
+4021575                           0.00015  57_[+1]_28
+4090525                           0.00017  18_[-1]_67
+7060650                           0.00017  17_[-1]_68
+5992875                           0.00017  2_[-1]_83
+4802600                           0.00017  54_[+1]_31
+4684900                           0.00017  66_[-1]_19
+4684950                           0.00017  16_[-1]_69
+3757875                           0.00017  73_[+1]_12
+6889275                           0.00017  54_[-1]_31
+7043100                           0.00019  25_[+1]_60
+6561450                           0.00019  25_[-1]_60
+1068000                           0.00019  82_[+1]_3
+2384725                           0.00019  69_[-1]_16
+5005650                           0.00019  81_[-1]_4
+4980625                           0.00019  29_[+1]_56
+169850                            0.00019  57_[+1]_28
+7626100                           0.00019  5_[+1]_80
+1086975                           0.00019  30_[+1]_55
+1736575                           0.00021  77_[+1]_8
+4694025                           0.00021  62_[-1]_23
+4694050                           0.00021  37_[-1]_48
+7804125                           0.00021  39_[-1]_46
+5032550                           0.00021  27_[+1]_58
+1171900                           0.00021  5_[-1]_80
+2265650                           0.00021  7_[-1]_78
+6719475                           0.00024  47_[-1]_38
+5386525                           0.00024  38_[-1]_47
+2466150                           0.00024  21_[+1]_64
+5695000                           0.00024  40_[+1]_45
+5234950                           0.00024  71_[+1]_14
+7203100                           0.00024  45_[-1]_40
+4192900                           0.00024  60_[+1]_25
+2854100                           0.00024  10_[+1]_75
+2731250                           0.00024  38_[-1]_47
+1404675                           0.00027  58_[-1]_27
+1294450                           0.00027  83_[-1]_2
+3306225                           0.00027  28_[-1]_57
+5670750                           0.00027  4_[+1]_81
+5670725                           0.00027  29_[+1]_56
+1294600                           0.00027  44_[-1]_41
+501825                            0.00027  55_[+1]_30
+5139725                            0.0003  70_[-1]_15
+1385300                            0.0003  37_[-1]_48
+7838825                            0.0003  58_[+1]_27
+905725                             0.0003  9_[-1]_76
+5007350                            0.0003  57_[+1]_28
+5694675                           0.00034  48_[-1]_37
+6467875                           0.00034  25_[+1]_60
+6459350                           0.00034  21_[-1]_64
+3147425                           0.00034  77_[-1]_8
+2545475                           0.00034  67_[+1]_18
+2549875                           0.00034  12_[+1]_73
+6076250                           0.00034  15_[+1]_70
+6781775                           0.00034  13_[-1]_72
+6558950                           0.00038  85_[+1]
+4381625                           0.00038  70_[-1]_15
+2836350                           0.00038  52_[+1]_33
+1082350                           0.00042  63_[-1]_22
+6147525                           0.00042  61_[-1]_24
+2545450                           0.00042  71_[-1]_14
+1189600                           0.00042  46_[+1]_39
+140950                            0.00042  65_[-1]_20
+594675                            0.00042  35_[-1]_50
+1201525                           0.00042  68_[-1]_17
+2297325                           0.00042  70_[+1]_15
+5508725                           0.00042  43_[-1]_42
+2530200                           0.00047  11_[+1]_74
+4842075                           0.00047  34_[-1]_51
+5670975                           0.00052  70_[-1]_15
+5682625                           0.00052  7_[+1]_78
+2573200                           0.00052  35_[-1]_50
+5488600                           0.00052  61_[+1]_24
+6177175                           0.00058  58_[-1]_27
+3862825                           0.00058  24_[-1]_61
+4682475                           0.00058  78_[-1]_7
+4682500                           0.00058  53_[-1]_32
+4408025                           0.00064  38_[-1]_47
+3481350                           0.00064  68_[+1]_17
+3745125                           0.00064  8_[-1]_77
+584400                            0.00064  9_[+1]_76
+6967475                           0.00064  59_[-1]_26
+3610525                           0.00064  41_[+1]_44
+3011125                           0.00064  47_[+1]_38
+2854150                           0.00064  43_[+1]_42
+1433300                           0.00064  57_[-1]_28
+7155400                           0.00071  12_[+1]_73
+1043250                           0.00071  15_[+1]_70
+2278925                           0.00071  9_[+1]_76
+4212500                           0.00071  24_[-1]_61
+7158125                           0.00071  44_[-1]_41
+1433375                           0.00079  48_[-1]_37
+6803300                           0.00079  59_[+1]_26
+1977050                           0.00079  18_[+1]_67
+1433250                           0.00079  10_[-1]_75
+2866075                           0.00079  9_[+1]_76
+3757850                           0.00079  81_[-1]_4
+2307575                           0.00079  31_[+1]_54
+5062425                           0.00087  43_[+1]_42
+1182875                           0.00087  26_[+1]_59
+1182850                           0.00087  51_[+1]_34
+2685875                           0.00087  46_[-1]_39
+7838700                           0.00096  29_[-1]_56
+2585325                           0.00096  33_[+1]_52
+2425575                           0.00096  18_[+1]_67
+5149350                           0.00096  41_[-1]_44
+2425525                           0.00096  68_[+1]_17
+3275925                           0.00096  48_[+1]_37
+7148425                            0.0011  69_[-1]_16
+1503250                            0.0011  81_[-1]_4
+4153050                            0.0011  19_[+1]_66
+5052600                            0.0012  45_[+1]_40
+1812025                            0.0012  27_[+1]_58
+6470700                            0.0012  25_[-1]_60
+2484975                            0.0012  64_[-1]_21
+6588200                            0.0012  3_[+1]_82
+3670125                            0.0012  23_[-1]_62
+3884925                            0.0012  11_[+1]_74
+6323575                            0.0012  39_[-1]_46
+639750                             0.0013  4_[+1]_81
+1024225                            0.0013  25_[+1]_60
+7001150                            0.0013  14_[+1]_71
+4699325                            0.0013  7_[+1]_78
+3279250                            0.0013  45_[-1]_40
+5829700                            0.0014  30_[-1]_55
+7066725                            0.0014  73_[+1]_12
+1951925                            0.0015  43_[+1]_42
+4725700                            0.0015  48_[+1]_37
+6882000                            0.0015  2_[-1]_83
+2009900                            0.0017  57_[-1]_28
+4178925                            0.0017  18_[+1]_67
+2960700                            0.0018  77_[+1]_8
+6018200                            0.0018  84_[-1]_1
+5239675                            0.0018  48_[+1]_37
+3051050                            0.0018  22_[+1]_63
+4178950                            0.0018  30_[+1]_55
+1904750                            0.0018  85_[-1]
+5215400                             0.002  84_[-1]_1
+5793425                            0.0022  2_[+1]_83
+3101350                            0.0022  19_[-1]_66
+6137550                            0.0024  58_[-1]_27
+4144025                            0.0024  3_[-1]_82
+5479300                            0.0024  26_[-1]_59
+1777400                            0.0024  20_[+1]_65
+3940375                            0.0024  39_[+1]_46
+3862900                            0.0026  33_[+1]_52
+5296600                            0.0026  36_[+1]_49
+4157200                            0.0026  56_[-1]_29
+4734200                            0.0028  28_[-1]_57
+4566750                             0.003  [+1]_85
+7526825                             0.003  80_[-1]_5
+3950800                            0.0033  54_[+1]_31
+6219450                            0.0033  59_[-1]_26
+1487100                            0.0033  67_[+1]_18
+3673125                            0.0033  76_[-1]_9
+1371825                            0.0035  2_[-1]_83
+2607075                            0.0035  5_[-1]_80
+4168375                            0.0038  77_[+1]_8
+3093125                            0.0041  56_[+1]_29
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=15 seqs=314
+5840050                  (   42) AGATCATCTGATAAA  1 
+1538675                  (   26) TGAAAATATGAAAGT  1 
+3884875                  (   16) GGATCATCTGAACAT  1 
+5117650                  (   59) TGATCATCTCCAAAT  1 
+1446675                  (   30) CATTAATATGAATGC  1 
+4090850                  (   73) AAAACAAAAGAACAA  1 
+4090875                  (   48) AAAACAAAAGAACAA  1 
+1483575                  (   67) CGATAATCCGACTAT  1 
+3406100                  (   21) TGTTCATAAGCCTAT  1 
+3406075                  (   46) TGTTCATAAGCCTAT  1 
+6733750                  (   37) AGATCATAGGAAAGC  1 
+6733725                  (   62) AGATCATAGGAAAGC  1 
+4792100                  (   41) TGTAAATATGACTCA  1 
+284475                   (   30) CGTTCATAGGACTAT  1 
+1813075                  (   48) TGTTCATATGACGAA  1 
+4545350                  (   50) CGTAAATGTGAAAAA  1 
+3144100                  (   74) CATACAAATGATCAT  1 
+7637350                  (   75) AGTTGATCTCCAAAA  1 
+444650                   (   51) TGATCATCCGATCAC  1 
+6348175                  (   33) GAATGATCGGAAAAA  1 
+1638500                  (   27) TGAAGATCTGACCGA  1 
+5111575                  (   47) CGATCATCGGAAATT  1 
+5339400                  (   36) CGATGAACTGACCAA  1 
+8216200                  (   53) CGAAAATATGCTTTT  1 
+3045200                  (   74) TGTTCAAATCACCAA  1 
+7022500                  (   47) CGATCATCAGACCGA  1 
+1935550                  (   34) AGAAAATATGGTCAT  1 
+945550                   (    1) CGAAGATCGTATAAA  1 
+3197200                  (   36) AGCTCATCGGACTAA  1 
+4798225                  (   51) CGTAAATATGACCGA  1 
+5370500                  (   86) AGTTCAACCGATTAC  1 
+2787475                  (   59) TGATGATCGGACATA  1 
+5219425                  (   59) CATTCGAATGACTAA  1 
+5705225                  (   54) TGATCGTAGGATTAC  1 
+7474275                  (    9) TAATCGTCAGATAAG  1 
+8156175                  (   85) GGAAAGTATGATCAA  1 
+8156200                  (   60) GGAAAGTATGATCAA  1 
+4117225                  (   64) TGATCATGTGATCGC  1 
+1553450                  (   38) CGAAGATCCGATTTT  1 
+4220075                  (   61) CACTCATCTGCTTGT  1 
+2070275                  (   54) CATTCATCCGATCGT  1 
+3957150                  (   57) TGTTCATCGGAAGAA  1 
+2070300                  (   29) CATTCATCCGATCGT  1 
+2909800                  (   58) CGATGTTCTTATTGA  1 
+4990825                  (   30) AGAAAGTATTCCTAA  1 
+7192425                  (   43) TGATGATCTCCCTTT  1 
+1148775                  (    7) CAATCGAGTGAAAAA  1 
+240725                   (   17) AGAACGTGAGAAAAT  1 
+502275                   (   50) GAAAAGTCTGATATA  1 
+1574875                  (   47) GGATCAACAGATCGT  1 
+3546100                  (   59) CGATCATCACACCAC  1 
+3147525                  (   34) ATAAAATAAGACAAC  1 
+3540325                  (   76) CGCTAATCGGACAAT  1 
+3301300                  (   34) AATTCATCGCATAAG  1 
+8015225                  (   22) TGATCATCTTTCTGT  1 
+7526850                  (   64) CGTAGATCGGATAAC  1 
+5284925                  (   81) AGTTGATCTGGCAGT  1 
+7962850                  (   34) TGATAATATCCACGC  1 
+8222750                  (   46) AACTAGTCTGACAGT  1 
+7181875                  (   55) TGTTCATACGGTAGT  1 
+4607650                  (   18) AACAAGTCTGAAAAC  1 
+1629350                  (   33) CGATCATCTCATCCC  1 
+1438525                  (   70) AATTAAAAGTACTAC  1 
+1539850                  (   18) CGTTCATCACACTGC  1 
+1941625                  (   69) CGATGATCACGTAAT  1 
+7126775                  (   41) CGATGATCTGACCGG  1 
+5814575                  (   45) TGATGATCAGCTGAT  1 
+3872400                  (   42) CGATATTCATAAAGT  1 
+3648850                  (   44) AGATGAAACGACAAG  1 
+4685050                  (   51) GGATGAACGCATAAA  1 
+7988200                  (   46) CGATGATCACACCGT  1 
+8069775                  (   39) TAAAGGTCTGAACCA  1 
+1294525                  (   31) AGAACAACCGAAGAT  1 
+4030350                  (   63) CGATAATCCCACTCA  1 
+2589100                  (   61) CGTTCATATGCCTGG  1 
+5970350                  (   30) GATTAATCGGACATA  1 
+7470575                  (   58) TGAACATCTGTTCAC  1 
+5146900                  (   26) TGATCACACGAAAGA  1 
+248575                   (   39) TGATCGTGCGACAAA  1 
+4180400                  (   23) GGATCAAACGATCTA  1 
+3307450                  (   66) GGCTGATATCACTGA  1 
+513600                   (   44) AATACATCTCATGTT  1 
+5235600                  (   84) CGATCCTACGATAGA  1 
+2956875                  (   16) AGATGTAATGAATTC  1 
+4906850                  (   57) CGTTGATCACGAAAA  1 
+6379725                  (   68) CGGACATCTTATTGA  1 
+5089475                  (   44) AGATGATGCTACAGA  1 
+2397475                  (   56) GATTCGTACGACAAT  1 
+3340175                  (   39) GGATCATCGGATCGC  1 
+96150                    (   47) AACTCATCACACTGC  1 
+5850025                  (   64) CGATCGTCACATCGT  1 
+600575                   (   45) CGCTCATAGGATTTC  1 
+8216150                  (   61) AGATGGTCAGATCGC  1 
+107775                   (   62) AACACATGTGATCAC  1 
+463200                   (   42) CGATGATCTGCTGAC  1 
+5671100                  (   27) GAAACGTATGATCCA  1 
+4600725                  (   46) GATTAGAATTATTTT  1 
+703625                   (   60) TGAAGATCAACAAAT  1 
+5245650                  (    2) CGTATATCAGCTTGT  1 
+4171275                  (   47) CGTTCGTCCTATAAC  1 
+5232875                  (   52) CATAAATACCATCGT  1 
+6275525                  (   55) CGTTCGTACGACTTA  1 
+4141600                  (   13) AAATCCTATGACCGC  1 
+4141575                  (   38) AAATCCTATGACCGC  1 
+2096900                  (   44) TGTTCGTATGACGAC  1 
+584450                   (   50) TATTCATCTTGTCGC  1 
+2394675                  (   34) TTCTGATCACAAAAT  1 
+6601375                  (   62) GACAAATATGACCAC  1 
+6934250                  (   50) CGATCATCCGCATGG  1 
+884600                   (   58) CAATTATCCGATCGC  1 
+5386475                  (   16) TGATCAACTGCCGGA  1 
+5002275                  (   33) CGATGGTACGAACAC  1 
+5426475                  (   61) CGAAAATCGCAAGAA  1 
+7472475                  (   13) TGGTCATCTGATCCT  1 
+3940425                  (   69) TGCTAATCTTCTGAT  1 
+5212775                  (   39) AATTCGTATGACCGG  1 
+7472425                  (   63) TGGTCATCTGATCCT  1 
+3813825                  (   21) AATTTGTCATCTAAA  1 
+4433725                  (   54) AGATAAAATGCCGAC  1 
+724000                   (   41) AGTTAAACCCCATGA  1 
+1528125                  (   55) TGAAGATCACATCGG  1 
+4956850                  (   29) CGTAAGTCACATTTA  1 
+4708350                  (   54) GGATCATCACACCGC  1 
+4741600                  (   56) CGTACGACTTACTAC  1 
+3222650                  (   35) GGAACGTACGACTGT  1 
+3765675                  (   25) GAAAGATCTCGATGT  1 
+6502975                  (   40) AAAAACTCGTACAAT  1 
+3459275                  (   53) AGAAGATAGGCTGAT  1 
+1572750                  (   53) CTTTCAAAGTACTAA  1 
+5122650                  (    9) TGATGTTGTCAAAAC  1 
+1920250                  (   23) CAGTAATCTGACTGC  1 
+2884050                  (   32) TAAAGCACCGAAAAA  1 
+7304900                  (   39) GGCTGGTATGACTAC  1 
+3945125                  (   34) TGATGGTCTTCCTGC  1 
+5671025                  (   38) AGCACGACTGATTCT  1 
+2129325                  (   41) TGTAGATAATCAGAT  1 
+3014450                  (   27) GGATGATGTCGATAT  1 
+5521450                  (   72) GAAAGATCCTCATGA  1 
+4308075                  (   79) CACTCATGTGAAATG  1 
+7953575                  (   81) CATTCGTAGGACTGC  1 
+86775                    (   39) AGTTCGTCTGCCGAA  1 
+670825                   (   12) AATTCGTCATCTAAG  1 
+2425275                  (   44) CGCTCATACGATCTC  1 
+5480100                  (   22) GGAATCTCTCAATAT  1 
+3491200                  (    7) TACTCATCTCGAAGC  1 
+4056750                  (   43) TGAAAATACGCAGGT  1 
+4776750                  (   42) GACTCGTACGACAAA  1 
+2339300                  (   61) CGCTGCTCTTACAAA  1 
+6791525                  (   60) TGTACGACTGGAAGA  1 
+7493575                  (   46) TGATGGTATCCATGG  1 
+5215175                  (   81) TGCTGGTCTGGATGA  1 
+3892350                  (   36) CGATCGTCACACGAA  1 
+1500650                  (    9) AACAGATAGCAATGC  1 
+2425425                  (   56) GAATGCTCTGCCAAT  1 
+1288500                  (   62) CACAAAACCGACAGA  1 
+4684700                  (   36) CAATAGTCGTACCGA  1 
+4021575                  (   58) CGATGATCACACCGG  1 
+4090525                  (   19) AGATGATGACACAGG  1 
+7060650                  (   18) TGATCATCAACCACA  1 
+5992875                  (    3) CGCTAATACGGACAT  1 
+4802600                  (   55) AGCACATCGGCATCA  1 
+4684900                  (   67) TGATGATCCGGATCC  1 
+4684950                  (   17) TGATGATCCGGATCC  1 
+3757875                  (   74) AGAACATGAGCTTCC  1 
+6889275                  (   55) GGATCATCGGACCGG  1 
+7043100                  (   26) GGTTCCTCGGACAAT  1 
+6561450                  (   26) CTAACAACTTATACC  1 
+1068000                  (   83) AACACTTCGGACAAT  1 
+2384725                  (   70) AAAGTAACAGAATAA  1 
+5005650                  (   82) TGATGGACCGCATAC  1 
+4980625                  (   30) AATACAAAGCATCGC  1 
+169850                   (   58) ATCTAGACTGACAAT  1 
+7626100                  (    6) CGATCAACGGCCAGC  1 
+1086975                  (   31) CAATCGACATATACC  1 
+1736575                  (   78) CATTCGTAGGACGAA  1 
+4694025                  (   63) CGTACATGCGCACAA  1 
+4694050                  (   38) CGTACATGCGCACAA  1 
+7804125                  (   40) TGTAGTACTGCATGT  1 
+5032550                  (   28) TGTAGTACTGCATGT  1 
+1171900                  (    6) AGAACGTAAGACCTG  1 
+2265650                  (    8) AGATCACATCACAGG  1 
+6719475                  (   48) AGTACTTCTCCCAGA  1 
+5386525                  (   39) TGAACGACATCCAGA  1 
+2466150                  (   22) AGTTGAAAAGCATCG  1 
+5695000                  (   41) CGCTCACCTGACAAC  1 
+5234950                  (   72) GGCTCATAACCCAGA  1 
+7203100                  (   46) CTCTCATATGACCGC  1 
+4192900                  (   61) GGCTCATAACCCAGA  1 
+2854100                  (   11) GACAAATCGCATTTT  1 
+2731250                  (   39) CGAAAATCTTACGCC  1 
+1404675                  (   59) CGTTGATCGGGACGT  1 
+1294450                  (   84) CGATACTGGGATTGA  1 
+3306225                  (   29) GGTTCAAATCCCCAC  1 
+5670750                  (    5) AGCTCATCTGCACCG  1 
+5670725                  (   30) AGCTCATCTGCACCG  1 
+1294600                  (   45) CGATACTGGGATTGA  1 
+501825                   (   56) AAAGAAACTTACAGT  1 
+5139725                  (   71) TGATCGACTCGTCGT  1 
+1385300                  (   38) TGATCGCCGGAATGT  1 
+7838825                  (   59) CGATGATGACCTCGA  1 
+905725                   (   10) TGAACGTCATCACCA  1 
+5007350                  (   58) TGAAGACACGATTCT  1 
+5694675                  (   49) GGTTCCACTGCCAAA  1 
+6467875                  (   26) AGCACATCGGCCTCA  1 
+6459350                  (   22) TTCTCAACACACAGA  1 
+3147425                  (   78) GGCTCATGTGCCAAC  1 
+2545475                  (   68) AATTGAACTCCTGAC  1 
+2549875                  (   13) AATTGAACTCCTGAC  1 
+6076250                  (   16) AGGAAATATGCCTGC  1 
+6781775                  (   14) TGATTACCACACTGT  1 
+6558950                  (   86) GATACGTCATCTCAT  1 
+4381625                  (   71) TGATGATCCGTTTTG  1 
+2836350                  (   53) GGTAGATCTGGATCC  1 
+1082350                  (   64) AACAGTTCCGATATA  1 
+6147525                  (   62) AGATCACCTTCATCC  1 
+2545450                  (   72) AGCTCCACAGAAAAG  1 
+1189600                  (   47) TATTTATCAGGCAGG  1 
+140950                   (   66) CGTTCATATGTCCGG  1 
+594675                   (   36) GAATGGTACGACTGG  1 
+1201525                  (   69) GGCTGAAATGCCTAG  1 
+2297325                  (   71) CTTTCATGGTATATA  1 
+5508725                  (   44) TGCTCGTCGTACTGC  1 
+2530200                  (   12) TAAAGGTCTTTTCGT  1 
+4842075                  (   35) TCAAGATACGCTTAT  1 
+5670975                  (   71) CAATTACACCATAGA  1 
+5682625                  (    8) AATTACAGTGAAATC  1 
+2573200                  (   36) CGCTCGTCCGATTCC  1 
+5488600                  (   62) AGTAGTACTGCTTGC  1 
+6177175                  (   59) CGATGCACTGCACAC  1 
+3862825                  (   25) CGCTAGTGTTCTTGA  1 
+4682475                  (   79) GGCACATCGCCATGA  1 
+4682500                  (   54) GGCACATCGCCATGA  1 
+4408025                  (   39) CGATGTACTCGATGT  1 
+3481350                  (   69) TGTACGAAGCGTTAT  1 
+3745125                  (    9) TGAAGGTCACCCTCT  1 
+584400                   (   10) CGATAAAGGGCACTA  1 
+6967475                  (   60) CGATAAAGGGCACTA  1 
+3610525                  (   42) CGTTGCTCTGGCCAA  1 
+3011125                  (   48) AGTAGTACTTGTTGA  1 
+2854150                  (   44) CGCACGTCAGGTAGA  1 
+1433300                  (   58) CGATAAAGGGCACTA  1 
+7155400                  (   13) CGGTAATCAGTCAAA  1 
+1043250                  (   16) GGATCAACCGCATCG  1 
+2278925                  (   10) AGAAGACATGGACAC  1 
+4212500                  (   25) AAATTGTGTGACCGG  1 
+7158125                  (   45) GACTGGTATTACTGG  1 
+1433375                  (   49) AGAAGGACCCCACAA  1 
+6803300                  (   60) TGCACATGTCCATGG  1 
+1977050                  (   19) GAATGGCCTGAATGC  1 
+1433250                  (   11) AAACCATAGCAAACA  1 
+2866075                  (   10) CGCTCGTCCGATCTC  1 
+3757850                  (   82) CATTAAACTACATCC  1 
+2307575                  (   32) CATATGTCACACTGC  1 
+5062425                  (   44) AGTACGACTGGACCT  1 
+1182875                  (   27) GGAACGACGCATTGC  1 
+1182850                  (   52) GGAACGACGCATTGC  1 
+2685875                  (   47) TGGTTATCGGACCGT  1 
+7838700                  (   30) TGAACAAGCGCACGC  1 
+2585325                  (   34) CGCTGGTGTTCTTGT  1 
+2425575                  (   19) CGTTGCACCGAACGT  1 
+5149350                  (   42) TGTTCGTCCGTTTTC  1 
+2425525                  (   69) CGTTGCACCGAACGT  1 
+3275925                  (   49) CGATAAGAGGACAAA  1 
+7148425                  (   70) CGAACGTCATCAACG  1 
+1503250                  (   82) CGCACCTACGAACAC  1 
+4153050                  (   20) TGATGCTCTACCAAC  1 
+5052600                  (   46) TGCTGGAAGGAAACC  1 
+1812025                  (   28) CATACAACAGGTACG  1 
+6470700                  (   26) GGATCCACTCCTTGC  1 
+2484975                  (   65) TGACTAACTCACCAA  1 
+6588200                  (    4) TGCAGGAATTACCGC  1 
+3670125                  (   24) CGTTCGTCGTACCGG  1 
+3884925                  (   12) TGCTGCTGTGCTTAC  1 
+6323575                  (   40) CAGTTATCTCGATGT  1 
+639750                   (    5) GACAGGAATGAATTG  1 
+1024225                  (   26) CGCATGTCCGACATT  1 
+7001150                  (   15) CGCACATACAATCAG  1 
+4699325                  (    8) CGAAGAACTCGCCCT  1 
+3279250                  (   46) GTATCTTCGTACTGT  1 
+5829700                  (   31) TACACAAACGGCCGT  1 
+7066725                  (   74) GGTTCAAATCCTGTC  1 
+1951925                  (   44) TAATCGACCTGCCGT  1 
+4725700                  (   49) CATATATCGGCCACC  1 
+6882000                  (    3) CGCTCAAGCGCATCA  1 
+2009900                  (   58) TGATGACCAGGCCGT  1 
+4178925                  (   19) TAACCAACTGCTCCA  1 
+2960700                  (   78) CTAACAAACCACCCT  1 
+6018200                  (   85) TGATCCACCCACCCT  1 
+5239675                  (   49) CGATTATGCACTTAC  1 
+3051050                  (   23) CGATGACCCCATCAG  1 
+4178950                  (   31) CACTAGTCTCGCACA  1 
+1904750                  (   86) CGTTCTTCCCGCTGA  1 
+5215400                  (   85) AAGTCATAGGCCTTG  1 
+5793425                  (    3) AGGTAGACTTAATCG  1 
+3101350                  (   20) CGAACGTGCGGCAGT  1 
+6137550                  (   59) GGATGCTCCGATCTG  1 
+4144025                  (    4) CGAATCTCGTATCCT  1 
+5479300                  (   27) GACTCGTAGTACCGC  1 
+1777400                  (   21) TACAGGAATCCCTGC  1 
+3940375                  (   40) AGCGCGTCTGCCTAT  1 
+3862900                  (   34) ACAACATCCGCCACA  1 
+5296600                  (   37) CGGTCATACCGCTAC  1 
+4157200                  (   57) GGTGCATCAGGTAGA  1 
+4734200                  (   29) CGACAGTCTGCCATA  1 
+4566750                  (    1) GGTACACATGGCAGC  1 
+7526825                  (   81) GGATAACCCGACTCG  1 
+3950800                  (   55) GGCTGGTACGCCTGC  1 
+6219450                  (   60) GGTTGTTGTGCTCCA  1 
+1487100                  (   68) CCATCGTGTGCACAT  1 
+3673125                  (   77) ATTTGAACCCACGAC  1 
+1371825                  (    3) GATGGGTCTCAAATA  1 
+2607075                  (    6) TGCACACCCCGAAAT  1 
+4168375                  (   78) CGTTCATGATTCGGA  1 
+3093125                  (   57) CGCTCACCTTGCCGA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 15 n= 30014 bayes= 6.79649 E= 1.0e-136 
+    72     -4   -105     83 
+    89   -524     95   -197 
+   181    -81   -337     99 
+   125   -483   -451    223 
+    32     44    -35   -135 
+   213   -219    -42   -153 
+    89   -283   -683    233 
+   109     72   -170  -1494 
+    37    -72    -97    160 
+  -285    -60     71     12 
+   203    -34   -154   -243 
+   107     16  -1494    115 
+   107    -26   -231    128 
+   137   -134     11    -35 
+   120    -35   -154    101 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 15 nsites= 314 E= 1.0e-136 
+ 0.226115  0.353503  0.175159  0.245223 
+ 0.254777  0.009554  0.700637  0.035032 
+ 0.484076  0.207006  0.035032  0.273885 
+ 0.328025  0.012739  0.015924  0.643312 
+ 0.171975  0.490446  0.283439  0.054140 
+ 0.601911  0.079618  0.270701  0.047771 
+ 0.254777  0.050955  0.003185  0.691083 
+ 0.292994  0.595541  0.111465  0.000000 
+ 0.178344  0.219745  0.184713  0.417197 
+ 0.019108  0.238854  0.592357  0.149682 
+ 0.563694  0.286624  0.124204  0.025478 
+ 0.289809  0.404459  0.000000  0.305732 
+ 0.289809  0.302548  0.073248  0.334395 
+ 0.356688  0.143312  0.391720  0.108280 
+ 0.315287  0.283439  0.124204  0.277070 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[CTA][GA][ATC][TA][CG][AG][TA][CA][TC][GC][AC][CTA][TCA][GA][ACT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 135.78 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  2 MEME	width =  11  sites =  28  llr = 337  E-value = 8.9e-019
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 2 Description
+--------------------------------------------------------------------------------
+Simplified        A  :::::495:1:
+pos.-specific     C  ::::9::::7a
+probability       G  99:::6:51::
+matrix            T  11a91:1:82:
+
+         bits    2.9   *        
+                 2.6   *   *    
+                 2.3   **  *    
+                 2.0   **  *    
+Relative         1.7   **  * *  
+Entropy          1.4   **  * * *
+(17.3 bits)      1.1 ******* * *
+                 0.9 ***********
+                 0.6 ***********
+                 0.3 ***********
+                 0.0 -----------
+
+Multilevel           GGTTCGAGTCC
+consensus                 A A   
+sequence                        
+                                
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site  
+-------------            ------  ----- ---------            -----------
+1294450                      +      5  4.29e-08       CACG GGTTCAAATCC CGTCTCCACC
+3961325                      -      1  4.29e-08 TGAGGCCACA GGTTCAAATCC           
+4192900                      +     83  4.29e-08 AGAGGTCGCA GGTTCAAATCC TGTCCCC   
+5670975                      +     24  1.72e-07 CGGTAGCGCC GGTTCGAATCC GGTCGGGGGT
+3610525                      -      9  1.72e-07 GTAGGTCTCG GGTTCGAATCC CGAAGGCG  
+4178950                      -     67  1.72e-07 CGGTAGCACG GGTTCGAATCC CGTTGGGGGC
+4694025                      +     22  3.27e-07 GGCGGTTGGG GGTTCAAGTCC CTCCGGCCCT
+1433375                      +      6  3.27e-07      GTGGG GGTTCAAGTCC CCCCTCGGAC
+6967475                      +     83  3.27e-07 CGGGCGTGGG GGTTCAAGTCC CCCCTCG   
+1433300                      +     81  3.27e-07 CGGGCGTGGG GGTTCAAGTCC CCCCTCGGA 
+4684950                      +     84  3.27e-07 CTGTGTCACC GGTTCAAGTCC GGTCAC    
+2425425                      -     23  6.82e-07 GAGGGTTGCT GGTTCGAGTCC AGCCGGGGGA
+5670725                      +      1  6.82e-07          . GGTTCGAGTCC AGGTAGGCCA
+5671025                      +     68  6.82e-07 AGTTAGTCTA GGTTCGAGTCC TGGTAGACCA
+2425525                      -      1  6.82e-07 GCAGGTTACT GGTTCGAGTCC           
+5705225                      -     74  1.19e-06 GCGGCCCCGG GGTTCGAGTAC CGAAAGTAAT
+1086975                      +     71  1.24e-06 CCGGACCCGG GGTTTGAATTC AGCCGTCCAC
+4684900                      +     18  2.23e-06 GAAGGTCTAC GGTTCGATTCC GTATTGGGGC
+2339300                      -     38  3.67e-06 AGATGTCGGC GGTTCGAAACC GTCCGCGCCC
+1920250                      +     50  6.19e-06 GTGACCAGTC GTTTCATATCC TCCGCCCCCA
+5386475                      +     52  6.62e-06 GAACTCGAGG GGTTCGAGGTC GTGACCGCGG
+5386525                      +      2  6.62e-06          G GGTTCGAGGTC GTGACCGCGG
+3340175                      -     11  6.62e-06 CGGACTTGAC GGTTCGAGGTC GTGAAGAGCC
+7988075                      -     80  7.83e-06 AGGGCCTGCC GGTACGAGTCC ACGAAGCCGG
+5245650                      +     27  7.83e-06 ATCACCCGAT GGTGCGAATCC GCTCCGGCGA
+3872400                      +     10  8.72e-06  CATGATCGC TTTTCGAATAC TCTCGGTGGC
+600575                       +     85  1.01e-05 ATTCCGAGGG TGTTCGTATTC GACCG     
+6502975                      -     18  1.14e-05 CCAAGCAGTC GGTTTAAAGAC GTCGAGCGGT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+1294450                           4.3e-08  4_[+2]_85
+3961325                           4.3e-08  [-2]_89
+4192900                           4.3e-08  82_[+2]_7
+5670975                           1.7e-07  23_[+2]_66
+3610525                           1.7e-07  8_[-2]_81
+4178950                           1.7e-07  66_[-2]_23
+4694025                           3.3e-07  21_[+2]_68
+1433375                           3.3e-07  5_[+2]_84
+6967475                           3.3e-07  82_[+2]_7
+1433300                           3.3e-07  80_[+2]_9
+4684950                           3.3e-07  83_[+2]_6
+2425425                           6.8e-07  22_[-2]_67
+5670725                           6.8e-07  [+2]_89
+5671025                           6.8e-07  67_[+2]_22
+2425525                           6.8e-07  [-2]_89
+5705225                           1.2e-06  73_[-2]_16
+1086975                           1.2e-06  70_[+2]_19
+4684900                           2.2e-06  17_[+2]_72
+2339300                           3.7e-06  37_[-2]_52
+1920250                           6.2e-06  49_[+2]_40
+5386475                           6.6e-06  51_[+2]_38
+5386525                           6.6e-06  1_[+2]_88
+3340175                           6.6e-06  10_[-2]_79
+7988075                           7.8e-06  79_[-2]_10
+5245650                           7.8e-06  26_[+2]_63
+3872400                           8.7e-06  9_[+2]_80
+600575                              1e-05  84_[+2]_5
+6502975                           1.1e-05  17_[-2]_72
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 2 width=11 seqs=28
+1294450                  (    5) GGTTCAAATCC  1 
+3961325                  (    1) GGTTCAAATCC  1 
+4192900                  (   83) GGTTCAAATCC  1 
+5670975                  (   24) GGTTCGAATCC  1 
+3610525                  (    9) GGTTCGAATCC  1 
+4178950                  (   67) GGTTCGAATCC  1 
+4694025                  (   22) GGTTCAAGTCC  1 
+1433375                  (    6) GGTTCAAGTCC  1 
+6967475                  (   83) GGTTCAAGTCC  1 
+1433300                  (   81) GGTTCAAGTCC  1 
+4684950                  (   84) GGTTCAAGTCC  1 
+2425425                  (   23) GGTTCGAGTCC  1 
+5670725                  (    1) GGTTCGAGTCC  1 
+5671025                  (   68) GGTTCGAGTCC  1 
+2425525                  (    1) GGTTCGAGTCC  1 
+5705225                  (   74) GGTTCGAGTAC  1 
+1086975                  (   71) GGTTTGAATTC  1 
+4684900                  (   18) GGTTCGATTCC  1 
+2339300                  (   38) GGTTCGAAACC  1 
+1920250                  (   50) GTTTCATATCC  1 
+5386475                  (   52) GGTTCGAGGTC  1 
+5386525                  (    2) GGTTCGAGGTC  1 
+3340175                  (   11) GGTTCGAGGTC  1 
+7988075                  (   80) GGTACGAGTCC  1 
+5245650                  (   27) GGTGCGAATCC  1 
+3872400                  (   10) TTTTCGAATAC  1 
+600575                   (   85) TGTTCGTATTC  1 
+6502975                  (   18) GGTTTAAAGAC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 11 n= 31410 bayes= 10.7365 E= 8.9e-019 
+ -1145  -1145    136    -95 
+ -1145  -1145    136    -95 
+ -1145  -1145  -1145    286 
+  -194  -1145   -334    275 
+ -1145    136  -1145    -95 
+   138  -1145     83  -1145 
+   275  -1145  -1145    -95 
+   175  -1145     46   -194 
+  -194  -1145   -134    258 
+   -36     98  -1145     38 
+ -1145    146  -1145  -1145 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 11 nsites= 28 E= 8.9e-019 
+ 0.000000  0.000000  0.928571  0.071429 
+ 0.000000  0.000000  0.928571  0.071429 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.035714  0.000000  0.035714  0.928571 
+ 0.000000  0.928571  0.000000  0.071429 
+ 0.357143  0.000000  0.642857  0.000000 
+ 0.928571  0.000000  0.000000  0.071429 
+ 0.464286  0.000000  0.500000  0.035714 
+ 0.035714  0.000000  0.142857  0.821429 
+ 0.107143  0.714286  0.000000  0.178571 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 regular expression
+--------------------------------------------------------------------------------
+GGTTC[GA]A[GA]TCC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 244.84 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  3 MEME	width =  25  sites =  11  llr = 242  E-value = 5.2e-018
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 3 Description
+--------------------------------------------------------------------------------
+Simplified        A  2:2:::8:::::6:85::22:22::
+pos.-specific     C  :88:a8:8aa:2:a:2:::2:52:2
+probability       G  :2:a:::2::884:2:8a26242a:
+matrix            T  8::::22:::2::::42:6:8:5:8
+
+         bits    2.9                          
+                 2.6                          
+                 2.3 *     *                  
+                 2.0 *     *       *     *   *
+Relative         1.7 *     *       *     *   *
+Entropy          1.4 *  ** * **  ***  ** *  **
+(31.8 bits)      1.1 * ***** *** ******* *  **
+                 0.9 ******************* *  **
+                 0.6 ******************* * ***
+                 0.3 *************************
+                 0.0 -------------------------
+
+Multilevel           TCCGCCACCCGGACAAGGTGTCTGT
+consensus                        G  T     G   
+sequence                                      
+                                              
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                      Site         
+-------------            ------  ----- ---------            -------------------------
+6967475                      -      9  2.18e-15 CGTCTGCCAT TCCGCCACCCGGACAAGGTGTCTGT CGCTTCGG  
+1433250                      -     57  2.18e-15 CGTCTGCCAT TCCGCCACCCGGACAAGGTGTCTGT CTTCCCGGCC
+1433300                      -      7  2.18e-15 CGTCTGCCAT TCCGCCACCCGGACAAGGTGTCTGT CTTCCC    
+584450                       +      1  2.47e-13          . TCCGCCACCCGGACAAGGTGTGCGT CGCGGTGAGC
+584400                       +     51  2.47e-13 CGTCTGCCAT TCCGCCACCCGGACAAGGTGTGCGT CGCGGTGAGC
+8156175                      +     45  3.67e-10 TCGTCCTCGG TCAGCCAGCCGGGCGTGGTCTCAGT CGTGTCGGAC
+8156200                      +     20  3.67e-10 TCGTCCTCGG TCAGCCAGCCGGGCGTGGTCTCAGT CGTGTCGGAC
+3940425                      +      5  4.50e-10       CTAT TCCGCCACCCGCGCATTGGGTGTGC TCCGGGCTCT
+3940375                      +     55  4.50e-10 GTCTGCCTAT TCCGCCACCCGCGCATTGGGTGTGC TCCGGGCTCT
+1294450                      +     52  6.92e-09 TCAGCGGGAG AGCGCTTCCCTGACACGGAAGAGGT CACTGGTTCA
+1294600                      +     13  6.92e-09 TCAGCGGGAG AGCGCTTCCCTGACACGGAAGAGGT CACTGGTTCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+6967475                           2.2e-15  8_[-3]_67
+1433250                           2.2e-15  56_[-3]_19
+1433300                           2.2e-15  6_[-3]_69
+584450                            2.5e-13  [+3]_75
+584400                            2.5e-13  50_[+3]_25
+8156175                           3.7e-10  44_[+3]_31
+8156200                           3.7e-10  19_[+3]_56
+3940425                           4.5e-10  4_[+3]_71
+3940375                           4.5e-10  54_[+3]_21
+1294450                           6.9e-09  51_[+3]_24
+1294600                           6.9e-09  12_[+3]_63
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 3 width=25 seqs=11
+6967475                  (    9) TCCGCCACCCGGACAAGGTGTCTGT  1 
+1433250                  (   57) TCCGCCACCCGGACAAGGTGTCTGT  1 
+1433300                  (    7) TCCGCCACCCGGACAAGGTGTCTGT  1 
+584450                   (    1) TCCGCCACCCGGACAAGGTGTGCGT  1 
+584400                   (   51) TCCGCCACCCGGACAAGGTGTGCGT  1 
+8156175                  (   45) TCAGCCAGCCGGGCGTGGTCTCAGT  1 
+8156200                  (   20) TCAGCCAGCCGGGCGTGGTCTCAGT  1 
+3940425                  (    5) TCCGCCACCCGCGCATTGGGTGTGC  1 
+3940375                  (   55) TCCGCCACCCGCGCATTGGGTGTGC  1 
+1294450                  (   52) AGCGCTTCCCTGACACGGAAGAGGT  1 
+1294600                  (   13) AGCGCTTCCCTGACACGGAAGAGGT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 25 n= 26524 bayes= 11.5902 E= 5.2e-018 
+    40  -1010  -1010    257 
+ -1010    117    -99  -1010 
+    40    117  -1010  -1010 
+ -1010  -1010    146  -1010 
+ -1010    146  -1010  -1010 
+ -1010    117  -1010     40 
+   257  -1010  -1010     40 
+ -1010    117    -99  -1010 
+ -1010    146  -1010  -1010 
+ -1010    146  -1010  -1010 
+ -1010  -1010    117     40 
+ -1010    -99    117  -1010 
+   221  -1010      0  -1010 
+ -1010    146  -1010  -1010 
+   257  -1010    -99  -1010 
+   172    -99  -1010    140 
+ -1010  -1010    117     40 
+ -1010  -1010    146  -1010 
+    40  -1010    -99    221 
+    40    -99     81  -1010 
+ -1010  -1010    -99    257 
+    40     33      0  -1010 
+    40    -99    -99    172 
+ -1010  -1010    146  -1010 
+ -1010    -99  -1010    257 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 25 nsites= 11 E= 5.2e-018 
+ 0.181818  0.000000  0.000000  0.818182 
+ 0.000000  0.818182  0.181818  0.000000 
+ 0.181818  0.818182  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.818182  0.000000  0.181818 
+ 0.818182  0.000000  0.000000  0.181818 
+ 0.000000  0.818182  0.181818  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.818182  0.181818 
+ 0.000000  0.181818  0.818182  0.000000 
+ 0.636364  0.000000  0.363636  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.818182  0.000000  0.181818  0.000000 
+ 0.454545  0.181818  0.000000  0.363636 
+ 0.000000  0.000000  0.818182  0.181818 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.181818  0.000000  0.181818  0.636364 
+ 0.181818  0.181818  0.636364  0.000000 
+ 0.000000  0.000000  0.181818  0.818182 
+ 0.181818  0.454545  0.363636  0.000000 
+ 0.181818  0.181818  0.181818  0.454545 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.181818  0.000000  0.818182 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 regular expression
+--------------------------------------------------------------------------------
+TCCGCCACCCGG[AG]CA[AT]GGTGT[CG]TGT
+--------------------------------------------------------------------------------
+
+
+
+
+Time 355.76 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+1438525                          8.23e-03  69_[+1(1.60e-05)]_16
+1483575                          2.27e-03  66_[+1(4.88e-07)]_19
+1813075                          3.24e-03  47_[-1(9.19e-07)]_38
+3340175                          5.81e-04  10_[-2(6.62e-06)]_17_[-1(3.42e-05)]_\
+    47
+3765675                          1.15e-01  24_[+1(7.87e-05)]_61
+4021575                          3.92e-02  100
+4990825                          1.17e-02  29_[-1(8.43e-06)]_9_[-1(4.53e-05)]_\
+    32
+5370500                          7.27e-04  85_[+1(2.95e-06)]
+5521450                          2.54e-02  100
+7470575                          6.20e-03  57_[-1(2.55e-05)]_28
+1574875                          1.08e-02  46_[+1(9.94e-06)]_39
+1538675                          6.31e-05  25_[-1(1.40e-08)]_60
+284475                           3.12e-03  29_[+1(9.19e-07)]_56
+5970350                          3.55e-02  29_[-1(2.55e-05)]_56
+8216200                          2.04e-03  10_[+1(3.94e-05)]_27_[-1(1.65e-06)]_\
+    33
+6781775                          1.71e-01  100
+6275525                          3.53e-02  54_[-1(4.53e-05)]_31
+5111575                          1.68e-03  46_[-1(1.36e-06)]_39
+502275                           4.24e-03  49_[-1(9.94e-06)]_36
+4776750                          1.19e-01  100
+3648850                          1.67e-02  43_[+1(1.87e-05)]_42
+7962850                          2.11e-02  33_[-1(1.37e-05)]_52
+107775                           8.08e-02  41_[-1(4.53e-05)]_5_[-1(3.94e-05)]_\
+    24
+4056750                          4.83e-02  100
+5232875                          8.65e-02  51_[-1(4.53e-05)]_34
+4798225                          4.87e-03  50_[+1(2.95e-06)]_35
+8015225                          1.25e-02  21_[+1(1.17e-05)]_64
+1446675                          8.32e-04  29_[+1(3.09e-07)]_56
+8216150                          5.03e-02  60_[+1(3.94e-05)]_25
+2685875                          1.96e-01  100
+4842075                          1.95e-01  100
+945550                           2.10e-03  [+1(2.45e-06)]_85
+3813825                          2.09e-02  20_[+1(6.00e-05)]_65
+1629350                          4.10e-04  32_[+1(1.60e-05)]_53
+4792100                          1.91e-03  40_[+1(9.19e-07)]_45
+1935550                          1.20e-02  33_[-1(2.02e-06)]_52
+7988200                          6.56e-02  45_[-1(2.18e-05)]_40
+1904750                          5.70e-01  100
+4157200                          1.28e-01  100
+6889275                          1.23e-01  100
+2589100                          3.36e-02  60_[+1(2.55e-05)]_25
+4171275                          7.17e-02  46_[+1(4.53e-05)]_39
+2265650                          1.77e-01  100
+5007350                          6.61e-02  100
+2070300                          1.40e-02  28_[+1(7.11e-06)]_57
+3957150                          1.20e-02  56_[-1(7.11e-06)]_29
+2070275                          2.07e-02  53_[+1(7.11e-06)]_32
+3884875                          3.03e-04  15_[+1(1.24e-07)]_70
+5705225                          1.02e-05  53_[+1(3.53e-06)]_5_[-2(1.19e-06)]_\
+    16
+6518625                          8.61e-01  100
+4117225                          8.12e-03  63_[+1(5.00e-06)]_22
+4607650                          1.47e-03  17_[+1(1.60e-05)]_68
+2397475                          1.09e-02  55_[+1(3.42e-05)]_30
+1638500                          4.40e-04  26_[-1(1.36e-06)]_7_[+1(6.00e-05)]_\
+    37
+6323575                          2.09e-01  100
+7474275                          7.68e-03  8_[+1(4.20e-06)]_77
+2731250                          1.51e-01  100
+2307575                          1.92e-01  100
+5508725                          4.51e-02  100
+5219425                          5.32e-03  58_[-1(3.53e-06)]_27
+4220075                          2.74e-03  60_[+1(7.11e-06)]_25
+7158125                          4.12e-01  100
+3757850                          5.21e-01  100
+6449350                          4.32e-01  100
+4212500                          3.07e-01  100
+5840050                          3.18e-07  41_[+1(1.80e-10)]_44
+905725                           1.47e-01  100
+3757875                          1.65e-01  100
+3279250                          1.93e-02  37_[-2(4.81e-05)]_52
+501825                           2.41e-01  100
+6076250                          9.94e-02  100
+7493575                          1.22e-01  100
+4682500                          3.14e-01  100
+884600                           5.99e-02  42_[-1(7.87e-05)]_[+1(5.22e-05)]_28
+4956850                          5.65e-02  28_[-1(6.89e-05)]_57
+3275925                          4.09e-01  100
+7472425                          7.07e-03  51_[-2(8.26e-05)]_[-1(6.00e-05)]_23
+4699325                          5.35e-01  100
+7838825                          1.86e-01  100
+2297325                          2.81e-01  100
+3144100                          2.75e-03  73_[-1(1.12e-06)]_12
+4682475                          2.14e-01  100
+3673125                          1.14e-04  82_[+2(4.29e-08)]_7
+4153050                          6.21e-02  100
+2787475                          5.31e-03  58_[+1(3.53e-06)]_27
+2854100                          2.11e-01  100
+1086975                          5.81e-04  70_[+2(1.24e-06)]_19
+6703550                          6.25e-01  100
+5245650                          4.00e-04  1_[+1(4.53e-05)]_10_[+2(7.83e-06)]_\
+    63
+3872400                          2.25e-04  9_[+2(8.72e-06)]_21_[+1(1.87e-05)]_\
+    44
+1385300                          2.83e-02  86_[-2(9.49e-05)]_3
+1171900                          3.07e-02  100
+1528125                          5.92e-02  54_[+1(6.89e-05)]_31
+4192900                          3.48e-05  82_[+2(4.29e-08)]_7
+3940375                          9.69e-07  54_[+3(4.50e-10)]_21
+1201525                          2.10e-01  100
+5212775                          7.27e-02  38_[+1(6.00e-05)]_47
+3884925                          7.10e-01  100
+7626100                          9.27e-02  100
+7001150                          4.79e-01  100
+4178950                          4.34e-04  66_[-2(1.72e-07)]_23
+6508200                          6.78e-01  100
+703625                           4.56e-02  59_[-1(4.53e-05)]_26
+4600725                          8.25e-03  45_[+1(4.53e-05)]_40
+4178925                          3.60e-01  100
+2866075                          6.53e-01  100
+6934250                          4.99e-02  49_[+1(5.22e-05)]_36
+4684950                          2.77e-05  83_[+2(3.27e-07)]_6
+5117650                          6.10e-04  58_[+1(1.97e-07)]_27
+3940425                          1.01e-07  4_[+3(4.50e-10)]_39_[-1(6.00e-05)]_\
+    17
+3491200                          5.78e-02  100
+5235600                          3.00e-02  83_[-1(2.96e-05)]_2
+594675                           6.88e-02  100
+4684900                          3.36e-04  17_[+2(2.23e-06)]_72
+3014450                          7.57e-02  100
+4545350                          3.09e-03  49_[-1(1.12e-06)]_36
+5284925                          9.13e-03  80_[-1(1.37e-05)]_5
+2549875                          9.23e-04  25_[-3(4.45e-06)]_50
+3301300                          2.80e-03  33_[-1(1.17e-05)]_52
+6348175                          8.71e-03  32_[+1(1.36e-06)]_53
+2425525                          1.04e-03  [-2(6.82e-07)]_89
+3540325                          6.84e-03  75_[+1(1.17e-05)]_10
+1433300                          1.78e-15  6_[-3(2.18e-15)]_49_[+2(3.27e-07)]_\
+    9
+3862825                          8.80e-02  100
+5480100                          1.05e-02  100
+2425275                          5.43e-02  100
+5296600                          7.35e-01  100
+5089475                          3.15e-03  43_[+1(3.42e-05)]_42
+4685050                          1.64e-02  50_[-1(2.18e-05)]_35
+6601375                          5.03e-02  61_[-1(5.22e-05)]_24
+5032550                          5.39e-02  100
+1346275                          3.12e-01  100
+7472475                          7.07e-03  1_[-2(8.26e-05)]_[-1(6.00e-05)]_73
+3197200                          2.56e-03  35_[+1(2.95e-06)]_50
+3349275                          2.11e-01  100
+2854150                          1.69e-01  100
+1503250                          1.71e-01  100
+1337400                          4.12e-01  100
+6508300                          9.42e-01  100
+140950                           4.73e-02  100
+2278925                          4.98e-02  100
+1043250                          7.77e-02  100
+3147525                          3.59e-03  33_[-1(1.17e-05)]_52
+5339400                          9.67e-04  35_[+1(1.65e-06)]_50
+5426475                          8.95e-02  60_[-1(6.00e-05)]_25
+8156200                          7.76e-10  19_[+3(3.67e-10)]_15_[-1(5.00e-06)]_\
+    26
+5149350                          2.87e-01  100
+4802600                          1.05e-01  100
+5992875                          6.60e-02  100
+240725                           3.03e-02  16_[-1(9.94e-06)]_69
+6733725                          3.50e-03  61_[+1(9.19e-07)]_24
+2129325                          8.95e-02  100
+3222650                          1.43e-01  34_[+1(7.87e-05)]_51
+3038300                          8.66e-01  100
+3011125                          1.08e-01  100
+6882000                          1.72e-01  100
+1189600                          3.39e-01  100
+513600                           2.72e-02  43_[+1(2.96e-05)]_1_[-1(8.97e-05)]_\
+    26
+8156175                          7.76e-10  44_[+3(3.67e-10)]_15_[-1(5.00e-06)]_\
+    1
+169850                           2.36e-02  100
+6379725                          2.11e-02  52_[+1(7.87e-05)]_[-1(3.42e-05)]_18
+7022500                          1.23e-03  46_[+1(2.02e-06)]_39
+4030350                          3.19e-02  62_[-1(2.55e-05)]_23
+2530125                          1.36e-01  100
+3051050                          6.92e-01  100
+1777400                          6.16e-01  100
+6733750                          2.33e-04  36_[+1(9.19e-07)]_49
+4725700                          1.94e-01  100
+5814575                          4.18e-02  44_[+1(1.87e-05)]_41
+7181875                          1.16e-02  54_[+1(1.60e-05)]_31
+2577650                          9.97e-01  100
+4980625                          2.99e-02  100
+5488600                          2.12e-01  100
+4090875                          3.48e-04  47_[+1(4.88e-07)]_20_[+1(5.22e-05)]_\
+    3
+2884050                          1.55e-01  31_[+1(8.97e-05)]_54
+5005650                          1.31e-01  100
+2009900                          4.68e-01  100
+6058825                          7.32e-01  100
+4168375                          6.64e-01  100
+2545475                          6.07e-02  100
+1148775                          1.90e-02  6_[-1(9.94e-06)]_79
+2545450                          7.07e-02  100
+1920250                          2.51e-04  22_[+1(8.97e-05)]_12_[+2(6.19e-06)]_\
+    40
+4734200                          7.83e-01  100
+4684700                          1.75e-01  100
+1182850                          3.18e-01  100
+1294600                          3.15e-07  12_[+3(6.92e-09)]_63
+7148425                          2.07e-01  100
+2425575                          2.29e-01  100
+2573200                          2.60e-01  100
+600575                           7.60e-04  44_[+1(3.94e-05)]_25_[+2(1.01e-05)]_\
+    5
+1024225                          3.20e-01  100
+670825                           1.32e-01  100
+7203100                          5.37e-02  100
+4754900                          6.66e-01  100
+86775                            2.02e-01  100
+4090850                          3.48e-04  21_[+1(7.87e-05)]_36_[+1(4.88e-07)]_\
+    13
+1487100                          5.98e-01  100
+1877775                          2.98e-01  100
+8222750                          1.29e-02  45_[+1(1.60e-05)]_40
+7953575                          2.06e-01  100
+3610525                          1.44e-04  8_[-2(1.72e-07)]_81
+2909800                          1.24e-02  57_[-1(8.43e-06)]_28
+1433250                          1.59e-11  56_[-3(2.18e-15)]_19
+3862900                          6.81e-01  100
+608350                           7.06e-01  100
+4308075                          1.04e-01  100
+2394675                          2.21e-02  33_[+1(5.22e-05)]_52
+3147425                          1.24e-02  100
+3546100                          1.56e-02  58_[-1(1.17e-05)]_27
+7066725                          5.58e-05  73_[+2(4.29e-08)]_16
+5122650                          9.86e-03  8_[+1(8.97e-05)]_77
+7126775                          5.08e-03  40_[-1(1.87e-05)]_45
+5239675                          2.56e-01  100
+1977075                          8.04e-01  100
+1294650                          8.72e-05  75_[+3(6.92e-09)]
+5671025                          1.84e-04  67_[+2(6.82e-07)]_22
+7526850                          3.27e-02  63_[-1(1.37e-05)]_22
+1182875                          1.69e-01  100
+6967475                          1.78e-15  8_[-3(2.18e-15)]_49_[+2(3.27e-07)]_\
+    7
+5670725                          3.35e-04  [+2(6.82e-07)]_89
+6147525                          1.52e-01  100
+5234950                          7.54e-02  100
+1288500                          1.20e-02  100
+584400                           7.04e-10  50_[+3(2.47e-13)]_25
+1294525                          6.40e-04  30_[+1(2.55e-05)]_55
+3045200                          3.92e-04  73_[+1(2.02e-06)]_12
+4566800                          7.64e-01  100
+584450                           1.14e-10  [+3(2.47e-13)]_24_[-1(5.22e-05)]_36
+3973800                          6.26e-01  100
+3745125                          2.77e-01  100
+4741600                          1.76e-01  55_[+1(7.87e-05)]_30
+2607075                          4.13e-01  100
+1977050                          3.76e-01  100
+7060650                          2.20e-02  100
+5670750                          1.32e-01  100
+4906850                          2.47e-03  56_[-1(3.42e-05)]_29
+639750                           2.08e-02  100
+2384725                          1.11e-01  100
+3038250                          9.16e-01  100
+3670125                          1.52e-01  100
+2096900                          3.55e-02  43_[+1(5.22e-05)]_42
+7988075                          3.54e-03  79_[-2(7.83e-06)]_10
+3945125                          8.94e-02  100
+7804125                          2.17e-01  100
+3481350                          1.67e-01  100
+6588200                          5.84e-01  100
+5479300                          4.03e-01  100
+3306225                          1.06e-05  32_[-2(4.29e-08)]_57
+6803300                          1.53e-02  100
+3406075                          1.03e-03  45_[+1(9.19e-07)]_40
+1941625                          2.09e-02  68_[+1(1.87e-05)]_17
+2425425                          2.13e-04  22_[-2(6.82e-07)]_67
+5682625                          3.14e-01  100
+5695000                          8.39e-02  100
+1433375                          5.35e-04  5_[+2(3.27e-07)]_84
+3961325                          2.79e-06  [-2(4.29e-08)]_4_[-3(3.05e-05)]_35_\
+    [+2(6.44e-05)]_14
+3745225                          5.07e-01  100
+3101350                          5.52e-01  100
+2466150                          5.33e-02  100
+5386525                          2.74e-03  1_[+2(6.62e-06)]_88
+5002275                          1.30e-02  32_[-1(6.00e-05)]_53
+5215400                          5.00e-01  100
+1082350                          2.50e-01  100
+3307450                          4.75e-02  65_[+1(2.96e-05)]_20
+4747850                          9.61e-01  100
+2484975                          3.96e-01  100
+1068000                          7.18e-02  100
+6561450                          5.99e-02  100
+7043100                          8.25e-02  100
+4580300                          5.50e-01  100
+2836350                          8.79e-02  100
+4180400                          4.48e-02  22_[-1(2.96e-05)]_63
+6459350                          1.50e-01  100
+1155275                          5.34e-01  100
+5671100                          3.48e-02  26_[+1(4.53e-05)]_59
+5386475                          7.30e-04  15_[-1(6.00e-05)]_21_[+2(6.62e-06)]_\
+    38
+248575                           4.66e-02  38_[-1(2.96e-05)]_47
+7526825                          7.78e-01  100
+444650                           2.53e-03  50_[-1(1.36e-06)]_35
+5829700                          1.30e-01  100
+1539850                          4.07e-04  17_[+1(1.87e-05)]_33_[+2(3.50e-05)]_\
+    24
+5793425                          7.07e-01  100
+3517650                          5.29e-01  100
+6018200                          4.94e-01  100
+4144025                          4.84e-01  100
+5850025                          4.39e-02  63_[-1(3.94e-05)]_22
+1446775                          7.67e-01  100
+1951925                          5.08e-02  100
+6791525                          1.26e-02  100
+1500650                          5.56e-02  100
+3093125                          4.47e-01  100
+1252325                          7.77e-01  100
+5670975                          2.47e-04  23_[+2(1.72e-07)]_66
+1294450                          1.62e-10  4_[+2(4.29e-08)]_36_[+3(6.92e-09)]_\
+    24
+96150                            5.85e-03  46_[-1(3.94e-05)]_39
+3892350                          1.10e-01  100
+5139725                          1.51e-02  100
+4160425                          2.99e-01  100
+5215175                          1.91e-01  100
+4694050                          5.73e-02  100
+4694025                          1.04e-04  21_[+2(3.27e-07)]_68
+4408025                          1.57e-01  100
+6137550                          4.82e-01  100
+8027000                          6.97e-01  100
+8069775                          4.15e-02  38_[-1(2.55e-05)]_47
+6467875                          5.80e-02  100
+4381625                          5.34e-02  100
+1572750                          6.08e-02  52_[+1(8.97e-05)]_33
+4141575                          3.61e-02  37_[-1(5.22e-05)]_48
+3459275                          8.78e-02  47_[+1(7.87e-05)]_38
+6011775                          5.55e-01  100
+6502975                          6.16e-05  17_[-2(1.14e-05)]_11_[-1(8.97e-05)]_\
+    46
+6470700                          2.62e-01  100
+6719475                          1.46e-01  100
+2956875                          2.99e-02  15_[-1(3.42e-05)]_70
+3406100                          1.03e-03  20_[+1(9.19e-07)]_65
+1371825                          3.22e-01  100
+4708350                          6.97e-02  53_[+1(7.87e-05)]_32
+7157275                          9.83e-01  100
+7155400                          2.07e-01  100
+6177175                          3.40e-01  100
+2585325                          1.42e-01  100
+6558950                          1.76e-01  100
+1093650                          9.64e-01  100
+724000                           6.74e-02  40_[-1(6.89e-05)]_45
+2339300                          1.14e-04  37_[-2(3.67e-06)]_52
+7192425                          1.79e-02  42_[-1(9.94e-06)]_43
+6219450                          2.97e-01  100
+1553450                          6.23e-03  37_[-1(5.97e-06)]_48
+7637350                          1.13e-03  40_[-1(6.00e-05)]_19_[+1(1.36e-06)]_\
+    11
+4141600                          4.47e-02  12_[-1(5.22e-05)]_73
+4433725                          4.55e-02  53_[+1(6.89e-05)]_32
+463200                           6.46e-02  41_[-1(4.53e-05)]_44
+1736575                          1.05e-01  100
+2960700                          3.33e-01  100
+7304900                          4.10e-02  100
+5146900                          6.24e-04  [+3(3.22e-05)]_[-1(2.96e-05)]_60
+5694675                          3.57e-01  100
+1812025                          5.53e-02  100
+5062425                          3.25e-01  100
+7838700                          1.33e-01  100
+4090525                          1.44e-02  100
+2530200                          1.88e-01  100
+5052600                          2.66e-01  100
+6184575                          9.68e-01  100
+1404675                          1.85e-01  100
+4566750                          4.37e-01  100
+3950800                          5.71e-01  100
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (3) found.
+********************************************************************************
+
+CPU: sergii-ThinkPad-S3-Yoga-14
+
+********************************************************************************

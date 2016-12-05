@@ -210,6 +210,79 @@ legend(x='topright',legend = c('FIMO','MCAST','CentriMo'), lty=c(1,0,0),pch = c(
 
 __Verdict__: run same ChiP-seq data set with both services, and then conduct further analyses with PREDetector to get "real positions of the motif in genome" and list of regulated genes based on motif matrix not just peaks file transcriptomics.
 
+## 2016-12-01 Motif discovery rerun with polindrom only and background noise removal
+
+### Procedure
+
+1. Extracted ranges with 100bp length from all and top 10% ChIP-seq peaks (in order to fully simulate MEME run in MEME-CHIP suite).   
+All peaks command:
+```
+$python3 bin/seq_extractor.py -l 100 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_All.csv > data/all_mid100.fna
+```
+Top10 peaks command:
+```
+$python3 bin/seq_extractor.py -l 100 -g data/2016-10-26_Check/FR845719_1.fasta -i data/WhiH_regulon_FLAG_Top10per.csv > data/top_mid100.fna
+```
+Shuffle all peaks regions for comparisons results:
+```
+$python3 bin/shufler.py data/all_mid100.fna > data/all_100_shuffled.fna
+```
+
+Shuffle top10 peaks regions for comparisons results:
+```
+$python3 bin/shufler.py data/top_mid100.fna > data/top_100_shuffled.fna
+```
+
+2. Create set of background Markov models with 0, 1, 2 order based on whole genome:
+```
+$fasta-get-markov -m 0 data/2016-10-26_Check/FR845719_1.fasta > results/2016-12-01/bg_markov1.txt
+$fasta-get-markov -m 1 data/2016-10-26_Check/FR845719_1.fasta > results/2016-12-01/bg_markov2.txt
+$fasta-get-markov -m 2 data/2016-10-26_Check/FR845719_1.fasta > results/2016-12-01/bg_markov3.txt
+```
+
+3. Run set of all possible combination of background models with different orders and on/off palindrome mode for all ranges and top 10 percentage (all other parameters according to MEME-chip defaults). And snuffled regions with settings from best e-value result produced.
+```
+$meme data/all_mid100.fna -oc results/2016-12-01/meme_all_bg0 -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp
+$meme data/all_mid100.fna -oc results/2016-12-01/meme_all_bg1 -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov1.txt -dna -revcomp
+$meme data/all_mid100.fna -oc results/2016-12-01/meme_all_bg2 -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov2.txt -dna -revcomp
+
+$meme data/all_mid100.fna -oc results/2016-12-01/meme_all_bg0_pal -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp -pal
+$meme data/all_mid100.fna -oc results/2016-12-01/meme_all_bg1_pal -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov1.txt -dna -revcomp -pal
+$meme data/all_mid100.fna -oc results/2016-12-01/meme_all_bg2_pal -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov2.txt -dna -revcomp -pal
+
+$meme data/top_mid100.fna -oc results/2016-12-01/meme_top_bg0 -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp
+$meme data/top_mid100.fna -oc results/2016-12-01/meme_top_bg1 -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov1.txt -dna -revcomp
+$meme data/top_mid100.fna -oc results/2016-12-01/meme_top_bg2 -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov2.txt -dna -revcomp
+
+$meme data/top_mid100.fna -oc results/2016-12-01/meme_top_bg0_pal -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp -pal
+$meme data/top_mid100.fna -oc results/2016-12-01/meme_top_bg1_pal -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov1.txt -dna -revcomp -pal
+$meme data/top_mid100.fna -oc results/2016-12-01/meme_top_bg2_pal -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov2.txt -dna -revcomp -pal
+
+$meme data/all_100_shuffled.fna -oc results/2016-12-01/meme_all_bg0_shuffled -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp
+$meme data/top_100_shuffled.fna -oc results/2016-12-01/meme_top_bg0_shuffled -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp
+```
+
+### Results of rerun
+
+Input setup | All peaks<br>(349 peaks) | Top10 peaks<br>(36 peaks)
+------------|------------------------|------------------------
+\#0 initial MEME-Chip auto-background | e-value: 1.6e-064 <br> regions: 156 <br> [![](2016-10-28/all_peaks_MEME_chip/meme_out/logo1.png)](2016-10-28/all_peaks_MEME_chip/meme-chip.html) | e-value: 4.2e-033 <br> regions: 33 [![](2016-10-26/top_10_MEME_chip/meme_out/logo_rc1.png)](2016-10-26/top_10_MEME_chip/meme-chip.html) 
+\#1 MEME background Markov model order 0 | e-value: **1.0e-136** <br> regions: **314** <br> [![](2016-12-01/meme_all_bg0/logo_rc1.png)](2016-12-01/meme_all_bg0/meme.html) | e-value:  **1.2e-051** <br> regions: 35 <br> [![](2016-12-01/meme_top_bg0/logo_rc1.png)](2016-12-01/meme_top_bg0/meme.html)
+\#2 MEME background Markov model order 1 | e-value: 2.4e-117 <br> regions: 268 <br> [![](2016-12-01/meme_all_bg1/logo_rc1.png)](2016-12-01/meme_all_bg1/meme.html) | e-value: **2.2e-050** <br> regions: **36** <br> [![](2016-12-01/meme_top_bg1/logo_rc1.png)](2016-12-01/meme_top_bg1/meme.html)
+\#3 MEME background Markov model order 2 | e-value: 8.6e-073 <br> regions: 271 <br> [![](2016-12-01/meme_all_bg2/logo_rc1.png)](2016-12-01/meme_all_bg2/meme.html) | e-value: 2.4e-043 <br> regions: 33 <br> [![](2016-12-01/meme_top_bg2/logo_rc1.png)](2016-12-01/meme_top_bg2/meme.html) 
+\#4 MEME background Markov model order 0 with palindrome only | e-value: 5.2e-129 <br> regions: 200 <br> [![](2016-12-01/meme_all_bg0_pal/logo_rc1.png)](2016-12-01/meme_all_bg0_pal/meme.html) |  e-value: 1.2e-030 <br> regions: **36** <br> [![](2016-12-01/meme_top_bg0_pal/logo_rc1.png)](2016-12-01/meme_top_bg0_pal/meme.html) 
+\#5 MEME background Markov model order 1 with palindrome only | e-value: 7.2e-111 <br> regions: 205 <br> [![](2016-12-01/meme_all_bg1_pal/logo_rc1.png)](2016-12-01/meme_all_bg1_pal/meme.html) |  e-value: 1.1e-029 <br> regions: 33 <br> [![](2016-12-01/meme_top_bg1_pal/logo_rc1.png)](2016-12-01/meme_top_bg1_pal/meme.html) 
+\#6 MEME background Markov model order 2 with palindrome only | e-value: 1.9e-040 <br> regions: 314 <br> [![](2016-12-01/meme_all_bg2_pal/logo_rc1.png)](2016-12-01/meme_all_bg2_pal/meme.html) |  e-value: 1.3e-027 <br> regions: **36** <br> [![](2016-12-01/meme_top_bg2_pal/logo_rc1.png)](2016-12-01/meme_top_bg2_pal/meme.html) 
+Shuffled MEME background Markov model order 0 | e-value: 2.8e-038 <br> regions: 107 <br> [![](2016-12-01/meme_all_bg0_shuffled/logo_rc1.png)](2016-12-01/meme_all_bg0_shuffled/meme.html) |  e-value: 9.1e-014 <br> regions: 33 <br> [![](2016-12-01/meme_top_bg0_shuffled/logo_rc1.png)](2016-12-01/meme_top_bg0_shuffled/meme.html) 
+
+### Conclusion
+Overall, background Markov model helped to decrease e-value very significantly, though increasing order of the model does not really help. With the palindrome only enabled e-value goes down a little. Also if compare to MEME results with totally randomized ranges from save content, our motifs are very significant.
+My recommendation is to go further with 3 motifs:
+
+ 1. \#1 all - "best e-value" motif, which also is produced from most ChIP-seq regions.
+ 2. \#4 all -"best palindromic motif from all peaks" - this is most closest to previously discovered motif based on DNaseI foot-printing
+ 3. \#4 top10 - "top10 palindromic motif", which is actually shifted by 4 bases if compare to all other motifs so can give some interesting results.
+
 # Next steps
 
 Last update: 2016-11-30   
