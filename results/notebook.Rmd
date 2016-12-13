@@ -296,7 +296,7 @@ Default setup with p-value<0.0001 and full genome file to look for occurrences
 "Top10 palindrome" [![](2016-12-01/meme_top_bg0_pal/logo_rc1.png)](2016-12-01/meme_top_bg0_pal/meme.html) | [340 / 2 = 170 occurances*](2016-12-05/top_pal/fimo.html)
 
 
-*Palindromic motifs gives double matches in FIMO on both strands '+' and '-', so I removed every second match from FIMO results during graph construction
+*Palindromic motifs give double matches in FIMO on both strands '+' and '-', so every second match was removed from FIMO results before graph construction.
 
 ###Interpretation
 
