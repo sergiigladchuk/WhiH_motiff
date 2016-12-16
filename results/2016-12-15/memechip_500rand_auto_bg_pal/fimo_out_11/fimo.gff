@@ -1,0 +1,6 @@
+##gff-version 3
+1813075	fimo	nucleotide_motif	224	230	42.7	+	.	Name=GGACWGA;ID=GGACWGA-1-1813075;pvalue=5.37e-05;qvalue= 0.381;sequence=GGACTGA;
+4990825	fimo	nucleotide_motif	278	284	42.7	+	.	Name=GGACWGA;ID=GGACWGA-1-4990825;pvalue=5.37e-05;qvalue= 0.381;sequence=GGACTGA;
+6275525	fimo	nucleotide_motif	239	245	42.7	+	.	Name=GGACWGA;ID=GGACWGA-1-6275525;pvalue=5.37e-05;qvalue= 0.381;sequence=GGACTGA;
+6275525	fimo	nucleotide_motif	444	450	42.7	+	.	Name=GGACWGA;ID=GGACWGA-2-6275525;pvalue=5.37e-05;qvalue= 0.381;sequence=GGACTGA;
+2397475	fimo	nucleotide_motif	203	209	42.7	+	.	Name=GGACWGA;ID=GGACWGA-1-2397475;pvalue=5.37e-05;qvalue= 0.381;sequence=GGACTGA;

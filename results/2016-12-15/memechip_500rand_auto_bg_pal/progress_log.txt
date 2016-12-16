@@ -1,0 +1,202 @@
+Invoking:
+  getsize ./refSeq.fna 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.023034
+Invoking:
+  fasta-most -min 50 < ./refSeq.fna 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.10871
+Invoking:
+  fasta-center -dna -len 100 < ./refSeq.fna 1> ./seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.138536
+Invoking:
+  fasta-shuffle-letters ./seqs-centered ./seqs-shuffled -kmer 2 -tag -dinuc -dna -seed 1
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 0.020232
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 1 ./refSeq.fna ./background
+Finished invoke:
+  name: bg  status: 0  time: 0.020918
+Invoking:
+  getsize ./500_random.fsn 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.024935
+Invoking:
+  fasta-center -dna -len 100 < ./500_random.fsn 1> ./control-centered
+Finished invoke:
+  name: center_control  status: 0  time: 0.158156
+Invoking:
+  psp-gen -pos ./seqs-centered -neg ./control-centered -minw 6 -maxw 20 -dna -revcomp 1> ./psp
+Finished invoke:
+  name: psp  status: 0  time: 23.159214
+Invoking:
+  meme ./seqs-centered -oc meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile ./background -dna -time 5076 -psp ./psp -revcomp -pal -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 26.374329
+Invoking:
+  dreme -v 1 -oc dreme_out -png -dna -p ./seqs-centered -n ./control-centered -t 7120 -e 0.05
+Finished invoke:
+  name: dreme  status: 0  time: 28.7073
+Invoking:
+  centrimo -seqlen 500 -verbosity 1 -oc centrimo_out -bfile ./background -score 5.0 -ethresh 10.0 -neg ./500_random.fsn ./refSeq.fna meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 17.418562
+Invoking:
+  tomtom -verbosity 1 -oc meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile ./background meme_out/meme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 7.647199
+Invoking:
+  tomtom -verbosity 1 -oc dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile ./background dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 2.353492
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 ./combined.meme ./combined.meme 1> ./motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.831676
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_1 -bgfile ./background -primary 1 ./refSeq.fna meme_out/meme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo1  status: 0  time: 5.606342
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_2 -bgfile ./background -primary AWWA ./refSeq.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo2  status: 0  time: 5.413406
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_3 -bgfile ./background -primary MX000066 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo3  status: 0  time: 5.616538
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_4 -bgfile ./background -primary AAWK ./refSeq.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo4  status: 0  time: 5.429411
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_5 -bgfile ./background -primary ATCSGW ./refSeq.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo5  status: 0  time: 5.914204
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_6 -bgfile ./background -primary MX000096 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo6  status: 0  time: 5.805215
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_7 -bgfile ./background -primary MX000067 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo7  status: 0  time: 5.598493
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_8 -bgfile ./background -primary MX000153 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo8  status: 0  time: 5.185688
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_9 -bgfile ./background -primary MX000106 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo9  status: 0  time: 5.769366
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_10 -bgfile ./background -primary EXPREG_00000810 ./refSeq.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo10  status: 0  time: 5.199229
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_11 -bgfile ./background -primary GGACWGA ./refSeq.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo11  status: 0  time: 4.916878
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_12 -bgfile ./background -primary EXPREG_00000b00 ./refSeq.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo12  status: 0  time: 5.268359
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_13 -bgfile ./background -primary GAKCACA ./refSeq.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo13  status: 0  time: 4.745081
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_14 -bgfile ./background -primary MX000084 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo14  status: 0  time: 5.480882
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_15 -bgfile ./background -primary MX000149 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo15  status: 0  time: 4.966198
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_16 -bgfile ./background -primary EXPREG_000009a0 ./refSeq.fna db/PROKARYOTE/collectf.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo16  status: 0  time: 5.549545
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_17 -bgfile ./background -primary MX000134 ./refSeq.fna db/PROKARYOTE/prodoric.meme meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo17  status: 0  time: 5.538227
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_18 -bgfile ./background -primary ATW ./refSeq.fna dreme_out/dreme.xml meme_out/meme.xml dreme_out/dreme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme
+Finished invoke:
+  name: spamo18  status: 0  time: 5.651153
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_1 --bgfile ./background --motif 1 meme_out/meme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo1  status: 0  time: 0.095242
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_2 --bgfile ./background --motif AWWA dreme_out/dreme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo2  status: 0  time: 0.053671
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_3 --bgfile ./background --motif MX000066 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo3  status: 0  time: 0.391054
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_4 --bgfile ./background --motif AAWK dreme_out/dreme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo4  status: 0  time: 0.053117
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_5 --bgfile ./background --motif ATCSGW dreme_out/dreme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo5  status: 0  time: 0.053044
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_6 --bgfile ./background --motif MX000096 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo6  status: 0  time: 0.391526
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_7 --bgfile ./background --motif MX000067 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo7  status: 0  time: 0.393637
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_8 --bgfile ./background --motif MX000153 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo8  status: 0  time: 0.391087
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_9 --bgfile ./background --motif MX000106 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo9  status: 0  time: 0.393189
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_10 --bgfile ./background --motif EXPREG_00000810 db/PROKARYOTE/collectf.meme ./refSeq.fna
+Finished invoke:
+  name: fimo10  status: 0  time: 0.15509
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_11 --bgfile ./background --motif GGACWGA dreme_out/dreme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo11  status: 0  time: 0.073049
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_12 --bgfile ./background --motif EXPREG_00000b00 db/PROKARYOTE/collectf.meme ./refSeq.fna
+Finished invoke:
+  name: fimo12  status: 0  time: 0.157893
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_13 --bgfile ./background --motif GAKCACA dreme_out/dreme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo13  status: 0  time: 0.074265
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_14 --bgfile ./background --motif MX000084 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo14  status: 0  time: 0.392077
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_15 --bgfile ./background --motif MX000149 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo15  status: 0  time: 0.392694
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_16 --bgfile ./background --motif EXPREG_000009a0 db/PROKARYOTE/collectf.meme ./refSeq.fna
+Finished invoke:
+  name: fimo16  status: 0  time: 0.158414
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_17 --bgfile ./background --motif MX000134 db/PROKARYOTE/prodoric.meme ./refSeq.fna
+Finished invoke:
+  name: fimo17  status: 0  time: 0.392582
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_18 --bgfile ./background --motif ATW dreme_out/dreme.xml ./refSeq.fna
+Finished invoke:
+  name: fimo18  status: 0  time: 0.05477
+Writing output
+Done

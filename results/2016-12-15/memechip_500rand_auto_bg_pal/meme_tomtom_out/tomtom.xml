@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="4.11.2" release="Mon Oct 24 12:27:06 2016 -0700">
+  <model>
+    <command_line>tomtom -verbosity 1 -oc meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile ./background meme_out/meme.xml db/PROKARYOTE/collectf.meme db/PROKARYOTE/prodoric.meme db/PROKARYOTE/regtransbase.meme db/ECOLI/dpinteract.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">1</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="file" A="0.1574" C="0.3426" G="0.3426" T="0.1574" file="./background"/>
+    <host>node481</host>
+    <when>Thu Dec 15 10:55:44 2016</when>
+  </model>
+  <query_dbs>
+    <db source="meme_out/meme.xml" name="meme" loaded="3" excluded="0" last_mod_date="Thu Dec 15 10:58:35 2016"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="db/PROKARYOTE/collectf.meme" name="collectf" loaded="84" excluded="0" last_mod_date="Wed Sep 14 18:58:13 2016"/>
+    <db source="db/PROKARYOTE/prodoric.meme" name="prodoric" loaded="201" excluded="0" last_mod_date="Wed Sep 14 18:58:13 2016"/>
+    <db source="db/PROKARYOTE/regtransbase.meme" name="regtransbase" loaded="141" excluded="0" last_mod_date="Wed Sep 14 18:58:13 2016"/>
+    <db source="db/ECOLI/dpinteract.meme" name="dpinteract" loaded="68" excluded="0" last_mod_date="Wed Sep 14 19:01:15 2016"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="1" alt="MEME" length="19" nsites="34" evalue="2.8e-018">
+      <pos A="0.132426" C="0.411562" G="0.103644" T="0.352368"/>
+      <pos A="0.147089" C="0.176958" G="0.470213" T="0.20574"/>
+      <pos A="0.528321" C="0.0156676" G="0.411562" T="0.0444502"/>
+      <pos A="0.235066" C="0.0156676" G="0.13297" T="0.616297"/>
+      <pos A="0.264391" C="0.572852" G="0.13297" T="0.0297873"/>
+      <pos A="0.279054" C="0.323585" G="0.206283" T="0.191077"/>
+      <pos A="0.0297873" C="0.0449933" G="0.704817" T="0.220403"/>
+      <pos A="0.645623" C="0.0596562" G="0.0156676" T="0.279054"/>
+      <pos A="0.16175" C="0.176956" G="0.00100469" T="0.660284"/>
+      <pos A="0.16175" C="0.338247" G="0.338248" T="0.161751"/>
+      <pos A="0.660285" C="0.00100469" G="0.176957" T="0.161751"/>
+      <pos A="0.279053" C="0.0156666" G="0.0596552" T="0.645622"/>
+      <pos A="0.220402" C="0.704816" G="0.0449923" T="0.0297863"/>
+      <pos A="0.191076" C="0.206282" G="0.323584" T="0.279053"/>
+      <pos A="0.0297863" C="0.132969" G="0.572851" T="0.26439"/>
+      <pos A="0.616296" C="0.132969" G="0.0156666" T="0.235065"/>
+      <pos A="0.0444492" C="0.411561" G="0.0156666" T="0.52832"/>
+      <pos A="0.205739" C="0.470212" G="0.176957" T="0.147088"/>
+      <pos A="0.352367" C="0.103643" G="0.411561" T="0.132425"/>
+    </motif>
+    <motif db="0" id="2" alt="MEME" length="7" nsites="2" evalue="5.7e+003">
+      <pos A="0.721781" C="0.0163143" G="0.0163143" T="0.24559"/>
+      <pos A="0.24559" C="0.0163143" G="0.0163143" T="0.721781"/>
+      <pos A="0.959874" C="0.0163143" G="0.0163143" T="0.00749524"/>
+      <pos A="0.483685" C="0.0163143" G="0.0163143" T="0.483686"/>
+      <pos A="0.00749524" C="0.0163143" G="0.0163143" T="0.959875"/>
+      <pos A="0.72178" C="0.0163143" G="0.0163143" T="0.24559"/>
+      <pos A="0.24559" C="0.0163143" G="0.0163143" T="0.72178"/>
+    </motif>
+    <motif db="0" id="3" alt="MEME" length="8" nsites="2" evalue="4.6e+004">
+      <pos A="0.00749524" C="0.0163143" G="0.0163143" T="0.959876"/>
+      <pos A="0.483686" C="0.0163143" G="0.492505" T="0.00749524"/>
+      <pos A="0.721781" C="0.0163143" G="0.0163143" T="0.24559"/>
+      <pos A="0.721779" C="0.0163143" G="0.0163143" T="0.245589"/>
+      <pos A="0.24559" C="0.0163143" G="0.0163143" T="0.72178"/>
+      <pos A="0.24559" C="0.0163143" G="0.0163143" T="0.72178"/>
+      <pos A="0.00749524" C="0.492504" G="0.0163143" T="0.483685"/>
+      <pos A="0.959875" C="0.0163143" G="0.0163143" T="0.00749524"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="EXPREG_00000020" alt="LexA_C.glutamicum" length="17" nsites="40"
+        url="http://www.collectf.org/EXPREG_00000020">
+      <pos A="0.249769" C="0.200356" G="0.0507297" T="0.499146"/>
+      <pos A="0.0752055" C="0.100605" G="0.0507297" T="0.77346"/>
+      <pos A="0.150018" C="0.748984" G="0.025792" T="0.0752055"/>
+      <pos A="0.150018" C="0.000854364" G="0.823797" T="0.0253302"/>
+      <pos A="0.623834" C="0.225293" G="0.0507297" T="0.100143"/>
+      <pos A="0.898148" C="0.025792" G="0.000854364" T="0.0752055"/>
+      <pos A="0.199894" C="0.649233" G="0.025792" T="0.125081"/>
+      <pos A="0.898148" C="0.000854364" G="0.0756673" T="0.0253302"/>
+      <pos A="0.424333" C="0.15048" G="0.0756673" T="0.34952"/>
+      <pos A="0.44927" C="0.125543" G="0.374919" T="0.0502678"/>
+      <pos A="0.000392519" C="0.0507297" G="0.200356" T="0.748522"/>
+      <pos A="0.000392519" C="0.0756673" G="0.57442" T="0.34952"/>
+      <pos A="0.100143" C="0.025792" G="0.025792" T="0.848273"/>
+      <pos A="0.0752055" C="0.0756673" G="0.025792" T="0.823335"/>
+      <pos A="0.000392519" C="0.873672" G="0.000854364" T="0.125081"/>
+      <pos A="0.100143" C="0.125543" G="0.549483" T="0.224831"/>
+      <pos A="0.848273" C="0.0756673" G="0.0507297" T="0.0253302"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="0">
+      <target idx="0" rc="n" off="-3" pv="1.74e-03" ev="8.61e-01" qv="5.50e-01"/>
+    </query>
+  </matches>
+  <runtime cycles="7324428" seconds="7.324"/>
+</tomtom>

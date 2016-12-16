@@ -1,0 +1,19 @@
+##gff-version 3
+1813075	fimo	nucleotide_motif	314	333	44.7	+	.	Name=glpR;ID=glpR-1-1813075;pvalue=3.37e-05;qvalue= 0.113;sequence=TGAGTGCGTGATCCGAAACG;
+4990825	fimo	nucleotide_motif	254	273	40.9	-	.	Name=glpR;ID=glpR-1-4990825;pvalue=8.08e-05;qvalue= 0.159;sequence=CTTTTTGATGATCCGTCAAT;
+1574875	fimo	nucleotide_motif	175	194	 48	-	.	Name=glpR;ID=glpR-1-1574875;pvalue=1.59e-05;qvalue= 0.113;sequence=TACGCTCGGAATCGCCCGTG;
+5970350	fimo	nucleotide_motif	275	294	41.6	+	.	Name=glpR;ID=glpR-1-5970350;pvalue=6.92e-05;qvalue= 0.159;sequence=TTCGTGTGCTTTTCACCAAA;
+8216200	fimo	nucleotide_motif	245	264	46.3	+	.	Name=glpR;ID=glpR-1-8216200;pvalue=2.32e-05;qvalue= 0.113;sequence=ATGGCTCAAAAAGCATATTT;
+3648850	fimo	nucleotide_motif	265	284	44.4	+	.	Name=glpR;ID=glpR-1-3648850;pvalue=3.59e-05;qvalue= 0.113;sequence=TACGTTCGTCCTTCACCGGA;
+3648850	fimo	nucleotide_motif	333	352	40.1	-	.	Name=glpR;ID=glpR-2-3648850;pvalue=9.86e-05;qvalue= 0.173;sequence=ATGGATCGTAATGGAGAGTA;
+7962850	fimo	nucleotide_motif	231	250	59.6	+	.	Name=glpR;ID=glpR-1-7962850;pvalue=1.1e-06;qvalue= 0.0347;sequence=CATGCGTGGATATTATCAGT;
+4798225	fimo	nucleotide_motif	247	266	46.7	+	.	Name=glpR;ID=glpR-1-4798225;pvalue=2.15e-05;qvalue= 0.113;sequence=TAGGCGTAAATATGACCGAT;
+4798225	fimo	nucleotide_motif	257	276	42.4	+	.	Name=glpR;ID=glpR-2-4798225;pvalue=5.68e-05;qvalue= 0.159;sequence=TATGACCGATATGCCGCATT;
+4798225	fimo	nucleotide_motif	257	276	41.4	-	.	Name=glpR;ID=glpR-3-4798225;pvalue=7.15e-05;qvalue= 0.159;sequence=AATGCGGCATATCGGTCATA;
+4798225	fimo	nucleotide_motif	247	266	40.7	-	.	Name=glpR;ID=glpR-4-4798225;pvalue=8.57e-05;qvalue= 0.159;sequence=ATCGGTCATATTTACGCCTA;
+1446675	fimo	nucleotide_motif	214	233	51.2	-	.	Name=glpR;ID=glpR-1-1446675;pvalue=7.64e-06;qvalue= 0.113;sequence=AATGCTCGACATTAGAAAAC;
+1446675	fimo	nucleotide_motif	220	239	40.9	+	.	Name=glpR;ID=glpR-2-1446675;pvalue=8.08e-05;qvalue= 0.159;sequence=TAATGTCGAGCATTAATATG;
+8216150	fimo	nucleotide_motif	295	314	46.3	+	.	Name=glpR;ID=glpR-1-8216150;pvalue=2.32e-05;qvalue= 0.113;sequence=ATGGCTCAAAAAGCATATTT;
+4792100	fimo	nucleotide_motif	238	257	45.3	+	.	Name=glpR;ID=glpR-1-4792100;pvalue=2.94e-05;qvalue= 0.113;sequence=AGATGTAAATATGACTCATT;
+4171275	fimo	nucleotide_motif	301	320	45.6	+	.	Name=glpR;ID=glpR-1-4171275;pvalue=2.77e-05;qvalue= 0.113;sequence=AAGGTGCAGAATTTAGAGGA;
+5705225	fimo	nucleotide_motif	267	286	40.7	-	.	Name=glpR;ID=glpR-1-5705225;pvalue=8.5e-05;qvalue= 0.159;sequence=GGGGTTCGAGTACCGAAAGT;

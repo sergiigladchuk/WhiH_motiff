@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="4.11.2" release="Mon Oct 24 12:27:06 2016 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/home/meme/meme_4.11.2/bin/fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_42 --bgfile ./bg_markov0.txt --motif FadR_Gammaproteobacteria db/PROKARYOTE/regtransbase.meme ./refSeq.fna</command-line>
+<settings>
+<setting name="output directory">fimo_out_42</setting>
+<setting name="MEME file name">db/PROKARYOTE/regtransbase.meme</setting>
+<setting name="sequence file name">./refSeq.fna</setting>
+<setting name="background file name">./bg_markov0.txt</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">FadR_Gammaproteobacteria</setting>
+</settings>
+<sequence-data num-sequences="0" num-residues="0" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="ABC0302_Bacilliales" width="20" best-possible-match="AAATAACAACGTTGTTATAA"/>
+<motif name="ABC1168_Bacillus_Burkholderia_Rhodobacteriales" width="20" best-possible-match="TTTTGCATACGTATGCAAAA"/>
+<motif name="AglR_Rhizobiales" width="20" best-possible-match="CTCCTGCAACGTTACAGTTA"/>
+<motif name="AlgR_Rhodobacterales_Rhizobiales" width="20" best-possible-match="AATTCAAAGCGCTTTGGATT"/>
+<motif name="AraC_Enterobacteriales" width="38" best-possible-match="TAGCAAATTTGTCCATAATTTTAGCGGATCCATCCTGA"/>
+<motif name="ArcA_Gammaproteobacteria" width="15" best-possible-match="TAACATTTAGTTAAC"/>
+<motif name="AscG_Escherichia_Shigella" width="20" best-possible-match="TTAGGTAACCGGTTTCACAA"/>
+<motif name="Atu3062_Alphaproteobacteria_Pseudomonas" width="20" best-possible-match="CTTGTAAACCGGTTTACTAA"/>
+<motif name="Atu4556_Rhizobiales" width="20" best-possible-match="TAATGAAAATATTTTCACGA"/>
+<motif name="Atu5007_Rhodobacterales_Rhizobiales" width="20" best-possible-match="CAAAGAGACCGGTCTCAGTA"/>
+<motif name="Atu5393_Rhizobiales" width="20" best-possible-match="TAACGGGAACGTTCCCATTA"/>
+<motif name="BB0548_Burkholderiales" width="20" best-possible-match="ATCGGAAAACGTTTCCCTAT"/>
+<motif name="BCAM1716_Burkholderiales_Actinomycetales" width="20" best-possible-match="TCAGTGAATCGATACAGTAG"/>
+<motif name="BCAS0099_Burkholderiales_Rhodobacterales" width="20" best-possible-match="AAATGAAAGCGCTTACATTC"/>
+<motif name="BH1250_Bacillaceae_Lactobacillaceae" width="20" best-possible-match="ATGTGGAATCGATTCCATAT"/>
+<motif name="BH3692_Bacilli_Clostridia" width="20" best-possible-match="CAACCGAAACGTTTTGGATG"/>
+<motif name="bll3974_Rhizobiales" width="20" best-possible-match="TAATGACAACGTTACCATCG"/>
+<motif name="BT0487_Bacteroides" width="20" best-possible-match="CTTTGTGCCCGCACACACTA"/>
+<motif name="CcpA_Bacilli" width="16" best-possible-match="TTGAAAGCGTTTTCAA"/>
+<motif name="CelR_Actinomycetales" width="20" best-possible-match="CAGTGGGAGCGCTCCCATGC"/>
+<motif name="CMS2952_Streptomyces" width="20" best-possible-match="ATCTGACAACGTTGTCCAGG"/>
+<motif name="Crp_Gammaproteobacteria" width="22" best-possible-match="AAATGTGATCTAAATCACAATA"/>
+<motif name="CscR_Gammaproteobacteria" width="20" best-possible-match="AAAAGTTAACGTTAACATTT"/>
+<motif name="CtsR_Firmicutes" width="17" best-possible-match="GGTCAAAGATGGTCAAA"/>
+<motif name="DasR_Streptomycineae" width="16" best-possible-match="ACTGGTCTAGACCACT"/>
+<motif name="DeoR_Enterobacteriales" width="16" best-possible-match="TGTTAGAATACTAACA"/>
+<motif name="DR2501_Deinococcus" width="20" best-possible-match="AGACTGAATCGTTTCAGTTG"/>
+<motif name="ECA2487_Gammaproteobacteria" width="20" best-possible-match="AATGGAAAACGGTTTCCGTA"/>
+<motif name="ECA3649_Erwinia" width="20" best-possible-match="ATTTTTGGTATGCCAAAAGC"/>
+<motif name="ExuR_Bacilli_Clostridia" width="20" best-possible-match="AAATGTTAACGTTAACAAAA"/>
+<motif name="FadR_Gammaproteobacteria" width="17" best-possible-match="AGCTGGTCCGACCAGTT"/>
+<motif name="FixK_FnrN_Rhizobiales" width="14" best-possible-match="TTGCCCGGGCGCAA"/>
+<motif name="Fnr_Gammaproteobacteria" width="14" best-possible-match="TTGATATACATCAA"/>
+<motif name="FruR_Alpha_Beta_Xanthomonadales" width="20" best-possible-match="GAGTGGGAACGATCCCACTG"/>
+<motif name="FruR_Gammaproteobacteria" width="16" best-possible-match="GCTGAATCGTTTCAGT"/>
+<motif name="FruR_Vibrionales_Pseudomonadales" width="20" best-possible-match="TTGCTGAATCGTTTCAGCTT"/>
+<motif name="GalR_Gammaproteobacteria" width="16" best-possible-match="GTGTAACCGCTTCCAC"/>
+<motif name="GalRS_Gammaproteobacteria" width="20" best-possible-match="TAGTGAAAGCGGTTACACTC"/>
+<motif name="GntR_Alphaproteobacteria_Alteromonadales" width="20" best-possible-match="AAATGATAGCGCTACCATAT"/>
+<motif name="GntR_Gammaproteobacteria" width="20" best-possible-match="TAATGTTACCCGTAACATAT"/>
+<motif name="GntR_Pseudomonadales_Burkholderiales" width="20" best-possible-match="CTAAGATAGCGCTGTCTCAA"/>
+<motif name="GntR_Rhodobacterales" width="20" best-possible-match="CACTGTTAGCGCTAACATGC"/>
+<motif name="IscR_Beta_Gamma" width="25" best-possible-match="ATACTTGACTAAATTACTCGGGTAT"/>
+<motif name="IscR_Rhodospirillaceae_Rhodobacterales" width="19" best-possible-match="CTTGACGAATTTTCTCGGA"/>
+<motif name="IscR_Rhodospirillales_Sphingomonadales" width="19" best-possible-match="TCGGACCAATTCAGTCCGG"/>
+<motif name="IscR_Rickettsiales" width="19" best-possible-match="ATTGTAGATATAAAACAAT"/>
+<motif name="KdgR_Bacillaceae" width="20" best-possible-match="TTACTAAATCGATTTAGTAC"/>
+<motif name="LacI_Enterobacteriales" width="21" best-possible-match="AAATGTGAGCGAATAACAATT"/>
+<motif name="LacI_Yersinia" width="21" best-possible-match="TAATGTATTACGTTCACACGA"/>
+<motif name="LJ0739_Lactobacillus" width="20" best-possible-match="TACTTGAAACGTTTTAAGTT"/>
+<motif name="LldR_Enterobacteriales" width="21" best-possible-match="AAAATTGGCCCTACCAATTTT"/>
+<motif name="LMO0535_Enterococcaceae_Listeriaceae" width="20" best-possible-match="ACCTGTAATGCATTACATGA"/>
+<motif name="lmo0734_Listeria_Symbiobacterium" width="20" best-possible-match="AAGGGAAAACGTTTACTCAT"/>
+<motif name="LMO1727_Enterococcaceae_Listeriaceae" width="20" best-possible-match="TCATAGAAACGTTTCGACAA"/>
+<motif name="MalI_Enterobacteriales" width="20" best-possible-match="AAGGTAAAACGTTTTATCAA"/>
+<motif name="MalR_Bacillaceae" width="20" best-possible-match="TTATGCAAACGTTTTCATTA"/>
+<motif name="MalR_Clostridiales_Thermoanaerobacteriales" width="20" best-possible-match="TTGGGCAAACGTTTGCACAA"/>
+<motif name="MalR_Clostridium_perfringens" width="20" best-possible-match="AATTGGTAACGTTACCGAAA"/>
+<motif name="MalR_Lactobacillales" width="20" best-possible-match="TTACGCAAGCGGTTGCATAA"/>
+<motif name="MalR_Pediococcus_Leuconostoc" width="20" best-possible-match="TAATGCAAGCGTTTGCACAA"/>
+<motif name="MalR_Staphylococcus" width="20" best-possible-match="TTGTGCAAACGTTTGCACAA"/>
+<motif name="MalR_Streptococcus_pneumoniae" width="20" best-possible-match="AAACGCAAACGTTTGCGTTA"/>
+<motif name="MarA_Enterobacteriales" width="20" best-possible-match="ATGGCACGAAAGACCAAATC"/>
+<motif name="McbR_Corynebacterium" width="16" best-possible-match="TAGACAGCTTGGTCTA"/>
+<motif name="mlr8213_Mesorhizobium_Streptomyces" width="20" best-possible-match="AAACGCTTGCGCAAGCGTTT"/>
+<motif name="ModE_Gammaproteobacteria" width="26" best-possible-match="TCGTTATATATTCAAATATATAACGA"/>
+<motif name="MsmR_Lactobacillales" width="20" best-possible-match="AAAATGAAACGTTTCAAAAA"/>
+<motif name="MtaR_Streptococcaceae" width="17" best-possible-match="TATAGTTTAAAACTATA"/>
+<motif name="NadR_Enterobacteriales" width="18" best-possible-match="TGTTTAGTATATTAAACA"/>
+<motif name="NagC_Gammaproteobacteria" width="23" best-possible-match="CTTATTTTACGATGCAAAAAAAT"/>
+<motif name="NagQ_a_b_g_Proteobacteria" width="18" best-possible-match="TGGTATTTTTTTGGTATT"/>
+<motif name="NagR_Xanthomonadales_Alteromonadales" width="18" best-possible-match="ATTGACAACGTTGTCATT"/>
+<motif name="NarP_Gammaproteobacteria" width="16" best-possible-match="TACCTCTTAAGAGGTA"/>
+<motif name="NrdR_Firmicutes" width="16" best-possible-match="ACACAATATATAGTAT"/>
+<motif name="NrdR_Proteobacteria" width="16" best-possible-match="CCCCTATATCTTGTGT"/>
+<motif name="NtdR_Bacillales" width="20" best-possible-match="TTATGTTATCGATTACATGT"/>
+<motif name="PckR_Rhizobiales" width="20" best-possible-match="AGATTTAATCGATTTAAATC"/>
+<motif name="PdhR_Gammaproteobacteria" width="21" best-possible-match="AAAATTGGTATGACCAATTGA"/>
+<motif name="PsrA_Proteobacteria" width="20" best-possible-match="TTTCAAACAACTGTTTGATT"/>
+<motif name="PtxS_Burkholderiales_Pseudomonadales" width="20" best-possible-match="AAATGGAACCGGTTCCATCG"/>
+<motif name="PurR_Enterobacteriales_Pasteurellales_Vibrionales" width="16" best-possible-match="AGGAAAACGTTTGCGT"/>
+<motif name="RafR_Enterobacteriales" width="20" best-possible-match="AAACCTAAACGTTTCGGATG"/>
+<motif name="RBPS06636_Burkholderia" width="20" best-possible-match="CATCCAAACCGGTTTGGACA"/>
+<motif name="RbsR_Actinomycetales" width="20" best-possible-match="TGATGCAAACGATTACATTA"/>
+<motif name="RbsR_Bacillales_Lactobacillales" width="20" best-possible-match="TTCTGTAAACGGTTACATAA"/>
+<motif name="RbsR_Bacilli" width="20" best-possible-match="TTGGTAAAACGTTTTACTAA"/>
+<motif name="RbsR_Burkholderiales_Pseudomonadales" width="20" best-possible-match="CTGCGCAAACGTTTGCGCGC"/>
+<motif name="RbsR_Clostridia" width="20" best-possible-match="CTAGTTAACCGGTTCAGTGA"/>
+<motif name="RbsR_Enterobacteriales_Pasteurellales_Vibrionales" width="20" best-possible-match="TCATCGAAACGTTTCGCTGA"/>
+<motif name="RbsR_Streptomycetaceae_Rubrobacteraceae" width="20" best-possible-match="CCGTGTAATCGTTTCCACGA"/>
+<motif name="RbtR_Rhizobiales_Rhodobacterales" width="20" best-possible-match="TTGCACAATCGATGGTGCAA"/>
+<motif name="RegR_Streptococcus" width="20" best-possible-match="TTAGTAAACCGGTTTACTTT"/>
+<motif name="Reut_C5892_Burkholderiales" width="20" best-possible-match="TAATGACTACGTATTCAAAG"/>
+<motif name="Rfer_1112_Burkholderiales" width="20" best-possible-match="AAATGGAATCCTTTCCAAAT"/>
+<motif name="RKP05499_Bacteria" width="20" best-possible-match="AAATGTAATCGATTACAATA"/>
+<motif name="RL4253_Rhodobacterales_Rhizobiales" width="20" best-possible-match="AATTTAAAACGTTTTAATTC"/>
+<motif name="RPU04121_Methylophilales_Pseudomonadales" width="20" best-possible-match="CTTTGTTAGCGCTAACATCG"/>
+<motif name="RSc0472_Burkholderiales" width="16" best-possible-match="TAGAACGATCGTTCAA"/>
+<motif name="RSc1790_Burkholderiales_Pseudomonadales" width="20" best-possible-match="CGATGAAAACGTTTTCAAGC"/>
+<motif name="SAV7156_Actinomycetales" width="20" best-possible-match="CAATTGGAGCGCTCCAACAC"/>
+<motif name="SCO0806_Actinomycetales" width="20" best-possible-match="TAGTTGAAACGTTTCAGGAC"/>
+<motif name="SCO2753_Actinomycetales" width="20" best-possible-match="CCTAGAAAGCGCTTTCCGAG"/>
+<motif name="SCO7411_Actinobacteridae" width="20" best-possible-match="TGATGTTTACGCAAACATCT"/>
+<motif name="ScrR_Bacilli" width="20" best-possible-match="TATGTCAAGCGTTTAACATA"/>
+<motif name="ScrR_Firmicutes_Burkholderiales" width="20" best-possible-match="ATTTGGAACCGGTTCCATTT"/>
+<motif name="ScrR_Gammaproteobacteria" width="20" best-possible-match="TAGCTAAATCGGTTTAGCTA"/>
+<motif name="SMA1711_Rhodobacterales_Rhizobiales" width="20" best-possible-match="GTTTGCAACCGGTTGCAAAA"/>
+<motif name="SMA2527_Enterobacteriales_Oceanospirillales" width="20" best-possible-match="AAATGACAACGTCAACATTG"/>
+<motif name="SMb20537_Rhizobiales" width="20" best-possible-match="ACAATGCAAATTTGCAAGAA"/>
+<motif name="SMb20667_Rhizobiales" width="20" best-possible-match="GATTGGCAGCGCTGCCAAAA"/>
+<motif name="SMb20717_Alphaproteobacteria" width="20" best-possible-match="CTATGTAAACCTTTACATCG"/>
+<motif name="SMb21272_Rhizobiales" width="20" best-possible-match="CTGATTAATCGTTTAATCAG"/>
+<motif name="SMb21372_Rhizobiales_Rhodobacterales" width="20" best-possible-match="ATCTTGACGCGCGTAAACTT"/>
+<motif name="SMb21598_Rhizobiales" width="20" best-possible-match="TTCCGTAAACGTTTACGACG"/>
+<motif name="SMb21706_Rhizobiales" width="20" best-possible-match="TTGAGAAAACCTTTTCTCAG"/>
+<motif name="SMc04401_Alpha_Gamma" width="20" best-possible-match="AAATTGGAACGTTCCAATTA"/>
+<motif name="SO3516_Alteromonadales" width="20" best-possible-match="AAATGACAGCGTTGTCATTA"/>
+<motif name="SPOA0242_Alpha_Burkholderiales" width="20" best-possible-match="CGATGTTACCGATAACATTC"/>
+<motif name="SPy1297_Streptococcus" width="20" best-possible-match="TAACTTAAACGTTTAAGTTT"/>
+<motif name="SssR_Proteobacteria" width="16" best-possible-match="TTTACGTTAACGTAAA"/>
+<motif name="STM1555_Enterobacteriales_Vibrionales" width="20" best-possible-match="TCATGTAACCGCTTACATGA"/>
+<motif name="STM3633_Alpha_Gamma" width="20" best-possible-match="CCATTAAAACGTTTTAATGA"/>
+<motif name="STM3696_Enterobacteriales_Burkholderiales" width="20" best-possible-match="AAATGATTGCGCTATCATTT"/>
+<motif name="TnrA_Bacilli" width="17" best-possible-match="TGTAAGATTTTCTGACA"/>
+<motif name="TreR_Gammaproteobacteria" width="20" best-possible-match="TTTTGGGAACGTTCCCATTT"/>
+<motif name="VC1286_Vibrionales_Enterobacteriales" width="20" best-possible-match="AAATGCGAGCGGTCGCGCTT"/>
+<motif name="VCA0673_Vibrionales" width="20" best-possible-match="AAATGGGTACGTATTCATCT"/>
+<motif name="VP2396_Vibrio_Yersinia" width="20" best-possible-match="AATATATTAGCTAATAAACT"/>
+<motif name="XCC2209_Xanthomonadaceae" width="20" best-possible-match="ACATGTAATCGTTTTCACAA"/>
+<motif name="XCC2464_Alteromonadales_Xanthomonadales_Sphingomonadales" width="20" best-possible-match="TTTTGAATACGTATGCAGGG"/>
+<motif name="XCC3356_Alpha_Gamma" width="20" best-possible-match="GATTGCAATCGATTGTAATG"/>
+<motif name="XylR_Bacillus_Clostridium_group" width="23" best-possible-match="GTTAGTTTGTTGATTAAACAAAC"/>
+<motif name="XylR_Gammaproteobacteria" width="38" best-possible-match="ACGAAAAATCGTAATAGAAGTGTGAAATAACATAATTG"/>
+<motif name="XylR_Rhizobiales" width="20" best-possible-match="TTTGATTTACGTACCTCAAT"/>
+<motif name="XylR_Rhodobacteriales_Rhizobiales" width="23" best-possible-match="TTTTTTTCGAGACTCGAAAAAAT"/>
+<motif name="YcjW_Listeriaceae_Enterobacteria" width="20" best-possible-match="CAATGGGACCGCTACCACGA"/>
+<motif name="YE2053_Rhizobiales_Burkholderiales_Yersinia" width="20" best-possible-match="AATTGCACACGTGTGCAAAA"/>
+<motif name="YE3589_Yersinia_Streptomyces" width="20" best-possible-match="CTATCTACGCGCGTAGCCGC"/>
+<motif name="YPO0846_Enterobacteriales" width="20" best-possible-match="AAATGAAAAAATTTTCATAA"/>
+<motif name="YPO2568_Gammaproteobacteria" width="20" best-possible-match="AAATGATAGCGCTATCAGAT"/>
+<motif name="YvdE_Bacilli" width="20" best-possible-match="TTTTGTTACCGGTAACATGT"/>
+<background source="./bg_markov0.txt">
+<value letter="A">0.138</value>
+<value letter="C">0.362</value>
+<value letter="G">0.362</value>
+<value letter="T">0.138</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

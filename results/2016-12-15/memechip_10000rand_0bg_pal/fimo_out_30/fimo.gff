@@ -1,0 +1,4 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	288	296	51.6	+	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-1438525;pvalue=6.97e-06;qvalue= 0.241;sequence=TATGTCACA;
+1438525	fimo	nucleotide_motif	270	278	46.3	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-2-1438525;pvalue=2.32e-05;qvalue= 0.4;sequence=CTTTTAATT;
+4776750	fimo	nucleotide_motif	248	256	41.2	-	.	Name=EXPREG_00000810;ID=EXPREG_00000810-1-4776750;pvalue=7.57e-05;qvalue= 0.871;sequence=TTTGTCGTA;

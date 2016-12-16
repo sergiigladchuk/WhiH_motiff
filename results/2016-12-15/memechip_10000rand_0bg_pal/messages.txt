@@ -1,0 +1,5 @@
+Log::Log4perl configuration looks suspicious: No loggers defined at /usr/local/share/perl/5.18.2/Log/Log4perl/Config.pm line 322.
+Warning: <motif> element has no '' key attribute at /home/meme/meme_4.11.2/bin/meme-chip line 1144.
+Warning: <motif> element has no '' key attribute at /home/meme/meme_4.11.2/bin/meme-chip line 1144.
+Warning: <motif> element has no '' key attribute at /home/meme/meme_4.11.2/bin/meme-chip line 1144.
+Warning: <motif> element has no '' key attribute at /home/meme/meme_4.11.2/bin/meme-chip line 1144.

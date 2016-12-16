@@ -1,0 +1,6 @@
+##gff-version 3
+8216200	fimo	nucleotide_motif	238	245	50.7	+	.	Name=AGAGGTRA;ID=AGAGGTRA-1-8216200;pvalue=8.53e-06;qvalue= 0.0978;sequence=AGAGGTGA;
+7962850	fimo	nucleotide_motif	258	265	56.3	-	.	Name=AGAGGTRA;ID=AGAGGTRA-1-7962850;pvalue=2.35e-06;qvalue= 0.0807;sequence=AGAGGTAA;
+8216150	fimo	nucleotide_motif	288	295	50.7	+	.	Name=AGAGGTRA;ID=AGAGGTRA-1-8216150;pvalue=8.53e-06;qvalue= 0.0978;sequence=AGAGGTGA;
+4792100	fimo	nucleotide_motif	238	245	45.3	+	.	Name=AGAGGTRA;ID=AGAGGTRA-1-4792100;pvalue=2.95e-05;qvalue= 0.253;sequence=AGATGTAA;
+4792100	fimo	nucleotide_motif	485	492	42.1	+	.	Name=AGAGGTRA;ID=AGAGGTRA-2-4792100;pvalue=6.21e-05;qvalue= 0.427;sequence=ACAGGTGA;

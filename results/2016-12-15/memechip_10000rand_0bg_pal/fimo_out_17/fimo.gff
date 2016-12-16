@@ -1,0 +1,11 @@
+##gff-version 3
+7470575	fimo	nucleotide_motif	248	253	42.5	+	.	Name=3;ID=3-1-7470575;pvalue=5.61e-05;qvalue= 0.183;sequence=ATCAAT;
+7470575	fimo	nucleotide_motif	248	253	42.5	-	.	Name=3;ID=3-2-7470575;pvalue=5.61e-05;qvalue= 0.183;sequence=ATTGAT;
+5970350	fimo	nucleotide_motif	238	243	51.7	+	.	Name=3;ID=3-1-5970350;pvalue=6.79e-06;qvalue= 0.0368;sequence=ATTAAT;
+5970350	fimo	nucleotide_motif	238	243	51.7	-	.	Name=3;ID=3-2-5970350;pvalue=6.79e-06;qvalue= 0.0368;sequence=ATTAAT;
+3648850	fimo	nucleotide_motif	316	321	46.9	+	.	Name=3;ID=3-1-3648850;pvalue=2.04e-05;qvalue= 0.0828;sequence=AATAAT;
+3648850	fimo	nucleotide_motif	316	321	46.9	-	.	Name=3;ID=3-2-3648850;pvalue=2.04e-05;qvalue= 0.0828;sequence=ATTATT;
+107775	fimo	nucleotide_motif	250	255	51.7	+	.	Name=3;ID=3-1-107775;pvalue=6.79e-06;qvalue= 0.0368;sequence=ATTAAT;
+107775	fimo	nucleotide_motif	250	255	51.7	-	.	Name=3;ID=3-2-107775;pvalue=6.79e-06;qvalue= 0.0368;sequence=ATTAAT;
+1446675	fimo	nucleotide_motif	231	236	51.7	+	.	Name=3;ID=3-1-1446675;pvalue=6.79e-06;qvalue= 0.0368;sequence=ATTAAT;
+1446675	fimo	nucleotide_motif	231	236	51.7	-	.	Name=3;ID=3-2-1446675;pvalue=6.79e-06;qvalue= 0.0368;sequence=ATTAAT;

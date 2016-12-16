@@ -1,0 +1,2 @@
+#Query ID	Target ID	Optimal offset	p-value	E-value	q-value	Overlap	Query consensus	Target consensus	Orientation
+1	EXPREG_00000020	-3	0.00174373	0.861401	0.550486	16	CGATCCGATGATCGGATCG	TTCGAACAAATGTTCGA	+

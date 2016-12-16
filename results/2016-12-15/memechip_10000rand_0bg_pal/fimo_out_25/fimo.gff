@@ -1,0 +1,10 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	274	280	48.3	-	.	Name=MX000003;ID=MX000003-1-1438525;pvalue=1.48e-05;qvalue= 0.134;sequence=TACTTTT;
+1438525	fimo	nucleotide_motif	282	288	48.3	+	.	Name=MX000003;ID=MX000003-2-1438525;pvalue=1.48e-05;qvalue= 0.134;sequence=TACTTTT;
+4990825	fimo	nucleotide_motif	193	199	40.8	+	.	Name=MX000003;ID=MX000003-1-4990825;pvalue=8.27e-05;qvalue= 0.312;sequence=TACTGAT;
+284475	fimo	nucleotide_motif	36	42	44.2	+	.	Name=MX000003;ID=MX000003-1-284475;pvalue=3.76e-05;qvalue= 0.256;sequence=TACTTCT;
+7962850	fimo	nucleotide_motif	245	251	40.8	-	.	Name=MX000003;ID=MX000003-1-7962850;pvalue=8.27e-05;qvalue= 0.312;sequence=TACTGAT;
+107775	fimo	nucleotide_motif	249	255	42.1	+	.	Name=MX000003;ID=MX000003-1-107775;pvalue=6.15e-05;qvalue= 0.298;sequence=TATTAAT;
+5232875	fimo	nucleotide_motif	259	265	 48	+	.	Name=MX000003;ID=MX000003-1-5232875;pvalue=1.57e-05;qvalue= 0.134;sequence=TATTTAT;
+1446675	fimo	nucleotide_motif	231	237	42.1	-	.	Name=MX000003;ID=MX000003-1-1446675;pvalue=6.15e-05;qvalue= 0.298;sequence=TATTAAT;
+2685875	fimo	nucleotide_motif	197	203	50.5	-	.	Name=MX000003;ID=MX000003-1-2685875;pvalue=8.94e-06;qvalue= 0.134;sequence=TACTCAT;

@@ -1,0 +1,21 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	257	264	56.3	+	.	Name=TGATCACA;ID=TGATCACA-1-1438525;pvalue=2.35e-06;qvalue= 0.02;sequence=TGATCACA;
+3340175	fimo	nucleotide_motif	350	357	40.5	+	.	Name=TGATCACA;ID=TGATCACA-1-3340175;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCCCA;
+3765675	fimo	nucleotide_motif	314	321	40.5	+	.	Name=TGATCACA;ID=TGATCACA-1-3765675;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCGCA;
+4021575	fimo	nucleotide_motif	261	268	56.3	+	.	Name=TGATCACA;ID=TGATCACA-1-4021575;pvalue=2.35e-06;qvalue= 0.02;sequence=TGATCACA;
+4990825	fimo	nucleotide_motif	196	203	48.3	+	.	Name=TGATCACA;ID=TGATCACA-1-4990825;pvalue=1.47e-05;qvalue= 0.0719;sequence=TGATCAGA;
+5521450	fimo	nucleotide_motif	298	305	48.3	-	.	Name=TGATCACA;ID=TGATCACA-1-5521450;pvalue=1.47e-05;qvalue= 0.0719;sequence=TAATCACA;
+7470575	fimo	nucleotide_motif	257	264	40.5	-	.	Name=TGATCACA;ID=TGATCACA-1-7470575;pvalue=8.83e-05;qvalue= 0.151;sequence=TGTTCACA;
+5970350	fimo	nucleotide_motif	137	144	40.5	-	.	Name=TGATCACA;ID=TGATCACA-1-5970350;pvalue=8.83e-05;qvalue= 0.151;sequence=TGAACACA;
+5970350	fimo	nucleotide_motif	171	178	40.5	+	.	Name=TGATCACA;ID=TGATCACA-2-5970350;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCACT;
+5970350	fimo	nucleotide_motif	169	176	40.5	-	.	Name=TGATCACA;ID=TGATCACA-3-5970350;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCACC;
+5111575	fimo	nucleotide_motif	330	337	40.5	-	.	Name=TGATCACA;ID=TGATCACA-1-5111575;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCCCA;
+3648850	fimo	nucleotide_motif	106	113	40.5	-	.	Name=TGATCACA;ID=TGATCACA-1-3648850;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCACC;
+107775	fimo	nucleotide_motif	263	270	56.3	+	.	Name=TGATCACA;ID=TGATCACA-1-107775;pvalue=2.35e-06;qvalue= 0.02;sequence=TGATCACA;
+107775	fimo	nucleotide_motif	261	268	40.5	-	.	Name=TGATCACA;ID=TGATCACA-2-107775;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCACG;
+107775	fimo	nucleotide_motif	294	301	40.5	+	.	Name=TGATCACA;ID=TGATCACA-3-107775;pvalue=8.83e-05;qvalue= 0.151;sequence=CGATCACA;
+4056750	fimo	nucleotide_motif	28	35	48.3	+	.	Name=TGATCACA;ID=TGATCACA-1-4056750;pvalue=1.47e-05;qvalue= 0.0719;sequence=TGATCAAA;
+4056750	fimo	nucleotide_motif	26	33	40.5	-	.	Name=TGATCACA;ID=TGATCACA-2-4056750;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCACG;
+1446675	fimo	nucleotide_motif	114	121	40.5	+	.	Name=TGATCACA;ID=TGATCACA-1-1446675;pvalue=8.83e-05;qvalue= 0.151;sequence=CGATCACA;
+7988200	fimo	nucleotide_motif	250	257	56.3	-	.	Name=TGATCACA;ID=TGATCACA-1-7988200;pvalue=2.35e-06;qvalue= 0.02;sequence=TGATCACA;
+7472425	fimo	nucleotide_motif	108	115	40.5	+	.	Name=TGATCACA;ID=TGATCACA-1-7472425;pvalue=8.83e-05;qvalue= 0.151;sequence=TGATCACC;

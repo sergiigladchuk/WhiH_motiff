@@ -1,0 +1,11 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	258	264	47.7	+	.	Name=GAKCACA;ID=GAKCACA-1-1438525;pvalue=1.71e-05;qvalue= 0.0991;sequence=GATCACA;
+4021575	fimo	nucleotide_motif	262	268	47.7	+	.	Name=GAKCACA;ID=GAKCACA-1-4021575;pvalue=1.71e-05;qvalue= 0.0991;sequence=GATCACA;
+4021575	fimo	nucleotide_motif	241	247	42.1	+	.	Name=GAKCACA;ID=GAKCACA-2-4021575;pvalue=6.2e-05;qvalue= 0.216;sequence=GAGCACA;
+107775	fimo	nucleotide_motif	264	270	47.7	+	.	Name=GAKCACA;ID=GAKCACA-1-107775;pvalue=1.71e-05;qvalue= 0.0991;sequence=GATCACA;
+107775	fimo	nucleotide_motif	295	301	47.7	+	.	Name=GAKCACA;ID=GAKCACA-2-107775;pvalue=1.71e-05;qvalue= 0.0991;sequence=GATCACA;
+5232875	fimo	nucleotide_motif	228	234	42.1	-	.	Name=GAKCACA;ID=GAKCACA-1-5232875;pvalue=6.2e-05;qvalue= 0.216;sequence=GAGCACA;
+1446675	fimo	nucleotide_motif	115	121	47.7	+	.	Name=GAKCACA;ID=GAKCACA-1-1446675;pvalue=1.71e-05;qvalue= 0.0991;sequence=GATCACA;
+7988200	fimo	nucleotide_motif	250	256	47.7	-	.	Name=GAKCACA;ID=GAKCACA-1-7988200;pvalue=1.71e-05;qvalue= 0.0991;sequence=GATCACA;
+2854100	fimo	nucleotide_motif	285	291	42.1	+	.	Name=GAKCACA;ID=GAKCACA-1-2854100;pvalue=6.2e-05;qvalue= 0.216;sequence=GAGCACA;
+2854150	fimo	nucleotide_motif	235	241	42.1	+	.	Name=GAKCACA;ID=GAKCACA-1-2854150;pvalue=6.2e-05;qvalue= 0.216;sequence=GAGCACA;

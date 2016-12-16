@@ -1,0 +1,22 @@
+##gff-version 3
+1438525	fimo	nucleotide_motif	264	280	46.7	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-1438525;pvalue=2.16e-05;qvalue= 0.0971;sequence=ATCGGGAATTAAAAGTA;
+1438525	fimo	nucleotide_motif	342	358	41.7	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-2-1438525;pvalue=6.73e-05;qvalue= 0.141;sequence=ATCGATGTCGAAGAAGA;
+7470575	fimo	nucleotide_motif	248	264	40.2	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-7470575;pvalue=9.53e-05;qvalue= 0.147;sequence=ATCAATTCGTGTGAACA;
+1574875	fimo	nucleotide_motif	252	268	40.9	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-1574875;pvalue=8.05e-05;qvalue= 0.145;sequence=TGGTGTGACGATCTGTT;
+284475	fimo	nucleotide_motif	230	246	 44	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-284475;pvalue=3.97e-05;qvalue= 0.109;sequence=GAATAGTCCTATGAACG;
+8216200	fimo	nucleotide_motif	374	390	45.7	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-8216200;pvalue=2.71e-05;qvalue= 0.0971;sequence=TAAAATGCCGATCTGTC;
+6275525	fimo	nucleotide_motif	130	146	42.2	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-6275525;pvalue=5.97e-05;qvalue= 0.138;sequence=AAGAGTGACGATCAGCG;
+4776750	fimo	nucleotide_motif	242	258	40.7	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-4776750;pvalue=8.4e-05;qvalue= 0.145;sequence=GACTCGTACGACAAAAG;
+3648850	fimo	nucleotide_motif	244	260	43.5	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-3648850;pvalue=4.49e-05;qvalue= 0.112;sequence=AGATGAAACGACAAGCG;
+7962850	fimo	nucleotide_motif	245	261	43.9	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-7962850;pvalue=4.06e-05;qvalue= 0.109;sequence=GTAAATTACTTACTGAT;
+4056750	fimo	nucleotide_motif	162	178	50.8	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-4056750;pvalue=8.27e-06;qvalue= 0.0751;sequence=GACAAGGTCGACAAATC;
+4056750	fimo	nucleotide_motif	53	69	40.5	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-2-4056750;pvalue=8.98e-05;qvalue= 0.145;sequence=AGCAATTCCCACCCAAA;
+8216150	fimo	nucleotide_motif	424	440	45.7	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-8216150;pvalue=2.71e-05;qvalue= 0.0971;sequence=TAAAATGCCGATCTGTC;
+2685875	fimo	nucleotide_motif	293	309	44.8	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-2685875;pvalue=3.27e-05;qvalue= 0.106;sequence=GGATTTGTCGACCAACT;
+1629350	fimo	nucleotide_motif	238	254	51.7	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-1629350;pvalue=6.76e-06;qvalue= 0.0751;sequence=ATCTCATCCCATCAACC;
+4792100	fimo	nucleotide_motif	311	327	41.6	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-4792100;pvalue=6.97e-05;qvalue= 0.141;sequence=ATAGCTTTCGATGAACG;
+7988200	fimo	nucleotide_motif	347	363	49.5	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-7988200;pvalue=1.12e-05;qvalue= 0.0751;sequence=AACGAGTACGTGCCGTT;
+4171275	fimo	nucleotide_motif	4	20	51.4	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-4171275;pvalue=7.26e-06;qvalue= 0.0751;sequence=AAATAGGACAAGGAGTC;
+4171275	fimo	nucleotide_motif	106	122	49.3	-	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-2-4171275;pvalue=1.16e-05;qvalue= 0.0751;sequence=CACTGTGACGATCAGTC;
+4171275	fimo	nucleotide_motif	319	335	40.6	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-3-4171275;pvalue=8.61e-05;qvalue= 0.145;sequence=GAAAGAACCGAGAAGGT;
+7472425	fimo	nucleotide_motif	256	272	48.3	+	.	Name=FadR_Gammaproteobacteria;ID=FadR_Gammaproteobacteria-1-7472425;pvalue=1.49e-05;qvalue= 0.0802;sequence=ATGAAAAAGGATCAGAT;

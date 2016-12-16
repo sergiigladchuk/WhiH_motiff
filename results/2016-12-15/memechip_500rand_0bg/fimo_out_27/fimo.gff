@@ -1,0 +1,15 @@
+##gff-version 3
+4021575	fimo	nucleotide_motif	278	293	44.6	-	.	Name=metJ;ID=metJ-1-4021575;pvalue=3.43e-05;qvalue= 0.138;sequence=ACATGTCCGGACTCCT;
+7470575	fimo	nucleotide_motif	252	267	55.4	+	.	Name=metJ;ID=metJ-1-7470575;pvalue=2.86e-06;qvalue= 0.0403;sequence=ATTCGTGTGAACAGAT;
+7470575	fimo	nucleotide_motif	423	438	40.6	+	.	Name=metJ;ID=metJ-2-7470575;pvalue=8.73e-05;qvalue= 0.219;sequence=GGACGTCCGGGTGCCT;
+1538675	fimo	nucleotide_motif	232	247	46.1	-	.	Name=metJ;ID=metJ-1-1538675;pvalue=2.44e-05;qvalue= 0.112;sequence=ATGCAGCTGAAAATAT;
+1538675	fimo	nucleotide_motif	275	290	41.6	-	.	Name=metJ;ID=metJ-2-1538675;pvalue=6.89e-05;qvalue= 0.201;sequence=ATTCGTCAGGAAACTT;
+8216200	fimo	nucleotide_motif	219	234	40.2	-	.	Name=metJ;ID=metJ-1-8216200;pvalue=9.53e-05;qvalue= 0.219;sequence=GGACAGCTTGCGATCT;
+3648850	fimo	nucleotide_motif	256	271	43.7	-	.	Name=metJ;ID=metJ-1-3648850;pvalue=4.25e-05;qvalue= 0.152;sequence=GAACGTATTGCCGCTT;
+4798225	fimo	nucleotide_motif	248	263	54.2	-	.	Name=metJ;ID=metJ-1-4798225;pvalue=3.76e-06;qvalue= 0.0403;sequence=GGTCATATTTACGCCT;
+8216150	fimo	nucleotide_motif	269	284	40.2	-	.	Name=metJ;ID=metJ-1-8216150;pvalue=9.53e-05;qvalue= 0.219;sequence=GGACAGCTTGCGATCT;
+4792100	fimo	nucleotide_motif	238	253	70.6	-	.	Name=metJ;ID=metJ-1-4792100;pvalue=8.61e-08;qvalue= 0.00277;sequence=AGTCATATTTACATCT;
+4792100	fimo	nucleotide_motif	238	253	42.6	+	.	Name=metJ;ID=metJ-2-4792100;pvalue=5.51e-05;qvalue= 0.177;sequence=AGATGTAAATATGACT;
+7472425	fimo	nucleotide_motif	252	267	49.9	+	.	Name=metJ;ID=metJ-1-7472425;pvalue=1.02e-05;qvalue= 0.0545;sequence=GGTCATGAAAAAGGAT;
+2854100	fimo	nucleotide_motif	202	217	50.6	-	.	Name=metJ;ID=metJ-1-2854100;pvalue=8.71e-06;qvalue= 0.0545;sequence=ATTTGTCCAGACAGTT;
+2854150	fimo	nucleotide_motif	152	167	50.6	-	.	Name=metJ;ID=metJ-1-2854150;pvalue=8.71e-06;qvalue= 0.0545;sequence=ATTTGTCCAGACAGTT;

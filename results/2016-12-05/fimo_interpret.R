@@ -1,10 +1,10 @@
 
 # all peak analysis
-fimo <- read.csv('2016-12-05/top_pal/fimo.txt', sep='\t')
+fimo <- read.csv('2016-12-15/memechip_10000rand_0bg_pal/fimo.txt', sep='\t')
 #View(fimo)
 
 # palindrom correction
-fimo <- fimo[-(seq(2,to=nrow(fimo),by=2)),]
+ fimo <- fimo[-(seq(2,to=nrow(fimo),by=2)),]
 
 
 fimo$logs <- -log10(fimo$p.value)
@@ -53,7 +53,7 @@ plot(fimo$logs, type = 'l', main="FIMO with ChIP-seqs",
      ylab = "-log of p-value", xlab = "index in FIMO", lwd=2)
 points(fimo$top_match, col='red', pch=3, lwd=2)
 points(fimo$all_match, col='blue', lwd=2)
-legend(x='topright',legend = c('FIMO','ALL ChIP peaks','TOP ChIP peaks'), lty=c(1,0,0),pch = c(NA,3,1), col=c('black','red','blue'), lwd=c(2,2,2))
+legend(x='topright',legend = c('FIMO','TOP ChIP peaks','ALL ChIP peaks'), lty=c(1,0,0),pch = c(NA,3,1), col=c('black','red','blue'), lwd=c(2,2,2))
 
 # text output
 cat(topMatches, " out of " , length(chip_top$V1), " TOP ChIP regions matched with FIMO\n", sep = '')

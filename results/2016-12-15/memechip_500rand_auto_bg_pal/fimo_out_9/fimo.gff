@@ -1,0 +1,4 @@
+##gff-version 3
+284475	fimo	nucleotide_motif	36	42	41.1	+	.	Name=MX000106;ID=MX000106-1-284475;pvalue=7.67e-05;qvalue= 0.906;sequence=TACTTCT;
+7962850	fimo	nucleotide_motif	259	265	41.8	+	.	Name=MX000106;ID=MX000106-1-7962850;pvalue=6.54e-05;qvalue= 0.906;sequence=TACCTCT;
+5232875	fimo	nucleotide_motif	259	265	51.2	+	.	Name=MX000106;ID=MX000106-1-5232875;pvalue=7.6e-06;qvalue= 0.269;sequence=TATTTAT;

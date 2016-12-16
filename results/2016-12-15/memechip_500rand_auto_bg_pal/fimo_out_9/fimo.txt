@@ -1,0 +1,4 @@
+#pattern name	sequence name	start	stop	strand	score	p-value	q-value	matched sequence
+MX000106	5232875	259	265	+	11.7913	7.6e-06	0.269	TATTTAT
+MX000106	7962850	259	265	+	11.1913	6.54e-05	0.906	TACCTCT
+MX000106	284475	36	42	+	10.7304	7.67e-05	0.906	TACTTCT
