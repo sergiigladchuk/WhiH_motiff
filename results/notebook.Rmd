@@ -261,7 +261,7 @@ $meme data/all_100_shuffled.fna -oc results/2016-12-01/meme_all_bg0_shuffled -mo
 $meme data/top_100_shuffled.fna -oc results/2016-12-01/meme_top_bg0_shuffled -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp
 ```
 
-### Results of rerun
+### Results of rerun {#rediscovery1}
 
 Input setup | All peaks<br>(349 peaks) | Top10 peaks<br>(36 peaks)
 ------------|------------------------|------------------------
@@ -445,7 +445,7 @@ $python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -
 3. Settings are all defaults except: *Input the motifs section* - selection: Prokaryote DNA and Combined Prokaryotes discriminative mode
 
 
-### Results
+### Results {#rediscovery2}
 
 **Discriminative mode Motif rediscovery**
 
@@ -463,23 +463,162 @@ Input setup | Motif e-value, regions and link | FIMO results
 Discriminative mode improved result of "back-check" - motifs produced with and without "palindrome only" check give more FIMO matches with ChIP-seq peaks that are base for motif discovery. So current best motif is #2 *non-palindromic produced from TOP ChIP-seq peaks with 0-order background model in discriminative mode*. It gives most back-hits in FIMO and overall less hits in genome.
 On the other hand palindromic motif produced from discriminative mode is not that specific (673 hits in whole genome)
 
-## 2016-12-16 Transcriptomics data preparation for analysis [in progress]
+## 2016-12-16 Transcriptomics data preparation for analysis
 
-1. Extract WhiH and Whild Type data from whole transcritomics file
-```
-$cat data/transcript/SVEN_data_KF.csv | tail -n +9 | cut -d ',' -f 1,78-97,138-161 | grep SMD_number -v > data/transcript/tr_WhiH_data.csv
-```
+###Procedure
 
-2. Get gene matching file from [NCBI annotation](https://www.ncbi.nlm.nih.gov/nuccore/FR845719) in gff3 format
+1. Get gene matching file from [NCBI annotation](https://www.ncbi.nlm.nih.gov/nuccore/FR845719) in gff3 format
 
-3. Run python script to convert transcriptomics csv file and matching annotation file into AffyLogC values (and compare it with ChIP-seq file data)
+2. Run python script to convert transcriptomics csv file and matching annotation file into AffyLogC values, with default gene search distances - 300 away from the start codon and +50 after start codon as a range for match. Commands for 'Best non-palindromic discriminative motif' and 'Top10 palindromic motif':
 ```
-$python3 bin/affyLocCreator ......
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-15/memechip_500rand_0bg/fimo.txt -o results/2016-12-16/best_discrim_motif_counts.txt
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-05/top_pal/fimo.txt -o results/2016-12-16/top10_pal_motif_counts.txt
 ```
 
 > "Affy LogFC" – the log-fold change ($log_{2}$ scale) in expression of the whiH mutant compared to wild-type S. venezuelae at the 10, 12, 14 ,16, 18 and 20 h time points. (-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; (+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
 
-4. Perform statistical analysis based on created AffyLogC table (significant diff. in affylog 5%), 300 away from the start codon as a cut off and +50
+4. Perform statistical independence analysis based on created AffyLogC table (significant diff. in affylog 5%) in R based on one-sided Fisher test for probabilities.
+
+###Results
+
+**Independace test for 'Best non-palindromic discriminative motif' (#2 in [this rediscovery](#rediscovery2))**
+
+```{r index_fisher_for_discrim, echo=FALSE, width=800}
+trans <- read.csv('2016-12-16/best_discrim_motif_counts.txt', sep='\t')
+#str(trans)
+#View(trans)
+
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+signiff <- 0.05
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 2, ncol = length(times))
+outPutGrath <- matrix(NA,nrow = 8, ncol = length(times))
+colnames(outPut) <- times
+colnames(outPutGrath) <- times
+rownames(outPut) <- c('OverExp. p-val.', 'UnderExp. p-val.')
+rownames(outPutGrath) <- c('Sig. OverExp. Non-Motif', 'Sig. OverExp. Motif','Non-Sig. OverExp. Non-Motif', 'Non-Sig. OverExp. Motif', 
+                           'Sig. UnderExp. Non-Motif','Sig. UnderExp. Motif', 'Non-Sig. UnderExp. Non-Motif','Non-Sig. UnderExp. Motif')
+outPut <- as.data.frame(outPut)
+
+#loop to goo through each time to get signifinace of motiff
+col = 0
+for (curentH in times) {
+  col <- col + 1
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  trans.cur.over$sig <- ifelse(trans.cur.over[[varName]] >= quantile(trans.cur.over[[varName]],1 - signiff), 'S', 'N')
+  trans.cur.under$sig <- ifelse(trans.cur.under[[varName]] <= quantile(trans.cur.under[[varName]],signiff), 'S', 'N')
+  trans.cur.over$sig <- factor(trans.cur.over$sig)
+  trans.cur.under$sig <- factor(trans.cur.under$sig)
+  
+  #View(trans.cur.over)
+  #str(trans.cur.over)
+  counts.over <- table(trans.cur.over$closest_match,trans.cur.over$sig)
+  counts.under <- table(trans.cur.under$closest_match,trans.cur.under$sig)
+  #plot(trans.8h.over$affyLog_8h~trans.8h.over$closest_match)
+  
+  #tests FIsher because can be lower than 4
+  
+  test.over <- fisher.test(counts.over, alternative = 'greater')
+  test.under <- fisher.test(counts.under, alternative = 'greater')
+  outPut[[curentH]][1] <- test.over$p.value
+  outPut[[curentH]][2] <- test.under$p.value
+  
+  #for graph
+  outPutGrath[1, col] <- counts.over[1,2]
+  outPutGrath[2, col] <- counts.over[2,2]
+  outPutGrath[3, col] <- counts.over[1,1]
+  outPutGrath[4, col] <- counts.over[2,1]
+  outPutGrath[5, col] <- counts.under[1,2]
+  outPutGrath[6, col] <- counts.under[2,2]
+  outPutGrath[7, col] <- counts.under[1,1]
+  outPutGrath[8, col] <- counts.under[2,1]
+  
+}
+library(knitr)
+kable(outPut, digits = 4, caption = 'Statistical significance')
+
+kable(outPutGrath, caption ='Counts for genes')
+```
+
+*****
+
+**Independace test for 'Top10 palindromic motif' (#4 from TOP in [this rediscovery](#rediscovery1))**
+
+```{r index_fisher_top10_pal, echo=FALSE, width=800}
+trans <- read.csv('2016-12-16/top10_pal_motif_counts.txt', sep='\t')
+#str(trans)
+#View(trans)
+
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+signiff <- 0.05
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 2, ncol = length(times))
+outPutGrath <- matrix(NA,nrow = 8, ncol = length(times))
+colnames(outPut) <- times
+colnames(outPutGrath) <- times
+rownames(outPut) <- c('OverExp. p-val.', 'UnderExp. p-val.')
+rownames(outPutGrath) <- c('Sig. OverExp. Non-Motif', 'Sig. OverExp. Motif','Non-Sig. OverExp. Non-Motif', 'Non-Sig. OverExp. Motif', 
+                           'Sig. UnderExp. Non-Motif','Sig. UnderExp. Motif', 'Non-Sig. UnderExp. Non-Motif','Non-Sig. UnderExp. Motif')
+outPut <- as.data.frame(outPut)
+
+#loop to goo through each time to get signifinace of motiff
+col = 0
+for (curentH in times) {
+  col <- col + 1
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  trans.cur.over$sig <- ifelse(trans.cur.over[[varName]] >= quantile(trans.cur.over[[varName]],1 - signiff), 'S', 'N')
+  trans.cur.under$sig <- ifelse(trans.cur.under[[varName]] <= quantile(trans.cur.under[[varName]],signiff), 'S', 'N')
+  trans.cur.over$sig <- factor(trans.cur.over$sig)
+  trans.cur.under$sig <- factor(trans.cur.under$sig)
+  
+  #View(trans.cur.over)
+  #str(trans.cur.over)
+  counts.over <- table(trans.cur.over$closest_match,trans.cur.over$sig)
+  counts.under <- table(trans.cur.under$closest_match,trans.cur.under$sig)
+  #plot(trans.8h.over$affyLog_8h~trans.8h.over$closest_match)
+  
+  #tests FIsher because can be lower than 4
+  
+  test.over <- fisher.test(counts.over, alternative = 'greater')
+  test.under <- fisher.test(counts.under, alternative = 'greater')
+  outPut[[curentH]][1] <- test.over$p.value
+  outPut[[curentH]][2] <- test.under$p.value
+  
+  #for graph
+  outPutGrath[1, col] <- counts.over[1,2]
+  outPutGrath[2, col] <- counts.over[2,2]
+  outPutGrath[3, col] <- counts.over[1,1]
+  outPutGrath[4, col] <- counts.over[2,1]
+  outPutGrath[5, col] <- counts.under[1,2]
+  outPutGrath[6, col] <- counts.under[2,2]
+  outPutGrath[7, col] <- counts.under[1,1]
+  outPutGrath[8, col] <- counts.under[2,1]
+  
+}
+
+library(knitr)
+kable(outPut, digits = 4, caption = 'Statistical significance')
+
+kable(outPutGrath, caption = 'Counts for genes')
+```
 
 # Next steps
 

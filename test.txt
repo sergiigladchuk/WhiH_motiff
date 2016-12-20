@@ -1,0 +1,1 @@
+gene tag	gene old tag	gene start	gene end	strand	product	closest match	match value	distance	affyLog_8h	affyLog_10h	affyLog_12h	affyLog_14h	affyLog_16h	affyLog_18h	affLog_20h

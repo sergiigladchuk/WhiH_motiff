@@ -470,7 +470,7 @@ $meme data/all_100_shuffled.fna -oc results/2016-12-01/meme_all_bg0_shuffled -mo
 $meme data/top_100_shuffled.fna -oc results/2016-12-01/meme_top_bg0_shuffled -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile data/bg_markov0.txt -dna -revcomp</code></pre></li>
 </ol>
 </div>
-<div id="results-of-rerun" class="section level3">
+<div id="rediscovery1" class="section level3">
 <h3>Results of rerun</h3>
 <table style="width:88%;">
 <colgroup>
@@ -609,7 +609,7 @@ $python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -
 <li><p>Settings are all defaults except: <em>Input the motifs section</em> - selection: Prokaryote DNA and Combined Prokaryotes discriminative mode</p></li>
 </ol>
 </div>
-<div id="results-1" class="section level3">
+<div id="rediscovery2" class="section level3">
 <h3>Results</h3>
 <p><strong>Discriminative mode Motif rediscovery</strong></p>
 <table style="width:85%;">
@@ -664,21 +664,297 @@ $python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -
 <p>Discriminative mode improved result of “back-check” - motifs produced with and without “palindrome only” check give more FIMO matches with ChIP-seq peaks that are base for motif discovery. So current best motif is #2 <em>non-palindromic produced from TOP ChIP-seq peaks with 0-order background model in discriminative mode</em>. It gives most back-hits in FIMO and overall less hits in genome. On the other hand palindromic motif produced from discriminative mode is not that specific (673 hits in whole genome)</p>
 </div>
 </div>
-<div id="transcriptomics-data-preparation-for-analysis-in-progress" class="section level2">
-<h2>2016-12-16 Transcriptomics data preparation for analysis [in progress]</h2>
+<div id="transcriptomics-data-preparation-for-analysis" class="section level2">
+<h2>2016-12-16 Transcriptomics data preparation for analysis</h2>
+<div id="procedure-4" class="section level3">
+<h3>Procedure</h3>
 <ol style="list-style-type: decimal">
-<li><p>Extract WhiH and Whild Type data from whole transcritomics file</p>
-<pre><code>$cat data/transcript/SVEN_data_KF.csv | tail -n +9 | cut -d ',' -f 1,78-97,138-161 | grep SMD_number -v &gt; data/transcript/tr_WhiH_data.csv</code></pre></li>
 <li><p>Get gene matching file from <a href="https://www.ncbi.nlm.nih.gov/nuccore/FR845719">NCBI annotation</a> in gff3 format</p></li>
-<li><p>Run python script to convert transcriptomics csv file and matching annotation file into AffyLogC values (and compare it with ChIP-seq file data)</p>
-<pre><code>$python3 bin/affyLocCreator ......</code></pre></li>
+<li><p>Run python script to convert transcriptomics csv file and matching annotation file into AffyLogC values, with default gene search distances - 300 away from the start codon and +50 after start codon as a range for match. Commands for ‘Best non-palindromic discriminative motif’ and ‘Top10 palindromic motif’:</p>
+<pre><code>$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-15/memechip_500rand_0bg/fimo.txt -o results/2016-12-16/best_discrim_motif_counts.txt
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-05/top_pal/fimo.txt -o results/2016-12-16/top10_pal_motif_counts.txt</code></pre></li>
 </ol>
 <blockquote>
 <p>“Affy LogFC” – the log-fold change (<span class="math inline">\(log_{2}\)</span> scale) in expression of the whiH mutant compared to wild-type S. venezuelae at the 10, 12, 14 ,16, 18 and 20 h time points. (-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; (+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.</p>
 </blockquote>
 <ol start="4" style="list-style-type: decimal">
-<li>Perform statistical analysis based on created AffyLogC table (significant diff. in affylog 5%), 300 away from the start codon as a cut off and +50</li>
+<li>Perform statistical independence analysis based on created AffyLogC table (significant diff. in affylog 5%) in R based on one-sided Fisher test for probabilities.</li>
 </ol>
+</div>
+<div id="results-1" class="section level3">
+<h3>Results</h3>
+<p><strong>Independace test for ‘Best non-palindromic discriminative motif’ (#2 in <a href="#rediscovery2">this rediscovery</a>)</strong></p>
+<table>
+<caption>Statistical significance</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">8h</th>
+<th align="right">10h</th>
+<th align="right">12h</th>
+<th align="right">14h</th>
+<th align="right">16h</th>
+<th align="right">18h</th>
+<th align="right">20h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">OverExp. p-val.</td>
+<td align="right">0.5016</td>
+<td align="right">0.3694</td>
+<td align="right">0.8674</td>
+<td align="right">0.0066</td>
+<td align="right">0.3475</td>
+<td align="right">0.0129</td>
+<td align="right">0.1017</td>
+</tr>
+<tr class="even">
+<td align="left">UnderExp. p-val.</td>
+<td align="right">0.7334</td>
+<td align="right">0.6964</td>
+<td align="right">0.0469</td>
+<td align="right">0.0468</td>
+<td align="right">0.0195</td>
+<td align="right">0.0721</td>
+<td align="right">0.5295</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Counts for genes</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">8h</th>
+<th align="right">10h</th>
+<th align="right">12h</th>
+<th align="right">14h</th>
+<th align="right">16h</th>
+<th align="right">18h</th>
+<th align="right">20h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Sig. OverExp. Non-Motif</td>
+<td align="right">182</td>
+<td align="right">187</td>
+<td align="right">190</td>
+<td align="right">167</td>
+<td align="right">183</td>
+<td align="right">175</td>
+<td align="right">165</td>
+</tr>
+<tr class="even">
+<td align="left">Sig. OverExp. Motif</td>
+<td align="right">5</td>
+<td align="right">6</td>
+<td align="right">3</td>
+<td align="right">10</td>
+<td align="right">6</td>
+<td align="right">11</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="left">Non-Sig. OverExp. Non-Motif</td>
+<td align="right">3461</td>
+<td align="right">3559</td>
+<td align="right">3574</td>
+<td align="right">3282</td>
+<td align="right">3501</td>
+<td align="right">3442</td>
+<td align="right">3188</td>
+</tr>
+<tr class="even">
+<td align="left">Non-Sig. OverExp. Motif</td>
+<td align="right">88</td>
+<td align="right">92</td>
+<td align="right">93</td>
+<td align="right">71</td>
+<td align="right">90</td>
+<td align="right">92</td>
+<td align="right">87</td>
+</tr>
+<tr class="odd">
+<td align="left">Sig. UnderExp. Non-Motif</td>
+<td align="right">176</td>
+<td align="right">171</td>
+<td align="right">165</td>
+<td align="right">180</td>
+<td align="right">168</td>
+<td align="right">173</td>
+<td align="right">189</td>
+</tr>
+<tr class="even">
+<td align="left">Sig. UnderExp. Motif</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">9</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">8</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="left">Non-Sig. UnderExp. Non-Motif</td>
+<td align="right">3317</td>
+<td align="right">3219</td>
+<td align="right">3207</td>
+<td align="right">3507</td>
+<td align="right">3284</td>
+<td align="right">3346</td>
+<td align="right">3594</td>
+</tr>
+<tr class="even">
+<td align="left">Non-Sig. UnderExp. Motif</td>
+<td align="right">94</td>
+<td align="right">89</td>
+<td align="right">86</td>
+<td align="right">100</td>
+<td align="right">85</td>
+<td align="right">80</td>
+<td align="right">91</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Independace test for ‘Top10 palindromic motif’ (#4 from TOP in <a href="#rediscovery1">this rediscovery</a>)</strong></p>
+<table>
+<caption>Statistical significance</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">8h</th>
+<th align="right">10h</th>
+<th align="right">12h</th>
+<th align="right">14h</th>
+<th align="right">16h</th>
+<th align="right">18h</th>
+<th align="right">20h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">OverExp. p-val.</td>
+<td align="right">1.0000</td>
+<td align="right">0.9290</td>
+<td align="right">0.9243</td>
+<td align="right">0.3667</td>
+<td align="right">0.2950</td>
+<td align="right">0.3989</td>
+<td align="right">0.3086</td>
+</tr>
+<tr class="even">
+<td align="left">UnderExp. p-val.</td>
+<td align="right">0.9479</td>
+<td align="right">0.4232</td>
+<td align="right">0.4360</td>
+<td align="right">0.0186</td>
+<td align="right">0.3672</td>
+<td align="right">0.5153</td>
+<td align="right">0.6293</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Counts for genes</caption>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">8h</th>
+<th align="right">10h</th>
+<th align="right">12h</th>
+<th align="right">14h</th>
+<th align="right">16h</th>
+<th align="right">18h</th>
+<th align="right">20h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Sig. OverExp. Non-Motif</td>
+<td align="right">187</td>
+<td align="right">192</td>
+<td align="right">192</td>
+<td align="right">174</td>
+<td align="right">185</td>
+<td align="right">182</td>
+<td align="right">169</td>
+</tr>
+<tr class="even">
+<td align="left">Sig. OverExp. Motif</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">Non-Sig. OverExp. Non-Motif</td>
+<td align="right">3508</td>
+<td align="right">3601</td>
+<td align="right">3618</td>
+<td align="right">3313</td>
+<td align="right">3540</td>
+<td align="right">3474</td>
+<td align="right">3223</td>
+</tr>
+<tr class="even">
+<td align="left">Non-Sig. OverExp. Motif</td>
+<td align="right">41</td>
+<td align="right">50</td>
+<td align="right">49</td>
+<td align="right">40</td>
+<td align="right">51</td>
+<td align="right">60</td>
+<td align="right">52</td>
+</tr>
+<tr class="odd">
+<td align="left">Sig. UnderExp. Non-Motif</td>
+<td align="right">179</td>
+<td align="right">172</td>
+<td align="right">171</td>
+<td align="right">183</td>
+<td align="right">175</td>
+<td align="right">179</td>
+<td align="right">192</td>
+</tr>
+<tr class="even">
+<td align="left">Sig. UnderExp. Motif</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">3</td>
+<td align="right">7</td>
+<td align="right">3</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Non-Sig. UnderExp. Non-Motif</td>
+<td align="right">3355</td>
+<td align="right">3264</td>
+<td align="right">3248</td>
+<td align="right">3559</td>
+<td align="right">3329</td>
+<td align="right">3394</td>
+<td align="right">3645</td>
+</tr>
+<tr class="even">
+<td align="left">Non-Sig. UnderExp. Motif</td>
+<td align="right">56</td>
+<td align="right">44</td>
+<td align="right">45</td>
+<td align="right">48</td>
+<td align="right">40</td>
+<td align="right">32</td>
+<td align="right">40</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 <div id="next-steps" class="section level1">
