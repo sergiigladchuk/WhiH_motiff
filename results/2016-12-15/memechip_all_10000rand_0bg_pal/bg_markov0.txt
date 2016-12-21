@@ -1,0 +1,7 @@
+# 0-order Markov frequencies from file 2016-10-26_Check/FR845719_1.fasta
+# seqs: 1    min: 8226158    max: 8226158    avg: 8226158.0    sum: 8226158    alph: DNA
+# order 0
+A 1.376e-01
+C 3.624e-01
+G 3.624e-01
+T 1.376e-01

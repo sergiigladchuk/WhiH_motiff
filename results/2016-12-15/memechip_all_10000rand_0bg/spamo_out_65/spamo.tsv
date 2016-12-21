@@ -1,0 +1,54 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+prodoric	MX000143	GcvA	meme.xml	2	MEME	0	0	.	.	.	2.74e-01	20	0	3	8	5.45e-08	4.90e-07
+prodoric	MX000143	GcvA	meme.xml	2	MEME	0	0	.	.	.	2.74e-01	20	4	3	8	4.32e-07	3.89e-06
+prodoric	MX000143	GcvA	meme.xml	2	MEME	0	0	.	.	.	2.74e-01	20	5	3	8	4.32e-07	3.89e-06
+prodoric	MX000143	GcvA	meme.xml	2	MEME	0	0	.	.	.	2.74e-01	20	8	3	8	3.40e-06	3.06e-05
+prodoric	MX000143	GcvA	prodoric	MX000071	SigB	2	0	.	.	.	3.63e-01	42	0	4	36	6.18e-08	5.56e-07
+prodoric	MX000143	GcvA	prodoric	MX000071	SigB	2	0	.	.	.	3.63e-01	42	4	4	36	9.45e-07	8.51e-06
+prodoric	MX000143	GcvA	prodoric	MX000071	SigB	2	0	.	.	.	3.63e-01	42	5	4	36	9.45e-07	8.51e-06
+prodoric	MX000143	GcvA	prodoric	MX000200	MelR	0	0	.	.	.	6.66e-01	15	0	3	11	1.20e-07	1.08e-06
+prodoric	MX000143	GcvA	prodoric	MX000200	MelR	0	0	.	.	.	6.66e-01	15	4	3	11	9.52e-07	8.57e-06
+prodoric	MX000143	GcvA	prodoric	MX000200	MelR	0	0	.	.	.	6.66e-01	15	5	3	11	9.52e-07	8.57e-06
+prodoric	MX000143	GcvA	dreme.xml	CTYGAACC	DREME	0	0	.	.	.	1.58e+00	40	0	3	15	2.66e-07	2.39e-06
+prodoric	MX000143	GcvA	dreme.xml	CTYGAACC	DREME	0	0	.	.	.	1.58e+00	40	4	3	15	2.09e-06	1.88e-05
+prodoric	MX000143	GcvA	dreme.xml	CTYGAACC	DREME	0	0	.	.	.	1.58e+00	40	5	3	15	2.09e-06	1.88e-05
+prodoric	MX000143	GcvA	dpinteract	rpoD16	.	0	0	.	.	.	3.17e+00	20	1	3	17	6.21e-07	5.59e-06
+prodoric	MX000143	GcvA	dpinteract	rpoD16	.	0	0	.	.	.	3.17e+00	20	4	3	17	4.86e-06	4.38e-05
+prodoric	MX000143	GcvA	dpinteract	rpoD16	.	0	0	.	.	.	3.17e+00	20	6	3	17	4.86e-06	4.38e-05
+prodoric	MX000143	GcvA	dreme.xml	ATCSGW	DREME	0	0	.	.	.	5.14e+00	23	1	3	22	8.56e-07	7.70e-06
+prodoric	MX000143	GcvA	prodoric	MX000157	PdhR	0	0	.	.	.	5.14e+00	43	1	3	22	8.56e-07	7.70e-06
+prodoric	MX000143	GcvA	prodoric	MX000008	GlpR	0	1	.	.	.	7.09e+00	45	0	3	23	1.30e-06	1.17e-05
+prodoric	MX000143	GcvA	prodoric	MX000197	NatA	0	0	.	.	.	9.79e+00	17	0	3	27	1.65e-06	1.48e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="4.11.2" release="Mon Oct 24 12:27:06 2016 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/home/meme/meme_4.11.2/bin/fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_49 --bgfile ./bg_markov0.txt --motif EXPREG_00001190 db/PROKARYOTE/collectf.meme ./all_input.fna</command-line>
+<settings>
+<setting name="output directory">fimo_out_49</setting>
+<setting name="MEME file name">db/PROKARYOTE/collectf.meme</setting>
+<setting name="sequence file name">./all_input.fna</setting>
+<setting name="background file name">./bg_markov0.txt</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">EXPREG_00001190</setting>
+</settings>
+<sequence-data num-sequences="0" num-residues="0" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="EXPREG_00000020" width="17" best-possible-match="TTCGAACAAATGTTCGA"/>
+<motif name="EXPREG_00000050" width="21" best-possible-match="TTGTTTAATTTTTGTTTAATT"/>
+<motif name="EXPREG_000000e0" width="20" best-possible-match="TAATGAAAACGCTTTCAATT"/>
+<motif name="EXPREG_00000100" width="23" best-possible-match="ATTGCGAGCGATTCTCAATAGGG"/>
+<motif name="EXPREG_00000120" width="16" best-possible-match="AGGAACTAATGTTCTA"/>
+<motif name="EXPREG_00000130" width="22" best-possible-match="TTATTGATTATTATGTCAGTTT"/>
+<motif name="EXPREG_000001b0" width="15" best-possible-match="AATTTTCTGAAAATT"/>
+<motif name="EXPREG_00000200" width="16" best-possible-match="TTAACGCTCCCGAAAC"/>
+<motif name="EXPREG_00000240" width="14" best-possible-match="TATTTTTTGAATTT"/>
+<motif name="EXPREG_00000290" width="21" best-possible-match="TTATTGATAATTTTATCATTA"/>
+<motif name="EXPREG_00000330" width="15" best-possible-match="ATTTTTCAGAAAATT"/>
+<motif name="EXPREG_00000340" width="48" best-possible-match="TTTATATTATAATAATCATTATTAAAAATAACTTCAAATAAAATTTTT"/>
+<motif name="EXPREG_00000360" width="25" best-possible-match="GTTTTTAATGATAATTATTATCATT"/>
+<motif name="EXPREG_00000370" width="21" best-possible-match="TGAAAATATAATCATTCTTAT"/>
+<motif name="EXPREG_00000470" width="43" best-possible-match="ATGTCGCATTGGTGAAATTAGATGTCGCAAAACTGAAAGTCGC"/>
+<motif name="EXPREG_000004b0" width="24" best-possible-match="ACGAAGCAGGGCGGCGGAAATTTA"/>
+<motif name="EXPREG_000004d0" width="24" best-possible-match="GTGCTGGCAGATCGCCATCATCGC"/>
+<motif name="EXPREG_000005c0" width="20" best-possible-match="TCGGGGACTAATGGCCCTAG"/>
+<motif name="EXPREG_000005d0" width="20" best-possible-match="TATCGAACACATGTTCGATA"/>
+<motif name="EXPREG_00000670" width="35" best-possible-match="ATATAATACTAATTCATTTTAAATAATAATTAGTT"/>
+<motif name="EXPREG_000006f0" width="28" best-possible-match="ATCCTTCCCAGGTGCATCAAGACCTTGC"/>
+<motif name="EXPREG_00000700" width="14" best-possible-match="GGCATGGTCTTGAT"/>
+<motif name="EXPREG_00000710" width="22" best-possible-match="TTACTGGATATATATACAGTAT"/>
+<motif name="EXPREG_00000760" width="14" best-possible-match="GTATCAAAAATTAC"/>
+<motif name="EXPREG_000007a0" width="20" best-possible-match="TACTGTATATATATACAGTA"/>
+<motif name="EXPREG_000007b0" width="53" best-possible-match="CGACTGTGCCTACATTGAAGGTGACACTGTCACATTAAACGGTACATCTATCT"/>
+<motif name="EXPREG_000007c0" width="31" best-possible-match="AATTATAATGATAATTATTATCATTAATATT"/>
+<motif name="EXPREG_00000800" width="21" best-possible-match="TTGTTAAAAAAATGTTAAAAA"/>
+<motif name="EXPREG_00000810" width="9" best-possible-match="TATGTAACA"/>
+<motif name="EXPREG_00000840" width="15" best-possible-match="CAGAATTTTATGCTG"/>
+<motif name="EXPREG_00000850" width="22" best-possible-match="TTCTGTGATCGATTTCACATTT"/>
+<motif name="EXPREG_00000870" width="16" best-possible-match="TTGACCATTTGGTCAA"/>
+<motif name="EXPREG_000008b0" width="23" best-possible-match="AATGAGAATTATTATCATTTATA"/>
+<motif name="EXPREG_000008c0" width="22" best-possible-match="CTTAACGTCTTGTTAACCATGG"/>
+<motif name="EXPREG_000008d0" width="15" best-possible-match="TTTTTTATAAAAAAA"/>
+<motif name="EXPREG_000008e0" width="27" best-possible-match="TTTTGTTTAGGTTTTGTTTAATTTCTT"/>
+<motif name="EXPREG_00000950" width="23" best-possible-match="TCTTGTTTATGTTTTGTTTATAT"/>
+<motif name="EXPREG_000009a0" width="16" best-possible-match="ACAATTCTGGAACCTT"/>
+<motif name="EXPREG_000009b0" width="23" best-possible-match="CACCTATCAGATCTGCTAGCTGG"/>
+<motif name="EXPREG_000009c0" width="27" best-possible-match="TTTTTATTGAAAGCGTTTTCAATTTTA"/>
+<motif name="EXPREG_000009d0" width="24" best-possible-match="TCGCCCTACCGTTCGTCCGCCCGT"/>
+<motif name="EXPREG_000009e0" width="18" best-possible-match="TGGCATGAATTTTGCATT"/>
+<motif name="EXPREG_00000a00" width="14" best-possible-match="CGAACATATGTTCG"/>
+<motif name="EXPREG_00000a20" width="19" best-possible-match="AATGATAATGATTATCATT"/>
+<motif name="EXPREG_00000a60" width="20" best-possible-match="TACTGTATAAATATACAGTG"/>
+<motif name="EXPREG_00000b00" width="17" best-possible-match="AAAAATGGTTAAATACT"/>
+<motif name="EXPREG_00000b40" width="22" best-possible-match="GATAATGATAATCATTATCAAT"/>
+<motif name="EXPREG_00000b50" width="32" best-possible-match="TCGCCGTAATATGTGAACTAGTTCACATTTCG"/>
+<motif name="EXPREG_00000bc0" width="15" best-possible-match="TTATAATTATTATAA"/>
+<motif name="EXPREG_00000c30" width="9" best-possible-match="CCAGCAAAC"/>
+<motif name="EXPREG_00000c80" width="19" best-possible-match="GATAATGATAATCATTATC"/>
+<motif name="EXPREG_00000d10" width="16" best-possible-match="AAGAAAACGTTTTCAT"/>
+<motif name="EXPREG_00000e20" width="17" best-possible-match="TTGTTATAATATAACAT"/>
+<motif name="EXPREG_00000ec0" width="24" best-possible-match="TTAATGATAATGATTTTTATTTTA"/>
+<motif name="EXPREG_00000f50" width="23" best-possible-match="AAATTGTATACAGTATACAATAA"/>
+<motif name="EXPREG_00000f90" width="26" best-possible-match="AATATTGTGACTTACATCACAATTGT"/>
+<motif name="EXPREG_00000fc0" width="15" best-possible-match="GTCACTCTGCGTGAC"/>
+<motif name="EXPREG_00000ff0" width="32" best-possible-match="TTTATAAATTGTGATCTAAATCACATTTTTAT"/>
+<motif name="EXPREG_00001000" width="20" best-possible-match="TATACACTTTGTTACATTTT"/>
+<motif name="EXPREG_00001020" width="19" best-possible-match="GGAAATGATAATCATTTTC"/>
+<motif name="EXPREG_00001030" width="25" best-possible-match="TTGTTGTGATCAATATCACATTTTC"/>
+<motif name="EXPREG_000010c0" width="11" best-possible-match="TCAGAATATTC"/>
+<motif name="EXPREG_000010e0" width="22" best-possible-match="AAACTGTATATATAAACAGTAT"/>
+<motif name="EXPREG_00001110" width="17" best-possible-match="ATGAGAATCATTCTCAT"/>
+<motif name="EXPREG_00001150" width="29" best-possible-match="CTAAATATTTGCCCCCGCCATTCGTTCTA"/>
+<motif name="EXPREG_00001190" width="29" best-possible-match="CGTGTGGTCAAGCTTGCGTTACACGTGCT"/>
+<motif name="EXPREG_00001280" width="15" best-possible-match="GTTAATTAAATGTTA"/>
+<motif name="EXPREG_000012b0" width="17" best-possible-match="TTGTAATTTTATTACAG"/>
+<motif name="EXPREG_000013d0" width="19" best-possible-match="GATAATGATTATCATTTAG"/>
+<motif name="EXPREG_000013e0" width="22" best-possible-match="AATAAGAACGTATGTTCGTTTT"/>
+<motif name="EXPREG_00001440" width="27" best-possible-match="AAAAAACCCCTAAATTTAAAGGGGTTT"/>
+<motif name="EXPREG_00001480" width="19" best-possible-match="ATGTTCTTGATTTGTTCTG"/>
+<motif name="EXPREG_000014f0" width="19" best-possible-match="CATGTTCTCGTTATGTTCT"/>
+<motif name="EXPREG_00001520" width="14" best-possible-match="TGAAAACGTTTTCA"/>
+<motif name="EXPREG_00001560" width="40" best-possible-match="AATTGATTTTATCTATCGGTTAAATTGTTCATAGAGATTT"/>
+<motif name="EXPREG_00001610" width="14" best-possible-match="CAAACGCTTGTTTG"/>
+<motif name="EXPREG_00001670" width="17" best-possible-match="GGATCTCTTCGGCCAGG"/>
+<motif name="EXPREG_000016a0" width="15" best-possible-match="TGTTATAACATAACA"/>
+<motif name="EXPREG_000016e0" width="15" best-possible-match="TGGCACGCTTTTTGC"/>
+<motif name="EXPREG_00001730" width="10" best-possible-match="TCGATAAATT"/>
+<motif name="EXPREG_00001770" width="10" best-possible-match="TGGCCGGATC"/>
+<motif name="EXPREG_00001790" width="14" best-possible-match="CGAACATATGTTCT"/>
+<motif name="EXPREG_000017f0" width="25" best-possible-match="TTCGCCTGGCGTGACGGTACTTCGG"/>
+<motif name="EXPREG_00001810" width="23" best-possible-match="TAAAGAAAATGTTTTGAAAAATT"/>
+<background source="./bg_markov0.txt">
+<value letter="A">0.138</value>
+<value letter="C">0.362</value>
+<value letter="G">0.362</value>
+<value letter="T">0.138</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

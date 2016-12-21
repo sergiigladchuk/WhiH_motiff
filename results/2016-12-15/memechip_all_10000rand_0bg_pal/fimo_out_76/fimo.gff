@@ -1,0 +1,24 @@
+##gff-version 3
+3340175	fimo	nucleotide_motif	147	154	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-3340175;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+4842075	fimo	nucleotide_motif	125	132	47.9	+	.	Name=AACCTGYG;ID=AACCTGYG-1-4842075;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+7988200	fimo	nucleotide_motif	78	85	47.9	+	.	Name=AACCTGYG;ID=AACCTGYG-1-7988200;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+7988200	fimo	nucleotide_motif	482	489	47.9	+	.	Name=AACCTGYG;ID=AACCTGYG-2-7988200;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+7158125	fimo	nucleotide_motif	352	359	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-7158125;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+4212500	fimo	nucleotide_motif	292	299	47.9	+	.	Name=AACCTGYG;ID=AACCTGYG-1-4212500;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+4682500	fimo	nucleotide_motif	314	321	43.5	-	.	Name=AACCTGYG;ID=AACCTGYG-1-4682500;pvalue=4.49e-05;qvalue= 0.671;sequence=AACCTGGG;
+3275925	fimo	nucleotide_motif	262	269	46.5	+	.	Name=AACCTGYG;ID=AACCTGYG-1-3275925;pvalue=2.25e-05;qvalue= 0.429;sequence=AACCTGTG;
+2297325	fimo	nucleotide_motif	84	91	43.5	-	.	Name=AACCTGYG;ID=AACCTGYG-1-2297325;pvalue=4.49e-05;qvalue= 0.671;sequence=AACCTGGG;
+4682475	fimo	nucleotide_motif	339	346	43.5	-	.	Name=AACCTGYG;ID=AACCTGYG-1-4682475;pvalue=4.49e-05;qvalue= 0.671;sequence=AACCTGGG;
+4192900	fimo	nucleotide_motif	279	286	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-4192900;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+4754900	fimo	nucleotide_motif	232	239	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-4754900;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+3546100	fimo	nucleotide_motif	282	289	46.5	+	.	Name=AACCTGYG;ID=AACCTGYG-1-3546100;pvalue=2.25e-05;qvalue= 0.429;sequence=AACCTGTG;
+7066725	fimo	nucleotide_motif	270	277	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-7066725;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+5234950	fimo	nucleotide_motif	290	297	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-5234950;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+3745125	fimo	nucleotide_motif	307	314	43.5	+	.	Name=AACCTGYG;ID=AACCTGYG-1-3745125;pvalue=4.49e-05;qvalue= 0.671;sequence=AACCTGGG;
+7988075	fimo	nucleotide_motif	203	210	47.9	+	.	Name=AACCTGYG;ID=AACCTGYG-1-7988075;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+3961325	fimo	nucleotide_motif	208	215	46.5	+	.	Name=AACCTGYG;ID=AACCTGYG-1-3961325;pvalue=2.25e-05;qvalue= 0.429;sequence=AACCTGTG;
+3745225	fimo	nucleotide_motif	207	214	43.5	+	.	Name=AACCTGYG;ID=AACCTGYG-1-3745225;pvalue=4.49e-05;qvalue= 0.671;sequence=AACCTGGG;
+5793425	fimo	nucleotide_motif	255	262	46.5	+	.	Name=AACCTGYG;ID=AACCTGYG-1-5793425;pvalue=2.25e-05;qvalue= 0.429;sequence=AACCTGTG;
+7157275	fimo	nucleotide_motif	292	299	47.9	-	.	Name=AACCTGYG;ID=AACCTGYG-1-7157275;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;
+2960700	fimo	nucleotide_motif	311	318	46.5	-	.	Name=AACCTGYG;ID=AACCTGYG-1-2960700;pvalue=2.25e-05;qvalue= 0.429;sequence=AACCTGTG;
+1812025	fimo	nucleotide_motif	46	53	47.9	+	.	Name=AACCTGYG;ID=AACCTGYG-1-1812025;pvalue=1.63e-05;qvalue= 0.429;sequence=AACCTGCG;

@@ -1,0 +1,76 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	AACCTGYG	DREME	prodoric	MX000204	murR	0	0	.	.	.	3.91e-05	1	0	6	37	6.48e-12	5.83e-11
+dreme.xml	AACCTGYG	DREME	prodoric	MX000204	murR	0	0	.	.	.	3.91e-05	1	4	6	37	3.96e-10	3.57e-09
+dreme.xml	AACCTGYG	DREME	prodoric	MX000204	murR	0	0	.	.	.	3.91e-05	1	5	6	37	3.96e-10	3.57e-09
+dreme.xml	AACCTGYG	DREME	prodoric	MX000204	murR	0	0	.	.	.	3.91e-05	1	8	6	37	2.31e-08	2.08e-07
+dreme.xml	AACCTGYG	DREME	dpinteract	hns	.	2	0	dpinteract	MX000204	murR	2.20e-02	1	4	5	26	3.72e-09	3.35e-08
+dreme.xml	AACCTGYG	DREME	dpinteract	hns	.	2	0	dpinteract	MX000204	murR	2.20e-02	1	0	4	26	1.55e-08	1.39e-07
+dreme.xml	AACCTGYG	DREME	dpinteract	hns	.	2	0	dpinteract	MX000204	murR	2.20e-02	1	8	5	26	1.12e-07	1.01e-06
+dreme.xml	AACCTGYG	DREME	dpinteract	hns	.	2	0	dpinteract	MX000204	murR	2.20e-02	1	5	4	26	2.40e-07	2.16e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000076	SigH	0	3	prodoric	MX000204	murR	2.39e-02	1	0	4	19	4.05e-09	3.65e-08
+dreme.xml	AACCTGYG	DREME	prodoric	MX000076	SigH	0	3	prodoric	MX000204	murR	2.39e-02	1	4	4	19	6.35e-08	5.71e-07
+dreme.xml	AACCTGYG	DREME	prodoric	MX000076	SigH	0	3	prodoric	MX000204	murR	2.39e-02	1	5	4	19	6.35e-08	5.71e-07
+dreme.xml	AACCTGYG	DREME	prodoric	MX000076	SigH	0	3	prodoric	MX000204	murR	2.39e-02	32	2	3	19	5.75e-07	5.18e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000076	SigH	0	3	prodoric	MX000204	murR	2.39e-02	1	8	4	19	9.73e-07	8.76e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000064	SigB	1	4	prodoric	MX000204	murR	2.57e-01	1	4	5	42	4.29e-08	3.86e-07
+dreme.xml	AACCTGYG	DREME	prodoric	MX000064	SigB	1	4	prodoric	MX000204	murR	2.57e-01	1	0	4	42	1.07e-07	9.65e-07
+dreme.xml	AACCTGYG	DREME	prodoric	MX000064	SigB	1	4	prodoric	MX000204	murR	2.57e-01	1	8	5	42	1.23e-06	1.11e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000064	SigB	1	4	prodoric	MX000204	murR	2.57e-01	1	5	4	42	1.63e-06	1.46e-05
+dreme.xml	AACCTGYG	DREME	dreme.xml	HWTW	DREME	0	0	.	.	.	1.92e+00	52	8	8	126	3.14e-07	2.83e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000151	NhaR	0	0	.	.	.	2.06e+00	48	2	2	2	3.54e-07	3.19e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000151	NhaR	0	0	.	.	.	2.06e+00	48	6	2	2	1.42e-06	1.28e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000151	NhaR	0	0	.	.	.	2.06e+00	48	7	2	2	1.42e-06	1.28e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000200	MelR	0	0	.	.	.	2.17e+00	56	1	2	2	3.93e-07	3.53e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000200	MelR	0	0	.	.	.	2.17e+00	56	4	2	2	1.57e-06	1.41e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000200	MelR	0	0	.	.	.	2.17e+00	56	6	2	2	1.57e-06	1.41e-05
+dreme.xml	AACCTGYG	DREME	regtransbase	GntR_Rhodobacterales	.	2	0	.	.	.	2.17e+00	107	2	2	2	3.93e-07	3.53e-06
+dreme.xml	AACCTGYG	DREME	regtransbase	GntR_Rhodobacterales	.	2	0	.	.	.	2.17e+00	107	6	2	2	1.57e-06	1.41e-05
+dreme.xml	AACCTGYG	DREME	regtransbase	GntR_Rhodobacterales	.	2	0	.	.	.	2.17e+00	107	7	2	2	1.57e-06	1.41e-05
+dreme.xml	AACCTGYG	DREME	dpinteract	fnr	.	2	0	.	.	.	2.20e+00	23	2	2	2	4.05e-07	3.64e-06
+dreme.xml	AACCTGYG	DREME	dpinteract	fnr	.	2	0	.	.	.	2.20e+00	23	6	2	2	1.62e-06	1.46e-05
+dreme.xml	AACCTGYG	DREME	dpinteract	fnr	.	2	0	.	.	.	2.20e+00	23	7	2	2	1.62e-06	1.46e-05
+dreme.xml	AACCTGYG	DREME	collectf	EXPREG_00000840	Lrp_E.coli	0	0	.	.	.	3.11e+00	99	3	3	18	5.52e-07	4.96e-06
+dreme.xml	AACCTGYG	DREME	collectf	EXPREG_00000840	Lrp_E.coli	0	0	.	.	.	3.11e+00	99	5	3	18	4.32e-06	3.89e-05
+dreme.xml	AACCTGYG	DREME	collectf	EXPREG_00000840	Lrp_E.coli	0	0	.	.	.	3.11e+00	99	7	3	18	4.32e-06	3.89e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000203	DevR	0	1	.	.	.	3.59e+00	6	2	3	19	6.26e-07	5.64e-06
+dreme.xml	AACCTGYG	DREME	dreme.xml	GAHCGTA	DREME	0	0	.	.	.	5.98e+00	55	2	2	3	1.00e-06	9.03e-06
+dreme.xml	AACCTGYG	DREME	dreme.xml	GAHCGTA	DREME	0	0	.	.	.	5.98e+00	55	6	2	3	4.01e-06	3.61e-05
+dreme.xml	AACCTGYG	DREME	dreme.xml	GAHCGTA	DREME	0	0	.	.	.	5.98e+00	55	7	2	3	4.01e-06	3.61e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000197	NatA	0	0	.	.	.	6.46e+00	14	5	4	38	1.08e-06	9.76e-06
+dreme.xml	AACCTGYG	DREME	prodoric	MX000114	Ada	0	0	.	.	.	6.47e+00	101	2	2	3	1.18e-06	1.06e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000114	Ada	0	0	.	.	.	6.47e+00	101	6	2	3	4.70e-06	4.23e-05
+dreme.xml	AACCTGYG	DREME	prodoric	MX000114	Ada	0	0	.	.	.	6.47e+00	101	7	2	3	4.70e-06	4.23e-05
+dreme.xml	AACCTGYG	DREME	dpinteract	malT	.	0	1	.	.	.	7.80e+00	36	8	3	7	1.33e-06	1.20e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

@@ -1,0 +1,14 @@
+##gff-version 3
+7474275	fimo	nucleotide_motif	408	414	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-7474275;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+2731250	fimo	nucleotide_motif	328	334	44.7	+	.	Name=ATGGTWG;ID=ATGGTWG-1-2731250;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+3757850	fimo	nucleotide_motif	294	300	44.7	+	.	Name=ATGGTWG;ID=ATGGTWG-1-3757850;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTAG;
+3757875	fimo	nucleotide_motif	269	275	44.7	+	.	Name=ATGGTWG;ID=ATGGTWG-1-3757875;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTAG;
+3862825	fimo	nucleotide_motif	346	352	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-3862825;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+3862900	fimo	nucleotide_motif	271	277	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-3862900;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+2394675	fimo	nucleotide_motif	264	270	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-2394675;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+2607075	fimo	nucleotide_motif	239	245	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-2607075;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTAG;
+2607075	fimo	nucleotide_motif	303	309	44.7	+	.	Name=ATGGTWG;ID=ATGGTWG-2-2607075;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTAG;
+7060650	fimo	nucleotide_motif	248	254	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-7060650;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+5682625	fimo	nucleotide_motif	325	331	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-5682625;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTAG;
+4580300	fimo	nucleotide_motif	252	258	44.7	-	.	Name=ATGGTWG;ID=ATGGTWG-1-4580300;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;
+6137550	fimo	nucleotide_motif	336	342	44.7	+	.	Name=ATGGTWG;ID=ATGGTWG-1-6137550;pvalue=3.41e-05;qvalue= 0.832;sequence=ATGGTTG;

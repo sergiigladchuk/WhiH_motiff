@@ -1,0 +1,3 @@
+#Query ID	Target ID	Optimal offset	p-value	E-value	q-value	Overlap	Query consensus	Target consensus	Orientation
+3	FruR_Alpha_Beta_Xanthomonadales	4	0.00103272	0.510164	0.472178	12	GGGTTCGAACCC	GAGTGGGAACGATCCCACTG	+
+3	BH1250_Bacillaceae_Lactobacillaceae	4	0.00191165	0.944356	0.472178	12	GGGTTCGAACCC	ATGTGGAAACGATTCCAAAT	+

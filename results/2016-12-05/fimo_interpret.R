@@ -1,10 +1,10 @@
 
 # all peak analysis
-fimo <- read.csv('2016-12-15/memechip_500rand_0bg/fimo.txt', sep='\t')
+fimo <- read.csv('2016-12-15/memechip_all_10000rand_0bg_pal/fimo.txt', sep='\t')
 #View(fimo)
 
 # palindrom correction
- #fimo <- fimo[-(seq(2,to=nrow(fimo),by=2)),]
+fimo <- fimo[-(seq(2,to=nrow(fimo),by=2)),]
 
 
 fimo$logs <- -log10(fimo$p.value)

@@ -1,0 +1,18 @@
+##gff-version 3
+1629350	fimo	nucleotide_motif	122	129	42.3	-	.	Name=CAGACRCG;ID=CAGACRCG-1-1629350;pvalue=5.92e-05;qvalue= 1;sequence=CAGACACG;
+3940375	fimo	nucleotide_motif	242	249	43.7	-	.	Name=CAGACRCG;ID=CAGACRCG-1-3940375;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+3940425	fimo	nucleotide_motif	192	199	43.7	-	.	Name=CAGACRCG;ID=CAGACRCG-1-3940425;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+1433300	fimo	nucleotide_motif	236	243	43.7	+	.	Name=CAGACRCG;ID=CAGACRCG-1-1433300;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+3147525	fimo	nucleotide_motif	135	142	42.3	-	.	Name=CAGACRCG;ID=CAGACRCG-1-3147525;pvalue=5.92e-05;qvalue= 1;sequence=CAGACACG;
+5992875	fimo	nucleotide_motif	259	266	43.7	-	.	Name=CAGACRCG;ID=CAGACRCG-1-5992875;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+6058825	fimo	nucleotide_motif	329	336	42.3	+	.	Name=CAGACRCG;ID=CAGACRCG-1-6058825;pvalue=5.92e-05;qvalue= 1;sequence=CAGACACG;
+4168375	fimo	nucleotide_motif	141	148	43.7	+	.	Name=CAGACRCG;ID=CAGACRCG-1-4168375;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+1433250	fimo	nucleotide_motif	286	293	43.7	+	.	Name=CAGACRCG;ID=CAGACRCG-1-1433250;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+3147425	fimo	nucleotide_motif	235	242	42.3	-	.	Name=CAGACRCG;ID=CAGACRCG-1-3147425;pvalue=5.92e-05;qvalue= 1;sequence=CAGACACG;
+5122650	fimo	nucleotide_motif	159	166	42.3	-	.	Name=CAGACRCG;ID=CAGACRCG-1-5122650;pvalue=5.92e-05;qvalue= 1;sequence=CAGACACG;
+6967475	fimo	nucleotide_motif	238	245	43.7	+	.	Name=CAGACRCG;ID=CAGACRCG-1-6967475;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+584400	fimo	nucleotide_motif	239	246	43.7	-	.	Name=CAGACRCG;ID=CAGACRCG-1-584400;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+584450	fimo	nucleotide_motif	189	196	43.7	-	.	Name=CAGACRCG;ID=CAGACRCG-1-584450;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+1433375	fimo	nucleotide_motif	161	168	43.7	+	.	Name=CAGACRCG;ID=CAGACRCG-1-1433375;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+2484975	fimo	nucleotide_motif	232	239	43.7	+	.	Name=CAGACRCG;ID=CAGACRCG-1-2484975;pvalue=4.29e-05;qvalue= 1;sequence=CAGACGCG;
+5793425	fimo	nucleotide_motif	216	223	42.3	-	.	Name=CAGACRCG;ID=CAGACRCG-1-5793425;pvalue=5.92e-05;qvalue= 1;sequence=CAGACACG;

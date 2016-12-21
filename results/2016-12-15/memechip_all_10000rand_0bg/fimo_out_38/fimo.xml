@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="4.11.2" release="Mon Oct 24 12:27:06 2016 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/home/meme/meme_4.11.2/bin/fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_38 --bgfile ./bg_markov0.txt --motif MX000202 db/PROKARYOTE/prodoric.meme ./all_input.fna</command-line>
+<settings>
+<setting name="output directory">fimo_out_38</setting>
+<setting name="MEME file name">db/PROKARYOTE/prodoric.meme</setting>
+<setting name="sequence file name">./all_input.fna</setting>
+<setting name="background file name">./bg_markov0.txt</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">MX000202</setting>
+</settings>
+<sequence-data num-sequences="0" num-residues="0" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="MX000001" width="15" best-possible-match="GTTGACCCTGTCAAC"/>
+<motif name="MX000002" width="14" best-possible-match="TTGACCTGCATCAA"/>
+<motif name="MX000003" width="7" best-possible-match="TACCCAT"/>
+<motif name="MX000004" width="14" best-possible-match="TTGATTTATATCAA"/>
+<motif name="MX000005" width="16" best-possible-match="TGTGAAATACTTCACA"/>
+<motif name="MX000006" width="10" best-possible-match="TGGACAAGCG"/>
+<motif name="MX000007" width="17" best-possible-match="TGTCGCGTCGCTGCAAG"/>
+<motif name="MX000008" width="20" best-possible-match="TATGTTCGATAACGCACATT"/>
+<motif name="MX000009" width="21" best-possible-match="AGTTTGTTACATTTTTTTGCA"/>
+<motif name="MX000010" width="8" best-possible-match="CAATGGAT"/>
+<motif name="MX000011" width="16" best-possible-match="CTGCGAGATCTGGCAG"/>
+<motif name="MX000012" width="16" best-possible-match="CTACCAGATCTGGTAG"/>
+<motif name="MX000013" width="19" best-possible-match="GATAATGATTATCATTATC"/>
+<motif name="MX000014" width="27" best-possible-match="AAACGCATCGTTTACCAGCGATTGAAT"/>
+<motif name="MX000015" width="8" best-possible-match="CAAAAAAT"/>
+<motif name="MX000016" width="23" best-possible-match="TATGAGCCGGTTTTAATGAAAAT"/>
+<motif name="MX000017" width="17" best-possible-match="GGTCAATTATGGTCAAA"/>
+<motif name="MX000018" width="18" best-possible-match="GGTCAAAATTGGTCAAAG"/>
+<motif name="MX000019" width="12" best-possible-match="TTTGTCGAAAAA"/>
+<motif name="MX000020" width="16" best-possible-match="ATTTGTACGTACTTAT"/>
+<motif name="MX000021" width="7" best-possible-match="TGTCGAA"/>
+<motif name="MX000022" width="8" best-possible-match="TGAAAGCG"/>
+<motif name="MX000023" width="13" best-possible-match="AAAATAAGATTTT"/>
+<motif name="MX000024" width="15" best-possible-match="ATAAGAAGAACTTAT"/>
+<motif name="MX000025" width="14" best-possible-match="CGAACATACGTTCG"/>
+<motif name="MX000026" width="17" best-possible-match="TGTTAGAAAATATAACA"/>
+<motif name="MX000027" width="17" best-possible-match="TGTTATATATGTTTACA"/>
+<motif name="MX000028" width="14" best-possible-match="AAATCAATAAATTG"/>
+<motif name="MX000029" width="15" best-possible-match="GATTAAAAATTAAAC"/>
+<motif name="MX000030" width="19" best-possible-match="AGAGCTGCCAGTTCTTCAG"/>
+<motif name="MX000031" width="17" best-possible-match="TGTTTAGGGTTGGTTTA"/>
+<motif name="MX000032" width="9" best-possible-match="GGTAAATTT"/>
+<motif name="MX000033" width="31" best-possible-match="TGGAACTTTTCCACGCGCCGCGGGTCCGATT"/>
+<motif name="MX000034" width="32" best-possible-match="CGGAACTTTGCGGGCGGAAAGCGGTTCCCATC"/>
+<motif name="MX000035" width="10" best-possible-match="TGGAACTTTT"/>
+<motif name="MX000036" width="9" best-possible-match="GTTCCAATC"/>
+<motif name="MX000037" width="31" best-possible-match="CGGAACTTCACGATATAAAGACAATCTGACG"/>
+<motif name="MX000038" width="11" best-possible-match="TTCTATTAAAA"/>
+<motif name="MX000039" width="17" best-possible-match="TTTTTCCCAAAAATCAT"/>
+<motif name="MX000041" width="16" best-possible-match="TTATTTTTAAAAAAAC"/>
+<motif name="MX000042" width="15" best-possible-match="GCGGCGTTGTGTCGC"/>
+<motif name="MX000043" width="16" best-possible-match="ATGCATTTTTATTCAT"/>
+<motif name="MX000044" width="25" best-possible-match="GCAGGGGAACGAAACGGTTTTTAGA"/>
+<motif name="MX000045" width="65" best-possible-match="TTCTGTTCTTGTAAACCGACCGGTTGTTTGATCATTTATGTTGAAATCATCGTTTAATGAGCCTT"/>
+<motif name="MX000046" width="20" best-possible-match="TTGCGGCATCCCGCAAGAAA"/>
+<motif name="MX000047" width="12" best-possible-match="ATATAGGCCATT"/>
+<motif name="MX000048" width="15" best-possible-match="ATCTCAATTTGATAT"/>
+<motif name="MX000049" width="15" best-possible-match="ATCCCAAATTCAGAT"/>
+<motif name="MX000050" width="19" best-possible-match="TTTTATATTATGCTATTTT"/>
+<motif name="MX000052" width="13" best-possible-match="ACGTGTTTCAACA"/>
+<motif name="MX000053" width="29" best-possible-match="GGTTTTGCCTGCTTTAGCAGTAACAATCC"/>
+<motif name="MX000054" width="20" best-possible-match="TATTTTGCCTGAGGGAAACT"/>
+<motif name="MX000055" width="22" best-possible-match="GACTCTACCGTAGCGGGATGGC"/>
+<motif name="MX000056" width="56" best-possible-match="CTCAGCCCTTCGTTTCCCTTTCTCTGCTCCCCTCTGCTCTGCCTCTTGCCCTCCTA"/>
+<motif name="MX000057" width="31" best-possible-match="TGTATTATATTTTAAATTTCTTTTTGAATCA"/>
+<motif name="MX000058" width="11" best-possible-match="ATACTTTGTTT"/>
+<motif name="MX000059" width="20" best-possible-match="ATTAAATCCGAACATTAATT"/>
+<motif name="MX000060" width="14" best-possible-match="TTAACATTTGTTAA"/>
+<motif name="MX000061" width="19" best-possible-match="CTTTGAAGCAGTCCAGAGA"/>
+<motif name="MX000062" width="21" best-possible-match="TCCGCAAATTTATTTTGCGTT"/>
+<motif name="MX000063" width="21" best-possible-match="CTGGCTCTGGTCGTTTGGTCC"/>
+<motif name="MX000064" width="12" best-possible-match="AATGTTTTATTA"/>
+<motif name="MX000065" width="43" best-possible-match="TTCCTCGAAAGGAACGAAGGATTCTACCGATAAAAACATTTCG"/>
+<motif name="MX000066" width="11" best-possible-match="AGTCATATTTG"/>
+<motif name="MX000067" width="12" best-possible-match="TGCATACAATTA"/>
+<motif name="MX000068" width="37" best-possible-match="ACAGTCATATTTGCCCTACCCTACGCATACAATGATA"/>
+<motif name="MX000069" width="36" best-possible-match="GGTGTCATAACTGTTGAGTCTGTGCATATACTTGTG"/>
+<motif name="MX000070" width="37" best-possible-match="TTGGAATGTGTGGACGATGTATATGCATACTTTAATA"/>
+<motif name="MX000071" width="12" best-possible-match="AGGGGAAAAAAA"/>
+<motif name="MX000072" width="33" best-possible-match="ATAGTTTTACAAATATACGCTAAGGGGAAACAG"/>
+<motif name="MX000073" width="32" best-possible-match="AAGGTTTTATTATTATTAAAAAGGGGTAAAAA"/>
+<motif name="MX000074" width="31" best-possible-match="CAGGTTTTTCTTTTTCCAAATCGGGAATAAT"/>
+<motif name="MX000075" width="30" best-possible-match="TATGTTTAGCTTTTTTCAGGAGGGAAGATT"/>
+<motif name="MX000076" width="12" best-possible-match="AAAGGATTTAAA"/>
+<motif name="MX000077" width="10" best-possible-match="ATCGAATTAT"/>
+<motif name="MX000078" width="53" best-possible-match="TGGAAACGGCAAAAACCACTGAGTTGGCACGATCCTTGCATTTTTATTGAGGG"/>
+<motif name="MX000079" width="32" best-possible-match="TATGAAACCTTTTTCCATTTTAATCGTATAAA"/>
+<motif name="MX000080" width="12" best-possible-match="ATATGAAACCTT"/>
+<motif name="MX000081" width="10" best-possible-match="ATTCGTATAA"/>
+<motif name="MX000082" width="33" best-possible-match="TTTGAAACTTTTTCCAAGTCATATGCGTCTAAT"/>
+<motif name="MX000083" width="12" best-possible-match="AATGAAACTTTT"/>
+<motif name="MX000084" width="12" best-possible-match="ATCCGTCTAACA"/>
+<motif name="MX000085" width="33" best-possible-match="AATGAAACTTTTTTTCATTCTCATCCGTCTAAC"/>
+<motif name="MX000086" width="20" best-possible-match="GTTCTGTCGGATGCACACGC"/>
+<motif name="MX000087" width="14" best-possible-match="GCTGTATATACAGG"/>
+<motif name="MX000088" width="23" best-possible-match="TTTTTGATACATTATGTATCAAA"/>
+<motif name="MX000089" width="23" best-possible-match="GTTTGTTTAGCAAACAAACTAAC"/>
+<motif name="MX000090" width="19" best-possible-match="AAATCGTTATCATTCTGTT"/>
+<motif name="MX000091" width="10" best-possible-match="TGTTAATTAA"/>
+<motif name="MX000092" width="46" best-possible-match="GGCTTTCAATATTGGTGAGGCACTTAACAATATTGAAAGTTGGTTT"/>
+<motif name="MX000093" width="20" best-possible-match="ATTGTGATCTAGATCACATT"/>
+<motif name="MX000094" width="31" best-possible-match="TTATGGATATGGAAAACCTTTATTCATTAAT"/>
+<motif name="MX000095" width="17" best-possible-match="GGTGCACCTGGTGCACA"/>
+<motif name="MX000096" width="14" best-possible-match="CAGTATTTTATTCT"/>
+<motif name="MX000097" width="6" best-possible-match="CGAAAT"/>
+<motif name="MX000098" width="9" best-possible-match="TTATCCACA"/>
+<motif name="MX000099" width="16" best-possible-match="TGTCATAAATCTGTCA"/>
+<motif name="MX000100" width="49" best-possible-match="CGTTAATTCAAGCAGATTAAAAGTTGGCACAAAATTTGCATTAAGGTGG"/>
+<motif name="MX000101" width="20" best-possible-match="CGCTACCGTTCGTCCGCCCG"/>
+<motif name="MX000102" width="14" best-possible-match="TTGACGGCCATCAA"/>
+<motif name="MX000103" width="39" best-possible-match="CGGGTTGGGCTAAAAAAAAAGGACCCTGTTTGACAGGCC"/>
+<motif name="MX000104" width="11" best-possible-match="CGTCGGCTGAT"/>
+<motif name="MX000105" width="20" best-possible-match="ACCCTTCGAAATTGAAAAAG"/>
+<motif name="MX000106" width="7" best-possible-match="TACCTCT"/>
+<motif name="MX000107" width="37" best-possible-match="ATTGATTTTGCTAATCGGCGCGGTGGGGTTTTTCAAT"/>
+<motif name="MX000108" width="18" best-possible-match="CGTCAGGAATACGTGACG"/>
+<motif name="MX000109" width="23" best-possible-match="TGCCGCGAGCTTTCCGGTCTGGT"/>
+<motif name="MX000110" width="19" best-possible-match="TGTGAGCTAGCTCACATTT"/>
+<motif name="MX000111" width="46" best-possible-match="GCATTCCGCCGGGCGGCGCCCTGGCACGACACTTGCTATTGGCCGG"/>
+<motif name="MX000114" width="18" best-possible-match="ACAAGAATGTGAGAGCAA"/>
+<motif name="MX000115" width="29" best-possible-match="TATCCATAAGAATGGCGGAAAAGTCCATA"/>
+<motif name="MX000116" width="14" best-possible-match="TGAATAAAAATTCA"/>
+<motif name="MX000117" width="5" best-possible-match="CCAAT"/>
+<motif name="MX000118" width="54" best-possible-match="CCTATAAGTAAATCCAATGGAACTCATCATAAATGAGACTTTTACCTTATGACA"/>
+<motif name="MX000119" width="16" best-possible-match="AGTAAAACAACGTAAG"/>
+<motif name="MX000121" width="12" best-possible-match="TGCAAATTGGGT"/>
+<motif name="MX000123" width="16" best-possible-match="TGTTAGAATTCTAACA"/>
+<motif name="MX000124" width="17" best-possible-match="AGCTGGTCCGACCTGTT"/>
+<motif name="MX000125" width="14" best-possible-match="GCTGAATCGTTTCA"/>
+<motif name="MX000126" width="17" best-possible-match="CTAAGCGCAGAATTAGG"/>
+<motif name="MX000127" width="7" best-possible-match="TTTTCGT"/>
+<motif name="MX000128" width="19" best-possible-match="GATAATGATAATGATTATC"/>
+<motif name="MX000129" width="13" best-possible-match="TGGAAGCGGTTAC"/>
+<motif name="MX000130" width="14" best-possible-match="TGTAACCGGTTTCA"/>
+<motif name="MX000132" width="27" best-possible-match="TAAAGTTTCGCCTTTCCCTGCCGATAA"/>
+<motif name="MX000133" width="16" best-possible-match="ATGTTACCCGTAACAA"/>
+<motif name="MX000134" width="12" best-possible-match="AGATAATTTAAT"/>
+<motif name="MX000135" width="18" best-possible-match="TTAGGATATTTTTTTTAT"/>
+<motif name="MX000136" width="27" best-possible-match="ACGTTGCAATTTCCGCAATGTGTCGCC"/>
+<motif name="MX000137" width="21" best-possible-match="AACTGTGAGCGGATAACAATT"/>
+<motif name="MX000138" width="14" best-possible-match="GATAAAACGTTTTA"/>
+<motif name="MX000139" width="6" best-possible-match="GGAGGA"/>
+<motif name="MX000140" width="16" best-possible-match="CTGTATATATATACAG"/>
+<motif name="MX000141" width="10" best-possible-match="TGTAACATCT"/>
+<motif name="MX000142" width="10" best-possible-match="TTTACTTTTT"/>
+<motif name="MX000143" width="5" best-possible-match="CTAAT"/>
+<motif name="MX000144" width="23" best-possible-match="TTTTGTTGCCCTGGCAAGTATTT"/>
+<motif name="MX000145" width="16" best-possible-match="AGACGTCTAAACGTCT"/>
+<motif name="MX000146" width="16" best-possible-match="AGACGTCTAGACGTCC"/>
+<motif name="MX000147" width="16" best-possible-match="AGACGTCTAGATGGCT"/>
+<motif name="MX000148" width="23" best-possible-match="CGCTATATACATGCCTACATAGC"/>
+<motif name="MX000149" width="11" best-possible-match="ATCAGAAACTC"/>
+<motif name="MX000150" width="23" best-possible-match="GTTTTTTTATCTATCGAAAAATC"/>
+<motif name="MX000151" width="11" best-possible-match="TCGTAAAAAAC"/>
+<motif name="MX000152" width="6" best-possible-match="TGGCGC"/>
+<motif name="MX000153" width="7" best-possible-match="GAAAAAT"/>
+<motif name="MX000154" width="34" best-possible-match="TTGTTTAATCTATTTCTTCAATAGGTATGATCAA"/>
+<motif name="MX000155" width="46" best-possible-match="ACGATAGGTAATAGCTATAGATATAATAGGTTTCCCCGATTATCCG"/>
+<motif name="MX000156" width="14" best-possible-match="TAATACGAATTCAA"/>
+<motif name="MX000157" width="6" best-possible-match="TCAATT"/>
+<motif name="MX000158" width="7" best-possible-match="TGAAAAA"/>
+<motif name="MX000159" width="10" best-possible-match="GCAAACGTTT"/>
+<motif name="MX000160" width="14" best-possible-match="TAAGAATATTCCTA"/>
+<motif name="MX000161" width="23" best-possible-match="GTTAGTTCGCGGCGCGAAATAAG"/>
+<motif name="MX000162" width="21" best-possible-match="TTATTTCGAGCCGCGAAATAA"/>
+<motif name="MX000163" width="25" best-possible-match="ACGCGCAGAATTTTCTGCTGTACAC"/>
+<motif name="MX000164" width="25" best-possible-match="CTCGAACAGTATATTCTGCTGCGGC"/>
+<motif name="MX000165" width="20" best-possible-match="ATGGCACTATTTGTTAAATT"/>
+<motif name="MX000166" width="15" best-possible-match="TTGAAGATTCATCTG"/>
+<motif name="MX000167" width="20" best-possible-match="AGAAACCAACGATATTTCAG"/>
+<motif name="MX000168" width="21" best-possible-match="AGAAACAGATAGATTTTTTAG"/>
+<motif name="MX000169" width="7" best-possible-match="TACGCTT"/>
+<motif name="MX000170" width="20" best-possible-match="ATGGCACGTTTTGTTAAAAA"/>
+<motif name="MX000171" width="49" best-possible-match="TTCTTGCCGTGGTTGCCAGTGGCCCGTCTTCGGGGGCGTCAGGCGAAGG"/>
+<motif name="MX000172" width="51" best-possible-match="ATCTTGAAAAATCGACGTTTTTTACGTGGTTTTCCGTCGAAAATTTAAGGT"/>
+<motif name="MX000173" width="19" best-possible-match="TCCTCAAGTTAACTTGAGG"/>
+<motif name="MX000174" width="20" best-possible-match="ATGGCACTATATGTCAAACA"/>
+<motif name="MX000175" width="30" best-possible-match="TTCGTCGATTGTGGGGGGAGGTATCGCTCT"/>
+<motif name="MX000176" width="22" best-possible-match="TTTGTGAAGTAGTGAGCAAAGT"/>
+<motif name="MX000177" width="14" best-possible-match="CGGGTTCGTGCCCG"/>
+<motif name="MX000178" width="8" best-possible-match="CTGTTCAT"/>
+<motif name="MX000179" width="13" best-possible-match="CCAATACAGTTTT"/>
+<motif name="MX000180" width="56" best-possible-match="ATAAACGAGTAAAAATGACTCGCCTGCTGCGGGTAGCGAGTCATTTTTACTCATTG"/>
+<motif name="MX000181" width="22" best-possible-match="TTTGTGATCTTGATTTCACAAA"/>
+<motif name="MX000182" width="18" best-possible-match="TGTAAATTTATATTTACA"/>
+<motif name="MX000183" width="20" best-possible-match="TGTACTAGTTAACTAGTACA"/>
+<motif name="MX000184" width="35" best-possible-match="GTTAAAAAGTGATCGATATATTTGAAATCAAGTTT"/>
+<motif name="MX000185" width="33" best-possible-match="AAAAACCGAAAATGGCGTTCGAAAGATGACAAT"/>
+<motif name="MX000186" width="14" best-possible-match="GGCCATCACCCGGC"/>
+<motif name="MX000188" width="16" best-possible-match="AATTATAATTTTAATT"/>
+<motif name="MX000190" width="14" best-possible-match="TTGATGCATGTCAA"/>
+<motif name="MX000191" width="19" best-possible-match="TGTCAAGGAAATTTGACAG"/>
+<motif name="MX000192" width="12" best-possible-match="TTGCGGCAGCAC"/>
+<motif name="MX000193" width="18" best-possible-match="TTTGAAACCGTTTCCAAA"/>
+<motif name="MX000194" width="15" best-possible-match="TTGAAGCGTTTTCAT"/>
+<motif name="MX000195" width="20" best-possible-match="ATGAATGACTATTCATTCAC"/>
+<motif name="MX000196" width="6" best-possible-match="GTTGAC"/>
+<motif name="MX000197" width="7" best-possible-match="TCCGGGC"/>
+<motif name="MX000198" width="24" best-possible-match="TAATACCTAGTAAAATTGTCGGAA"/>
+<motif name="MX000199" width="9" best-possible-match="TATTTTAAT"/>
+<motif name="MX000200" width="18" best-possible-match="TTTCCCGGAATATGAGAA"/>
+<motif name="MX000201" width="9" best-possible-match="TGGATTATT"/>
+<motif name="MX000202" width="5" best-possible-match="TTAGA"/>
+<motif name="MX000203" width="14" best-possible-match="GGACCAAGGCCCCT"/>
+<motif name="MX000204" width="6" best-possible-match="TGATTC"/>
+<motif name="MX000205" width="12" best-possible-match="CCTTAATTAGAA"/>
+<motif name="MX000207" width="16" best-possible-match="TAGACAGCGTGGTCTA"/>
+<motif name="MX000208" width="16" best-possible-match="TGCGGCAATCGGGCAC"/>
+<motif name="MX000209" width="14" best-possible-match="GTAACTATCGATAC"/>
+<motif name="MX000210" width="14" best-possible-match="GTAGCAACTGCTAC"/>
+<motif name="MX000211" width="7" best-possible-match="TGAAATT"/>
+<background source="./bg_markov0.txt">
+<value letter="A">0.138</value>
+<value letter="C">0.362</value>
+<value letter="G">0.362</value>
+<value letter="T">0.138</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

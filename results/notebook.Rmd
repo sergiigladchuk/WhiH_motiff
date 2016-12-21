@@ -445,9 +445,9 @@ $python3 bin/seq_extractor.py -l 500 -g data/2016-10-26_Check/FR845719_1.fasta -
 3. Settings are all defaults except: *Input the motifs section* - selection: Prokaryote DNA and Combined Prokaryotes discriminative mode
 
 
-### Results {#rediscovery2}
+### Results
 
-**Discriminative mode Motif rediscovery**
+####TOP Peaks discriminative mode Motif rediscovery {#rediscovery2top}
 
 Input setup | Motif e-value, regions and link | FIMO results
 ------------|---------------------------------|-------------
@@ -458,10 +458,20 @@ Input setup | Motif e-value, regions and link | FIMO results
 #4 MEME-ChIP - 10000 random ranges with 0-model background | e-value: **2.5e-043** <br> regions: **36** <br> [![](2016-12-15/memechip_10000rand_0bg/meme_out/logo1.png)](2016-12-15/memechip_10000rand_0bg/meme-chip.html) | n/a
 #5 MEME-ChIP - 10000 random ranges with 0-model background, **palindrom** | e-value: 1.8e-030 <br> regions: 33 <br> [![](2016-12-15/memechip_10000rand_0bg_pal/meme_out/logo1.png)](2016-12-15/memechip_10000rand_0bg_pal/meme-chip.html) | [1346 / 2 = 673 occurances](2016-12-15/memechip_10000rand_0bg_pal/fimo.html) <br> 17 out of 36 TOP ChIP regions matched with FIMO <br> 39 out of 349 ALL ChIP regions matched with FIMO
 
+####ALL Peaks discriminative mode Motif rediscovery {#rediscovery2all}
+
+Input setup | Best MEME Motif e-value, regions and link | FIMO results
+------------|-------------------------------------------|-------------
+#0 MEME - best e-value from all peaks (#1 from previous rediscovery) | e-value: **1.0e-136** <br> regions: **314** <br> [![](2016-12-01/meme_all_bg0/logo_rc1.png)](2016-12-01/meme_all_bg0/meme.html) |  [2296 occurances*](2016-12-05/all/fimo.html) <br> 12 out of 36 TOP ChIP regions matched with FIMO <br> 53 out of 349 ALL ChIP regions matched with FIMO
+#1 MEME-ChIP - 10000 random ranges with 0-model background | e-value: 5.7e-136 <br> regions: 214 <br> [![](2016-12-15/memechip_all_10000rand_0bg/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg/meme-chip.html) | [1422 occurances](22016-12-15/memechip_all_10000rand_0bg/fimo.html) <br> 13 out of 36 TOP ChIP regions matched with FIMO <br> **58** out of 349 ALL ChIP regions matched with FIMO
+#2 MEME-ChIP - 10000 random ranges with 0-model background, **palindromic** | e-value: 1.2e-125 <br> regions: 200 <br> [![](2016-12-15/memechip_all_10000rand_0bg_pal/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg_pal/meme-chip.html) | [1454 / 2 = 727 occurances](22016-12-15/memechip_all_10000rand_0bg_pal/fimo.html) <br> **14** out of 36 TOP ChIP regions matched with FIMO <br> 49 out of 349 ALL ChIP regions matched with FIMO
+
+
 ### Conclusion
 
-Discriminative mode improved result of "back-check" - motifs produced with and without "palindrome only" check give more FIMO matches with ChIP-seq peaks that are base for motif discovery. So current best motif is #2 *non-palindromic produced from TOP ChIP-seq peaks with 0-order background model in discriminative mode*. It gives most back-hits in FIMO and overall less hits in genome.
-On the other hand palindromic motif produced from discriminative mode is not that specific (673 hits in whole genome)
+Discriminative mode improved result of "back-check" - motifs produced with and without "palindrome only" check give more FIMO matches with ChIP-seq peaks that are base for motif discovery. So current best motif is #2 *non-palindromic produced from TOP ChIP-seq peaks with 0-order background model in discriminative mode*. It gives most back-hits in FIMO and overall less hits in genome.   
+On the other hand palindromic motif produced from discriminative mode is not that specific (673 hits in whole genome).   
+Also discriminative mode for ALL ChIP-seq regions gives improvement of "back-hits" to ALL ChIP-seq peaks, but less hit to TOP ChIP-seq peaks in comparison to our top #2 from TOP peaks. This is logical since this motif was build from ALL peaks and it is not so specific to TOP only.
 
 ## 2016-12-16 Transcriptomics data preparation for analysis
 
@@ -477,11 +487,11 @@ $python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transc
 
 > "Affy LogFC" – the log-fold change ($log_{2}$ scale) in expression of the whiH mutant compared to wild-type S. venezuelae at the 10, 12, 14 ,16, 18 and 20 h time points. (-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; (+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
 
-4. Perform statistical independence analysis based on created AffyLogC table (significant diff. in affylog 5%) in R based on one-sided Fisher test for probabilities.
+4. Perform statistical independence analysis based on created AffyLogC table (significant diff. in affylog 5%) in R - one-sided Fisher test for probabilities.
 
 ###Results
 
-**Independace test for 'Best non-palindromic discriminative motif' (#2 in [this rediscovery](#rediscovery2))**
+**Independace test for 'Best non-palindromic discriminative motif' (#2 in [this rediscovery](#rediscovery2top))**
 
 ```{r index_fisher_for_discrim, echo=FALSE, width=800}
 trans <- read.csv('2016-12-16/best_discrim_motif_counts.txt', sep='\t')
@@ -622,12 +632,13 @@ kable(outPutGrath, caption = 'Counts for genes')
 
 # Next steps
 
-Last update: 2016-12-13    
+Last update: 2016-12-21    
 
 * ~~review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test~~
 * ~~perform analysis of the same data with other suit, e.g. ChIPMunk. Resources are not really developed~~
 * ~~check possibility to convert discovered motifs into HMM-profile (contact Markus)~~
 * ~~run full analysis with option to reduce background and search only for palindromes and select best motif~~
 * ~~get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible). And with PREDetector 2.0~~
-* run last rediscovery of motifs with discriminative mode
+* ~~run last rediscovery of motifs with discriminative mode~~
+* find match regions in Ppedictor for set of stats analysis
 * compare available transcriptomics data for genes next to FIMO positions for two motifs: "best e-value" and "top palindromic", with other gene expression - independence test (Chi-test, Fishers test in R)

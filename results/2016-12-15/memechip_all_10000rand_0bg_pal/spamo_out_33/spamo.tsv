@@ -1,0 +1,67 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+prodoric	MX000211	SdpR	dpinteract	rpoD18	.	0	0	.	.	.	4.82e-02	10	7	6	52	9.57e-09	8.61e-08
+prodoric	MX000211	SdpR	dpinteract	rpoD18	.	0	0	.	.	.	4.82e-02	10	8	7	52	2.83e-08	2.54e-07
+prodoric	MX000211	SdpR	dpinteract	rpoD18	.	0	0	.	.	.	4.82e-02	10	6	5	52	2.96e-07	2.66e-06
+prodoric	MX000211	SdpR	dpinteract	rpoD18	.	0	0	.	.	.	4.82e-02	2	2	4	52	5.06e-07	4.56e-06
+prodoric	MX000211	SdpR	dpinteract	rpoD18	.	0	0	.	.	.	4.82e-02	10	2	4	52	5.06e-07	4.56e-06
+prodoric	MX000211	SdpR	prodoric	MX000029	Fis	0	0	.	.	.	5.08e-01	10	8	8	99	8.97e-08	8.07e-07
+prodoric	MX000211	SdpR	prodoric	MX000029	Fis	0	0	.	.	.	5.08e-01	10	4	6	99	2.29e-07	2.07e-06
+prodoric	MX000211	SdpR	prodoric	MX000029	Fis	0	0	.	.	.	5.08e-01	10	5	6	99	2.29e-07	2.07e-06
+prodoric	MX000211	SdpR	prodoric	MX000029	Fis	0	0	.	.	.	5.08e-01	10	0	4	99	4.15e-06	3.74e-05
+prodoric	MX000211	SdpR	dpinteract	metR	.	0	1	.	.	.	1.09e+00	10	2	3	13	1.90e-07	1.71e-06
+prodoric	MX000211	SdpR	dpinteract	metR	.	0	1	.	.	.	1.09e+00	10	6	3	13	1.50e-06	1.35e-05
+prodoric	MX000211	SdpR	dpinteract	metR	.	0	1	.	.	.	1.09e+00	10	7	3	13	1.50e-06	1.35e-05
+prodoric	MX000211	SdpR	prodoric	MX000013	Fur	0	0	.	.	.	1.85e+00	6	3	3	15	3.38e-07	3.04e-06
+prodoric	MX000211	SdpR	prodoric	MX000013	Fur	0	0	.	.	.	1.85e+00	6	5	3	15	2.66e-06	2.39e-05
+prodoric	MX000211	SdpR	prodoric	MX000013	Fur	0	0	.	.	.	1.85e+00	6	7	3	15	2.66e-06	2.39e-05
+prodoric	MX000211	SdpR	prodoric	MX000188	SarA	0	0	prodoric	MX000013	Fur	3.74e+00	8	8	5	35	6.68e-07	6.02e-06
+prodoric	MX000211	SdpR	dpinteract	rpoS17	.	1	0	.	.	.	2.24e+00	13	3	4	51	4.39e-07	3.95e-06
+prodoric	MX000211	SdpR	prodoric	MX000128	Fur	0	0	.	.	.	2.76e+00	12	3	3	17	5.03e-07	4.53e-06
+prodoric	MX000211	SdpR	prodoric	MX000128	Fur	0	0	.	.	.	2.76e+00	12	5	3	17	3.95e-06	3.55e-05
+prodoric	MX000211	SdpR	prodoric	MX000128	Fur	0	0	.	.	.	2.76e+00	12	7	3	17	3.95e-06	3.55e-05
+prodoric	MX000211	SdpR	collectf	EXPREG_000008e0	PhoP_S.enterica	3	2	.	.	.	2.89e+00	11	2	3	17	5.39e-07	4.85e-06
+prodoric	MX000211	SdpR	collectf	EXPREG_000008e0	PhoP_S.enterica	3	2	.	.	.	2.89e+00	11	6	3	17	4.22e-06	3.80e-05
+prodoric	MX000211	SdpR	collectf	EXPREG_000008e0	PhoP_S.enterica	3	2	.	.	.	2.89e+00	11	7	3	17	4.22e-06	3.80e-05
+prodoric	MX000211	SdpR	dpinteract	ihf	.	3	11	.	.	.	4.19e+00	11	3	3	18	8.64e-07	7.77e-06
+prodoric	MX000211	SdpR	dpinteract	ihf	.	3	11	.	.	.	4.19e+00	11	8	4	18	1.65e-06	1.48e-05
+prodoric	MX000211	SdpR	prodoric	MX000098	DnaA	0	0	.	.	.	4.75e+00	19	8	7	99	8.07e-07	7.26e-06
+prodoric	MX000211	SdpR	prodoric	MX000098	DnaA	0	0	.	.	.	4.75e+00	19	5	5	99	3.27e-06	2.94e-05
+prodoric	MX000211	SdpR	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	6.28e+00	67	2	2	3	1.11e-06	9.98e-06
+prodoric	MX000211	SdpR	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	6.28e+00	67	6	2	3	4.43e-06	3.99e-05
+prodoric	MX000211	SdpR	collectf	EXPREG_00001610	PsrA_P.aeruginosa	0	0	.	.	.	6.28e+00	67	7	2	3	4.43e-06	3.99e-05
+prodoric	MX000211	SdpR	collectf	EXPREG_00000050	PhoP_Y.pestis	1	3	.	.	.	6.39e+00	6	4	4	36	1.15e-06	1.04e-05
+prodoric	MX000211	SdpR	collectf	EXPREG_00001520	CcpA_L.lactis	0	0	.	.	.	7.88e+00	7	8	4	20	1.39e-06	1.25e-05
+prodoric	MX000211	SdpR	dpinteract	lrp	.	1	0	.	.	.	9.88e+00	13	2	3	25	1.89e-06	1.70e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

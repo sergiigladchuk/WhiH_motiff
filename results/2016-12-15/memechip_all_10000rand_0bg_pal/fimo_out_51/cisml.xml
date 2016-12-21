@@ -1,0 +1,1743 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<pattern-file>meme_out/meme.xml</pattern-file>
+<sequence-file>./all_input.fna</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="3" name="3">
+<scanned-sequence accession="1438525" name="1438525">
+</scanned-sequence>
+<scanned-sequence accession="1483575" name="1483575">
+</scanned-sequence>
+<scanned-sequence accession="1813075" name="1813075">
+</scanned-sequence>
+<scanned-sequence accession="3340175" name="3340175">
+</scanned-sequence>
+<scanned-sequence accession="3765675" name="3765675">
+</scanned-sequence>
+<scanned-sequence accession="4021575" name="4021575">
+</scanned-sequence>
+<scanned-sequence accession="4990825" name="4990825">
+</scanned-sequence>
+<scanned-sequence accession="5370500" name="5370500">
+</scanned-sequence>
+<scanned-sequence accession="5521450" name="5521450">
+</scanned-sequence>
+<scanned-sequence accession="7470575" name="7470575">
+</scanned-sequence>
+<scanned-sequence accession="1574875" name="1574875">
+</scanned-sequence>
+<scanned-sequence accession="1538675" name="1538675">
+</scanned-sequence>
+<scanned-sequence accession="284475" name="284475">
+<matched-element start="376" stop="387" score="9.08696" pvalue="9.31e-05">
+<sequence>CGGCTCAATCCC</sequence>
+<mem:qvalue>0.125</mem:qvalue>
+</matched-element>
+<matched-element start="387" stop="376" score="9.08696" pvalue="9.31e-05">
+<sequence>GGGATTGAGCCG</sequence>
+<mem:qvalue>0.125</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5970350" name="5970350">
+</scanned-sequence>
+<scanned-sequence accession="8216200" name="8216200">
+</scanned-sequence>
+<scanned-sequence accession="6781775" name="6781775">
+</scanned-sequence>
+<scanned-sequence accession="6275525" name="6275525">
+</scanned-sequence>
+<scanned-sequence accession="5111575" name="5111575">
+</scanned-sequence>
+<scanned-sequence accession="502275" name="502275">
+</scanned-sequence>
+<scanned-sequence accession="4776750" name="4776750">
+</scanned-sequence>
+<scanned-sequence accession="3648850" name="3648850">
+</scanned-sequence>
+<scanned-sequence accession="7962850" name="7962850">
+</scanned-sequence>
+<scanned-sequence accession="107775" name="107775">
+</scanned-sequence>
+<scanned-sequence accession="4056750" name="4056750">
+</scanned-sequence>
+<scanned-sequence accession="5232875" name="5232875">
+</scanned-sequence>
+<scanned-sequence accession="4798225" name="4798225">
+</scanned-sequence>
+<scanned-sequence accession="8015225" name="8015225">
+</scanned-sequence>
+<scanned-sequence accession="1446675" name="1446675">
+</scanned-sequence>
+<scanned-sequence accession="8216150" name="8216150">
+</scanned-sequence>
+<scanned-sequence accession="2685875" name="2685875">
+</scanned-sequence>
+<scanned-sequence accession="4842075" name="4842075">
+</scanned-sequence>
+<scanned-sequence accession="945550" name="945550">
+</scanned-sequence>
+<scanned-sequence accession="3813825" name="3813825">
+</scanned-sequence>
+<scanned-sequence accession="1629350" name="1629350">
+</scanned-sequence>
+<scanned-sequence accession="4792100" name="4792100">
+</scanned-sequence>
+<scanned-sequence accession="1935550" name="1935550">
+</scanned-sequence>
+<scanned-sequence accession="7988200" name="7988200">
+</scanned-sequence>
+<scanned-sequence accession="1904750" name="1904750">
+</scanned-sequence>
+<scanned-sequence accession="4157200" name="4157200">
+<matched-element start="154" stop="165" score="15.8152" pvalue="2.94e-06">
+<sequence>AGATTCGAACTC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="165" stop="154" score="15.8152" pvalue="2.94e-06">
+<sequence>GAGTTCGAATCT</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6889275" name="6889275">
+</scanned-sequence>
+<scanned-sequence accession="2589100" name="2589100">
+</scanned-sequence>
+<scanned-sequence accession="4171275" name="4171275">
+</scanned-sequence>
+<scanned-sequence accession="2265650" name="2265650">
+</scanned-sequence>
+<scanned-sequence accession="5007350" name="5007350">
+</scanned-sequence>
+<scanned-sequence accession="2070300" name="2070300">
+</scanned-sequence>
+<scanned-sequence accession="3957150" name="3957150">
+</scanned-sequence>
+<scanned-sequence accession="2070275" name="2070275">
+</scanned-sequence>
+<scanned-sequence accession="3884875" name="3884875">
+</scanned-sequence>
+<scanned-sequence accession="5705225" name="5705225">
+</scanned-sequence>
+<scanned-sequence accession="6518625" name="6518625">
+</scanned-sequence>
+<scanned-sequence accession="4117225" name="4117225">
+</scanned-sequence>
+<scanned-sequence accession="4607650" name="4607650">
+</scanned-sequence>
+<scanned-sequence accession="2397475" name="2397475">
+</scanned-sequence>
+<scanned-sequence accession="1638500" name="1638500">
+</scanned-sequence>
+<scanned-sequence accession="6323575" name="6323575">
+</scanned-sequence>
+<scanned-sequence accession="7474275" name="7474275">
+</scanned-sequence>
+<scanned-sequence accession="2731250" name="2731250">
+</scanned-sequence>
+<scanned-sequence accession="2307575" name="2307575">
+</scanned-sequence>
+<scanned-sequence accession="5508725" name="5508725">
+</scanned-sequence>
+<scanned-sequence accession="5219425" name="5219425">
+</scanned-sequence>
+<scanned-sequence accession="4220075" name="4220075">
+<matched-element start="229" stop="240" score="12.8152" pvalue="1.83e-05">
+<sequence>AGGTTTGTATCT</sequence>
+<mem:qvalue>0.0301</mem:qvalue>
+</matched-element>
+<matched-element start="240" stop="229" score="12.8152" pvalue="1.83e-05">
+<sequence>AGATACAAACCT</sequence>
+<mem:qvalue>0.0301</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="7158125" name="7158125">
+</scanned-sequence>
+<scanned-sequence accession="3757850" name="3757850">
+<matched-element start="328" stop="339" score="15.587" pvalue="3.55e-06">
+<sequence>GGGTTCGATTCC</sequence>
+<mem:qvalue>0.0108</mem:qvalue>
+</matched-element>
+<matched-element start="339" stop="328" score="15.587" pvalue="3.55e-06">
+<sequence>GGAATCGAACCC</sequence>
+<mem:qvalue>0.0108</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6449350" name="6449350">
+</scanned-sequence>
+<scanned-sequence accession="4212500" name="4212500">
+<matched-element start="458" stop="469" score="9.51087" pvalue="7.71e-05">
+<sequence>CGGTTCGATCTC</sequence>
+<mem:qvalue>0.109</mem:qvalue>
+</matched-element>
+<matched-element start="469" stop="458" score="9.51087" pvalue="7.71e-05">
+<sequence>GAGATCGAACCG</sequence>
+<mem:qvalue>0.109</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5840050" name="5840050">
+</scanned-sequence>
+<scanned-sequence accession="905725" name="905725">
+</scanned-sequence>
+<scanned-sequence accession="3757875" name="3757875">
+<matched-element start="303" stop="314" score="15.587" pvalue="3.55e-06">
+<sequence>GGGTTCGATTCC</sequence>
+<mem:qvalue>0.0108</mem:qvalue>
+</matched-element>
+<matched-element start="314" stop="303" score="15.587" pvalue="3.55e-06">
+<sequence>GGAATCGAACCC</sequence>
+<mem:qvalue>0.0108</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3279250" name="3279250">
+</scanned-sequence>
+<scanned-sequence accession="501825" name="501825">
+</scanned-sequence>
+<scanned-sequence accession="6076250" name="6076250">
+</scanned-sequence>
+<scanned-sequence accession="7493575" name="7493575">
+</scanned-sequence>
+<scanned-sequence accession="4682500" name="4682500">
+<matched-element start="317" stop="328" score="18.3696" pvalue="4.57e-07">
+<sequence>AGGTTCGAATCC</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+<matched-element start="328" stop="317" score="18.3696" pvalue="4.57e-07">
+<sequence>GGATTCGAACCT</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="884600" name="884600">
+</scanned-sequence>
+<scanned-sequence accession="4956850" name="4956850">
+<matched-element start="265" stop="276" score="12.087" pvalue="2.72e-05">
+<sequence>CGGATCAAACCT</sequence>
+<mem:qvalue>0.0416</mem:qvalue>
+</matched-element>
+<matched-element start="276" stop="265" score="12.087" pvalue="2.72e-05">
+<sequence>AGGTTTGATCCG</sequence>
+<mem:qvalue>0.0416</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3275925" name="3275925">
+</scanned-sequence>
+<scanned-sequence accession="7472425" name="7472425">
+</scanned-sequence>
+<scanned-sequence accession="4699325" name="4699325">
+</scanned-sequence>
+<scanned-sequence accession="7838825" name="7838825">
+</scanned-sequence>
+<scanned-sequence accession="2297325" name="2297325">
+</scanned-sequence>
+<scanned-sequence accession="3144100" name="3144100">
+</scanned-sequence>
+<scanned-sequence accession="4682475" name="4682475">
+<matched-element start="342" stop="353" score="18.3696" pvalue="4.57e-07">
+<sequence>AGGTTCGAATCC</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+<matched-element start="353" stop="342" score="18.3696" pvalue="4.57e-07">
+<sequence>GGATTCGAACCT</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3673125" name="3673125">
+<matched-element start="282" stop="293" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="293" stop="282" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4153050" name="4153050">
+<matched-element start="187" stop="198" score="15.8152" pvalue="2.94e-06">
+<sequence>AGATTCGAACTC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="198" stop="187" score="15.8152" pvalue="2.94e-06">
+<sequence>GAGTTCGAATCT</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2787475" name="2787475">
+</scanned-sequence>
+<scanned-sequence accession="2854100" name="2854100">
+<matched-element start="109" stop="120" score="15.3804" pvalue="4.11e-06">
+<sequence>GGGTTCGAACTC</sequence>
+<mem:qvalue>0.012</mem:qvalue>
+</matched-element>
+<matched-element start="120" stop="109" score="15.3804" pvalue="4.11e-06">
+<sequence>GAGTTCGAACCC</sequence>
+<mem:qvalue>0.012</mem:qvalue>
+</matched-element>
+<matched-element start="377" stop="388" score="15.3696" pvalue="4.57e-06">
+<sequence>GGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0126</mem:qvalue>
+</matched-element>
+<matched-element start="388" stop="377" score="15.3696" pvalue="4.57e-06">
+<sequence>GGACTCGAACCC</sequence>
+<mem:qvalue>0.0126</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1086975" name="1086975">
+<matched-element start="270" stop="281" score="16.6848" pvalue="1.25e-06">
+<sequence>GGGTTTGAATTC</sequence>
+<mem:qvalue>0.00892</mem:qvalue>
+</matched-element>
+<matched-element start="281" stop="270" score="16.6848" pvalue="1.25e-06">
+<sequence>GAATTCAAACCC</sequence>
+<mem:qvalue>0.00892</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6703550" name="6703550">
+</scanned-sequence>
+<scanned-sequence accession="5245650" name="5245650">
+</scanned-sequence>
+<scanned-sequence accession="3872400" name="3872400">
+</scanned-sequence>
+<scanned-sequence accession="1385300" name="1385300">
+</scanned-sequence>
+<scanned-sequence accession="1171900" name="1171900">
+</scanned-sequence>
+<scanned-sequence accession="1528125" name="1528125">
+</scanned-sequence>
+<scanned-sequence accession="4192900" name="4192900">
+<matched-element start="282" stop="293" score="18.8152" pvalue="2.01e-07">
+<sequence>AGGTTCAAATCC</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+<matched-element start="293" stop="282" score="18.8152" pvalue="2.01e-07">
+<sequence>GGATTTGAACCT</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3940375" name="3940375">
+<matched-element start="347" stop="358" score="9.30435" pvalue="8.51e-05">
+<sequence>GGATTCACATCC</sequence>
+<mem:qvalue>0.119</mem:qvalue>
+</matched-element>
+<matched-element start="358" stop="347" score="9.30435" pvalue="8.51e-05">
+<sequence>GGATGTGAATCC</sequence>
+<mem:qvalue>0.119</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1201525" name="1201525">
+</scanned-sequence>
+<scanned-sequence accession="5212775" name="5212775">
+</scanned-sequence>
+<scanned-sequence accession="3884925" name="3884925">
+</scanned-sequence>
+<scanned-sequence accession="7626100" name="7626100">
+</scanned-sequence>
+<scanned-sequence accession="7001150" name="7001150">
+</scanned-sequence>
+<scanned-sequence accession="4178950" name="4178950">
+<matched-element start="267" stop="278" score="18.7935" pvalue="2.84e-07">
+<sequence>GGATTCGAACCC</sequence>
+<mem:qvalue>0.00263</mem:qvalue>
+</matched-element>
+<matched-element start="278" stop="267" score="18.7935" pvalue="2.84e-07">
+<sequence>GGGTTCGAATCC</sequence>
+<mem:qvalue>0.00263</mem:qvalue>
+</matched-element>
+<matched-element start="153" stop="164" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="164" stop="153" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6508200" name="6508200">
+</scanned-sequence>
+<scanned-sequence accession="703625" name="703625">
+</scanned-sequence>
+<scanned-sequence accession="4600725" name="4600725">
+</scanned-sequence>
+<scanned-sequence accession="4178925" name="4178925">
+<matched-element start="292" stop="303" score="18.7935" pvalue="2.84e-07">
+<sequence>GGATTCGAACCC</sequence>
+<mem:qvalue>0.00263</mem:qvalue>
+</matched-element>
+<matched-element start="303" stop="292" score="18.7935" pvalue="2.84e-07">
+<sequence>GGGTTCGAATCC</sequence>
+<mem:qvalue>0.00263</mem:qvalue>
+</matched-element>
+<matched-element start="178" stop="189" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="189" stop="178" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2866075" name="2866075">
+</scanned-sequence>
+<scanned-sequence accession="6934250" name="6934250">
+</scanned-sequence>
+<scanned-sequence accession="4684950" name="4684950">
+<matched-element start="283" stop="294" score="13.1522" pvalue="1.54e-05">
+<sequence>CGGTTCAAGTCC</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="294" stop="283" score="13.1522" pvalue="1.54e-05">
+<sequence>GGACTTGAACCG</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="167" stop="178" score="12.9239" pvalue="1.69e-05">
+<sequence>CGGTTCGATTCC</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+<matched-element start="178" stop="167" score="12.9239" pvalue="1.69e-05">
+<sequence>GGAATCGAACCG</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5117650" name="5117650">
+</scanned-sequence>
+<scanned-sequence accession="3940425" name="3940425">
+<matched-element start="297" stop="308" score="9.30435" pvalue="8.51e-05">
+<sequence>GGATTCACATCC</sequence>
+<mem:qvalue>0.119</mem:qvalue>
+</matched-element>
+<matched-element start="308" stop="297" score="9.30435" pvalue="8.51e-05">
+<sequence>GGATGTGAATCC</sequence>
+<mem:qvalue>0.119</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3491200" name="3491200">
+</scanned-sequence>
+<scanned-sequence accession="5235600" name="5235600">
+</scanned-sequence>
+<scanned-sequence accession="594675" name="594675">
+</scanned-sequence>
+<scanned-sequence accession="4684900" name="4684900">
+<matched-element start="333" stop="344" score="13.1522" pvalue="1.54e-05">
+<sequence>CGGTTCAAGTCC</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="344" stop="333" score="13.1522" pvalue="1.54e-05">
+<sequence>GGACTTGAACCG</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="217" stop="228" score="12.9239" pvalue="1.69e-05">
+<sequence>CGGTTCGATTCC</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+<matched-element start="228" stop="217" score="12.9239" pvalue="1.69e-05">
+<sequence>GGAATCGAACCG</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3014450" name="3014450">
+<matched-element start="142" stop="153" score="15.2717" pvalue="4.87e-06">
+<sequence>CGGTTCGAACCC</sequence>
+<mem:qvalue>0.0132</mem:qvalue>
+</matched-element>
+<matched-element start="153" stop="142" score="15.2717" pvalue="4.87e-06">
+<sequence>GGGTTCGAACCG</sequence>
+<mem:qvalue>0.0132</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4545350" name="4545350">
+</scanned-sequence>
+<scanned-sequence accession="5284925" name="5284925">
+</scanned-sequence>
+<scanned-sequence accession="2549875" name="2549875">
+<matched-element start="211" stop="222" score="13.0543" pvalue="1.59e-05">
+<sequence>AGAATTGAACTC</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="222" stop="211" score="13.0543" pvalue="1.59e-05">
+<sequence>GAGTTCAATTCT</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3301300" name="3301300">
+</scanned-sequence>
+<scanned-sequence accession="6348175" name="6348175">
+</scanned-sequence>
+<scanned-sequence accession="2425525" name="2425525">
+<matched-element start="123" stop="134" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="134" stop="123" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="201" stop="212" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="212" stop="201" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3540325" name="3540325">
+</scanned-sequence>
+<scanned-sequence accession="1433300" name="1433300">
+<matched-element start="280" stop="291" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="291" stop="280" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3862825" name="3862825">
+</scanned-sequence>
+<scanned-sequence accession="5480100" name="5480100">
+</scanned-sequence>
+<scanned-sequence accession="2425275" name="2425275">
+<matched-element start="133" stop="144" score="15.3696" pvalue="4.57e-06">
+<sequence>GGACTCGAACCC</sequence>
+<mem:qvalue>0.0126</mem:qvalue>
+</matched-element>
+<matched-element start="144" stop="133" score="15.3696" pvalue="4.57e-06">
+<sequence>GGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0126</mem:qvalue>
+</matched-element>
+<matched-element start="373" stop="384" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="384" stop="373" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="451" stop="462" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="462" stop="451" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5296600" name="5296600">
+</scanned-sequence>
+<scanned-sequence accession="5089475" name="5089475">
+</scanned-sequence>
+<scanned-sequence accession="4685050" name="4685050">
+<matched-element start="183" stop="194" score="13.1522" pvalue="1.54e-05">
+<sequence>CGGTTCAAGTCC</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="194" stop="183" score="13.1522" pvalue="1.54e-05">
+<sequence>GGACTTGAACCG</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="67" stop="78" score="12.9239" pvalue="1.69e-05">
+<sequence>CGGTTCGATTCC</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+<matched-element start="78" stop="67" score="12.9239" pvalue="1.69e-05">
+<sequence>GGAATCGAACCG</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6601375" name="6601375">
+</scanned-sequence>
+<scanned-sequence accession="5032550" name="5032550">
+</scanned-sequence>
+<scanned-sequence accession="1346275" name="1346275">
+</scanned-sequence>
+<scanned-sequence accession="7472475" name="7472475">
+</scanned-sequence>
+<scanned-sequence accession="3197200" name="3197200">
+</scanned-sequence>
+<scanned-sequence accession="3349275" name="3349275">
+</scanned-sequence>
+<scanned-sequence accession="2854150" name="2854150">
+<matched-element start="59" stop="70" score="15.3804" pvalue="4.11e-06">
+<sequence>GGGTTCGAACTC</sequence>
+<mem:qvalue>0.012</mem:qvalue>
+</matched-element>
+<matched-element start="70" stop="59" score="15.3804" pvalue="4.11e-06">
+<sequence>GAGTTCGAACCC</sequence>
+<mem:qvalue>0.012</mem:qvalue>
+</matched-element>
+<matched-element start="327" stop="338" score="15.3696" pvalue="4.57e-06">
+<sequence>GGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0126</mem:qvalue>
+</matched-element>
+<matched-element start="338" stop="327" score="15.3696" pvalue="4.57e-06">
+<sequence>GGACTCGAACCC</sequence>
+<mem:qvalue>0.0126</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1503250" name="1503250">
+</scanned-sequence>
+<scanned-sequence accession="1337400" name="1337400">
+</scanned-sequence>
+<scanned-sequence accession="6508300" name="6508300">
+<matched-element start="481" stop="492" score="10.3913" pvalue="5.4e-05">
+<sequence>GGAATTAAGCCG</sequence>
+<mem:qvalue>0.0795</mem:qvalue>
+</matched-element>
+<matched-element start="492" stop="481" score="10.3913" pvalue="5.4e-05">
+<sequence>CGGCTTAATTCC</sequence>
+<mem:qvalue>0.0795</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="140950" name="140950">
+</scanned-sequence>
+<scanned-sequence accession="2278925" name="2278925">
+</scanned-sequence>
+<scanned-sequence accession="1043250" name="1043250">
+</scanned-sequence>
+<scanned-sequence accession="3147525" name="3147525">
+<matched-element start="89" stop="100" score="12.7065" pvalue="2.04e-05">
+<sequence>GGACTCGAACCG</sequence>
+<mem:qvalue>0.0324</mem:qvalue>
+</matched-element>
+<matched-element start="100" stop="89" score="12.7065" pvalue="2.04e-05">
+<sequence>CGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0324</mem:qvalue>
+</matched-element>
+<matched-element start="121" stop="132" score="12.4239" pvalue="2.22e-05">
+<sequence>AGGTTTAAGCTC</sequence>
+<mem:qvalue>0.0342</mem:qvalue>
+</matched-element>
+<matched-element start="132" stop="121" score="12.4239" pvalue="2.22e-05">
+<sequence>GAGCTTAAACCT</sequence>
+<mem:qvalue>0.0342</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5339400" name="5339400">
+</scanned-sequence>
+<scanned-sequence accession="5426475" name="5426475">
+</scanned-sequence>
+<scanned-sequence accession="8156200" name="8156200">
+</scanned-sequence>
+<scanned-sequence accession="5149350" name="5149350">
+</scanned-sequence>
+<scanned-sequence accession="4802600" name="4802600">
+</scanned-sequence>
+<scanned-sequence accession="5992875" name="5992875">
+</scanned-sequence>
+<scanned-sequence accession="240725" name="240725">
+</scanned-sequence>
+<scanned-sequence accession="6733725" name="6733725">
+</scanned-sequence>
+<scanned-sequence accession="2129325" name="2129325">
+</scanned-sequence>
+<scanned-sequence accession="3222650" name="3222650">
+</scanned-sequence>
+<scanned-sequence accession="3038300" name="3038300">
+</scanned-sequence>
+<scanned-sequence accession="3011125" name="3011125">
+</scanned-sequence>
+<scanned-sequence accession="6882000" name="6882000">
+</scanned-sequence>
+<scanned-sequence accession="1189600" name="1189600">
+</scanned-sequence>
+<scanned-sequence accession="513600" name="513600">
+</scanned-sequence>
+<scanned-sequence accession="8156175" name="8156175">
+</scanned-sequence>
+<scanned-sequence accession="169850" name="169850">
+</scanned-sequence>
+<scanned-sequence accession="6379725" name="6379725">
+</scanned-sequence>
+<scanned-sequence accession="7022500" name="7022500">
+</scanned-sequence>
+<scanned-sequence accession="4030350" name="4030350">
+</scanned-sequence>
+<scanned-sequence accession="2530125" name="2530125">
+</scanned-sequence>
+<scanned-sequence accession="3051050" name="3051050">
+</scanned-sequence>
+<scanned-sequence accession="1777400" name="1777400">
+</scanned-sequence>
+<scanned-sequence accession="6733750" name="6733750">
+</scanned-sequence>
+<scanned-sequence accession="4725700" name="4725700">
+</scanned-sequence>
+<scanned-sequence accession="5814575" name="5814575">
+</scanned-sequence>
+<scanned-sequence accession="7181875" name="7181875">
+</scanned-sequence>
+<scanned-sequence accession="2577650" name="2577650">
+</scanned-sequence>
+<scanned-sequence accession="4980625" name="4980625">
+<matched-element start="317" stop="328" score="9.08696" pvalue="9.31e-05">
+<sequence>GGACATAAACCA</sequence>
+<mem:qvalue>0.125</mem:qvalue>
+</matched-element>
+<matched-element start="328" stop="317" score="9.08696" pvalue="9.31e-05">
+<sequence>TGGTTTATGTCC</sequence>
+<mem:qvalue>0.125</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5488600" name="5488600">
+</scanned-sequence>
+<scanned-sequence accession="4090875" name="4090875">
+<matched-element start="313" stop="324" score="18.3696" pvalue="4.57e-07">
+<sequence>AGGTTCGAATCC</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+<matched-element start="324" stop="313" score="18.3696" pvalue="4.57e-07">
+<sequence>GGATTCGAACCT</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2884050" name="2884050">
+</scanned-sequence>
+<scanned-sequence accession="5005650" name="5005650">
+</scanned-sequence>
+<scanned-sequence accession="2009900" name="2009900">
+</scanned-sequence>
+<scanned-sequence accession="6058825" name="6058825">
+<matched-element start="21" stop="32" score="12.4891" pvalue="2.2e-05">
+<sequence>TGGTTCGAGCCT</sequence>
+<mem:qvalue>0.0342</mem:qvalue>
+</matched-element>
+<matched-element start="32" stop="21" score="12.4891" pvalue="2.2e-05">
+<sequence>AGGCTCGAACCA</sequence>
+<mem:qvalue>0.0342</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4168375" name="4168375">
+</scanned-sequence>
+<scanned-sequence accession="2545475" name="2545475">
+<matched-element start="266" stop="277" score="13.0543" pvalue="1.59e-05">
+<sequence>AGAATTGAACTC</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="277" stop="266" score="13.0543" pvalue="1.59e-05">
+<sequence>GAGTTCAATTCT</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1148775" name="1148775">
+<matched-element start="480" stop="491" score="10.0543" pvalue="6.21e-05">
+<sequence>GGGATCAAGTTC</sequence>
+<mem:qvalue>0.0898</mem:qvalue>
+</matched-element>
+<matched-element start="491" stop="480" score="10.0543" pvalue="6.21e-05">
+<sequence>GAACTTGATCCC</sequence>
+<mem:qvalue>0.0898</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2545450" name="2545450">
+<matched-element start="291" stop="302" score="13.0543" pvalue="1.59e-05">
+<sequence>AGAATTGAACTC</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+<matched-element start="302" stop="291" score="13.0543" pvalue="1.59e-05">
+<sequence>GAGTTCAATTCT</sequence>
+<mem:qvalue>0.0276</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1920250" name="1920250">
+</scanned-sequence>
+<scanned-sequence accession="4734200" name="4734200">
+</scanned-sequence>
+<scanned-sequence accession="4684700" name="4684700">
+<matched-element start="417" stop="428" score="12.9239" pvalue="1.69e-05">
+<sequence>CGGTTCGATTCC</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+<matched-element start="428" stop="417" score="12.9239" pvalue="1.69e-05">
+<sequence>GGAATCGAACCG</sequence>
+<mem:qvalue>0.028</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1182850" name="1182850">
+</scanned-sequence>
+<scanned-sequence accession="1294600" name="1294600">
+<matched-element start="54" stop="65" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="65" stop="54" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="130" stop="141" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="141" stop="130" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="241" stop="252" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="252" stop="241" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="354" stop="365" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="365" stop="354" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="7148425" name="7148425">
+</scanned-sequence>
+<scanned-sequence accession="2425575" name="2425575">
+<matched-element start="73" stop="84" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="84" stop="73" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="151" stop="162" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="162" stop="151" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2573200" name="2573200">
+<matched-element start="179" stop="190" score="11.3043" pvalue="3.99e-05">
+<sequence>GGGATCGAAACC</sequence>
+<mem:qvalue>0.0599</mem:qvalue>
+</matched-element>
+<matched-element start="190" stop="179" score="11.3043" pvalue="3.99e-05">
+<sequence>GGTTTCGATCCC</sequence>
+<mem:qvalue>0.0599</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="600575" name="600575">
+</scanned-sequence>
+<scanned-sequence accession="1024225" name="1024225">
+</scanned-sequence>
+<scanned-sequence accession="670825" name="670825">
+</scanned-sequence>
+<scanned-sequence accession="7203100" name="7203100">
+</scanned-sequence>
+<scanned-sequence accession="4754900" name="4754900">
+</scanned-sequence>
+<scanned-sequence accession="86775" name="86775">
+</scanned-sequence>
+<scanned-sequence accession="4090850" name="4090850">
+<matched-element start="9" stop="20" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="20" stop="9" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="338" stop="349" score="18.3696" pvalue="4.57e-07">
+<sequence>AGGTTCGAATCC</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+<matched-element start="349" stop="338" score="18.3696" pvalue="4.57e-07">
+<sequence>GGATTCGAACCT</sequence>
+<mem:qvalue>0.00343</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1487100" name="1487100">
+</scanned-sequence>
+<scanned-sequence accession="1877775" name="1877775">
+<matched-element start="307" stop="318" score="14.5109" pvalue="8.35e-06">
+<sequence>GGGTTCGAAACC</sequence>
+<mem:qvalue>0.0209</mem:qvalue>
+</matched-element>
+<matched-element start="318" stop="307" score="14.5109" pvalue="8.35e-06">
+<sequence>GGTTTCGAACCC</sequence>
+<mem:qvalue>0.0209</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="8222750" name="8222750">
+</scanned-sequence>
+<scanned-sequence accession="7953575" name="7953575">
+</scanned-sequence>
+<scanned-sequence accession="3610525" name="3610525">
+<matched-element start="209" stop="220" score="18.7935" pvalue="2.84e-07">
+<sequence>GGATTCGAACCC</sequence>
+<mem:qvalue>0.00263</mem:qvalue>
+</matched-element>
+<matched-element start="220" stop="209" score="18.7935" pvalue="2.84e-07">
+<sequence>GGGTTCGAATCC</sequence>
+<mem:qvalue>0.00263</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2909800" name="2909800">
+</scanned-sequence>
+<scanned-sequence accession="1433250" name="1433250">
+<matched-element start="330" stop="341" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="341" stop="330" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3862900" name="3862900">
+</scanned-sequence>
+<scanned-sequence accession="608350" name="608350">
+</scanned-sequence>
+<scanned-sequence accession="4308075" name="4308075">
+</scanned-sequence>
+<scanned-sequence accession="2394675" name="2394675">
+</scanned-sequence>
+<scanned-sequence accession="3147425" name="3147425">
+<matched-element start="189" stop="200" score="12.7065" pvalue="2.04e-05">
+<sequence>GGACTCGAACCG</sequence>
+<mem:qvalue>0.0324</mem:qvalue>
+</matched-element>
+<matched-element start="200" stop="189" score="12.7065" pvalue="2.04e-05">
+<sequence>CGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0324</mem:qvalue>
+</matched-element>
+<matched-element start="221" stop="232" score="12.4239" pvalue="2.22e-05">
+<sequence>AGGTTTAAGCTC</sequence>
+<mem:qvalue>0.0342</mem:qvalue>
+</matched-element>
+<matched-element start="232" stop="221" score="12.4239" pvalue="2.22e-05">
+<sequence>GAGCTTAAACCT</sequence>
+<mem:qvalue>0.0342</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3546100" name="3546100">
+</scanned-sequence>
+<scanned-sequence accession="7066725" name="7066725">
+<matched-element start="273" stop="284" score="18.8152" pvalue="2.01e-07">
+<sequence>AGGTTCAAATCC</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+<matched-element start="284" stop="273" score="18.8152" pvalue="2.01e-07">
+<sequence>GGATTTGAACCT</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5122650" name="5122650">
+</scanned-sequence>
+<scanned-sequence accession="7126775" name="7126775">
+</scanned-sequence>
+<scanned-sequence accession="5239675" name="5239675">
+</scanned-sequence>
+<scanned-sequence accession="1977075" name="1977075">
+</scanned-sequence>
+<scanned-sequence accession="1294650" name="1294650">
+<matched-element start="4" stop="15" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="15" stop="4" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="80" stop="91" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="91" stop="80" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="191" stop="202" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="202" stop="191" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="304" stop="315" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="315" stop="304" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5671025" name="5671025">
+<matched-element start="16" stop="27" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="27" stop="16" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="173" stop="184" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="184" stop="173" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="369" stop="380" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="380" stop="369" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="267" stop="278" score="14.9457" pvalue="6.38e-06">
+<sequence>AGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0165</mem:qvalue>
+</matched-element>
+<matched-element start="278" stop="267" score="14.9457" pvalue="6.38e-06">
+<sequence>GGACTCGAACCT</sequence>
+<mem:qvalue>0.0165</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="7526850" name="7526850">
+</scanned-sequence>
+<scanned-sequence accession="1182875" name="1182875">
+</scanned-sequence>
+<scanned-sequence accession="6967475" name="6967475">
+<matched-element start="282" stop="293" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="293" stop="282" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5670725" name="5670725">
+<matched-element start="316" stop="327" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="327" stop="316" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="473" stop="484" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="484" stop="473" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="200" stop="211" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="211" stop="200" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6147525" name="6147525">
+</scanned-sequence>
+<scanned-sequence accession="5234950" name="5234950">
+<matched-element start="293" stop="304" score="18.8152" pvalue="2.01e-07">
+<sequence>AGGTTCAAATCC</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+<matched-element start="304" stop="293" score="18.8152" pvalue="2.01e-07">
+<sequence>GGATTTGAACCT</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1288500" name="1288500">
+</scanned-sequence>
+<scanned-sequence accession="584400" name="584400">
+<matched-element start="191" stop="202" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="202" stop="191" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1294525" name="1294525">
+<matched-element start="129" stop="140" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="140" stop="129" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="19" stop="30" score="15.8152" pvalue="2.94e-06">
+<sequence>GAGTTCGAATCT</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="30" stop="19" score="15.8152" pvalue="2.94e-06">
+<sequence>AGATTCGAACTC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="205" stop="216" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="216" stop="205" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="316" stop="327" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="327" stop="316" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="429" stop="440" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="440" stop="429" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3045200" name="3045200">
+</scanned-sequence>
+<scanned-sequence accession="4566800" name="4566800">
+</scanned-sequence>
+<scanned-sequence accession="584450" name="584450">
+<matched-element start="141" stop="152" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="152" stop="141" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3973800" name="3973800">
+<matched-element start="151" stop="162" score="9" pvalue="9.49e-05">
+<sequence>TGGTTCAAGTTG</sequence>
+<mem:qvalue>0.127</mem:qvalue>
+</matched-element>
+<matched-element start="162" stop="151" score="9" pvalue="9.49e-05">
+<sequence>CAACTTGAACCA</sequence>
+<mem:qvalue>0.127</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3745125" name="3745125">
+</scanned-sequence>
+<scanned-sequence accession="4741600" name="4741600">
+<matched-element start="454" stop="465" score="9.20652" pvalue="8.87e-05">
+<sequence>AAGATCAAGTCT</sequence>
+<mem:qvalue>0.122</mem:qvalue>
+</matched-element>
+<matched-element start="465" stop="454" score="9.20652" pvalue="8.87e-05">
+<sequence>AGACTTGATCTT</sequence>
+<mem:qvalue>0.122</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2607075" name="2607075">
+<matched-element start="94" stop="105" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="105" stop="94" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="337" stop="348" score="15.587" pvalue="3.55e-06">
+<sequence>GGGTTCGATTCC</sequence>
+<mem:qvalue>0.0108</mem:qvalue>
+</matched-element>
+<matched-element start="348" stop="337" score="15.587" pvalue="3.55e-06">
+<sequence>GGAATCGAACCC</sequence>
+<mem:qvalue>0.0108</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1977050" name="1977050">
+</scanned-sequence>
+<scanned-sequence accession="7060650" name="7060650">
+</scanned-sequence>
+<scanned-sequence accession="5670750" name="5670750">
+<matched-element start="291" stop="302" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="302" stop="291" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="448" stop="459" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="459" stop="448" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="175" stop="186" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="186" stop="175" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4906850" name="4906850">
+<matched-element start="174" stop="185" score="10.1522" pvalue="6.06e-05">
+<sequence>CGGCTCGAATTC</sequence>
+<mem:qvalue>0.0885</mem:qvalue>
+</matched-element>
+<matched-element start="185" stop="174" score="10.1522" pvalue="6.06e-05">
+<sequence>GAATTCGAGCCG</sequence>
+<mem:qvalue>0.0885</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="639750" name="639750">
+</scanned-sequence>
+<scanned-sequence accession="2384725" name="2384725">
+</scanned-sequence>
+<scanned-sequence accession="3038250" name="3038250">
+</scanned-sequence>
+<scanned-sequence accession="3670125" name="3670125">
+</scanned-sequence>
+<scanned-sequence accession="2096900" name="2096900">
+</scanned-sequence>
+<scanned-sequence accession="7988075" name="7988075">
+</scanned-sequence>
+<scanned-sequence accession="3945125" name="3945125">
+</scanned-sequence>
+<scanned-sequence accession="7804125" name="7804125">
+</scanned-sequence>
+<scanned-sequence accession="3481350" name="3481350">
+</scanned-sequence>
+<scanned-sequence accession="6588200" name="6588200">
+</scanned-sequence>
+<scanned-sequence accession="5479300" name="5479300">
+<matched-element start="342" stop="353" score="9.29348" pvalue="8.64e-05">
+<sequence>GGGTTCGAGCTG</sequence>
+<mem:qvalue>0.119</mem:qvalue>
+</matched-element>
+<matched-element start="353" stop="342" score="9.29348" pvalue="8.64e-05">
+<sequence>CAGCTCGAACCC</sequence>
+<mem:qvalue>0.119</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3306225" name="3306225">
+<matched-element start="233" stop="244" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="244" stop="233" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="6803300" name="6803300">
+</scanned-sequence>
+<scanned-sequence accession="3406075" name="3406075">
+</scanned-sequence>
+<scanned-sequence accession="1941625" name="1941625">
+</scanned-sequence>
+<scanned-sequence accession="2425425" name="2425425">
+<matched-element start="223" stop="234" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="234" stop="223" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="301" stop="312" score="13.7717" pvalue="1.13e-05">
+<sequence>GGACTCGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="312" stop="301" score="13.7717" pvalue="1.13e-05">
+<sequence>TGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5682625" name="5682625">
+</scanned-sequence>
+<scanned-sequence accession="5695000" name="5695000">
+<matched-element start="465" stop="476" score="14.0109" pvalue="1.02e-05">
+<sequence>GGATTCAAGTCG</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="476" stop="465" score="14.0109" pvalue="1.02e-05">
+<sequence>CGACTTGAATCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1433375" name="1433375">
+<matched-element start="205" stop="216" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="216" stop="205" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3961325" name="3961325">
+<matched-element start="201" stop="212" score="18.8152" pvalue="2.01e-07">
+<sequence>GGATTTGAACCT</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+<matched-element start="212" stop="201" score="18.8152" pvalue="2.01e-07">
+<sequence>AGGTTCAAATCC</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+<matched-element start="126" stop="137" score="8.8913" pvalue="9.95e-05">
+<sequence>AGCTTCAAACCT</sequence>
+<mem:qvalue>0.131</mem:qvalue>
+</matched-element>
+<matched-element start="137" stop="126" score="8.8913" pvalue="9.95e-05">
+<sequence>AGGTTTGAAGCT</sequence>
+<mem:qvalue>0.131</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="3745225" name="3745225">
+</scanned-sequence>
+<scanned-sequence accession="3101350" name="3101350">
+</scanned-sequence>
+<scanned-sequence accession="2466150" name="2466150">
+<matched-element start="119" stop="130" score="9.71739" pvalue="7.24e-05">
+<sequence>TGAAATGAATCC</sequence>
+<mem:qvalue>0.104</mem:qvalue>
+</matched-element>
+<matched-element start="130" stop="119" score="9.71739" pvalue="7.24e-05">
+<sequence>GGATTCATTTCA</sequence>
+<mem:qvalue>0.104</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5386525" name="5386525">
+</scanned-sequence>
+<scanned-sequence accession="5002275" name="5002275">
+<matched-element start="487" stop="498" score="12.7065" pvalue="2.04e-05">
+<sequence>CGTTTCGAATCC</sequence>
+<mem:qvalue>0.0324</mem:qvalue>
+</matched-element>
+<matched-element start="498" stop="487" score="12.7065" pvalue="2.04e-05">
+<sequence>GGATTCGAAACG</sequence>
+<mem:qvalue>0.0324</mem:qvalue>
+</matched-element>
+<matched-element start="440" stop="451" score="10.4891" pvalue="5.29e-05">
+<sequence>CGGTTTGAGTCG</sequence>
+<mem:qvalue>0.0786</mem:qvalue>
+</matched-element>
+<matched-element start="451" stop="440" score="10.4891" pvalue="5.29e-05">
+<sequence>CGACTCAAACCG</sequence>
+<mem:qvalue>0.0786</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5215400" name="5215400">
+<matched-element start="367" stop="378" score="14.5109" pvalue="8.35e-06">
+<sequence>GGGCTCGAACCC</sequence>
+<mem:qvalue>0.0209</mem:qvalue>
+</matched-element>
+<matched-element start="378" stop="367" score="14.5109" pvalue="8.35e-06">
+<sequence>GGGTTCGAGCCC</sequence>
+<mem:qvalue>0.0209</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1082350" name="1082350">
+</scanned-sequence>
+<scanned-sequence accession="3307450" name="3307450">
+</scanned-sequence>
+<scanned-sequence accession="4747850" name="4747850">
+</scanned-sequence>
+<scanned-sequence accession="2484975" name="2484975">
+</scanned-sequence>
+<scanned-sequence accession="1068000" name="1068000">
+</scanned-sequence>
+<scanned-sequence accession="6561450" name="6561450">
+</scanned-sequence>
+<scanned-sequence accession="7043100" name="7043100">
+</scanned-sequence>
+<scanned-sequence accession="4580300" name="4580300">
+</scanned-sequence>
+<scanned-sequence accession="2836350" name="2836350">
+</scanned-sequence>
+<scanned-sequence accession="4180400" name="4180400">
+</scanned-sequence>
+<scanned-sequence accession="6459350" name="6459350">
+</scanned-sequence>
+<scanned-sequence accession="1155275" name="1155275">
+</scanned-sequence>
+<scanned-sequence accession="5671100" name="5671100">
+<matched-element start="98" stop="109" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="109" stop="98" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="294" stop="305" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="305" stop="294" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="192" stop="203" score="14.9457" pvalue="6.38e-06">
+<sequence>AGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0165</mem:qvalue>
+</matched-element>
+<matched-element start="203" stop="192" score="14.9457" pvalue="6.38e-06">
+<sequence>GGACTCGAACCT</sequence>
+<mem:qvalue>0.0165</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5386475" name="5386475">
+</scanned-sequence>
+<scanned-sequence accession="248575" name="248575">
+</scanned-sequence>
+<scanned-sequence accession="7526825" name="7526825">
+</scanned-sequence>
+<scanned-sequence accession="444650" name="444650">
+</scanned-sequence>
+<scanned-sequence accession="5829700" name="5829700">
+</scanned-sequence>
+<scanned-sequence accession="1539850" name="1539850">
+</scanned-sequence>
+<scanned-sequence accession="5793425" name="5793425">
+</scanned-sequence>
+<scanned-sequence accession="3517650" name="3517650">
+</scanned-sequence>
+<scanned-sequence accession="6018200" name="6018200">
+</scanned-sequence>
+<scanned-sequence accession="4144025" name="4144025">
+<matched-element start="212" stop="223" score="15.8152" pvalue="2.94e-06">
+<sequence>AGATTCGAACTC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="223" stop="212" score="15.8152" pvalue="2.94e-06">
+<sequence>GAGTTCGAATCT</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="5850025" name="5850025">
+</scanned-sequence>
+<scanned-sequence accession="1446775" name="1446775">
+</scanned-sequence>
+<scanned-sequence accession="1951925" name="1951925">
+</scanned-sequence>
+<scanned-sequence accession="6791525" name="6791525">
+</scanned-sequence>
+<scanned-sequence accession="1500650" name="1500650">
+</scanned-sequence>
+<scanned-sequence accession="3093125" name="3093125">
+</scanned-sequence>
+<scanned-sequence accession="1252325" name="1252325">
+</scanned-sequence>
+<scanned-sequence accession="5670975" name="5670975">
+<matched-element start="66" stop="77" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="77" stop="66" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="223" stop="234" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="234" stop="223" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="419" stop="430" score="16.1304" pvalue="2.19e-06">
+<sequence>CGGTTCGAATCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="430" stop="419" score="16.1304" pvalue="2.19e-06">
+<sequence>GGATTCGAACCG</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="317" stop="328" score="14.9457" pvalue="6.38e-06">
+<sequence>AGGTTCGAGTCC</sequence>
+<mem:qvalue>0.0165</mem:qvalue>
+</matched-element>
+<matched-element start="328" stop="317" score="14.9457" pvalue="6.38e-06">
+<sequence>GGACTCGAACCT</sequence>
+<mem:qvalue>0.0165</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="1294450" name="1294450">
+<matched-element start="204" stop="215" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="215" stop="204" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="94" stop="105" score="15.8152" pvalue="2.94e-06">
+<sequence>GAGTTCGAATCT</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="105" stop="94" score="15.8152" pvalue="2.94e-06">
+<sequence>AGATTCGAACTC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="280" stop="291" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="291" stop="280" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="391" stop="402" score="13.5761" pvalue="1.23e-05">
+<sequence>TGGTTCAATCCC</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+<matched-element start="402" stop="391" score="13.5761" pvalue="1.23e-05">
+<sequence>GGGATTGAACCA</sequence>
+<mem:qvalue>0.0228</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="96150" name="96150">
+</scanned-sequence>
+<scanned-sequence accession="3892350" name="3892350">
+</scanned-sequence>
+<scanned-sequence accession="5139725" name="5139725">
+</scanned-sequence>
+<scanned-sequence accession="4160425" name="4160425">
+</scanned-sequence>
+<scanned-sequence accession="5215175" name="5215175">
+</scanned-sequence>
+<scanned-sequence accession="4694050" name="4694050">
+<matched-element start="196" stop="207" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="207" stop="196" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4694025" name="4694025">
+<matched-element start="221" stop="232" score="15.8152" pvalue="2.94e-06">
+<sequence>GGGTTCAAGTCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+<matched-element start="232" stop="221" score="15.8152" pvalue="2.94e-06">
+<sequence>GGACTTGAACCC</sequence>
+<mem:qvalue>0.00946</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4408025" name="4408025">
+</scanned-sequence>
+<scanned-sequence accession="6137550" name="6137550">
+</scanned-sequence>
+<scanned-sequence accession="8027000" name="8027000">
+</scanned-sequence>
+<scanned-sequence accession="8069775" name="8069775">
+</scanned-sequence>
+<scanned-sequence accession="6467875" name="6467875">
+<matched-element start="195" stop="206" score="8.96739" pvalue="9.68e-05">
+<sequence>GGACTCAAGACC</sequence>
+<mem:qvalue>0.128</mem:qvalue>
+</matched-element>
+<matched-element start="206" stop="195" score="8.96739" pvalue="9.68e-05">
+<sequence>GGTCTTGAGTCC</sequence>
+<mem:qvalue>0.128</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="4381625" name="4381625">
+</scanned-sequence>
+<scanned-sequence accession="1572750" name="1572750">
+</scanned-sequence>
+<scanned-sequence accession="4141575" name="4141575">
+</scanned-sequence>
+<scanned-sequence accession="3459275" name="3459275">
+</scanned-sequence>
+<scanned-sequence accession="6011775" name="6011775">
+</scanned-sequence>
+<scanned-sequence accession="6502975" name="6502975">
+</scanned-sequence>
+<scanned-sequence accession="6470700" name="6470700">
+</scanned-sequence>
+<scanned-sequence accession="6719475" name="6719475">
+</scanned-sequence>
+<scanned-sequence accession="2956875" name="2956875">
+</scanned-sequence>
+<scanned-sequence accession="3406100" name="3406100">
+</scanned-sequence>
+<scanned-sequence accession="1371825" name="1371825">
+</scanned-sequence>
+<scanned-sequence accession="4708350" name="4708350">
+</scanned-sequence>
+<scanned-sequence accession="7157275" name="7157275">
+<matched-element start="295" stop="306" score="18.8152" pvalue="2.01e-07">
+<sequence>AGGTTCAAATCC</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+<matched-element start="306" stop="295" score="18.8152" pvalue="2.01e-07">
+<sequence>GGATTTGAACCT</sequence>
+<mem:qvalue>0.00226</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="7155400" name="7155400">
+</scanned-sequence>
+<scanned-sequence accession="6177175" name="6177175">
+</scanned-sequence>
+<scanned-sequence accession="2585325" name="2585325">
+</scanned-sequence>
+<scanned-sequence accession="6558950" name="6558950">
+</scanned-sequence>
+<scanned-sequence accession="1093650" name="1093650">
+</scanned-sequence>
+<scanned-sequence accession="724000" name="724000">
+</scanned-sequence>
+<scanned-sequence accession="2339300" name="2339300">
+<matched-element start="238" stop="249" score="11.8478" pvalue="3.24e-05">
+<sequence>GGTTTCGAACCG</sequence>
+<mem:qvalue>0.0491</mem:qvalue>
+</matched-element>
+<matched-element start="249" stop="238" score="11.8478" pvalue="3.24e-05">
+<sequence>CGGTTCGAAACC</sequence>
+<mem:qvalue>0.0491</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="7192425" name="7192425">
+</scanned-sequence>
+<scanned-sequence accession="6219450" name="6219450">
+</scanned-sequence>
+<scanned-sequence accession="1553450" name="1553450">
+</scanned-sequence>
+<scanned-sequence accession="7637350" name="7637350">
+</scanned-sequence>
+<scanned-sequence accession="4141600" name="4141600">
+</scanned-sequence>
+<scanned-sequence accession="4433725" name="4433725">
+</scanned-sequence>
+<scanned-sequence accession="463200" name="463200">
+</scanned-sequence>
+<scanned-sequence accession="1736575" name="1736575">
+</scanned-sequence>
+<scanned-sequence accession="2960700" name="2960700">
+</scanned-sequence>
+<scanned-sequence accession="7304900" name="7304900">
+</scanned-sequence>
+<scanned-sequence accession="5146900" name="5146900">
+</scanned-sequence>
+<scanned-sequence accession="5694675" name="5694675">
+</scanned-sequence>
+<scanned-sequence accession="1812025" name="1812025">
+</scanned-sequence>
+<scanned-sequence accession="5062425" name="5062425">
+</scanned-sequence>
+<scanned-sequence accession="7838700" name="7838700">
+</scanned-sequence>
+<scanned-sequence accession="4090525" name="4090525">
+<matched-element start="334" stop="345" score="19.2391" pvalue="1.24e-07">
+<sequence>GGGTTCAAATCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+<matched-element start="345" stop="334" score="19.2391" pvalue="1.24e-07">
+<sequence>GGATTTGAACCC</sequence>
+<mem:qvalue>0.00217</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="2530200" name="2530200">
+</scanned-sequence>
+<scanned-sequence accession="5052600" name="5052600">
+</scanned-sequence>
+<scanned-sequence accession="6184575" name="6184575">
+</scanned-sequence>
+<scanned-sequence accession="1404675" name="1404675">
+</scanned-sequence>
+<scanned-sequence accession="4566750" name="4566750">
+</scanned-sequence>
+<scanned-sequence accession="3950800" name="3950800">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>
