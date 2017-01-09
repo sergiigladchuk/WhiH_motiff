@@ -1,0 +1,4 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_14h"
+"SVEN_4305"	"SMD06621"	4662690	4663421	"-"	"putative two-component system response regulator"	"1"	8	11.5		0.288804447
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	3	12.7		0.0130217046666665
+"SVEN_1371"	"SMD02382"	1537282	1538535	"-"	"putative regulator"	"1"	4	12.7		0.0120664853333325

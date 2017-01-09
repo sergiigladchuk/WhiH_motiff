@@ -1,0 +1,22 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_10h"
+"SVEN_0106"	"SMD00545"	104989	107760	"-"	"putative sensor histidine kinase"	"1"	21		15	0.866014319999999
+"SVEN_2469"	"SMD03941"	2684254	2685723	"-"	"hypothetical protein"	"1"	27		152	0.415296209999999
+"SVEN_1284"	"SMD02263"	1446670	1447323	"+"	"regulatory protein%2C TetR"	"1"	25		5	0.366471685666666
+"SVEN_4858"	"SMD07397"	5232880	5234856	"+"	"tetratricopeptide repeat family protein"	"1"	23		5	0.222152622333333
+"SVEN_6822"	"SMD10118"	7470625	7471845	"+"	"putative lipoprotein"	"1"	10		50	0.172063089666666
+"SVEN_6821"	"SMD10116"	7469786	7470343	"-"	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"1"	10		232	0.161564328
+"SVEN_1408"	"SMD02435"	1572764	1574776	"-"	"putative regulatory protein"	"1"	11		99	0.123122366666667
+"SVEN_6823"	"SMD10119"	7471879	7472340	"-"	"hypothetical protein"	"1"	34		85	0.102556484
+"SVEN_7260"	"SMD10738"	7988264	7988809	"+"	"hypothetical protein"	"1"	30		64	0.100754637000001
+"SVEN_3448"	"SMD05353"	3764790	3765677	"-"	"LysR-family transcriptional regulatory protein"	"1"	5		2	0.0985225283333335
+"SVEN_3331"	"SMD05177"	3647476	3648783	"-"	"putative secreted protein"	"1"	19		67	0.0872456353333328
+"SVEN_4437"	"SMD06811"	4776768	4777688	"+"	"putative polysaccharide deacetylase"	"1"	18		18	0.0634687633333346
+"SVEN_3051"	"SMD04773"	3340267	3341442	"+"	"Flagellar hook-length control protein FliK"	"1"	4		92	0.0522613573333341
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	12		184	0.0473816246666665
+"SVEN_5779"	"SMD08668"	6275557	6276042	"+"	"hypothetical protein"	"1"	16		32	0.0351194799999988
+"SVEN_1324"	"SMD02318"	1482918	1483553	"-"	"hypothetical protein"	"1"	2		22	0.0281493693333328
+"SVEN_4436"	"SMD06810"	4775450	4776682	"-"	"SAM-dependent methyltransferases"	"1"	18		68	0.0234144343333327
+"SVEN_1625"	"SMD02776"	1813089	1815791	"+"	"ATP-dependent RNA helicase"	"1"	3		14	0.0180904183333332
+"SVEN_4634"	"SMD07084"	4989373	4990713	"-"	"hypothetical protein"	"1"	7		112	0.0124321243333334
+"SVEN_5114"	"SMD07758"	5521587	5522840	"+"	"putative lipoprotein"	"1"	9		137	0.00469980533333292
+"SVEN_1278"	"SMD02255"	1438650	1439177	"+"	"Gluconokinase"	"1"	1		125	0.00255633633333296

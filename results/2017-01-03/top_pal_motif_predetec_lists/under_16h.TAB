@@ -1,0 +1,56 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_16h"
+"SVEN_5498"	"SMD08289"	5970434	5971321	"+"	"Transcriptional regulator%2C GntR family"	"1"	49	10.6		-4.995507876
+"SVEN_0269"	"SMD00781"	284553	286739	"+"	"hypothetical protein"	"1"	12	12.1		-4.115566927
+"SVEN_4648"	"SMD07101.2"	5005620	5005736	"-"	"hypothetical protein"	"1"	77	10.3		-2.042452199
+"SVEN_4755"	"SMD07250"	5117228	5117455	"-"	"hypothetical protein"	"1"	91	10.2		-1.92187622166667
+"SVEN_4756"	"SMD07253"	5117704	5120148	"+"	"putative lipoprotein"	"1"	90	10.2		-1.558747086
+"SVEN_4452"	"SMD06831"	4791584	4791976	"-"	"Sporulation regulatory protein WhiD"	"1"	4	12.6		-1.29927815533333
+"SVEN_0413"	"SMD00973"	439420	440760	"-"	"hypothetical protein"	"1"	64	10.4		-1.23545229366667
+"SVEN_3713"	"SMD05721"	4030423	4031931	"+"	"Cytochrome d ubiquinol oxidase subunit I"	"1"	69	10.4		-1.167097649
+"SVEN_1384"	"SMD02400"	1552857	1553456	"-"	"Transglycosylase domain protein"	"1"	102	9.9		-0.920380739666667
+"SVEN_6151"	"SMD09189"	6705940	6706797	"+"	"glutamate permease"	"1"	46	10.6		-0.892435334333333
+"SVEN_4658"	"SMD07114"	5012494	5014317	"+"	"Phosphoenolpyruvate carboxykinase"	"1"	79	10.3		-0.826573254333333
+"SVEN_4457"	"SMD06841"	4796896	4798137	"-"	"putative UDP-glucose or GDP-mannose dehydrogenase"	"1"	21	11.4		-0.796097826
+"SVEN_4749"	"SMD07243"	5109391	5111496	"-"	"Fibrillarin"	"1"	82	10.3		-0.639813538333333
+"SVEN_4634"	"SMD07084"	4989373	4990713	"-"	"hypothetical protein"	"1"	58	10.5		-0.629870122
+"SVEN_5828"	"SMD08742"	6347491	6348105	"-"	"Uncharacterized protein Q1 colocalized with Q"	"1"	7	12.5		-0.600138342333333
+"SVEN_5968"	"SMD08938"	6498662	6499342	"-"	"Transcriptional regulator%2C TetR family"	"1"	60	10.4		-0.525174501666666
+"SVEN_3712"	"SMD05720"	4029837	4030217	"-"	"hypothetical protein"	"1"	70	10.4		-0.522231526333334
+"SVEN_4635"	"SMD07086"	4990869	4992512	"+"	"putative secreted protein"	"1"	57	10.5		-0.492352693999999
+"SVEN_6438"	"SMD09577"	7022165	7023106	"-"	"Cobalt-zinc-cadmium resistance protein CzcD"	"1"	89	10.2		-0.45835111
+"SVEN_2562"	"SMD04076"	2787486	2788454	"+"	"membrane transport protein"	"1"	37	10.8		-0.453794976000001
+"SVEN_4069"	"SMD06270"	4409949	4410662	"-"	"hypothetical protein"	"1"	71	10.4		-0.442968399333334
+"SVEN_3022"	"SMD04731"	3306366	3307400	"-"	"putative membrane protein"	"1"	108	9.9		-0.439670977333334
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	13	12		-0.438024132999999
+"SVEN_0473"	"SMD01048"	513687	514046	"+"	"hypothetical protein"	"1"	65	10.4		-0.401096324333333
+"SVEN_1734"	"SMD02925"	1934812	1935435	"-"	"hypothetical protein"	"1"	33	11		-0.311408206666666
+"SVEN_2675"	"SMD04231"	2909468	2909779	"-"	"hypothetical protein"	"1"	25	11.3		-0.306926048000001
+"SVEN_3540"	"SMD05481"	3845989	3846795	"+"	"Beta-ketoadipate enol-lactone hydrolase"	"1"	67	10.4		-0.294644182666667
+"SVEN_1141"	"SMD02037"	1289220	1289777	"+"	"hypothetical protein"	"1"	35	10.9		-0.284012885666668
+"SVEN_6802"	"SMD10088"	7449292	7449714	"+"	"Aspartate 1-decarboxylase"	"1"	27	11.1		-0.282264793666668
+"SVEN_1447"	"SMD02495"	1618200	1618913	"+"	"Transcriptional regulator%2C GntR family"	"1"	53	10.5		-0.279921160333333
+"SVEN_5277"	"SMD07977"	5704327	5704977	"-"	"hypothetical protein"	"1"	40	10.8		-0.279065774999999
+"SVEN_4328"	"SMD06650"	4685095	4685259	"+"	"LSU ribosomal protein L33p"	"1"	110	9.9		-0.266060413333335
+"SVEN_4458"	"SMD06842"	4798400	4800106	"+"	"Glycerol-3-phosphate dehydrogenase"	"1"	20	11.4		-0.250382085333333
+"SVEN_4847"	"SMD07382"	5219529	5220104	"+"	"Zinc metalloprotease"	"1"	94	10.1		-0.245277886333334
+"SVEN_0880"	"SMD01626"	1011138	1011710	"-"	"putative transcriptional regulatory protein"	"1"	107	9.9		-0.239809672666667
+"SVEN_0472"	"SMD01045"	512969	513550	"-"	"hypothetical protein"	"1"	66	10.4		-0.235311311999999
+"SVEN_4327"	"SMD06649"	4683319	4684599	"-"	"Cytosine deaminase"	"1"	109	9.9		-0.196918807000001
+"SVEN_1446"	"SMD02491"	1616736	1618136	"-"	"putative integral membrane transporter"	"1"	54	10.5		-0.163984733333335
+"SVEN_5394"	"SMD08140"	5838201	5839886	"+"	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"1"	23	11.4		-0.15193034
+"SVEN_0417"	"SMD00980"	444695	446164	"+"	"Possible Glycerol kinase"	"1"	104	9.9		-0.146918222333333
+"SVEN_4858"	"SMD07397"	5232880	5234856	"+"	"tetratricopeptide repeat family protein"	"1"	45	10.6		-0.135482138999999
+"SVEN_0923"	"SMD01689"	1053898	1055076	"-"	"CmlG"	"1"	101	9.9		-0.124538959333333
+"SVEN_5031"	"SMD07637"	5416008	5416634	"+"	"putative membrane protein"	"1"	74	10.3		-0.0976115563333337
+"SVEN_3776"	"SMD05810"	4102989	4104518	"+"	"putative transporter"	"1"	113	9.8		-0.0727462316666658
+"SVEN_5829"	"SMD08743"	6348284	6349360	"+"	"Uroporphyrinogen III decarboxylase"	"1"	6	12.5		-0.0639892010000009
+"SVEN_2491"	"SMD03973"	2704951	2706447	"-"	"hypothetical protein"	"1"	84	10.2		-0.0574418469999998
+"SVEN_7440"	"SMD11002"	8211951	8216264	"-"	"hypothetical protein"	"1"	10	12.2		-0.0543392783333339
+"SVEN_7404"	"SMD10953"	8164253	8165260	"+"	"Aldo-keto reductase"	"1"	19	11.5		-0.0490223683333335
+"SVEN_1277"	"SMD02252"	1437801	1438502	"-"	"Transcriptional regulator%2C GntR family"	"1"	99	10		-0.041322662333334
+"SVEN_3108"	"SMD04851"	3407538	3408740	"-"	"acyl-CoA dehydrogenase"	"1"	48	10.6		-0.0370224889999999
+"SVEN_7403"	"SMD10950"	8162787	8163659	"-"	"hypothetical protein"	"1"	18	11.5		-0.026633480000001
+"SVEN_1909"	"SMD03174"	2127691	2129661	"+"	"hypothetical protein"	"1"	93	10.1		-0.0183099350000004
+"SVEN_4493"	"SMD06889"	4848300	4849754	"+"	"hypothetical protein"	"1"	55	10.5		-0.0179732426666668
+"SVEN_5395"	"SMD08141"	5841875	5844520	"-"	"regulatory protein"	"1"	22	11.4		-0.00834517200000118
+"SVEN_0881"	"SMD01628"	1011815	1012678	"+"	"putative integral membrane protein"	"1"	106	9.9		-0.0029218300000009

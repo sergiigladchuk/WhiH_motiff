@@ -1,0 +1,4 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_8h"
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	3	12.7		0.794472133666666
+"SVEN_4755"	"SMD07250"	5117228	5117455	"-"	"hypothetical protein"	"1"	10	11.5		0.355021635
+"SVEN_6931"	"SMD10265"	7582270	7583004	"+"	"hypothetical protein"	"1"	5	12.3		0.0403538993333328

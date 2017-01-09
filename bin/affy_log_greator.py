@@ -2,6 +2,7 @@
 
 import argparse
 import sys
+import re
 
 usage = '''This program converts transcriptomic data, gff file with gene description and list of positions into gene table with affLogs and flags for further statistical analysis'''
 
@@ -9,7 +10,7 @@ parser = argparse.ArgumentParser(description=usage)
 
 parser.add_argument('-v','--version',
 		    action='version',
-		    version='%(prog)s 0.1')
+		    version='%(prog)s 1.1')
 
 parser.add_argument('-s','--start_cut',
 		    type=int,
@@ -39,12 +40,23 @@ parser.add_argument('-i',
 		    help='input file with transcriptomics in csv format',
 		    required=True)
 
-parser.add_argument('-p',
-		    dest='positions',
-		    metavar='POSITIONS',
+parser.add_argument('-f',
+		    dest='fimoPos',
+		    metavar='FIMO',
 		    type=argparse.FileType('r'),
-		    help='positions file for gene matching',
-		    required=True)
+		    help='FIMO positions file for gene matching')
+
+parser.add_argument('-p',
+		    dest='predetectPos',
+		    metavar='PREDETECTOR',
+		    type=argparse.FileType('r'),
+		    help='Predetector positions file for gene matching')
+
+parser.add_argument('-c',
+		    dest='chipPos',
+		    metavar='CHIPSEQ',
+		    type=argparse.FileType('r'),
+		    help='ChIP-seq positions file for gene matching')
 
 parser.add_argument('-o',
 		    dest='outfile',
@@ -54,26 +66,57 @@ parser.add_argument('-o',
 
 args = parser.parse_args()
 parser.parse_args()
+#input check
+if not (args.fimoPos or args.predetectPos or args.chipPos):
+    parser.error('Wrong input parameters for positions')
 
 
-#main routine
 
-#create header for output
-print('gene tag\tgene_old_tag\tgene_start\tgene_end\tstrand\tproduct\tclosest_match\tmatch_index\tmatch_value\tdistance\taffyLog_8h\taffyLog_10h\taffyLog_12h\taffyLog_14h\taffyLog_16h\taffyLog_18h\taffyLog_20h',file=args.outfile)
+#convert input file to position list
+posList = []
+predDic = {}
 
-#convert FIMO to list
-fimoList = []
-fimoRank = 0
-for fimoLine in args.positions:
+if args.fimoPos:
+	#fimo
+	inType = 'FIMO'
+	fimoRank = 0
+	for fimoLine in args.fimoPos:
+		
+		if fimoLine[0] == '1':
+			fimoRank += 1 
+			fimoValues = fimoLine.rstrip().split('\t')
+			motiffMid = int((int(fimoValues[3])+int(fimoValues[2]))/2)
+			posList.append({'rank' : fimoRank, 
+							'position' : motiffMid,
+							'score' : fimoValues[5],
+							'matched' : False})
+elif args.predetectPos:
+	inType = 'PRED'
+	predRank = 0
 	
-	if fimoLine[0] == '1':
-		fimoRank += 1 
-		fimoValues = fimoLine.rstrip().split('\t')
-		motiffMid = int((int(fimoValues[3])+int(fimoValues[2]))/2)
-		fimoList.append({'rank' : fimoRank, 
-						 'position' : motiffMid,
-						 'score' : fimoValues[5],
-						 'matched' : False})
+	for predLine in args.predetectPos:
+		
+		if predLine[1:6] == 'SVEN_':
+			
+			predRank += 1
+			predValues = predLine.rstrip().split('\t')
+			predTag = predValues[0][1:10]
+			predDic[predTag] = {'rank' : predRank,
+								'score': predValues[4]}
+	
+	
+elif args.chipPos:
+	inType = 'CHIP'
+	chipRank = 0
+	for chipLine in args.chipPos:
+		
+		if re.match('^\d+',chipLine) != None:
+			chipRank += 1
+			posList.append({'rank' : chipRank, 
+							'position' : int(chipLine.split(',')[0]),
+							'score' : '',
+							'matched' : False})
+	
 
 #convert transcriptomic to dictionary
 transDic = {}
@@ -95,6 +138,11 @@ for transLine in args.infile:
 		transDic[transValues[0]] = [WhiHlog - WTlog for WhiHlog, WTlog in zip(getAverage(transValues,indexColWhiH), getAverage(transValues,indexColWT))]
 			
 		
+#main routine
+
+#create header for output
+print('gene tag\tgene_old_tag\tgene_start\tgene_end\tstrand\tproduct\tclosest_match\tmatch_index\tmatch_value\tdistance\taffyLog_8h\taffyLog_10h\taffyLog_12h\taffyLog_14h\taffyLog_16h\taffyLog_18h\taffyLog_20h',file=args.outfile)
+
 #loop through gff anotation file
 
 for gffLine in args.gffFile:
@@ -119,31 +167,37 @@ for gffLine in args.gffFile:
 			
 			product = texts['product']
 			
-			#get the closest match if any from fimo
-			bestDist = args.startCut
-			bestFimo = None
-			
+			#get the closest match if any from fimo or chipSeq, or mark gene from predetector
+			bestFimoChip = None
+			if inType != 'PRED':
+				bestDist = args.startCut
+					
+				for fimoChip in posList:
+					
+					if strand == '+':
+						curDist = start - fimoChip['position']
+					else:
+						curDist = fimoChip['position'] - end
+					#check if beter then previous
+					
+					if curDist < bestDist and curDist > 0:
+						bestDist = curDist
+						bestFimoChip = fimoChip
+					elif abs(curDist) < args.endCut and abs(curDist) < bestDist:
+						bestDist = abs(curDist)
+						bestFimoChip = fimoChip
 				
-			for fimo in fimoList:
-				
-				if strand == '+':
-					curDist = start - fimo['position']
-				else:
-					curDist = fimo['position'] - end
-				#check if beter then previous
-				
-				if curDist < bestDist and curDist > 0:
-					bestDist = curDist
-					bestFimo = fimo
-				elif abs(curDist) < args.endCut and abs(curDist) < bestDist:
-					bestDist = abs(curDist)
-					bestFimo = fimo
-				
-			if bestFimo != None:
+			if bestFimoChip != None:
 				match = 1 
-				matchIndex = bestFimo['rank']
-				matchVal = bestFimo['score']
+				matchIndex = bestFimoChip['rank']
+				matchVal = bestFimoChip['score']
 				matchDis = bestDist
+			
+			elif tag in predDic:
+				match = 1
+				matchIndex = predDic[tag]['rank']
+				matchVal = predDic[tag]['score']
+				matchDis = ''
 				
 			else:
 				match = 0

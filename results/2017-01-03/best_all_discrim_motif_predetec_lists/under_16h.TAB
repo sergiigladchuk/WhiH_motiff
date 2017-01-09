@@ -1,0 +1,474 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_16h"
+"SVEN_5498"	"SMD08289"	5970434	5971321	"+"	"Transcriptional regulator%2C GntR family"	"1"	739	8.7		-4.995507876
+"SVEN_0269"	"SMD00781"	284553	286739	"+"	"hypothetical protein"	"1"	43	11.7		-4.115566927
+"SVEN_4044"	"SMD06229"	4379815	4381629	"-"	"hypothetical protein"	"1"	811	8.6		-2.81359437533333
+"SVEN_0281"	"SMD00795"	297520	297933	"-"	"PhnB protein%3B putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein"	"1"	463	9.1		-2.72574170233333
+"SVEN_2630"	"SMD04166"	2868848	2870620	"-"	"Chitinase"	"1"	197	10.1		-2.58311027466667
+"SVEN_6800"	"SMD10086"	7447975	7448493	"+"	"hypothetical protein"	"1"	1048	8.3		-2.50886339133333
+"SVEN_4437"	"SMD06811"	4776768	4777688	"+"	"putative polysaccharide deacetylase"	"1"	880	8.5		-2.072895126
+"SVEN_6826"	"SMD10123"	7474438	7474923	"+"	"putative integral membrane protein"	"1"	669	8.8		-2.05397469666667
+"SVEN_4648"	"SMD07101.2"	5005620	5005736	"-"	"hypothetical protein"	"1"	301	9.6		-2.042452199
+"SVEN_4755"	"SMD07250"	5117228	5117455	"-"	"hypothetical protein"	"1"	598	8.9		-1.92187622166667
+"SVEN_2614"	"SMD04142"	2852597	2853991	"-"	"hypothetical protein"	"1"	798	8.6		-1.892577559
+"SVEN_5205"	"SMD07880"	5624026	5625066	"+"	"3-isopropylmalate dehydrogenase"	"1"	1134	8.2		-1.82015092133333
+"SVEN_3149"	"SMD04914"	3449548	3449967	"+"	"Transcriptional regulator%2C MerR family"	"1"	1025	8.3		-1.67442070066667
+"SVEN_3786"	"SMD05824"	4111965	4112810	"-"	"RNA polymerase sigma factor SigB"	"1"	1250	8.1		-1.674275555
+"SVEN_0292"	"SMD00807"	305740	306960	"-"	"putative cytochrome P450 hydroxylase"	"1"	699	8.7		-1.60230790033333
+"SVEN_6312"	"SMD09408"	6887597	6889171	"-"	"probable exported protease"	"1"	1146	8.2		-1.59531522433333
+"SVEN_4756"	"SMD07253"	5117704	5120148	"+"	"putative lipoprotein"	"1"	597	8.9		-1.558747086
+"SVEN_5943"	"SMD08896"	6469967	6471709	"+"	"Pyruvate cytochrome or ubiquinone oxidase"	"1"	284	9.6		-1.55586324433333
+"SVEN_1006"	"SMD01820"	1148825	1149019	"+"	"putative membrane protein"	"1"	507	9		-1.51182943733333
+"SVEN_0529"	"SMD01121"	600803	602992	"+"	"Catalase or Peroxidase"	"1"	483	9.1		-1.43995327966667
+"SVEN_1331"	"SMD02330"	1492953	1494275	"+"	"Homogentisate 1%2C2-dioxygenase"	"1"	1218	8.1		-1.405009921
+"SVEN_6028"	"SMD09021"	6558557	6558976	"-"	"hypothetical protein"	"1"	230	9.9		-1.346677179
+"SVEN_4644"	"SMD07097"	5002119	5003177	"-"	"hypothetical protein"	"1"	369	9.4		-1.340796715
+"SVEN_2678"	"SMD04235"	2913006	2913785	"-"	"putative membrane protein"	"1"	1171	8.1		-1.315110417
+"SVEN_4452"	"SMD06831"	4791584	4791976	"-"	"Sporulation regulatory protein WhiD"	"1"	78	10.9		-1.29927815533333
+"SVEN_2472"	"SMD03944"	2688587	2690221	"-"	"hypothetical protein"	"1"	584	8.9		-1.26509488666667
+"SVEN_0558"	"SMD01157"	639971	641392	"-"	"putative integral membrane protein"	"1"	573	8.9		-1.247103766
+"SVEN_6086"	"SMD09103"	6629484	6630941	"-"	"Catalase"	"1"	1264	8.1		-1.24294146866667
+"SVEN_0413"	"SMD00973"	439420	440760	"-"	"hypothetical protein"	"1"	1101	8.2		-1.23545229366667
+"SVEN_7084"	"SMD10491"	7765843	7767597	"+"	"High-affinity choline uptake protein BetT"	"1"	1009	8.3		-1.21888116833333
+"SVEN_0437"	"SMD01004"	469127	470197	"-"	"phosphoesterase%2C PA-phosphatase"	"1"	423	9.2		-1.19310323166667
+"SVEN_3713"	"SMD05721"	4030423	4031931	"+"	"Cytochrome d ubiquinol oxidase subunit I"	"1"	559	8.9		-1.167097649
+"SVEN_2603"	"SMD04130"	2837142	2838392	"-"	"putative secreted protein"	"1"	1232	8.1		-1.162161301
+"SVEN_4855"	"SMD07394"	5227801	5228889	"+"	"Lon protease with PDZ domain"	"1"	962	8.4		-1.15469670666667
+"SVEN_5204"	"SMD07878.2"	5623814	5623945	"+"	"hypothetical protein"	"1"	1133	8.2		-1.15229714
+"SVEN_4766"	"SMD07267"	5131992	5132915	"+"	"Oligopeptide transport system permease protein OppB"	"1"	1071	8.2		-1.15208087533333
+"SVEN_2952"	"SMD04633"	3227089	3228057	"+"	"Fatty acid desaturase %3B Delta-9 fatty acid desaturase"	"1"	906	8.4		-1.10247564866667
+"SVEN_3793"	"SMD05834"	4116569	4117198	"-"	"hypothetical protein"	"1"	953	8.4		-1.094102697
+"SVEN_3148"	"SMD04912"	3447438	3449366	"-"	"probable conserved integral membrane protein"	"1"	1026	8.3		-1.041419996
+"SVEN_5273"	"SMD07973"	5698930	5700363	"+"	"putative sugar transporter"	"1"	736	8.7		-1.04005924533333
+"SVEN_0502"	"SMD01084"	554002	555210	"+"	"hypothetical protein"	"1"	608	8.8		-1.03286741733333
+"SVEN_5810"	"SMD08713"	6321495	6323024	"-"	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	"1"	889	8.5		-1.020433667
+"SVEN_4149"	"SMD06399"	4491858	4493303	"+"	"Xanthine or uracil or thiamine or ascorbate permease family protein"	"1"	73	10.9		-1.01375737266667
+"SVEN_2229"	"SMD03601"	2397502	2399058	"+"	"two-component system sensor kinase"	"1"	583	8.9		-1.010312044
+"SVEN_1384"	"SMD02400"	1552857	1553456	"-"	"Transglycosylase domain protein"	"1"	640	8.8		-0.920380739666667
+"SVEN_5373"	"SMD08112"	5811598	5813445	"-"	"putative peptide transport system secreted peptide binding protein"	"1"	391	9.3		-0.916688885666667
+"SVEN_2677"	"SMD04234"	2912681	2912995	"+"	"hypothetical protein"	"1"	117	10.5		-0.916603004000001
+"SVEN_1894"	"SMD03156"	2110449	2111723	"-"	"Maltose or maltodextrin ABC transporter%2Csubstrate binding periplasmic protein MalE"	"1"	90	10.7		-0.908935476666663
+"SVEN_6151"	"SMD09189"	6705940	6706797	"+"	"glutamate permease"	"1"	692	8.7		-0.892435334333333
+"SVEN_2676"	"SMD04232"	2909912	2912320	"-"	"putative secreted protease"	"1"	1062	8.2		-0.875462022000001
+"SVEN_0140"	"SMD00593"	141323	142843	"+"	"Catalase"	"1"	895	8.4		-0.849193328666665
+"SVEN_3832"	"SMD05894"	4157464	4157946	"-"	"Histone protein Lsr2"	"1"	729	8.7		-0.843734111666665
+"SVEN_1845"	"SMD03090"	2056844	2059549	"+"	"Pyruvate dehydrogenase E1 component"	"1"	1336	8		-0.830961179333333
+"SVEN_4658"	"SMD07114"	5012494	5014317	"+"	"Phosphoenolpyruvate carboxykinase"	"1"	418	9.3		-0.826573254333333
+"SVEN_4457"	"SMD06841"	4796896	4798137	"-"	"putative UDP-glucose or GDP-mannose dehydrogenase"	"1"	214	10		-0.796097826
+"SVEN_4288"	"SMD06595"	4643763	4645067	"-"	"Aminopeptidase Y (Arg%2C Lys%2C Leu preference)"	"1"	814	8.6		-0.793615090999999
+"SVEN_1140"	"SMD02036"	1288615	1289028	"+"	"putative regulator"	"1"	1104	8.2		-0.782865406666668
+"SVEN_6822"	"SMD10118"	7470625	7471845	"+"	"putative lipoprotein"	"1"	1372	8		-0.768988256666667
+"SVEN_3229"	"SMD05031"	3539734	3540336	"-"	"hypothetical protein"	"1"	361	9.4		-0.755616839333333
+"SVEN_2250"	"SMD03630"	2425708	2426019	"+"	"Small hypothetical protein Hyp1"	"1"	1224	8.1		-0.748414366666667
+"SVEN_3051"	"SMD04773"	3340267	3341442	"+"	"Flagellar hook-length control protein FliK"	"1"	359	9.4		-0.746050720666666
+"SVEN_4996"	"SMD07583"	5376587	5377963	"-"	"Cell division protein FtsW"	"1"	919	8.4		-0.74127489
+"SVEN_1798"	"SMD03020"	2003921	2004970	"-"	"NLP or P60 family protein"	"1"	940	8.4		-0.725960943
+"SVEN_6110"	"SMD09137"	6654441	6655778	"+"	"Allantoinase"	"1"	147	10.4		-0.716210355333334
+"SVEN_7104"	"SMD10525"	7790896	7791399	"+"	"hypothetical protein"	"1"	696	8.7		-0.679512961666667
+"SVEN_4487"	"SMD06879"	4840665	4842017	"-"	"hypothetical protein"	"1"	331	9.5		-0.662275729333336
+"SVEN_4043"	"SMD06227"	4378365	4379723	"-"	"Alpha%2Calpha-trehalose-phosphate synthase"	"1"	1252	8.1		-0.661105382666666
+"SVEN_3995"	"SMD06154"	4332107	4332823	"+"	"putative DNA-binding protein"	"1"	956	8.4		-0.659910349333334
+"SVEN_6527"	"SMD09698"	7129066	7131627	"+"	"ATP-dependent Clp protease ATP-binding subunit ClpA"	"1"	846	8.5		-0.644949117333333
+"SVEN_4749"	"SMD07243"	5109391	5111496	"-"	"Fibrillarin"	"1"	111	10.6		-0.639813538333333
+"SVEN_4645"	"SMD07098"	5003557	5003796	"+"	"putative small membrane protein"	"1"	368	9.4		-0.638153983333332
+"SVEN_4634"	"SMD07084"	4989373	4990713	"-"	"hypothetical protein"	"1"	300	9.6		-0.629870122
+"SVEN_6338"	"SMD09441"	6920099	6921331	"+"	"aminotransferase%2C class I and II"	"1"	497	9.1		-0.624562285666667
+"SVEN_0255"	"SMD00762"	269174	269611	"+"	"hypothetical protein"	"1"	1015	8.3		-0.617612833666667
+"SVEN_0501"	"SMD01083"	552809	553855	"+"	"hypothetical protein"	"1"	1322	8		-0.610161478999999
+"SVEN_6217"	"SMD09277"	6774011	6774688	"+"	"hypothetical protein"	"1"	1143	8.2		-0.608328570333334
+"SVEN_7299"	"SMD10798"	8029403	8030515	"+"	"probable regulatory protein"	"1"	849	8.5		-0.608162404333333
+"SVEN_5828"	"SMD08742"	6347491	6348105	"-"	"Uncharacterized protein Q1 colocalized with Q"	"1"	1362	8		-0.600138342333333
+"SVEN_3560"	"SMD05504"	3869571	3870053	"+"	"hypothetical protein"	"1"	993	8.3		-0.576797832666667
+"SVEN_4864"	"SMD07403"	5239303	5239626	"-"	"Quaternary ammonium compound-resistance protein sugE"	"1"	1302	8		-0.564085029333333
+"SVEN_1764"	"SMD02970"	1968012	1968377	"-"	"putative transcriptional regulatory protein"	"1"	468	9.1		-0.552419156666666
+"SVEN_1408"	"SMD02435"	1572764	1574776	"-"	"putative regulatory protein"	"1"	987	8.3		-0.551276466333332
+"SVEN_0090"	"SMD00525"	87278	88687	"+"	"UDP-N-acetylmuramoylalanyl-D-glutamyl-2%2C6-diaminopimelate--D-alanyl-D-alanine ligase"	"1"	851	8.5		-0.548927991333333
+"SVEN_6881"	"SMD10197"	7526731	7527000	"+"	"hypothetical protein"	"1"	1008	8.3		-0.540272818333333
+"SVEN_5968"	"SMD08938"	6498662	6499342	"-"	"Transcriptional regulator%2C TetR family"	"1"	378	9.4		-0.525174501666666
+"SVEN_5046"	"SMD07657"	5429952	5430920	"-"	"putative ABC transporter ATP-binding protein"	"1"	516	9		-0.525132698999998
+"SVEN_4319"	"SMD06638"	4677139	4678002	"+"	"Peptidase M48%2C Ste24p precursor"	"1"	1069	8.2		-0.523786852000001
+"SVEN_3712"	"SMD05720"	4029837	4030217	"-"	"hypothetical protein"	"1"	143	10.4		-0.522231526333334
+"SVEN_1808"	"SMD03035"	2014856	2015476	"-"	"Cytochrome c oxidase polypeptide III"	"1"	308	9.5		-0.517450676666666
+"SVEN_5086"	"SMD07715"	5475100	5476506	"+"	"putative sodium:dicarboxylate symporter"	"1"	237	9.8		-0.516710679333334
+"SVEN_1710"	"SMD02890"	1906650	1907741	"+"	"putative membrane protein"	"1"	613	8.8		-0.512971294000001
+"SVEN_2612"	"SMD04139.2"	2849714	2849830	"+"	"hypothetical protein"	"1"	679	8.7		-0.510969336333334
+"SVEN_6322"	"SMD09421"	6903785	6905806	"+"	"putative acyl-peptide hydrolase"	"1"	209	10		-0.509962927666667
+"SVEN_3002"	"SMD04704"	3279435	3282737	"+"	"putative protease"	"1"	119	10.5		-0.509701532999999
+"SVEN_2766"	"SMD04361"	3029649	3031103	"-"	"Adenosylhomocysteinase"	"1"	991	8.3		-0.506357966666664
+"SVEN_2251"	"SMD03632"	2426049	2427488	"+"	"Xylulose kinase"	"1"	1059	8.2		-0.505613151333334
+"SVEN_4037"	"SMD06215"	4371423	4372565	"-"	"N-acetylglucosamine-6-phosphate deacetylase"	"1"	475	9.1		-0.499711159999999
+"SVEN_4014"	"SMD06179"	4347379	4348857	"+"	"conserved hypothetical protein"	"1"	560	8.9		-0.496356889666666
+"SVEN_2109"	"SMD03447"	2296966	2297352	"-"	"hypothetical protein"	"1"	1337	8		-0.495010812333334
+"SVEN_4635"	"SMD07086"	4990869	4992512	"+"	"putative secreted protein"	"1"	299	9.6		-0.492352693999999
+"SVEN_5117"	"SMD07763"	5524672	5525436	"+"	"polysaccharide deacetylase"	"1"	964	8.4		-0.477937065333334
+"SVEN_1729"	"SMD02914"	1927811	1928434	"-"	"Lipoprotein signal peptidase"	"1"	1167	8.1		-0.46922952
+"SVEN_2751"	"SMD04336"	3006991	3007743	"-"	"putative two-component system response regulator"	"1"	1173	8.1		-0.466307752333334
+"SVEN_5052"	"SMD07667"	5439650	5440126	"-"	"Transcriptional regulator%2C MarR family"	"1"	495	9.1		-0.464612984
+"SVEN_6438"	"SMD09577"	7022165	7023106	"-"	"Cobalt-zinc-cadmium resistance protein CzcD"	"1"	1265	8.1		-0.45835111
+"SVEN_2562"	"SMD04076"	2787486	2788454	"+"	"membrane transport protein"	"1"	555	8.9		-0.453794976000001
+"SVEN_1014"	"SMD01832"	1156665	1157441	"-"	"glycosyl transferase"	"1"	552	8.9		-0.451949926333334
+"SVEN_2666"	"SMD04219"	2901285	2902253	"-"	"ABC transporter (iron.B12.siderophore.hemin)%2C periplasmic substrate-binding component"	"1"	832	8.5		-0.450750986333333
+"SVEN_3833"	"SMD05896"	4158172	4158417	"+"	"Phosphoribosylformylglycinamidine synthase%2C PurS subunit"	"1"	728	8.7		-0.449101500999999
+"SVEN_4069"	"SMD06270"	4409949	4410662	"-"	"hypothetical protein"	"1"	958	8.4		-0.442968399333334
+"SVEN_3022"	"SMD04731"	3306366	3307400	"-"	"putative membrane protein"	"1"	199	10.1		-0.439670977333334
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	790	8.6		-0.438024132999999
+"SVEN_7085"	"SMD10493"	7767625	7768917	"-"	"putative ABC transporter permease protein"	"1"	773	8.6		-0.433435380333334
+"SVEN_7448"	"SMD11011"	8220602	8221051	"+"	"hypothetical protein"	"1"	929	8.4		-0.428068217666667
+"SVEN_1458"	"SMD02511"	1634848	1635120	"+"	"hypothetical protein"	"1"	1106	8.2		-0.425273617999999
+"SVEN_4810"	"SMD07330"	5172922	5173890	"+"	"hypothetical protein"	"1"	268	9.7		-0.419654294666667
+"SVEN_6318"	"SMD09416"	6898202	6899407	"-"	"hypothetical protein"	"1"	629	8.8		-0.416624256
+"SVEN_1706"	"SMD02882"	1901606	1902199	"-"	"Imidazoleglycerol-phosphate dehydratase"	"1"	1054	8.2		-0.41469849
+"SVEN_3797"	"SMD05841"	4120992	4121636	"-"	"hypothetical protein"	"1"	19	12.2		-0.414379820999999
+"SVEN_3559"	"SMD05503"	3864922	3869574	"+"	"hypothetical protein"	"1"	760	8.6		-0.412517974
+"SVEN_3504"	"SMD05433"	3814037	3814240	"+"	"cold shock protein"	"1"	48	11.4		-0.412176913333333
+"SVEN_1234"	"SMD02190"	1386717	1387997	"-"	"hypothetical protein"	"1"	1052	8.2		-0.405755989333333
+"SVEN_0473"	"SMD01048"	513687	514046	"+"	"hypothetical protein"	"1"	785	8.6		-0.401096324333333
+"SVEN_3929"	"SMD06047"	4272900	4273472	"+"	"conserved hypothetical protein"	"1"	412	9.3		-0.395227930000001
+"SVEN_6109"	"SMD09135"	6653308	6654144	"-"	"Transcriptional regulator%2C IclR family"	"1"	148	10.4		-0.392077495333333
+"SVEN_7354"	"SMD10884"	8094048	8095007	"+"	"Maltose or maltodextrin ABC transporter%2C permease protein MalF"	"1"	421	9.3		-0.382487688666667
+"SVEN_1058"	"SMD01903"	1201614	1201949	"-"	"hypothetical protein"	"1"	380	9.3		-0.361192607333335
+"SVEN_4544"	"SMD06958"	4898052	4898708	"+"	"L-lysine permease"	"1"	1192	8.1		-0.360102935
+"SVEN_3896"	"SMD05993"	4241154	4242152	"+"	"Probable low-affinity inorganic phosphate transporter"	"1"	683	8.7		-0.357349675666667
+"SVEN_3706"	"SMD05711"	4021176	4022603	"-"	"putative membrane protein"	"1"	473	9.1		-0.357186678999999
+"SVEN_5747"	"SMD08624"	6245243	6245686	"+"	"hypothetical protein"	"1"	1044	8.3		-0.347480805000001
+"SVEN_4009"	"SMD06172"	4342238	4342996	"-"	"hypothetical protein"	"1"	474	9.1		-0.343647192333335
+"SVEN_2999"	"SMD04699"	3275957	3276319	"+"	"putative regulatory protein"	"1"	108	10.6		-0.343436204000001
+"SVEN_7325"	"SMD10838"	8054166	8054780	"+"	"hypothetical protein"	"1"	748	8.7		-0.341979441666666
+"SVEN_4089"	"SMD06300"	4432836	4433750	"-"	"hypothetical protein"	"1"	152	10.3		-0.339310041666666
+"SVEN_3144"	"SMD04906"	3442866	3444095	"-"	"putative secreted protein"	"1"	1024	8.3		-0.336261901
+"SVEN_0974"	"SMD01768"	1104591	1105040	"+"	"PTS system%2C N-acetylglucosamine-specific IIA component"	"1"	705	8.7		-0.335342198999999
+"SVEN_3766"	"SMD05797"	4092863	4093228	"+"	"hypothetical protein"	"1"	227	9.9		-0.329142155666666
+"SVEN_7417"	"SMD10967"	8176736	8186365	"+"	"hypothetical protein"	"1"	1012	8.3		-0.320939938666665
+"SVEN_1730"	"SMD02918"	1928570	1929436	"-"	"putative DNA-binding protein"	"1"	1332	8		-0.318477356666666
+"SVEN_4721"	"SMD07202"	5080041	5081450	"-"	"Putrescine importer"	"1"	917	8.4		-0.316695065333333
+"SVEN_1734"	"SMD02925"	1934812	1935435	"-"	"hypothetical protein"	"1"	115	10.5		-0.311408206666666
+"SVEN_2640"	"SMD04181"	2878501	2879631	"-"	"5-methylcytosine-specific restriction related enzyme"	"1"	63	11.1		-0.311123433
+"SVEN_0903"	"SMD01662"	1031371	1032054	"-"	"Uracil-DNA glycosylase%2C family 1"	"1"	981	8.3		-0.310929909
+"SVEN_2631"	"SMD04168"	2870708	2871691	"-"	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	"1"	1061	8.2		-0.308043473000001
+"SVEN_2675"	"SMD04231"	2909468	2909779	"-"	"hypothetical protein"	"1"	47	11.4		-0.306926048000001
+"SVEN_1733"	"SMD02924"	1934441	1934731	"-"	"Possible membrane protein"	"1"	1284	8		-0.300710526666666
+"SVEN_2887"	"SMD04537.3"	3143861	3144049	"-"	"hypothetical protein"	"1"	1109	8.2		-0.291257062333333
+"SVEN_6737"	"SMD09993"	7373343	7374332	"+"	"Maltose or maltodextrin ABC transporter%2C permease protein MalF"	"1"	352	9.4		-0.290413856333333
+"SVEN_0205"	"SMD00688"	219582	220265	"-"	"putative acetyltransferase"	"1"	1097	8.2		-0.287603714333332
+"SVEN_1141"	"SMD02037"	1289220	1289777	"+"	"hypothetical protein"	"1"	278	9.6		-0.284012885666668
+"SVEN_6802"	"SMD10088"	7449292	7449714	"+"	"Aspartate 1-decarboxylase"	"1"	1203	8.1		-0.282264793666668
+"SVEN_0847"	"SMD01585"	971829	972173	"+"	"hypothetical protein"	"1"	1279	8		-0.280883573
+"SVEN_5815"	"SMD08721"	6329528	6330457	"+"	"N-Acetyl-D-glucosamine ABC transport system%2Cpermease protein"	"1"	35	11.8		-0.279958306666667
+"SVEN_1447"	"SMD02495"	1618200	1618913	"+"	"Transcriptional regulator%2C GntR family"	"1"	291	9.6		-0.279921160333333
+"SVEN_7027"	"SMD10408"	7686977	7687942	"-"	"Multiple sugar transport system permease protein"	"1"	631	8.8		-0.279564301333334
+"SVEN_5277"	"SMD07977"	5704327	5704977	"-"	"hypothetical protein"	"1"	54	11.3		-0.279065774999999
+"SVEN_0786"	"SMD01497"	907790	908278	"+"	"Transcriptional regulator%2C MarR family"	"1"	446	9.2		-0.276079274666666
+"SVEN_3463"	"SMD05374"	3777106	3777522	"+"	"Arsenate reductase"	"1"	132	10.4		-0.275345965333333
+"SVEN_1133"	"SMD02026"	1279674	1281596	"-"	"Threonyl-tRNA synthetase"	"1"	827	8.5		-0.274826807333334
+"SVEN_2576"	"SMD04094"	2804025	2805842	"+"	"Glucosamine--fructose-6-phosphateaminotransferase"	"1"	905	8.4		-0.274662922999999
+"SVEN_4320"	"SMD06639"	4677999	4678412	"+"	"possible membrane protein"	"1"	621	8.8		-0.26931372
+"SVEN_5290"	"SMD07999"	5719513	5719863	"+"	"LSU ribosomal protein L19p"	"1"	1135	8.2		-0.267692349000001
+"SVEN_4328"	"SMD06650"	4685095	4685259	"+"	"LSU ribosomal protein L33p"	"1"	660	8.8		-0.266060413333335
+"SVEN_5143"	"SMD07798"	5553890	5555260	"-"	"L-serine dehydratase"	"1"	1195	8.1		-0.265049772333333
+"SVEN_2417"	"SMD03868"	2618628	2621177	"+"	"putative aminopeptidase"	"1"	758	8.6		-0.264900804333333
+"SVEN_3030"	"SMD04746"	3315309	3316832	"+"	"Na(+) or H(+) antiporter"	"1"	1343	8		-0.260425880666666
+"SVEN_3344"	"SMD05201"	3663127	3664020	"-"	"NTP pyrophosphohydrolases including oxidative damage repair enzymes"	"1"	226	9.9		-0.258103866999997
+"SVEN_3723"	"SMD05735"	4043250	4045043	"-"	"putative oxidoreductase"	"1"	761	8.6		-0.253874883333334
+"SVEN_4458"	"SMD06842"	4798400	4800106	"+"	"Glycerol-3-phosphate dehydrogenase"	"1"	213	10		-0.250382085333333
+"SVEN_3348"	"SMD05207"	3665895	3667283	"+"	"Arsenical pump-driving ATPase"	"1"	907	8.4		-0.248614786333332
+"SVEN_4881"	"SMD07428"	5256517	5257500	"-"	"transcriptional regulator%2C LuxR family"	"1"	687	8.7		-0.247035977333334
+"SVEN_4847"	"SMD07382"	5219529	5220104	"+"	"Zinc metalloprotease"	"1"	1359	8		-0.245277886333334
+"SVEN_7353"	"SMD10882"	8092107	8093522	"+"	"hypothetical protein"	"1"	420	9.3		-0.244593160666667
+"SVEN_4772"	"SMD07276"	5139431	5139625	"+"	"putative small membrane protein"	"1"	1039	8.3		-0.241667975333333
+"SVEN_0880"	"SMD01626"	1011138	1011710	"-"	"putative transcriptional regulatory protein"	"1"	825	8.5		-0.239809672666667
+"SVEN_7326"	"SMD10839"	8054813	8056837	"-"	"Phospholipase C"	"1"	605	8.9		-0.238446343666666
+"SVEN_5908"	"SMD08852"	6436217	6436771	"+"	"hypothetical protein"	"1"	890	8.5		-0.237113923666667
+"SVEN_1184"	"SMD02115"	1332681	1333958	"-"	"predicted glycoside hydrolase"	"1"	1330	8		-0.236449809333334
+"SVEN_0472"	"SMD01045"	512969	513550	"-"	"hypothetical protein"	"1"	786	8.6		-0.235311311999999
+"SVEN_4490"	"SMD06884"	4844785	4845414	"+"	"Phosphoribosylglycinamide formyltransferase"	"1"	595	8.9		-0.233894606666667
+"SVEN_1257"	"SMD02226"	1416054	1419110	"-"	"Maltodextrin glucosidase"	"1"	553	8.9		-0.225718925666667
+"SVEN_5433"	"SMD08191"	5890186	5890899	"+"	"putative two-component system response regulator"	"1"	1138	8.2		-0.225284773333334
+"SVEN_6134"	"SMD09168"	6683678	6684118	"-"	"Transcriptional regulator%2C MarR family"	"1"	11	12.8		-0.224749577999999
+"SVEN_0432"	"SMD00999"	462831	463703	"+"	"Universal stress protein family"	"1"	1157	8.1		-0.223680805000002
+"SVEN_4520"	"SMD06920"	4875457	4876038	"-"	"hypothetical protein"	"1"	837	8.5		-0.220850447666667
+"SVEN_0916"	"SMD01679"	1043332	1044543	"+"	"major facilitator family transporter%2C putative"	"1"	466	9.1		-0.218414704666666
+"SVEN_5545"	"SMD08359"	6025795	6028338	"+"	"Osmosensitive K+ channel histidine kinase KdpD"	"1"	921	8.4		-0.216401089666665
+"SVEN_5075"	"SMD07699"	5460881	5462311	"-"	"Pyruvate kinase"	"1"	546	9		-0.216316653666667
+"SVEN_0439"	"SMD01008"	470615	472456	"-"	"Glucoamylase"	"1"	856	8.5		-0.216177368333335
+"SVEN_7286"	"SMD10777"	8015285	8016631	"+"	"putative secreted protein"	"1"	1049	8.3		-0.214346866
+"SVEN_5860"	"SMD08790"	6389126	6389815	"-"	"putative lipoprotein"	"1"	599	8.9		-0.209393120000001
+"SVEN_1123"	"SMD02013"	1269513	1270481	"-"	"Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit"	"1"	467	9.1		-0.209148809666666
+"SVEN_3405"	"SMD05286"	3722287	3723489	"-"	"Kynureninase"	"1"	618	8.8		-0.207977227
+"SVEN_0973"	"SMD01766"	1101790	1102398	"-"	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	"1"	706	8.7		-0.207463995333332
+"SVEN_2464"	"SMD03935"	2680609	2681796	"+"	"hypothetical protein"	"1"	678	8.7		-0.20489255
+"SVEN_4637"	"SMD07088"	4993676	4994374	"-"	"hypothetical protein"	"1"	1001	8.3		-0.201748970666667
+"SVEN_2822"	"SMD04452"	3097590	3099272	"-"	"Urocanate hydratase"	"1"	541	9		-0.200934137000001
+"SVEN_3162"	"SMD04927.2"	3459019	3459294	"+"	"hypothetical protein"	"1"	1177	8.1		-0.200289909333333
+"SVEN_0506"	"SMD01090"	559994	561358	"-"	"Anthranilate synthase%2C aminase component"	"1"	316	9.5		-0.199826596333334
+"SVEN_3965"	"SMD06104"	4306135	4306779	"-"	"putative lipoprotein"	"1"	1033	8.3		-0.197640428666668
+"SVEN_4327"	"SMD06649"	4683319	4684599	"-"	"Cytosine deaminase"	"1"	661	8.8		-0.196918807000001
+"SVEN_3948"	"SMD06073"	4288755	4289099	"+"	"putative membrane protein"	"1"	835	8.5		-0.193544335
+"SVEN_5439"	"SMD08201"	5897875	5898360	"+"	"hypothetical protein"	"1"	113	10.6		-0.191615237999999
+"SVEN_3788"	"SMD05828.2"	4113359	4113523	"-"	"hypothetical protein"	"1"	681	8.7		-0.191547997333334
+"SVEN_4395"	"SMD06756"	4742677	4743060	"+"	"LSU ribosomal protein L18p"	"1"	429	9.2		-0.191252451
+"SVEN_5073"	"SMD07697"	5458892	5459464	"+"	"putative membrane protein"	"1"	766	8.6		-0.18998473
+"SVEN_5744"	"SMD08620"	6241732	6243642	"+"	"hypothetical protein"	"1"	1004	8.3		-0.188926701333333
+"SVEN_3172"	"SMD04939"	3466044	3466985	"+"	"hypothetical protein"	"1"	802	8.6		-0.188881680000001
+"SVEN_3397"	"SMD05274"	3712494	3713000	"-"	"hypothetical protein"	"1"	805	8.6		-0.188878881333334
+"SVEN_5769"	"SMD08654"	6267805	6268311	"-"	"hypothetical protein"	"1"	203	10.1		-0.184263906666668
+"SVEN_7406"	"SMD10955"	8166311	8169244	"+"	"conserved repeat domain"	"1"	1271	8.1		-0.180809499000001
+"SVEN_1753"	"SMD02952"	1957652	1958440	"-"	"S-adenosylmethionine-dependentmethyltransferase"	"1"	341	9.4		-0.175939291666667
+"SVEN_7132"	"SMD10569"	7828482	7830986	"+"	"hypothetical protein"	"1"	927	8.4		-0.174056639999998
+"SVEN_7266"	"SMD10746"	7996642	7997295	"-"	"putative methyltransferase"	"1"	550	9		-0.169297750333333
+"SVEN_0625"	"SMD01257"	724096	725400	"+"	"putative secreted sugar binding protein"	"1"	484	9.1		-0.168870174999999
+"SVEN_5869"	"SMD08805"	6397650	6399041	"+"	"UDP-N-acetylmuramate--alanine ligase"	"1"	519	9		-0.168062173666666
+"SVEN_1737"	"SMD02929"	1937028	1938242	"-"	"Cell division protein FtsZ"	"1"	116	10.5		-0.166723999999999
+"SVEN_0507"	"SMD01093"	562062	562751	"+"	"putative transcriptional regulator"	"1"	317	9.5		-0.166510231333334
+"SVEN_1446"	"SMD02491"	1616736	1618136	"-"	"putative integral membrane transporter"	"1"	292	9.6		-0.163984733333335
+"SVEN_5868"	"SMD08803"	6396943	6397407	"+"	"hypothetical protein"	"1"	23	12.1		-0.163866593333335
+"SVEN_0254"	"SMD00759"	268510	268878	"-"	"hypothetical protein"	"1"	1016	8.3		-0.162098821999999
+"SVEN_4863"	"SMD07404"	5238758	5239411	"+"	"Transcriptional regulator%2C TetR family"	"1"	1301	8		-0.160588274000001
+"SVEN_7401"	"SMD10948"	8161800	8162057	"+"	"hypothetical protein"	"1"	569	8.9		-0.159618989666666
+"SVEN_0305"	"SMD00826"	322171	323280	"-"	"Enoyl-[acyl-carrier-protein] reductase"	"1"	136	10.4		-0.159155847333333
+"SVEN_4360"	"SMD06702"	4718967	4719179	"-"	"hypothetical protein"	"1"	76	10.9		-0.157611858999999
+"SVEN_4581"	"SMD07009"	4934549	4935469	"-"	"Deoxyribose-phosphate aldolase"	"1"	1356	8		-0.156378206666668
+"SVEN_4860"	"SMD07399"	5235684	5237135	"+"	"Catalase"	"1"	184	10.2		-0.155591887999999
+"SVEN_2047"	"SMD03367"	2259772	2261037	"+"	"putative cytochrome P450 hydroxylase"	"1"	1169	8.1		-0.155443067
+"SVEN_0986"	"SMD01785"	1120437	1120910	"+"	"hypothetical protein"	"1"	1328	8		-0.154634160666667
+"SVEN_6873"	"SMD10187"	7519285	7519644	"-"	"ADP-ribosylglycohydrolase"	"1"	926	8.4		-0.152514617666666
+"SVEN_5394"	"SMD08140"	5838201	5839886	"+"	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"1"	1137	8.2		-0.15193034
+"SVEN_4816"	"SMD07338"	5179596	5180255	"-"	"Transcriptional regulator%2C TetR family"	"1"	565	8.9		-0.151871750333333
+"SVEN_5720"	"SMD08590"	6203588	6204481	"+"	"hypothetical protein"	"1"	1308	8		-0.150229516
+"SVEN_0417"	"SMD00980"	444695	446164	"+"	"Possible Glycerol kinase"	"1"	154	10.3		-0.146918222333333
+"SVEN_5123"	"SMD07770"	5529751	5530278	"+"	"hypothetical protein"	"1"	734	8.7		-0.146736603999999
+"SVEN_4256"	"SMD06552"	4607369	4607572	"-"	"Cold shock protein CspD"	"1"	416	9.3		-0.145992719999999
+"SVEN_6543"	"SMD09722"	7154447	7155295	"-"	"hypothetical protein"	"1"	1149	8.2		-0.144157818666667
+"SVEN_2916"	"SMD04580"	3175381	3175779	"-"	"hypothetical protein"	"1"	212	10		-0.142561006666667
+"SVEN_3464"	"SMD05376"	3777825	3778028	"+"	"cold shock protein"	"1"	723	8.7		-0.141079169333333
+"SVEN_5756"	"SMD08636"	6253545	6255023	"-"	"amino acid transporter%2C APC family"	"1"	1141	8.2		-0.140588792333332
+"SVEN_3679"	"SMD05672"	4001023	4002054	"-"	"hypothetical protein"	"1"	655	8.8		-0.139584517000001
+"SVEN_4488"	"SMD06881"	4842146	4843741	"+"	"integral membrane protein"	"1"	330	9.5		-0.139537753666668
+"SVEN_2729"	"SMD04303"	2972957	2973640	"-"	"hypothetical protein"	"1"	1233	8.1		-0.139473039666669
+"SVEN_3182"	"SMD04953"	3478590	3479393	"-"	"Redox-sensitive transcriptional regulator"	"1"	1240	8.1		-0.139432397333332
+"SVEN_2374"	"SMD03803"	2564998	2566152	"-"	"hypothetical protein"	"1"	470	9.1		-0.139070401333333
+"SVEN_6679"	"SMD09911"	7303621	7304847	"-"	"putative cytochrome P450 hydroxylase"	"1"	1369	8		-0.138467039333332
+"SVEN_4150"	"SMD06398"	4493296	4493520	"-"	"hypothetical protein"	"1"	1352	8		-0.137759430000001
+"SVEN_0747"	"SMD01438"	858990	860168	"-"	"putative RNA polymerase sigma factor"	"1"	1161	8.1		-0.137591749999999
+"SVEN_5040"	"SMD07649"	5424835	5425227	"+"	"hypothetical protein"	"1"	765	8.6		-0.137358070000001
+"SVEN_1406"	"SMD02431"	1570026	1571159	"-"	"Chromosome (plasmid) partitioning protein ParA or Sporulation initiation inhibitor protein Soj"	"1"	1018	8.3		-0.134843226666668
+"SVEN_4008"	"SMD06170"	4341438	4341818	"-"	"hypothetical protein"	"1"	1251	8.1		-0.134142555333332
+"SVEN_4711"	"SMD07186.2"	5071166	5071663	"+"	"hypothetical protein"	"1"	370	9.4		-0.133660335666666
+"SVEN_1842"	"SMD03084"	2052438	2053943	"+"	"Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase"	"1"	1285	8		-0.132754950000001
+"SVEN_3530"	"SMD05468"	3838868	3839491	"+"	"FMN reductase"	"1"	454	9.2		-0.132423227
+"SVEN_0924"	"SMD01691"	1055073	1056092	"-"	"hypothetical protein"	"1"	751	8.6		-0.131908316666667
+"SVEN_2285"	"SMD03677"	2465015	2466037	"-"	"putative regulatory protein"	"1"	645	8.8		-0.130764065
+"SVEN_7306"	"SMD10806"	8037634	8038020	"+"	"hypothetical protein"	"1"	928	8.4		-0.130692564666667
+"SVEN_4104"	"SMD06320"	4443164	4444171	"-"	"Rhs protein"	"1"	206	10		-0.128626531333333
+"SVEN_1565"	"SMD02688"	1744597	1745715	"+"	"Transaldolase"	"1"	450	9.2		-0.127585894333334
+"SVEN_1503"	"SMD02589"	1679657	1681798	"+"	"penicillin amidase family protein"	"1"	578	8.9		-0.126462115666668
+"SVEN_7097"	"SMD10513"	7783138	7784151	"+"	"Agmatine deiminase"	"1"	1375	8		-0.125005312333333
+"SVEN_0923"	"SMD01689"	1053898	1055076	"-"	"CmlG"	"1"	750	8.6		-0.124538959333333
+"SVEN_0938"	"SMD01712"	1067216	1067956	"-"	"hypothetical protein"	"1"	243	9.8		-0.123486610333333
+"SVEN_7203"	"SMD10660"	7919328	7922108	"+"	"metallopeptidase domain protein"	"1"	1093	8.2		-0.121268740333333
+"SVEN_6394"	"SMD09515"	6978911	6980023	"-"	"ATP-dependent DNA ligase LigC"	"1"	1312	8		-0.120602854333333
+"SVEN_4389"	"SMD06746"	4740080	4740448	"+"	"LSU ribosomal protein L14p"	"1"	389	9.3		-0.119846328
+"SVEN_2226"	"SMD03596"	2394743	2395192	"+"	"Transcriptional regulator%2C MarR family"	"1"	941	8.4		-0.119743464
+"SVEN_7140"	"SMD10578"	7838903	7840060	"+"	"D-amino-acid oxidase"	"1"	774	8.6		-0.119567258
+"SVEN_1461"	"SMD02515"	1637961	1638335	"-"	"putative integral membrane protein"	"1"	794	8.6		-0.119179862333333
+"SVEN_6291"	"SMD09373"	6863068	6864774	"-"	"Glycine betaine transporter OpuD"	"1"	628	8.8		-0.119170816
+"SVEN_4245"	"SMD06534"	4592320	4594542	"-"	"acetyl-CoA synthetase"	"1"	1354	8		-0.119035697333333
+"SVEN_4232"	"SMD06518"	4576800	4577990	"+"	"BarH"	"1"	562	8.9		-0.117588812666667
+"SVEN_3807"	"SMD05859"	4128856	4129485	"+"	"multiple antibiotic resistance (MarC)-related proteins"	"1"	1182	8.1		-0.116596679333334
+"SVEN_3098"	"SMD04840"	3398733	3399875	"+"	"putative thiolase"	"1"	1345	8		-0.116369727333333
+"SVEN_3465"	"SMD05377"	3778279	3779790	"+"	"putative ATP-dependent RNA helicase"	"1"	1349	8		-0.115748576666665
+"SVEN_3701"	"SMD05703"	4018348	4018746	"-"	"putative membrane protein"	"1"	911	8.4		-0.115001849999999
+"SVEN_0959"	"SMD01747"	1085305	1086804	"-"	"hypothetical protein"	"1"	1327	8		-0.113762111000002
+"SVEN_7450"	"SMD11014"	8222191	8222463	"+"	"ISPsy4%2C transposition helper protein"	"1"	635	8.8		-0.113335207333334
+"SVEN_1793"	"SMD03016"	1998240	1999514	"+"	"putative integral membrane protein"	"1"	754	8.6		-0.112887351333334
+"SVEN_3731"	"SMD05745"	4051952	4053355	"+"	"Dihydrolipoamide dehydrogenase"	"1"	1249	8.1		-0.112207549333334
+"SVEN_5393"	"SMD08139"	5837193	5838101	"+"	"Dihydrodipicolinate synthase"	"1"	167	10.3		-0.1110097
+"SVEN_7209"	"SMD10666"	7925186	7929583	"+"	"hypothetical protein"	"1"	522	9		-0.110447978666667
+"SVEN_7327"	"SMD10841"	8057015	8057836	"-"	"DeoR-family transcriptional regulator"	"1"	1011	8.3		-0.110379357666666
+"SVEN_6002"	"SMD08987"	6530939	6531550	"+"	"reductase"	"1"	270	9.7		-0.110055715666667
+"SVEN_3097"	"SMD04838"	3397083	3398648	"-"	"Long-chain-fatty-acid--CoA ligase"	"1"	1346	8		-0.108591398000001
+"SVEN_0736"	"SMD01423"	846851	848386	"-"	"putative secreted protein"	"1"	319	9.5		-0.107415075333334
+"SVEN_2399"	"SMD03842"	2598518	2601145	"-"	"Valyl-tRNA synthetase"	"1"	1291	8		-0.107022376
+"SVEN_6738"	"SMD09994"	7374329	7375159	"+"	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	"1"	1086	8.2		-0.106162666
+"SVEN_6059"	"SMD09066"	6599565	6601394	"-"	"hypothetical protein"	"1"	601	8.9		-0.106161073666667
+"SVEN_3563"	"SMD05508"	3872413	3874530	"+"	"hypothetical protein"	"1"	1247	8.1		-0.105804500999999
+"SVEN_6022"	"SMD09016"	6552095	6552454	"+"	"Transcriptional regulator%2C ArsR family"	"1"	924	8.4		-0.104791488666667
+"SVEN_5147"	"SMD07807"	5558723	5559385	"+"	"putative ATP or GTP binding protein"	"1"	965	8.4		-0.103517159666667
+"SVEN_1502"	"SMD02586"	1678846	1679565	"-"	"Uncharacterized ABC transporter ATP-binding protein"	"1"	579	8.9		-0.102736826999999
+"SVEN_0630"	"SMD01264"	729970	732162	"+"	"secreted protein"	"1"	1160	8.1		-0.100843473333334
+"SVEN_4859"	"SMD07398"	5235138	5235557	"-"	"Transcriptional regulator%2C FUR family"	"1"	185	10.2		-0.100748377
+"SVEN_5072"	"SMD07695"	5458033	5458713	"+"	"cholesterol esterase"	"1"	566	8.9		-0.100741926
+"SVEN_1754"	"SMD02954"	1958507	1959025	"-"	"hypothetical protein"	"1"	1335	8		-0.100527077666664
+"SVEN_2020"	"SMD03332"	2233047	2233922	"+"	"6-phosphogluconate dehydrogenase_"	"1"	616	8.8		-0.0999051336666668
+"SVEN_5031"	"SMD07637"	5416008	5416634	"+"	"putative membrane protein"	"1"	235	9.8		-0.0976115563333337
+"SVEN_2604"	"SMD04132"	2838747	2840615	"+"	"putative sensory box or GGDEF family protein"	"1"	1231	8.1		-0.0965353760000012
+"SVEN_6216"	"SMD09274"	6771749	6773506	"-"	"amino acid adenylation domain"	"1"	1144	8.2		-0.0955779016666654
+"SVEN_3441"	"SMD05344"	3758035	3758694	"-"	"DNA-binding response regulator%2C LuxR family"	"1"	508	9		-0.0953500796666669
+"SVEN_2213"	"SMD03577"	2382214	2384661	"-"	"Beta-glucosidase"	"1"	796	8.6		-0.0941266293333332
+"SVEN_4674"	"SMD07138"	5032184	5034052	"-"	"Chitinase"	"1"	430	9.2		-0.0939646166666659
+"SVEN_2837"	"SMD04479"	3111191	3112093	"-"	"putative integral membrane protein"	"1"	946	8.4		-0.0928717653333315
+"SVEN_1726"	"SMD02912"	1924721	1926313	"-"	"Na+ or H+ antiporter"	"1"	582	8.9		-0.0927269889999991
+"SVEN_2641"	"SMD04182"	2879792	2880091	"+"	"hypothetical protein"	"1"	62	11.1		-0.0921783533333329
+"SVEN_2222"	"SMD03589"	2391341	2392171	"-"	"pectate lyase"	"1"	1170	8.1		-0.0914243180000005
+"SVEN_2293"	"SMD03690"	2476881	2477642	"+"	"putative membrane protein"	"1"	797	8.6		-0.0901206470000009
+"SVEN_5668"	"SMD08526"	6152651	6153949	"+"	"Na+ or H+ antiporter NhaD type"	"1"	169	10.3		-0.0897625820000005
+"SVEN_0617"	"SMD01246"	713748	715193	"+"	"Cytosine or purine or uracil or thiamine or allantoin permease family protein"	"1"	1323	8		-0.0895157059999985
+"SVEN_7007"	"SMD10380"	7665776	7666231	"-"	"hypothetical protein"	"1"	892	8.5		-0.088501655
+"SVEN_4489"	"SMD06882"	4843746	4844519	"-"	"hypothetical protein"	"1"	596	8.9		-0.0868831799999983
+"SVEN_6919"	"SMD10249"	7567161	7568486	"+"	"Alpha-glucosides-binding periplasmic protein AglE precursor"	"1"	1150	8.2		-0.0861359830000001
+"SVEN_6707"	"SMD09947"	7338478	7338723	"+"	"LSU ribosomal protein L31p"	"1"	274	9.7		-0.0849244633333335
+"SVEN_4804"	"SMD07323"	5168580	5169164	"+"	"hypothetical protein"	"1"	303	9.6		-0.0846331390000001
+"SVEN_0230"	"SMD00727"	244331	245203	"-"	"RNA polymerase sigma factor SigB"	"1"	1154	8.1		-0.0836518633333334
+"SVEN_5563"	"SMD08384"	6044795	6047614	"-"	"hypothetical protein"	"1"	689	8.7		-0.0833330329999997
+"SVEN_0459"	"SMD01030"	499469	500854	"+"	"NADPH-dependent glyceraldehyde-3-phosphate dehydrogenase"	"1"	783	8.6		-0.0829165019999998
+"SVEN_7222"	"SMD10683"	7943831	7945558	"-"	"protease"	"1"	286	9.6		-0.0820274703333341
+"SVEN_3212"	"SMD05002"	3520953	3521873	"-"	"hypothetical protein"	"1"	1294	8		-0.0810353216666684
+"SVEN_1860"	"SMD03107"	2072619	2072834	"+"	"hypothetical protein"	"1"	715	8.7		-0.0800154059999993
+"SVEN_6039"	"SMD09036"	6570837	6571259	"-"	"Transcriptional regulator%2C MarR family"	"1"	973	8.4		-0.0798753516666668
+"SVEN_3883"	"SMD05969"	4228394	4228873	"+"	"Transcriptional regulator%2C MarR family"	"1"	327	9.5		-0.0793153333333336
+"SVEN_4191"	"SMD06455"	4534408	4535373	"+"	"hypothetical protein"	"1"	1255	8.1		-0.0777074380000009
+"SVEN_4993"	"SMD07580"	5372984	5374093	"+"	"hypothetical protein"	"1"	375	9.4		-0.0769770110000003
+"SVEN_5919"	"SMD08864"	6445044	6446741	"-"	"Ferredoxin--sulfite reductase%2C actinobacterial type"	"1"	600	8.9		-0.075835275666666
+"SVEN_0559"	"SMD01160"	641431	642048	"+"	"regulatory protein%2C TetR"	"1"	572	8.9		-0.0752772846666669
+"SVEN_5973"	"SMD08946"	6503447	6504226	"+"	"Phosphate regulon transcriptional regulatory protein PhoB"	"1"	1363	8		-0.074703970999999
+"SVEN_6224"	"SMD09285"	6781480	6781671	"-"	"hypothetical protein"	"1"	1145	8.2		-0.0738607969999991
+"SVEN_3776"	"SMD05810"	4102989	4104518	"+"	"putative transporter"	"1"	102	10.6		-0.0727462316666658
+"SVEN_0785"	"SMD01493"	905840	907699	"-"	"putative ABC transporter ATP-binding protein"	"1"	447	9.2		-0.0723666123333331
+"SVEN_4039"	"SMD06220"	4373618	4375027	"+"	"putative secreted solute-binding protein"	"1"	22	12.1		-0.0722989996666668
+"SVEN_2405"	"SMD03850.2"	2606832	2607095	"+"	"hypothetical protein"	"1"	1228	8.1		-0.0722625203333331
+"SVEN_7008"	"SMD10383"	7666448	7666879	"+"	"hypothetical protein"	"1"	891	8.5		-0.0718434993333332
+"SVEN_6264"	"SMD09341"	6820192	6835167	"+"	"CDA peptide synthetase I"	"1"	845	8.5		-0.0712317000000002
+"SVEN_0616"	"SMD01242"	712856	713536	"-"	"Thioredoxin reductase"	"1"	1324	8		-0.0708876243333343
+"SVEN_5374"	"SMD08114"	5813632	5817093	"-"	"hypothetical protein"	"1"	688	8.7		-0.0707736026666659
+"SVEN_1844"	"SMD03087"	2055928	2056551	"+"	"Transcriptional regulator%2C GntR family"	"1"	642	8.8		-0.0702481613333346
+"SVEN_5722"	"SMD08592"	6205721	6206167	"+"	"hypothetical protein"	"1"	922	8.4		-0.0696959106666677
+"SVEN_5743"	"SMD08618"	6237875	6241735	"+"	"helicase"	"1"	567	8.9		-0.0692678853333328
+"SVEN_4828"	"SMD07357"	5194061	5195239	"+"	"Sulfur carrier protein adenylyltransferase ThiF"	"1"	1131	8.2		-0.0683881766666659
+"SVEN_2142"	"SMD03485"	2315805	2317232	"+"	"Phage capsid and scaffold"	"1"	1058	8.2		-0.0681462856666659
+"SVEN_0812"	"SMD01532"	938484	939119	"+"	"secreted protein"	"1"	486	9.1		-0.0675902210000006
+"SVEN_4992"	"SMD07576"	5371791	5372735	"-"	"putative membrane protein"	"1"	376	9.4		-0.0642673069999997
+"SVEN_4898"	"SMD07451"	5276694	5277551	"+"	"putative sugar transporter integral membrane protein"	"1"	1132	8.2		-0.0641447909999995
+"SVEN_5829"	"SMD08743"	6348284	6349360	"+"	"Uroporphyrinogen III decarboxylase"	"1"	1361	8		-0.0639892010000009
+"SVEN_4040"	"SMD06221"	4375040	4375405	"+"	"hypothetical protein"	"1"	21	12.1		-0.063614096000002
+"SVEN_3752"	"SMD05777"	4076542	4076847	"+"	"secreted protein"	"1"	656	8.8		-0.0631378423333331
+"SVEN_0050"	"SMD00466.2"	46828	47199	"+"	"transcriptional regulator%2C MerR family"	"1"	231	9.8		-0.062992238999998
+"SVEN_3204"	"SMD04988"	3510376	3512229	"-"	"Dihydroxy-acid dehydratase"	"1"	1178	8.1		-0.0629777950000001
+"SVEN_2724"	"SMD04297"	2968993	2969532	"-"	"tmRNA-binding protein SmpB"	"1"	648	8.8		-0.060920272333334
+"SVEN_1212"	"SMD02158"	1363848	1364858	"-"	"Transcriptional regulator%2C LysR family"	"1"	637	8.8		-0.0601725263333339
+"SVEN_2306"	"SMD03710"	2489055	2490425	"+"	"probable oxidoreductase"	"1"	989	8.3		-0.060073944
+"SVEN_1311"	"SMD02303"	1470237	1471175	"+"	"conserved hypothetical protein"	"1"	1216	8.1		-0.0598909343333336
+"SVEN_2735"	"SMD04314"	2984210	2985577	"+"	"ABC alpha-glucoside transporter%2C inner membrane subunit AglF"	"1"	1172	8.1		-0.0597443243333338
+"SVEN_3631"	"SMD05599"	3945431	3946897	"+"	"Cell division protein FtsI"	"1"	1181	8.1		-0.0590012303333332
+"SVEN_3143"	"SMD04905"	3442183	3442788	"-"	"Thiol:disulfide oxidoreductase"	"1"	1023	8.3		-0.0584384483333329
+"SVEN_0395"	"SMD00950"	421392	422729	"-"	"S-adenosyl-L-methionine dependent methyltransferase"	"1"	607	8.8		-0.0582813773333326
+"SVEN_4582"	"SMD07013"	4935781	4937052	"+"	"hypothetical protein"	"1"	1355	8		-0.0581153956666673
+"SVEN_2038"	"SMD03355"	2248831	2250294	"-"	"Aldehyde dehydrogenase"	"1"	321	9.5		-0.0579940519999989
+"SVEN_3966"	"SMD06106"	4307521	4308003	"+"	"CarD transcriptional regulator"	"1"	1034	8.3		-0.057989583333331
+"SVEN_2491"	"SMD03973"	2704951	2706447	"-"	"hypothetical protein"	"1"	990	8.3		-0.0574418469999998
+"SVEN_6308"	"SMD09401"	6883423	6884253	"-"	"Transcriptional regulator%2C TetR family"	"1"	1311	8		-0.057109630666667
+"SVEN_0837"	"SMD01570"	962949	963956	"+"	"putative membrane protein"	"1"	529	9		-0.0563703706666683
+"SVEN_3000"	"SMD04700"	3276372	3278561	"-"	"putative drug exporters of the RND superfamily"	"1"	471	9.1		-0.0562743489999997
+"SVEN_6840"	"SMD10141"	7491203	7493566	"-"	"Excinuclease ABC subunit A"	"1"	1088	8.2		-0.0560124146666663
+"SVEN_6262"	"SMD09339"	6818004	6819053	"+"	"Ornithine cyclodeaminase"	"1"	974	8.4		-0.0557853983333336
+"SVEN_7238"	"SMD10707"	7962902	7964503	"+"	"Alkyldihydroxyacetonephosphate synthase"	"1"	1376	8		-0.0551544220000002
+"SVEN_5763"	"SMD08645.2"	6261574	6261954	"-"	"hypothetical protein"	"1"	969	8.4		-0.0549070816666664
+"SVEN_2225"	"SMD03594"	2393618	2394637	"-"	"putative oxidoreductase YncB"	"1"	942	8.4		-0.054735247
+"SVEN_2823"	"SMD04455"	3099377	3100702	"+"	"Diaminopimelate decarboxylase"	"1"	540	9		-0.0545219400000008
+"SVEN_7440"	"SMD11002"	8211951	8216264	"-"	"hypothetical protein"	"1"	1317	8		-0.0543392783333339
+"SVEN_4989"	"SMD07572"	5369059	5370504	"-"	"secreted protein"	"1"	887	8.5		-0.054281598666666
+"SVEN_0355"	"SMD00894"	381299	382312	"-"	"Ribosomal-protein-L7p-serine acetyltransferase"	"1"	217	9.9		-0.0537765630000004
+"SVEN_5005"	"SMD07595"	5387939	5389330	"+"	"Diaminopimelate decarboxylase"	"1"	963	8.4		-0.0535809819999997
+"SVEN_7212"	"SMD10670"	7930528	7932273	"+"	"hypothetical protein"	"1"	440	9.2		-0.0535365473333327
+"SVEN_5667"	"SMD08524"	6151268	6151879	"-"	"hypothetical protein"	"1"	168	10.3		-0.0533460113333328
+"SVEN_6181"	"SMD09229"	6733079	6733849	"-"	"hypothetical protein"	"1"	1084	8.2		-0.0524887816666668
+"SVEN_4899"	"SMD07452"	5277548	5278414	"+"	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	"1"	1303	8		-0.052333363333334
+"SVEN_7451"	"SMD11015"	8222441	8222782	"+"	"hypothetical protein"	"1"	930	8.4		-0.0516016570000017
+"SVEN_4495"	"SMD06891"	4850842	4851702	"+"	"Methylenetetrahydrofolate dehydrogenase (NADP+) or Methenyltetrahydrofolate cyclohydrolase"	"1"	882	8.5		-0.0496194326666668
+"SVEN_1310"	"SMD02301"	1469452	1470114	"-"	"Transcriptional regulator%2C TetR family"	"1"	1217	8.1		-0.0494494776666672
+"SVEN_7404"	"SMD10953"	8164253	8165260	"+"	"Aldo-keto reductase"	"1"	979	8.4		-0.0490223683333335
+"SVEN_5025"	"SMD07626"	5409452	5410894	"+"	"ATP synthase beta chain"	"1"	1306	8		-0.0482501376666669
+"SVEN_2998"	"SMD04697"	3274770	3275864	"-"	"Substrate-specific component NikM of nickel ECF transporter or Additional substrate-specific component NikN of nickel ECF transporter"	"1"	109	10.6		-0.0482360726666657
+"SVEN_4231"	"SMD06515"	4575136	4576650	"-"	"putative cyclohex-1-ene-1-carboxylate:CoA ligase"	"1"	164	10.3		-0.0478814613333345
+"SVEN_1273"	"SMD02248"	1433417	1434343	"+"	"Ribosomal large subunit pseudouridine synthase A"	"1"	829	8.5		-0.0473977973333328
+"SVEN_7405"	"SMD10954"	8165305	8165934	"-"	"hypothetical protein"	"1"	1272	8.1		-0.0467393393333335
+"SVEN_3687"	"SMD05686"	4005988	4007325	"-"	"putative DNA-damage-inducible protein F"	"1"	727	8.7		-0.0467327326666664
+"SVEN_0123"	"SMD00570"	124204	125178	"-"	"Choline or glycine betaine ABC transporter%2Csubstrate binding protein"	"1"	606	8.8		-0.0454637373333329
+"SVEN_7305"	"SMD10805"	8036525	8037394	"-"	"MoxR ATPases"	"1"	747	8.7		-0.0440910170000013
+"SVEN_5222"	"SMD07907"	5647676	5649259	"+"	"acetyl-coenzyme A carboxyl transferase alpha chain or Acetyl-coenzyme A carboxyl transferase beta chain %3B Propionyl-CoA carboxylase beta chain"	"1"	1074	8.2		-0.0435965269999983
+"SVEN_3020"	"SMD04728"	3295010	3301303	"-"	"hypothetical protein"	"1"	1342	8		-0.0429068519999998
+"SVEN_2235"	"SMD03609"	2407572	2410991	"-"	"hypothetical protein"	"1"	1287	8		-0.0428590849999999
+"SVEN_1330"	"SMD02327"	1490601	1492757	"-"	"hypothetical protein"	"1"	1219	8.1		-0.0424517790000003
+"SVEN_3709"	"SMD05717"	4025529	4026953	"-"	"putative serine or threonine phosphatase"	"1"	326	9.5		-0.041610631666666
+"SVEN_1277"	"SMD02252"	1437801	1438502	"-"	"Transcriptional regulator%2C GntR family"	"1"	939	8.4		-0.041322662333334
+"SVEN_1219"	"SMD02169"	1371821	1372654	"+"	"Iron utilization protein"	"1"	574	8.9		-0.040783646666668
+"SVEN_3841"	"SMD05908"	4165286	4166812	"+"	"Amidophosphoribosyltransferase"	"1"	456	9.2		-0.0397736733333325
+"SVEN_6054"	"SMD09061"	6588206	6590509	"+"	"hypothetical protein"	"1"	1263	8.1		-0.0388199406666665
+"SVEN_1723"	"SMD02909"	1922257	1923198	"+"	"hypothetical protein"	"1"	1222	8.1		-0.0388096606666659
+"SVEN_0538"	"SMD01132"	611682	612653	"+"	"hypothetical protein"	"1"	1158	8.1		-0.0387859799999983
+"SVEN_5734"	"SMD08607"	6224511	6228743	"+"	"hypothetical protein"	"1"	626	8.8		-0.0383856963333331
+"SVEN_0811"	"SMD01528"	936850	937866	"-"	"putative ABC-transporter ATP-binding protein"	"1"	487	9.1		-0.0374473753333326
+"SVEN_3108"	"SMD04851"	3407538	3408740	"-"	"acyl-CoA dehydrogenase"	"1"	1237	8.1		-0.0370224889999999
+"SVEN_2209"	"SMD03571"	2378824	2379072	"+"	"acyl carrier protein"	"1"	107	10.6		-0.0367517649999982
+"SVEN_3724"	"SMD05736"	4045043	4045888	"-"	"hypothetical protein"	"1"	951	8.4		-0.0364391086666664
+"SVEN_6469"	"SMD09625"	7059584	7059835	"-"	"hypothetical protein SCF81.12"	"1"	499	9.1		-0.0351599700000005
+"SVEN_0100"	"SMD00537"	99152	100474	"+"	"hypothetical protein"	"1"	1207	8.1		-0.0351522226666674
+"SVEN_2231"	"SMD03603"	2400441	2401889	"+"	"Long-chain-fatty-acid--CoA ligase"	"1"	65	11		-0.0347018183333327
+"SVEN_4253"	"SMD06544"	4603984	4606194	"-"	"hypothetical protein"	"1"	414	9.3		-0.0341827613333336
+"SVEN_1920"	"SMD03188"	2135829	2138015	"+"	"TraB protein"	"1"	755	8.6		-0.0340773896666668
+"SVEN_1411"	"SMD02440"	1577922	1579685	"+"	"Glucoamylase and related glycosyl hydrolases"	"1"	901	8.4		-0.033876313333332
+"SVEN_6065"	"SMD09073"	6606587	6607906	"-"	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	"1"	1082	8.2		-0.0322563950000001
+"SVEN_2488"	"SMD03970"	2703369	2703842	"+"	"MutT protein"	"1"	831	8.5		-0.0321725246666666
+"SVEN_5055"	"SMD07671"	5441642	5442334	"-"	"DUF124 domain-containing protein"	"1"	1003	8.3		-0.0305507363333328
+"SVEN_5595"	"SMD08426"	6087463	6088479	"-"	"hypothetical protein"	"1"	1076	8.2		-0.0294764996666661
+"SVEN_6603"	"SMD09809"	7218777	7219685	"+"	"Predicted rhamnose oligosaccharide ABC transport system%2C permease component"	"1"	770	8.6		-0.0291855236666665
+"SVEN_6717"	"SMD09963"	7347911	7348912	"+"	"ABC transporter periplasmic-binding protein YtfQ"	"1"	1313	8		-0.0291086560000009
+"SVEN_3688"	"SMD05689"	4007748	4009232	"+"	"Replicative DNA helicase"	"1"	726	8.7		-0.0288057106666662
+"SVEN_4181"	"SMD06442"	4525229	4526293	"+"	"hypothetical protein"	"1"	428	9.2		-0.0284115299999996
+"SVEN_2433"	"SMD03889"	2639273	2640235	"-"	"Permease of the drug or metabolite transporter (DMT) superfamily"	"1"	1230	8.1		-0.0272342843333337
+"SVEN_7403"	"SMD10950"	8162787	8163659	"-"	"hypothetical protein"	"1"	978	8.4		-0.026633480000001
+"SVEN_4066"	"SMD06267"	4401704	4409170	"+"	"hypothetical protein"	"1"	345	9.4		-0.0261507786666657
+"SVEN_0939"	"SMD01715"	1068083	1068745	"+"	"Transcriptional regulator%2C TetR family"	"1"	242	9.8		-0.0256943363333333
+"SVEN_4312"	"SMD06630"	4669942	4670502	"+"	"NADH-ubiquinone oxidoreductase chain I"	"1"	207	10		-0.0256092883333343
+"SVEN_4771"	"SMD07274"	5137063	5139249	"-"	"putative peptidase"	"1"	1040	8.3		-0.0252273139999994
+"SVEN_3730"	"SMD05744"	4051081	4051830	"-"	"Transcriptional regulator%2C GntR family"	"1"	876	8.5		-0.0251789480000006
+"SVEN_3627"	"SMD05594"	3940903	3941760	"+"	"Adenylate cyclase"	"1"	995	8.3		-0.0242901253333319
+"SVEN_5630"	"SMD08474"	6115789	6117303	"-"	"integral membrane protein"	"1"	842	8.5		-0.0240606939999992
+"SVEN_2956"	"SMD04639"	3231691	3232188	"+"	"Transcriptional regulator%2C MarR family"	"1"	1340	8		-0.023474423333333
+"SVEN_3171"	"SMD04938"	3464676	3465869	"-"	"hypothetical protein"	"1"	803	8.6		-0.0233973940000007
+"SVEN_4174"	"SMD06435"	4517943	4518347	"+"	"regulatory protein"	"1"	1253	8.1		-0.0224416610000002
+"SVEN_4148"	"SMD06393"	4491366	4491737	"-"	"putative integral membrane protein"	"1"	74	10.9		-0.0211365246666659
+"SVEN_3501"	"SMD05428"	3812140	3812550	"+"	"putative lyase"	"1"	1245	8.1		-0.0210463326666694
+"SVEN_5757"	"SMD08638"	6255151	6255804	"+"	"Transcriptional regulator%2C TetR family"	"1"	1140	8.2		-0.020596638999999
+"SVEN_0440"	"SMD01011"	472610	473419	"+"	"histidinol-phosphate phosphatase family protein or glycosyl transferase%2C group 2 family protein"	"1"	855	8.5		-0.0198445476666675
+"SVEN_2594"	"SMD04119"	2828007	2828450	"-"	"hypothetical protein"	"1"	358	9.4		-0.019791875666666
+"SVEN_5728"	"SMD08600"	6212975	6213826	"+"	"site-specific recombinase%2C phage integrase family"	"1"	665	8.8		-0.0192205890000006
+"SVEN_1460"	"SMD02514"	1636324	1637964	"-"	"putative symporter YjcG"	"1"	612	8.8		-0.0187817886666677
+"SVEN_1909"	"SMD03174"	2127691	2129661	"+"	"hypothetical protein"	"1"	903	8.4		-0.0183099350000004
+"SVEN_0590"	"SMD01204"	682328	682612	"-"	"hypothetical protein"	"1"	1159	8.1		-0.0181104653333337
+"SVEN_5334"	"SMD08060"	5762642	5763436	"+"	"Putrescine transport system permease protein PotI"	"1"	518	9		-0.0180863583333322
+"SVEN_4493"	"SMD06889"	4848300	4849754	"+"	"hypothetical protein"	"1"	1299	8		-0.0179732426666668
+"SVEN_2434"	"SMD03891"	2640380	2640892	"+"	"Transcriptional regulator%2C MarR family"	"1"	1229	8.1		-0.017894367666667
+"SVEN_7380"	"SMD10923"	8132134	8133480	"+"	"transport system permease protein"	"1"	775	8.6		-0.0178396233333338
+"SVEN_0082"	"SMD00515"	78637	79506	"+"	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	"1"	779	8.6		-0.0170870256666662
+"SVEN_5446"	"SMD08211"	5906036	5906965	"+"	"Permease of the drug or metabolite transporter (DMT) superfamily"	"1"	1307	8		-0.0168273646666668
+"SVEN_1700"	"SMD02875"	1898205	1898792	"-"	"Transcriptional regulator%2C ArsR family"	"1"	1331	8		-0.0164896866666666
+"SVEN_4569"	"SMD06994"	4924395	4924766	"+"	"secreted protein"	"1"	478	9.1		-0.0159210609999985
+"SVEN_2342"	"SMD03762"	2530097	2530441	"+"	"SSU ribosomal protein S20p"	"1"	904	8.4		-0.0144127566666654
+"SVEN_1042"	"SMD01874"	1183338	1185719	"+"	"Chitodextrinase precursor"	"1"	982	8.3		-0.0138043013333338
+"SVEN_4446"	"SMD06822"	4784368	4785699	"-"	"probable solute-binding lipoprotein"	"1"	417	9.3		-0.0128567013333338
+"SVEN_1657"	"SMD02819"	1854336	1855085	"+"	"Probable enoyl-CoA hydratase EchA20"	"1"	676	8.7		-0.0122423063333343
+"SVEN_6116"	"SMD09146"	6660295	6660519	"-"	"hypothetical protein"	"1"	272	9.7		-0.012182882666667
+"SVEN_2046"	"SMD03365"	2258374	2259543	"-"	"putative 3-ketoacyl-CoA thiolase or acetyl-CoA acetyltransferase"	"1"	1021	8.3		-0.0121542990000005
+"SVEN_1965"	"SMD03257"	2182481	2184124	"-"	"putative phosphodiesterase"	"1"	189	10.1		-0.0113375493333328
+"SVEN_5395"	"SMD08141"	5841875	5844520	"-"	"regulatory protein"	"1"	1136	8.2		-0.00834517200000118
+"SVEN_0645"	"SMD01288"	758358	759329	"+"	"Ribonuclease BN"	"1"	1211	8.1		-0.00827065166666596
+"SVEN_6023"	"SMD09016.2"	6552497	6553911	"+"	"Major facilitator superfamily permease"	"1"	1080	8.2		-0.008215373333333
+"SVEN_3641"	"SMD05617"	3954134	3955018	"-"	"putative membrane protein"	"1"	873	8.5		-0.00704611933333332
+"SVEN_3901"	"SMD06001"	4246586	4247248	"-"	"hypothetical protein"	"1"	955	8.4		-0.00639841566666632
+"SVEN_0796"	"SMD01508.2"	924067	924291	"-"	"hypothetical protein"	"1"	220	9.9		-0.00606103566666683
+"SVEN_1401"	"SMD02425"	1565693	1566367	"-"	"Ribosyl nicotinamide transporter%2C PnuC"	"1"	1017	8.3		-0.00531098266666596
+"SVEN_2428"	"SMD03883"	2631605	2634223	"+"	"Membrane alanine aminopeptidase N"	"1"	425	9.2		-0.00485818933333348
+"SVEN_5794"	"SMD08692"	6298974	6301052	"+"	"hypothetical protein"	"1"	1198	8.1		-0.0043852443333332
+"SVEN_6211"	"SMD09267"	6765947	6767263	"-"	"major facilitator superfamily MFS_1 transporter"	"1"	1201	8.1		-0.00361895533333279
+"SVEN_0881"	"SMD01628"	1011815	1012678	"+"	"putative integral membrane protein"	"1"	266	9.7		-0.0029218300000009
+"SVEN_3736"	"SMD05752"	4057837	4059108	"-"	"Dyp-type peroxidase family protein"	"1"	997	8.3		-0.00247009033333434
+"SVEN_1930"	"SMD03203"	2145505	2146152	"+"	"putative membrane protein"	"1"	1168	8.1		-0.00072062266666606
+"SVEN_0585"	"SMD01196"	677659	678906	"-"	"hypothetical protein"	"1"	1209	8.1		-0.000352127999999396

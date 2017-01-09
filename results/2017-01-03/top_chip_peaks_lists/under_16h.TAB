@@ -1,0 +1,23 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_16h"
+"SVEN_5498"	"SMD08289"	5970434	5971321	"+"	"Transcriptional regulator%2C GntR family"	"1"	14		84	-4.995507876
+"SVEN_0269"	"SMD00781"	284553	286739	"+"	"hypothetical protein"	"1"	13		78	-4.115566927
+"SVEN_3331"	"SMD05177"	3647476	3648783	"-"	"putative secreted protein"	"1"	19		67	-2.096201523
+"SVEN_4437"	"SMD06811"	4776768	4777688	"+"	"putative polysaccharide deacetylase"	"1"	18		18	-2.072895126
+"SVEN_2614"	"SMD04142"	2852597	2853991	"-"	"hypothetical protein"	"1"	35		109	-1.892577559
+"SVEN_4452"	"SMD06831"	4791584	4791976	"-"	"Sporulation regulatory protein WhiD"	"1"	29		124	-1.29927815533333
+"SVEN_3332"	"SMD05181"	3649096	3651468	"+"	"Carbonic anhydrase"	"1"	19		246	-1.12287123766667
+"SVEN_2229"	"SMD03601"	2397502	2399058	"+"	"two-component system sensor kinase"	"1"	33		27	-1.010312044
+"SVEN_4457"	"SMD06841"	4796896	4798137	"-"	"putative UDP-glucose or GDP-mannose dehydrogenase"	"1"	24		88	-0.796097826
+"SVEN_6822"	"SMD10118"	7470625	7471845	"+"	"putative lipoprotein"	"1"	10		50	-0.768988256666667
+"SVEN_3051"	"SMD04773"	3340267	3341442	"+"	"Flagellar hook-length control protein FliK"	"1"	4		92	-0.746050720666666
+"SVEN_4749"	"SMD07243"	5109391	5111496	"-"	"Fibrillarin"	"1"	17		79	-0.639813538333333
+"SVEN_4634"	"SMD07084"	4989373	4990713	"-"	"hypothetical protein"	"1"	7		112	-0.629870122
+"SVEN_1408"	"SMD02435"	1572764	1574776	"-"	"putative regulatory protein"	"1"	11		99	-0.551276466333332
+"SVEN_4635"	"SMD07086"	4990869	4992512	"+"	"putative secreted protein"	"1"	7		44	-0.492352693999999
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	12		184	-0.438024132999999
+"SVEN_5277"	"SMD07977"	5704327	5704977	"-"	"hypothetical protein"	"1"	32		248	-0.279065774999999
+"SVEN_4458"	"SMD06842"	4798400	4800106	"+"	"Glycerol-3-phosphate dehydrogenase"	"1"	24		175	-0.250382085333333
+"SVEN_4858"	"SMD07397"	5232880	5234856	"+"	"tetratricopeptide repeat family protein"	"1"	23		5	-0.135482138999999
+"SVEN_7238"	"SMD10707"	7962902	7964503	"+"	"Alkyldihydroxyacetonephosphate synthase"	"1"	20		52	-0.0551544220000002
+"SVEN_4989"	"SMD07572"	5369059	5370504	"-"	"secreted protein"	"1"	8		4	-0.054281598666666
+"SVEN_1277"	"SMD02252"	1437801	1438502	"-"	"Transcriptional regulator%2C GntR family"	"1"	1		23	-0.041322662333334

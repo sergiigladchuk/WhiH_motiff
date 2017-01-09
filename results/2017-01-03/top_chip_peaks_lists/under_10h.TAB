@@ -1,0 +1,24 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_10h"
+"SVEN_5277"	"SMD07977"	5704327	5704977	"-"	"hypothetical protein"	"1"	32		248	-2.03975754166667
+"SVEN_5498"	"SMD08289"	5970434	5971321	"+"	"Transcriptional regulator%2C GntR family"	"1"	14		84	-1.535001781
+"SVEN_5278"	"SMD07981"	5705385	5706878	"+"	"putative regulatory protein"	"1"	32		160	-1.11869530666667
+"SVEN_4458"	"SMD06842"	4798400	4800106	"+"	"Glycerol-3-phosphate dehydrogenase"	"1"	24		175	-1.05888066033333
+"SVEN_4452"	"SMD06831"	4791584	4791976	"-"	"Sporulation regulatory protein WhiD"	"1"	29		124	-0.694408651000001
+"SVEN_3846"	"SMD05917"	4171385	4171591	"+"	"putative DNA-binding protein"	"1"	31		110	-0.543434293333334
+"SVEN_2614"	"SMD04142"	2852597	2853991	"-"	"hypothetical protein"	"1"	35		109	-0.463058402666667
+"SVEN_4457"	"SMD06841"	4796896	4798137	"-"	"putative UDP-glucose or GDP-mannose dehydrogenase"	"1"	24		88	-0.445367169333334
+"SVEN_3332"	"SMD05181"	3649096	3651468	"+"	"Carbonic anhydrase"	"1"	19		246	-0.408717942666668
+"SVEN_1371"	"SMD02382"	1537282	1538535	"-"	"putative regulator"	"1"	12		140	-0.350098597
+"SVEN_2229"	"SMD03601"	2397502	2399058	"+"	"two-component system sensor kinase"	"1"	33		27	-0.312494191
+"SVEN_4750"	"SMD07245"	5111712	5112710	"+"	"putative membrane protein"	"1"	17		137	-0.304846358333332
+"SVEN_1283"	"SMD02261"	1444908	1446629	"-"	"Fumarate or succinate or L-aspartate dehydrogenases"	"1"	25		46	-0.224843705999999
+"SVEN_1452"	"SMD02500"	1622851	1629339	"-"	"hypothetical protein"	"1"	28		11	-0.186601602333333
+"SVEN_0269"	"SMD00781"	284553	286739	"+"	"hypothetical protein"	"1"	13		78	-0.0878933269999997
+"SVEN_4989"	"SMD07572"	5369059	5370504	"-"	"secreted protein"	"1"	8		4	-0.0590435730000003
+"SVEN_7238"	"SMD10707"	7962902	7964503	"+"	"Alkyldihydroxyacetonephosphate synthase"	"1"	20		52	-0.0423351746666665
+"SVEN_3050"	"SMD04772"	3338880	3340100	"-"	"Glycosyl transferase%2C group 2 family protein"	"1"	4		75	-0.0325476123333335
+"SVEN_1277"	"SMD02252"	1437801	1438502	"-"	"Transcriptional regulator%2C GntR family"	"1"	1		23	-0.0325260220000008
+"SVEN_4749"	"SMD07243"	5109391	5111496	"-"	"Fibrillarin"	"1"	17		79	-0.0188503180000001
+"SVEN_7237"	"SMD10705"	7962198	7962770	"-"	"Transcriptional regulator%2C TetR family"	"1"	20		80	-0.0165409773333343
+"SVEN_4635"	"SMD07086"	4990869	4992512	"+"	"putative secreted protein"	"1"	7		44	-0.0040564759999997
+"SVEN_3449"	"SMD05356"	3765923	3766558	"+"	"isomerase"	"1"	5		248	-0.00288084600000005

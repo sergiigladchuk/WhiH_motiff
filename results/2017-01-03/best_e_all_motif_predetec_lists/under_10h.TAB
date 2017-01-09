@@ -1,0 +1,7 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_10h"
+"SVEN_1733"	"SMD02924"	1934441	1934731	"-"	"Possible membrane protein"	"1"	7	11.5		-0.981282846666666
+"SVEN_6931"	"SMD10265"	7582270	7583004	"+"	"hypothetical protein"	"1"	5	12.3		-0.679941870666667
+"SVEN_4305"	"SMD06621"	4662690	4663421	"-"	"putative two-component system response regulator"	"1"	8	11.5		-0.362993031
+"SVEN_1371"	"SMD02382"	1537282	1538535	"-"	"putative regulator"	"1"	4	12.7		-0.350098597
+"SVEN_4756"	"SMD07253"	5117704	5120148	"+"	"putative lipoprotein"	"1"	9	11.5		-0.101542888000001
+"SVEN_3573"	"SMD05523"	3884814	3885965	"+"	"hypothetical protein"	"1"	6	11.8		-0.00418258233333457

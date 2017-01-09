@@ -1,0 +1,7 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_16h"
+"SVEN_4755"	"SMD07250"	5117228	5117455	"-"	"hypothetical protein"	"1"	10	11.5		-1.92187622166667
+"SVEN_4756"	"SMD07253"	5117704	5120148	"+"	"putative lipoprotein"	"1"	9	11.5		-1.558747086
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	3	12.7		-0.438024132999999
+"SVEN_1733"	"SMD02924"	1934441	1934731	"-"	"Possible membrane protein"	"1"	7	11.5		-0.300710526666666
+"SVEN_5394"	"SMD08140"	5838201	5839886	"+"	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"1"	2	14.1		-0.15193034
+"SVEN_5395"	"SMD08141"	5841875	5844520	"-"	"regulatory protein"	"1"	1	14.1		-0.00834517200000118

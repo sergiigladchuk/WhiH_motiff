@@ -1,0 +1,1289 @@
+gene	product	Total_all	8h_all	10h_all	12h_all	14h_all	16h_all	18h_all	20h_all	Total_fimo	8h_fimo	10h_fimo	12h_fimo	14h_fimo	16h_fimo	18h_fimo	20h_fimo	Total_pred	8h_pred	10h_pred	12h_pred	14h_pred	16h_pred	18h_pred	20h_pred	Total_chip	8h_chip	10h_chip	12h_chip	14h_chip	16h_chip	18h_chip	20h_chip
+"SVEN_1372"	"hypothetical protein"	24	1	2	5	5	0	5	6	1	0	0	0	1	0	0	0	14	0	1	4	2	0	3	4	9	1	1	1	2	0	2	2
+"SVEN_1324"	"hypothetical protein"	24	0	2	4	5	2	6	5	2	0	0	0	1	0	1	0	13	0	1	3	2	1	3	3	9	0	1	1	2	1	2	2
+"SVEN_1278"	"Gluconokinase"	23	1	2	4	4	2	5	5	0	0	0	0	0	0	0	0	13	0	1	3	2	1	3	3	10	1	1	1	2	1	2	2
+"SVEN_1625"	"ATP-dependent RNA helicase"	23	0	2	4	5	2	5	5	1	0	0	0	1	0	0	0	13	0	1	3	2	1	3	3	9	0	1	1	2	1	2	2
+"SVEN_4750"	"putative membrane protein"	23	1	0	4	5	2	6	5	2	0	0	0	1	0	1	0	12	0	0	3	2	1	3	3	9	1	0	1	2	1	2	2
+"SVEN_1284"	"regulatory protein%2C TetR"	22	0	2	4	4	2	5	5	0	0	0	0	0	0	0	0	13	0	1	3	2	1	3	3	9	0	1	1	2	1	2	2
+"SVEN_6821"	"RNA polymerase sigma-70 factor%2C ECF subfamily"	21	1	2	3	5	2	4	4	1	0	0	0	1	0	0	0	10	0	1	2	2	1	2	2	10	1	1	1	2	1	2	2
+"SVEN_5278"	"putative regulatory protein"	18	1	0	0	4	2	6	5	1	0	0	0	0	0	1	0	9	0	0	0	2	1	3	3	8	1	0	0	2	1	2	2
+"SVEN_5779"	"hypothetical protein"	17	1	2	0	4	2	4	4	1	0	0	0	1	0	0	0	7	0	1	0	1	1	2	2	9	1	1	0	2	1	2	2
+"SVEN_3846"	"putative DNA-binding protein"	17	0	0	3	4	2	4	4	0	0	0	0	0	0	0	0	9	0	0	2	2	1	2	2	8	0	0	1	2	1	2	2
+"SVEN_0416"	"hypothetical protein"	16	0	2	3	3	2	3	3	1	0	0	0	1	0	0	0	9	0	1	2	1	1	2	2	6	0	1	1	1	1	1	1
+"SVEN_0624"	"Xylose repressor XylR"	16	0	2	3	3	2	3	3	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	6	0	1	1	1	1	1	1
+"SVEN_4635"	"putative secreted protein"	16	1	0	0	5	0	5	5	1	0	0	0	1	0	0	0	8	0	0	0	2	0	3	3	7	1	0	0	2	0	2	2
+"SVEN_6582"	"hypothetical protein"	16	1	0	3	3	2	4	3	1	0	0	0	0	0	1	0	9	0	0	2	2	1	2	2	6	1	0	1	1	1	1	1
+"SVEN_4858"	"tetratricopeptide repeat family protein"	16	1	1	3	3	0	4	4	0	0	0	0	0	0	0	0	7	0	0	2	1	0	2	2	9	1	1	1	2	0	2	2
+"SVEN_6581"	"hypothetical protein"	16	0	2	4	3	2	5	0	1	0	0	0	0	0	1	0	10	0	1	3	2	1	3	0	5	0	1	1	1	1	1	0
+"SVEN_2517"	"putative SARP family pathway specific regulatory protein"	16	0	2	3	3	2	3	3	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	6	0	1	1	1	1	1	1
+"SVEN_4846"	"UBA or THIF-type NAD or FAD binding protein"	16	1	2	3	2	2	3	3	0	0	0	0	0	0	0	0	9	0	1	2	1	1	2	2	7	1	1	1	1	1	1	1
+"SVEN_3712"	"hypothetical protein"	15	1	2	4	0	0	4	4	0	0	0	0	0	0	0	0	10	0	1	3	0	0	3	3	5	1	1	1	0	0	1	1
+"SVEN_3051"	"Flagellar hook-length control protein FliK"	15	1	2	3	0	0	5	4	1	0	0	0	0	0	1	0	7	0	1	2	0	0	2	2	7	1	1	1	0	0	2	2
+"SVEN_4730"	"hypothetical protein"	15	0	0	3	3	2	4	3	1	0	0	0	0	0	1	0	9	0	0	2	2	1	2	2	5	0	0	1	1	1	1	1
+"SVEN_1452"	"hypothetical protein"	15	0	0	0	4	2	5	4	1	0	0	0	0	0	1	0	7	0	0	0	2	1	2	2	7	0	0	0	2	1	2	2
+"SVEN_5042"	"putative ATP or GTP-binding protein%2C doubtful CDS"	15	1	0	3	3	2	3	3	0	0	0	0	0	0	0	0	9	0	0	2	2	1	2	2	6	1	0	1	1	1	1	1
+"SVEN_4250"	"putative serine or threonine protein kinase"	15	0	2	3	2	2	3	3	0	0	0	0	0	0	0	0	9	0	1	2	1	1	2	2	6	0	1	1	1	1	1	1
+"SVEN_6825"	"putative secreted protein"	14	1	2	2	2	2	3	2	1	0	0	0	0	0	1	0	6	0	1	1	1	1	1	1	7	1	1	1	1	1	1	1
+"SVEN_4839"	"putative glutaredoxin protein"	14	1	2	2	3	2	2	2	1	0	0	0	1	0	0	0	6	0	1	1	1	1	1	1	7	1	1	1	1	1	1	1
+"SVEN_0462"	"ATP-dependent RNA helicase"	14	1	2	3	0	2	3	3	0	0	0	0	0	0	0	0	8	0	1	2	0	1	2	2	6	1	1	1	0	1	1	1
+"SVEN_7237"	"Transcriptional regulator%2C TetR family"	14	1	0	3	4	2	4	0	0	0	0	0	0	0	0	0	7	0	0	2	2	1	2	0	7	1	0	1	2	1	2	0
+"SVEN_1533"	"transcriptional regulator%2C AraC family"	14	0	1	3	3	1	3	3	1	0	0	0	1	0	0	0	13	0	1	3	2	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_1408"	"putative regulatory protein"	14	0	2	3	0	0	5	4	1	0	0	0	0	0	1	0	7	0	1	2	0	0	2	2	6	0	1	1	0	0	2	2
+"SVEN_5972"	"TetR-family transcriptional regulator"	13	0	2	3	0	2	3	3	0	0	0	0	0	0	0	0	8	0	1	2	0	1	2	2	5	0	1	1	0	1	1	1
+"SVEN_1557"	"Iron-sulfur cluster regulator SufR"	13	1	2	2	2	2	2	2	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	7	1	1	1	1	1	1	1
+"SVEN_3562"	"hypothetical protein"	13	0	2	3	3	2	3	0	0	0	0	0	0	0	0	0	8	0	1	2	2	1	2	0	5	0	1	1	1	1	1	0
+"SVEN_2756"	"DNA-binding response regulator mtrA"	13	1	2	2	2	2	2	2	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	7	1	1	1	1	1	1	1
+"SVEN_2927"	"Prevent host death protein%2C Phd antitoxin"	12	1	2	0	2	2	3	2	1	0	0	0	0	0	1	0	5	0	1	0	1	1	1	1	6	1	1	0	1	1	1	1
+"SVEN_0625"	"putative secreted sugar binding protein"	12	1	2	2	2	0	3	2	1	0	0	0	0	0	1	0	5	0	1	1	1	0	1	1	6	1	1	1	1	0	1	1
+"SVEN_4196"	"hypothetical protein"	12	0	0	3	2	1	3	3	0	0	0	0	0	0	0	0	12	0	0	3	2	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_2949"	"hypothetical protein"	12	0	2	2	2	2	2	2	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	6	0	1	1	1	1	1	1
+"SVEN_7238"	"Alkyldihydroxyacetonephosphate synthase"	12	1	0	3	0	0	4	4	0	0	0	0	0	0	0	0	6	0	0	2	0	0	2	2	6	1	0	1	0	0	2	2
+"SVEN_0557"	"putative sensor histidine kinase"	12	1	0	0	3	2	3	3	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	5	1	0	0	1	1	1	1
+"SVEN_0766"	"putative polyketide synthase"	12	1	0	0	3	2	3	3	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	5	1	0	0	1	1	1	1
+"SVEN_1371"	"putative regulator"	12	0	0	5	5	2	0	0	1	0	0	0	1	0	0	0	7	0	0	4	2	1	0	0	4	0	0	1	2	1	0	0
+"SVEN_5114"	"putative lipoprotein"	12	0	2	2	3	2	3	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	7	0	1	1	2	1	2	0
+"SVEN_5041"	"putative alkanal monooxygenase"	11	0	0	0	3	2	3	3	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	4	0	0	0	1	1	1	1
+"SVEN_4749"	"Fibrillarin"	11	1	0	0	5	0	0	5	1	0	0	0	1	0	0	0	5	0	0	0	2	0	0	3	5	1	0	0	2	0	0	2
+"SVEN_4458"	"Glycerol-3-phosphate dehydrogenase"	11	1	0	0	5	0	0	5	1	0	0	0	1	0	0	0	5	0	0	0	2	0	0	3	5	1	0	0	2	0	0	2
+"SVEN_5979"	"hypothetical protein"	11	1	1	0	2	1	3	3	0	0	0	0	0	0	0	0	5	0	0	0	1	0	2	2	6	1	1	0	1	1	1	1
+"SVEN_4452"	"Sporulation regulatory protein WhiD"	11	1	0	0	5	0	0	5	1	0	0	0	1	0	0	0	5	0	0	0	2	0	0	3	5	1	0	0	2	0	0	2
+"SVEN_0959"	"hypothetical protein"	11	1	2	2	2	0	2	2	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	6	1	1	1	1	0	1	1
+"SVEN_1283"	"Fumarate or succinate or L-aspartate dehydrogenases"	11	0	0	4	0	2	5	0	0	0	0	0	0	0	0	0	7	0	0	3	0	1	3	0	4	0	0	1	0	1	2	0
+"SVEN_0339"	"CAIB or BAIF family protein"	11	0	1	3	0	1	3	3	0	0	0	0	0	0	0	0	11	0	1	3	0	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_2173"	"hypothetical protein"	11	1	2	2	2	2	2	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	6	1	1	1	1	1	1	0
+"SVEN_2999"	"putative regulatory protein"	11	1	0	3	4	0	0	3	1	0	0	0	1	0	0	0	6	0	0	2	2	0	0	2	4	1	0	1	1	0	0	1
+"SVEN_6824"	"putative oligosaccharide deacetylase"	11	0	1	2	3	1	2	2	1	0	0	0	1	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_5585"	"hypothetical protein"	11	0	1	3	0	1	3	3	0	0	0	0	0	0	0	0	11	0	1	3	0	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_0417"	"Possible Glycerol kinase"	10	1	0	3	0	0	3	3	0	0	0	0	0	0	0	0	6	0	0	2	0	0	2	2	4	1	0	1	0	0	1	1
+"SVEN_1534"	"hypothetical hydrophilic protein"	10	0	0	3	0	1	3	3	0	0	0	0	0	0	0	0	10	0	0	3	0	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_5277"	"hypothetical protein"	10	1	0	0	4	0	0	5	0	0	0	0	0	0	0	0	5	0	0	0	2	0	0	3	5	1	0	0	2	0	0	2
+"SVEN_0645"	"Ribonuclease BN"	10	0	1	2	2	0	3	2	1	0	0	0	0	0	1	0	9	0	1	2	2	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_0226"	"L-2%2C4-diaminobutyric acid acetyltransferase"	10	0	0	2	2	2	2	2	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	5	0	0	1	1	1	1	1
+"SVEN_4814"	"hypothetical protein"	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_2891"	"Integrase"	10	0	2	3	3	2	0	0	0	0	0	0	0	0	0	0	6	0	1	2	2	1	0	0	4	0	1	1	1	1	0	0
+"SVEN_0162"	"Transcriptional regulator%2C TetR family"	10	0	2	2	2	2	0	2	0	0	0	0	0	0	0	0	5	0	1	1	1	1	0	1	5	0	1	1	1	1	0	1
+"SVEN_2285"	"putative regulatory protein"	10	1	0	3	3	0	0	3	0	0	0	0	0	0	0	0	6	0	0	2	2	0	0	2	4	1	0	1	1	0	0	1
+"SVEN_5835"	"hypothetical protein"	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_3448"	"LysR-family transcriptional regulatory protein"	10	0	2	2	0	2	4	0	1	0	0	0	0	0	1	0	4	0	1	1	0	1	1	0	5	0	1	1	0	1	2	0
+"SVEN_6822"	"putative lipoprotein"	10	1	2	3	0	0	0	4	0	0	0	0	0	0	0	0	5	0	1	2	0	0	0	2	5	1	1	1	0	0	0	2
+"SVEN_2723"	"putative transport protein"	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_3449"	"isomerase"	10	1	0	0	0	2	4	3	1	0	0	0	0	0	1	0	3	0	0	0	0	1	1	1	6	1	0	0	0	1	2	2
+"SVEN_0414"	"GntR-family transcriptional regulator"	10	0	1	0	2	1	3	3	0	0	0	0	0	0	0	0	10	0	1	0	2	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_3195"	"Tryptophanyl-tRNA synthetase"	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_4964"	"hypothetical protein"	10	0	1	0	2	1	3	3	0	0	0	0	0	0	0	0	10	0	1	0	2	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_3200"	"putative ABC transporter ATP-binding protein"	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_6981"	"Nickel ABC transporter%2C periplasmic nickel-binding protein nikA2"	10	0	2	2	2	2	2	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	5	0	1	1	1	1	1	0
+"SVEN_6470"	"sensor histidine kinase"	10	0	2	0	2	2	2	2	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	5	0	1	0	1	1	1	1
+"SVEN_2469"	"hypothetical protein"	10	0	2	2	0	2	4	0	1	0	0	0	0	0	1	0	4	0	1	1	0	1	1	0	5	0	1	1	0	1	2	0
+"SVEN_4840"	"ATP-dependent DNA helicase UvrD or PcrA"	10	1	0	2	3	2	2	0	1	0	0	0	1	0	0	0	4	0	0	1	1	1	1	0	5	1	0	1	1	1	1	0
+"SVEN_4464"	"Chorismate mutase I"	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0	10	0	1	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_0106"	"putative sensor histidine kinase"	9	0	1	1	2	1	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	1	1	2	1	2	2
+"SVEN_3109"	"acetyl-CoA acetyltransferase"	9	0	1	2	1	1	2	2	0	0	0	0	0	0	0	0	9	0	1	2	1	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_7140"	"D-amino-acid oxidase"	9	1	2	2	2	0	0	2	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1	5	1	1	1	1	0	0	1
+"SVEN_7394"	"ADP-ribose pyrophosphatase"	9	0	0	0	2	1	3	3	0	0	0	0	0	0	0	0	9	0	0	0	2	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_0472"	"hypothetical protein"	9	1	2	3	0	0	0	3	0	0	0	0	0	0	0	0	5	0	1	2	0	0	0	2	4	1	1	1	0	0	0	1
+"SVEN_0915"	"Na+ or H+ antiporter"	9	1	2	0	0	2	2	2	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	5	1	1	0	0	1	1	1
+"SVEN_1446"	"putative integral membrane transporter"	9	0	0	3	3	0	3	0	1	0	0	0	1	0	0	0	8	0	0	3	2	0	3	0	0	0	0	0	0	0	0	0
+"SVEN_3105"	"hypothetical protein"	9	0	1	2	1	1	2	2	0	0	0	0	0	0	0	0	9	0	1	2	1	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_3763"	"hypothetical protein"	9	1	2	2	0	2	0	2	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	5	1	1	1	0	1	0	1
+"SVEN_4657"	"Predicted membrane protein hemolysin III"	9	0	1	0	3	1	4	0	2	0	0	0	1	0	1	0	7	0	1	0	2	1	3	0	0	0	0	0	0	0	0	0
+"SVEN_4783"	"ATP-binding protein"	9	1	0	0	3	1	2	2	1	0	0	0	1	0	0	0	3	0	0	0	1	0	1	1	5	1	0	0	1	1	1	1
+"SVEN_3573"	"hypothetical protein"	9	0	0	0	0	1	4	4	1	0	0	0	0	0	1	0	8	0	0	0	0	1	3	4	0	0	0	0	0	0	0	0
+"SVEN_6931"	"hypothetical protein"	9	0	0	4	0	1	4	0	1	0	0	0	0	0	1	0	8	0	0	4	0	1	3	0	0	0	0	0	0	0	0	0
+"SVEN_2302"	"hypothetical protein"	9	1	0	0	2	2	2	2	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	5	1	0	0	1	1	1	1
+"SVEN_4859"	"Transcriptional regulator%2C FUR family"	9	1	2	0	3	0	3	0	0	0	0	0	0	0	0	0	5	0	1	0	2	0	2	0	4	1	1	0	1	0	1	0
+"SVEN_6823"	"hypothetical protein"	9	1	1	1	3	1	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	8	1	1	1	2	1	2	0
+"SVEN_3572"	"hypothetical protein"	9	0	2	2	0	2	3	0	1	0	0	0	0	0	1	0	4	0	1	1	0	1	1	0	4	0	1	1	0	1	1	0
+"SVEN_4602"	"putative secreted protein"	9	1	2	0	2	2	0	2	0	0	0	0	0	0	0	0	4	0	1	0	1	1	0	1	5	1	1	0	1	1	0	1
+"SVEN_4437"	"putative polysaccharide deacetylase"	9	0	2	3	0	0	0	4	0	0	0	0	0	0	0	0	5	0	1	2	0	0	0	2	4	0	1	1	0	0	0	2
+"SVEN_2762"	"hypothetical protein"	9	0	0	2	2	1	2	2	0	0	0	0	0	0	0	0	9	0	0	2	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_0338"	"Glutaryl-CoA dehydrogenase"	8	0	1	3	0	1	3	0	0	0	0	0	0	0	0	0	8	0	1	3	0	1	3	0	0	0	0	0	0	0	0	0
+"SVEN_5395"	"regulatory protein"	8	0	1	0	0	0	3	4	0	0	0	0	0	0	0	0	8	0	1	0	0	0	3	4	0	0	0	0	0	0	0	0
+"SVEN_1885"	"Transcriptional regulator%2C TetR family"	8	1	1	1	2	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	7	1	1	1	1	1	1	1
+"SVEN_0611"	"hypothetical protein"	8	0	1	2	2	1	2	0	0	0	0	0	0	0	0	0	8	0	1	2	2	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_3563"	"hypothetical protein"	8	0	2	3	3	0	0	0	0	0	0	0	0	0	0	0	5	0	1	2	2	0	0	0	3	0	1	1	1	0	0	0
+"SVEN_5327"	"Adenosine deaminase"	8	0	1	3	0	1	3	0	0	0	0	0	0	0	0	0	8	0	1	3	0	1	3	0	0	0	0	0	0	0	0	0
+"SVEN_2561"	"acyl-CoA thioesterase II"	8	0	0	2	1	1	2	2	0	0	0	0	0	0	0	0	8	0	0	2	1	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_4325"	"protein YajQ"	8	0	2	2	2	2	0	0	0	0	0	0	0	0	0	0	4	0	1	1	1	1	0	0	4	0	1	1	1	1	0	0
+"SVEN_6135"	"membrane transport protein"	8	0	1	2	2	1	0	2	0	0	0	0	0	0	0	0	8	0	1	2	2	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_5692"	"ABC transporter ATP-binding protein"	8	0	0	0	2	2	2	2	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	4	0	0	0	1	1	1	1
+"SVEN_5666"	"hypothetical protein"	8	0	1	0	2	1	2	2	0	0	0	0	0	0	0	0	8	0	1	0	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_0765"	"hypothetical protein"	8	0	0	0	3	2	0	3	0	0	0	0	0	0	0	0	5	0	0	0	2	1	0	2	3	0	0	0	1	1	0	1
+"SVEN_0235"	"putative secreted protein"	8	0	1	2	2	1	2	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	5	0	1	1	1	1	1	0
+"SVEN_4759"	"Dipeptide-binding ABC transporter%2C periplasmic substrate-binding component"	8	0	2	2	0	2	2	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	4	0	1	1	0	1	1	0
+"SVEN_3854"	"putative ATP-dependent RNA helicase"	8	0	0	3	0	2	3	0	0	0	0	0	0	0	0	0	5	0	0	2	0	1	2	0	3	0	0	1	0	1	1	0
+"SVEN_1734"	"hypothetical protein"	8	0	0	0	2	0	3	3	0	0	0	0	0	0	0	0	5	0	0	0	1	0	2	2	3	0	0	0	1	0	1	1
+"SVEN_2675"	"hypothetical protein"	8	0	0	4	0	0	0	4	0	0	0	0	0	0	0	0	6	0	0	3	0	0	0	3	2	0	0	1	0	0	0	1
+"SVEN_5394"	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	8	0	1	4	0	0	3	0	0	0	0	0	0	0	0	0	8	0	1	4	0	0	3	0	0	0	0	0	0	0	0	0
+"SVEN_0218"	"hypothetical protein"	8	0	0	2	1	1	2	2	0	0	0	0	0	0	0	0	8	0	0	2	1	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_7260"	"hypothetical protein"	8	0	1	1	2	1	3	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	7	0	1	1	2	1	2	0
+"SVEN_1249"	"putative hydrolase"	8	0	0	2	2	2	2	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	4	0	0	1	1	1	1	0
+"SVEN_4989"	"secreted protein"	8	0	0	0	0	0	4	4	0	0	0	0	0	0	0	0	4	0	0	0	0	0	2	2	4	0	0	0	0	0	2	2
+"SVEN_4647"	"hypothetical protein"	8	0	1	0	0	1	3	3	0	0	0	0	0	0	0	0	8	0	1	0	0	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_2562"	"membrane transport protein"	8	1	0	0	0	0	4	3	1	0	0	0	0	0	1	0	4	0	0	0	0	0	2	2	3	1	0	0	0	0	1	1
+"SVEN_0818"	"putative acyl-CoA dehydrogenase"	8	0	1	3	0	1	3	0	0	0	0	0	0	0	0	0	8	0	1	3	0	1	3	0	0	0	0	0	0	0	0	0
+"SVEN_3816"	"hypothetical protein"	8	0	1	0	2	1	2	2	0	0	0	0	0	0	0	0	8	0	1	0	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_0644"	"putative secreted hydrolase"	7	0	1	2	0	1	3	0	1	0	0	0	0	0	1	0	6	0	1	2	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_4256"	"Cold shock protein CspD"	7	1	2	2	0	0	0	2	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	4	1	1	1	0	0	0	1
+"SVEN_5699"	"putative signal transduction protein with Nacht domain"	7	1	1	0	1	1	2	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	6	1	1	0	1	1	1	1
+"SVEN_3942"	"hypothetical protein"	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_5471"	"GTP-binding protein HflX"	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_6439"	"putative transferase"	7	0	1	2	0	1	3	0	1	0	0	0	0	0	1	0	6	0	1	2	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_5858"	"hypothetical protein"	7	0	0	2	2	1	2	0	0	0	0	0	0	0	0	0	7	0	0	2	2	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_3899"	"Phosphate transport system permease protein PstC"	7	0	1	2	1	1	0	2	0	0	0	0	0	0	0	0	7	0	1	2	1	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_7312"	"hypothetical protein"	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_4965"	"hypothetical protein"	7	1	0	0	2	1	2	1	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_4860"	"Catalase"	7	1	0	2	0	0	2	2	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	4	1	0	1	0	0	1	1
+"SVEN_1273"	"Ribosomal large subunit pseudouridine synthase A"	7	1	2	2	0	0	2	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	4	1	1	1	0	0	1	0
+"SVEN_6054"	"hypothetical protein"	7	1	0	0	2	0	2	2	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	4	1	0	0	1	0	1	1
+"SVEN_4081"	"putative Adenosine kinase"	7	0	1	1	2	1	1	1	1	0	0	0	1	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4755"	"hypothetical protein"	7	1	2	0	0	0	0	4	0	0	0	0	0	0	0	0	4	0	1	0	0	0	0	3	3	1	1	0	0	0	0	1
+"SVEN_1006"	"putative membrane protein"	7	1	2	0	2	0	0	2	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	4	1	1	0	1	0	0	1
+"SVEN_1384"	"Transglycosylase domain protein"	7	1	0	0	0	0	3	3	0	0	0	0	0	0	0	0	4	0	0	0	0	0	2	2	3	1	0	0	0	0	1	1
+"SVEN_4453"	"DNA-binding response regulator%2C LuxR family"	7	0	0	0	0	1	3	3	0	0	0	0	0	0	0	0	7	0	0	0	0	1	3	3	0	0	0	0	0	0	0	0
+"SVEN_2109"	"hypothetical protein"	7	1	2	2	0	0	0	2	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	4	1	1	1	0	0	0	1
+"SVEN_2718"	"NADP-dependent malic enzyme"	7	0	1	2	0	0	2	2	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	4	0	1	1	0	0	1	1
+"SVEN_1016"	"Transcriptional regulator%2C AsnC family"	7	0	1	2	1	1	2	0	0	0	0	0	0	0	0	0	7	0	1	2	1	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_6840"	"Excinuclease ABC subunit A"	7	1	0	2	2	0	2	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	4	1	0	1	1	0	1	0
+"SVEN_1677"	"Glutamate synthase"	7	1	0	2	0	2	0	2	0	0	0	0	0	0	0	0	3	0	0	1	0	1	0	1	4	1	0	1	0	1	0	1
+"SVEN_6181"	"hypothetical protein"	7	0	1	2	2	0	2	0	0	0	0	0	0	0	0	0	7	0	1	2	2	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_3713"	"Cytochrome d ubiquinol oxidase subunit I"	7	1	2	0	0	0	0	4	0	0	0	0	0	0	0	0	4	0	1	0	0	0	0	3	3	1	1	0	0	0	0	1
+"SVEN_2887"	"hypothetical protein"	7	1	2	2	2	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	4	1	1	1	1	0	0	0
+"SVEN_5973"	"Phosphate regulon transcriptional regulatory protein PhoB"	7	0	0	2	3	0	2	0	1	0	0	0	1	0	0	0	6	0	0	2	2	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_7340"	"secreted protein"	7	1	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	1	1	1	1	1	1	1
+"SVEN_5488"	"MFS family multidrug efflux protein"	7	0	0	2	2	1	0	2	0	0	0	0	0	0	0	0	7	0	0	2	2	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_1139"	"putative membrane protein"	7	1	2	2	0	2	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	4	1	1	1	0	1	0	0
+"SVEN_1338"	"hypothetical protein"	7	1	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	1	1	1	1	1	1	1
+"SVEN_3050"	"Glycosyl transferase%2C group 2 family protein"	7	1	0	0	0	2	0	4	0	0	0	0	0	0	0	0	3	0	0	0	0	1	0	2	4	1	0	0	0	1	0	2
+"SVEN_4928"	"hypothetical protein"	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0	7	0	0	0	2	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_6110"	"Allantoinase"	7	0	1	2	0	0	2	2	0	0	0	0	0	0	0	0	7	0	1	2	0	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_3580"	"putative hydrolase"	7	1	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	1	1	1	1	1	1	1
+"SVEN_3971"	"putative integral membrane protein"	7	0	0	0	1	1	3	2	1	0	0	0	0	0	1	0	6	0	0	0	1	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_5525"	"putative glycosyltransferase"	7	0	0	2	2	1	0	2	0	0	0	0	0	0	0	0	7	0	0	2	2	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_3212"	"hypothetical protein"	7	0	0	0	2	0	3	2	1	0	0	0	0	0	1	0	6	0	0	0	2	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_3022"	"putative membrane protein"	6	0	0	0	0	0	3	3	0	0	0	0	0	0	0	0	4	0	0	0	0	0	2	2	2	0	0	0	0	0	1	1
+"SVEN_4651"	"putative small membrane protein"	6	0	0	0	0	2	2	2	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	3	0	0	0	0	1	1	1
+"SVEN_2982"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5572"	"Methylmalonate-semialdehyde dehydrogenase"	6	1	1	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	1	0	1	1	1
+"SVEN_4173"	"Lead%2C cadmium%2C zinc and mercury transporting ATPase %3B Copper-translocating P-type ATPase"	6	0	1	0	2	1	0	2	0	0	0	0	0	0	0	0	6	0	1	0	2	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_1353"	"Chitin binding protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1341"	"glycosyltransferase"	6	0	0	0	0	1	3	2	1	0	0	0	0	0	1	0	2	0	0	0	0	0	1	1	3	0	0	0	0	1	1	1
+"SVEN_1462"	"secreted subtilisin protease"	6	0	0	0	0	2	2	2	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	3	0	0	0	0	1	1	1
+"SVEN_4084"	"Adenosylhomocysteinase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0946"	"Permease of the drug or metabolite transporter (DMT) superfamily"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0014"	"Phosphoesterase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7298"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0681"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4257"	"Menaquinone via futalosine step 1"	6	0	2	0	0	2	2	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	3	0	1	0	0	1	1	0
+"SVEN_3186"	"hypothetical protein"	6	0	0	0	1	1	2	2	0	0	0	0	0	0	0	0	6	0	0	0	1	1	2	2	0	0	0	0	0	0	0	0
+"SVEN_3122"	"putative acetyltransferase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1356"	"DNA polymerase III alpha subunit"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0061"	"putative lipoprotein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1548"	"Ethidium bromide-methyl viologen resistance protein EmrE"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5192"	"Transcriptional regulator%2C TetR family"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3648"	"hypothetical protein"	6	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	1	1	1	1	0
+"SVEN_5615"	"regulatory protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6248"	"Transcriptional regulator%2C GntR family domain or Aspartate aminotransferase"	6	1	1	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	0	1	1	1	1
+"SVEN_5092"	"Superfamily I DNA and RNA helicases"	6	1	1	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	1	0	1	1	1
+"SVEN_2444"	"putative sugar transport inner membrane protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6040"	"Enolase"	6	0	0	2	3	1	0	0	1	0	0	0	1	0	0	0	5	0	0	2	2	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5854"	"hypothetical protein"	6	0	0	4	0	2	0	0	0	0	0	0	0	0	0	0	4	0	0	3	0	1	0	0	2	0	0	1	0	1	0	0
+"SVEN_0046"	"acyl-coenzyme A:6-aminopenicillanic-acid-acyltransferase precursor"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4010"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4436"	"SAM-dependent methyltransferases"	6	0	2	2	0	2	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	3	0	1	1	0	1	0	0
+"SVEN_1857"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2288"	"putative efflux membrane protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1219"	"Iron utilization protein"	6	0	0	0	2	0	2	2	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	3	0	0	0	1	0	1	1
+"SVEN_2225"	"putative oxidoreductase YncB"	6	0	2	2	2	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	3	0	1	1	1	0	0	0
+"SVEN_5132"	"hypothetical protein"	6	0	1	0	2	1	1	1	1	0	0	0	1	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6548"	"hypothetical protein"	6	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	1	1	1	0	1
+"SVEN_2480"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3819"	"hypothetical protein"	6	0	1	0	2	1	2	0	0	0	0	0	0	0	0	0	6	0	1	0	2	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_2384"	"Adenylate cyclase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2930"	"putative ABC transporter ATP-binding protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3505"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6680"	"cytochrome P450 monooxygenase"	6	0	0	0	0	2	2	2	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	3	0	0	0	0	1	1	1
+"SVEN_2441"	"putative ROK-family transcriptional regulator"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3194"	"putative phosphatase YieH"	6	0	1	2	0	1	2	0	0	0	0	0	0	0	0	0	6	0	1	2	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_3994"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1012"	"hypothetical protein"	6	1	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	0	1	1	1	1	1
+"SVEN_4305"	"putative two-component system response regulator"	6	0	0	0	2	1	3	0	0	0	0	0	0	0	0	0	6	0	0	0	2	1	3	0	0	0	0	0	0	0	0	0
+"SVEN_0019"	"protein kinase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1430"	"Phospholipid-binding protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3001"	"Transcriptional regulator%2C TetR family"	6	0	0	2	0	2	2	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	3	0	0	1	0	1	1	0
+"SVEN_6970"	"Endoglucanase celA precursor"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5663"	"Primosomal protein I"	6	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	1	1	1	1	0
+"SVEN_0431"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4073"	"acyl dehydratase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5957"	"Xylose repressor XylR"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4233"	"putative acyl-CoA dehydrogenase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0953"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4909"	"putative anti-sigma factor"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3581"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1
+"SVEN_3852"	"hypothetical protein"	6	1	1	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	0	1	1	1	1
+"SVEN_0059"	"ABC-type multidrug transport system%2C ATPase component"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1755"	"ABC-type multidrug transport system%2C ATPase component"	6	0	1	1	1	1	2	0	1	0	0	0	0	0	1	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6020"	"Transcriptional regulator%2C TetR family"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3905"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2214"	"Transcriptional regulator%2C TetR family"	6	0	2	2	0	2	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	3	0	1	1	0	1	0	0
+"SVEN_4345"	"DNA-directed RNA polymerase beta subunit"	6	0	2	2	0	2	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	3	0	1	1	0	1	0	0
+"SVEN_4148"	"putative integral membrane protein"	6	0	1	0	3	0	2	0	1	0	0	0	1	0	0	0	5	0	1	0	2	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_1558"	"ABC-type multidrug transport system%2C ATPase component"	6	0	2	0	0	2	2	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	3	0	1	0	0	1	1	0
+"SVEN_6600"	"Alpha-N-arabinofuranosidase"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4710"	"hypothetical protein"	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	6	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1161"	"putative acetyltransferase"	6	0	0	1	1	1	2	1	1	0	0	0	0	0	1	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5438"	"LPXTG-motif cell wall anchor domain"	6	0	1	1	0	1	2	1	1	0	0	0	0	0	1	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6039"	"Transcriptional regulator%2C MarR family"	6	0	0	2	0	0	2	2	0	0	0	0	0	0	0	0	6	0	0	2	0	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_1722"	"putative secreted alkaline phosphatase"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_2296"	"hypothetical protein"	5	0	1	0	2	1	1	0	1	0	0	0	1	0	0	0	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6828"	"putative integral membrane protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4696"	"putative secreted protein"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1
+"SVEN_5921"	"hypothetical protein"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_2052"	"hypothetical protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0
+"SVEN_1140"	"putative regulator"	5	1	2	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	3	1	1	0	0	0	0	1
+"SVEN_0499"	"putative transposase"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7224"	"Long-chain-fatty-acid--CoA ligase"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4071"	"putative transporter"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5759"	"putative oxidoreductase"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3185"	"putative RNA polymerase ECF-subfamily sigma factor"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_0866"	"hypothetical protein"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2645"	"putative integral membrane protein"	5	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	1	0	1	1	1
+"SVEN_5991"	"acetyl-coenzyme A carboxyl transferase alpha chain or Acetyl-coenzyme A carboxyl transferase beta chain %3B Propionyl-CoA carboxylase beta chain"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1624"	"SAM-dependent methyltransferases"	5	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	1	1	0	1	1	0
+"SVEN_6900"	"sugar transport system permease protein"	5	0	1	0	0	1	2	1	1	0	0	0	0	0	1	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0916"	"major facilitator family transporter%2C putative"	5	1	2	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	3	1	1	1	0	0	0	0
+"SVEN_1954"	"Heme ABC transporter%2C ATPase component HmuV"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3625"	"hypothetical protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0
+"SVEN_4993"	"hypothetical protein"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_7139"	"ABC transporter solute-binding protein"	5	1	0	0	2	2	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	3	1	0	0	1	1	0	0
+"SVEN_2721"	"Nitrate or nitrite transporter"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0364"	"RNA polymerase sigma factor SigB"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3793"	"hypothetical protein"	5	1	2	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	3	1	1	1	0	0	0	0
+"SVEN_3538"	"Predicted transcriptional regulator of 4-carboxymuconolactone decarboxylase%2C Rrf2 family"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6572"	"Nitric oxide synthase oxygenase"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_2886"	"hypothetical protein"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6947"	"putative secreted protein"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6940"	"major facilitator superfamily permease"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2727"	"Cell division transporter%2C ATP-binding protein FtsE"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0224"	"Transcriptional regulator%2C AsnC family"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4552"	"N-acyl-L-amino acid amidohydrolase"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_2286"	"Pyruvate%2Cphosphate dikinase"	5	0	1	3	0	1	0	0	0	0	0	0	0	0	0	0	5	0	1	3	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2357"	"putative DNA-binding protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2817"	"hypothetical protein"	5	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	1	0	1	1	1
+"SVEN_3428"	"putative regulatory protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5396"	"Two-component hybrid sensor and regulator"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3688"	"Replicative DNA helicase"	5	0	1	2	0	0	2	0	0	0	0	0	0	0	0	0	5	0	1	2	0	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_2433"	"Permease of the drug or metabolite transporter (DMT) superfamily"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6744"	"Alpha-L-arabinofuranosidase II precursor"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3831"	"putative ABC transporter ATP-binding protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1
+"SVEN_2955"	"Trans-aconitate 2-methyltransferase"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6237"	"3-oxoacyl-[acyl-carrier-protein] synthase%2C KASII"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2128"	"hypothetical protein"	5	1	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	1	1	0	0	1	1
+"SVEN_0389"	"gas vesicle synthesis protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5969"	"ScbA protein"	5	0	0	2	0	1	2	0	0	0	0	0	0	0	0	0	5	0	0	2	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_1778"	"2-Amino-2-deoxy-isochorismate synthase"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7324"	"Phage tail length tape-measure protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5728"	"site-specific recombinase%2C phage integrase family"	5	0	1	0	1	0	2	1	1	0	0	0	0	0	1	0	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3332"	"Carbonic anhydrase"	5	0	0	1	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	1	0	0	2	2
+"SVEN_6416"	"Sphingomyelinase C precursor"	5	1	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	1	1	1	0	1
+"SVEN_2039"	"hypothetical protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0629"	"transcriptional regulator"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5667"	"hypothetical protein"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4816"	"Transcriptional regulator%2C TetR family"	5	0	1	2	0	0	0	2	0	0	0	0	0	0	0	0	5	0	1	2	0	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_0091"	"hypothetical protein"	5	0	0	0	1	1	2	1	1	0	0	0	0	0	1	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1277"	"Transcriptional regulator%2C GntR family"	5	1	0	0	4	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	3	1	0	0	2	0	0	0
+"SVEN_5218"	"Protein yceI precursor"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6826"	"putative integral membrane protein"	5	1	2	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	3	1	1	0	0	0	0	1
+"SVEN_6888"	"hypothetical protein"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3209"	"alanine-rich protein"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_3340"	"Endonuclease III"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5573"	"Branched-chain acyl-CoA dehydrogenase"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3764"	"putative signal protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0895"	"hypothetical protein"	5	1	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	1	1	0	0	1	1
+"SVEN_4449"	"putative dehydrogenase"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6247"	"Anthranilate phosphoribosyltransferase"	5	1	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	1	0	0	1	1	1
+"SVEN_4495"	"Methylenetetrahydrofolate dehydrogenase (NADP+) or Methenyltetrahydrofolate cyclohydrolase"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2776"	"Sporulation regulatory protein WhiB"	5	1	0	2	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	3	1	0	1	0	0	0	1
+"SVEN_4181"	"hypothetical protein"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2038"	"Aldehyde dehydrogenase"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1750"	"hypothetical protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3766"	"hypothetical protein"	5	0	0	2	3	0	0	0	1	0	0	0	1	0	0	0	4	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6905"	"Endo-1%2C4-beta-xylanase A precursor"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6546"	"hypothetical protein"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_6605"	"hypothetical protein"	5	0	1	1	1	1	0	1	0	0	0	0	0	0	0	0	5	0	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_4178"	"hypothetical protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4841"	"hypothetical protein"	5	1	0	2	2	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	3	1	0	1	1	0	0	0
+"SVEN_4457"	"putative UDP-glucose or GDP-mannose dehydrogenase"	5	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	3	2	0	0	0	0	0	0	2
+"SVEN_0737"	"lipoprotein"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6500"	"hypothetical protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3767"	"DNA-binding protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0960"	"hypothetical protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4235"	"putative regulatory protein"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_7373"	"hypothetical protein"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0408"	"ATPase component CbiO of energizing module of cobalt ECF transporter"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6688"	"dehydrogenase"	5	0	0	2	0	1	0	2	0	0	0	0	0	0	0	0	5	0	0	2	0	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_0047"	"transcriptional regulator%2C LacI family"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3818"	"hypothetical protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2429"	"hypothetical protein"	5	0	1	1	0	1	2	0	1	0	0	0	0	0	1	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_2595"	"putative C1 regulatory protein"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7403"	"hypothetical protein"	5	0	1	2	0	0	2	0	0	0	0	0	0	0	0	0	5	0	1	2	0	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_1856"	"putative regulator"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_4583"	"lipoprotein"	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	5	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5748"	"hypothetical protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3569"	"putative acyl-CoA dehydrogenase"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1754"	"hypothetical protein"	5	0	0	0	0	0	3	2	1	0	0	0	0	0	1	0	4	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_0997"	"Lactam utilization protein LamB"	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	5	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3273"	"putative DNA-binding protein"	5	0	1	1	1	1	0	1	0	0	0	0	0	0	0	0	5	0	1	1	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_0327"	"Ribulose-5-phosphate 4-epimerase and related epimerases and aldolases"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4658"	"Phosphoenolpyruvate carboxykinase"	5	0	1	0	0	0	4	0	1	0	0	0	0	0	1	0	4	0	1	0	0	0	3	0	0	0	0	0	0	0	0	0
+"SVEN_7363"	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	5	0	1	1	0	1	2	0	1	0	0	0	0	0	1	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6312"	"probable exported protease"	5	1	2	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	3	1	1	0	0	0	0	1
+"SVEN_3235"	"L-allo-threonine aldolase"	5	0	1	0	1	1	2	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	4	0	1	0	1	1	1	0
+"SVEN_4320"	"possible membrane protein"	5	0	0	0	3	0	0	2	1	0	0	0	1	0	0	0	4	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_2652"	"H-N-H endonuclease F-TflIV"	5	0	0	0	2	1	1	1	1	0	0	0	1	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6838"	"Tyrosinase cofactor precursor"	5	0	0	2	0	1	2	0	0	0	0	0	0	0	0	0	5	0	0	2	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_2068"	"hypothetical protein"	5	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	1	1	1
+"SVEN_7396"	"putative cytochrome P450 hydroxylase"	5	0	0	2	0	1	2	0	0	0	0	0	0	0	0	0	5	0	0	2	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_4191"	"hypothetical protein"	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0	5	0	1	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3633"	"putative integral membrane protein"	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	5	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3504"	"cold shock protein"	5	1	2	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	3	1	1	0	0	0	0	1
+"SVEN_0584"	"branched amino acid transport system ATP-binding protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2724"	"tmRNA-binding protein SmpB"	5	0	1	2	0	0	2	0	0	0	0	0	0	0	0	0	5	0	1	2	0	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_5194"	"hypothetical protein"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7435"	"IS1647 transposase"	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	5	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4293"	"transcriptional regulatory protein"	4	0	0	1	2	0	0	1	1	0	0	0	1	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2909"	"Transcriptional regulator%2C AraC family"	4	0	0	1	0	0	2	1	1	0	0	0	0	0	1	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3963"	"Phosphate regulon sensor protein PhoR (SphS)"	4	0	0	1	2	0	0	1	1	0	0	0	1	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2823"	"Diaminopimelate decarboxylase"	4	0	0	0	2	0	2	0	0	0	0	0	0	0	0	0	4	0	0	0	2	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_3134"	"putative oxidoreductase"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2142"	"Phage capsid and scaffold"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4014"	"conserved hypothetical protein"	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1461"	"putative integral membrane protein"	4	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	2	0	0	0	0	0	1	1
+"SVEN_4760"	"Dipeptide transport system permease protein DppB"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5586"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1
+"SVEN_6899"	"sugar ABC transporter%2C permease protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5153"	"putative ABC transporter ATP-binding protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1626"	"probably membrane protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3941"	"Transcriptional regulator%2C MarR family"	4	0	1	0	0	1	2	0	0	0	0	0	0	0	0	0	4	0	1	0	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_3500"	"hypothetical protein"	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4601"	"Methylglutaconyl-CoA hydratase"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4494"	"integral membrane protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6543"	"hypothetical protein"	4	0	0	0	2	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0
+"SVEN_1074"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0102"	"monooxygenase_"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0223"	"L-asparaginase"	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0473"	"hypothetical protein"	4	1	0	0	0	0	0	3	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	2	1	0	0	0	0	0	1
+"SVEN_3615"	"Phenylacetate-CoA oxygenase%2C PaaI subunit"	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7056"	"formyltransferase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3082"	"sodium-solute symporter%2C putative"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0073"	"Transcriptional regulator%2C GntR family"	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_6420"	"hypothetical protein"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5489"	"Transcriptional regulator%2C TetR family"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5152"	"oligopeptide transport system integral membrane protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_2187"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1190"	"Phenylalanyl-tRNA synthetase alpha chain"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4366"	"hypothetical protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3691"	"Beta-lactamase"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6603"	"Predicted rhamnose oligosaccharide ABC transport system%2C permease component"	4	0	1	0	1	0	2	0	1	0	0	0	0	0	1	0	3	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4419"	"Holo-[acyl-carrier protein] synthase"	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_2757"	"putative integral membrane protein"	4	0	0	2	0	2	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	2	0	0	1	0	1	0	0
+"SVEN_2926"	"Transcription-repair coupling factor"	4	0	0	2	0	2	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	2	0	0	1	0	1	0	0
+"SVEN_2250"	"Small hypothetical protein Hyp1"	4	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	2	0	0	1	0	0	0	1
+"SVEN_2303"	"hypothetical protein"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3724"	"hypothetical protein"	4	0	0	1	0	0	2	1	1	0	0	0	0	0	1	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_7339"	"Thiol peroxidase%2C Tpx-type"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0
+"SVEN_2715"	"putative transcriptional regulator"	4	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1	0	1	0	0	1
+"SVEN_0140"	"Catalase"	4	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	4	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_7002"	"hypothetical protein"	4	0	1	0	0	1	0	2	0	0	0	0	0	0	0	0	4	0	1	0	0	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_1843"	"Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex"	4	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	4	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3857"	"possible diacylglycerol kinase%2C catalytic region"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4451"	"putative LysR-family transcriptional regulator"	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_4128"	"putative ATP-dependent DNA helicase"	4	0	0	1	0	1	2	0	1	0	0	0	0	0	1	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3405"	"Kynureninase"	4	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0	4	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1330"	"hypothetical protein"	4	0	0	0	2	0	2	0	0	0	0	0	0	0	0	0	4	0	0	0	2	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_6023"	"Major facilitator superfamily permease"	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2415"	"superoxide dismutase"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1501"	"putative secreted protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7008"	"hypothetical protein"	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5040"	"hypothetical protein"	4	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	4	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_2938"	"cellulose-binding protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0437"	"phosphoesterase%2C PA-phosphatase"	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2348"	"regulatory protein%2C ArsR"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3900"	"Phosphate ABC transporter%2C periplasmic phosphate-binding protein PstS"	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_0642"	"hypothetical protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4338"	"Preprotein translocase subunit SecE"	4	0	0	2	0	2	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	2	0	0	1	0	1	0	0
+"SVEN_2306"	"probable oxidoreductase"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5745"	"putative phospholipase protein"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4648"	"hypothetical protein"	4	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	4	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0
+"SVEN_3820"	"hypothetical protein"	4	1	0	0	0	0	2	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	3	1	0	0	0	0	1	1
+"SVEN_2291"	"Aldo-keto reductase"	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1963"	"putative bicyclomycin resistance protein"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3734"	"Seryl-tRNA synthetase"	4	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0	4	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0101"	"secreted hydrolase"	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_7286"	"putative secreted protein"	4	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	2	1	0	1	0	0	0	0
+"SVEN_4863"	"Transcriptional regulator%2C TetR family"	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6802"	"Aspartate 1-decarboxylase"	4	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0123"	"Choline or glycine betaine ABC transporter%2Csubstrate binding protein"	4	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0	4	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4632"	"RdlA protein"	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3659"	"Inner membrane protein translocase component YidC%2C long form"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4643"	"transferase"	4	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1	0	0	0	1	1
+"SVEN_7427"	"Transcriptional regulator%2C TetR family"	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_5757"	"Transcriptional regulator%2C TetR family"	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2253"	"Lipid A export ATP-binding or permease protein MsbA"	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7440"	"hypothetical protein"	4	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	4	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0
+"SVEN_4264"	"putative NLP or P60 family protein"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4190"	"hypothetical protein"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0985"	"D-alanyl-D-alanine dipeptidase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3256"	"Cell division protein FtsH"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0080"	"putative sugar binding protein"	4	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0	4	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_1637"	"Branched-chain amino acid transport ATP-binding protein LivG"	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4089"	"hypothetical protein"	4	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	2	0	0	0	1	0	0	1
+"SVEN_4450"	"Uncharacterized protein conserved in bacteria"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4929"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4327"	"Cytosine deaminase"	4	1	0	0	0	0	0	3	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	2	1	0	0	0	0	0	1
+"SVEN_0150"	"hypothetical protein"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4199"	"Long-chain-fatty-acid--CoA ligase"	4	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0	4	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_1847"	"3-oxoacyl-[acyl-carrier protein] reductase"	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_5719"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4917"	"Dihydrofolate reductase"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4361"	"Collagen triple helix repeat"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6066"	"probable regulatory protein"	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4289"	"hypothetical protein"	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	4	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7111"	"cyclase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1447"	"Transcriptional regulator%2C GntR family"	4	0	1	0	0	0	3	0	0	0	0	0	0	0	0	0	4	0	1	0	0	0	3	0	0	0	0	0	0	0	0	0
+"SVEN_2805"	"hypothetical protein"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2731"	"serine or threonine protein kinase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3962"	"Phosphate transport system regulatory protein PhoU"	4	0	0	1	2	0	0	1	1	0	0	0	1	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2642"	"probable membrane protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_4569"	"secreted protein"	4	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	4	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_4914"	"cAMP-binding proteins"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1433"	"putative stomatin or prohibitin-family membrane protease subunit YbbK"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3556"	"hypothetical protein"	4	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	1	0	1	1
+"SVEN_2918"	"hypothetical protein"	4	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0	4	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1775"	"2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase II"	4	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1	1	0	1	0	0
+"SVEN_4905"	"WhiB transcription regulator"	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	1	0	1	1	1
+"SVEN_0020"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3845"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1373"	"putative DHA2-subfamily multidrug transporter"	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7428"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5860"	"putative lipoprotein"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4222"	"hypothetical protein"	4	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	0	1	1	1
+"SVEN_6022"	"Transcriptional regulator%2C ArsR family"	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4332"	"putative transmembrane efflux protein"	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_5595"	"hypothetical protein"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2991"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0500"	"reductase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_3210"	"DNA repair protein RadA"	4	1	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	1	0	1	1	0
+"SVEN_5578"	"Malate synthase"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_7267"	"putative integral membrane protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5186"	"D-3-phosphoglycerate dehydrogenase"	4	0	0	0	2	0	1	1	1	0	0	0	1	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4492"	"hypothetical protein"	4	0	0	0	3	1	0	0	1	0	0	0	1	0	0	0	3	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0217"	"hypothetical protein"	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0630"	"secreted protein"	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	4	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2182"	"Tellurium resistance protein TerD"	4	0	0	0	2	0	1	1	1	0	0	0	1	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4523"	"oligopeptide binding protein"	4	0	0	1	0	1	2	0	1	0	0	0	0	0	1	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0811"	"putative ABC-transporter ATP-binding protein"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6182"	"putative transcriptional regulator"	4	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1	0	1	0	0	1
+"SVEN_3057"	"RNA polymerase principal sigma factor HrdD"	4	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	1	1	0	1
+"SVEN_3331"	"putative secreted protein"	4	1	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1	0	0	0	0	2
+"SVEN_4265"	"NADH ubiquinone oxidoreductase chain A"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6170"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0538"	"hypothetical protein"	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4771"	"putative peptidase"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6544"	"Transcriptional regulator%2C TetR family"	4	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	2	0	1	0	0	1	0	0
+"SVEN_0265"	"magnesium or manganese-dependent protein phosphatase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7338"	"Transcriptional regulator%2C FUR family"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3745"	"hypothetical protein"	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_5731"	"hypothetical protein"	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1
+"SVEN_2342"	"SSU ribosomal protein S20p"	4	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_1312"	"possible flavodoxin"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1162"	"putative RNA polymerase sigma factor"	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	4	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_6706"	"LSU ribosomal protein L28p"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0256"	"Integral membrane protein"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5514"	"putative peptidase"	4	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	1	1	1	1	0
+"SVEN_6306"	"Ethylmalonyl-CoA mutase%2Cmethylsuccinyl-CoA-forming"	4	0	0	3	0	1	0	0	0	0	0	0	0	0	0	0	4	0	0	3	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1212"	"Transcriptional regulator%2C LysR family"	4	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0	4	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1407"	"Alanine dehydrogenase"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1
+"SVEN_7115"	"putative endochitinase"	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	4	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_5432"	"putative glutamate uptake system ATP-binding protein"	4	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0	4	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1535"	"Tellurium resistance protein TerD"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_7059"	"Siderophore biosynthesis non-ribosomal peptide synthetase modules @ Bacillibactin synthetase component F"	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	4	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5794"	"hypothetical protein"	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0	4	0	1	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3778"	"putative transporter"	4	0	1	0	1	1	0	1	0	0	0	0	0	0	0	0	4	0	1	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_7401"	"hypothetical protein"	4	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	4	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0
+"SVEN_3248"	"putative membrane protein"	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6842"	"Periplasmic aromatic aldehyde oxidoreductase%2Ciron-sulfur subunit YagT"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4727"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1826"	"possible alpha-ribazole-5-phosphate phosphatase"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3464"	"cold shock protein"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_7112"	"methyltransferase"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5571"	"hypothetical protein"	4	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	1	1	0	1
+"SVEN_5113"	"putative lipoprotein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1987"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0163"	"amidotransferase-related protein"	4	0	0	2	0	2	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	2	0	0	1	0	1	0	0
+"SVEN_4979"	"Chitin binding protein"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3138"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6519"	"hypothetical protein"	4	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	4	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3608"	"3-hydroxybutyryl-CoA dehydrogenase precursor"	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	4	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0836"	"Transcriptional regulator%2C TetR family"	4	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	4	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4756"	"putative lipoprotein"	4	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	3	1	0	0	0	0	0	0	1
+"SVEN_7232"	"hydrolase"	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	4	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1593"	"hypothetical protein"	4	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	1	0	1	1
+"SVEN_2983"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_2046"	"putative 3-ketoacyl-CoA thiolase or acetyl-CoA acetyltransferase"	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	4	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3058"	"hypothetical protein"	4	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	1	0	1	1
+"SVEN_6438"	"Cobalt-zinc-cadmium resistance protein CzcD"	4	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4226"	"hypothetical protein"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6564"	"hypothetical protein"	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	4	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_0572"	"Chitinase"	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	4	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4246"	"hypothetical protein"	4	0	0	1	0	1	2	0	1	0	0	0	0	0	1	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1764"	"putative transcriptional regulatory protein"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0461"	"cold shock protein"	3	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	1	0	0	0	1
+"SVEN_7405"	"hypothetical protein"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5303"	"SSU ribosomal protein S2p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5349"	"Membrane-associated zinc metalloprotease"	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5512"	"zinc protease"	3	0	0	0	2	0	1	0	1	0	0	0	1	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5219"	"hypothetical protein"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_3861"	"putative transcriptional regulator%2C MerR family"	3	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	1	0
+"SVEN_7091"	"hypothetical protein"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2777"	"hypothetical protein SCE34.17"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4274"	"NADH-ubiquinone oxidoreductase chain J"	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_1196"	"hypothetical protein"	3	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	1	0
+"SVEN_0962"	"Glycine dehydrogenase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5856"	"hypothetical protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4585"	"Phosphomannomutase"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4490"	"Phosphoribosylglycinamide formyltransferase"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4649"	"PxORF73 peptide"	3	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	0	0	1	1
+"SVEN_6026"	"hypothetical protein"	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6225"	"regulatory protein%2C ArsR"	3	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	0	1
+"SVEN_5682"	"putative IS6 family transposase"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3797"	"hypothetical protein"	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0615"	"hypothetical protein"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0833"	"Urease alpha subunit"	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5720"	"hypothetical protein"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5472"	"putative secreted protein"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3436"	"hypothetical protein"	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_6216"	"amino acid adenylation domain"	3	0	1	0	2	0	0	0	1	0	0	0	1	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2462"	"putative ABC transporter ATP-binding protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4328"	"LSU ribosomal protein L33p"	3	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_7104"	"hypothetical protein"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2180"	"Integral membrane protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3398"	"putative ABC transporter ATP-binding protein"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4864"	"Quaternary ammonium compound-resistance protein sugE"	3	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	2	1	0	0	0	0	0	1
+"SVEN_4804"	"hypothetical protein"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2626"	"hypothetical protein"	3	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	0	1
+"SVEN_2353"	"Leucyl-tRNA synthetase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_6590"	"Beta-glucosidase"	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	0	1
+"SVEN_0610"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_5446"	"Permease of the drug or metabolite transporter (DMT) superfamily"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2729"	"hypothetical protein"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5031"	"putative membrane protein"	3	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0	3	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_4393"	"SSU ribosomal protein S8p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_2209"	"acyl carrier protein"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6700"	"hypothetical protein"	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_6457"	"hypothetical protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0
+"SVEN_6527"	"ATP-dependent Clp protease ATP-binding subunit ClpA"	3	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	3	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_7406"	"conserved repeat domain"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1083"	"Carbamoyl-phosphate synthase large chain"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4711"	"hypothetical protein"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5828"	"Uncharacterized protein Q1 colocalized with Q"	3	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	2	0	1	0	0	0	0	0	1	0
+"SVEN_6303"	"Methylsuccinyl-CoA dehydrogenase%2C predicted by"	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_4404"	"LSU ribosomal protein L36p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0770"	"hypothetical protein"	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1812"	"Cytochrome c oxidase polypeptide I"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4371"	"SSU ribosomal protein S12p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_4645"	"putative small membrane protein"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1435"	"putative ABC transporter ATP-binding protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0881"	"putative integral membrane protein"	3	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	3	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1657"	"Probable enoyl-CoA hydratase EchA20"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_0459"	"NADPH-dependent glyceraldehyde-3-phosphate dehydrogenase"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0436"	"Isocitrate dehydrogenase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4040"	"hypothetical protein"	3	0	0	0	2	0	1	0	1	0	0	0	1	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1185"	"3-hydroxybutyryl-CoA dehydrogenase %3B 3-hydroxyacyl-CoA dehydrogenase"	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7296"	"putative integral membrane protein"	3	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	1	0	0	0	0
+"SVEN_4288"	"Aminopeptidase Y (Arg%2C Lys%2C Leu preference)"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4809"	"hypothetical protein"	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2752"	"Ribosomal subunit interface protein"	3	0	0	0	2	0	0	1	1	0	0	0	1	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4534"	"Succinate dehydrogenase cytochrome b-556 subunit"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0306"	"Beta-lactamase (Cephalosporinase)"	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5146"	"Aminomethyltransferase (glycine cleavage system T protein)"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0992"	"hypothetical protein"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_1411"	"Glucoamylase and related glycosyl hydrolases"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5086"	"putative sodium:dicarboxylate symporter"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1845"	"Pyruvate dehydrogenase E1 component"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6469"	"hypothetical protein SCF81.12"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_6291"	"Glycine betaine transporter OpuD"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3451"	"hypothetical protein"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2505"	"hypothetical protein"	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_1730"	"putative DNA-binding protein"	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0867"	"hypothetical protein"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_2998"	"Substrate-specific component NikM of nickel ECF transporter or Additional substrate-specific component NikN of nickel ECF transporter"	3	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	2	0	1	0	0	0	0	0	1	0
+"SVEN_2640"	"5-methylcytosine-specific restriction related enzyme"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1194"	"LSU ribosomal protein L35p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1106"	"SSU ribosomal protein S4p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_1123"	"Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5722"	"hypothetical protein"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6717"	"ABC transporter periplasmic-binding protein YtfQ"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1048"	"putative transport protein"	3	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	1	0	0	0	0
+"SVEN_2416"	"hypothetical protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7149"	"hypothetical protein"	3	0	0	0	0	1	2	0	1	0	0	0	0	0	1	0	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3397"	"hypothetical protein"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4881"	"transcriptional regulator%2C LuxR family"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5433"	"putative two-component system response regulator"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5540"	"putative membrane protein"	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3029"	"Penicillin amidase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_6001"	"hypothetical protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1426"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4346"	"DNA-directed RNA polymerase beta subunit"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4493"	"hypothetical protein"	3	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5881"	"Translation elongation factor G"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4489"	"hypothetical protein"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6525"	"ATP-dependent DNA helicase RecQ"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5240"	"5-carboxymethyl-2-hydroxymuconate delta-isomerase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7326"	"Phospholipase C"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4174"	"regulatory protein"	3	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	3	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3626"	"hypothetical protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0
+"SVEN_3371"	"Aspartate-semialdehyde dehydrogenase"	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0081"	"D-3-phosphoglycerate dehydrogenase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1458"	"hypothetical protein"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4403"	"Translation initiation factor 1"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_2229"	"two-component system sensor kinase"	3	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	2	0	0	0	2	0	0	0
+"SVEN_2295"	"Glycyl-tRNA synthetase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_6308"	"Transcriptional regulator%2C TetR family"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4065"	"hypothetical protein"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3121"	"putative membrane protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0784"	"protein YceG"	3	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	0	1
+"SVEN_3725"	"putative ABC transporter ATP-binding protein"	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5056"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5297"	"Endonuclease"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4317"	"NADH-ubiquinone oxidoreductase chain N"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4069"	"hypothetical protein"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2406"	"putative membrane protein"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_2965"	"hypothetical protein"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1271"	"putative peptidase"	3	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	1	0	0	1
+"SVEN_4766"	"Oligopeptide transport system permease protein OppB"	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6881"	"hypothetical protein"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2358"	"Phosphoglycerate mutase family"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5602"	"hypothetical protein"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2608"	"putative two-component system response regulator"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5469"	"GTP pyrophosphokinase%2C (p)ppGpp synthetase I"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_4899"	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5374"	"hypothetical protein"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5769"	"hypothetical protein"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5652"	"hypothetical protein"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0
+"SVEN_1156"	"Methionine ABC transporter substrate-binding protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5271"	"hypothetical protein"	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	0	1
+"SVEN_5385"	"SSU ribosomal protein S15p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_3876"	"Transcriptional regulator%2C MarR family"	3	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	3	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3672"	"tRNA nucleotidyltransferase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3909"	"5-nucleotidase"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_2751"	"putative two-component system response regulator"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7353"	"hypothetical protein"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4697"	"putative integral membrane protein"	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7451"	"hypothetical protein"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4413"	"SSU ribosomal protein S9p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3098"	"putative thiolase"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0977"	"hypothetical protein"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5052"	"Transcriptional regulator%2C MarR family"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4043"	"Alpha%2Calpha-trehalose-phosphate synthase"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_7305"	"MoxR ATPases"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0590"	"hypothetical protein"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_7404"	"Aldo-keto reductase"	3	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	3	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_0559"	"regulatory protein%2C TetR"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5501"	"hypothetical protein"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2607"	"Transcriptional regulator%2C IclR family"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5968"	"Transcriptional regulator%2C TetR family"	3	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2069"	"hypothetical protein"	3	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	0	0	1	1
+"SVEN_0100"	"hypothetical protein"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4845"	"Ubiquinone biosynthesis monooxygenase UbiB"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6737"	"Maltose or maltodextrin ABC transporter%2C permease protein MalF"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1920"	"TraB protein"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_7230"	"Transcription regulator"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4780"	"putative acetyltransferase"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5763"	"hypothetical protein"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3171"	"hypothetical protein"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6919"	"Alpha-glucosides-binding periplasmic protein AglE precursor"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2666"	"ABC transporter (iron.B12.siderophore.hemin)%2C periplasmic substrate-binding component"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4568"	"Adenosine deaminase"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_2916"	"hypothetical protein"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3643"	"putative regulatory protein"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6028"	"hypothetical protein"	3	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	2	1	0	0	0	0	1	0
+"SVEN_4300"	"putative serine or threonine protein kinase"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_7007"	"hypothetical protein"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0254"	"hypothetical protein"	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2464"	"hypothetical protein"	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5756"	"amino acid transporter%2C APC family"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0255"	"hypothetical protein"	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2226"	"Transcriptional regulator%2C MarR family"	3	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	2	1	0	0	0	0	1	0
+"SVEN_6738"	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1731"	"Isoleucyl-tRNA synthetase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5257"	"LSU ribosomal protein L28p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_4412"	"LSU ribosomal protein L13p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_4329"	"posible acyl dehydratase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_0894"	"Nitrilotriacetate monooxygenase component B"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_0991"	"putative sensor histidine kinase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2231"	"Long-chain-fatty-acid--CoA ligase"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3263"	"DedA protein"	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0230"	"RNA polymerase sigma factor SigB"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0006"	"hypothetical protein"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1031"	"putative CbxX or CfqX family protein"	3	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	0	0	1	1
+"SVEN_6624"	"putative integral membrane transport protein"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6029"	"putative helicase"	3	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	0	1
+"SVEN_4037"	"N-acetylglucosamine-6-phosphate deacetylase"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4487"	"hypothetical protein"	3	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	2	1	0	0	0	0	0	1
+"SVEN_2491"	"hypothetical protein"	3	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0	3	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_4373"	"Translation elongation factor G"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3404"	"putative lipase or esterase"	3	0	0	1	0	0	2	0	1	0	0	0	0	0	1	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5996"	"Glucose-1-phosphate thymidylyltransferase"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_4231"	"putative cyclohex-1-ene-1-carboxylate:CoA ligase"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_7297"	"TetR-family transcriptional regulator"	3	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	1	0	0	0
+"SVEN_4673"	"hypothetical protein"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4339"	"Transcription antitermination protein NusG"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1270"	"putative small membrane protein"	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6874"	"hypothetical protein"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_3640"	"putative WhiP protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5668"	"Na+ or H+ antiporter NhaD type"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3002"	"putative protease"	3	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	2	1	0	0	0	0	0	1
+"SVEN_0974"	"PTS system%2C N-acetylglucosamine-specific IIA component"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7337"	"Catalase or Peroxidase"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6229"	"Tryptophan halogenase PrnA"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_6050"	"hypothetical protein"	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_5187"	"Sensory box or GGDEF family protein"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1374"	"putative integral membrane protein"	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5758"	"Transcriptional regulator%2C TetR family"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2963"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2020"	"6-phosphogluconate dehydrogenase_"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5734"	"hypothetical protein"	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4111"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4097"	"TetR-family transcriptional regulator"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3736"	"Dyp-type peroxidase family protein"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3836"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7448"	"hypothetical protein"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3285"	"ABC transporter ATP-binding protein"	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_5275"	"Cytosine or purine or uracil or thiamine or allantoin permease family protein"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3950"	"putative NLP or P60-family secreted protein"	3	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	3	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0
+"SVEN_0521"	"Transcriptional regulator%2C PadR family"	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0303"	"hypothetical protein"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_3661"	"rRNA small subunit methyltransferase%2C glucose inhibited division protein GidB"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4385"	"SSU ribosomal protein S3p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2735"	"ABC alpha-glucoside transporter%2C inner membrane subunit AglF"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1640"	"Pyruvate kinase"	3	0	0	0	2	0	0	1	1	0	0	0	1	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1777"	"N-acetylmuramoyl-L-alanine amidase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1473"	"DNA polymerase III epsilon subunit"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1858"	"Octanoate-[acyl-carrier-protein]-protein-N-octanoyltransferase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_5272"	"Chromosome partition protein smc"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0
+"SVEN_0228"	"L-ectoine synthase"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4232"	"BarH"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1502"	"Uncharacterized ABC transporter ATP-binding protein"	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	3	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0293"	"Phenylacetate-coenzyme A ligase PaaF"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1894"	"Maltose or maltodextrin ABC transporter%2Csubstrate binding periplasmic protein MalE"	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	3	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_6086"	"Catalase"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_0650"	"hypothetical protein"	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_2304"	"Ferredoxin--NADP(+) reductase%2C actinobacterial (eukaryote) type"	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7410"	"ATP or GTP binding protein"	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	3	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_0458"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0529"	"Catalase or Peroxidase"	3	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	2	1	1	0	0	0	0	0
+"SVEN_4268"	"NADH-ubiquinone oxidoreductase chain D"	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0
+"SVEN_6394"	"ATP-dependent DNA ligase LigC"	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5011"	"LSU ribosomal protein L31p"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4992"	"putative membrane protein"	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3698"	"putative LysR-family transcriptional regulator"	3	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	3	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_4150"	"hypothetical protein"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3762"	"secreted protein"	3	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1	0	0	0	0	1
+"SVEN_4104"	"Rhs protein"	3	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	3	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4151"	"Transcriptional regulator%2C MarR family"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_1909"	"hypothetical protein"	3	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0	3	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_5812"	"aconitate hydratase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_1077"	"Phosphopantothenoylcysteine decarboxylase or Phosphopantothenoylcysteine synthetase"	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	3	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_6977"	"putative regulatory protein"	3	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	3	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0
+"SVEN_7327"	"DeoR-family transcriptional regulator"	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3746"	"hypothetical protein"	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_2801"	"Di-or tripeptide transporter"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4661"	"hypothetical protein"	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	3	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4414"	"Phosphoglucosamine mutase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7351"	"hypothetical protein"	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	3	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_1175"	"Argininosuccinate synthase"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7200"	"Undecaprenyl-phosphategalactosephosphotransferase"	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_0432"	"Universal stress protein family"	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	3	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_7395"	"hypothetical protein"	3	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	1	1	0	1	0	0
+"SVEN_1141"	"hypothetical protein"	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_0837"	"putative membrane protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3882"	"hypothetical protein"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4705"	"Multimodular transpeptidase-transglycosylase"	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_1709"	"putative membrane-associated oxidoreductase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_2825"	"hypothetical protein"	2	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	1	0	0	0
+"SVEN_1014"	"glycosyl transferase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1753"	"S-adenosylmethionine-dependentmethyltransferase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4847"	"Zinc metalloprotease"	2	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_2399"	"Valyl-tRNA synthetase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2594"	"hypothetical protein"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3723"	"putative oxidoreductase"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1195"	"Translation initiation factor 3"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_1469"	"hypothetical protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3172"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0395"	"S-adenosyl-L-methionine dependent methyltransferase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3106"	"TetR-family transcriptional regulator"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_5205"	"3-isopropylmalate dehydrogenase"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1552"	"Cysteine desulfurase%2C SufS subfamily"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1153"	"Cobalamin biosynthesis protein BluB @ 5%2C6-dimethylbenzimidazole synthase%2C flavin destructase family or Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase"	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4078"	"Holo-[acyl-carrier protein] synthase"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2822"	"Urocanate hydratase"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1749"	"MoxR ATPases"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0
+"SVEN_3948"	"putative membrane protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5046"	"putative ABC transporter ATP-binding protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4674"	"Chitinase"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5005"	"Diaminopimelate decarboxylase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7266"	"putative methyltransferase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7212"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4872"	"putative integral membrane protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1
+"SVEN_1401"	"Ribosyl nicotinamide transporter%2C PnuC"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4924"	"putative dioxygenase"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1010"	"Glycerophosphoryl diester phosphodiesterase"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4665"	"possible integral membrane protein"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3631"	"Cell division protein FtsI"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_6109"	"Transcriptional regulator%2C IclR family"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6230"	"Signal transduction response regulator or Disease resistance domain-containing protein or Tetratricopeptide repeat-containing protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5832"	"Protoporphyrinogen IX oxidase%2C aerobic"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_6930"	"acetyltransferase"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3701"	"putative membrane protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3644"	"hypothetical protein"	2	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	1
+"SVEN_4623"	"Transcription elongation factor GreA"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0
+"SVEN_4440"	"Heat shock protein 60 family co-chaperone GroES"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1623"	"SSU ribosomal protein S1p"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_0812"	"secreted protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5917"	"Phosphoadenylyl-sulfate reductase%3B thioredoxin"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1005"	"putative ankyrin protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0
+"SVEN_1460"	"putative symporter YjcG"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_0614"	"hypothetical protein"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4374"	"Translation elongation factor Tu"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5055"	"DUF124 domain-containing protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3530"	"FMN reductase"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4520"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6427"	"hypothetical protein"	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4225"	"putative lipoprotein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6065"	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5006"	"Homoserine dehydrogenase"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5122"	"transcriptional regulator%2C LuxR family"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2405"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4704"	"Transcriptional regulator%2C PadR family"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7169"	"hypothetical protein"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1737"	"Cell division protein FtsZ"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2646"	"Multimodular transpeptidase-transglycosylase"	2	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	1	0	0	0	0	0
+"SVEN_5829"	"Uroporphyrinogen III decarboxylase"	2	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_2389"	"Rod shape-determining protein MreB"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_7057"	"Siderophore biosynthesis protein%2C monooxygenase"	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_4312"	"NADH-ubiquinone oxidoreductase chain I"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3908"	"acetyl-CoA:Cys-GlcN-Ins acetyltransferase%2Cmycothiol synthase MshD"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1808"	"Cytochrome c oxidase polypeptide III"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7372"	"putative peptidoglycan binding domain 1"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4901"	"Glucosamine-6-phosphate deaminase"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1842"	"Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5630"	"integral membrane protein"	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4253"	"hypothetical protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7222"	"protease"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4276"	"NADH-ubiquinone oxidoreductase chain L"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5072"	"cholesterol esterase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6002"	"reductase"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5439"	"hypothetical protein"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2892"	"putative ABC transporter ATP-binding protein"	2	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0
+"SVEN_0939"	"Transcriptional regulator%2C TetR family"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_5147"	"putative ATP or GTP binding protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2641"	"hypothetical protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4008"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6233"	"ABC transporter ATP-binding protein"	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4044"	"hypothetical protein"	2	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_3639"	"probable conserved membrane protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3752"	"secreted protein"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3463"	"Arsenate reductase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3338"	"putative serine protease"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3730"	"Transcriptional regulator%2C GntR family"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5563"	"hypothetical protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5770"	"hypothetical protein"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3108"	"acyl-CoA dehydrogenase"	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+"SVEN_4395"	"LSU ribosomal protein L18p"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5919"	"Ferredoxin--sulfite reductase%2C actinobacterial type"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2379"	"LSU ribosomal protein L21p"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_0616"	"Thioredoxin reductase"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3539"	"Transcriptional regulator%2C GntR family domain or Aspartate aminotransferase"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1184"	"predicted glycoside hydrolase"	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6722"	"hypothetical protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4015"	"hypothetical protein"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3162"	"hypothetical protein"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1642"	"2%2C3-cyclic-nucleotide 2-phosphodiesterase"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_6707"	"LSU ribosomal protein L31p"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2488"	"MutT protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3833"	"Phosphoribosylformylglycinamidine synthase%2C PurS subunit"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3148"	"probable conserved integral membrane protein"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3807"	"multiple antibiotic resistance (MarC)-related proteins"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4319"	"Peptidase M48%2C Ste24p precursor"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4542"	"putative lipoprotein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2341"	"Translation elongation factor LepA"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0
+"SVEN_0785"	"putative ABC transporter ATP-binding protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4389"	"LSU ribosomal protein L14p"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6279"	"hypothetical protein"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5747"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6419"	"putative metallopeptidase"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0082"	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3776"	"putative transporter"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5935"	"Probable GTPase"	2	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	1	0	0	0	0
+"SVEN_5827"	"two-component regulator"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6679"	"putative cytochrome P450 hydroxylase"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_6810"	"hypothetical protein"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2604"	"putative sensory box or GGDEF family protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1311"	"conserved hypothetical protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5334"	"Putrescine transport system permease protein PotI"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4828"	"Sulfur carrier protein adenylyltransferase ThiF"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5021"	"ATP synthase B chain"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5133"	"hypothetical protein"	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0
+"SVEN_3182"	"Redox-sensitive transcriptional regulator"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5032"	"Cob(I)alamin adenosyltransferase PduO"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0955"	"Transcriptional regulator%2C PadR family"	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0
+"SVEN_0617"	"Cytosine or purine or uracil or thiamine or allantoin permease family protein"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1861"	"Transmembrane protein"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_1042"	"Chitodextrinase precursor"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1884"	"hypothetical protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0
+"SVEN_3873"	"NADH dehydrogenase"	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1
+"SVEN_6059"	"hypothetical protein"	2	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_4803"	"putative metal-transport protein"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0880"	"putative transcriptional regulatory protein"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5273"	"putative sugar transporter"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6750"	"AsnC-family transcriptional regulator"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4898"	"putative sugar transporter integral membrane protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4470"	"putative two-component system sensor kinase"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1729"	"Lipoprotein signal peptidase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0747"	"putative RNA polymerase sigma factor"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1378"	"transferase"	2	0	0	0	0	0	2	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0736"	"putative secreted protein"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3630"	"Cell division protein FtsW"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2434"	"Transcriptional regulator%2C MarR family"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1007"	"putative membrane protein"	2	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	1
+"SVEN_3465"	"putative ATP-dependent RNA helicase"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3901"	"hypothetical protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4810"	"hypothetical protein"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3687"	"putative DNA-damage-inducible protein F"	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_7234"	"Flavohemoprotein (Hemoglobin protein) (Flavohemoglobin) (Nitric oxide dioxygenase)"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_6873"	"ADP-ribosylglycohydrolase"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6217"	"hypothetical protein"	2	0	0	0	2	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6238"	"hydrolase"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6211"	"major facilitator superfamily MFS_1 transporter"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_3097"	"Long-chain-fatty-acid--CoA ligase"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1723"	"hypothetical protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2956"	"Transcriptional regulator%2C MarR family"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3341"	"cAMP-binding protein"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3229"	"hypothetical protein"	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1
+"SVEN_3679"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2786"	"Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5868"	"hypothetical protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1262"	"Magnesium and cobalt transport protein CorA"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0651"	"N-acyl-L-amino acid amidohydrolase"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0964"	"DNA polymerase IV"	2	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	1
+"SVEN_0170"	"Long-chain-fatty-acid--CoA ligase"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4446"	"probable solute-binding lipoprotein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1708"	"Histidinol dehydrogenase"	2	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	1	0	0	0	0	0
+"SVEN_1503"	"penicillin amidase family protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1133"	"Threonyl-tRNA synthetase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3476"	"possible lyase"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_4582"	"hypothetical protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6351"	"hypothetical protein"	2	0	0	0	0	0	2	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0
+"SVEN_0847"	"hypothetical protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6224"	"hypothetical protein"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_5075"	"Pyruvate kinase"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2678"	"putative membrane protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4039"	"putative secreted solute-binding protein"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5749"	"Short-chain alcohol dehydrogenase family"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7433"	"hypothetical protein"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6417"	"ATP synthase B chain"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0
+"SVEN_0413"	"hypothetical protein"	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2047"	"putative cytochrome P450 hydroxylase"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3641"	"putative membrane protein"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5143"	"L-serine dehydratase"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1844"	"Transcriptional regulator%2C GntR family"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2576"	"Glucosamine--fructose-6-phosphateaminotransferase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7306"	"hypothetical protein"	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3965"	"putative lipoprotein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6134"	"Transcriptional regulator%2C MarR family"	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+"SVEN_1565"	"Transaldolase"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3559"	"hypothetical protein"	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2677"	"hypothetical protein"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4634"	"hypothetical protein"	2	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_3249"	"putative membrane protein found fused to lysyl-tRNA synthetase protein"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_3490"	"coproporphyrinogen III oxidase"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5373"	"putative peptide transport system secreted peptide binding protein"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2374"	"hypothetical protein"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0205"	"putative acetyltransferase"	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1965"	"putative phosphodiesterase"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2549"	"secreted tripeptidyl aminopeptidase"	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_4637"	"hypothetical protein"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_5482"	"Ribonucleotide reductase of class II (coenzyme B12-dependent)"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_2952"	"Fatty acid desaturase %3B Delta-9 fatty acid desaturase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3501"	"putative lyase"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0050"	"transcriptional regulator%2C MerR family"	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3470"	"DNA-binding response regulator%2C LuxR family"	2	0	0	0	1	0	1	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3843"	"hypothetical protein"	2	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	1	0	0
+"SVEN_2490"	"Transcriptional regulator%2C GntR family"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_1860"	"hypothetical protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3651"	"DNA gyrase subunit B"	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5290"	"LSU ribosomal protein L19p"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1310"	"Transcriptional regulator%2C TetR family"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0711"	"hypothetical protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3709"	"putative serine or threonine phosphatase"	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5815"	"N-Acetyl-D-glucosamine ABC transport system%2Cpermease protein"	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"SVEN_6116"	"hypothetical protein"	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5511"	"Topoisomerase IV subunit A"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3731"	"Dihydrolipoamide dehydrogenase"	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6262"	"Ornithine cyclodeaminase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5529"	"putative DNA-binding protein"	2	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	1
+"SVEN_2837"	"putative integral membrane protein"	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3104"	"putative hydrolase"	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	1
+"SVEN_0005"	"putative IS6 family transposase"	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
+"SVEN_5025"	"ATP synthase beta chain"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5984"	"bifunctional cyclase or dehydrase"	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5711"	"hypothetical protein"	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2417"	"putative aminopeptidase"	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2603"	"putative secreted protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0903"	"Uracil-DNA glycosylase%2C family 1"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3276"	"putative regulatory protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0756"	"hypothetical protein"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_3867"	"Hypothetical protein YgaF"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3020"	"hypothetical protein"	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+"SVEN_4672"	"Aminopeptidase Y (Arg%2C Lys%2C Leu preference)"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0269"	"hypothetical protein"	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+"SVEN_0439"	"Glucoamylase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6946"	"integral membrane protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1303"	"Transcriptional regulator%2C TetR family"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6445"	"putative ABC transporter ATP-binding component"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4228"	"probable immediate early protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6122"	"Inositol transport system sugar-binding protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6841"	"oxygenase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2222"	"pectate lyase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4186"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1798"	"NLP or P60 family protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3437"	"putative integral membrane protein"	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_7027"	"Multiple sugar transport system permease protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2755"	"Sensor histidine kinase mtrB"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4066"	"hypothetical protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7450"	"ISPsy4%2C transposition helper protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5967"	"Butyryl-CoA dehydrogenase"	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5535"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1
+"SVEN_6401"	"putative ABC transporter ATP-binding protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_4210"	"hydrolase"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0759"	"hypothetical protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1562"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4161"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7209"	"hypothetical protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1720"	"putative membrane protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3600"	"Potassium channel protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6231"	"LysR family transcriptional regulator"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4818"	"putative hydrolase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1267"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1328"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4360"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1551"	"putative iron-sulfur cluster assembly scaffold protein for SUF system%2C SufE2"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1803"	"Cysteine desulfurase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_4773"	"N-acetyl-1-D-myo-inosityl-2-amino-2-deoxy-alpha-D-glucopyranoside deacetylase MshB"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_3786"	"RNA polymerase sigma factor SigB"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5976"	"Polyketide cyclase WhiE VII"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4644"	"hypothetical protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6141"	"non-ribosomal peptide synthetase%2C terminal component"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7359"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3788"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3234"	"Chalcone or stilbene synthase family protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_1964"	"putative oxidoreductase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6132"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3456"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4474"	"ATP-dependent DNA helicase UvrD or PcrA"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5307"	"Phosphatidate cytidylyltransferase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5174"	"Quinone oxidoreductase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1061"	"Ribulose-phosphate 3-epimerase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5258"	"Dihydroxyacetone kinase family protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0
+"SVEN_2354"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_1890"	"Maltose operon transcriptional repressor MalR%2CLacI family"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7046"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7203"	"metallopeptidase domain protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5393"	"Dihydrodipicolinate synthase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5793"	"sporozoite surface protein"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1217"	"L-proline glycine betaine ABC transport system permease protein ProV"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3656"	"Chromosomal replication initiator protein DnaA"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_2340"	"Long-chain-fatty-acid--CoA ligase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3091"	"luciferase family protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5073"	"putative membrane protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2150"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1706"	"Imidazoleglycerol-phosphate dehydratase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5743"	"helicase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4772"	"putative small membrane protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0060"	"cold shock protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1058"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3808"	"hypothetical protein"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_0502"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3143"	"Thiol:disulfide oxidoreductase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7062"	"ABC transporter protein%2C ATP-binding component"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2235"	"hypothetical protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4544"	"L-lysine permease"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4581"	"Deoxyribose-phosphate aldolase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5028"	"Chitinase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5739"	"hypothetical protein"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_6166"	"D-hydantoinase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5445"	"lysR-family transcriptional regulator"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5908"	"hypothetical protein"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1052"	"5-aminopentanamidase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2781"	"N-acetylglucosamine-1-phosphate uridyltransferase or Glucosamine-1-phosphate N-acetyltransferase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_5811"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_5022"	"ATP synthase delta chain"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3157"	"DUF82 domain-containing protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4471"	"putative two-component system response regulator"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0160"	"DNA-binding response regulator%2C LuxR family"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4402"	"Methionine aminopeptidase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4919"	"hypothetical protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0
+"SVEN_4855"	"Lon protease with PDZ domain"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2716"	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_7417"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5039"	"conserved hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2530"	"Integral membrane protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6847"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0355"	"Ribosomal-protein-L7p-serine acetyltransferase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3344"	"NTP pyrophosphohydrolases including oxidative damage repair enzymes"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0973"	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2077"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1232"	"FKBP-type peptidyl-prolyl cis-trans isomerases 1"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_0679"	"Glutamate racemase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5361"	"YlxP protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1418"	"DNA repair protein RecN"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4335"	"Transcriptional regulator%2C TetR family"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4334"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2308"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3798"	"Proline iminopeptidase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0580"	"Deoxyadenosine kinase or Deoxyguanosine kinase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_1053"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4009"	"hypothetical protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6939"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3030"	"Na(+) or H(+) antiporter"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5846"	"secreted protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4769"	"Oligopeptide transport ATP-binding protein OppF"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7354"	"Maltose or maltodextrin ABC transporter%2C permease protein MalF"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7160"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5702"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3163"	"Conserved hypothetical protein"	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+"SVEN_2516"	"GAF domain protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3896"	"Probable low-affinity inorganic phosphate transporter"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2994"	"Transcriptional regulator%2C ArsR family"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4726"	"hypothetical protein"	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_5948"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4294"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_1032"	"putative integral membrane protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7063"	"ABC-type Fe3+-siderophore transport system%2Cpermease component"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0484"	"4-phosphopantetheinyl transferase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4519"	"putative D-alanyl-D-alanine carboxypeptidase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2631"	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_6442"	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1234"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0069"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4405"	"SSU ribosomal protein S13p"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3000"	"putative drug exporters of the RND superfamily"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4094"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3722"	"putative MerR-family transcriptional regulator"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5966"	"Electron transfer flavoprotein%2C beta subunit"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7197"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4304"	"2-oxoglutarate oxidoreductase%2C alpha subunit"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0924"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0638"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6264"	"CDA peptide synthetase I"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7295"	"N-acyl-L-amino acid amidohydrolase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3855"	"ATP or GTP-binding protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0697"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0680"	"Glycosyl transferase%2C family 2"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2605"	"Chitinase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1314"	"hypothetical protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0796"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4252"	"secreted protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0786"	"Transcriptional regulator%2C MarR family"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4465"	"GMP synthase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5943"	"Pyruvate cytochrome or ubiquinone oxidase"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_6597"	"endo-1%2C4-beta-glucanase"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2483"	"SpdB"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0732"	"putative integral membrane protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5150"	"Dipeptide transport system permease protein DppC"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0743"	"putative secreted protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4149"	"Xanthine or uracil or thiamine or ascorbate permease family protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0551"	"Alanyl-tRNA synthetase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7218"	"EBNA-1 protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3872"	"Transcriptional regulator%2C TetR family"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1597"	"Tellurium resistance protein TerD"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5306"	"Ribosome recycling factor"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6142"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5869"	"UDP-N-acetylmuramate--alanine ligase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5204"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3611"	"putative membrane protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7125"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0603"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2289"	"putative DNA-binding protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3823"	"DNA polymerase III subunits gamma and tau"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+"SVEN_1343"	"polysaccharide deacetylase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6316"	"multi-domain regulatory protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0034"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3995"	"putative DNA-binding protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_2293"	"putative membrane protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5528"	"Thiosulfate sulfurtransferase%2C rhodanese"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4488"	"integral membrane protein"	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+"SVEN_4693"	"putative ion-channel protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6800"	"hypothetical protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0506"	"Anthranilate synthase%2C aminase component"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7122"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1793"	"putative integral membrane protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6232"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2602"	"hypothetical protein"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0
+"SVEN_5813"	"N-acetylmuramoyl-L-alanine amidase"	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+"SVEN_0231"	"regulatory protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7299"	"probable regulatory protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_0507"	"putative transcriptional regulator"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1497"	"Cob(I)alamin adenosyltransferase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5833"	"Hemoprotein HemQ%2C essential component of heme biosynthetic pathway in Gram-positive bacteria"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5541"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1930"	"putative membrane protein"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_2518"	"integral-membrane protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5224"	"putative lipoprotein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3784"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3366"	"putative peptidase"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6848"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4028"	"hypothetical protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4613"	"Cystathionine gamma-lyase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0533"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+"SVEN_4827"	"Phage-related protein%2C tail component"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5175"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0999"	"Allophanate hydrolase 2 subunit 2"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3929"	"conserved hypothetical protein"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7097"	"Agmatine deiminase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6064"	"5-nucleotidase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4721"	"Putrescine importer"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3348"	"Arsenical pump-driving ATPase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0305"	"Enoyl-[acyl-carrier-protein] reductase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6691"	"short chain dehydrogenase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5744"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5211"	"(R)-citramalate synthase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5545"	"Osmosensitive K+ channel histidine kinase KdpD"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3540"	"Beta-ketoadipate enol-lactone hydrolase"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1218"	"DNA polymerase I"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_4842"	"WhiB-family transcriptional regulator"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3004"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5183"	"hypothetical protein"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2114"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3841"	"Amidophosphoribosyltransferase"	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3093"	"Alkanesulfonate monooxygenase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7128"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2778"	"Lactyl (2) diphospho-(5)guanosine:7%2C8-didemethyl-8-hydroxy-5-deazariboflavin 2-phospho-L-lactate transferase"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0539"	"Radical SAM"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0090"	"UDP-N-acetylmuramoylalanyl-D-glutamyl-2%2C6-diaminopimelate--D-alanyl-D-alanine ligase"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_5821"	"1-deoxy-D-xylulose 5-phosphate synthase"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_3966"	"CarD transcriptional regulator"	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_7381"	"putative Fe3+-siderophore ABC transporter%2CATPase component"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_5849"	"ATPase%2C AAA family"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0323"	"DNA-dependent DNA polymerase beta chain"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1611"	"Transcriptional regulator%2C MerR family"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0655"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_0501"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_3606"	"Leucine-responsive regulatory protein%2C regulator for leucine (or lrp) regulon and high-affinity branched-chain amino acid transport system"	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"SVEN_1881"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_1700"	"Transcriptional regulator%2C ArsR family"	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_2290"	"putative transport protein"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_4961"	"MoxR ATPases"	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"SVEN_6987"	"hypothetical protein"	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"SVEN_5530"	"hypothetical protein"	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

@@ -1,0 +1,20 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_14h"
+"SVEN_5498"	"SMD08289"	5970434	5971321	"+"	"Transcriptional regulator%2C GntR family"	"1"	14		84	-5.00354913966667
+"SVEN_0269"	"SMD00781"	284553	286739	"+"	"hypothetical protein"	"1"	13		78	-4.02078598133333
+"SVEN_3332"	"SMD05181"	3649096	3651468	"+"	"Carbonic anhydrase"	"1"	19		246	-1.68646248166667
+"SVEN_3331"	"SMD05177"	3647476	3648783	"-"	"putative secreted protein"	"1"	19		67	-0.975174570333333
+"SVEN_4634"	"SMD07084"	4989373	4990713	"-"	"hypothetical protein"	"1"	7		112	-0.721798469666668
+"SVEN_4437"	"SMD06811"	4776768	4777688	"+"	"putative polysaccharide deacetylase"	"1"	18		18	-0.550887991333333
+"SVEN_2469"	"SMD03941"	2684254	2685723	"-"	"hypothetical protein"	"1"	27		152	-0.526721816666665
+"SVEN_3051"	"SMD04773"	3340267	3341442	"+"	"Flagellar hook-length control protein FliK"	"1"	4		92	-0.504096031666667
+"SVEN_6822"	"SMD10118"	7470625	7471845	"+"	"putative lipoprotein"	"1"	10		50	-0.266647997
+"SVEN_1408"	"SMD02435"	1572764	1574776	"-"	"putative regulatory protein"	"1"	11		99	-0.243693345333334
+"SVEN_4457"	"SMD06841"	4796896	4798137	"-"	"putative UDP-glucose or GDP-mannose dehydrogenase"	"1"	24		88	-0.212311501333334
+"SVEN_1283"	"SMD02261"	1444908	1446629	"-"	"Fumarate or succinate or L-aspartate dehydrogenases"	"1"	25		46	-0.177725873999999
+"SVEN_3449"	"SMD05356"	3765923	3766558	"+"	"isomerase"	"1"	5		248	-0.133834988666669
+"SVEN_7238"	"SMD10707"	7962902	7964503	"+"	"Alkyldihydroxyacetonephosphate synthase"	"1"	20		52	-0.117040590666666
+"SVEN_4436"	"SMD06810"	4775450	4776682	"-"	"SAM-dependent methyltransferases"	"1"	18		68	-0.0722678483333334
+"SVEN_3050"	"SMD04772"	3338880	3340100	"-"	"Glycosyl transferase%2C group 2 family protein"	"1"	4		75	-0.0493926563333327
+"SVEN_3448"	"SMD05353"	3764790	3765677	"-"	"LysR-family transcriptional regulatory protein"	"1"	5		2	-0.0319626420000008
+"SVEN_4989"	"SMD07572"	5369059	5370504	"-"	"secreted protein"	"1"	8		4	-0.0191750336666665
+"SVEN_2614"	"SMD04142"	2852597	2853991	"-"	"hypothetical protein"	"1"	35		109	-0.0132077133333333

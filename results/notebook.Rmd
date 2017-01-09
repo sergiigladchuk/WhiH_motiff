@@ -463,8 +463,8 @@ Input setup | Motif e-value, regions and link | FIMO results
 Input setup | Best MEME Motif e-value, regions and link | FIMO results
 ------------|-------------------------------------------|-------------
 #0 MEME - best e-value from all peaks (#1 from previous rediscovery) | e-value: **1.0e-136** <br> regions: **314** <br> [![](2016-12-01/meme_all_bg0/logo_rc1.png)](2016-12-01/meme_all_bg0/meme.html) |  [2296 occurances*](2016-12-05/all/fimo.html) <br> 12 out of 36 TOP ChIP regions matched with FIMO <br> 53 out of 349 ALL ChIP regions matched with FIMO
-#1 MEME-ChIP - 10000 random ranges with 0-model background | e-value: 5.7e-136 <br> regions: 214 <br> [![](2016-12-15/memechip_all_10000rand_0bg/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg/meme-chip.html) | [1422 occurances](22016-12-15/memechip_all_10000rand_0bg/fimo.html) <br> 13 out of 36 TOP ChIP regions matched with FIMO <br> **58** out of 349 ALL ChIP regions matched with FIMO
-#2 MEME-ChIP - 10000 random ranges with 0-model background, **palindromic** | e-value: 1.2e-125 <br> regions: 200 <br> [![](2016-12-15/memechip_all_10000rand_0bg_pal/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg_pal/meme-chip.html) | [1454 / 2 = 727 occurances](22016-12-15/memechip_all_10000rand_0bg_pal/fimo.html) <br> **14** out of 36 TOP ChIP regions matched with FIMO <br> 49 out of 349 ALL ChIP regions matched with FIMO
+#1 MEME-ChIP - 10000 random ranges with 0-model background | e-value: 5.7e-136 <br> regions: 214 <br> [![](2016-12-15/memechip_all_10000rand_0bg/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg/meme-chip.html) | [1422 occurances](2016-12-15/memechip_all_10000rand_0bg/fimo.html) <br> 13 out of 36 TOP ChIP regions matched with FIMO <br> **58** out of 349 ALL ChIP regions matched with FIMO
+#2 MEME-ChIP - 10000 random ranges with 0-model background, **palindromic** | e-value: 1.2e-125 <br> regions: 200 <br> [![](2016-12-15/memechip_all_10000rand_0bg_pal/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg_pal/meme-chip.html) | [1454 / 2 = 727 occurances](2016-12-15/memechip_all_10000rand_0bg_pal/fimo.html) <br> **14** out of 36 TOP ChIP regions matched with FIMO <br> 49 out of 349 ALL ChIP regions matched with FIMO
 
 
 ### Conclusion
@@ -475,7 +475,7 @@ Also discriminative mode for ALL ChIP-seq regions gives improvement of "back-hit
 
 ## 2016-12-16 Transcriptomics data preparation for analysis
 
-###Procedure
+###Procedure {#matching_procedure}
 
 1. Get gene matching file from [NCBI annotation](https://www.ncbi.nlm.nih.gov/nuccore/FR845719) in gff3 format
 
@@ -630,9 +630,969 @@ kable(outPut, digits = 4, caption = 'Statistical significance')
 kable(outPutGrath, caption = 'Counts for genes')
 ```
 
+## 2016-12-21 Determining regions of motif binding with PREDetector
+
+### Procedure
+
+1. Select *Streptomyces venezuelae ATCC 10712* genome
+2. Paste best discriminative motif into Matrices (fasta format)
+3. Run regulon prediction with default settings:
+* Regulon region limits: UP - -350, DOWN - 50
+* Contranscribed gene limits: UP - -50, DOWN - 40
+4. Download top hits with cut-of at 0.5 reliability (8.75 score point for best discriminative motif).
+5. Modify the script to align downloaded file with transcriptomics data.
+
+### New version of affy\_log\_creator
+
+Command to align PreDetector file with all genes and transcriptomics
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-21/best_discr_motif_predetec.tsv -o results/2016-12-21/best_discr_motif_counts.txt
+
+```
+Command to align ChIP-Seq peaks with all genes and transcriptomics
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -c data/WhiH_regulon_FLAG_All.csv -o results/2016-12-21/all_chip_counts.txt
+```
+
+## 2017-01-03 Final Statistical analysis
+
+### Procedure
+
+* List of positions coming either from FIMO look-up of motif, or ChIP-seq peaks or just genes identified by PreDetector were aligned to all the genes with modified affy\_log\_creator script based on [this procedure](#matching_procedure) - so list of all genes with marked "special genes" was produced
+
+* This affyLog matched file was used in statistical analysis in R:
+
+    + whole list was processed 7 times (from 8h to 20h separately)
+    + based on each time AffyLogs values gene list was split into to lists - over- and under- expressed genes (AffyLog - (-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; (+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type)
+    + these sub-lists with two categories of genes ('special' genes marked due to closeness to Motif or ChIP-seq peak and 'all other non-related' genes) were fed to one-sided Mann‐Whitney non-parametric independent samples test to find significant difference between differences in expression data for two categories. This non-parametric test was chosen because data is not-normally distributed.
+    + so for each set of positions there are 7 (times) * 2(over/under expr.) = 14 sub-lists and p-values that signify if there is true difference in transcriptomic expression between 'special' genes and all the others
+
+* Analysis was conducted for these sets of positions:
+    + FIMO positions and PREDetector genes for 'Best TOP non-palindromic discriminative motif', commands to generate matched genes lists:
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -f results/2016-12-15/memechip_500rand_0bg/fimo.txt -o results/2017-01-03/best_top_discrim_motif_genes.TAB
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-21/best_discr_motif_predetec.tsv -o results/2017-01-03/best_top_discrim_motif_predetec_genes.TAB
+```
+\
+    + FIMO positions and PREDetector genes for 'TOP palindromic motif', command to generate matched genes lists:
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -f results/2016-12-05/top_pal/fimo.txt -o results/2017-01-03/top_pal_motif_genes.TAB
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-21/top_pal_motif_predetec.tsv -o results/2017-01-03/top_pal_motif_predetec_genes.TAB
+```
+\
+    + FIMO positions and PREDetector genes for 'Best ALL-Peaks back-check discriminative motif', commands to generate matched genes lists:
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -f results/2016-12-15/memechip_all_10000rand_0bg_pal/fimo.txt -o results/2017-01-03/best_all_discrim_motif_genes.TAB
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-21/best_all_discr_motif_predetec.tsv -o results/2017-01-03/best_all_discrim_motif_predetec_genes.TAB
+```
+\
+    + FIMO positions and PREDetector genes for 'Best e-value from ALL peaks', commands to generate matched genes lists:
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -f results/2016-12-05/all/fimo.txt -o results/2017-01-03/best_e_all_motif_genes.TAB
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -p results/2016-12-21/best_e_all_motif_predetec.tsv -o results/2017-01-03/best_e_all_motif_predetec_genes.TAB
+```
+\    
+    + All and TOP ChIP-seq positions, commands to generate matched genes lists:
+```
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -c data/WhiH_regulon_FLAG_All.csv -o results/2017-01-03/all_chip_peaks_genes.TAB
+$python3 bin/affy_log_greator.py -g data/transcript/sequence.gff3 -i data/transcript/SVEN_data_KF.csv -c data/WhiH_regulon_FLAG_Top10per.csv -o results/2017-01-03/top_chip_peaks_genes.TAB
+```
+
+
+* Overall rank of genes based on number of appearance in significant lists was produced with python script:
+```
+$python3 bin/rank_creator.py results/2017-01-03/rank_over.txt > results/2017-01-03/final_rank_over.TAB
+$python3 bin/rank_creator.py results/2017-01-03/rank_under.txt > results/2017-01-03/final_rank_under.TAB
+```
+ 
+
+
+
+### Results
+
+#### 'Best TOP non-palindromic discriminative motif' analysis (#2 in [this rediscovery](#rediscovery2top))
+
+[![](2016-12-15/memechip_500rand_0bg/meme_out/logo1.png)](2016-12-15/memechip_500rand_0bg/meme-chip.html)   
+
+**Method of discovery:** MEME-ChIP - discriminative mode against 500 random ranges with 0-model background, non-palindromic based on TOP ChIP-seq regions  
+
+**e-value:** 2.5e-043    
+
+**regions used in MEME:** 36 out of 36    
+
+**FIMO:** [334 occurances](2016-12-15/memechip_500rand_0bg/fimo.html)    
+
+**Back-check:** 19 out of 36 TOP ChIP regions matched with FIMO; 40 out of 349 ALL ChIP regions matched with FIMO   
+
+**Transcriptomics statistics for FIMO positions (‘Mann-Whitney’ test):**
+
+```{r best_top_discrim_motif_stats, echo=FALSE, width=800}
+pref <- 'best_top_discrim_motif'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+write('Files',file = '2017-01-03/rank_over.txt',append = FALSE);
+write('Files',file = '2017-01-03/rank_under.txt',append = FALSE);
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+**PREDetector 0.5 reliability cut-off score:** 8.75
+
+**PREDetecrot genes**: [314 (including duplicates)](2016-12-21/best_discr_motif_predetec.tsv)
+
+**Transcriptomics statistics for PREDetector genes (‘Mann-Whitney’ test):**
+
+```{r best_top_discrim_motif_predetec_stats, echo=FALSE, width=800}
+pref <- 'best_top_discrim_motif_predetec'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+#### 'TOP palindromic motif' analysis (#4 from TOP in [this rediscovery](#rediscovery1))
+
+[![](2016-12-01/meme_top_bg0_pal/logo_rc1.png)](2016-12-01/meme_top_bg0_pal/meme.html)   
+
+**Method of discovery:** MEME - background Markov model order 0 with palindrome only based on TOP ChIP-seq regions
+
+**e-value:** 1.2e-030     
+
+**regions used in MEME:** 36 out of 36    
+
+**FIMO:** [340 / 2 = 170 occurances*](2016-12-05/top_pal/fimo.html)    
+
+**Back-check:** 6 out of 36 TOP ChIP regions matched with FIMO; 15 out of 349 ALL ChIP regions matched with FIMO   
+
+**Transcriptomics statistics for FIMO positions (‘Mann-Whitney’ test):**
+
+```{r top_pal_motif_stats, echo=FALSE, width=800}
+pref <- 'top_pal_motif'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+**PREDetector 0.5 reliability cut-off score:** 9.75
+
+**PREDetecrot genes**: [118 (including duplicates)](2016-12-21/top_pal_motif_predetec.tsv)
+
+**Transcriptomics statistics for PREDetector genes (‘Mann-Whitney’ test):**
+
+```{r top_pal_motif_predetec_stats, echo=FALSE, width=800}
+pref <- 'top_pal_motif_predetec'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+#### 'Best ALL-Peaks back-check discriminative motif' analysis (#1 in [this rediscovery](#rediscovery2all))
+
+[![](2016-12-15/memechip_all_10000rand_0bg/meme_out/logo1.png)](2016-12-15/memechip_all_10000rand_0bg/meme-chip.html)
+
+**Method of discovery:** MEME-ChIP - 10000 random ranges with 0-model background, non-palindromic based on ALL ChIP-seq regions
+
+**e-value:** 5.7e-136     
+
+**regions used in MEME:** 214 out of 349    
+
+**FIMO:** [1422 occurances](2016-12-15/memechip_all_10000rand_0bg/fimo.html)    
+
+**Back-check:** 13 out of 36 TOP ChIP regions matched with FIMO; 58 out of 349 ALL ChIP regions matched with FIMO   
+
+**Transcriptomics statistics for FIMO positions (‘Mann-Whitney’ test):**
+
+```{r best_all_discrim_motif_stats, echo=FALSE, width=800}
+pref <- 'best_all_discrim_motif'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+**PREDetector 0.5 reliability cut-off score:** 8
+
+**PREDetecrot genes**: [1377 (inclsuding duplicates)](2016-12-21/best_all_discr_motif_predetec.tsv)
+
+**Transcriptomics statistics for PREDetector genes (‘Mann-Whitney’ test):**
+
+```{r best_all_discrim_motif_predetec_stats, echo=FALSE, width=800}
+pref <- 'best_all_discrim_motif_predetec'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+#### 'Best e-value from ALL peaks' analysis (#1 from ALL in [this rediscovery](#rediscovery1))
+
+[![](2016-12-01/meme_all_bg0/logo_rc1.png)](2016-12-01/meme_all_bg0/meme.html)
+
+**Method of discovery:** MEME - background Markov model order 0, non-palindromic based on ALL ChIP-seq regions
+
+**e-value:** 1.0e-136    
+
+**regions used in MEME:** 314 out of 349    
+
+**FIMO:** [2296 occurances*](2016-12-05/all/fimo.html)    
+
+**Back-check:** 12 out of 36 TOP ChIP regions matched with FIMO; 53 out of 349 ALL ChIP regions matched with FIMO   
+
+**Transcriptomics statistics for FIMO positions (‘Mann-Whitney’ test):**
+
+```{r best_e_all_motif_stats, echo=FALSE, width=800}
+pref <- 'best_e_all_motif'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+**PREDetector 0.5 reliability cut-off score:** 11.5
+
+**PREDetecrot genes**: [10](2016-12-21/best_e_all_motif_predetec.tsv)
+
+**Transcriptomics statistics for PREDetector genes (‘Mann-Whitney’ test):**
+
+```{r best_e_all_motif_predetec_stats, echo=FALSE, width=800}
+pref <- 'best_e_all_motif_predetec'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+#### ALL and TOP ChIP-seq positions analysis (no motif discovery)
+
+
+__Number of ALL ChiP-seq positions in data \file:__ 349
+
+**Transcriptomics statistics for ALL ChIP-seq peaks (‘Mann-Whitney’ test):**
+
+```{r all_chip_peaks_stats, echo=FALSE, width=800}
+pref <- 'all_chip_peaks'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+************************************
+
+__Number of TOP ChiP-seq positions in data \file:__ 36
+
+**Transcriptomics statistics for TOP ChIP-seq peaks (‘Mann-Whitney’ test):**
+
+```{r top_chip_peaks_stats, echo=FALSE, width=800}
+pref <- 'top_chip_peaks'
+trans <- read.csv(paste('2017-01-03/',pref,'_genes.TAB',sep = ''), sep='\t')
+#generate link to genes table
+kable(paste('[Link to whole match table of genes](2017-01-03/',pref,'_genes.TAB)',sep = ''))
+#get overall differance
+trans$closest_match <- factor(trans$closest_match)
+
+#split of ove and under expressed
+#(-) indicates a decrease in expression of the gene in a whiH mutant compared to the wild-type; 
+#(+) indicates an increase in expression of the gene in a whiH mutant compared to the wild-type.
+
+#adding significant differences in transcriptomics +5% and -5% for each hour
+times <- c ('8h', '10h', '12h', '14h', '16h', '18h', '20h')
+outPut <- matrix(NA,nrow = 4, ncol = length(times))
+colnames(outPut) <- times
+rownames(outPut) <- c('OverExp. flagged genes','OverExp. p-val.', 'UnderExp. flagged genes','UnderExp. p-val.');
+
+#loop to goo through each time to get signifinace of motiff
+colCount <- 0
+
+for (curentH in times) {
+  colCount <- colCount + 1
+  
+  varName <- paste('affyLog_', curentH, sep='')
+  trans.cur.over <- subset(trans, trans[[varName]] > 0)
+  trans.cur.under <- subset(trans, trans[[varName]] < 0)
+  
+  #write tables with ouput for flaged genes and generate links
+  fnameOver <- paste('2017-01-03/',pref,'_lists/over_',curentH,'.TAB',sep = '')
+  fnameUnder <- paste('2017-01-03/',pref,'_lists/under_',curentH,'.TAB',sep = '')
+  
+  #outframes
+  outOver <- cbind(trans.cur.over[c(1:10)],trans.cur.over[[varName]])
+  outOver <- subset(outOver,outOver$closest_match == '1')
+  outUnder <- cbind(trans.cur.under[c(1:10)],trans.cur.under[[varName]])
+  outUnder <- subset(outUnder,outUnder$closest_match == '1')
+  #rename columns
+  colnames(outOver) <- c(colnames(trans)[1:10],varName)
+  colnames(outUnder) <- c(colnames(trans)[1:10],varName)
+  #sort
+  outOver <- outOver[rev(order(outOver[[varName]])),]
+  outUnder <- outUnder[order(outUnder[[varName]]),]
+  #output
+  write.table(outOver, file = fnameOver,sep = '\t', row.names = FALSE, na='')
+  write.table(outUnder, file = fnameUnder,sep = '\t', row.names = FALSE, na='')
+  
+  
+  #Mann‐Whitney non-parametric independent samples test
+  mann.whitney.over <- wilcox.test(trans.cur.over[[varName]]~trans.cur.over$closest_match, alternative='less')
+  mann.whitney.under <- wilcox.test(trans.cur.under[[varName]]~trans.cur.under$closest_match, alternative='greater')
+  outPut[1,colCount] <- paste0('[',length(which(trans.cur.over$closest_match == '1')),' out of ',length(trans.cur.over$closest_match),'](',fnameOver,')')
+  outPut[2,colCount] <- format(mann.whitney.over$p.value, scientific = -2, digits = 4)
+  #add color to significant p-val
+   if (mann.whitney.over$p.value < 0.05) {
+    outPut[2,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[2,colCount],'</span>')
+    #add list name of significant genes to total ranking list
+    write(paste0('results/',fnameOver),file = '2017-01-03/rank_over.txt',append = TRUE);
+  }
+  outPut[3,colCount] <- paste0('[',length(which(trans.cur.under$closest_match == '1')),' out of ',length(trans.cur.under$closest_match),'](',fnameUnder,')')
+  outPut[4,colCount] <- format(mann.whitney.under$p.value, scientific = -2, digits = 4)
+  if (mann.whitney.under$p.value < 0.05) {
+    outPut[4,colCount] <- paste0('<span style="background-color:lightgreen">',outPut[4,colCount],'</span>')
+    write(paste0('results/',fnameUnder),file = '2017-01-03/rank_under.txt',append = TRUE);
+  }
+ 
+}
+
+# library(Gmisc)
+# htmlTable(outPut)
+kable(outPut)
+
+```
+
+### Conclusion
+
+Analyses of four motifs showed that PreDETECTOR gene lists have better significance in statistical test then FIMO positions found from motif. However analysis of raw ChIP-seq peaks showed that genes which are close to theses peak have significant difference of transcription comparing to other genes.
+
+Based on all significant lists of genes, rank tables of gene appearance were constructed separately for over- and under-expression. Hopefully these tables can identify important genes which are regulated by WhiH protein.
+
+#### Total rank of genes based on whole statistical analisis
+
+**Top genes from [Over-expression table of appearances](2017-01-03/final_rank_over.TAB)**
+```{r rank_over, echo=FALSE, width=800}
+rank_table <- read.csv('2017-01-03/final_rank_over.TAB',sep='\t')
+print_table <- rank_table[1:10,c(1:11,19,27)]
+kable(print_table)
+```
+
+**Top genes from [Under-expression table of appearances](2017-01-03/final_rank_under.TAB)**
+```{r rank_under, echo=FALSE, width=800}
+rank_table <- read.csv('2017-01-03/final_rank_under.TAB',sep='\t')
+print_table <- rank_table[1:10,c(1:11,19,27)]
+kable(print_table)
+```
+
 # Next steps
 
-Last update: 2016-12-21    
+Last update: 2017-01-09    
 
 * ~~review all the tutorials and examples for MEME-ChIP and define set of optimal settings for final test~~
 * ~~perform analysis of the same data with other suit, e.g. ChIPMunk. Resources are not really developed~~
@@ -640,5 +1600,5 @@ Last update: 2016-12-21
 * ~~run full analysis with option to reduce background and search only for palindromes and select best motif~~
 * ~~get statistical data on motif abundance (specificity) in total genome (with HMM-profile if possible). And with PREDetector 2.0~~
 * ~~run last rediscovery of motifs with discriminative mode~~
-* find match regions in Ppedictor for set of stats analysis
-* compare available transcriptomics data for genes next to FIMO positions for two motifs: "best e-value" and "top palindromic", with other gene expression - independence test (Chi-test, Fishers test in R)
+* ~~find match regions in PREDetector 2.0 for set of stats analysis~~
+* ~~compare available transcriptomics data for genes next to FIMO or PreDETECTOR positions for best found motifs and ChIP-seq peaks, with other gene expression - independence test (Chi-test, Fishers test in R), and Mann‐Whitney non-parametric independent samples test~~

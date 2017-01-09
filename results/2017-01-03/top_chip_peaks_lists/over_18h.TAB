@@ -1,0 +1,28 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_18h"
+"SVEN_3051"	"SMD04773"	3340267	3341442	"+"	"Flagellar hook-length control protein FliK"	"1"	4		92	2.354836484
+"SVEN_1324"	"SMD02318"	1482918	1483553	"-"	"hypothetical protein"	"1"	2		22	2.25046839133333
+"SVEN_4635"	"SMD07086"	4990869	4992512	"+"	"putative secreted protein"	"1"	7		44	1.48742992
+"SVEN_2469"	"SMD03941"	2684254	2685723	"-"	"hypothetical protein"	"1"	27		152	1.27438145933333
+"SVEN_1408"	"SMD02435"	1572764	1574776	"-"	"putative regulatory protein"	"1"	11		99	1.10497212633333
+"SVEN_5779"	"SMD08668"	6275557	6276042	"+"	"hypothetical protein"	"1"	16		32	1.056044139
+"SVEN_4989"	"SMD07572"	5369059	5370504	"-"	"secreted protein"	"1"	8		4	0.675766768666667
+"SVEN_3846"	"SMD05917"	4171385	4171591	"+"	"putative DNA-binding protein"	"1"	31		110	0.489187993333333
+"SVEN_1452"	"SMD02500"	1622851	1629339	"-"	"hypothetical protein"	"1"	28		11	0.427576982
+"SVEN_5114"	"SMD07758"	5521587	5522840	"+"	"putative lipoprotein"	"1"	9		137	0.425307686
+"SVEN_5278"	"SMD07981"	5705385	5706878	"+"	"putative regulatory protein"	"1"	32		160	0.322547276666667
+"SVEN_1372"	"SMD02385"	1538859	1539293	"+"	"hypothetical protein"	"1"	12		184	0.273456032666665
+"SVEN_3332"	"SMD05181"	3649096	3651468	"+"	"Carbonic anhydrase"	"1"	19		246	0.249029980333334
+"SVEN_7260"	"SMD10738"	7988264	7988809	"+"	"hypothetical protein"	"1"	30		64	0.151472017666666
+"SVEN_4750"	"SMD07245"	5111712	5112710	"+"	"putative membrane protein"	"1"	17		137	0.149719403000001
+"SVEN_3449"	"SMD05356"	3765923	3766558	"+"	"isomerase"	"1"	5		248	0.145690577666667
+"SVEN_1283"	"SMD02261"	1444908	1446629	"-"	"Fumarate or succinate or L-aspartate dehydrogenases"	"1"	25		46	0.128864882999999
+"SVEN_7237"	"SMD10705"	7962198	7962770	"-"	"Transcriptional regulator%2C TetR family"	"1"	20		80	0.127636939
+"SVEN_1284"	"SMD02263"	1446670	1447323	"+"	"regulatory protein%2C TetR"	"1"	25		5	0.118880564333334
+"SVEN_1625"	"SMD02776"	1813089	1815791	"+"	"ATP-dependent RNA helicase"	"1"	3		14	0.110727280999999
+"SVEN_0106"	"SMD00545"	104989	107760	"-"	"putative sensor histidine kinase"	"1"	21		15	0.0894142886666671
+"SVEN_6821"	"SMD10116"	7469786	7470343	"-"	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"1"	10		232	0.0744317710000004
+"SVEN_6823"	"SMD10119"	7471879	7472340	"-"	"hypothetical protein"	"1"	34		85	0.0613099986666654
+"SVEN_1278"	"SMD02255"	1438650	1439177	"+"	"Gluconokinase"	"1"	1		125	0.0428456183333328
+"SVEN_4858"	"SMD07397"	5232880	5234856	"+"	"tetratricopeptide repeat family protein"	"1"	23		5	0.0315223646666674
+"SVEN_7238"	"SMD10707"	7962902	7964503	"+"	"Alkyldihydroxyacetonephosphate synthase"	"1"	20		52	0.0258921623333332
+"SVEN_3448"	"SMD05353"	3764790	3765677	"-"	"LysR-family transcriptional regulatory protein"	"1"	5		2	0.0227988869999995

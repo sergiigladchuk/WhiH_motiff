@@ -1,0 +1,5 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_18h"
+"SVEN_4755"	"SMD07250"	5117228	5117455	"-"	"hypothetical protein"	"1"	10	11.5		-0.288055903
+"SVEN_1733"	"SMD02924"	1934441	1934731	"-"	"Possible membrane protein"	"1"	7	11.5		-0.24391128666667
+"SVEN_4756"	"SMD07253"	5117704	5120148	"+"	"putative lipoprotein"	"1"	9	11.5		-0.0622472273333337
+"SVEN_1371"	"SMD02382"	1537282	1538535	"-"	"putative regulator"	"1"	4	12.7		-0.00978725566666672

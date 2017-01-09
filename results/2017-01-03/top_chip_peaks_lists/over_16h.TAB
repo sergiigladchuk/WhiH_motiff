@@ -1,0 +1,23 @@
+"gene.tag"	"gene_old_tag"	"gene_start"	"gene_end"	"strand"	"product"	"closest_match"	"match_index"	"match_value"	"distance"	"affyLog_16h"
+"SVEN_2469"	"SMD03941"	2684254	2685723	"-"	"hypothetical protein"	"1"	27		152	1.42404183
+"SVEN_5779"	"SMD08668"	6275557	6276042	"+"	"hypothetical protein"	"1"	16		32	0.849317021333333
+"SVEN_5114"	"SMD07758"	5521587	5522840	"+"	"putative lipoprotein"	"1"	9		137	0.783946410333334
+"SVEN_1324"	"SMD02318"	1482918	1483553	"-"	"hypothetical protein"	"1"	2		22	0.648977336666665
+"SVEN_7260"	"SMD10738"	7988264	7988809	"+"	"hypothetical protein"	"1"	30		64	0.352401161333335
+"SVEN_1625"	"SMD02776"	1813089	1815791	"+"	"ATP-dependent RNA helicase"	"1"	3		14	0.310284932666666
+"SVEN_3846"	"SMD05917"	4171385	4171591	"+"	"putative DNA-binding protein"	"1"	31		110	0.223153239999998
+"SVEN_6821"	"SMD10116"	7469786	7470343	"-"	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"1"	10		232	0.18173401
+"SVEN_1452"	"SMD02500"	1622851	1629339	"-"	"hypothetical protein"	"1"	28		11	0.139607283
+"SVEN_1284"	"SMD02263"	1446670	1447323	"+"	"regulatory protein%2C TetR"	"1"	25		5	0.130147896666667
+"SVEN_3449"	"SMD05356"	3765923	3766558	"+"	"isomerase"	"1"	5		248	0.111817385000001
+"SVEN_5278"	"SMD07981"	5705385	5706878	"+"	"putative regulatory protein"	"1"	32		160	0.101305140000001
+"SVEN_4750"	"SMD07245"	5111712	5112710	"+"	"putative membrane protein"	"1"	17		137	0.0940295153333341
+"SVEN_1283"	"SMD02261"	1444908	1446629	"-"	"Fumarate or succinate or L-aspartate dehydrogenases"	"1"	25		46	0.0907150096666651
+"SVEN_1278"	"SMD02255"	1438650	1439177	"+"	"Gluconokinase"	"1"	1		125	0.0512841079999999
+"SVEN_3448"	"SMD05353"	3764790	3765677	"-"	"LysR-family transcriptional regulatory protein"	"1"	5		2	0.0373082439999992
+"SVEN_7237"	"SMD10705"	7962198	7962770	"-"	"Transcriptional regulator%2C TetR family"	"1"	20		80	0.0274677416666673
+"SVEN_4436"	"SMD06810"	4775450	4776682	"-"	"SAM-dependent methyltransferases"	"1"	18		68	0.0223808066666669
+"SVEN_3050"	"SMD04772"	3338880	3340100	"-"	"Glycosyl transferase%2C group 2 family protein"	"1"	4		75	0.00701960166666815
+"SVEN_1371"	"SMD02382"	1537282	1538535	"-"	"putative regulator"	"1"	12		140	0.00461283066666596
+"SVEN_6823"	"SMD10119"	7471879	7472340	"-"	"hypothetical protein"	"1"	34		85	0.00449050400000051
+"SVEN_0106"	"SMD00545"	104989	107760	"-"	"putative sensor histidine kinase"	"1"	21		15	0.00249584633333289

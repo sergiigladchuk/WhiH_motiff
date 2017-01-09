@@ -1,0 +1,1378 @@
+"gene_locus"	"gene_product"	"tbfs_seq"	"tbfs_dist"	"tbfs_score"	"cotr_locus"	"cotr_product"	"region_name"	"region_maxscore"
+"SVEN_3573 "	"hypothetical protein"	"TTGATCGGATCATCTGAACAT"	21	14	NA	NA	"SVEN_3573 "	14
+"SVEN_1284 "	"regulatory protein%2C TetR"	"AATGTCGAGCATTAATATGAA"	-24	13.7	"SVEN_1285 "	"3-oxoacyl-[acyl-carrier protein] reductase"	"UPS1032"	13.7
+"SVEN_1283 "	"Fumarate or succinate or L-aspartate dehydrogenases"	"AATGTCGAGCATTAATATGAA"	-37	13.7	"SVEN_1282 ; SVEN_1281 "	"hypothetical protein; hypothetical protein"	"UPS1032"	13.7
+"SVEN_2630 "	"Chitinase"	"ATGCAAAAACTGTATGAAAAT"	-31	13	NA	NA	"UPS2082"	13
+"SVEN_0992 "	"hypothetical protein"	"ATCATGAGATGTCCTGTTATT"	-242	12.9	NA	NA	"UPS0790"	12.9
+"SVEN_0991 "	"putative sensor histidine kinase"	"ATCATGAGATGTCCTGTTATT"	-128	12.9	"SVEN_0990 ; SVEN_0989 ; SVEN_0988 "	"roadblock or LC7 protein; multi-component regulatory system-11; putative ATP or GTP-binding protein"	"UPS0790"	12.9
+"SVEN_5395 "	"regulatory protein"	"CGACTCAGATCATCTGATAAA"	1819	12.9	NA	NA	"UPS4328"	12.9
+"SVEN_5394 "	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"CGACTCAGATCATCTGATAAA"	150	12.9	NA	NA	"UPS4328"	12.9
+"SVEN_5498 "	"Transcriptional regulator%2C GntR family"	"TATGTCCGATTAATCGTCAAT"	-104	12.8	NA	NA	"UPS4417"	12.8
+"SVEN_6135 "	"membrane transport protein"	"TTGACATTATCAATTGTTTAC"	-177	12.8	NA	NA	"UPS4898"	12.8
+"SVEN_6134 "	"Transcriptional regulator%2C MarR family"	"TTGACATTATCAATTGTTTAC"	-43	12.8	NA	NA	"UPS4898"	12.8
+"SVEN_4569 "	"secreted protein"	"CAAGGAAGATTTTCAGATGAA"	-16	12.7	NA	NA	"SVEN_4569 "	12.7
+"SVEN_6931 "	"hypothetical protein"	"AACGAAACTCAATCAGATCAT"	5	12.7	NA	NA	"SVEN_6931 "	12.7
+"SVEN_7402 "	"hypothetical protein"	"ATCATCTGATCGTGGGTTGAT"	181	12.7	NA	NA	"SVEN_7402 "	12.7
+"SVEN_4582 "	"hypothetical protein"	"AATAGATGATCAATAGATTTT"	-117	12.7	NA	NA	"UPS3661"	12.7
+"SVEN_4581 "	"Deoxyribose-phosphate aldolase"	"AATAGATGATCAATAGATTTT"	-215	12.7	"SVEN_4580 ; SVEN_4579 "	"Aldehyde dehydrogenase; aldehyde dehydrogenase"	"UPS3661"	12.7
+"SVEN_5719 "	"hypothetical protein"	"GTATTCAAGAAATCTGTTCAT"	-66	12.4	"SVEN_5720 "	"hypothetical protein"	"UPS4571"	12.4
+"SVEN_1324 "	"hypothetical protein"	"GTCAACCGATAATCCGACTAT"	-53	12.3	NA	NA	"UPS1066"	12.3
+"SVEN_3797 "	"hypothetical protein"	"AATGAAATCTGGAATTATCAA"	641	12.2	NA	NA	"SVEN_3797 "	12.2
+"SVEN_2173 "	"hypothetical protein"	"TTTTTATGATCATGATTCAAG"	-702	12.2	NA	NA	"UPS1706"	12.2
+"SVEN_4040 "	"hypothetical protein"	"GTAATAAGTTGGTCGTATGAC"	-16	12.1	NA	NA	"SVEN_4040 "	12.1
+"SVEN_4039 "	"putative secreted solute-binding protein"	"GTAATAAGTTGGTCGTATGAC"	1406	12.1	"SVEN_4040 "	"hypothetical protein"	"SVEN_4040 "	12.1
+"SVEN_5868 "	"hypothetical protein"	"GTTCACAAGCGTTCTGATGAT"	-16	12.1	NA	NA	"SVEN_5868 "	12.1
+"SVEN_1534 "	"hypothetical hydrophilic protein"	"TCGAAAGAATATTCATATGAC"	-43	12.1	"SVEN_1535 "	"Tellurium resistance protein TerD"	"UPS1222"	12.1
+"SVEN_1533 "	"transcriptional regulator%2C AraC family"	"TCGAAAGAATATTCATATGAC"	-78	12.1	NA	NA	"UPS1222"	12.1
+"SVEN_0262 "	"Threonine synthase"	"GTCATCTGATTATCCGTCACC"	761	12	NA	NA	"SVEN_0262 "	12
+"SVEN_3763 "	"hypothetical protein"	"GAAGACAAAACAAAAGAACAA"	-150	12	NA	NA	"UPS3001"	12
+"SVEN_3764 "	"putative signal protein"	"GAAGACAAAACAAAAGAACAA"	-419	12	NA	NA	"UPS3001"	12
+"SVEN_4648 "	"hypothetical protein"	"ATCGAATGATTTTCTGATCAG"	77	12	NA	NA	"UPS3720"	12
+"SVEN_4647 "	"hypothetical protein"	"ATCGAATGATTTTCTGATCAG"	73	12	NA	NA	"UPS3720"	12
+"SVEN_2286 "	"Pyruvate%2Cphosphate dikinase"	"AACTTCTGATCATTGTTTTCC"	98	11.9	NA	NA	"SVEN_2286 "	11.9
+"SVEN_1447 "	"Transcriptional regulator%2C GntR family"	"ATCATAGAATCATGGGATGAT"	-57	11.9	NA	NA	"UPS1156"	11.9
+"SVEN_1446 "	"putative integral membrane transporter"	"ATCATAGAATCATGGGATGAT"	-27	11.9	"SVEN_1445 "	"hypothetical protein"	"UPS1156"	11.9
+"SVEN_7286 "	"putative secreted protein"	"ATCATCTTTCTGTCCTCTCAT"	-86	11.9	NA	NA	"UPS5762"	11.9
+"SVEN_5815 "	"N-Acetyl-D-glucosamine ABC transport system%2Cpermease protein"	"TTTACAAGATTGTCTATTTCT"	334	11.8	"SVEN_5816 "	"ABC-type sugar transport system%2C permease component"	"SVEN_5815 "	11.8
+"SVEN_6824 "	"putative oligosaccharide deacetylase"	"CATGAAAAAGGATCAGATGAC"	65	11.8	NA	NA	"SVEN_6824 "	11.8
+"SVEN_3249 "	"putative membrane protein found fused to lysyl-tRNA synthetase protein"	"AATTTCCTGTGAACCGATGAA"	-140	11.8	"SVEN_3250 ; SVEN_3251 "	"Dihydropteroate synthase; Alternative dihydrofolate reductase 3"	"UPS2582"	11.8
+"SVEN_3248 "	"putative membrane protein"	"AATTTCCTGTGAACCGATGAA"	-47	11.8	NA	NA	"UPS2582"	11.8
+"SVEN_4756 "	"putative lipoprotein"	"ATGAGCAATAGGTGTGATCAT"	-59	11.8	NA	NA	"UPS3811"	11.8
+"SVEN_4755 "	"hypothetical protein"	"ATGAGCAATAGGTGTGATCAT"	-210	11.8	NA	NA	"UPS3811"	11.8
+"SVEN_0163 "	"amidotransferase-related protein"	"TTTCTAATCTAGACTGACAAT"	-102	11.7	NA	NA	"UPS0131"	11.7
+"SVEN_0162 "	"Transcriptional regulator%2C TetR family"	"TTTCTAATCTAGACTGACAAT"	-80	11.7	NA	NA	"UPS0131"	11.7
+"SVEN_0269 "	"hypothetical protein"	"TTCATAGGACTATTCGGGAGA"	-96	11.7	NA	NA	"UPS0215"	11.7
+"SVEN_1447 "	"Transcriptional regulator%2C GntR family"	"ATCATGGGATGATTGGTTGTC"	-49	11.7	NA	NA	"UPS1156"	11.9
+"SVEN_1446 "	"putative integral membrane transporter"	"ATCATGGGATGATTGGTTGTC"	-35	11.7	"SVEN_1445 "	"hypothetical protein"	"UPS1156"	11.9
+"SVEN_4044 "	"hypothetical protein"	"AATGTAGGCAAAACGGATCAT"	-29	11.5	NA	NA	"UPS3231"	11.5
+"SVEN_2675 "	"hypothetical protein"	"ATCGACTGTCAATAAGAACAT"	-41	11.4	NA	NA	"UPS2119"	11.4
+"SVEN_3504 "	"cold shock protein"	"GGTGAAAATTTGTCATCTAAA"	-247	11.4	NA	NA	"UPS2784"	11.4
+"SVEN_1324 "	"hypothetical protein"	"ATAATCCGACTATCCGTCACC"	-61	11.3	NA	NA	"UPS1066"	12.3
+"SVEN_2930 "	"putative ABC transporter ATP-binding protein"	"TTTGTAAGTTCAAGTTAAGAA"	-58	11.3	"SVEN_2929 "	"putative ABC transporter integral membrane protein"	"UPS2323"	11.3
+"SVEN_3162 "	"hypothetical protein"	"ATCAGCCTATCTTCTGACATC"	259	11.3	"SVEN_3163 "	"Conserved hypothetical protein"	"UPS2509"	11.3
+"SVEN_4069 "	"hypothetical protein"	"AGAACAAAACGAAATGATCTT"	-55	11.3	NA	NA	"UPS3256"	11.3
+"SVEN_5278 "	"putative regulatory protein"	"ATCGTAGGATTACTTTCGGTA"	-154	11.3	NA	NA	"UPS4236"	11.3
+"SVEN_5277 "	"hypothetical protein"	"ATCGTAGGATTACTTTCGGTA"	-274	11.3	NA	NA	"UPS4236"	11.3
+"SVEN_5854 "	"hypothetical protein"	"GTGGATAATCAATAAGATGTC"	-260	11.3	NA	NA	"UPS4671"	11.3
+"SVEN_6981 "	"Nickel ABC transporter%2C periplasmic nickel-binding protein nikA2"	"AATAACAGTTGATCTCCAAAA"	-35	11.3	"SVEN_6982 ; SVEN_6983 ; SVEN_6984 ; SVEN_6985 "	"Dipeptide transport system permease protein DppB; Oligopeptide transport system permease protein OppC; Dipeptide transport ATP-binding protein DppD; ABC transporter ATP-binding protein"	"UPS5538"	11.3
+"SVEN_1847 "	"3-oxoacyl-[acyl-carrier protein] reductase"	"ATCTTCTGTCTGGTTTCATTT"	-19	11.2	NA	NA	"UPS1462"	11.2
+"SVEN_4453 "	"DNA-binding response regulator%2C LuxR family"	"TAAATATGACTCATTGCGAAT"	-316	11.2	NA	NA	"UPS3554"	11.2
+"SVEN_4452 "	"Sporulation regulatory protein WhiD"	"TAAATATGACTCATTGCGAAT"	-137	11.2	NA	NA	"UPS3554"	11.2
+"SVEN_4816 "	"Transcriptional regulator%2C TetR family"	"ATTCACGATTGAACCGAACAA"	-144	11.2	NA	NA	"UPS3863"	11.2
+"SVEN_6438 "	"Cobalt-zinc-cadmium resistance protein CzcD"	"ATCATCAGACCGATGACGATG"	587	11.1	NA	NA	"SVEN_6438 "	11.1
+"SVEN_2641 "	"hypothetical protein"	"ATGATCAGAACTACCTGTGAT"	-141	11.1	NA	NA	"UPS2090"	11.1
+"SVEN_2640 "	"5-methylcytosine-specific restriction related enzyme"	"ATGATCAGAACTACCTGTGAT"	-40	11.1	NA	NA	"UPS2090"	11.1
+"SVEN_1857 "	"hypothetical protein"	"TTCATCCGATCGTGTGAGGAT"	91	11	NA	NA	"SVEN_1857 "	11
+"SVEN_2231 "	"Long-chain-fatty-acid--CoA ligase"	"CAAGGCGACCGATCTGATCAA"	1136	11	NA	NA	"SVEN_2231 "	11
+"SVEN_4730 "	"hypothetical protein"	"GCTAACACCTGGTCAGATGAT"	-53	11	NA	NA	"UPS3789"	11
+"SVEN_4810 "	"hypothetical protein"	"TAAGGAAAATTTTCGGATGAC"	-43	11	NA	NA	"UPS3856"	11
+"SVEN_4809 "	"hypothetical protein"	"TAAGGAAAATTTTCGGATGAC"	-41	11	NA	NA	"UPS3856"	11
+"SVEN_6802 "	"Aspartate 1-decarboxylase"	"ATGATACGAACGATATTCAAG"	0	10.9	NA	NA	"SVEN_6802 "	10.9
+"SVEN_0557 "	"putative sensor histidine kinase"	"AAAATGCAATGAACCGATCAC"	-264	10.9	"SVEN_0556 ; SVEN_0555 ; SVEN_0554 ; SVEN_0553 "	"hypothetical protein; multi-component regulatory system-10; ATP-GTP binding protein; putative cytochrome P450"	"UPS0444"	10.9
+"SVEN_2892 "	"putative ABC transporter ATP-binding protein"	"GTTGTCTTATTTTATTGACGT"	-303	10.9	NA	NA	"UPS2290"	10.9
+"SVEN_2891 "	"Integrase"	"GTTGTCTTATTTTATTGACGT"	-277	10.9	"SVEN_2890 "	"hypothetical protein"	"UPS2290"	10.9
+"SVEN_4149 "	"Xanthine or uracil or thiamine or ascorbate permease family protein"	"TTCATGTGTTCATACTGAAAC"	-90	10.9	NA	NA	"UPS3321"	10.9
+"SVEN_4148 "	"putative integral membrane protein"	"TTCATGTGTTCATACTGAAAC"	-51	10.9	NA	NA	"UPS3321"	10.9
+"SVEN_4361 "	"Collagen triple helix repeat"	"AACATCTGTTCGATGTTTGTC"	-202	10.9	NA	NA	"UPS3481"	10.9
+"SVEN_4360 "	"hypothetical protein"	"AACATCTGTTCGATGTTTGTC"	-123	10.9	NA	NA	"UPS3481"	10.9
+"SVEN_4453 "	"DNA-binding response regulator%2C LuxR family"	"CTAAGTAGATGTAAATATGAC"	-327	10.9	NA	NA	"UPS3554"	11.2
+"SVEN_4452 "	"Sporulation regulatory protein WhiD"	"CTAAGTAGATGTAAATATGAC"	-126	10.9	NA	NA	"UPS3554"	11.2
+"SVEN_5042 "	"putative ATP or GTP-binding protein%2C doubtful CDS"	"TTCTTGCGATTTTCGGCTAAG"	-108	10.9	NA	NA	"UPS4044"	10.9
+"SVEN_5041 "	"putative alkanal monooxygenase"	"TTCTTGCGATTTTCGGCTAAG"	-112	10.9	NA	NA	"UPS4044"	10.9
+"SVEN_0625 "	"putative secreted sugar binding protein"	"CTACTACAACAAGCAGATGTT"	467	10.8	"SVEN_0626 ; SVEN_0627 ; SVEN_0628 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalF; Maltose or maltodextrin ABC transporter%2C permease protein MalG; Beta-galactosidase"	"SVEN_0625 "	10.8
+"SVEN_3273 "	"putative DNA-binding protein"	"GTCATCGTACTGATGTGTTAG"	869	10.8	NA	NA	"SVEN_3273 "	10.8
+"SVEN_1278 "	"Gluconokinase"	"ATTAAAAGTACTACTTTTATG"	-104	10.8	NA	NA	"UPS1028"	10.8
+"SVEN_1277 "	"Transcriptional regulator%2C GntR family"	"ATTAAAAGTACTACTTTTATG"	-64	10.8	NA	NA	"UPS1028"	10.8
+"SVEN_2226 "	"Transcriptional regulator%2C MarR family"	"AAAAGCTTCTGATCACAAAAT"	-90	10.8	NA	NA	"UPS1750"	10.8
+"SVEN_2225 "	"putative oxidoreductase YncB"	"AAAAGCTTCTGATCACAAAAT"	-36	10.8	NA	NA	"UPS1750"	10.8
+"SVEN_2916 "	"hypothetical protein"	"AAAACAGGCAAAAAGGATCAT"	-73	10.8	NA	NA	"UPS2312"	10.8
+"SVEN_4648 "	"hypothetical protein"	"ATTTTCTGATCAGCTGCCGTG"	69	10.8	NA	NA	"UPS3720"	12
+"SVEN_4647 "	"hypothetical protein"	"ATTTTCTGATCAGCTGCCGTG"	81	10.8	NA	NA	"UPS3720"	12
+"SVEN_1894 "	"Maltose or maltodextrin ABC transporter%2Csubstrate binding periplasmic protein MalE"	"AAGATCTTCTTGTTGTAGAAG"	470	10.7	NA	NA	"SVEN_1894 "	10.7
+"SVEN_3105 "	"hypothetical protein"	"TTCATAAGCCTATTCGGGTAC"	105	10.7	NA	NA	"SVEN_3105 "	10.7
+"SVEN_3672 "	"tRNA nucleotidyltransferase"	"GTACTCCAACGAGATGATCAA"	992	10.7	"SVEN_3673 "	"tRNA-dependent lipid II--amino acid ligase"	"SVEN_3672 "	10.7
+"SVEN_4928 "	"hypothetical protein"	"GTGATAGTTTTTACTCATGAT"	1968	10.7	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_4964 "	"hypothetical protein"	"TGAATCCGATGAACTGACCAA"	1184	10.7	NA	NA	"SVEN_4964 "	10.7
+"SVEN_5349 "	"Membrane-associated zinc metalloprotease"	"CATCACCGGTGAACTGATGAA"	989	10.7	NA	NA	"SVEN_5349 "	10.7
+"SVEN_0462 "	"ATP-dependent RNA helicase"	"TATATCAGACTTTTCACGGAC"	-150	10.7	NA	NA	"UPS0374"	10.7
+"SVEN_1372 "	"hypothetical protein"	"TTCATATTTTCAGCTGCATGG"	-205	10.7	NA	NA	"UPS1098"	10.7
+"SVEN_1371 "	"putative regulator"	"TTCATATTTTCAGCTGCATGG"	-139	10.7	NA	NA	"UPS1098"	10.7
+"SVEN_6874 "	"hypothetical protein"	"TTGATCCGATGGGTTGTTGAG"	-41	10.7	NA	NA	"UPS5450"	10.7
+"SVEN_1777 "	"N-acetylmuramoyl-L-alanine amidase"	"TTTAACAAAACAACAGTCGAA"	21	10.6	NA	NA	"SVEN_1777 "	10.6
+"SVEN_2505 "	"hypothetical protein"	"TTCATCTGAACTCCCTTTGAC"	17	10.6	NA	NA	"SVEN_2505 "	10.6
+"SVEN_3776 "	"putative transporter"	"ATGATCTTCCTGATCAACATC"	528	10.6	"SVEN_3777 "	"hypothetical protein"	"SVEN_3776 "	10.6
+"SVEN_6306 "	"Ethylmalonyl-CoA mutase%2Cmethylsuccinyl-CoA-forming"	"GTCGACGATACGTCCGATGAT"	1944	10.6	NA	NA	"SVEN_6306 "	10.6
+"SVEN_7002 "	"hypothetical protein"	"ATCATCGGATTCGTCAACCAT"	1386	10.6	"SVEN_7003 ; SVEN_7004 ; SVEN_7005 "	"hypothetical protein; hypothetical protein; hypothetical protein"	"SVEN_7002 "	10.6
+"SVEN_0837 "	"putative membrane protein"	"TTAAAACGAATATTCATTCTT"	-95	10.6	NA	NA	"UPS0664"	10.6
+"SVEN_0836 "	"Transcriptional regulator%2C TetR family"	"TTAAAACGAATATTCATTCTT"	-30	10.6	NA	NA	"UPS0664"	10.6
+"SVEN_2209 "	"acyl carrier protein"	"TTTCCCCAGTAATCACAAGAA"	-32	10.6	NA	NA	"UPS1734"	10.6
+"SVEN_2999 "	"putative regulatory protein"	"ATTAGTCGATAAGAGGACAAA"	-39	10.6	NA	NA	"UPS2376"	10.6
+"SVEN_2998 "	"Substrate-specific component NikM of nickel ECF transporter or Additional substrate-specific component NikN of nickel ECF transporter"	"ATTAGTCGATAAGAGGACAAA"	-74	10.6	"SVEN_2997 ; SVEN_2996 "	"Transmembrane component NikQ of energizing module of nickel ECF transporter; ATPase component NikO of energizing module of nickel ECF transporter"	"UPS2376"	10.6
+"SVEN_4750 "	"putative membrane protein"	"TTCCTCGGAATTTCCGATGAT"	-148	10.6	NA	NA	"UPS3807"	10.6
+"SVEN_4749 "	"Fibrillarin"	"TTCCTCGGAATTTCCGATGAT"	-88	10.6	NA	NA	"UPS3807"	10.6
+"SVEN_5438 "	"LPXTG-motif cell wall anchor domain"	"ATCAGCAGACTGACCGAAAAC"	-196	10.6	"SVEN_5437 ; SVEN_5436 "	"hypothetical protein; RCC1 repeat domain protein"	"UPS4364"	10.6
+"SVEN_5439 "	"hypothetical protein"	"ATCAGCAGACTGACCGAAAAC"	-487	10.6	NA	NA	"UPS4364"	10.6
+"SVEN_2462 "	"putative ABC transporter ATP-binding protein"	"ATCTTCAGAACGGTGGACTTA"	230	10.5	"SVEN_2461 ; SVEN_2460 "	"hypothetical protein; hypothetical protein"	"SVEN_2462 "	10.5
+"SVEN_1734 "	"hypothetical protein"	"ATGACCATATTTTCTGCTGTG"	-119	10.5	NA	NA	"UPS1371"	10.5
+"SVEN_1737 "	"Cell division protein FtsZ"	"TTTTTCTTTTCACCCTATGTG"	-229	10.5	"SVEN_1736 ; SVEN_1735 "	"Uncharacterized conserved protein; Hypothetical protein YggS"	"UPS1373"	10.5
+"SVEN_2677 "	"hypothetical protein"	"AGACAAGAAAAGACAGATCTT"	-265	10.5	NA	NA	"UPS2120"	10.5
+"SVEN_2676 "	"putative secreted protease"	"AGACAAGAAAAGACAGATCTT"	-116	10.5	NA	NA	"UPS2120"	10.5
+"SVEN_3002 "	"putative protease"	"GACTTCGTACAGTACGAAGAT"	-197	10.5	NA	NA	"UPS2379"	10.5
+"SVEN_3001 "	"Transcriptional regulator%2C TetR family"	"GACTTCGTACAGTACGAAGAT"	-54	10.5	NA	NA	"UPS2379"	10.5
+"SVEN_3144 "	"putative secreted protein"	"AACGTCATCCAAACCGACAAT"	-118	10.5	NA	NA	"UPS2493"	10.5
+"SVEN_5194 "	"hypothetical protein"	"GTCATGGGGAGATCCTATAAA"	-16	10.5	"SVEN_5193 "	"hypothetical protein"	"UPS4163"	10.5
+"SVEN_5395 "	"regulatory protein"	"ATCATCTGATAAAGTCGGAAC"	1811	10.5	NA	NA	"UPS4328"	12.9
+"SVEN_5394 "	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"ATCATCTGATAAAGTCGGAAC"	158	10.5	NA	NA	"UPS4328"	12.9
+"SVEN_6822 "	"putative lipoprotein"	"CAATTCGTGTGAACAGATGTT"	-50	10.5	NA	NA	"UPS5412"	10.5
+"SVEN_6821 "	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"CAATTCGTGTGAACAGATGTT"	-252	10.5	"SVEN_6820 "	"hypothetical protein"	"UPS5412"	10.5
+"SVEN_7238 "	"Alkyldihydroxyacetonephosphate synthase"	"ATTATCAGTAAGTAATTTACC"	-60	10.5	NA	NA	"UPS5727"	10.5
+"SVEN_7237 "	"Transcriptional regulator%2C TetR family"	"ATTATCAGTAAGTAATTTACC"	-92	10.5	NA	NA	"UPS5727"	10.5
+"SVEN_7351 "	"hypothetical protein"	"ATTAACGAAAATGCTCAATAA"	-122	10.5	"SVEN_7352 "	"secreted glycosyl hydrolase"	"UPS5817"	10.5
+"SVEN_0265 "	"magnesium or manganese-dependent protein phosphatase"	"GAGGTCAGTTGGTCCGAAGAA"	384	10.4	NA	NA	"SVEN_0265 "	10.4
+"SVEN_3371 "	"Aspartate-semialdehyde dehydrogenase"	"GTCGTTCACAGATCCTACAAA"	1091	10.4	NA	NA	"SVEN_3371 "	10.4
+"SVEN_3463 "	"Arsenate reductase"	"CTTTAAGGAAGAACCGATGAC"	-16	10.4	NA	NA	"SVEN_3463 "	10.4
+"SVEN_6977 "	"putative regulatory protein"	"ATGACCGAAGAAAAAGACGAT"	0	10.4	NA	NA	"SVEN_6977 "	10.4
+"SVEN_7394 "	"ADP-ribose pyrophosphatase"	"TTGATCATACTTTCCGAGGCG"	51	10.4	NA	NA	"SVEN_7394 "	10.4
+"SVEN_0306 "	"Beta-lactamase (Cephalosporinase)"	"ATCGTCAGATTCTTTGTCGGG"	-76	10.4	NA	NA	"UPS0246"	10.4
+"SVEN_0305 "	"Enoyl-[acyl-carrier-protein] reductase"	"ATCGTCAGATTCTTTGTCGGG"	-71	10.4	"SVEN_0304 "	"Long-chain-fatty-acid--CoA ligase"	"UPS0246"	10.4
+"SVEN_0473 "	"hypothetical protein"	"ATTATGGGACGGTCTTCTCAT"	-130	10.4	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"ATTATGGGACGGTCTTCTCAT"	-27	10.4	NA	NA	"UPS0378"	10.4
+"SVEN_1462 "	"secreted subtilisin protease"	"ATCTTCATGAAGTCTTCTCAA"	-124	10.4	NA	NA	"UPS1169"	10.4
+"SVEN_1461 "	"putative integral membrane protein"	"ATCTTCATGAAGTCTTCTCAA"	-170	10.4	"SVEN_1460 "	"putative symporter YjcG"	"UPS1169"	10.4
+"SVEN_3022 "	"putative membrane protein"	"TTGTTCAGATCGATTGCCGGT"	-113	10.4	NA	NA	"UPS2397"	10.4
+"SVEN_3713 "	"Cytochrome d ubiquinol oxidase subunit I"	"CGGATTCAACAATATGTTGAA"	-201	10.4	"SVEN_3714 ; SVEN_3715 ; SVEN_3716 "	"Cytochrome d ubiquinol oxidase subunit II; Transport ATP-binding protein CydCD; putative two component sensor"	"UPS2958"	10.4
+"SVEN_3712 "	"hypothetical protein"	"CGGATTCAACAATATGTTGAA"	-25	10.4	NA	NA	"UPS2958"	10.4
+"SVEN_4328 "	"LSU ribosomal protein L33p"	"TTTATGCGTTCATCCGTCCAT"	-44	10.4	NA	NA	"UPS3452"	10.4
+"SVEN_4327 "	"Cytosine deaminase"	"TTTATGCGTTCATCCGTCCAT"	-472	10.4	"SVEN_4326 "	"oxidoreductase ylbE"	"UPS3452"	10.4
+"SVEN_4928 "	"hypothetical protein"	"TTGGTCATAACGTAAGAAATA"	-154	10.4	"SVEN_4929 "	"hypothetical protein"	"UPS3951"	10.4
+"SVEN_6110 "	"Allantoinase"	"TTCAACAGTTCGTTGAATTTC"	-50	10.4	"SVEN_6111 "	"Allantoicase"	"UPS4879"	10.4
+"SVEN_6109 "	"Transcriptional regulator%2C IclR family"	"TTCAACAGTTCGTTGAATTTC"	-267	10.4	NA	NA	"UPS4879"	10.4
+"SVEN_7057 "	"Siderophore biosynthesis protein%2C monooxygenase"	"ATCGTCAGATCAGGTTAGCTT"	-109	10.4	NA	NA	"UPS5597"	10.4
+"SVEN_7056 "	"formyltransferase"	"ATCGTCAGATCAGGTTAGCTT"	-154	10.4	"SVEN_7055 "	"Transcriptional regulator%2C MarR family"	"UPS5597"	10.4
+"SVEN_3819 "	"hypothetical protein"	"GTCATAGGATTTCTAGATGGA"	252	10.3	"SVEN_3820 "	"hypothetical protein"	"SVEN_3819 "	10.3
+"SVEN_4089 "	"hypothetical protein"	"GATAAAATGCCGACAGATCAT"	0	10.3	NA	NA	"SVEN_4089 "	10.3
+"SVEN_7002 "	"hypothetical protein"	"CTGGACCAACTATCACATGTA"	851	10.3	"SVEN_7003 ; SVEN_7004 ; SVEN_7005 "	"hypothetical protein; hypothetical protein; hypothetical protein"	"SVEN_7002 "	10.6
+"SVEN_0417 "	"Possible Glycerol kinase"	"CCTTTTCGGTGATCGGATGAT"	-52	10.3	"SVEN_0418 ; SVEN_0419 ; SVEN_0420 "	"Possible Glycerol-3-phosphate dehydrogenase; Sarcosine oxidase alpha subunit; putative MutT protein"	"UPS0342"	10.3
+"SVEN_0416 "	"hypothetical protein"	"CCTTTTCGGTGATCGGATGAT"	-272	10.3	NA	NA	"UPS0342"	10.3
+"SVEN_1278 "	"Gluconokinase"	"TTAAAAGTACTACTTTTATGT"	-103	10.3	NA	NA	"UPS1028"	10.8
+"SVEN_1277 "	"Transcriptional regulator%2C GntR family"	"TTAAAAGTACTACTTTTATGT"	-65	10.3	NA	NA	"UPS1028"	10.8
+"SVEN_1777 "	"N-acetylmuramoyl-L-alanine amidase"	"TCTACAACATGATCTTCTGAT"	2872	10.3	NA	NA	"UPS1406"	10.3
+"SVEN_1778 "	"2-Amino-2-deoxy-isochorismate synthase"	"TCTACAACATGATCTTCTGAT"	-270	10.3	NA	NA	"UPS1406"	10.3
+"SVEN_2304 "	"Ferredoxin--NADP(+) reductase%2C actinobacterial (eukaryote) type"	"GTCATAAGTTCGTCTTATGGG"	-123	10.3	NA	NA	"UPS1818"	10.3
+"SVEN_2303 "	"hypothetical protein"	"GTCATAAGTTCGTCTTATGGG"	-152	10.3	NA	NA	"UPS1818"	10.3
+"SVEN_3734 "	"Seryl-tRNA synthetase"	"AAAATACGCAGGTAGGACTAT"	-440	10.3	"SVEN_3733 "	"Hydrolase"	"UPS2976"	10.3
+"SVEN_4232 "	"BarH"	"TCTGACGGTCCATCAGAAAAT"	-44	10.3	"SVEN_4233 ; SVEN_4234 "	"putative acyl-CoA dehydrogenase; putative acyl-CoA dehydrogenase"	"UPS3388"	10.3
+"SVEN_4231 "	"putative cyclohex-1-ene-1-carboxylate:CoA ligase"	"TCTGACGGTCCATCAGAAAAT"	-126	10.3	NA	NA	"UPS3388"	10.3
+"SVEN_4493 "	"hypothetical protein"	"AGGCTAGGAAGGTCCGATAAA"	-159	10.3	NA	NA	"UPS3589"	10.3
+"SVEN_4492 "	"hypothetical protein"	"AGGCTAGGAAGGTCCGATAAA"	-53	10.3	NA	NA	"UPS3589"	10.3
+"SVEN_5393 "	"Dihydrodipicolinate synthase"	"AAGTTCATCTAGGCTGATCAA"	-116	10.3	NA	NA	"UPS4326"	10.3
+"SVEN_5667 "	"hypothetical protein"	"CTGATCTTACAAGTAGGTAAT"	-146	10.3	NA	NA	"UPS4544"	10.3
+"SVEN_5668 "	"Na+ or H+ antiporter NhaD type"	"CTGATCTTACAAGTAGGTAAT"	-646	10.3	"SVEN_5669 ; SVEN_5670 "	"hypothetical protein; Na(+) or H(+) antiporter"	"UPS4544"	10.3
+"SVEN_1284 "	"regulatory protein%2C TetR"	"TTAATATGAATGCATGGCGAG"	-13	10.2	"SVEN_1285 "	"3-oxoacyl-[acyl-carrier protein] reductase"	"SVEN_1284 "	10.2
+"SVEN_1909 "	"hypothetical protein"	"GGCATCAGATCGACTGATCAT"	995	10.2	NA	NA	"SVEN_1909 "	10.2
+"SVEN_3816 "	"hypothetical protein"	"GTGATCAGATAACTGGACTCG"	2090	10.2	NA	NA	"SVEN_3816 "	10.2
+"SVEN_4305 "	"putative two-component system response regulator"	"CCTGACAGAGTGTCAGATGAT"	731	10.2	NA	NA	"SVEN_4305 "	10.2
+"SVEN_4568 "	"Adenosine deaminase"	"GTTCACGGTCAATGCGATGAA"	998	10.2	NA	NA	"SVEN_4568 "	10.2
+"SVEN_0080 "	"putative sugar binding protein"	"ATAGTCCGATGACTTAAAGAA"	-100	10.2	"SVEN_0079 ; SVEN_0078 ; SVEN_0077 ; SVEN_0076 ; SVEN_0075 "	"binding-protein-dependent transport systems inner membrane component; binding-protein-dependent transport systems inner membrane component; 5-dehydro-4-deoxyglucarate dehydratase; Glucarate dehydratase; Alpha-L-fucosidase"	"UPS0060"	10.2
+"SVEN_0473 "	"hypothetical protein"	"TACATCTCATGTTTTTCTTGA"	-91	10.2	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"TACATCTCATGTTTTTCTTGA"	-66	10.2	NA	NA	"UPS0378"	10.4
+"SVEN_0770 "	"hypothetical protein"	"ATGATCGTATCGATCGCGGAC"	-51	10.2	"SVEN_0769 "	"hypothetical protein"	"UPS0619"	10.2
+"SVEN_2109 "	"hypothetical protein"	"TTCATGGTATATACCTCGAAA"	-16	10.2	"SVEN_2108 "	"DNA-binding protein"	"UPS1663"	10.2
+"SVEN_2348 "	"regulatory protein%2C ArsR"	"TTAGAAAGACTTCTTTACAAG"	-37	10.2	"SVEN_2347 ; SVEN_2346 "	"major facilitator superfamily MFS_1 protein; N-hydroxyarylamine O-acetyltransferase"	"UPS1855"	10.2
+"SVEN_2757 "	"putative integral membrane protein"	"ATCATCCCATTTCCGTATCAG"	-313	10.2	"SVEN_2758 ; SVEN_2759 ; SVEN_2760 ; SVEN_2761 "	"putative integral membrane protein; putative secreted protein; MoxR ATPases; possible membrane protein"	"UPS2188"	10.2
+"SVEN_2756 "	"DNA-binding response regulator mtrA"	"ATCATCCCATTTCCGTATCAG"	-27	10.2	"SVEN_2755 ; SVEN_2754 "	"Sensor histidine kinase mtrB; LpqB"	"UPS2188"	10.2
+"SVEN_3950 "	"putative NLP or P60-family secreted protein"	"CAAATCTGATTTACCGTCAGT"	-40	10.2	NA	NA	"UPS3158"	10.2
+"SVEN_4860 "	"Catalase"	"TTTGGATGTTCACTTGACTTA"	-78	10.2	NA	NA	"UPS3899"	10.2
+"SVEN_4859 "	"Transcriptional regulator%2C FUR family"	"TTTGGATGTTCACTTGACTTA"	-69	10.2	NA	NA	"UPS3899"	10.2
+"SVEN_5829 "	"Uroporphyrinogen III decarboxylase"	"ATGATCGGAAAAATGTCCCTG"	-124	10.2	NA	NA	"UPS4656"	10.2
+"SVEN_5828 "	"Uncharacterized protein Q1 colocalized with Q"	"ATGATCGGAAAAATGTCCCTG"	-75	10.2	NA	NA	"UPS4656"	10.2
+"SVEN_1909 "	"hypothetical protein"	"AATTTCACAACTTTCTATGAT"	1094	10.1	NA	NA	"SVEN_1909 "	10.2
+"SVEN_1965 "	"putative phosphodiesterase"	"TTCTTCGGAATGCTCGTGTAT"	21	10.1	NA	NA	"SVEN_1965 "	10.1
+"SVEN_3659 "	"Inner membrane protein translocase component YidC%2C long form"	"TCAGTCCGAAGAGATGATGAA"	260	10.1	NA	NA	"SVEN_3659 "	10.1
+"SVEN_3691 "	"Beta-lactamase"	"ATGATGACATCTTTTGAAGCG"	9	10.1	NA	NA	"SVEN_3691 "	10.1
+"SVEN_5432 "	"putative glutamate uptake system ATP-binding protein"	"ATCGTCAGATCGATGTCCTGG"	119	10.1	NA	NA	"SVEN_5432 "	10.1
+"SVEN_7440 "	"hypothetical protein"	"ATGGCTCAAAAAGCATATTTT"	49	10.1	NA	NA	"SVEN_7440 "	10.1
+"SVEN_2293 "	"putative membrane protein"	"TTTTGAAGATCATTTGGCTCG"	-96	10.1	NA	NA	"UPS1807"	10.1
+"SVEN_2358 "	"Phosphoglycerate mutase family"	"AACGACGAACGAAACGACGAA"	204	10.1	NA	NA	"UPS1862"	10.1
+"SVEN_2357 "	"putative DNA-binding protein"	"AACGACGAACGAAACGACGAA"	4	10.1	NA	NA	"UPS1862"	10.1
+"SVEN_2630 "	"Chitinase"	"CATATCCGGCAATATGCAAAA"	-18	10.1	NA	NA	"UPS2082"	13
+"SVEN_3022 "	"putative membrane protein"	"CTGATATCACTGAACTTTTTT"	-88	10.1	NA	NA	"UPS2397"	10.4
+"SVEN_3022 "	"putative membrane protein"	"TTTTTGTGATTGTTCAGATCG"	-104	10.1	NA	NA	"UPS2397"	10.4
+"SVEN_4635 "	"putative secreted protein"	"TTAGGAATACTTTCTGAGCAT"	-64	10.1	NA	NA	"UPS3711"	10.1
+"SVEN_4634 "	"hypothetical protein"	"TTAGGAATACTTTCTGAGCAT"	-112	10.1	"SVEN_4633 "	"hypothetical protein"	"UPS3711"	10.1
+"SVEN_5770 "	"hypothetical protein"	"TTTTTCTGAATTGTTCCATGT"	-121	10.1	"SVEN_5771 "	"integral membrane protein"	"UPS4612"	10.1
+"SVEN_5769 "	"hypothetical protein"	"TTTTTCTGAATTGTTCCATGT"	-47	10.1	NA	NA	"UPS4612"	10.1
+"SVEN_7149 "	"hypothetical protein"	"GTGATCGGATCGTCGGTCATG"	-1	10.1	"SVEN_7148 "	"putative transcriptional regulator%2C TetR family"	"UPS5667"	10.1
+"SVEN_2721 "	"Nitrate or nitrite transporter"	"GAGGACGAAGAGTCCGATGAA"	981	10	"SVEN_2720 "	"putative transcriptional regulator"	"SVEN_2721 "	10
+"SVEN_4104 "	"Rhs protein"	"CTTCTCCATCAGTCTGGTGAT"	24	10	NA	NA	"SVEN_4104 "	10
+"SVEN_4312 "	"NADH-ubiquinone oxidoreductase chain I"	"GTCATCGGACTGTTCGAGGAG"	126	10	NA	NA	"SVEN_4312 "	10
+"SVEN_5666 "	"hypothetical protein"	"AATAAAACACGGTCATATAGA"	448	10	NA	NA	"SVEN_5666 "	10
+"SVEN_6322 "	"putative acyl-peptide hydrolase"	"CTCATCGGATCGATCGACGAG"	1704	10	NA	NA	"SVEN_6322 "	10
+"SVEN_0339 "	"CAIB or BAIF family protein"	"CGTAGCGGTAGATCGGATATT"	-94	10	NA	NA	"UPS0277"	10
+"SVEN_0338 "	"Glutaryl-CoA dehydrogenase"	"CGTAGCGGTAGATCGGATATT"	-62	10	NA	NA	"UPS0277"	10
+"SVEN_2916 "	"hypothetical protein"	"ACAGGCAAAAAGGATCATGAA"	-76	10	NA	NA	"UPS2312"	10.8
+"SVEN_4458 "	"Glycerol-3-phosphate dehydrogenase"	"AATGTCAGACTAGGCGTAAAT"	-188	10	NA	NA	"UPS3559"	10
+"SVEN_4457 "	"putative UDP-glucose or GDP-mannose dehydrogenase"	"AATGTCAGACTAGGCGTAAAT"	-95	10	NA	NA	"UPS3559"	10
+"SVEN_6822 "	"putative lipoprotein"	"TTCGTGTGAACAGATGTTCAT"	-47	10	NA	NA	"UPS5412"	10.5
+"SVEN_6821 "	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"TTCGTGTGAACAGATGTTCAT"	-255	10	"SVEN_6820 "	"hypothetical protein"	"UPS5412"	10.5
+"SVEN_0355 "	"Ribosomal-protein-L7p-serine acetyltransferase"	"GTGGGCGATCGATCCGAAGAT"	807	9.9	NA	NA	"SVEN_0355 "	9.9
+"SVEN_1733 "	"Possible membrane protein"	"GATGATCATCAGAACGAAGAA"	228	9.9	NA	NA	"SVEN_1733 "	9.9
+"SVEN_1733 "	"Possible membrane protein"	"ATCATCAGAACGAAGAAGGAC"	224	9.9	NA	NA	"SVEN_1733 "	9.9
+"SVEN_0796 "	"hypothetical protein"	"ATGTTGAGATCAAACCTCATT"	-19	9.9	NA	NA	"UPS0638"	9.9
+"SVEN_2304 "	"Ferredoxin--NADP(+) reductase%2C actinobacterial (eukaryote) type"	"GAAGTCATAAGTTCGTCTTAT"	-126	9.9	NA	NA	"UPS1818"	10.3
+"SVEN_2303 "	"hypothetical protein"	"GAAGTCATAAGTTCGTCTTAT"	-149	9.9	NA	NA	"UPS1818"	10.3
+"SVEN_3229 "	"hypothetical protein"	"CTAATCGGACAATTTCCTCTT"	-37	9.9	"SVEN_3228 "	"small membrane protein"	"UPS2567"	9.9
+"SVEN_3341 "	"cAMP-binding protein"	"TTGATCGCACTGTTTTGTACG"	-75	9.9	NA	NA	"UPS2653"	9.9
+"SVEN_3340 "	"Endonuclease III"	"TTGATCGCACTGTTTTGTACG"	-131	9.9	NA	NA	"UPS2653"	9.9
+"SVEN_3344 "	"NTP pyrophosphohydrolases including oxidative damage repair enzymes"	"TTCGGCTGACCATTCGACATG"	-1	9.9	"SVEN_3343 "	"Zn-dependent hydrolases%2C including glyoxylases"	"UPS2656"	9.9
+"SVEN_3766 "	"hypothetical protein"	"GTGATCGTTTTTTCCGTTTGG"	-37	9.9	NA	NA	"UPS3003"	9.9
+"SVEN_4338 "	"Preprotein translocase subunit SecE"	"TTCGGCTGACTTTTTGTTCCA"	279	9.9	"SVEN_4339 "	"Transcription antitermination protein NusG"	"UPS3462"	9.9
+"SVEN_5525 "	"putative glycosyltransferase"	"TTTAACTGTTCGATTCAGTAT"	-32	9.9	"SVEN_5526 "	"hypothetical protein"	"UPS4438"	9.9
+"SVEN_6028 "	"hypothetical protein"	"TCTATCGATACGTCATCTCAT"	-24	9.9	NA	NA	"UPS4812"	9.9
+"SVEN_0050 "	"transcriptional regulator%2C MerR family"	"GTTGCCCTTCGGTATGAAGAT"	-13	9.8	NA	NA	"SVEN_0050 "	9.8
+"SVEN_0997 "	"Lactam utilization protein LamB"	"CTTGTCGGATCGTTCAACGAT"	-1	9.8	"SVEN_0998 ; SVEN_0999 "	"Allophanate hydrolase 2 subunit 1; Allophanate hydrolase 2 subunit 2"	"SVEN_0997 "	9.8
+"SVEN_2288 "	"putative efflux membrane protein"	"TTAGCCGTACTATCCGAACAT"	-19	9.8	NA	NA	"SVEN_2288 "	9.8
+"SVEN_3778 "	"putative transporter"	"ATGATCTGCTTGTGCGTCATC"	80	9.8	NA	NA	"SVEN_3778 "	9.8
+"SVEN_5031 "	"putative membrane protein"	"CACCGCGATCGATCTGAAGAA"	149	9.8	NA	NA	"SVEN_5031 "	9.8
+"SVEN_5046 "	"putative ABC transporter ATP-binding protein"	"TTCATCAGATTGCGGATCCAG"	491	9.8	"SVEN_5045 "	"putative ABC transporter transmembrane protein"	"SVEN_5046 "	9.8
+"SVEN_5086 "	"putative sodium:dicarboxylate symporter"	"CAACCTGATCAAGATGATGAT"	188	9.8	NA	NA	"SVEN_5086 "	9.8
+"SVEN_6318 "	"hypothetical protein"	"TTCTGCAGACTGTTGTAGAAC"	1034	9.8	NA	NA	"SVEN_6318 "	9.8
+"SVEN_7232 "	"hydrolase"	"ATCGTCGGACCGTTCGACAGC"	671	9.8	NA	NA	"SVEN_7232 "	9.8
+"SVEN_7394 "	"ADP-ribose pyrophosphatase"	"GACATCGCTTGATCATACTTT"	59	9.8	NA	NA	"SVEN_7394 "	10.4
+"SVEN_0061 "	"putative lipoprotein"	"ATCATGAGAACTCCTCTTATC"	-16	9.8	NA	NA	"UPS0050"	9.8
+"SVEN_0939 "	"Transcriptional regulator%2C TetR family"	"AGTGTCAACACTTCGGACAAT"	-56	9.8	NA	NA	"UPS0745"	9.8
+"SVEN_0938 "	"hypothetical protein"	"AGTGTCAACACTTCGGACAAT"	-91	9.8	NA	NA	"UPS0745"	9.8
+"SVEN_2956 "	"Transcriptional regulator%2C MarR family"	"AATATATCTCCATATCAAGAT"	-85	9.8	NA	NA	"UPS2345"	9.8
+"SVEN_2955 "	"Trans-aconitate 2-methyltransferase"	"AATATATCTCCATATCAAGAT"	-99	9.8	NA	NA	"UPS2345"	9.8
+"SVEN_3341 "	"cAMP-binding protein"	"TTGTTGTGATTGATCGCACTG"	-84	9.8	NA	NA	"UPS2653"	9.9
+"SVEN_3340 "	"Endonuclease III"	"TTGTTGTGATTGATCGCACTG"	-122	9.8	NA	NA	"UPS2653"	9.9
+"SVEN_6519 "	"hypothetical protein"	"ATGATCTGCCTTTCGGGTGTT"	-19	9.8	NA	NA	"UPS5182"	9.8
+"SVEN_7325 "	"hypothetical protein"	"ATGCACGGTAATTCTGTTAAT"	-133	9.8	NA	NA	"UPS5795"	9.8
+"SVEN_7324 "	"Phage tail length tape-measure protein"	"ATGCACGGTAATTCTGTTAAT"	-418	9.8	NA	NA	"UPS5795"	9.8
+"SVEN_0408 "	"ATPase component CbiO of energizing module of cobalt ECF transporter"	"CGTGTCGTTCGGTCCGATGAA"	311	9.7	NA	NA	"SVEN_0408 "	9.7
+"SVEN_1987 "	"hypothetical protein"	"AGCAACGACATATCCGATGAC"	12	9.7	NA	NA	"SVEN_1987 "	9.7
+"SVEN_2229 "	"two-component system sensor kinase"	"TTCGTACGACAATGAGACCAT"	-19	9.7	NA	NA	"SVEN_2229 "	9.7
+"SVEN_2286 "	"Pyruvate%2Cphosphate dikinase"	"CGTACACGAACTTCTGATCAT"	106	9.7	NA	NA	"SVEN_2286 "	11.9
+"SVEN_2491 "	"hypothetical protein"	"TTTATCCTTCAACTCAAACAG"	1140	9.7	NA	NA	"SVEN_2491 "	9.7
+"SVEN_2991 "	"hypothetical protein"	"ATCATGAGTTCGTTGACCTCT"	-3	9.7	NA	NA	"SVEN_2991 "	9.7
+"SVEN_5114 "	"putative lipoprotein"	"CTCGAAGGACAAGCAGATCAA"	1178	9.7	NA	NA	"SVEN_5114 "	9.7
+"SVEN_5153 "	"putative ABC transporter ATP-binding protein"	"CATGACGGACAAGCTGACGAA"	-1	9.7	NA	NA	"SVEN_5153 "	9.7
+"SVEN_5152 "	"oligopeptide transport system integral membrane protein"	"CATGACGGACAAGCTGACGAA"	994	9.7	"SVEN_5153 ; SVEN_5154 "	"putative ABC transporter ATP-binding protein; Oligopeptide transport ATP-binding protein OppF"	"SVEN_5153 "	9.7
+"SVEN_5396 "	"Two-component hybrid sensor and regulator"	"CATGGCCGGCAATCTGACCAA"	803	9.7	NA	NA	"SVEN_5396 "	9.7
+"SVEN_5748 "	"hypothetical protein"	"ATCTGCCGTTTGATCGTTTTT"	289	9.7	NA	NA	"SVEN_5748 "	9.7
+"SVEN_0082 "	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	"TTCGCCTGATTGATTGCATTC"	-54	9.7	"SVEN_0083 "	"lipase or acylhydrolase family protein"	"UPS0061"	9.7
+"SVEN_0081 "	"D-3-phosphoglycerate dehydrogenase"	"TTCGCCTGATTGATTGCATTC"	-158	9.7	NA	NA	"UPS0061"	9.7
+"SVEN_0837 "	"putative membrane protein"	"ATATTCATTCTTGACAACATC"	-86	9.7	NA	NA	"UPS0664"	10.6
+"SVEN_0836 "	"Transcriptional regulator%2C TetR family"	"ATATTCATTCTTGACAACATC"	-39	9.7	NA	NA	"UPS0664"	10.6
+"SVEN_0881 "	"putative integral membrane protein"	"AGAGTTCAATGAACTGAACTA"	-80	9.7	NA	NA	"UPS0704"	9.7
+"SVEN_0880 "	"putative transcriptional regulatory protein"	"AGAGTTCAATGAACTGAACTA"	-45	9.7	NA	NA	"UPS0704"	9.7
+"SVEN_4810 "	"hypothetical protein"	"ATTTTCGGATGACTAACTACT"	-35	9.7	NA	NA	"UPS3856"	11
+"SVEN_4809 "	"hypothetical protein"	"ATTTTCGGATGACTAACTACT"	-49	9.7	NA	NA	"UPS3856"	11
+"SVEN_6002 "	"reductase"	"AAAGACATGCTGTCCGACGAA"	-113	9.7	NA	NA	"UPS4790"	9.7
+"SVEN_6001 "	"hypothetical protein"	"AAAGACATGCTGTCCGACGAA"	-59	9.7	NA	NA	"UPS4790"	9.7
+"SVEN_6116 "	"hypothetical protein"	"GAAATTTCTTCATGTGATGAT"	-8	9.7	NA	NA	"UPS4886"	9.7
+"SVEN_6600 "	"Alpha-N-arabinofuranosidase"	"TATTTCGAACAATCTGAACGA"	-32	9.7	NA	NA	"UPS5249"	9.7
+"SVEN_6707 "	"LSU ribosomal protein L31p"	"AATGAAAACCGTTCCCATATA"	-116	9.7	"SVEN_6708 ; SVEN_6709 "	"putative metal chaperone; SSU ribosomal protein S18p"	"UPS5325"	9.7
+"SVEN_6706 "	"LSU ribosomal protein L28p"	"AATGAAAACCGTTCCCATATA"	-58	9.7	"SVEN_6705 "	"SSU ribosomal protein S14p"	"UPS5325"	9.7
+"SVEN_6947 "	"putative secreted protein"	"TTAGGAATATTTCCTAACCAT"	-47	9.7	NA	NA	"UPS5511"	9.7
+"SVEN_1016 "	"Transcriptional regulator%2C AsnC family"	"GCAACTCGACGATCTGACGAT"	13	9.6	NA	NA	"SVEN_1016 "	9.6
+"SVEN_1141 "	"hypothetical protein"	"CACCGTCGTCGATCTGATGAA"	35	9.6	NA	NA	"SVEN_1141 "	9.6
+"SVEN_1194 "	"LSU ribosomal protein L35p"	"GTGATCAGATCAGATGCCCAG"	183	9.6	NA	NA	"SVEN_1194 "	9.6
+"SVEN_2253 "	"Lipid A export ATP-binding or permease protein MsbA"	"GATGTCGATCAAGGTGATCAA"	416	9.6	NA	NA	"SVEN_2253 "	9.6
+"SVEN_3572 "	"hypothetical protein"	"GAAATCGAGCAGAACGATCTT"	123	9.6	NA	NA	"SVEN_3572 "	9.6
+"SVEN_4300 "	"putative serine or threonine protein kinase"	"CGAATCGGGCGATCTGAACAT"	2105	9.6	NA	NA	"SVEN_4300 "	9.6
+"SVEN_5006 "	"Homoserine dehydrogenase"	"ACGGGAAAGAGGTCGGATGAT"	-16	9.6	"SVEN_5007 "	"Threonine synthase"	"SVEN_5006 "	9.6
+"SVEN_5943 "	"Pyruvate cytochrome or ubiquinone oxidase"	"ATCATCGGTTCGTTCAGCCAC"	1206	9.6	NA	NA	"SVEN_5943 "	9.6
+"SVEN_6303 "	"Methylsuccinyl-CoA dehydrogenase%2C predicted by"	"AAACGACTCAAAACCGACAAT"	1205	9.6	NA	NA	"SVEN_6303 "	9.6
+"SVEN_7222 "	"protease"	"ATGGTCAGATAGCCGTAGATG"	707	9.6	"SVEN_7221 ; SVEN_7220 ; SVEN_7219 "	"hypothetical protein; hypothetical protein; hypothetical protein"	"SVEN_7222 "	9.6
+"SVEN_0100 "	"hypothetical protein"	"TTCGTATGTCATGTCTTTCTC"	-45	9.6	NA	NA	"UPS0075"	9.6
+"SVEN_0101 "	"secreted hydrolase"	"GAGAAAGACATGACATACGAA"	-254	9.6	NA	NA	"UPS0076"	9.6
+"SVEN_0974 "	"PTS system%2C N-acetylglucosamine-specific IIA component"	"CAGATCCGATTTTCCGTTTCT"	-400	9.6	NA	NA	"UPS0777"	9.6
+"SVEN_0973 "	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	"CAGATCCGATTTTCCGTTTCT"	-1813	9.6	NA	NA	"UPS0777"	9.6
+"SVEN_1447 "	"Transcriptional regulator%2C GntR family"	"ATGGGATGATTGGTTGTCCAA"	-46	9.6	NA	NA	"UPS1156"	11.9
+"SVEN_1446 "	"putative integral membrane transporter"	"ATGGGATGATTGGTTGTCCAA"	-38	9.6	"SVEN_1445 "	"hypothetical protein"	"UPS1156"	11.9
+"SVEN_2291 "	"Aldo-keto reductase"	"CTCGAAGGAATGACAGATATT"	-95	9.6	"SVEN_2292 "	"Transcriptional regulator%2C TetR family"	"UPS1805"	9.6
+"SVEN_3021 "	"hypothetical protein"	"GATATCAGTCTATTTCTTCGT"	-109	9.6	NA	NA	"UPS2396"	9.6
+"SVEN_3746 "	"hypothetical protein"	"GGTAACAAGAGATCTGCTGTT"	110	9.6	NA	NA	"UPS2986"	9.6
+"SVEN_3745 "	"hypothetical protein"	"GGTAACAAGAGATCTGCTGTT"	951	9.6	NA	NA	"UPS2986"	9.6
+"SVEN_3836 "	"hypothetical protein"	"GTTGTACGACATTACGTAATC"	-37	9.6	"SVEN_3837 "	"secreted peptidase"	"UPS3062"	9.6
+"SVEN_4602 "	"putative secreted protein"	"TTTGTACTAAATGTGACTTAC"	-70	9.6	NA	NA	"UPS3681"	9.6
+"SVEN_4635 "	"putative secreted protein"	"AGCATCGGATTGACGGATCAT"	-48	9.6	NA	NA	"UPS3711"	10.1
+"SVEN_4634 "	"hypothetical protein"	"AGCATCGGATTGACGGATCAT"	-128	9.6	"SVEN_4633 "	"hypothetical protein"	"UPS3711"	10.1
+"SVEN_4648 "	"hypothetical protein"	"GTCGGCTGATCGAATGATTTT"	85	9.6	NA	NA	"UPS3720"	12
+"SVEN_4647 "	"hypothetical protein"	"GTCGGCTGATCGAATGATTTT"	65	9.6	NA	NA	"UPS3720"	12
+"SVEN_4804 "	"hypothetical protein"	"ATCAGCCGACTGACGGTCAAT"	-62	9.6	NA	NA	"UPS3850"	9.6
+"SVEN_4803 "	"putative metal-transport protein"	"ATCAGCCGACTGACGGTCAAT"	-382	9.6	"SVEN_4802 "	"hypothetical protein"	"UPS3850"	9.6
+"SVEN_5759 "	"putative oxidoreductase"	"GTCATCGTTTAGATTGAGGTC"	-74	9.6	NA	NA	"UPS4603"	9.6
+"SVEN_5758 "	"Transcriptional regulator%2C TetR family"	"GTCATCGTTTAGATTGAGGTC"	-62	9.6	NA	NA	"UPS4603"	9.6
+"SVEN_0014 "	"Phosphoesterase"	"CAACCGGATCAAAATGATCAA"	366	9.5	NA	NA	"SVEN_0014 "	9.5
+"SVEN_1808 "	"Cytochrome c oxidase polypeptide III"	"CATCACGAACGTGATGATGAA"	309	9.5	NA	NA	"SVEN_1808 "	9.5
+"SVEN_2296 "	"hypothetical protein"	"GTTGAAAATGAGTGTCATGAA"	-16	9.5	"SVEN_2297 ; SVEN_2298 ; SVEN_2299 "	"Zinc ABC transporter%2C ATP-binding protein ZnuC; Zinc ABC transporter%2C inner membrane permease protein ZnuB; Zinc uptake regulation protein ZUR"	"SVEN_2296 "	9.5
+"SVEN_2464 "	"hypothetical protein"	"ATTTTACGACCATGCAAGTAC"	1079	9.5	NA	NA	"SVEN_2464 "	9.5
+"SVEN_7132 "	"hypothetical protein"	"AATTTCACATTACTATGTTAC"	25	9.5	NA	NA	"SVEN_7132 "	9.5
+"SVEN_7139 "	"ABC transporter solute-binding protein"	"GTAACATAGTAATGTGAAATT"	34	9.5	"SVEN_7138 ; SVEN_7137 ; SVEN_7136 ; SVEN_7135 "	"oligopeptide transport integral membrane protein; ABC transporter permease protein; oligopeptide ABC transporter ATP-binding protein; Oligopeptide transport ATP-binding protein"	"SVEN_7139 "	9.5
+"SVEN_7406 "	"conserved repeat domain"	"AAACGACTACTATCCGAAATT"	170	9.5	NA	NA	"SVEN_7406 "	9.5
+"SVEN_0473 "	"hypothetical protein"	"TTCTTGACATATTTTGTGACA"	-77	9.5	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"TTCTTGACATATTTTGTGACA"	-80	9.5	NA	NA	"UPS0378"	10.4
+"SVEN_0506 "	"Anthranilate synthase%2C aminase component"	"AACTTCAACTCAAATCAACAA"	-343	9.5	NA	NA	"UPS0407"	9.5
+"SVEN_0507 "	"putative transcriptional regulator"	"AACTTCAACTCAAATCAACAA"	-381	9.5	"SVEN_0508 "	"putative reductoisomerase"	"UPS0407"	9.5
+"SVEN_0737 "	"lipoprotein"	"TTGATCGGTCAAGCCGAGAAT"	-68	9.5	NA	NA	"UPS0593"	9.5
+"SVEN_0736 "	"putative secreted protein"	"TTGATCGGTCAAGCCGAGAAT"	-129	9.5	NA	NA	"UPS0593"	9.5
+"SVEN_2039 "	"hypothetical protein"	"GATACCAGTTCTAGTTATGAT"	-73	9.5	NA	NA	"UPS1615"	9.5
+"SVEN_2038 "	"Aldehyde dehydrogenase"	"GATACCAGTTCTAGTTATGAT"	-70	9.5	"SVEN_2037 "	"putative ferredoxin"	"UPS1615"	9.5
+"SVEN_3172 "	"hypothetical protein"	"TCCCCCGAAAAGTCTGATAAC"	-163	9.5	NA	NA	"UPS2518"	9.5
+"SVEN_3171 "	"hypothetical protein"	"TCCCCCGAAAAGTCTGATAAC"	-32	9.5	NA	NA	"UPS2518"	9.5
+"SVEN_3449 "	"isomerase"	"ATTGTACGTTGATCGCACTTT"	-193	9.5	NA	NA	"UPS2743"	9.5
+"SVEN_3448 "	"LysR-family transcriptional regulatory protein"	"ATTGTACGTTGATCGCACTTT"	-73	9.5	NA	NA	"UPS2743"	9.5
+"SVEN_3709 "	"putative serine or threonine phosphatase"	"ATCATAGGAATGAGGGTCCTC"	-99	9.5	NA	NA	"UPS2956"	9.5
+"SVEN_3883 "	"Transcriptional regulator%2C MarR family"	"TTTATCTCACGAGCTAAGTAA"	-44	9.5	NA	NA	"UPS3104"	9.5
+"SVEN_3882 "	"hypothetical protein"	"TTTATCTCACGAGCTAAGTAA"	-74	9.5	NA	NA	"UPS3104"	9.5
+"SVEN_4069 "	"hypothetical protein"	"TTCATGGTCTTTTCTTTCCTG"	-16	9.5	NA	NA	"UPS3256"	11.3
+"SVEN_4488 "	"integral membrane protein"	"AAAAGTACATAAGCGTATCTT"	-94	9.5	NA	NA	"UPS3585"	9.5
+"SVEN_4487 "	"hypothetical protein"	"AAAAGTACATAAGCGTATCTT"	-55	9.5	NA	NA	"UPS3585"	9.5
+"SVEN_4602 "	"putative secreted protein"	"TTTACCGTTTTGTACTAAATG"	-78	9.5	NA	NA	"UPS3681"	9.6
+"SVEN_5072 "	"cholesterol esterase"	"TTCTTCCGGCAATCTGCTGAT"	-462	9.5	NA	NA	"UPS4066"	9.5
+"SVEN_5972 "	"TetR-family transcriptional regulator"	"TTAAACCGACTGCTTGGTATT"	-58	9.5	NA	NA	"UPS4773"	9.5
+"SVEN_5973 "	"Phosphate regulon transcriptional regulatory protein PhoB"	"TTAAACCGACTGCTTGGTATT"	-500	9.5	NA	NA	"UPS4773"	9.5
+"SVEN_6564 "	"hypothetical protein"	"CTCATCTGATCGGCGGTCTAC"	-76	9.5	NA	NA	"UPS5219"	9.5
+"SVEN_0256 "	"Integral membrane protein"	"GTGATCATTTCGATCGTCCTC"	90	9.4	NA	NA	"SVEN_0256 "	9.4
+"SVEN_1077 "	"Phosphopantothenoylcysteine decarboxylase or Phosphopantothenoylcysteine synthetase"	"GTCGTCCTTCTTCTTGATCTT"	864	9.4	NA	NA	"SVEN_1077 "	9.4
+"SVEN_1433 "	"putative stomatin or prohibitin-family membrane protease subunit YbbK"	"CAGAATGATCAGGACGATGAT"	12	9.4	NA	NA	"SVEN_1433 "	9.4
+"SVEN_1473 "	"DNA polymerase III epsilon subunit"	"CATGTTCGACTGGCAGATGAT"	314	9.4	NA	NA	"SVEN_1473 "	9.4
+"SVEN_1753 "	"S-adenosylmethionine-dependentmethyltransferase"	"CACGTCGAACAGTCCGCTGAT"	303	9.4	NA	NA	"SVEN_1753 "	9.4
+"SVEN_2491 "	"hypothetical protein"	"TTTTGAAGATTTTCATGCCTT"	88	9.4	NA	NA	"SVEN_2491 "	9.7
+"SVEN_3569 "	"putative acyl-CoA dehydrogenase"	"ACCTTCAAGAAGTCGTACAAC"	234	9.4	NA	NA	"SVEN_3569 "	9.4
+"SVEN_3899 "	"Phosphate transport system permease protein PstC"	"ATGATCGGAAGGATCATGATC"	548	9.4	"SVEN_3898 ; SVEN_3897 "	"Phosphate transport system permease protein PstA; Phosphate transport ATP-binding protein PstB"	"SVEN_3899 "	9.4
+"SVEN_4066 "	"hypothetical protein"	"GCACTCGGACGATCTGACCAA"	7028	9.4	"SVEN_4067 "	"hypothetical protein"	"SVEN_4066 "	9.4
+"SVEN_4196 "	"hypothetical protein"	"GAGCCAGAACAAGAAGATCAT"	152	9.4	NA	NA	"SVEN_4196 "	9.4
+"SVEN_4928 "	"hypothetical protein"	"CTCTACTAGTAAGAAGAAGAT"	791	9.4	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_4928 "	"hypothetical protein"	"TTCATGCTTTTGATGAGATTC"	1897	9.4	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_5303 "	"SSU ribosomal protein S2p"	"CATGTTCGTCGGTACGAAGAA"	200	9.4	NA	NA	"SVEN_5303 "	9.4
+"SVEN_5595 "	"hypothetical protein"	"ATCGTCTTCTTGATGGGCTTG"	443	9.4	NA	NA	"SVEN_5595 "	9.4
+"SVEN_5832 "	"Protoporphyrinogen IX oxidase%2C aerobic"	"TTGAGAGAGTGGTCCCATGAA"	-16	9.4	"SVEN_5833 "	"Hemoprotein HemQ%2C essential component of heme biosynthetic pathway in Gram-positive bacteria"	"SVEN_5832 "	9.4
+"SVEN_6737 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalF"	"ATGATCAGTCTGGTCTTCTCC"	900	9.4	NA	NA	"SVEN_6737 "	9.4
+"SVEN_7132 "	"hypothetical protein"	"TTCACATTACTATGTTACACC"	28	9.4	NA	NA	"SVEN_7132 "	9.5
+"SVEN_7139 "	"ABC transporter solute-binding protein"	"ATGTGAAATTGTACTGACAAG"	23	9.4	"SVEN_7138 ; SVEN_7137 ; SVEN_7136 ; SVEN_7135 "	"oligopeptide transport integral membrane protein; ABC transporter permease protein; oligopeptide ABC transporter ATP-binding protein; Oligopeptide transport ATP-binding protein"	"SVEN_7139 "	9.5
+"SVEN_0625 "	"putative secreted sugar binding protein"	"GTTTAACTCACATCCTAAATT"	-98	9.4	"SVEN_0626 ; SVEN_0627 ; SVEN_0628 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalF; Maltose or maltodextrin ABC transporter%2C permease protein MalG; Beta-galactosidase"	"UPS0501"	9.4
+"SVEN_0624 "	"Xylose repressor XylR"	"GTTTAACTCACATCCTAAATT"	-94	9.4	NA	NA	"UPS0501"	9.4
+"SVEN_2595 "	"putative C1 regulatory protein"	"GATATCCGATTTGTAGCCAAA"	-100	9.4	NA	NA	"UPS2057"	9.4
+"SVEN_2594 "	"hypothetical protein"	"GATATCCGATTTGTAGCCAAA"	-147	9.4	NA	NA	"UPS2057"	9.4
+"SVEN_3051 "	"Flagellar hook-length control protein FliK"	"ATGATCCGATCGGAAGCTCAT"	-95	9.4	NA	NA	"UPS2420"	9.4
+"SVEN_3050 "	"Glycosyl transferase%2C group 2 family protein"	"ATGATCCGATCGGAAGCTCAT"	-92	9.4	NA	NA	"UPS2420"	9.4
+"SVEN_3229 "	"hypothetical protein"	"GATACGCGCTAATCGGACAAT"	-29	9.4	"SVEN_3228 "	"small membrane protein"	"UPS2567"	9.9
+"SVEN_3846 "	"putative DNA-binding protein"	"ACAAGCCGTTCGTCCTATAAC"	-119	9.4	NA	NA	"UPS3071"	9.4
+"SVEN_4265 "	"NADH ubiquinone oxidoreductase chain A"	"CTCATCCGACTTCATGATCCT"	-92	9.4	"SVEN_4266 ; SVEN_4267 ; SVEN_4268 ; SVEN_4269 ; SVEN_4270 ; SVEN_4271 ; SVEN_4272 ; SVEN_4273 ; SVEN_4274 ; SVEN_4275 ; SVEN_4276 ; SVEN_4277 ; SVEN_4278 "	"NADH-ubiquinone oxidoreductase chain B; NADH-ubiquinone oxidoreductase chain C; NADH-ubiquinone oxidoreductase chain D; NADH-ubiquinone oxidoreductase chain E; NADH-ubiquinone oxidoreductase chain F; NADH-ubiquinone oxidoreductase chain G; NADH-ubiquinone oxidoreductase chain H; NADH-ubiquinone oxidoreductase chain I; NADH-ubiquinone oxidoreductase chain J; NADH-ubiquinone oxidoreductase chain K; NADH-ubiquinone oxidoreductase chain L; NADH-ubiquinone oxidoreductase chain M; NADH-ubiquinone oxidoreductase chain N"	"UPS3414"	9.4
+"SVEN_4264 "	"putative NLP or P60 family protein"	"CTCATCCGACTTCATGATCCT"	-497	9.4	NA	NA	"UPS3414"	9.4
+"SVEN_4414 "	"Phosphoglucosamine mutase"	"TTTTTCATAACCCTCTTTCAT"	-51	9.4	NA	NA	"UPS3523"	9.4
+"SVEN_4437 "	"putative polysaccharide deacetylase"	"CTCGTACGACAAAAGGAATAA"	-24	9.4	"SVEN_4438 "	"hypothetical protein"	"UPS3541"	9.4
+"SVEN_4436 "	"SAM-dependent methyltransferases"	"CTCGTACGACAAAAGGAATAA"	-82	9.4	NA	NA	"UPS3541"	9.4
+"SVEN_4645 "	"putative small membrane protein"	"ATGGGCCAAAGATCGGTTGAA"	-130	9.4	NA	NA	"UPS3717"	9.4
+"SVEN_4644 "	"hypothetical protein"	"ATGGGCCAAAGATCGGTTGAA"	-270	9.4	"SVEN_4643 ; SVEN_4642 ; SVEN_4641 "	"transferase; capsular polysaccharide biosynthesis protein; hypothetical protein"	"UPS3717"	9.4
+"SVEN_4711 "	"hypothetical protein"	"ATGTGAAGCAGGTCCGAAGAT"	-52	9.4	NA	NA	"UPS3769"	9.4
+"SVEN_4710 "	"hypothetical protein"	"ATGTGAAGCAGGTCCGAAGAT"	-86	9.4	NA	NA	"UPS3769"	9.4
+"SVEN_4727 "	"hypothetical protein"	"ATCAGCCGATCTTCGACTATC"	-100	9.4	NA	NA	"UPS3785"	9.4
+"SVEN_4726 "	"hypothetical protein"	"ATCAGCCGATCTTCGACTATC"	-40	9.4	NA	NA	"UPS3785"	9.4
+"SVEN_4840 "	"ATP-dependent DNA helicase UvrD or PcrA"	"GAGGAAAACTCGTCGGAAAAA"	2179	9.4	NA	NA	"UPS3882"	9.4
+"SVEN_4993 "	"hypothetical protein"	"CTTATCAGACTGCCCGTCAGT"	-130	9.4	NA	NA	"UPS4004"	9.4
+"SVEN_4992 "	"putative membrane protein"	"CTTATCAGACTGCCCGTCAGT"	-139	9.4	NA	NA	"UPS4004"	9.4
+"SVEN_5969 "	"ScbA protein"	"GTGAAGCATTGAAAAGAAAAC"	-86	9.4	"SVEN_5970 ; SVEN_5971 "	"possible NAD-dependent epimerase or dehydratase; 3-oxoacyl-[acyl-carrier protein] reductase"	"UPS4769"	9.4
+"SVEN_5968 "	"Transcriptional regulator%2C TetR family"	"GTGAAGCATTGAAAAGAAAAC"	-62	9.4	NA	NA	"UPS4769"	9.4
+"SVEN_7286 "	"putative secreted protein"	"TTGATCATCTTTCTGTCCTCT"	-89	9.4	NA	NA	"UPS5762"	11.9
+"SVEN_1058 "	"hypothetical protein"	"TTCGTCGGATCCTCCGAATAC"	287	9.3	NA	NA	"SVEN_1058 "	9.3
+"SVEN_1733 "	"Possible membrane protein"	"TGTAGACGATGATCATCAGAA"	235	9.3	NA	NA	"SVEN_1733 "	9.9
+"SVEN_2187 "	"hypothetical protein"	"CTTCGTATACATGCTGATGAA"	15	9.3	NA	NA	"SVEN_2187 "	9.3
+"SVEN_2444 "	"putative sugar transport inner membrane protein"	"ATCATCATCCCGATGTACCTG"	423	9.3	NA	NA	"SVEN_2444 "	9.3
+"SVEN_2464 "	"hypothetical protein"	"CTCTCAATATTTTACGACCAT"	1071	9.3	NA	NA	"SVEN_2464 "	9.5
+"SVEN_2569 "	"Hypothetical protein associated with desferrioxamine E biosynthesis"	"GCTAACCTACATTCTCATGAC"	-16	9.3	NA	NA	"SVEN_2569 "	9.3
+"SVEN_2642 "	"probable membrane protein"	"CGTGTACGAAAAACTCACCAT"	0	9.3	NA	NA	"SVEN_2642 "	9.3
+"SVEN_2786 "	"Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1"	"GTACATGAACGGGATGATGAA"	698	9.3	NA	NA	"SVEN_2786 "	9.3
+"SVEN_2918 "	"hypothetical protein"	"TTTGACGTATCTCTTGACCTT"	9204	9.3	"SVEN_2917 "	"hypothetical protein"	"SVEN_2918 "	9.3
+"SVEN_4389 "	"LSU ribosomal protein L14p"	"GAAGAAGTTCATGAAGATCAT"	323	9.3	"SVEN_4390 ; SVEN_4391 ; SVEN_4392 "	"LSU ribosomal protein L24p; LSU ribosomal protein L5p; SSU ribosomal protein S14p"	"SVEN_4389 "	9.3
+"SVEN_4534 "	"Succinate dehydrogenase cytochrome b-556 subunit"	"GTGTACGAACAGGAAGAAGAA"	78	9.3	"SVEN_4533 ; SVEN_4532 ; SVEN_4531 "	"Succinate dehydrogenase hydrophobic membrane anchor protein; Succinate dehydrogenase flavoprotein subunit; Succinate dehydrogenase iron-sulfur protein"	"SVEN_4534 "	9.3
+"SVEN_5373 "	"putative peptide transport system secreted peptide binding protein"	"GTCATCATCTTGTTGAACGTC"	398	9.3	"SVEN_5372 ; SVEN_5371 ; SVEN_5370 ; SVEN_5369 "	"putative peptide transport system permease; putative peptide transport permease; putative peptide transport ATP-binding protein; putative peptide transport ATP-binding protein"	"SVEN_5373 "	9.3
+"SVEN_6151 "	"glutamate permease"	"GTCATCTCACCGATCTACATC"	711	9.3	NA	NA	"SVEN_6151 "	9.3
+"SVEN_0020 "	"hypothetical protein"	"TTTTTCGCTTTGACGTTTTTC"	-108	9.3	NA	NA	"UPS0017"	9.3
+"SVEN_0019 "	"protein kinase"	"TTTTTCGCTTTGACGTTTTTC"	-97	9.3	NA	NA	"UPS0017"	9.3
+"SVEN_0339 "	"CAIB or BAIF family protein"	"CAGTATTGAAAATCCGATATC"	-68	9.3	NA	NA	"UPS0277"	10
+"SVEN_0338 "	"Glutaryl-CoA dehydrogenase"	"CAGTATTGAAAATCCGATATC"	-88	9.3	NA	NA	"UPS0277"	10
+"SVEN_0473 "	"hypothetical protein"	"ACCGGAAATACATCTCATGTT"	-99	9.3	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"ACCGGAAATACATCTCATGTT"	-58	9.3	NA	NA	"UPS0378"	10.4
+"SVEN_0974 "	"PTS system%2C N-acetylglucosamine-specific IIA component"	"TTCATCGTTCGACTTGCATGT"	-754	9.3	NA	NA	"UPS0777"	9.6
+"SVEN_0973 "	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	"TTCATCGTTCGACTTGCATGT"	-1459	9.3	NA	NA	"UPS0777"	9.6
+"SVEN_1427 "	"hypothetical protein"	"TTCATCGTTCGACTTGCATGT"	-1549	9.3	NA	NA	"UPS1138"	9.3
+"SVEN_1462 "	"secreted subtilisin protease"	"TTCTTCGGTCAGATCTTCATG"	-136	9.3	NA	NA	"UPS1169"	10.4
+"SVEN_1461 "	"putative integral membrane protein"	"TTCTTCGGTCAGATCTTCATG"	-158	9.3	"SVEN_1460 "	"putative symporter YjcG"	"UPS1169"	10.4
+"SVEN_2296 "	"hypothetical protein"	"GTTTCCAGTTTTGTTGAAAAT"	-28	9.3	"SVEN_2297 ; SVEN_2298 ; SVEN_2299 "	"Zinc ABC transporter%2C ATP-binding protein ZnuC; Zinc ABC transporter%2C inner membrane permease protein ZnuB; Zinc uptake regulation protein ZUR"	"UPS1810"	9.3
+"SVEN_2295 "	"Glycyl-tRNA synthetase"	"GTTTCCAGTTTTGTTGAAAAT"	-159	9.3	"SVEN_2294 "	"Glycyl-tRNA synthetase"	"UPS1810"	9.3
+"SVEN_2762 "	"hypothetical protein"	"TTCATCGTTCGACTTGCATGT"	-5273	9.3	NA	NA	"UPS2192"	9.3
+"SVEN_2982 "	"hypothetical protein"	"ATCACACATCCGACTGACAAT"	1228	9.3	"SVEN_2983 "	"hypothetical protein"	"UPS2363"	9.3
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"TTCATCGTTCGACTTGCATGT"	-5828	9.3	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"TTCATCGTTCGACTTGCATGT"	-5129	9.3	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3877 "	"putative two-component system response regulator"	"ACATGCAAGTCGAACGATGAA"	5144	9.3	NA	NA	"UPS3100"	9.3
+"SVEN_3876 "	"Transcriptional regulator%2C MarR family"	"ACATGCAAGTCGAACGATGAA"	710	9.3	NA	NA	"UPS3100"	9.3
+"SVEN_3929 "	"conserved hypothetical protein"	"GTGATCATTTTCTTCGAGGTT"	-127	9.3	"SVEN_3930 ; SVEN_3931 "	"Nickel uptake regulation protein NUR or Ferric uptake regulation protein FUR; Folate-dependent protein for Fe or S cluster synthesis or repair in oxidative stress"	"UPS3139"	9.3
+"SVEN_4250 "	"putative serine or threonine protein kinase"	"ATTAGAATTATTTTCCAGTTC"	-48	9.3	NA	NA	"UPS3401"	9.3
+"SVEN_4253 "	"hypothetical protein"	"CACGTCGATTGGACCCATGAT"	-62	9.3	NA	NA	"UPS3404"	9.3
+"SVEN_4257 "	"Menaquinone via futalosine step 1"	"CCTGCAAACAAGTCTGAAAAC"	-222	9.3	NA	NA	"UPS3407"	9.3
+"SVEN_4256 "	"Cold shock protein CspD"	"CCTGCAAACAAGTCTGAAAAC"	-60	9.3	NA	NA	"UPS3407"	9.3
+"SVEN_4446 "	"probable solute-binding lipoprotein"	"GATTGATCGAAAAAAGATCAA"	-107	9.3	"SVEN_4445 ; SVEN_4444 ; SVEN_4443 "	"ABC-type sugar transport systems%2C permease components; putative binding protein dependent transport protein; D-3-phosphoglycerate dehydrogenase"	"UPS3548"	9.3
+"SVEN_4658 "	"Phosphoenolpyruvate carboxykinase"	"ATCGGATGATCAAATGAGTGC"	-108	9.3	NA	NA	"UPS3729"	9.3
+"SVEN_4657 "	"Predicted membrane protein hemolysin III"	"ATCGGATGATCAAATGAGTGC"	-109	9.3	NA	NA	"UPS3729"	9.3
+"SVEN_7353 "	"hypothetical protein"	"ATCTTGCGTTCACTTGTTGAG"	-98	9.3	NA	NA	"UPS5819"	9.3
+"SVEN_7354 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalF"	"CTCAACAAGTGAACGCAAGAT"	-271	9.3	"SVEN_7355 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	"UPS5820"	9.3
+"SVEN_0436 "	"Isocitrate dehydrogenase"	"ATCTTCTGCTCGTTGGTCGAG"	2072	9.2	NA	NA	"SVEN_0436 "	9.2
+"SVEN_0437 "	"phosphoesterase%2C PA-phosphatase"	"GACATCAAGATATCTCGTGAT"	1054	9.2	"SVEN_0436 "	"Isocitrate dehydrogenase"	"SVEN_0437 "	9.2
+"SVEN_1963 "	"putative bicyclomycin resistance protein"	"GTTATGTGTCCTTGTGTTGTT"	20	9.2	"SVEN_1962 "	"Methyltransferase"	"SVEN_1963 "	9.2
+"SVEN_2428 "	"Membrane alanine aminopeptidase N"	"ATGGGCCAAACATCACAAAAC"	0	9.2	NA	NA	"SVEN_2428 "	9.2
+"SVEN_3563 "	"hypothetical protein"	"ATATTCATAAAGTGGGGCAAT"	-19	9.2	NA	NA	"SVEN_3563 "	9.2
+"SVEN_3573 "	"hypothetical protein"	"ATCATCTGAACATTCCTGCCG"	29	9.2	NA	NA	"SVEN_3573 "	14
+"SVEN_4181 "	"hypothetical protein"	"AGTCATGAACAGTCAGAACAC"	-4	9.2	NA	NA	"SVEN_4181 "	9.2
+"SVEN_4395 "	"LSU ribosomal protein L18p"	"CATGGCATACGGTGTGAAGAT"	-1	9.2	NA	NA	"SVEN_4395 "	9.2
+"SVEN_4674 "	"Chitinase"	"GTTGTAGTACTGCATGTTGAC"	1506	9.2	NA	NA	"SVEN_4674 "	9.2
+"SVEN_5489 "	"Transcriptional regulator%2C TetR family"	"CGGATGGAACGGTCTGACAAT"	116	9.2	NA	NA	"SVEN_5489 "	9.2
+"SVEN_5540 "	"putative membrane protein"	"ATGATCAGACCGCCGGACAGG"	113	9.2	NA	NA	"SVEN_5540 "	9.2
+"SVEN_5573 "	"Branched-chain acyl-CoA dehydrogenase"	"AGGAACCAACGAGATCATGAA"	1091	9.2	NA	NA	"SVEN_5573 "	9.2
+"SVEN_5585 "	"hypothetical protein"	"ATTGATCTTGAGTCCTATTTA"	273	9.2	NA	NA	"SVEN_5585 "	9.2
+"SVEN_5585 "	"hypothetical protein"	"ATCTTGAGTCCTATTTATGCC"	277	9.2	NA	NA	"SVEN_5585 "	9.2
+"SVEN_6605 "	"hypothetical protein"	"CTATGACGGCGATCAGAACAA"	755	9.2	"SVEN_6606 "	"rhamnogalacturonan acetylesterase"	"SVEN_6605 "	9.2
+"SVEN_7107 "	"hypothetical protein"	"CATGGTCTTCGGAATGATCAT"	209	9.2	NA	NA	"SVEN_7107 "	9.2
+"SVEN_7115 "	"putative endochitinase"	"CTCAACATGCAGTACTACAAC"	726	9.2	NA	NA	"SVEN_7115 "	9.2
+"SVEN_7139 "	"ABC transporter solute-binding protein"	"AACATAGTAATGTGAAATTGT"	32	9.2	"SVEN_7138 ; SVEN_7137 ; SVEN_7136 ; SVEN_7135 "	"oligopeptide transport integral membrane protein; ABC transporter permease protein; oligopeptide ABC transporter ATP-binding protein; Oligopeptide transport ATP-binding protein"	"SVEN_7139 "	9.5
+"SVEN_7212 "	"hypothetical protein"	"GGAGGCGATCGGTCTGAAGAT"	1517	9.2	NA	NA	"SVEN_7212 "	9.2
+"SVEN_0414 "	"GntR-family transcriptional regulator"	"TTAGACCAATGATAGGAATTG"	-71	9.2	NA	NA	"UPS0339"	9.2
+"SVEN_0413 "	"hypothetical protein"	"TTAGACCAATGATAGGAATTG"	-135	9.2	NA	NA	"UPS0339"	9.2
+"SVEN_0440 "	"histidinol-phosphate phosphatase family protein or glycosyl transferase%2C group 2 family protein"	"CTTTTCGGATTTCTTGACGGC"	-79	9.2	NA	NA	"UPS0362"	9.2
+"SVEN_0439 "	"Glucoamylase"	"CTTTTCGGATTTCTTGACGGC"	-95	9.2	"SVEN_0438 "	"hypothetical protein"	"UPS0362"	9.2
+"SVEN_0585 "	"hypothetical protein"	"TTCTGTGACCGATCTGACGAA"	-48	9.2	"SVEN_0584 ; SVEN_0583 "	"branched amino acid transport system ATP-binding protein; Branched-chain amino acid transport ATP-binding protein LivG"	"UPS0467"	9.2
+"SVEN_0786 "	"Transcriptional regulator%2C MarR family"	"ATTGTTACCTATACTCACAAT"	-47	9.2	"SVEN_0787 "	"Predicted D-lactate dehydrogenase"	"UPS0630"	9.2
+"SVEN_0785 "	"putative ABC transporter ATP-binding protein"	"ATTGTTACCTATACTCACAAT"	-64	9.2	NA	NA	"UPS0630"	9.2
+"SVEN_1278 "	"Gluconokinase"	"AAAGTACTACTTTTATGTCAC"	-100	9.2	NA	NA	"UPS1028"	10.8
+"SVEN_1277 "	"Transcriptional regulator%2C GntR family"	"AAAGTACTACTTTTATGTCAC"	-68	9.2	NA	NA	"UPS1028"	10.8
+"SVEN_1565 "	"Transaldolase"	"TACGTACGACTTAATGGAGAT"	-30	9.2	NA	NA	"UPS1246"	9.2
+"SVEN_3200 "	"putative ABC transporter ATP-binding protein"	"ATCATGCGATGAATAGTGCTC"	-16	9.2	"SVEN_3199 "	"putative ABC transporter permease protein"	"UPS2541"	9.2
+"SVEN_3398 "	"putative ABC transporter ATP-binding protein"	"TTTATACGCTTCCTTAACTTC"	-54	9.2	"SVEN_3399 "	"putative ABC transporter membrane protein"	"UPS2699"	9.2
+"SVEN_3397 "	"hypothetical protein"	"TTTATACGCTTCCTTAACTTC"	-51	9.2	NA	NA	"UPS2699"	9.2
+"SVEN_3530 "	"FMN reductase"	"TTGATCGGTTTGTTACGTTGT"	620	9.2	NA	NA	"UPS2806"	9.2
+"SVEN_3698 "	"putative LysR-family transcriptional regulator"	"TCCAACTATAAATAAGTCGAT"	-86	9.2	NA	NA	"UPS2946"	9.2
+"SVEN_3841 "	"Amidophosphoribosyltransferase"	"ATGATCATTTCGTGCGATCGC"	-88	9.2	"SVEN_3842 "	"Phosphoribosylformylglycinamidine cyclo-ligase"	"UPS3066"	9.2
+"SVEN_3966 "	"CarD transcriptional regulator"	"CGAAAACGCCATTCAGAAGAA"	-68	9.2	NA	NA	"UPS3169"	9.2
+"SVEN_3965 "	"putative lipoprotein"	"CGAAAACGCCATTCAGAAGAA"	-694	9.2	NA	NA	"UPS3169"	9.2
+"SVEN_5072 "	"cholesterol esterase"	"ATCGTCCGACGATTTGGCAGC"	-573	9.2	NA	NA	"UPS4066"	9.5
+"SVEN_5133 "	"hypothetical protein"	"ATCATCCGACCGGCTTGTCTA"	-238	9.2	"SVEN_5134 ; SVEN_5135 ; SVEN_5136 ; SVEN_5137 ; SVEN_5138 "	"hypothetical protein; hypothetical protein; conserved hypothetical protein; hypothetical protein; hypothetical protein"	"UPS4114"	9.2
+"SVEN_5132 "	"hypothetical protein"	"ATCATCCGACCGGCTTGTCTA"	-49	9.2	NA	NA	"UPS4114"	9.2
+"SVEN_5917 "	"Phosphoadenylyl-sulfate reductase%3B thioredoxin"	"GTCGTCATATCTCTTTCCCTC"	-13	9.2	"SVEN_5916 ; SVEN_5915 ; SVEN_5914 "	"Adenylylsulfate kinase; Sulfate adenylyltransferase subunit 2; Sulfate adenylyltransferase subunit 1"	"UPS4719"	9.2
+"SVEN_0281 "	"PhnB protein%3B putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein"	"ATGATCTTCTCTTCGAATCCG"	131	9.1	NA	NA	"SVEN_0281 "	9.1
+"SVEN_0282 "	"PhnB protein%3B putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein"	"CGGATTCGAAGAGAAGATCAT"	131	9.1	NA	NA	"SVEN_0282 "	9.1
+"SVEN_0364 "	"RNA polymerase sigma factor SigB"	"CGCCTTGATCAGTCCGATCAT"	267	9.1	NA	NA	"SVEN_0364 "	9.1
+"SVEN_0916 "	"major facilitator family transporter%2C putative"	"CTTCGCGGTCGGAATGATCAT"	137	9.1	NA	NA	"SVEN_0916 "	9.1
+"SVEN_1123 "	"Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit"	"ATGATCTCTTCGATCATGTTC"	275	9.1	"SVEN_1122 "	"Pyridoxine biosynthesis glutamine amidotransferase%2C glutaminase subunit"	"SVEN_1123 "	9.1
+"SVEN_1764 "	"putative transcriptional regulatory protein"	"ATGAGCTGACCTTCCTTGATC"	104	9.1	NA	NA	"SVEN_1764 "	9.1
+"SVEN_1909 "	"hypothetical protein"	"ATAATCAGATGCGTGGCACTT"	1630	9.1	NA	NA	"SVEN_1909 "	10.2
+"SVEN_2374 "	"hypothetical protein"	"ATCATCCGATCGTACCGCTTG"	656	9.1	NA	NA	"SVEN_2374 "	9.1
+"SVEN_3000 "	"putative drug exporters of the RND superfamily"	"TTGATCATCTGGTCCGTCATG"	1958	9.1	NA	NA	"SVEN_3000 "	9.1
+"SVEN_3162 "	"hypothetical protein"	"AATACTCACAGATCAGCCTAT"	248	9.1	"SVEN_3163 "	"Conserved hypothetical protein"	"SVEN_3162 "	9.1
+"SVEN_3706 "	"putative membrane protein"	"CACACCGAGCGAACCGATGAT"	1014	9.1	NA	NA	"SVEN_3706 "	9.1
+"SVEN_4009 "	"hypothetical protein"	"ATCTTCATTTCGAACATCGAC"	53	9.1	NA	NA	"SVEN_4009 "	9.1
+"SVEN_4037 "	"N-acetylglucosamine-6-phosphate deacetylase"	"TTGATGAGTTCGACGGTGATC"	701	9.1	NA	NA	"SVEN_4037 "	9.1
+"SVEN_4374 "	"Translation elongation factor Tu"	"CGACTACATCAAGAACATGAT"	389	9.1	NA	NA	"SVEN_4374 "	9.1
+"SVEN_4419 "	"Holo-[acyl-carrier protein] synthase"	"GTGCGAGGGTGAACAGATGAT"	2	9.1	NA	NA	"SVEN_4419 "	9.1
+"SVEN_4569 "	"secreted protein"	"ATTTTCAGATGAAGCAGTCTG"	-8	9.1	NA	NA	"SVEN_4569 "	12.7
+"SVEN_4661 "	"hypothetical protein"	"TTGATCAGCTCGTCGTTGTTC"	833	9.1	NA	NA	"SVEN_4661 "	9.1
+"SVEN_4928 "	"hypothetical protein"	"TGCCTCTACTAGTAAGAAGAA"	788	9.1	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_5240 "	"5-carboxymethyl-2-hydroxymuconate delta-isomerase"	"TCTCACCAATAAGGTGATCAA"	764	9.1	"SVEN_5241 "	"Glutamyl-tRNA synthetase"	"SVEN_5240 "	9.1
+"SVEN_6700 "	"hypothetical protein"	"ATGGTCTGTTCAACGGTGCTC"	2	9.1	NA	NA	"SVEN_6700 "	9.1
+"SVEN_0529 "	"Catalase or Peroxidase"	"CTCATAGGATTTCACCTTTCT"	-231	9.1	NA	NA	"UPS0425"	9.1
+"SVEN_0625 "	"putative secreted sugar binding protein"	"CACATCCTAAATTAAGCCGAA"	-90	9.1	"SVEN_0626 ; SVEN_0627 ; SVEN_0628 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalF; Maltose or maltodextrin ABC transporter%2C permease protein MalG; Beta-galactosidase"	"UPS0501"	9.4
+"SVEN_0624 "	"Xylose repressor XylR"	"CACATCCTAAATTAAGCCGAA"	-102	9.1	NA	NA	"UPS0501"	9.4
+"SVEN_0812 "	"secreted protein"	"TCGATCATAATTGTCGACATT"	-230	9.1	NA	NA	"UPS0644"	9.1
+"SVEN_0811 "	"putative ABC-transporter ATP-binding protein"	"TCGATCATAATTGTCGACATT"	-408	9.1	"SVEN_0810 ; SVEN_0809 ; SVEN_0808 ; SVEN_0807 ; SVEN_0806 ; SVEN_0805 ; SVEN_0804 ; SVEN_0803 ; SVEN_0802 ; SVEN_0801 ; SVEN_0800 ; SVEN_0799 "	"putative ABC-transporter integral membrane protein; toluene tolerance protein; putative secreted protein; virulence factor mce family protein; virulence factor mce family protein; putative secreted protein; possible lipoprotein; virulence factor mce family protein; secreted protein; hypothetical protein; hypothetical protein; integral membrane protein"	"UPS0644"	9.1
+"SVEN_0837 "	"putative membrane protein"	"AATATTCATTCTTGACAACAT"	-87	9.1	NA	NA	"UPS0664"	10.6
+"SVEN_0836 "	"Transcriptional regulator%2C TetR family"	"AATATTCATTCTTGACAACAT"	-38	9.1	NA	NA	"UPS0664"	10.6
+"SVEN_1548 "	"Ethidium bromide-methyl viologen resistance protein EmrE"	"GTGTACAAGCGTACTCATGAT"	-3	9.1	"SVEN_1547 ; SVEN_1546 "	"Transcriptional regulator%2C TetR family; 2%2C3%2C4%2C5-tetrahydropyridine-2%2C6-dicarboxylate N-succinyltransferase"	"UPS1235"	9.1
+"SVEN_1558 "	"ABC-type multidrug transport system%2C ATPase component"	"AACGATCATTCGTAGGACGAA"	-202	9.1	"SVEN_1559 "	"ABC-type multidrug transport system%2C permease component"	"UPS1240"	9.1
+"SVEN_1557 "	"Iron-sulfur cluster regulator SufR"	"AACGATCATTCGTAGGACGAA"	-119	9.1	"SVEN_1556 "	"Iron-sulfur cluster assembly protein SufB"	"UPS1240"	9.1
+"SVEN_2938 "	"cellulose-binding protein"	"TTCATCAGAACGGACAAAAGG"	-62	9.1	NA	NA	"UPS2330"	9.1
+"SVEN_4647 "	"hypothetical protein"	"GTAAGTGACTTGAAAGAACAA"	-37	9.1	NA	NA	"UPS3719"	9.1
+"SVEN_5052 "	"Transcriptional regulator%2C MarR family"	"TATATGGATTCTACCTAAGAA"	-20	9.1	NA	NA	"UPS4054"	9.1
+"SVEN_5908 "	"hypothetical protein"	"TACGAAAGTTTGTTGAATAAG"	-130	9.1	NA	NA	"UPS4713"	9.1
+"SVEN_6338 "	"aminotransferase%2C class I and II"	"CCGGACGAACCTTCGTATAAA"	-72	9.1	NA	NA	"UPS5044"	9.1
+"SVEN_6470 "	"sensor histidine kinase"	"GATGATCATCGATAGGCTCAT"	-119	9.1	"SVEN_6471 ; SVEN_6472 ; SVEN_6473 ; SVEN_6474 "	"multi-component regulatory system-3%2C containing roadblock or LC7 domain; multi-component regulatory system-3; putative ATP or GTP-binding protein; hypothetical protein"	"UPS5146"	9.1
+"SVEN_6469 "	"hypothetical protein SCF81.12"	"GATGATCATCGATAGGCTCAT"	-810	9.1	NA	NA	"UPS5146"	9.1
+"SVEN_6688 "	"dehydrogenase"	"GTCATGTGTTCGTTTCCTTTC"	-16	9.1	NA	NA	"UPS5312"	9.1
+"SVEN_7200 "	"Undecaprenyl-phosphategalactosephosphotransferase"	"CATACCTGACCGAAAGATCAT"	-53	9.1	NA	NA	"UPS5701"	9.1
+"SVEN_7403 "	"hypothetical protein"	"TTGATCAGAAATTCGGGTGGC"	-171	9.1	NA	NA	"UPS5855"	9.1
+"SVEN_7404 "	"Aldo-keto reductase"	"TTGATCAGAAATTCGGGTGGC"	-443	9.1	NA	NA	"UPS5855"	9.1
+"SVEN_0584 "	"branched amino acid transport system ATP-binding protein"	"CTTGGCCAGCTTTCTGAACAT"	249	9	NA	NA	"SVEN_0584 "	9
+"SVEN_0643 "	"hypothetical protein"	"GATGAGTACCGATCCGATCAA"	-1	9	NA	NA	"SVEN_0643 "	9
+"SVEN_0642 "	"hypothetical protein"	"GATGAGTACCGATCCGATCAA"	7186	9	"SVEN_0643 "	"hypothetical protein"	"SVEN_0643 "	9
+"SVEN_1006 "	"putative membrane protein"	"ATCATCTGCTTCCTGTTCTTC"	36	9	"SVEN_1007 "	"putative membrane protein"	"SVEN_1006 "	9
+"SVEN_3441 "	"DNA-binding response regulator%2C LuxR family"	"TTGATCAGTTTGCGGGTGATC"	389	9	NA	NA	"SVEN_3441 "	9
+"SVEN_3659 "	"Inner membrane protein translocase component YidC%2C long form"	"GCTGTTCGTCAAGCAGATCAA"	164	9	NA	NA	"SVEN_3659 "	10.1
+"SVEN_3905 "	"hypothetical protein"	"TTGATCGGTCGGACGTTTTAC"	926	9	NA	NA	"SVEN_3905 "	9
+"SVEN_4199 "	"Long-chain-fatty-acid--CoA ligase"	"TTTTTCACATTTACGGGCTCA"	763	9	NA	NA	"SVEN_4199 "	9
+"SVEN_4583 "	"lipoprotein"	"AACATCATTCTGTACGCGGAT"	603	9	"SVEN_4584 "	"putative integral membrane protein"	"SVEN_4583 "	9
+"SVEN_4632 "	"RdlA protein"	"CACCGTGATCAAGAAGATTAT"	-19	9	NA	NA	"SVEN_4632 "	9
+"SVEN_4665 "	"possible integral membrane protein"	"GCACAACGACGGACTGATGAT"	665	9	NA	NA	"SVEN_4665 "	9
+"SVEN_4928 "	"hypothetical protein"	"ATGAACAACCAAACCCCTGAT"	9	9	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_5046 "	"putative ABC transporter ATP-binding protein"	"CTCATCAGATGGCTGGAAACG"	542	9	"SVEN_5045 "	"putative ABC transporter transmembrane protein"	"SVEN_5046 "	9.8
+"SVEN_5222 "	"acetyl-coenzyme A carboxyl transferase alpha chain or Acetyl-coenzyme A carboxyl transferase beta chain %3B Propionyl-CoA carboxylase beta chain"	"ATCATCACCCTTTTGGACGTC"	1101	9	"SVEN_5223 "	"hypothetical protein"	"SVEN_5222 "	9
+"SVEN_5334 "	"Putrescine transport system permease protein PotI"	"ATGTTCTGTCTGTCGTTCGTC"	420	9	NA	NA	"SVEN_5334 "	9
+"SVEN_5869 "	"UDP-N-acetylmuramate--alanine ligase"	"CATCACCAGCGAGCTGATCAT"	1205	9	"SVEN_5870 "	"Peptide methionine sulfoxide reductase MsrB"	"SVEN_5869 "	9
+"SVEN_5996 "	"Glucose-1-phosphate thymidylyltransferase"	"GGTCTACGACAAGCCGATGAT"	80	9	NA	NA	"SVEN_5996 "	9
+"SVEN_6824 "	"putative oligosaccharide deacetylase"	"TTGGTCATGAAAAAGGATCAG"	60	9	NA	NA	"SVEN_6824 "	11.8
+"SVEN_7209 "	"hypothetical protein"	"GGAACTCAACAAACTTACGTA"	1754	9	NA	NA	"SVEN_7209 "	9
+"SVEN_0080 "	"putative sugar binding protein"	"GGAGTTCAAAGATCCGATGTC"	-259	9	"SVEN_0079 ; SVEN_0078 ; SVEN_0077 ; SVEN_0076 ; SVEN_0075 "	"binding-protein-dependent transport systems inner membrane component; binding-protein-dependent transport systems inner membrane component; 5-dehydro-4-deoxyglucarate dehydratase; Glucarate dehydratase; Alpha-L-fucosidase"	"UPS0060"	10.2
+"SVEN_0440 "	"histidinol-phosphate phosphatase family protein or glycosyl transferase%2C group 2 family protein"	"ATTGTATGCCCGTTGGAATGC"	-147	9	NA	NA	"UPS0362"	9.2
+"SVEN_0439 "	"Glucoamylase"	"ATTGTATGCCCGTTGGAATGC"	-27	9	"SVEN_0438 "	"hypothetical protein"	"UPS0362"	9.2
+"SVEN_0473 "	"hypothetical protein"	"ATCTCATGTTTTTCTTGACAT"	-88	9	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"ATCTCATGTTTTTCTTGACAT"	-69	9	NA	NA	"UPS0378"	10.4
+"SVEN_0681 "	"hypothetical protein"	"ATCGTGGGCTTAACTTATGTG"	-23	9	NA	NA	"UPS0551"	9
+"SVEN_0837 "	"putative membrane protein"	"ACACGAACTTAAAACGAATAT"	-103	9	NA	NA	"UPS0664"	10.6
+"SVEN_0836 "	"Transcriptional regulator%2C TetR family"	"ACACGAACTTAAAACGAATAT"	-22	9	NA	NA	"UPS0664"	10.6
+"SVEN_0974 "	"PTS system%2C N-acetylglucosamine-specific IIA component"	"CAGCTTAGCAGATCCGATTTT"	-408	9	NA	NA	"UPS0777"	9.6
+"SVEN_0973 "	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	"CAGCTTAGCAGATCCGATTTT"	-1805	9	NA	NA	"UPS0777"	9.6
+"SVEN_1156 "	"Methionine ABC transporter substrate-binding protein"	"TGTGTTCGTCGAAAAGACGAA"	-74	9	NA	NA	"UPS0922"	9
+"SVEN_1270 "	"putative small membrane protein"	"TTGATCATTATTCCTCCTAGT"	-13	9	NA	NA	"UPS1023"	9
+"SVEN_1324 "	"hypothetical protein"	"TCGGACAGGTCAACCGATAAT"	-45	9	NA	NA	"UPS1066"	12.3
+"SVEN_1353 "	"Chitin binding protein"	"TCCTTAAAGCGGTCCTAAGAA"	-119	9	NA	NA	"UPS1085"	9
+"SVEN_1798 "	"NLP or P60 family protein"	"AAGTTGTGATCAGTTCAAATC"	-139	9	NA	NA	"UPS1423"	9
+"SVEN_2429 "	"hypothetical protein"	"ATCAGCCTACTGATCATTCTG"	-25	9	NA	NA	"UPS1924"	9
+"SVEN_2762 "	"hypothetical protein"	"TTTATCAGAATCATTTCGGCC"	-5705	9	NA	NA	"UPS2192"	9.3
+"SVEN_2823 "	"Diaminopimelate decarboxylase"	"CTCGAATGTCGTTCAGATATT"	-93	9	"SVEN_2824 "	"hypothetical protein"	"UPS2239"	9
+"SVEN_2822 "	"Urocanate hydratase"	"CTCGAATGTCGTTCAGATATT"	-32	9	"SVEN_2821 ; SVEN_2820 ; SVEN_2819 "	"N-formylglutamate deformylase; Formiminoglutamic iminohydrolase; Imidazolonepropionase"	"UPS2239"	9
+"SVEN_2892 "	"putative ABC transporter ATP-binding protein"	"ATGTTGTCTTATTTTATTGAC"	-305	9	NA	NA	"UPS2290"	10.9
+"SVEN_2891 "	"Integrase"	"ATGTTGTCTTATTTTATTGAC"	-275	9	"SVEN_2890 "	"hypothetical protein"	"UPS2290"	10.9
+"SVEN_3698 "	"putative LysR-family transcriptional regulator"	"TAAATAAGTCGATAGGTCTCT"	-94	9	NA	NA	"UPS2946"	9.2
+"SVEN_3767 "	"DNA-binding protein"	"TTTGAATGTCAGTTGAATATG"	-57	9	NA	NA	"UPS3004"	9
+"SVEN_5075 "	"Pyruvate kinase"	"ATATTCCGACTGGCGGAAAGT"	-54	9	NA	NA	"UPS4069"	9
+"SVEN_5219 "	"hypothetical protein"	"CTATTCCGTTCAACTTTCAAC"	-202	9	NA	NA	"UPS4185"	9
+"SVEN_5218 "	"Protein yceI precursor"	"CTATTCCGTTCAACTTTCAAC"	-73	9	NA	NA	"UPS4185"	9
+"SVEN_7267 "	"putative integral membrane protein"	"ATCATCTCTCTGTCATATTCC"	-80	9	NA	NA	"UPS5746"	9
+"SVEN_7266 "	"putative methyltransferase"	"ATCATCTCTCTGTCATATTCC"	-47	9	NA	NA	"UPS5746"	9
+"SVEN_0818 "	"putative acyl-CoA dehydrogenase"	"TGCCCTCGAAGATCGTATAAA"	1147	8.9	NA	NA	"SVEN_0818 "	8.9
+"SVEN_1014 "	"glycosyl transferase"	"GTTGTAGGTCGGAATGATCAC"	48	8.9	NA	NA	"SVEN_1014 "	8.9
+"SVEN_1257 "	"Maltodextrin glucosidase"	"ACTTTCATGCGTGATGATGAT"	5	8.9	NA	NA	"SVEN_1257 "	8.9
+"SVEN_2225 "	"putative oxidoreductase YncB"	"ATCATCTTTCCGGTGTTGTCA"	980	8.9	NA	NA	"SVEN_2225 "	8.9
+"SVEN_2562 "	"membrane transport protein"	"ATGATCGGACATACCGTCCGA"	0	8.9	NA	NA	"SVEN_2562 "	8.9
+"SVEN_2561 "	"acyl-CoA thioesterase II"	"ATGATCGGACATACCGTCCGA"	869	8.9	NA	NA	"SVEN_2562 "	8.9
+"SVEN_2801 "	"Di-or tripeptide transporter"	"TTCATCGTCCCGATGAACATG"	1179	8.9	NA	NA	"SVEN_2801 "	8.9
+"SVEN_3020 "	"hypothetical protein"	"CGGAACCACTTATGCGATGAA"	7	8.9	"SVEN_3019 "	"hypothetical protein"	"SVEN_3020 "	8.9
+"SVEN_3713 "	"Cytochrome d ubiquinol oxidase subunit I"	"TTCATCGGTCTGTGGATCTTC"	336	8.9	"SVEN_3714 ; SVEN_3715 ; SVEN_3716 "	"Cytochrome d ubiquinol oxidase subunit II; Transport ATP-binding protein CydCD; putative two component sensor"	"SVEN_3713 "	8.9
+"SVEN_4014 "	"conserved hypothetical protein"	"TTCATCTCCTCGTTCAACTTC"	1305	8.9	NA	NA	"SVEN_4014 "	8.9
+"SVEN_4233 "	"putative acyl-CoA dehydrogenase"	"ATCGTCTGATGGACCTCTCCT"	-8	8.9	NA	NA	"SVEN_4233 "	8.9
+"SVEN_4232 "	"BarH"	"ATCGTCTGATGGACCTCTCCT"	1182	8.9	"SVEN_4233 ; SVEN_4234 "	"putative acyl-CoA dehydrogenase; putative acyl-CoA dehydrogenase"	"SVEN_4233 "	8.9
+"SVEN_4339 "	"Transcription antitermination protein NusG"	"GAAGAACGTCAAGCAGAACAA"	479	8.9	NA	NA	"SVEN_4339 "	8.9
+"SVEN_4760 "	"Dipeptide transport system permease protein DppB"	"TTCATCATCAAGATGGTGTTC"	453	8.9	"SVEN_4761 ; SVEN_4762 ; SVEN_4763 "	"Dipeptide transport system permease protein DppC; Oligopeptide transport ATP-binding protein OppD; Oligopeptide transport ATP-binding protein OppF"	"SVEN_4760 "	8.9
+"SVEN_4816 "	"Transcriptional regulator%2C TetR family"	"TTCGTCAGATCGGACTCGAAG"	356	8.9	NA	NA	"SVEN_4816 "	8.9
+"SVEN_5072 "	"cholesterol esterase"	"AGAAGGAGGAATTCTCATGAA"	-16	8.9	NA	NA	"SVEN_5072 "	8.9
+"SVEN_5743 "	"helicase"	"GAACGAGATCAATCTGCTGTT"	3665	8.9	"SVEN_5744 ; SVEN_5745 ; SVEN_5746 "	"hypothetical protein; putative phospholipase protein; hypothetical protein"	"SVEN_5743 "	8.9
+"SVEN_6026 "	"hypothetical protein"	"GTGGTCGAAGGAGAAGATGAA"	171	8.9	NA	NA	"SVEN_6026 "	8.9
+"SVEN_7401 "	"hypothetical protein"	"TTCGTCTGATCGGCCGGATTC"	172	8.9	NA	NA	"SVEN_7401 "	8.9
+"SVEN_0100 "	"hypothetical protein"	"GTGTTCGTATGTCATGTCTTT"	-48	8.9	NA	NA	"UPS0075"	9.6
+"SVEN_0101 "	"secreted hydrolase"	"AAAGACATGACATACGAACAC"	-251	8.9	NA	NA	"UPS0076"	9.6
+"SVEN_0559 "	"regulatory protein%2C TetR"	"AAGATCTGAACGGTGATTCAC"	-28	8.9	NA	NA	"UPS0445"	8.9
+"SVEN_0558 "	"putative integral membrane protein"	"AAGATCTGAACGGTGATTCAC"	-31	8.9	NA	NA	"UPS0445"	8.9
+"SVEN_1219 "	"Iron utilization protein"	"ATGATAACTTAGGCTTACCTA"	-67	8.9	NA	NA	"UPS0973"	8.9
+"SVEN_1331 "	"Homogentisate 1%2C2-dioxygenase"	"ATGTTCATCTTTTTGAACCCC"	-177	8.9	"SVEN_1332 "	"putative GntR-family transcriptional regulator"	"UPS1070"	8.9
+"SVEN_1330 "	"hypothetical protein"	"ATGTTCATCTTTTTGAACCCC"	-39	8.9	"SVEN_1329 ; SVEN_1328 ; SVEN_1327 "	"hypothetical protein; hypothetical protein; Transcriptional regulator%2C TetR family"	"UPS1070"	8.9
+"SVEN_1452 "	"hypothetical protein"	"TCGATCATCTCATCCCATCAA"	-13	8.9	"SVEN_1451 "	"hypothetical protein"	"UPS1161"	8.9
+"SVEN_1503 "	"penicillin amidase family protein"	"TAGGTCAGCCTAACCTAAGAA"	-56	8.9	"SVEN_1504 "	"putative acetyltransferase"	"UPS1200"	8.9
+"SVEN_1502 "	"Uncharacterized ABC transporter ATP-binding protein"	"TAGGTCAGCCTAACCTAAGAA"	-56	8.9	NA	NA	"UPS1200"	8.9
+"SVEN_1534 "	"hypothetical hydrophilic protein"	"TTCATATGACGGATCTGACCG"	-32	8.9	"SVEN_1535 "	"Tellurium resistance protein TerD"	"UPS1222"	12.1
+"SVEN_1533 "	"transcriptional regulator%2C AraC family"	"TTCATATGACGGATCTGACCG"	-89	8.9	NA	NA	"UPS1222"	12.1
+"SVEN_1726 "	"Na+ or H+ antiporter"	"TATGTCCGTTTTATCGGTGAC"	-32	8.9	NA	NA	"UPS1364"	8.9
+"SVEN_2229 "	"two-component system sensor kinase"	"GCTCATGATTCGTACGACAAT"	-27	8.9	NA	NA	"UPS1753"	8.9
+"SVEN_2472 "	"hypothetical protein"	"AATTTATGAGTGTTTTTGAAG"	-36	8.9	"SVEN_2471 "	"putative ATP-binding membrane protein"	"UPS1960"	8.9
+"SVEN_2517 "	"putative SARP family pathway specific regulatory protein"	"GTTATAAGGGCGTAAGATTTT"	-164	8.9	NA	NA	"UPS1996"	8.9
+"SVEN_3144 "	"putative secreted protein"	"ATGACCGAAACGTCATCCAAA"	-110	8.9	NA	NA	"UPS2493"	10.5
+"SVEN_3398 "	"putative ABC transporter ATP-binding protein"	"AACTTCACAACTTTGTGAAAT"	-39	8.9	"SVEN_3399 "	"putative ABC transporter membrane protein"	"UPS2699"	9.2
+"SVEN_3397 "	"hypothetical protein"	"AACTTCACAACTTTGTGAAAT"	-66	8.9	NA	NA	"UPS2699"	9.2
+"SVEN_3767 "	"DNA-binding protein"	"CTGATTTGAATGTCAGTTGAA"	-61	8.9	NA	NA	"UPS3004"	9
+"SVEN_3942 "	"hypothetical protein"	"GATTATCGGAAAGCGGATGAA"	-43	8.9	NA	NA	"UPS3149"	8.9
+"SVEN_3941 "	"Transcriptional regulator%2C MarR family"	"GATTATCGGAAAGCGGATGAA"	-54	8.9	NA	NA	"UPS3149"	8.9
+"SVEN_4174 "	"regulatory protein"	"CATACAGGAACATCTGAACAG"	-51	8.9	NA	NA	"UPS3343"	8.9
+"SVEN_4173 "	"Lead%2C cadmium%2C zinc and mercury transporting ATPase %3B Copper-translocating P-type ATPase"	"CATACAGGAACATCTGAACAG"	-63	8.9	NA	NA	"UPS3343"	8.9
+"SVEN_4178 "	"hypothetical protein"	"CTCATCCGAACACCTTATGAG"	-16	8.9	NA	NA	"UPS3347"	8.9
+"SVEN_4490 "	"Phosphoribosylglycinamide formyltransferase"	"TTCGTACGACCGTACAAACAC"	-39	8.9	"SVEN_4491 "	"IMP cyclohydrolase or Phosphoribosylaminoimidazolecarboxamide formyltransferase"	"UPS3587"	8.9
+"SVEN_4489 "	"hypothetical protein"	"TTCGTACGACCGTACAAACAC"	-247	8.9	NA	NA	"UPS3587"	8.9
+"SVEN_4756 "	"putative lipoprotein"	"TAGGTGTGATCATCTCCAAAT"	-51	8.9	NA	NA	"UPS3811"	11.8
+"SVEN_4755 "	"hypothetical protein"	"TAGGTGTGATCATCTCCAAAT"	-218	8.9	NA	NA	"UPS3811"	11.8
+"SVEN_5860 "	"putative lipoprotein"	"GATCGGAAGTTAACCGATCAA"	-219	8.9	NA	NA	"UPS4676"	8.9
+"SVEN_5919 "	"Ferredoxin--sulfite reductase%2C actinobacterial type"	"ATTGTCGTCTCGTTCTACGAG"	-297	8.9	"SVEN_5918 "	"hypothetical protein"	"UPS4721"	8.9
+"SVEN_6059 "	"hypothetical protein"	"AATTTCCAACCGTGCGATCTT"	-413	8.9	"SVEN_6058 "	"insertion element transposase"	"UPS4841"	8.9
+"SVEN_6217 "	"hypothetical protein"	"GGTTTTCGGCAATCGGAAGAT"	-275	8.9	"SVEN_6218 ; SVEN_6219 "	"hypothetical protein; MbtH protein"	"UPS4954"	8.9
+"SVEN_6216 "	"amino acid adenylation domain"	"GGTTTTCGGCAATCGGAAGAT"	-250	8.9	"SVEN_6215 ; SVEN_6214 ; SVEN_6213 "	"hypothetical protein; Thioesterase; putative cytochrome P450 hydroxylase"	"UPS4954"	8.9
+"SVEN_7232 "	"hydrolase"	"TTCATCAGACCTGGTCAAGAA"	-88	8.9	NA	NA	"UPS5723"	8.9
+"SVEN_7326 "	"Phospholipase C"	"TTGGTCCGACTGCATACCAAT"	-164	8.9	NA	NA	"UPS5797"	8.9
+"SVEN_0123 "	"Choline or glycine betaine ABC transporter%2Csubstrate binding protein"	"ATCGTCTTCTTGTCGTCGATG"	332	8.8	NA	NA	"SVEN_0123 "	8.8
+"SVEN_0395 "	"S-adenosyl-L-methionine dependent methyltransferase"	"GAAGACGTACTTGCTGATGAA"	1038	8.8	"SVEN_0394 ; SVEN_0393 "	"Cyclopropane-fatty-acyl-phospholipid synthase; Hypothetical protein"	"SVEN_0395 "	8.8
+"SVEN_0502 "	"hypothetical protein"	"ATGAGCTGACGATCGAAGAAA"	184	8.8	NA	NA	"SVEN_0502 "	8.8
+"SVEN_0521 "	"Transcriptional regulator%2C PadR family"	"GCACGCGATAGATCTGCTGAT"	169	8.8	NA	NA	"SVEN_0521 "	8.8
+"SVEN_1010 "	"Glycerophosphoryl diester phosphodiesterase"	"GATGGCATCATGACCGATCAA"	696	8.8	NA	NA	"SVEN_1010 "	8.8
+"SVEN_1175 "	"Argininosuccinate synthase"	"GGAGACCGTCGAACCGATCAT"	659	8.8	NA	NA	"SVEN_1175 "	8.8
+"SVEN_1460 "	"putative symporter YjcG"	"GTAGAAGATCGAGACGACGAT"	417	8.8	NA	NA	"SVEN_1460 "	8.8
+"SVEN_1710 "	"putative membrane protein"	"GGAGACAATACGTCACACCAT"	-19	8.8	"SVEN_1711 ; SVEN_1712 "	"possible Lon protease; YbaK family protein"	"SVEN_1710 "	8.8
+"SVEN_1826 "	"possible alpha-ribazole-5-phosphate phosphatase"	"GTGATCATCCTGATCGTCATC"	426	8.8	NA	NA	"SVEN_1826 "	8.8
+"SVEN_1909 "	"hypothetical protein"	"GTCGTCGGCCTAACAGAAAAA"	888	8.8	NA	NA	"SVEN_1909 "	10.2
+"SVEN_2020 "	"6-phosphogluconate dehydrogenase_"	"GAGAGCCCAAGAAATGACGAA"	-13	8.8	NA	NA	"SVEN_2020 "	8.8
+"SVEN_2963 "	"hypothetical protein"	"ATCATCGTCTTGACCTGCTTC"	1856	8.8	"SVEN_2962 "	"hypothetical protein"	"SVEN_2963 "	8.8
+"SVEN_3405 "	"Kynureninase"	"ATCATCGGACCGTCATCCCTC"	1201	8.8	NA	NA	"SVEN_3405 "	8.8
+"SVEN_3428 "	"putative regulatory protein"	"ATCATGTTCCTGTAATTCATG"	-18	8.8	"SVEN_3429 "	"hypothetical protein"	"SVEN_3428 "	8.8
+"SVEN_3608 "	"3-hydroxybutyryl-CoA dehydrogenase precursor"	"GAAGAAGTGCAGTCCGACGAA"	534	8.8	"SVEN_3607 "	"Transcriptional regulator%2C TetR family"	"SVEN_3608 "	8.8
+"SVEN_4320 "	"possible membrane protein"	"AACGTCATATGGCTGGTTCTC"	15	8.8	NA	NA	"SVEN_4320 "	8.8
+"SVEN_4404 "	"LSU ribosomal protein L36p"	"GAGAACCTCACATCCCATGAA"	-16	8.8	NA	NA	"SVEN_4404 "	8.8
+"SVEN_4464 "	"Chorismate mutase I"	"TTCCTGGATCAGACCGATGAT"	105	8.8	NA	NA	"SVEN_4464 "	8.8
+"SVEN_4964 "	"hypothetical protein"	"ATGCTGCTTGAATCCGATGAA"	1176	8.8	NA	NA	"SVEN_4964 "	10.7
+"SVEN_5432 "	"putative glutamate uptake system ATP-binding protein"	"GTTGAACGATTGGAAGACCAT"	309	8.8	NA	NA	"SVEN_5432 "	10.1
+"SVEN_5734 "	"hypothetical protein"	"TATTTCGTTTCAAGGGTCTAT"	3203	8.8	NA	NA	"SVEN_5734 "	8.8
+"SVEN_6217 "	"hypothetical protein"	"CAGCTCGATCGGTCACATAAC"	17	8.8	"SVEN_6218 ; SVEN_6219 "	"hypothetical protein; MbtH protein"	"SVEN_6217 "	8.8
+"SVEN_6291 "	"Glycine betaine transporter OpuD"	"AACATCAGACCGATGCCCATG"	338	8.8	NA	NA	"SVEN_6291 "	8.8
+"SVEN_6318 "	"hypothetical protein"	"TTCTTCAGATCGTCGGTGCGC"	740	8.8	NA	NA	"SVEN_6318 "	9.8
+"SVEN_6900 "	"sugar transport system permease protein"	"ATCATCTTCCTGTTGCTCCAG"	813	8.8	NA	NA	"SVEN_6900 "	8.8
+"SVEN_7027 "	"Multiple sugar transport system permease protein"	"TTGATCAGACCGAAGTCCCGT"	452	8.8	"SVEN_7026 "	"ABC transporter sugar permease"	"SVEN_7027 "	8.8
+"SVEN_7224 "	"Long-chain-fatty-acid--CoA ligase"	"AAACTCTGGAGGTGTGATGAA"	-13	8.8	"SVEN_7225 "	"acyl-CoA dehydrogenase%2C short-chain specific"	"SVEN_7224 "	8.8
+"SVEN_7410 "	"ATP or GTP binding protein"	"ATGATCGTATGGCTCAATGGC"	0	8.8	NA	NA	"SVEN_7410 "	8.8
+"SVEN_7448 "	"hypothetical protein"	"CTGCAACAATCAGCACATGAT"	-16	8.8	NA	NA	"SVEN_7448 "	8.8
+"SVEN_7450 "	"ISPsy4%2C transposition helper protein"	"TTGATCTTTTGTGCATTGATG"	-8	8.8	"SVEN_7451 "	"hypothetical protein"	"SVEN_7450 "	8.8
+"SVEN_0217 "	"hypothetical protein"	"CAGATCTGACGATTCGTCAGT"	447	8.8	NA	NA	"UPS0172"	8.8
+"SVEN_1212 "	"Transcriptional regulator%2C LysR family"	"CTCATAAAGCCAGCTTATGAC"	-16	8.8	NA	NA	"UPS0970"	8.8
+"SVEN_1311 "	"conserved hypothetical protein"	"CTTATCTCATGGCATGCTAAA"	-72	8.8	NA	NA	"UPS1054"	8.8
+"SVEN_1310 "	"Transcriptional regulator%2C TetR family"	"CTTATCTCATGGCATGCTAAA"	-71	8.8	NA	NA	"UPS1054"	8.8
+"SVEN_1384 "	"Transglycosylase domain protein"	"AAAATCGGATCTTCGACATCG"	-2	8.8	NA	NA	"UPS1107"	8.8
+"SVEN_1501 "	"putative secreted protein"	"GTGTTCATTTTCGATTTTTTT"	-178	8.8	NA	NA	"UPS1199"	8.8
+"SVEN_1844 "	"Transcriptional regulator%2C GntR family"	"ATTGTCTTTAGAGTCAACACT"	-38	8.8	NA	NA	"UPS1458"	8.8
+"SVEN_2047 "	"putative cytochrome P450 hydroxylase"	"TTCTGAGTGCAGTCTTATGAC"	-147	8.8	NA	NA	"UPS1620"	8.8
+"SVEN_2046 "	"putative 3-ketoacyl-CoA thiolase or acetyl-CoA acetyltransferase"	"TTCTGAGTGCAGTCTTATGAC"	-102	8.8	NA	NA	"UPS1620"	8.8
+"SVEN_2285 "	"putative regulatory protein"	"TTCAATGGCCAATAATTCAAT"	-388	8.8	NA	NA	"UPS1800"	8.8
+"SVEN_2304 "	"Ferredoxin--NADP(+) reductase%2C actinobacterial (eukaryote) type"	"TTCGTCTTATGGGTCCATAGA"	-115	8.8	NA	NA	"UPS1818"	10.3
+"SVEN_2303 "	"hypothetical protein"	"TTCGTCTTATGGGTCCATAGA"	-160	8.8	NA	NA	"UPS1818"	10.3
+"SVEN_2724 "	"tmRNA-binding protein SmpB"	"ATCATCCCCATGTTGATTTTT"	89	8.8	NA	NA	"UPS2159"	8.8
+"SVEN_2723 "	"putative transport protein"	"ATCATCCCCATGTTGATTTTT"	252	8.8	NA	NA	"UPS2159"	8.8
+"SVEN_3144 "	"putative secreted protein"	"GGTTCCGGAAAATCGCACAAA"	-165	8.8	NA	NA	"UPS2493"	10.5
+"SVEN_3149 "	"Transcriptional regulator%2C MerR family"	"AAGTTAGGACGAATGGTATGT"	-128	8.8	NA	NA	"UPS2496"	8.8
+"SVEN_3148 "	"probable conserved integral membrane protein"	"AAGTTAGGACGAATGGTATGT"	-74	8.8	NA	NA	"UPS2496"	8.8
+"SVEN_3162 "	"hypothetical protein"	"ATCTTCTGACATCCCGTCAGC"	267	8.8	"SVEN_3163 "	"Conserved hypothetical protein"	"UPS2509"	11.3
+"SVEN_3505 "	"hypothetical protein"	"TTATTCGGATCACTTCTTCGC"	-31	8.8	NA	NA	"UPS2785"	8.8
+"SVEN_3679 "	"hypothetical protein"	"ATCAAAGGTATGTACGAGATT"	-55	8.8	NA	NA	"UPS2929"	8.8
+"SVEN_3752 "	"secreted protein"	"TTTATCTGCTTGTCCTCACGC"	-204	8.8	NA	NA	"UPS2992"	8.8
+"SVEN_3942 "	"hypothetical protein"	"ATTATCGGAAAGCGGATGAAT"	-42	8.8	NA	NA	"UPS3149"	8.9
+"SVEN_3941 "	"Transcriptional regulator%2C MarR family"	"ATTATCGGAAAGCGGATGAAT"	-55	8.8	NA	NA	"UPS3149"	8.9
+"SVEN_4073 "	"acyl dehydratase"	"GTTGACAAAATAAATGACTGA"	-77	8.8	NA	NA	"UPS3259"	8.8
+"SVEN_4328 "	"LSU ribosomal protein L33p"	"TTCATCCGTCCATCCGTCCGT"	-36	8.8	NA	NA	"UPS3452"	10.4
+"SVEN_4327 "	"Cytosine deaminase"	"TTCATCCGTCCATCCGTCCGT"	-480	8.8	"SVEN_4326 "	"oxidoreductase ylbE"	"UPS3452"	10.4
+"SVEN_4705 "	"Multimodular transpeptidase-transglycosylase"	"GTGATCAGTTGTCTTTTGTCT"	-118	8.8	NA	NA	"UPS3763"	8.8
+"SVEN_4704 "	"Transcriptional regulator%2C PadR family"	"GTGATCAGTTGTCTTTTGTCT"	-186	8.8	"SVEN_4703 ; SVEN_4702 "	"putative ABC transporter ATP-binding protein; putative integral membrane protein"	"UPS3763"	8.8
+"SVEN_5192 "	"Transcriptional regulator%2C TetR family"	"CTTATACGAACGTCTATCGAC"	-37	8.8	NA	NA	"UPS4161"	8.8
+"SVEN_5728 "	"site-specific recombinase%2C phage integrase family"	"GTGATCGGATTAGCGAAACGT"	-203	8.8	NA	NA	"UPS4578"	8.8
+"SVEN_6040 "	"Enolase"	"CAGCACAACTGAACAGCTGAA"	-114	8.8	NA	NA	"UPS4823"	8.8
+"SVEN_6039 "	"Transcriptional regulator%2C MarR family"	"CAGCACAACTGAACAGCTGAA"	-109	8.8	NA	NA	"UPS4823"	8.8
+"SVEN_6581 "	"hypothetical protein"	"TTTGTCCCATTTTTCTCCCCT"	-11	8.8	"SVEN_6580 "	"hypothetical protein"	"UPS5234"	8.8
+"SVEN_6826 "	"putative integral membrane protein"	"ATCGTCAGATAAGCAGCCCAG"	-202	8.8	NA	NA	"UPS5416"	8.8
+"SVEN_6825 "	"putative secreted protein"	"ATCGTCAGATAAGCAGCCCAG"	-222	8.8	NA	NA	"UPS5416"	8.8
+"SVEN_6940 "	"major facilitator superfamily permease"	"GTTATCTCATCCATCGTCATG"	-1	8.8	NA	NA	"UPS5506"	8.8
+"SVEN_0230 "	"RNA polymerase sigma factor SigB"	"TTGATCAGACCGATCATGCCG"	272	8.7	NA	NA	"SVEN_0230 "	8.7
+"SVEN_0818 "	"putative acyl-CoA dehydrogenase"	"AAGATCGTATAAATGGCCGCG"	1139	8.7	NA	NA	"SVEN_0818 "	8.9
+"SVEN_0923 "	"CmlG"	"CGAGGTCGACGATCAGATGAC"	412	8.7	NA	NA	"SVEN_0923 "	8.7
+"SVEN_1535 "	"Tellurium resistance protein TerD"	"GATGATGGCCAAGCTGATCAA"	1127	8.7	NA	NA	"SVEN_1535 "	8.7
+"SVEN_1657 "	"Probable enoyl-CoA hydratase EchA20"	"AAAGGTAGCTGATCCGCTCAT"	-19	8.7	"SVEN_1658 ; SVEN_1659 ; SVEN_1660 "	"putative CoA-transferase subunit alpha; putative CoA-transferase subunit beta; 2-nitropropane dioxygenase"	"SVEN_1657 "	8.7
+"SVEN_1889 "	"putative alpha-amylase"	"ATCATCTTCTTGAAGGCGGTG"	290	8.7	NA	NA	"SVEN_1889 "	8.7
+"SVEN_2464 "	"hypothetical protein"	"TTTTGCGGAATGGTCAATAAA"	773	8.7	NA	NA	"SVEN_2464 "	9.5
+"SVEN_2612 "	"hypothetical protein"	"GTGGTACGACGTACCGATTTT"	59	8.7	NA	NA	"SVEN_2612 "	8.7
+"SVEN_3256 "	"Cell division protein FtsH"	"ATCTTCTGACCGTCGACGAGT"	200	8.7	NA	NA	"SVEN_3256 "	8.7
+"SVEN_3788 "	"hypothetical protein"	"TTGATGAGTTCGGTCATGAAC"	140	8.7	"SVEN_3787 "	"Dabb"	"SVEN_3788 "	8.7
+"SVEN_3816 "	"hypothetical protein"	"CACCGCCGGTGATCAGATAAC"	2098	8.7	NA	NA	"SVEN_3816 "	10.2
+"SVEN_3896 "	"Probable low-affinity inorganic phosphate transporter"	"ATCGTCATCCCGATGTTCATC"	396	8.7	NA	NA	"SVEN_3896 "	8.7
+"SVEN_4010 "	"hypothetical protein"	"ATCTTCTGACTGGCGACGAAC"	849	8.7	NA	NA	"SVEN_4010 "	8.7
+"SVEN_4199 "	"Long-chain-fatty-acid--CoA ligase"	"TTTGCCCTTTTTTCACATTTA"	755	8.7	NA	NA	"SVEN_4199 "	9
+"SVEN_4325 "	"protein YajQ"	"TTGATCAGCTTGGTCTGGAAG"	191	8.7	NA	NA	"SVEN_4325 "	8.7
+"SVEN_4881 "	"transcriptional regulator%2C LuxR family"	"TTCATCAGTTCGGAGCTCATC"	899	8.7	NA	NA	"SVEN_4881 "	8.7
+"SVEN_5374 "	"hypothetical protein"	"TGGAGATGATGATCAGCTGAT"	2509	8.7	NA	NA	"SVEN_5374 "	8.7
+"SVEN_5563 "	"hypothetical protein"	"GTTGCCGATACGGCAGATGAA"	297	8.7	"SVEN_5562 ; SVEN_5561 ; SVEN_5560 ; SVEN_5559 ; SVEN_5558 "	"hypothetical protein; Transmembrane component CbrV of energizing module of predicted cobalamin ECF transporter; Duplicated ATPase component CbrU of energizing module of predicted cobalamin ECF transporter; Substrate-specific component CbrT of predicted cobalamin ECF transporter; hypothetical protein"	"SVEN_5563 "	8.7
+"SVEN_5595 "	"hypothetical protein"	"AATATCGCATAGTCGATCTTG"	197	8.7	NA	NA	"SVEN_5595 "	9.4
+"SVEN_5967 "	"Butyryl-CoA dehydrogenase"	"TCCTTCCAACAGTCTGGTGAT"	1151	8.7	"SVEN_5966 ; SVEN_5965 "	"Electron transfer flavoprotein%2C beta subunit; Electron transfer flavoprotein%2C alpha subunit"	"SVEN_5967 "	8.7
+"SVEN_6151 "	"glutamate permease"	"ATGATCTTCTTCATCTTCGTG"	354	8.7	NA	NA	"SVEN_6151 "	9.3
+"SVEN_6217 "	"hypothetical protein"	"ATGATCGAGAGTTATGCAGAA"	45	8.7	"SVEN_6218 ; SVEN_6219 "	"hypothetical protein; MbtH protein"	"SVEN_6217 "	8.8
+"SVEN_6824 "	"putative oligosaccharide deacetylase"	"ACGAACCATTGGTCATGAAAA"	52	8.7	NA	NA	"SVEN_6824 "	11.8
+"SVEN_6899 "	"sugar ABC transporter%2C permease protein"	"TTCGTCTTCCTGTACTTCTTC"	459	8.7	"SVEN_6900 "	"sugar transport system permease protein"	"SVEN_6899 "	8.7
+"SVEN_7104 "	"hypothetical protein"	"ATCGTCATCGGATACGACGAT"	12	8.7	NA	NA	"SVEN_7104 "	8.7
+"SVEN_7169 "	"hypothetical protein"	"GACTACAAGAAGTACGACCAC"	315	8.7	NA	NA	"SVEN_7169 "	8.7
+"SVEN_0293 "	"Phenylacetate-coenzyme A ligase PaaF"	"ATGATCGGTCGTCCGTTTTAG"	-41	8.7	NA	NA	"UPS0235"	8.7
+"SVEN_0292 "	"putative cytochrome P450 hydroxylase"	"ATGATCGGTCGTCCGTTTTAG"	-174	8.7	"SVEN_0291 ; SVEN_0290 "	"hypothetical protein; acetyltransferase"	"UPS0235"	8.7
+"SVEN_0473 "	"hypothetical protein"	"AAGACCGGAAATACATCTCAT"	-102	8.7	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"AAGACCGGAAATACATCTCAT"	-55	8.7	NA	NA	"UPS0378"	10.4
+"SVEN_0473 "	"hypothetical protein"	"ATGTTTTTCTTGACATATTTT"	-83	8.7	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"ATGTTTTTCTTGACATATTTT"	-74	8.7	NA	NA	"UPS0378"	10.4
+"SVEN_0867 "	"hypothetical protein"	"TTAACCCGTCAGTCACAAAAC"	-60	8.7	NA	NA	"UPS0692"	8.7
+"SVEN_0974 "	"PTS system%2C N-acetylglucosamine-specific IIA component"	"GGTATCAACTAATCTGGCGTT"	-528	8.7	NA	NA	"UPS0777"	9.6
+"SVEN_0973 "	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	"GGTATCAACTAATCTGGCGTT"	-1685	8.7	NA	NA	"UPS0777"	9.6
+"SVEN_0992 "	"hypothetical protein"	"ATGAGATGTCCTGTTATTCAG"	-239	8.7	NA	NA	"UPS0790"	12.9
+"SVEN_0991 "	"putative sensor histidine kinase"	"ATGAGATGTCCTGTTATTCAG"	-131	8.7	"SVEN_0990 ; SVEN_0989 ; SVEN_0988 "	"roadblock or LC7 protein; multi-component regulatory system-11; putative ATP or GTP-binding protein"	"UPS0790"	12.9
+"SVEN_1278 "	"Gluconokinase"	"GGGAATTAAAAGTACTACTTT"	-108	8.7	NA	NA	"UPS1028"	10.8
+"SVEN_1277 "	"Transcriptional regulator%2C GntR family"	"GGGAATTAAAAGTACTACTTT"	-60	8.7	NA	NA	"UPS1028"	10.8
+"SVEN_1408 "	"putative regulatory protein"	"ATCAACAGATCGTCACACCAC"	-118	8.7	NA	NA	"UPS1122"	8.7
+"SVEN_1427 "	"hypothetical protein"	"GGTATCAACTAATCTGGCGTT"	-1775	8.7	NA	NA	"UPS1138"	9.3
+"SVEN_1777 "	"N-acetylmuramoyl-L-alanine amidase"	"ATGATCTTCTGATCCGGTAGC"	2880	8.7	NA	NA	"UPS1406"	10.3
+"SVEN_1778 "	"2-Amino-2-deoxy-isochorismate synthase"	"ATGATCTTCTGATCCGGTAGC"	-262	8.7	NA	NA	"UPS1406"	10.3
+"SVEN_1860 "	"hypothetical protein"	"ATCAACGTTTCATCAGTGTTT"	-134	8.7	"SVEN_1861 "	"Transmembrane protein"	"UPS1474"	8.7
+"SVEN_2214 "	"Transcriptional regulator%2C TetR family"	"TTATTATTCTGTTACTTTTCC"	-82	8.7	"SVEN_2215 "	"hypothetical protein"	"UPS1739"	8.7
+"SVEN_2213 "	"Beta-glucosidase"	"TTATTATTCTGTTACTTTTCC"	-101	8.7	NA	NA	"UPS1739"	8.7
+"SVEN_2441 "	"putative ROK-family transcriptional regulator"	"AATAGGAAACTTTCCTAACAG"	-101	8.7	NA	NA	"UPS1935"	8.7
+"SVEN_2469 "	"hypothetical protein"	"CCTGCCATACGGTCCGATAAC"	-161	8.7	NA	NA	"UPS1957"	8.7
+"SVEN_2762 "	"hypothetical protein"	"GGTATCAACTAATCTGGCGTT"	-5499	8.7	NA	NA	"UPS2192"	9.3
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"GGTATCAACTAATCTGGCGTT"	-5602	8.7	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"GGTATCAACTAATCTGGCGTT"	-5355	8.7	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3464 "	"cold shock protein"	"TTTGTATTTCCGGTCATTTCC"	-95	8.7	NA	NA	"UPS2752"	8.7
+"SVEN_3688 "	"Replicative DNA helicase"	"TGGGTCGTTTGTTCTGATCTT"	-342	8.7	"SVEN_3689 "	"hypothetical protein"	"UPS2937"	8.7
+"SVEN_3687 "	"putative DNA-damage-inducible protein F"	"TGGGTCGTTTGTTCTGATCTT"	-101	8.7	NA	NA	"UPS2937"	8.7
+"SVEN_3688 "	"Replicative DNA helicase"	"TTGTTCTGATCTTGGTCCAGG"	-334	8.7	"SVEN_3689 "	"hypothetical protein"	"UPS2937"	8.7
+"SVEN_3687 "	"putative DNA-damage-inducible protein F"	"TTGTTCTGATCTTGGTCCAGG"	-109	8.7	NA	NA	"UPS2937"	8.7
+"SVEN_3833 "	"Phosphoribosylformylglycinamidine synthase%2C PurS subunit"	"TTTGTAGGATCCTTCAGATCT"	-91	8.7	"SVEN_3834 ; SVEN_3835 "	"Phosphoribosylformylglycinamidine synthase%2Cglutamine amidotransferase subunit; Phosphoribosylformylglycinamidine synthase%2Csynthetase subunit"	"UPS3061"	8.7
+"SVEN_3832 "	"Histone protein Lsr2"	"TTTGTAGGATCCTTCAGATCT"	-155	8.7	NA	NA	"UPS3061"	8.7
+"SVEN_3877 "	"putative two-component system response regulator"	"AACGCCAGATTAGTTGATACC"	5372	8.7	NA	NA	"UPS3100"	9.3
+"SVEN_3876 "	"Transcriptional regulator%2C MarR family"	"AACGCCAGATTAGTTGATACC"	482	8.7	NA	NA	"UPS3100"	9.3
+"SVEN_4814 "	"hypothetical protein"	"GTGGCCATACGGACATACGAA"	-116	8.7	NA	NA	"UPS3861"	8.7
+"SVEN_5117 "	"polysaccharide deacetylase"	"TTGCAAACAATGAATGACTAT"	-139	8.7	"SVEN_5118 "	"surface antigen"	"UPS4101"	8.7
+"SVEN_5123 "	"hypothetical protein"	"CATTCACACCATTCACACGAT"	-63	8.7	NA	NA	"UPS4106"	8.7
+"SVEN_5122 "	"transcriptional regulator%2C LuxR family"	"CATTCACACCATTCACACGAT"	-110	8.7	NA	NA	"UPS4106"	8.7
+"SVEN_5273 "	"putative sugar transporter"	"GTGCTTCTTAAGTCACATGAC"	-144	8.7	NA	NA	"UPS4231"	8.7
+"SVEN_5395 "	"regulatory protein"	"AACGCCAGATTAGTTGATACC"	1611	8.7	NA	NA	"UPS4328"	12.9
+"SVEN_5394 "	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"AACGCCAGATTAGTTGATACC"	358	8.7	NA	NA	"UPS4328"	12.9
+"SVEN_5498 "	"Transcriptional regulator%2C GntR family"	"ATGTCCGATTAATCGTCAATT"	-103	8.7	NA	NA	"UPS4417"	12.8
+"SVEN_5692 "	"ABC transporter ATP-binding protein"	"CGAAGCGGACGAAAGGATCAA"	-116	8.7	NA	NA	"UPS4561"	8.7
+"SVEN_5835 "	"hypothetical protein"	"TTCAGAGCTTCATTTGAGGTT"	-94	8.7	"SVEN_5834 "	"hypothetical protein"	"UPS4662"	8.7
+"SVEN_6544 "	"Transcriptional regulator%2C TetR family"	"GTAATCAGTCAAAACGGCAAC"	-139	8.7	"SVEN_6545 "	"hypothetical protein"	"UPS5201"	8.7
+"SVEN_6543 "	"hypothetical protein"	"GTAATCAGTCAAAACGGCAAC"	-90	8.7	"SVEN_6542 "	"putative integral membrane protein"	"UPS5201"	8.7
+"SVEN_7057 "	"Siderophore biosynthesis protein%2C monooxygenase"	"TTCTTCGTCATGTCCGATTTG"	-143	8.7	NA	NA	"UPS5597"	10.4
+"SVEN_7056 "	"formyltransferase"	"TTCTTCGTCATGTCCGATTTG"	-120	8.7	"SVEN_7055 "	"Transcriptional regulator%2C MarR family"	"UPS5597"	10.4
+"SVEN_7306 "	"hypothetical protein"	"TTGATCAGATCGGACACCGAC"	-185	8.7	NA	NA	"UPS5778"	8.7
+"SVEN_7305 "	"MoxR ATPases"	"TTGATCAGATCGGACACCGAC"	-75	8.7	"SVEN_7304 "	"carbon monoxide dehydrogenase E protein"	"UPS5778"	8.7
+"SVEN_7325 "	"hypothetical protein"	"ATAACTCGCAAAACCGACATT"	-63	8.7	NA	NA	"UPS5795"	9.8
+"SVEN_7324 "	"Phage tail length tape-measure protein"	"ATAACTCGCAAAACCGACATT"	-488	8.7	NA	NA	"UPS5795"	9.8
+"SVEN_0923 "	"CmlG"	"ATCAGATGACTGAACTTGACG"	401	8.6	NA	NA	"SVEN_0923 "	8.7
+"SVEN_0924 "	"hypothetical protein"	"TTCATCATCTCGCCGGAGATC"	722	8.6	"SVEN_0923 ; SVEN_0922 ; SVEN_0921 "	"CmlG; non-ribosomal peptide synthetase; hypothetical protein"	"SVEN_0924 "	8.6
+"SVEN_1435 "	"putative ABC transporter ATP-binding protein"	"ATGTTCAGAAGGGTGGTCTTG"	125	8.6	"SVEN_1434 "	"putative activity regulator of membrane protease YbbK"	"SVEN_1435 "	8.6
+"SVEN_1677 "	"Glutamate synthase"	"ATCATCTTCTCGGTGGTCTCG"	4520	8.6	"SVEN_1676 "	"Glutamate synthase"	"SVEN_1677 "	8.6
+"SVEN_1793 "	"putative integral membrane protein"	"AACTTCGGTTCGATCGAGTTC"	753	8.6	NA	NA	"SVEN_1793 "	8.6
+"SVEN_1920 "	"TraB protein"	"CCTGTTCGTCGGTCTGATGAC"	548	8.6	NA	NA	"SVEN_1920 "	8.6
+"SVEN_1954 "	"Heme ABC transporter%2C ATPase component HmuV"	"CGTAATGAAAATGCGGACAAT"	657	8.6	NA	NA	"SVEN_1954 "	8.6
+"SVEN_2253 "	"Lipid A export ATP-binding or permease protein MsbA"	"TTCTTCATCTCGAACATCAAC"	921	8.6	NA	NA	"SVEN_2253 "	9.6
+"SVEN_2417 "	"putative aminopeptidase"	"TTCATGGGCTCGTTCGTGAAC"	987	8.6	NA	NA	"SVEN_2417 "	8.6
+"SVEN_2886 "	"hypothetical protein"	"CTAACGAGGAGGACTGATCAT"	111	8.6	NA	NA	"SVEN_2886 "	8.6
+"SVEN_3559 "	"hypothetical protein"	"ATCTTCGTACTACACTCCGAC"	4580	8.6	NA	NA	"SVEN_3559 "	8.6
+"SVEN_3723 "	"putative oxidoreductase"	"ATCGTACGACCGTCCGGCTAC"	1790	8.6	NA	NA	"SVEN_3723 "	8.6
+"SVEN_3971 "	"putative integral membrane protein"	"CCCCAACGACGATCCGATCAA"	1193	8.6	NA	NA	"SVEN_3971 "	8.6
+"SVEN_4268 "	"NADH-ubiquinone oxidoreductase chain D"	"GGACCACATCAAGAAGATCAT"	1022	8.6	NA	NA	"SVEN_4268 "	8.6
+"SVEN_4727 "	"hypothetical protein"	"TCAGAAGAACGATCAGCCGAA"	77	8.6	NA	NA	"SVEN_4727 "	8.6
+"SVEN_5040 "	"hypothetical protein"	"ATGATCAGTTCTCTGGTGGCC"	108	8.6	NA	NA	"SVEN_5040 "	8.6
+"SVEN_5073 "	"putative membrane protein"	"CATCACCCTCGGTCTGACGAT"	212	8.6	"SVEN_5074 "	"hypothetical protein"	"SVEN_5073 "	8.6
+"SVEN_5482 "	"Ribonucleotide reductase of class II (coenzyme B12-dependent)"	"CTTCTCCTGCGGTACGAAGAT"	2744	8.6	NA	NA	"SVEN_5482 "	8.6
+"SVEN_5525 "	"putative glycosyltransferase"	"GTCGTCGTACCGTTCCACAAT"	15	8.6	"SVEN_5526 "	"hypothetical protein"	"SVEN_5525 "	8.6
+"SVEN_6564 "	"hypothetical protein"	"GGAGCACATCAATCGGATCAC"	452	8.6	NA	NA	"SVEN_6564 "	8.6
+"SVEN_6603 "	"Predicted rhamnose oligosaccharide ABC transport system%2C permease component"	"TTCATGGGACCGCTGATCTAC"	705	8.6	NA	NA	"SVEN_6603 "	8.6
+"SVEN_6888 "	"hypothetical protein"	"ATCATCAGCTCGGCGAACTTG"	500	8.6	NA	NA	"SVEN_6888 "	8.6
+"SVEN_7059 "	"Siderophore biosynthesis non-ribosomal peptide synthetase modules @ Bacillibactin synthetase component F"	"ATCATCGGCATGTTCCTCAAC"	7443	8.6	"SVEN_7060 "	"MbtH protein"	"SVEN_7059 "	8.6
+"SVEN_7085 "	"putative ABC transporter permease protein"	"GAACACGGTCCAGATGATGAT"	192	8.6	NA	NA	"SVEN_7085 "	8.6
+"SVEN_7140 "	"D-amino-acid oxidase"	"ATGTGAAATATTACTGATGTG"	-18	8.6	"SVEN_7141 ; SVEN_7142 ; SVEN_7143 "	"Possible sarcosine oxidase; putative oxidoreductase; 1-pyrroline-4-hydroxy-2-carboxylate deaminase"	"SVEN_7140 "	8.6
+"SVEN_7380 "	"transport system permease protein"	"TTCGTCGGACTGATCGTCCCC"	1125	8.6	NA	NA	"SVEN_7380 "	8.6
+"SVEN_7435 "	"IS1647 transposase"	"CAGATCAGATGGATCTTCGAT"	167	8.6	NA	NA	"SVEN_7435 "	8.6
+"SVEN_7440 "	"hypothetical protein"	"GTTGACCTGCGGACCGATGAA"	1140	8.6	NA	NA	"SVEN_7440 "	10.1
+"SVEN_0080 "	"putative sugar binding protein"	"GGGGGTCAATAGTCCGATGAC"	-92	8.6	"SVEN_0079 ; SVEN_0078 ; SVEN_0077 ; SVEN_0076 ; SVEN_0075 "	"binding-protein-dependent transport systems inner membrane component; binding-protein-dependent transport systems inner membrane component; 5-dehydro-4-deoxyglucarate dehydratase; Glucarate dehydratase; Alpha-L-fucosidase"	"UPS0060"	10.2
+"SVEN_0082 "	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	"CCACACGATACATCGGATGAC"	-107	8.6	"SVEN_0083 "	"lipase or acylhydrolase family protein"	"UPS0061"	9.7
+"SVEN_0081 "	"D-3-phosphoglycerate dehydrogenase"	"CCACACGATACATCGGATGAC"	-105	8.6	NA	NA	"UPS0061"	9.7
+"SVEN_0100 "	"hypothetical protein"	"ATGTCATGTCTTTCTCATGAT"	-40	8.6	NA	NA	"UPS0075"	9.6
+"SVEN_0101 "	"secreted hydrolase"	"ATCATGAGAAAGACATGACAT"	-259	8.6	NA	NA	"UPS0076"	9.6
+"SVEN_0459 "	"NADPH-dependent glyceraldehyde-3-phosphate dehydrogenase"	"CTCGAAAGATAAACTTGTGAC"	-76	8.6	NA	NA	"UPS0371"	8.6
+"SVEN_0458 "	"hypothetical protein"	"CTCGAAAGATAAACTTGTGAC"	-144	8.6	NA	NA	"UPS0371"	8.6
+"SVEN_0473 "	"hypothetical protein"	"CTCATGTTTTTCTTGACATAT"	-86	8.6	NA	NA	"UPS0378"	10.4
+"SVEN_0472 "	"hypothetical protein"	"CTCATGTTTTTCTTGACATAT"	-71	8.6	NA	NA	"UPS0378"	10.4
+"SVEN_0557 "	"putative sensor histidine kinase"	"CTGATCATTTCTTGCTCATAA"	-223	8.6	"SVEN_0556 ; SVEN_0555 ; SVEN_0554 ; SVEN_0553 "	"hypothetical protein; multi-component regulatory system-10; ATP-GTP binding protein; putative cytochrome P450"	"UPS0444"	10.9
+"SVEN_0611 "	"hypothetical protein"	"TATTTATCACTGAATTTCCTC"	-11	8.6	"SVEN_0610 "	"hypothetical protein"	"UPS0489"	8.6
+"SVEN_0953 "	"hypothetical protein"	"TTCATCAGTATTGAATGTTCA"	304	8.6	NA	NA	"UPS0759"	8.6
+"SVEN_1372 "	"hypothetical protein"	"GTGGCACGACTTTCATATTTT"	-216	8.6	NA	NA	"UPS1098"	10.7
+"SVEN_1371 "	"putative regulator"	"GTGGCACGACTTTCATATTTT"	-128	8.6	NA	NA	"UPS1098"	10.7
+"SVEN_1427 "	"hypothetical protein"	"CTTACCAGATCGTTTTCCGTT"	-1893	8.6	NA	NA	"UPS1138"	9.3
+"SVEN_1462 "	"secreted subtilisin protease"	"GGATTTCTTCGGTCAGATCTT"	-140	8.6	NA	NA	"UPS1169"	10.4
+"SVEN_1461 "	"putative integral membrane protein"	"GGATTTCTTCGGTCAGATCTT"	-154	8.6	"SVEN_1460 "	"putative symporter YjcG"	"UPS1169"	10.4
+"SVEN_2214 "	"Transcriptional regulator%2C TetR family"	"GTGACGTTATTATTCTGTTAC"	-88	8.6	"SVEN_2215 "	"hypothetical protein"	"UPS1739"	8.7
+"SVEN_2213 "	"Beta-glucosidase"	"GTGACGTTATTATTCTGTTAC"	-95	8.6	NA	NA	"UPS1739"	8.7
+"SVEN_2293 "	"putative membrane protein"	"AAGATCATTTGGCTCGGATTT"	-91	8.6	NA	NA	"UPS1807"	10.1
+"SVEN_2614 "	"hypothetical protein"	"CTGATACGACCATCCGACAGG"	-119	8.6	"SVEN_2613 "	"Membrane protease subunits"	"UPS2074"	8.6
+"SVEN_2652 "	"H-N-H endonuclease F-TflIV"	"ATGACGTGACCGTCCGATATT"	-65	8.6	"SVEN_2653 "	"hypothetical protein"	"UPS2100"	8.6
+"SVEN_2927 "	"Prevent host death protein%2C Phd antitoxin"	"CTCATCGGACTAAGCTAAGTC"	-55	8.6	"SVEN_2928 "	"Death on curing protein%2C Doc toxin"	"UPS2321"	8.6
+"SVEN_2926 "	"Transcription-repair coupling factor"	"CTCATCGGACTAAGCTAAGTC"	-75	8.6	NA	NA	"UPS2321"	8.6
+"SVEN_3172 "	"hypothetical protein"	"AAAGTCTGATAACGCAAAAAC"	-155	8.6	NA	NA	"UPS2518"	9.5
+"SVEN_3171 "	"hypothetical protein"	"AAAGTCTGATAACGCAAAAAC"	-40	8.6	NA	NA	"UPS2518"	9.5
+"SVEN_3398 "	"putative ABC transporter ATP-binding protein"	"TTTGTGAAATGAGCGTACGTT"	-28	8.6	"SVEN_3399 "	"putative ABC transporter membrane protein"	"UPS2699"	9.2
+"SVEN_3397 "	"hypothetical protein"	"TTTGTGAAATGAGCGTACGTT"	-77	8.6	NA	NA	"UPS2699"	9.2
+"SVEN_3437 "	"putative integral membrane protein"	"GTGATACGTCGGATTTGTAAC"	-100	8.6	NA	NA	"UPS2732"	8.6
+"SVEN_3436 "	"hypothetical protein"	"GTGATACGTCGGATTTGTAAC"	-89	8.6	NA	NA	"UPS2732"	8.6
+"SVEN_3567 "	"hypothetical protein"	"GTCGGAGTGTAGTACGAAGAT"	-57	8.6	NA	NA	"UPS2836"	8.6
+"SVEN_3854 "	"putative ATP-dependent RNA helicase"	"TATGGTGGTAGATCGTTTGAT"	-162	8.6	NA	NA	"UPS3078"	8.6
+"SVEN_4010 "	"hypothetical protein"	"ACATACAACAGAACGCATGTT"	-29	8.6	NA	NA	"UPS3198"	8.6
+"SVEN_4044 "	"hypothetical protein"	"GTAGGCAAAACGGATCATCAT"	-32	8.6	NA	NA	"UPS3231"	11.5
+"SVEN_4069 "	"hypothetical protein"	"CATACAGAACAAAACGAAATG"	-50	8.6	NA	NA	"UPS3256"	11.3
+"SVEN_4289 "	"hypothetical protein"	"CTGAATGTTCAGTGAGATTTT"	-53	8.6	NA	NA	"UPS3428"	8.6
+"SVEN_4288 "	"Aminopeptidase Y (Arg%2C Lys%2C Leu preference)"	"CTGAATGTTCAGTGAGATTTT"	-160	8.6	NA	NA	"UPS3428"	8.6
+"SVEN_4451 "	"putative LysR-family transcriptional regulator"	"CTCAAAGTCACATGTGAAAAT"	-57	8.6	NA	NA	"UPS3552"	8.6
+"SVEN_4450 "	"Uncharacterized protein conserved in bacteria"	"CTCAAAGTCACATGTGAAAAT"	-44	8.6	NA	NA	"UPS3552"	8.6
+"SVEN_4864 "	"Quaternary ammonium compound-resistance protein sugE"	"TTGGTGCGATTATGCACTTAC"	-62	8.6	NA	NA	"UPS3903"	8.6
+"SVEN_6420 "	"hypothetical protein"	"GGTGCTCCAAAGTCATAAGAA"	-277	8.6	"SVEN_6421 "	"putative carboxypeptidase"	"UPS5109"	8.6
+"SVEN_6419 "	"putative metallopeptidase"	"GGTGCTCCAAAGTCATAAGAA"	-22	8.6	NA	NA	"UPS5109"	8.6
+"SVEN_6981 "	"Nickel ABC transporter%2C periplasmic nickel-binding protein nikA2"	"CTTTACATACTGTTTAATTGC"	-67	8.6	"SVEN_6982 ; SVEN_6983 ; SVEN_6984 ; SVEN_6985 "	"Dipeptide transport system permease protein DppB; Oligopeptide transport system permease protein OppC; Dipeptide transport ATP-binding protein DppD; ABC transporter ATP-binding protein"	"UPS5538"	11.3
+"SVEN_7312 "	"hypothetical protein"	"GCGGGAAAGTGATCACACGAT"	-109	8.6	NA	NA	"UPS5783"	8.6
+"SVEN_7312 "	"hypothetical protein"	"GTGATCACACGATCCGGTGAT"	-101	8.6	NA	NA	"UPS5783"	8.6
+"SVEN_7351 "	"hypothetical protein"	"AAGATTAACGAAAATGCTCAA"	-125	8.6	"SVEN_7352 "	"secreted glycosyl hydrolase"	"UPS5817"	10.5
+"SVEN_0102 "	"monooxygenase_"	"TACATGAGTTCGTCCGTGATC"	629	8.5	NA	NA	"SVEN_0102 "	8.5
+"SVEN_0880 "	"putative transcriptional regulatory protein"	"CTGCTCGATCTGGATGATCAT"	114	8.5	NA	NA	"SVEN_0880 "	8.5
+"SVEN_0985 "	"D-alanyl-D-alanine dipeptidase"	"CTCGACCGTGGATCTGACGAT"	476	8.5	NA	NA	"SVEN_0985 "	8.5
+"SVEN_1133 "	"Threonyl-tRNA synthetase"	"ATCTTCTTCTCGATGACCTTG"	296	8.5	NA	NA	"SVEN_1133 "	8.5
+"SVEN_1156 "	"Methionine ABC transporter substrate-binding protein"	"TTGTTCTTCTTGTTGAAGTCG"	314	8.5	NA	NA	"SVEN_1156 "	8.5
+"SVEN_1273 "	"Ribosomal large subunit pseudouridine synthase A"	"ATCATCTGCTCGACCGGTACG"	112	8.5	NA	NA	"SVEN_1273 "	8.5
+"SVEN_2480 "	"hypothetical protein"	"TTCATCAGACGTTCCAGCCCT"	1567	8.5	NA	NA	"SVEN_2480 "	8.5
+"SVEN_2488 "	"MutT protein"	"CTGATCCACAAGACCGACAAC"	102	8.5	NA	NA	"SVEN_2488 "	8.5
+"SVEN_2666 "	"ABC transporter (iron.B12.siderophore.hemin)%2C periplasmic substrate-binding component"	"TTCTTCTGTTCGACGGTGGTG"	797	8.5	"SVEN_2665 ; SVEN_2664 "	"ABC transporter (iron.B12.siderophore.hemin)%2C permease component; ABC transporter (iron.B12.siderophore.hemin)%2C ATP-binding component"	"SVEN_2666 "	8.5
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"TATATGAGACGTACGGATCGT"	790	8.5	NA	NA	"SVEN_3195 "	8.5
+"SVEN_3651 "	"DNA gyrase subunit B"	"CCATCAGGATGATCTTGTGAT"	1576	8.5	"SVEN_3650 ; SVEN_3649 "	"DNA gyrase subunit A; putative integral membrane protein"	"SVEN_3651 "	8.5
+"SVEN_3948 "	"putative membrane protein"	"GAAGAAGTTCTGGCTGATCAT"	131	8.5	NA	NA	"SVEN_3948 "	8.5
+"SVEN_4071 "	"putative transporter"	"ATGATCTTCATGACGGCCATC"	933	8.5	NA	NA	"SVEN_4071 "	8.5
+"SVEN_4520 "	"hypothetical protein"	"TTCGTCGGAATAAATTGCCGA"	423	8.5	NA	NA	"SVEN_4520 "	8.5
+"SVEN_4759 "	"Dipeptide-binding ABC transporter%2C periplasmic substrate-binding component"	"GAGATCACTCGATACGACGAC"	693	8.5	NA	NA	"SVEN_4759 "	8.5
+"SVEN_5113 "	"putative lipoprotein"	"ATGATCGTTTCCTTCGCGTTC"	498	8.5	NA	NA	"SVEN_5113 "	8.5
+"SVEN_5471 "	"GTP-binding protein HflX"	"ATCAAATGACCTCCTCTTCTT"	-5	8.5	NA	NA	"SVEN_5471 "	8.5
+"SVEN_5472 "	"putative secreted protein"	"ATGATCACACCGTTGTACGGG"	908	8.5	NA	NA	"SVEN_5472 "	8.5
+"SVEN_5630 "	"integral membrane protein"	"GTGATCGTGAGGTCAGACAAG"	41	8.5	NA	NA	"SVEN_5630 "	8.5
+"SVEN_5749 "	"Short-chain alcohol dehydrogenase family"	"ATCATGGTCTCCTTTGAGAAG"	219	8.5	NA	NA	"SVEN_5749 "	8.5
+"SVEN_6171 "	"dehydrogenase"	"ATCATGGTCTCCTTTGAGAAG"	-3	8.5	NA	NA	"SVEN_6171 "	8.5
+"SVEN_6264 "	"CDA peptide synthetase I"	"ATCGTCAGCCTTGATGAACTC"	7380	8.5	NA	NA	"SVEN_6264 "	8.5
+"SVEN_6527 "	"ATP-dependent Clp protease ATP-binding subunit ClpA"	"ATCATCCTCTTCATCGACGAA"	927	8.5	NA	NA	"SVEN_6527 "	8.5
+"SVEN_6828 "	"putative integral membrane protein"	"AAGATCAGACCGACCGTCACC"	575	8.5	NA	NA	"SVEN_6828 "	8.5
+"SVEN_7139 "	"ABC transporter solute-binding protein"	"AATGTGAAATTGTACTGACAA"	24	8.5	"SVEN_7138 ; SVEN_7137 ; SVEN_7136 ; SVEN_7135 "	"oligopeptide transport integral membrane protein; ABC transporter permease protein; oligopeptide ABC transporter ATP-binding protein; Oligopeptide transport ATP-binding protein"	"SVEN_7139 "	9.5
+"SVEN_7299 "	"probable regulatory protein"	"ATCTGCGTACGATCATGAAAT"	-19	8.5	NA	NA	"SVEN_7299 "	8.5
+"SVEN_7298 "	"hypothetical protein"	"ATCTGCGTACGATCATGAAAT"	1560	8.5	NA	NA	"SVEN_7299 "	8.5
+"SVEN_0090 "	"UDP-N-acetylmuramoylalanyl-D-glutamyl-2%2C6-diaminopimelate--D-alanyl-D-alanine ligase"	"AACATGGTTTCTTTTCGGATT"	-587	8.5	NA	NA	"UPS0068"	8.5
+"SVEN_0217 "	"hypothetical protein"	"TCTGACGATTCGTCAGTTCAT"	451	8.5	NA	NA	"UPS0172"	8.8
+"SVEN_0255 "	"hypothetical protein"	"CTTATCGGACAGACCTACACA"	-110	8.5	NA	NA	"UPS0204"	8.5
+"SVEN_0254 "	"hypothetical protein"	"CTTATCGGACAGACCTACACA"	-206	8.5	NA	NA	"UPS0204"	8.5
+"SVEN_0440 "	"histidinol-phosphate phosphatase family protein or glycosyl transferase%2C group 2 family protein"	"CATATCTTTTCGGATTTCTTG"	-84	8.5	NA	NA	"UPS0362"	9.2
+"SVEN_0439 "	"Glucoamylase"	"CATATCTTTTCGGATTTCTTG"	-90	8.5	"SVEN_0438 "	"hypothetical protein"	"UPS0362"	9.2
+"SVEN_0630 "	"secreted protein"	"TAATGAAAGCCAAAAGAAAAG"	-114	8.5	NA	NA	"UPS0504"	8.5
+"SVEN_0629 "	"transcriptional regulator"	"TAATGAAAGCCAAAAGAAAAG"	-97	8.5	NA	NA	"UPS0504"	8.5
+"SVEN_0645 "	"Ribonuclease BN"	"TGTCCAGATTGATCATCAGAT"	-210	8.5	NA	NA	"UPS0518"	8.5
+"SVEN_0644 "	"putative secreted hydrolase"	"TGTCCAGATTGATCATCAGAT"	-134	8.5	NA	NA	"UPS0518"	8.5
+"SVEN_1278 "	"Gluconokinase"	"ATCGGGAATTAAAAGTACTAC"	-111	8.5	NA	NA	"UPS1028"	10.8
+"SVEN_1277 "	"Transcriptional regulator%2C GntR family"	"ATCGGGAATTAAAAGTACTAC"	-57	8.5	NA	NA	"UPS1028"	10.8
+"SVEN_1331 "	"Homogentisate 1%2C2-dioxygenase"	"TTCATCTTTTTGAACCCCTCG"	-174	8.5	"SVEN_1332 "	"putative GntR-family transcriptional regulator"	"UPS1070"	8.9
+"SVEN_1330 "	"hypothetical protein"	"TTCATCTTTTTGAACCCCTCG"	-42	8.5	"SVEN_1329 ; SVEN_1328 ; SVEN_1327 "	"hypothetical protein; hypothetical protein; Transcriptional regulator%2C TetR family"	"UPS1070"	8.9
+"SVEN_1374 "	"putative integral membrane protein"	"GTCATCGGATTTCCCGACGGA"	-125	8.5	NA	NA	"UPS1100"	8.5
+"SVEN_1373 "	"putative DHA2-subfamily multidrug transporter"	"GTCATCGGATTTCCCGACGGA"	-301	8.5	NA	NA	"UPS1100"	8.5
+"SVEN_1430 "	"Phospholipid-binding protein"	"CTGATCGTTCGTTTGTTGTTT"	536	8.5	NA	NA	"UPS1141"	8.5
+"SVEN_1534 "	"hypothetical hydrophilic protein"	"AATATTCATATGACGGATCTG"	-36	8.5	"SVEN_1535 "	"Tellurium resistance protein TerD"	"UPS1222"	12.1
+"SVEN_1533 "	"transcriptional regulator%2C AraC family"	"AATATTCATATGACGGATCTG"	-85	8.5	NA	NA	"UPS1222"	12.1
+"SVEN_2173 "	"hypothetical protein"	"TTTGCGGCTTTTTATGATCAT"	-710	8.5	NA	NA	"UPS1706"	12.2
+"SVEN_2302 "	"hypothetical protein"	"AACGTATGCCTTTCTGAATCC"	-217	8.5	NA	NA	"UPS1817"	8.5
+"SVEN_2415 "	"superoxide dismutase"	"CTAGGACGAAGGGCTGATCAA"	-92	8.5	NA	NA	"UPS1910"	8.5
+"SVEN_3641 "	"putative membrane protein"	"AACTTACGAAGATCTGTGGAT"	207	8.5	NA	NA	"UPS2892"	8.5
+"SVEN_3640 "	"putative WhiP protein"	"AACTTACGAAGATCTGTGGAT"	79	8.5	NA	NA	"UPS2892"	8.5
+"SVEN_3731 "	"Dihydrolipoamide dehydrogenase"	"GTTGCCCAGTCATCCTACAAC"	-97	8.5	"SVEN_3732 "	"hypothetical protein"	"UPS2973"	8.5
+"SVEN_3730 "	"Transcriptional regulator%2C GntR family"	"GTTGCCCAGTCATCCTACAAC"	-45	8.5	"SVEN_3729 "	"hypothetical protein"	"UPS2973"	8.5
+"SVEN_3857 "	"possible diacylglycerol kinase%2C catalytic region"	"TTAATCCGTTGGTTGTGGGTT"	-257	8.5	NA	NA	"UPS3081"	8.5
+"SVEN_4246 "	"hypothetical protein"	"CTAGTCAGATTACAGAACTGA"	-160	8.5	NA	NA	"UPS3399"	8.5
+"SVEN_4245 "	"acetyl-CoA synthetase"	"CTAGTCAGATTACAGAACTGA"	-62	8.5	"SVEN_4244 "	"Enoyl-CoA hydratase"	"UPS3399"	8.5
+"SVEN_4437 "	"putative polysaccharide deacetylase"	"CCATACGACTCGTACGACAAA"	-32	8.5	"SVEN_4438 "	"hypothetical protein"	"UPS3541"	9.4
+"SVEN_4436 "	"SAM-dependent methyltransferases"	"CCATACGACTCGTACGACAAA"	-74	8.5	NA	NA	"UPS3541"	9.4
+"SVEN_4495 "	"Methylenetetrahydrofolate dehydrogenase (NADP+) or Methenyltetrahydrofolate cyclohydrolase"	"GTTGTCGTAACGTCGACTTTT"	-134	8.5	NA	NA	"UPS3591"	8.5
+"SVEN_4494 "	"integral membrane protein"	"GTTGTCGTAACGTCGACTTTT"	-137	8.5	NA	NA	"UPS3591"	8.5
+"SVEN_4523 "	"oligopeptide binding protein"	"GTGGTGTGAAAGTTTTCTCTT"	-113	8.5	NA	NA	"UPS3615"	8.5
+"SVEN_4924 "	"putative dioxygenase"	"AGTCTAAGTCGATCTTCCCAA"	-56	8.5	NA	NA	"UPS3948"	8.5
+"SVEN_4928 "	"hypothetical protein"	"ATATTGGTCATAACGTAAGAA"	-157	8.5	"SVEN_4929 "	"hypothetical protein"	"UPS3951"	10.4
+"SVEN_4989 "	"secreted protein"	"TTCAACCGATTACCGTACGAA"	-54	8.5	NA	NA	"UPS4001"	8.5
+"SVEN_5747 "	"hypothetical protein"	"TTCTTGACATGTTTGTTGTTG"	-73	8.5	NA	NA	"UPS4592"	8.5
+"SVEN_5810 "	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	"TTATCTCAGATATGAGATGAC"	-30	8.5	NA	NA	"UPS4641"	8.5
+"SVEN_5908 "	"hypothetical protein"	"TTCGTCATTACGAAAGTTTGT"	-138	8.5	NA	NA	"UPS4713"	9.1
+"SVEN_7008 "	"hypothetical protein"	"ATTGAAGTGAAAACTTCTGAG"	-119	8.5	"SVEN_7009 "	"von Willebrand factor%2C type A"	"UPS5558"	8.5
+"SVEN_7007 "	"hypothetical protein"	"ATTGAAGTGAAAACTTCTGAG"	-118	8.5	NA	NA	"UPS5558"	8.5
+"SVEN_7428 "	"hypothetical protein"	"GAAATATTTTCTAGAAACAAT"	-72	8.5	"SVEN_7429 "	"hypothetical protein"	"UPS5874"	8.5
+"SVEN_7427 "	"Transcriptional regulator%2C TetR family"	"GAAATATTTTCTAGAAACAAT"	-51	8.5	NA	NA	"UPS5874"	8.5
+"SVEN_0140 "	"Catalase"	"AAAGGCAGTACGACCGATGAC"	-16	8.4	NA	NA	"SVEN_0140 "	8.4
+"SVEN_0306 "	"Beta-lactamase (Cephalosporinase)"	"CTCGGACCTCAATCTGATCAC"	764	8.4	NA	NA	"SVEN_0306 "	8.4
+"SVEN_0962 "	"Glycine dehydrogenase"	"AACGTATGCTCAGTTGTCGTA"	2874	8.4	NA	NA	"SVEN_0962 "	8.4
+"SVEN_1153 "	"Cobalamin biosynthesis protein BluB @ 5%2C6-dimethylbenzimidazole synthase%2C flavin destructase family or Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase"	"ATCTTCAGTTCCTTGAACTGC"	2105	8.4	NA	NA	"SVEN_1153 "	8.4
+"SVEN_1312 "	"possible flavodoxin"	"AATATCGGAAGAGTTCAGCAT"	326	8.4	"SVEN_1313 "	"hypothetical protein"	"SVEN_1312 "	8.4
+"SVEN_1408 "	"putative regulatory protein"	"TTCAAAGTACTAATCTTCGCC"	2001	8.4	NA	NA	"SVEN_1408 "	8.4
+"SVEN_1411 "	"Glucoamylase and related glycosyl hydrolases"	"CCTCCAGATCAAGCTGATCAA"	1076	8.4	NA	NA	"SVEN_1411 "	8.4
+"SVEN_1733 "	"Possible membrane protein"	"GTCCATGACAAGTCGGACGAT"	57	8.4	NA	NA	"SVEN_1733 "	9.9
+"SVEN_1909 "	"hypothetical protein"	"AGTAACGGAATTTCACAACTT"	1086	8.4	NA	NA	"SVEN_1909 "	10.2
+"SVEN_2342 "	"SSU ribosomal protein S20p"	"AAGGAACATCGAACCTGTAAA"	48	8.4	NA	NA	"SVEN_2342 "	8.4
+"SVEN_2576 "	"Glucosamine--fructose-6-phosphateaminotransferase"	"ATTGTCGGTTACATCGGAAAG"	9	8.4	NA	NA	"SVEN_2576 "	8.4
+"SVEN_2952 "	"Fatty acid desaturase %3B Delta-9 fatty acid desaturase"	"GTACGCGCCCGATCTGATCAA"	494	8.4	"SVEN_2953 "	"Transcriptional regulator%2C TetR family"	"SVEN_2952 "	8.4
+"SVEN_3348 "	"Arsenical pump-driving ATPase"	"GAAGTTCATCAAGCTGCTCAT"	608	8.4	NA	NA	"SVEN_3348 "	8.4
+"SVEN_3398 "	"putative ABC transporter ATP-binding protein"	"ATGAGCGTACGTTCTGAAACA"	-20	8.4	"SVEN_3399 "	"putative ABC transporter membrane protein"	"SVEN_3398 "	8.4
+"SVEN_3476 "	"possible lyase"	"GTCATCGGATTCGAGGATCAG"	258	8.4	"SVEN_3475 "	"putative RNA polymerase sigma factor"	"SVEN_3476 "	8.4
+"SVEN_3633 "	"putative integral membrane protein"	"TTCACCGAAGAGGCTGATGAT"	30	8.4	NA	NA	"SVEN_3633 "	8.4
+"SVEN_3701 "	"putative membrane protein"	"ATCATGTGTCTGATCGTGGCA"	5	8.4	"SVEN_3700 ; SVEN_3699 "	"Low molecular weight protein tyrosine phosphatase; Cystathionine gamma-lyase"	"SVEN_3701 "	8.4
+"SVEN_4010 "	"hypothetical protein"	"GTAATACTCTCTTCTGTGAGT"	762	8.4	NA	NA	"SVEN_4010 "	8.7
+"SVEN_4196 "	"hypothetical protein"	"ATCATCTGTCTCCTCGTCGTC"	90	8.4	NA	NA	"SVEN_4196 "	9.4
+"SVEN_4305 "	"putative two-component system response regulator"	"AGTGTCAGATGATCAGGATTT"	723	8.4	NA	NA	"SVEN_4305 "	10.2
+"SVEN_4449 "	"putative dehydrogenase"	"ATCTTCAGCTCGTCGGCCATG"	296	8.4	NA	NA	"SVEN_4449 "	8.4
+"SVEN_4697 "	"putative integral membrane protein"	"TTCATCTTCCTCTTCGCCTTC"	1011	8.4	"SVEN_4698 "	"Basic proline-rich protein"	"SVEN_4697 "	8.4
+"SVEN_4721 "	"Putrescine importer"	"ATGAGCAGATAGTCGAGCATG"	359	8.4	NA	NA	"SVEN_4721 "	8.4
+"SVEN_4928 "	"hypothetical protein"	"ATGTTGGGATCTACTTGAACG"	1708	8.4	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_4996 "	"Cell division protein FtsW"	"GATCACGAACAGGCCGAAGAA"	726	8.4	"SVEN_4995 "	"Cell division protein FtsI"	"SVEN_4996 "	8.4
+"SVEN_5275 "	"Cytosine or purine or uracil or thiamine or allantoin permease family protein"	"GGAGATGAACGAGCCGATGAA"	1074	8.4	NA	NA	"SVEN_5275 "	8.4
+"SVEN_5545 "	"Osmosensitive K+ channel histidine kinase KdpD"	"GACGTCATATCGACGGTCAAC"	351	8.4	NA	NA	"SVEN_5545 "	8.4
+"SVEN_5722 "	"hypothetical protein"	"CATGCTGAACGATGTGATCAC"	104	8.4	NA	NA	"SVEN_5722 "	8.4
+"SVEN_5858 "	"hypothetical protein"	"CATGAAGAGTGATCTTTTCAG"	-1	8.4	"SVEN_5859 "	"ABC transporter ATP-binding protein"	"SVEN_5858 "	8.4
+"SVEN_6022 "	"Transcriptional regulator%2C ArsR family"	"GATGCCGGACGGTCATCTGAA"	272	8.4	"SVEN_6023 "	"Major facilitator superfamily permease"	"SVEN_6022 "	8.4
+"SVEN_6233 "	"ABC transporter ATP-binding protein"	"GTTGTACGACTGGAAGACGAA"	291	8.4	"SVEN_6232 "	"hypothetical protein"	"SVEN_6233 "	8.4
+"SVEN_6873 "	"ADP-ribosylglycohydrolase"	"GACTTCAAAACGAGTGACGAA"	198	8.4	"SVEN_6872 "	"hypothetical protein"	"SVEN_6873 "	8.4
+"SVEN_7132 "	"hypothetical protein"	"GCAATTTCACATTACTATGTT"	23	8.4	NA	NA	"SVEN_7132 "	9.5
+"SVEN_7306 "	"hypothetical protein"	"AACGTCTGATGAGCTGGCCTT"	46	8.4	NA	NA	"SVEN_7306 "	8.4
+"SVEN_7448 "	"hypothetical protein"	"AAGCTGCAACAATCAGCACAT"	-19	8.4	NA	NA	"SVEN_7448 "	8.8
+"SVEN_7451 "	"hypothetical protein"	"GGTGGCCGGCGATCCGATGAA"	222	8.4	NA	NA	"SVEN_7451 "	8.4
+"SVEN_0047 "	"transcriptional regulator%2C LacI family"	"TAGGAACGTAAAACGTTTTAT"	-24	8.4	NA	NA	"UPS0039"	8.4
+"SVEN_0046 "	"acyl-coenzyme A:6-aminopenicillanic-acid-acyltransferase precursor"	"TAGGAACGTAAAACGTTTTAT"	-91	8.4	NA	NA	"UPS0039"	8.4
+"SVEN_0226 "	"L-2%2C4-diaminobutyric acid acetyltransferase"	"AATGGCGGATTTTCTCACGTT"	-224	8.4	NA	NA	"UPS0179"	8.4
+"SVEN_0414 "	"GntR-family transcriptional regulator"	"ATGATAGGAATTGATCACCCA"	-63	8.4	NA	NA	"UPS0339"	9.2
+"SVEN_0413 "	"hypothetical protein"	"ATGATAGGAATTGATCACCCA"	-143	8.4	NA	NA	"UPS0339"	9.2
+"SVEN_0766 "	"putative polyketide synthase"	"AATTGCAGAATTTTGCAATTA"	-111	8.4	NA	NA	"UPS0615"	8.4
+"SVEN_0765 "	"hypothetical protein"	"AATTGCAGAATTTTGCAATTA"	-70	8.4	NA	NA	"UPS0615"	8.4
+"SVEN_1278 "	"Gluconokinase"	"ATGATCACATCGGGAATTAAA"	-119	8.4	NA	NA	"UPS1028"	10.8
+"SVEN_1277 "	"Transcriptional regulator%2C GntR family"	"ATGATCACATCGGGAATTAAA"	-49	8.4	NA	NA	"UPS1028"	10.8
+"SVEN_1798 "	"NLP or P60 family protein"	"GTGATCAGTTCAAATCCCACT"	-144	8.4	NA	NA	"UPS1423"	9
+"SVEN_2226 "	"Transcriptional regulator%2C MarR family"	"ATTTTATGTTGTCAAGTATCC"	-37	8.4	NA	NA	"UPS1750"	10.8
+"SVEN_2225 "	"putative oxidoreductase YncB"	"ATTTTATGTTGTCAAGTATCC"	-89	8.4	NA	NA	"UPS1750"	10.8
+"SVEN_2416 "	"hypothetical protein"	"ATCGTCTTCTCAACCTTCACC"	76	8.4	NA	NA	"UPS1911"	8.4
+"SVEN_2415 "	"superoxide dismutase"	"ATCGTCTTCTCAACCTTCACC"	20	8.4	NA	NA	"UPS1911"	8.4
+"SVEN_2731 "	"serine or threonine protein kinase"	"GAAGTCGATAAATCGGCAGTA"	-108	8.4	"SVEN_2730 "	"Peptide chain release factor 2"	"UPS2167"	8.4
+"SVEN_2837 "	"putative integral membrane protein"	"GTAGGCAAAAGAAACTCTCTA"	-74	8.4	NA	NA	"UPS2252"	8.4
+"SVEN_3162 "	"hypothetical protein"	"CAGATCAGCCTATCTTCTGAC"	256	8.4	"SVEN_3163 "	"Conserved hypothetical protein"	"UPS2509"	11.3
+"SVEN_3725 "	"putative ABC transporter ATP-binding protein"	"GACACCGATGAATGTGACAAT"	-179	8.4	"SVEN_3726 "	"putative integral membrane protein"	"UPS2969"	8.4
+"SVEN_3724 "	"hypothetical protein"	"GACACCGATGAATGTGACAAT"	-72	8.4	"SVEN_3723 ; SVEN_3722 "	"putative oxidoreductase; putative MerR-family transcriptional regulator"	"UPS2969"	8.4
+"SVEN_3725 "	"putative ABC transporter ATP-binding protein"	"GTAATCCTCTGGTCGGACAAG"	-48	8.4	"SVEN_3726 "	"putative integral membrane protein"	"UPS2969"	8.4
+"SVEN_3724 "	"hypothetical protein"	"GTAATCCTCTGGTCGGACAAG"	-203	8.4	"SVEN_3723 ; SVEN_3722 "	"putative oxidoreductase; putative MerR-family transcriptional regulator"	"UPS2969"	8.4
+"SVEN_3767 "	"DNA-binding protein"	"AATGTCAGTTGAATATGCCTT"	-53	8.4	NA	NA	"UPS3004"	9
+"SVEN_3793 "	"hypothetical protein"	"CCTACTTGATGATCATGTGAT"	-52	8.4	NA	NA	"UPS3026"	8.4
+"SVEN_3900 "	"Phosphate ABC transporter%2C periplasmic phosphate-binding protein PstS"	"AAATTAGGCAGAACAGGTGAA"	-137	8.4	NA	NA	"UPS3118"	8.4
+"SVEN_3901 "	"hypothetical protein"	"TACAGAAGATCATCTTGGCAG"	-77	8.4	NA	NA	"UPS3119"	8.4
+"SVEN_3995 "	"putative DNA-binding protein"	"TTCGTAAGTCCATATCCGTTC"	-208	8.4	NA	NA	"UPS3186"	8.4
+"SVEN_3994 "	"hypothetical protein"	"TTCGTAAGTCCATATCCGTTC"	-167	8.4	"SVEN_3993 ; SVEN_3992 ; SVEN_3991 ; SVEN_3990 "	"hypothetical protein; hypothetical protein; hypothetical protein; hypothetical protein"	"UPS3186"	8.4
+"SVEN_4069 "	"hypothetical protein"	"ATGATCTTACTGGCGGCAGGA"	-68	8.4	NA	NA	"UPS3256"	11.3
+"SVEN_4523 "	"oligopeptide binding protein"	"CTCATCGGCTTAAATTCGCAT"	-151	8.4	NA	NA	"UPS3615"	8.5
+"SVEN_4840 "	"ATP-dependent DNA helicase UvrD or PcrA"	"CATTCCCGGAATTCGTATGAC"	-84	8.4	NA	NA	"UPS3881"	8.4
+"SVEN_4839 "	"putative glutaredoxin protein"	"CATTCCCGGAATTCGTATGAC"	-85	8.4	NA	NA	"UPS3881"	8.4
+"SVEN_4855 "	"Lon protease with PDZ domain"	"CAGATGACACAGTCTGCTGAT"	-344	8.4	NA	NA	"UPS3894"	8.4
+"SVEN_5005 "	"Diaminopimelate decarboxylase"	"ATGAAATAGTCGAGTGATGAA"	1391	8.4	NA	NA	"UPS4014"	8.4
+"SVEN_5117 "	"polysaccharide deacetylase"	"GAATTGGCCTAATCGTAATAA"	-50	8.4	"SVEN_5118 "	"surface antigen"	"UPS4101"	8.7
+"SVEN_5147 "	"putative ATP or GTP binding protein"	"ATTACCGTTTCTTTACACTTT"	-61	8.4	NA	NA	"UPS4123"	8.4
+"SVEN_5146 "	"Aminomethyltransferase (glycine cleavage system T protein)"	"ATTACCGTTTCTTTACACTTT"	-370	8.4	"SVEN_5145 ; SVEN_5144 "	"Glycine cleavage system H protein; Serine hydroxymethyltransferase"	"UPS4123"	8.4
+"SVEN_5395 "	"regulatory protein"	"ATCCGACTCAGATCATCTGAT"	1822	8.4	NA	NA	"UPS4328"	12.9
+"SVEN_5394 "	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"ATCCGACTCAGATCATCTGAT"	147	8.4	NA	NA	"UPS4328"	12.9
+"SVEN_5763 "	"hypothetical protein"	"AATGTCACACCAGTTGATGCT"	-225	8.4	NA	NA	"UPS4607"	8.4
+"SVEN_5779 "	"hypothetical protein"	"TGGGCAGATAAGTCGTACGAA"	-35	8.4	NA	NA	"UPS4620"	8.4
+"SVEN_5957 "	"Xylose repressor XylR"	"TTTAACTCACATCCTGAAATA"	-58	8.4	NA	NA	"UPS4758"	8.4
+"SVEN_6040 "	"Enolase"	"CTGAACAGCTGAACTGAACAG"	-106	8.4	NA	NA	"UPS4823"	8.8
+"SVEN_6039 "	"Transcriptional regulator%2C MarR family"	"CTGAACAGCTGAACTGAACAG"	-117	8.4	NA	NA	"UPS4823"	8.8
+"SVEN_6262 "	"Ornithine cyclodeaminase"	"ATCGTCCGAGAGTCTGAAAAG"	-32	8.4	"SVEN_6263 ; SVEN_6264 ; SVEN_6265 "	"Ornithine cyclodeaminase; CDA peptide synthetase I; ABC transporter transmembrane protein"	"UPS4982"	8.4
+"SVEN_6905 "	"Endo-1%2C4-beta-xylanase A precursor"	"ATTTACTGAACTAAGGCTTTC"	-282	8.4	NA	NA	"UPS5479"	8.4
+"SVEN_6981 "	"Nickel ABC transporter%2C periplasmic nickel-binding protein nikA2"	"TTCGCAATAACAGTTGATCTC"	-40	8.4	"SVEN_6982 ; SVEN_6983 ; SVEN_6984 ; SVEN_6985 "	"Dipeptide transport system permease protein DppB; Oligopeptide transport system permease protein OppC; Dipeptide transport ATP-binding protein DppD; ABC transporter ATP-binding protein"	"UPS5538"	11.3
+"SVEN_7234 "	"Flavohemoprotein (Hemoglobin protein) (Flavohemoglobin) (Nitric oxide dioxygenase)"	"TTTGACGAATACTCGGACGAA"	-401	8.4	"SVEN_7233 "	"hypothetical protein"	"UPS5724"	8.4
+"SVEN_7403 "	"hypothetical protein"	"CGCGCCTATTGATCAGAAATT"	-163	8.4	NA	NA	"UPS5855"	9.1
+"SVEN_7404 "	"Aldo-keto reductase"	"CGCGCCTATTGATCAGAAATT"	-451	8.4	NA	NA	"UPS5855"	9.1
+"SVEN_0327 "	"Ribulose-5-phosphate 4-epimerase and related epimerases and aldolases"	"ATCTTCGGACGGTTCGGGTTC"	138	8.3	NA	NA	"SVEN_0327 "	8.3
+"SVEN_0903 "	"Uracil-DNA glycosylase%2C family 1"	"GAACGGATTCGATCCGAAGAA"	591	8.3	NA	NA	"SVEN_0903 "	8.3
+"SVEN_1042 "	"Chitodextrinase precursor"	"GTCAACATCATGTCCTACGAC"	927	8.3	NA	NA	"SVEN_1042 "	8.3
+"SVEN_1161 "	"putative acetyltransferase"	"ATCATCGGTTTACCGCACCCT"	-16	8.3	NA	NA	"SVEN_1162 "	8.3
+"SVEN_1162 "	"putative RNA polymerase sigma factor"	"ATCATCGGTTTACCGCACCCT"	558	8.3	"SVEN_1161 "	"putative acetyltransferase"	"SVEN_1162 "	8.3
+"SVEN_1249 "	"putative hydrolase"	"ACCCTCAGATAAACCTCAGAT"	693	8.3	NA	NA	"SVEN_1249 "	8.3
+"SVEN_1356 "	"DNA polymerase III alpha subunit"	"ATGATCCGTACGATCTCGATG"	2165	8.3	"SVEN_1355 "	"hypothetical protein"	"SVEN_1356 "	8.3
+"SVEN_1408 "	"putative regulatory protein"	"TCTAGCCTTTCAAAGTACTAA"	2009	8.3	NA	NA	"SVEN_1408 "	8.4
+"SVEN_2286 "	"Pyruvate%2Cphosphate dikinase"	"TTCTGATCATTGTTTTCCGAC"	95	8.3	NA	NA	"SVEN_2286 "	11.9
+"SVEN_2306 "	"probable oxidoreductase"	"AACTACCGCCAGAACTACGAT"	1278	8.3	NA	NA	"SVEN_2306 "	8.3
+"SVEN_2491 "	"hypothetical protein"	"AACTTCAGCCTTCTGGAAATG"	1269	8.3	NA	NA	"SVEN_2491 "	9.7
+"SVEN_2766 "	"Adenosylhomocysteinase"	"GTTGTCGAAGTGACCGATGTT"	1044	8.3	NA	NA	"SVEN_2766 "	8.3
+"SVEN_3263 "	"DedA protein"	"CCAGGACACCGATCAGACCAA"	58	8.3	NA	NA	"SVEN_3263 "	8.3
+"SVEN_3560 "	"hypothetical protein"	"AATGTCAGATGAGGTGACGAC"	131	8.3	NA	NA	"SVEN_3560 "	8.3
+"SVEN_3567 "	"hypothetical protein"	"GTCGTCACCTCATCTGACATT"	143	8.3	NA	NA	"SVEN_3567 "	8.3
+"SVEN_3627 "	"Adenylate cyclase"	"TTCATGGGACCGATCAAGGTC"	285	8.3	"SVEN_3628 "	"FHA-domain-containing proteins"	"SVEN_3627 "	8.3
+"SVEN_3659 "	"Inner membrane protein translocase component YidC%2C long form"	"TACATCTTTCCGGTGATCTTC"	654	8.3	NA	NA	"SVEN_3659 "	10.1
+"SVEN_3736 "	"Dyp-type peroxidase family protein"	"GGTCGAAGGCGATCAGATGAC"	247	8.3	NA	NA	"SVEN_3736 "	8.3
+"SVEN_3899 "	"Phosphate transport system permease protein PstC"	"GGTGATGATCGGAAGGATCAT"	552	8.3	"SVEN_3898 ; SVEN_3897 "	"Phosphate transport system permease protein PstA; Phosphate transport ATP-binding protein PstB"	"SVEN_3899 "	9.4
+"SVEN_4084 "	"Adenosylhomocysteinase"	"AACATCGGTCACTTCGACAAC"	993	8.3	NA	NA	"SVEN_4084 "	8.3
+"SVEN_4345 "	"DNA-directed RNA polymerase beta subunit"	"AACATCGGTCTGATCGGTTCG"	1485	8.3	NA	NA	"SVEN_4345 "	8.3
+"SVEN_4637 "	"hypothetical protein"	"CTTCTCGGCCGGTACGACGAT"	153	8.3	NA	NA	"SVEN_4637 "	8.3
+"SVEN_4929 "	"hypothetical protein"	"TCTGTACATTAATAACGTGAC"	113	8.3	NA	NA	"SVEN_4929 "	8.3
+"SVEN_5055 "	"DUF124 domain-containing protein"	"CTCATCTTCTTGAACGCCATC"	155	8.3	"SVEN_5054 ; SVEN_5053 "	"DUF124 domain-containing protein; Ser or Arg-related nuclear matrix protein"	"SVEN_5055 "	8.3
+"SVEN_5744 "	"hypothetical protein"	"AAGATCTTCAAGTTCGAGAAC"	366	8.3	NA	NA	"SVEN_5744 "	8.3
+"SVEN_5856 "	"hypothetical protein"	"TTGATCTGACCGATGTCGGCG"	1439	8.3	NA	NA	"SVEN_5856 "	8.3
+"SVEN_6020 "	"Transcriptional regulator%2C TetR family"	"TTCGTGAGACTGTTCGGTCCC"	10	8.3	NA	NA	"SVEN_6020 "	8.3
+"SVEN_6170 "	"hypothetical protein"	"ATCTGCCGTTTGATCGTTTCT"	509	8.3	"SVEN_6169 "	"hypothetical protein"	"SVEN_6170 "	8.3
+"SVEN_6881 "	"hypothetical protein"	"CGAGTCGGGTTATCCGATCTA"	125	8.3	NA	NA	"SVEN_6881 "	8.3
+"SVEN_7084 "	"High-affinity choline uptake protein BetT"	"TTGAGATGAAATACGGCATTG"	-18	8.3	NA	NA	"SVEN_7084 "	8.3
+"SVEN_7139 "	"ABC transporter solute-binding protein"	"CCGGTAACATAGTAATGTGAA"	37	8.3	"SVEN_7138 ; SVEN_7137 ; SVEN_7136 ; SVEN_7135 "	"oligopeptide transport integral membrane protein; ABC transporter permease protein; oligopeptide ABC transporter ATP-binding protein; Oligopeptide transport ATP-binding protein"	"SVEN_7139 "	9.5
+"SVEN_7327 "	"DeoR-family transcriptional regulator"	"TTCGTATCAACAACTGCTGCT"	133	8.3	NA	NA	"SVEN_7327 "	8.3
+"SVEN_7417 "	"hypothetical protein"	"TTCATCAGCCTCTCCTTCATC"	3194	8.3	"SVEN_7418 ; SVEN_7419 ; SVEN_7420 "	"hypothetical protein; putative Ig; putative Ig"	"SVEN_7417 "	8.3
+"SVEN_0059 "	"ABC-type multidrug transport system%2C ATPase component"	"CGCTGACTTCGATCACATGAA"	-5	8.3	"SVEN_0057 "	"hypothetical protein"	"UPS0048"	8.3
+"SVEN_0218 "	"hypothetical protein"	"TTCGTCAGTTCATCGCGTCAC"	-76	8.3	"SVEN_0219 "	"hypothetical protein"	"UPS0172"	8.8
+"SVEN_0255 "	"hypothetical protein"	"AAGGCCAGATAAGAGCACAAT"	-87	8.3	NA	NA	"UPS0204"	8.5
+"SVEN_0254 "	"hypothetical protein"	"AAGGCCAGATAAGAGCACAAT"	-229	8.3	NA	NA	"UPS0204"	8.5
+"SVEN_1401 "	"Ribosyl nicotinamide transporter%2C PnuC"	"CTTAAGAGTCATGCTGACTAT"	-9	8.3	"SVEN_1400 ; SVEN_1399 ; SVEN_1398 ; SVEN_1397 "	"Nicotinamide-nucleotide adenylyltransferase%2C NadR family or Ribosylnicotinamide kinase; Hypothetical Nudix regulator; NrtR-regulated ADP-ribosyl-glycohydrolase DraG; hypothetical protein"	"UPS1118"	8.3
+"SVEN_1406 "	"Chromosome (plasmid) partitioning protein ParA or Sporulation initiation inhibitor protein Soj"	"ATTCACAAGTCGTCTTACCTC"	-15	8.3	"SVEN_1405 "	"hypothetical protein"	"UPS1120"	8.3
+"SVEN_1426 "	"hypothetical protein"	"TCGAAAAAGTCAAGTGAAAAA"	-1397	8.3	NA	NA	"UPS1137"	8.3
+"SVEN_2047 "	"putative cytochrome P450 hydroxylase"	"AACTTCTGATGGTCCATCAGA"	-38	8.3	NA	NA	"UPS1620"	8.8
+"SVEN_2046 "	"putative 3-ketoacyl-CoA thiolase or acetyl-CoA acetyltransferase"	"AACTTCTGATGGTCCATCAGA"	-211	8.3	NA	NA	"UPS1620"	8.8
+"SVEN_2762 "	"hypothetical protein"	"CTTAACCATAGTTCACCCGAA"	-1649	8.3	NA	NA	"UPS2192"	9.3
+"SVEN_3143 "	"Thiol:disulfide oxidoreductase"	"CTCATGTGAAAAGTTTCGCAT"	-16	8.3	"SVEN_3142 ; SVEN_3141 ; SVEN_3140 "	"Cytochrome c-type biogenesis protein CcdA; Ccs1 or ResB-related putative cytochrome C-type biogenesis protein; Cytochrome c-type biogenesis protein CcsA or ResC"	"UPS2492"	8.3
+"SVEN_3144 "	"putative secreted protein"	"AAAATCGCACAAAATTTAAGG"	-173	8.3	NA	NA	"UPS2493"	10.5
+"SVEN_3149 "	"Transcriptional regulator%2C MerR family"	"AAGTGCTGAAGTTAGGACGAA"	-136	8.3	NA	NA	"UPS2496"	8.8
+"SVEN_3148 "	"probable conserved integral membrane protein"	"AAGTGCTGAAGTTAGGACGAA"	-66	8.3	NA	NA	"UPS2496"	8.8
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"CTTAACCATAGTTCACCCGAA"	-3767	8.3	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"CTTAACCATAGTTCACCCGAA"	-7190	8.3	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3819 "	"hypothetical protein"	"CATTACAGAAAGTATCGACAT"	-205	8.3	"SVEN_3820 "	"hypothetical protein"	"UPS3050"	8.3
+"SVEN_3818 "	"hypothetical protein"	"CATTACAGAAAGTATCGACAT"	-52	8.3	NA	NA	"UPS3050"	8.3
+"SVEN_3877 "	"putative two-component system response regulator"	"TTCGGGTGAACTATGGTTAAG"	1520	8.3	NA	NA	"UPS3100"	9.3
+"SVEN_3876 "	"Transcriptional regulator%2C MarR family"	"TTCGGGTGAACTATGGTTAAG"	4334	8.3	NA	NA	"UPS3100"	9.3
+"SVEN_3965 "	"putative lipoprotein"	"TTGACCTGTTGTTCACATAAC"	-347	8.3	NA	NA	"UPS3169"	9.2
+"SVEN_3966 "	"CarD transcriptional regulator"	"TTGACCTGTTGTTCACATAAC"	-415	8.3	NA	NA	"UPS3169"	9.2
+"SVEN_4111 "	"hypothetical protein"	"TTCGACCAAAGATATGGTGAG"	-204	8.3	NA	NA	"UPS3290"	8.3
+"SVEN_4339 "	"Transcription antitermination protein NusG"	"AGATCCAGAAGAACTGATCTC"	883	8.3	NA	NA	"UPS3463"	8.3
+"SVEN_4602 "	"putative secreted protein"	"TTTTGTACTAAATGTGACTTA"	-71	8.3	NA	NA	"UPS3681"	9.6
+"SVEN_4602 "	"putative secreted protein"	"TAAATGTGACTTACGGTGACG"	-63	8.3	NA	NA	"UPS3681"	9.6
+"SVEN_4772 "	"putative small membrane protein"	"AATATCCGACCGAAGAAGTGT"	-35	8.3	NA	NA	"UPS3823"	8.3
+"SVEN_4771 "	"putative peptidase"	"AATATCCGACCGAAGAAGTGT"	-167	8.3	NA	NA	"UPS3823"	8.3
+"SVEN_4909 "	"putative anti-sigma factor"	"ATCGCCGGACGGTCGTACGAT"	-303	8.3	"SVEN_4908 "	"RNA polymerase sigma factor"	"UPS3935"	8.3
+"SVEN_5240 "	"5-carboxymethyl-2-hydroxymuconate delta-isomerase"	"GTCATCGGACCCGCTGATATC"	-99	8.3	"SVEN_5241 "	"Glutamyl-tRNA synthetase"	"UPS4201"	8.3
+"SVEN_5327 "	"Adenosine deaminase"	"GTCATCCGATCATCGTAGGCC"	-16	8.3	NA	NA	"UPS4272"	8.3
+"SVEN_5747 "	"hypothetical protein"	"TTGACATGTTTGTTGTTGACG"	-70	8.3	NA	NA	"UPS4592"	8.5
+"SVEN_5973 "	"Phosphate regulon transcriptional regulatory protein PhoB"	"TTCACCTGACTGCTGTTATGT"	-263	8.3	NA	NA	"UPS4773"	9.5
+"SVEN_5972 "	"TetR-family transcriptional regulator"	"TTCACCTGACTGCTGTTATGT"	-295	8.3	NA	NA	"UPS4773"	9.5
+"SVEN_6427 "	"hypothetical protein"	"CCTCCATAAAAGGAAGATCAT"	-29	8.3	NA	NA	"UPS5114"	8.3
+"SVEN_6800 "	"hypothetical protein"	"ATCACCAGCAGGGCAGATCAA"	-163	8.3	NA	NA	"UPS5394"	8.3
+"SVEN_7286 "	"putative secreted protein"	"CTCATCCGTTTTGATGCTTGG"	-70	8.3	NA	NA	"UPS5762"	11.9
+"SVEN_0866 "	"hypothetical protein"	"GATGGACAGCATGATGATCAA"	89	8.2	NA	NA	"SVEN_0866 "	8.2
+"SVEN_0946 "	"Permease of the drug or metabolite transporter (DMT) superfamily"	"TTCAGCTTCCTGTTCATCAAG"	99	8.2	NA	NA	"SVEN_0946 "	8.2
+"SVEN_1234 "	"hypothetical protein"	"ATTTTCCGATCAGCGCGTGTT"	1269	8.2	NA	NA	"SVEN_1234 "	8.2
+"SVEN_1637 "	"Branched-chain amino acid transport ATP-binding protein LivG"	"TTCATCGGCCTGGAGGACAAG"	459	8.2	NA	NA	"SVEN_1637 "	8.2
+"SVEN_1706 "	"Imidazoleglycerol-phosphate dehydratase"	"CGTGTCGTACGAGCCGATCAT"	378	8.2	NA	NA	"SVEN_1706 "	8.2
+"SVEN_1750 "	"hypothetical protein"	"CGAGTCGGCCGGACTGATGAT"	968	8.2	NA	NA	"SVEN_1750 "	8.2
+"SVEN_1812 "	"Cytochrome c oxidase polypeptide I"	"TTGAACTGCTCGTTCGACATG"	230	8.2	NA	NA	"SVEN_1812 "	8.2
+"SVEN_1843 "	"Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex"	"CGACATCACCAAGCTGATGAA"	1172	8.2	NA	NA	"SVEN_1843 "	8.2
+"SVEN_2142 "	"Phage capsid and scaffold"	"CTTCAACGGCGAGCAGATCAT"	116	8.2	NA	NA	"SVEN_2142 "	8.2
+"SVEN_2251 "	"Xylulose kinase"	"ATCATGTGTCATGGGGATAGT"	-10	8.2	NA	NA	"SVEN_2251 "	8.2
+"SVEN_2549 "	"secreted tripeptidyl aminopeptidase"	"CTTGTAGTTCAGGACGAAGAA"	198	8.2	NA	NA	"SVEN_2549 "	8.2
+"SVEN_2631 "	"2-hydroxyhepta-2%2C4-diene-1%2C7-dioate isomerase or 5-carboxymethyl-2-oxo-hex-3-ene-1%2C7-dioate decarboxylase"	"ATCGGAGGATTGGTCGATCCT"	36	8.2	NA	NA	"SVEN_2631 "	8.2
+"SVEN_2676 "	"putative secreted protease"	"ATGAGCAGACCGTTCTGGTAC"	2009	8.2	NA	NA	"SVEN_2676 "	8.2
+"SVEN_3256 "	"Cell division protein FtsH"	"TTCTTCTCCTTGTCCGACATG"	1262	8.2	NA	NA	"SVEN_3256 "	8.7
+"SVEN_3490 "	"coproporphyrinogen III oxidase"	"CTGGTACGGCAGTCCGAACAT"	690	8.2	"SVEN_3489 ; SVEN_3488 "	"hypothetical protein; hypothetical protein"	"SVEN_3490 "	8.2
+"SVEN_3573 "	"hypothetical protein"	"TCGCACGCTTGATCGGATCAT"	13	8.2	NA	NA	"SVEN_3573 "	14
+"SVEN_3615 "	"Phenylacetate-CoA oxygenase%2C PaaI subunit"	"CGAGTCCTTCGGACGGATGAT"	638	8.2	"SVEN_3616 ; SVEN_3617 "	"Phenylacetate-CoA oxygenase%2C PaaJ subunit; Phenylacetate-CoA oxygenase or reductase%2C PaaK subunit"	"SVEN_3615 "	8.2
+"SVEN_3659 "	"Inner membrane protein translocase component YidC%2C long form"	"CATGTACATCTTTCCGGTGAT"	650	8.2	NA	NA	"SVEN_3659 "	10.1
+"SVEN_4274 "	"NADH-ubiquinone oxidoreductase chain J"	"ATGATCATCCTGGCGGTCTTC"	144	8.2	NA	NA	"SVEN_4274 "	8.2
+"SVEN_4319 "	"Peptidase M48%2C Ste24p precursor"	"ATCATGTTCCTGGTCAACTTC"	465	8.2	"SVEN_4320 ; SVEN_4321 "	"possible membrane protein; hypothetical protein"	"SVEN_4319 "	8.2
+"SVEN_4760 "	"Dipeptide transport system permease protein DppB"	"ATATTTCAACGGAGGCATGAT"	-16	8.2	"SVEN_4761 ; SVEN_4762 ; SVEN_4763 "	"Dipeptide transport system permease protein DppC; Oligopeptide transport ATP-binding protein OppD; Oligopeptide transport ATP-binding protein OppF"	"SVEN_4760 "	8.9
+"SVEN_4766 "	"Oligopeptide transport system permease protein OppB"	"CTGATCTTCCTGATGGTGAAC"	63	8.2	"SVEN_4767 ; SVEN_4768 ; SVEN_4769 "	"Oligopeptide transport system permease protein OppC; Oligopeptide transport ATP-binding protein OppD; Oligopeptide transport ATP-binding protein OppF"	"SVEN_4766 "	8.2
+"SVEN_4780 "	"putative acetyltransferase"	"AGCACAGAGTTGTCCCATGAT"	134	8.2	"SVEN_4779 "	"Protein sirB1"	"SVEN_4780 "	8.2
+"SVEN_5056 "	"hypothetical protein"	"TTCACAAGATCGAACGAAGGT"	23	8.2	"SVEN_5057 "	"hypothetical protein"	"SVEN_5056 "	8.2
+"SVEN_5222 "	"acetyl-coenzyme A carboxyl transferase alpha chain or Acetyl-coenzyme A carboxyl transferase beta chain %3B Propionyl-CoA carboxylase beta chain"	"GTACACCGATGGTGTGATCAC"	245	8.2	"SVEN_5223 "	"hypothetical protein"	"SVEN_5222 "	9
+"SVEN_5488 "	"MFS family multidrug efflux protein"	"GAAGAAGAACATGCCGAACAT"	855	8.2	NA	NA	"SVEN_5488 "	8.2
+"SVEN_5595 "	"hypothetical protein"	"TTGATGGGCTTGACCTTGTAT"	434	8.2	NA	NA	"SVEN_5595 "	9.4
+"SVEN_5745 "	"putative phospholipase protein"	"ACAGTCCGCAGAACCGATAAG"	546	8.2	NA	NA	"SVEN_5745 "	8.2
+"SVEN_5991 "	"acetyl-coenzyme A carboxyl transferase alpha chain or Acetyl-coenzyme A carboxyl transferase beta chain %3B Propionyl-CoA carboxylase beta chain"	"GTACACCGATGGTGTGATCAC"	236	8.2	NA	NA	"SVEN_5991 "	8.2
+"SVEN_6023 "	"Major facilitator superfamily permease"	"AACGACGAACCGAACGACGAA"	648	8.2	NA	NA	"SVEN_6023 "	8.2
+"SVEN_6023 "	"Major facilitator superfamily permease"	"AACGACGAACCGAACGACGAA"	660	8.2	NA	NA	"SVEN_6023 "	8.2
+"SVEN_6050 "	"hypothetical protein"	"GTACGTGTGCGATCGGATCAT"	527	8.2	"SVEN_6051 "	"hypothetical protein"	"SVEN_6050 "	8.2
+"SVEN_6065 "	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	"ATCAGCGGACCGATGTCAGAT"	815	8.2	NA	NA	"SVEN_6065 "	8.2
+"SVEN_6066 "	"probable regulatory protein"	"CTACGACACTGATCGGCTGAT"	181	8.2	"SVEN_6065 ; SVEN_6064 ; SVEN_6063 ; SVEN_6062 ; SVEN_6061 ; SVEN_6060 "	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase; 5-nucleotidase; Deoxycytidine triphosphate deaminase; Deoxycytidine triphosphate deaminase; glycosyl transferase%2C group 1; Beta-lactamase class C and other penicillin binding proteins"	"SVEN_6066 "	8.2
+"SVEN_6181 "	"hypothetical protein"	"ATCATAGGAAAGCTCCCTCAG"	90	8.2	NA	NA	"SVEN_6181 "	8.2
+"SVEN_6500 "	"hypothetical protein"	"CAGGGCGATCGAGCCGATGAT"	150	8.2	NA	NA	"SVEN_6500 "	8.2
+"SVEN_6738 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	"CTTCACGATCGGGCTGATGTT"	326	8.2	NA	NA	"SVEN_6738 "	8.2
+"SVEN_6744 "	"Alpha-L-arabinofuranosidase II precursor"	"AACATCGTCCAGTACGACGAC"	477	8.2	NA	NA	"SVEN_6744 "	8.2
+"SVEN_6840 "	"Excinuclease ABC subunit A"	"ATCATGGGTACTTTCGGGCAT"	0	8.2	NA	NA	"SVEN_6840 "	8.2
+"SVEN_7002 "	"hypothetical protein"	"CGCGTACATCAGTCAGACGAC"	698	8.2	"SVEN_7003 ; SVEN_7004 ; SVEN_7005 "	"hypothetical protein; hypothetical protein; hypothetical protein"	"SVEN_7002 "	10.6
+"SVEN_7059 "	"Siderophore biosynthesis non-ribosomal peptide synthetase modules @ Bacillibactin synthetase component F"	"TTCGTACGATGTTTGACGTCG"	-8	8.2	"SVEN_7060 "	"MbtH protein"	"SVEN_7059 "	8.6
+"SVEN_7112 "	"methyltransferase"	"GGTAAGAAATGGAATTATCTG"	-8	8.2	NA	NA	"SVEN_7112 "	8.2
+"SVEN_7111 "	"cyclase"	"GGTAAGAAATGGAATTATCTG"	1450	8.2	"SVEN_7112 "	"methyltransferase"	"SVEN_7112 "	8.2
+"SVEN_7203 "	"metallopeptidase domain protein"	"CATCAGCGAGAAAATGACAAT"	1991	8.2	NA	NA	"SVEN_7203 "	8.2
+"SVEN_7440 "	"hypothetical protein"	"ATGGTCAGATCGCAAGCTGTC"	81	8.2	NA	NA	"SVEN_7440 "	10.1
+"SVEN_0073 "	"Transcriptional regulator%2C GntR family"	"TACATCGGATGTGTGTCTGCT"	-16	8.2	NA	NA	"UPS0057"	8.2
+"SVEN_0091 "	"hypothetical protein"	"GTGTTCTGAAAATCGTCTCTG"	-37	8.2	NA	NA	"UPS0070"	8.2
+"SVEN_0205 "	"putative acetyltransferase"	"AGCGACAAATGAGCAGGTAAA"	-120	8.2	NA	NA	"UPS0161"	8.2
+"SVEN_0339 "	"CAIB or BAIF family protein"	"TAGATCGGATATTGGATCCAG"	-86	8.2	NA	NA	"UPS0277"	10
+"SVEN_0338 "	"Glutaryl-CoA dehydrogenase"	"TAGATCGGATATTGGATCCAG"	-70	8.2	NA	NA	"UPS0277"	10
+"SVEN_0414 "	"GntR-family transcriptional regulator"	"AAAATGGTTTAGACCAATGAT"	-79	8.2	NA	NA	"UPS0339"	9.2
+"SVEN_0413 "	"hypothetical protein"	"AAAATGGTTTAGACCAATGAT"	-127	8.2	NA	NA	"UPS0339"	9.2
+"SVEN_0431 "	"hypothetical protein"	"GACTTGACTTCGTCTCATAAA"	-127	8.2	NA	NA	"UPS0353"	8.2
+"SVEN_0977 "	"hypothetical protein"	"GTATTGATACATACTTGATTA"	-9	8.2	"SVEN_0976 "	"hypothetical protein"	"UPS0781"	8.2
+"SVEN_1140 "	"putative regulator"	"CTACCTGAACGATCACAAAAC"	-116	8.2	NA	NA	"UPS0906"	8.2
+"SVEN_1139 "	"putative membrane protein"	"CTACCTGAACGATCACAAAAC"	-94	8.2	NA	NA	"UPS0906"	8.2
+"SVEN_1458 "	"hypothetical protein"	"CTCAAGAAAAGCTCAGATCAA"	-104	8.2	NA	NA	"UPS1166"	8.2
+"SVEN_2762 "	"hypothetical protein"	"AATATCAAACTGTAGTAAAGG"	-1216	8.2	NA	NA	"UPS2192"	9.3
+"SVEN_2762 "	"hypothetical protein"	"CTTAACCCAACATCTCACGAC"	-4280	8.2	NA	NA	"UPS2192"	9.3
+"SVEN_2887 "	"hypothetical protein"	"ATGATCATTTGTATGCACGGC"	-95	8.2	NA	NA	"UPS2286"	8.2
+"SVEN_3082 "	"sodium-solute symporter%2C putative"	"GTCAGTAAACCGAACGATTTT"	-119	8.2	NA	NA	"UPS2445"	8.2
+"SVEN_3186 "	"hypothetical protein"	"ATGACGTACTGTTCCGATCAT"	-188	8.2	NA	NA	"UPS2529"	8.2
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"AATATCAAACTGTAGTAAAGG"	-4200	8.2	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"AATATCAAACTGTAGTAAAGG"	-6757	8.2	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"CTTAACCCAACATCTCACGAC"	-1136	8.2	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"CTTAACCCAACATCTCACGAC"	-9821	8.2	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3538 "	"Predicted transcriptional regulator of 4-carboxymuconolactone decarboxylase%2C Rrf2 family"	"ATCTTCATATTCTGGACACTA"	-19	8.2	NA	NA	"UPS2812"	8.2
+"SVEN_3836 "	"hypothetical protein"	"GACATTACGTAATCACGTAAT"	-30	8.2	"SVEN_3837 "	"secreted peptidase"	"UPS3062"	9.6
+"SVEN_3877 "	"putative two-component system response regulator"	"GTCGTGAGATGTTGGGTTAAG"	4151	8.2	NA	NA	"UPS3100"	9.3
+"SVEN_3876 "	"Transcriptional regulator%2C MarR family"	"GTCGTGAGATGTTGGGTTAAG"	1703	8.2	NA	NA	"UPS3100"	9.3
+"SVEN_3877 "	"putative two-component system response regulator"	"GTTGTGGGATCTCTCTTTCAC"	3067	8.2	NA	NA	"UPS3100"	9.3
+"SVEN_3876 "	"Transcriptional regulator%2C MarR family"	"GTTGTGGGATCTCTCTTTCAC"	2787	8.2	NA	NA	"UPS3100"	9.3
+"SVEN_3877 "	"putative two-component system response regulator"	"CCTTTACTACAGTTTGATATT"	1087	8.2	NA	NA	"UPS3100"	9.3
+"SVEN_3876 "	"Transcriptional regulator%2C MarR family"	"CCTTTACTACAGTTTGATATT"	4767	8.2	NA	NA	"UPS3100"	9.3
+"SVEN_4073 "	"acyl dehydratase"	"AATAAATGACTGATTCGTAGA"	-69	8.2	NA	NA	"UPS3259"	8.8
+"SVEN_4250 "	"putative serine or threonine protein kinase"	"TTAGAATTATTTTCCAGTTCC"	-49	8.2	NA	NA	"UPS3401"	9.3
+"SVEN_4332 "	"putative transmembrane efflux protein"	"AAGTTAGTAATCAATAACTAA"	-42	8.2	NA	NA	"UPS3456"	8.2
+"SVEN_4413 "	"SSU ribosomal protein S9p"	"TAAGAACGAAAGAAATCTGAG"	-28	8.2	NA	NA	"UPS3522"	8.2
+"SVEN_4440 "	"Heat shock protein 60 family co-chaperone GroES"	"ATTCACCGACGTACTGAAGTA"	308	8.2	NA	NA	"UPS3544"	8.2
+"SVEN_4705 "	"Multimodular transpeptidase-transglycosylase"	"AAGACGTGATCAGTTGTCTTT"	-123	8.2	NA	NA	"UPS3763"	8.8
+"SVEN_4704 "	"Transcriptional regulator%2C PadR family"	"AAGACGTGATCAGTTGTCTTT"	-181	8.2	"SVEN_4703 ; SVEN_4702 "	"putative ABC transporter ATP-binding protein; putative integral membrane protein"	"UPS3763"	8.8
+"SVEN_4828 "	"Sulfur carrier protein adenylyltransferase ThiF"	"GAGAACAACCGTACTGACATA"	-39	8.2	NA	NA	"UPS3870"	8.2
+"SVEN_4898 "	"putative sugar transporter integral membrane protein"	"AACCGCGAGGAATAAGACCAT"	-184	8.2	"SVEN_4899 ; SVEN_4900 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalG; Beta-hexosaminidase"	"UPS3925"	8.2
+"SVEN_5204 "	"hypothetical protein"	"ATAGTAGGAAGTCCGAGTAAT"	-217	8.2	NA	NA	"UPS4171"	8.2
+"SVEN_5205 "	"3-isopropylmalate dehydrogenase"	"CGTGTCAGACGATGGGACGAA"	-36	8.2	NA	NA	"UPS4172"	8.2
+"SVEN_5290 "	"LSU ribosomal protein L19p"	"ATCTTCGAACGTACCGCTGAT"	-53	8.2	NA	NA	"UPS4246"	8.2
+"SVEN_5395 "	"regulatory protein"	"CCTTTACTACAGTTTGATATT"	1175	8.2	NA	NA	"UPS4328"	12.9
+"SVEN_5394 "	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"CCTTTACTACAGTTTGATATT"	794	8.2	NA	NA	"UPS4328"	12.9
+"SVEN_5433 "	"putative two-component system response regulator"	"CATCACATCTGAGCTGAAATT"	-212	8.2	"SVEN_5434 "	"putative two-component system sensor kinase"	"UPS4358"	8.2
+"SVEN_5432 "	"putative glutamate uptake system ATP-binding protein"	"CATCACATCTGAGCTGAAATT"	-82	8.2	NA	NA	"UPS4358"	8.2
+"SVEN_5757 "	"Transcriptional regulator%2C TetR family"	"AGTTTGTTAAAAGCAGATTTA"	-104	8.2	NA	NA	"UPS4601"	8.2
+"SVEN_5756 "	"amino acid transporter%2C APC family"	"AGTTTGTTAAAAGCAGATTTA"	-44	8.2	NA	NA	"UPS4601"	8.2
+"SVEN_5967 "	"Butyryl-CoA dehydrogenase"	"AAACACACTCAGTGCCATGAT"	-67	8.2	"SVEN_5966 ; SVEN_5965 "	"Electron transfer flavoprotein%2C beta subunit; Electron transfer flavoprotein%2C alpha subunit"	"UPS4768"	8.2
+"SVEN_6217 "	"hypothetical protein"	"TACATCCGTTTGTGGGGCTTT"	-240	8.2	"SVEN_6218 ; SVEN_6219 "	"hypothetical protein; MbtH protein"	"UPS4954"	8.9
+"SVEN_6216 "	"amino acid adenylation domain"	"TACATCCGTTTGTGGGGCTTT"	-285	8.2	"SVEN_6215 ; SVEN_6214 ; SVEN_6213 "	"hypothetical protein; Thioesterase; putative cytochrome P450 hydroxylase"	"UPS4954"	8.9
+"SVEN_6224 "	"hypothetical protein"	"ATCGTCATCTCTTCCACTCTC"	-13	8.2	"SVEN_6223 "	"hypothetical protein"	"UPS4960"	8.2
+"SVEN_6312 "	"probable exported protease"	"TCAGGTGACCGGTCCGATGAT"	-121	8.2	NA	NA	"UPS5024"	8.2
+"SVEN_6427 "	"hypothetical protein"	"TTCATGGTTACAACCTCCATA"	-16	8.2	NA	NA	"UPS5114"	8.3
+"SVEN_6544 "	"Transcriptional regulator%2C TetR family"	"TCTTATCGGTAATCAGTCAAA"	-147	8.2	"SVEN_6545 "	"hypothetical protein"	"UPS5201"	8.7
+"SVEN_6543 "	"hypothetical protein"	"TCTTATCGGTAATCAGTCAAA"	-82	8.2	"SVEN_6542 "	"putative integral membrane protein"	"UPS5201"	8.7
+"SVEN_6919 "	"Alpha-glucosides-binding periplasmic protein AglE precursor"	"ATCGAACGATTGGTCTATGTC"	-90	8.2	"SVEN_6920 ; SVEN_6921 ; SVEN_6922 "	"ABC alpha-glucoside transporter%2C inner membrane subunit AglF; Alpha-glucoside transport system permease protein AglG; hypothetical protein"	"UPS5488"	8.2
+"SVEN_7373 "	"hypothetical protein"	"GTGATCCGTCGAATCGTCATG"	-1	8.2	"SVEN_7372 ; SVEN_7371 ; SVEN_7370 "	"putative peptidoglycan binding domain 1; Macrolide export ATP-binding or permease protein MacB; conserved hypothetical protein"	"UPS5834"	8.2
+"SVEN_7428 "	"hypothetical protein"	"TTCTAGAAACAATCTCCAGAA"	-64	8.2	"SVEN_7429 "	"hypothetical protein"	"UPS5874"	8.5
+"SVEN_7427 "	"Transcriptional regulator%2C TetR family"	"TTCTAGAAACAATCTCCAGAA"	-59	8.2	NA	NA	"UPS5874"	8.5
+"SVEN_0230 "	"RNA polymerase sigma factor SigB"	"TTGATCTCACCGACGATGTAC"	350	8.1	NA	NA	"SVEN_0230 "	8.7
+"SVEN_0256 "	"Integral membrane protein"	"CTGGATGTTCGAGCTGATCAA"	68	8.1	NA	NA	"SVEN_0256 "	9.4
+"SVEN_0389 "	"gas vesicle synthesis protein"	"CTTTTCGGACGTCTCGTTCTT"	21	8.1	NA	NA	"SVEN_0389 "	8.1
+"SVEN_0432 "	"Universal stress protein family"	"TTCGTACGGTCAGCAGATCAT"	353	8.1	NA	NA	"SVEN_0432 "	8.1
+"SVEN_0538 "	"hypothetical protein"	"TACTTCAGGAAGTCCTACCAG"	843	8.1	NA	NA	"SVEN_0538 "	8.1
+"SVEN_0590 "	"hypothetical protein"	"GTAGACGGCCGTTCCGAAGAT"	180	8.1	NA	NA	"SVEN_0590 "	8.1
+"SVEN_0630 "	"secreted protein"	"CTACAACGTGGATCCGACGAT"	1997	8.1	NA	NA	"SVEN_0630 "	8.1
+"SVEN_0747 "	"putative RNA polymerase sigma factor"	"CTCGTCGTACCACTCGACGAT"	861	8.1	NA	NA	"SVEN_0747 "	8.1
+"SVEN_0915 "	"Na+ or H+ antiporter"	"GAGTCCGAACGAGCAGACGAT"	315	8.1	"SVEN_0914 "	"phosphopantetheinyl transferase"	"SVEN_0915 "	8.1
+"SVEN_1083 "	"Carbamoyl-phosphate synthase large chain"	"ATGATCTTCTCGACGAACTCG"	212	8.1	NA	NA	"SVEN_1083 "	8.1
+"SVEN_1330 "	"hypothetical protein"	"GTAGTAGTTCTGGTTGTTGTC"	1026	8.1	"SVEN_1329 ; SVEN_1328 ; SVEN_1327 "	"hypothetical protein; hypothetical protein; Transcriptional regulator%2C TetR family"	"SVEN_1330 "	8.1
+"SVEN_1626 "	"probably membrane protein"	"ATGGTCTGCTCGAAGTAGTAG"	536	8.1	NA	NA	"SVEN_1626 "	8.1
+"SVEN_1642 "	"2%2C3-cyclic-nucleotide 2-phosphodiesterase"	"GTGGAAGGACGAGCCGATCAT"	1163	8.1	NA	NA	"SVEN_1642 "	8.1
+"SVEN_1729 "	"Lipoprotein signal peptidase"	"TGAATCCGGCGTACCGATGAT"	18	8.1	NA	NA	"SVEN_1729 "	8.1
+"SVEN_1930 "	"putative membrane protein"	"CTGATGAAGAAGTCCGACGAG"	153	8.1	"SVEN_1931 "	"putative secreted protein"	"SVEN_1930 "	8.1
+"SVEN_2047 "	"putative cytochrome P450 hydroxylase"	"CAAGGAGATCGAGCTGATCTT"	1133	8.1	NA	NA	"SVEN_2047 "	8.1
+"SVEN_2222 "	"pectate lyase"	"TTGATCTTCTTCTTGGTGTCG"	698	8.1	NA	NA	"SVEN_2222 "	8.1
+"SVEN_2678 "	"putative membrane protein"	"ATGATCAGCCAGTCGATGATC"	347	8.1	NA	NA	"SVEN_2678 "	8.1
+"SVEN_2735 "	"ABC alpha-glucoside transporter%2C inner membrane subunit AglF"	"ATCATCTTCCGGCTCGTCTAC"	420	8.1	NA	NA	"SVEN_2735 "	8.1
+"SVEN_2751 "	"putative two-component system response regulator"	"ATGGTCAGCATGATGATCTTC"	323	8.1	NA	NA	"SVEN_2751 "	8.1
+"SVEN_2983 "	"hypothetical protein"	"CGCAAAATTCAGAGATACAAA"	485	8.1	NA	NA	"SVEN_2983 "	8.1
+"SVEN_3021 "	"hypothetical protein"	"GAACGTCGTCGAGCTGATGAT"	1731	8.1	NA	NA	"SVEN_3021 "	8.1
+"SVEN_3138 "	"hypothetical protein"	"GAACACCTTCCGTCAGATCAC"	908	8.1	NA	NA	"SVEN_3138 "	8.1
+"SVEN_3162 "	"hypothetical protein"	"ACTCACAGATCAGCCTATCTT"	251	8.1	"SVEN_3163 "	"Conserved hypothetical protein"	"SVEN_3162 "	9.1
+"SVEN_3204 "	"Dihydroxy-acid dehydratase"	"GTGATCTGCTTGTTGAGGATC"	1409	8.1	NA	NA	"SVEN_3204 "	8.1
+"SVEN_3285 "	"ABC transporter ATP-binding protein"	"TTCGTCTTCCAGTCGTTCAAC"	306	8.1	"SVEN_3286 "	"hypothetical protein"	"SVEN_3285 "	8.1
+"SVEN_3630 "	"Cell division protein FtsW"	"TTCTTCGGCATGTTCGTGATC"	768	8.1	NA	NA	"SVEN_3630 "	8.1
+"SVEN_3631 "	"Cell division protein FtsI"	"CAACGACGGCAAGCTGATGAA"	1046	8.1	NA	NA	"SVEN_3631 "	8.1
+"SVEN_3807 "	"multiple antibiotic resistance (MarC)-related proteins"	"ATCATCTTCTTCATCTACGCC"	237	8.1	NA	NA	"SVEN_3807 "	8.1
+"SVEN_3845 "	"hypothetical protein"	"GATCGACGACGGTCCGATGAC"	605	8.1	NA	NA	"SVEN_3845 "	8.1
+"SVEN_3909 "	"5-nucleotidase"	"GTTCCACGACGAGCCGATGAT"	383	8.1	NA	NA	"SVEN_3909 "	8.1
+"SVEN_4128 "	"putative ATP-dependent DNA helicase"	"TTCTTCGTACCGCTGTACTCG"	755	8.1	NA	NA	"SVEN_4128 "	8.1
+"SVEN_4199 "	"Long-chain-fatty-acid--CoA ligase"	"ATTTTGCCCTTTTTTCACATT"	753	8.1	NA	NA	"SVEN_4199 "	9
+"SVEN_4345 "	"DNA-directed RNA polymerase beta subunit"	"CGCCTCGACCAATACGAACAA"	71	8.1	NA	NA	"SVEN_4345 "	8.3
+"SVEN_4345 "	"DNA-directed RNA polymerase beta subunit"	"ATCGACAAGACGTCCGACAAG"	585	8.1	NA	NA	"SVEN_4345 "	8.3
+"SVEN_4346 "	"DNA-directed RNA polymerase beta subunit"	"CAAGCACATCGAGATCATCAT"	3401	8.1	NA	NA	"SVEN_4346 "	8.1
+"SVEN_4366 "	"hypothetical protein"	"CGACTCCATCGGTCTGACGTT"	416	8.1	NA	NA	"SVEN_4366 "	8.1
+"SVEN_4385 "	"SSU ribosomal protein S3p"	"CGTCGCCATCCGTCGGATGAT"	104	8.1	NA	NA	"SVEN_4385 "	8.1
+"SVEN_4544 "	"L-lysine permease"	"ATCTTCCGACCTATCTCGTGG"	16	8.1	"SVEN_4545 "	"Transcriptional regulator%2C MerR family"	"SVEN_4544 "	8.1
+"SVEN_4914 "	"cAMP-binding proteins"	"CCTCTACAACCAGCCGATGAA"	821	8.1	NA	NA	"SVEN_4914 "	8.1
+"SVEN_4917 "	"Dihydrofolate reductase"	"CGAGATCGACGAGCTGATCAT"	425	8.1	"SVEN_4918 ; SVEN_4919 "	"hypothetical protein; hypothetical protein"	"SVEN_4917 "	8.1
+"SVEN_5143 "	"L-serine dehydratase"	"TTCATGGTCTTGATGACCTTG"	1271	8.1	NA	NA	"SVEN_5143 "	8.1
+"SVEN_5275 "	"Cytosine or purine or uracil or thiamine or allantoin permease family protein"	"GTTATCTGACGTAGCGTCAGA"	1453	8.1	NA	NA	"SVEN_5275 "	8.4
+"SVEN_5615 "	"regulatory protein"	"CAGGACCTTCGGTGAGATCAA"	663	8.1	"SVEN_5614 "	"hypothetical protein"	"SVEN_5615 "	8.1
+"SVEN_5794 "	"hypothetical protein"	"ATCATCGGCCAACTCGCCATG"	330	8.1	NA	NA	"SVEN_5794 "	8.1
+"SVEN_5813 "	"N-acetylmuramoyl-L-alanine amidase"	"TCAGAACACGGATCAGAACAT"	807	8.1	NA	NA	"SVEN_5813 "	8.1
+"SVEN_6170 "	"hypothetical protein"	"ACACCAAGATCGGCTGATGAT"	21	8.1	"SVEN_6169 "	"hypothetical protein"	"SVEN_6170 "	8.3
+"SVEN_6211 "	"major facilitator superfamily MFS_1 transporter"	"ATCGTCGGCCCGTTGGTCATG"	1001	8.1	NA	NA	"SVEN_6211 "	8.1
+"SVEN_6438 "	"Cobalt-zinc-cadmium resistance protein CzcD"	"GACGATCATCAGACCGATGAC"	591	8.1	NA	NA	"SVEN_6438 "	11.1
+"SVEN_6802 "	"Aspartate 1-decarboxylase"	"CTCGATGATACGAACGATATT"	-4	8.1	NA	NA	"SVEN_6802 "	10.9
+"SVEN_6888 "	"hypothetical protein"	"ATCATCATCTGGGCGAACATG"	227	8.1	NA	NA	"SVEN_6888 "	8.6
+"SVEN_7363 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	"ATGATGAGCATGTTGGCGAAG"	632	8.1	NA	NA	"SVEN_7363 "	8.1
+"SVEN_7396 "	"putative cytochrome P450 hydroxylase"	"GTGATCAGATAGCCGGGCTTG"	131	8.1	NA	NA	"SVEN_7396 "	8.1
+"SVEN_0100 "	"hypothetical protein"	"ATGATCATTACTTTGGGGGCA"	-24	8.1	NA	NA	"UPS0075"	9.6
+"SVEN_0101 "	"secreted hydrolase"	"TGCCCCCAAAGTAATGATCAT"	-275	8.1	NA	NA	"UPS0076"	9.6
+"SVEN_0585 "	"hypothetical protein"	"ATTGACGGTTCGTCAGAATTC"	-93	8.1	"SVEN_0584 ; SVEN_0583 "	"branched amino acid transport system ATP-binding protein; Branched-chain amino acid transport ATP-binding protein LivG"	"UPS0467"	9.2
+"SVEN_0614 "	"hypothetical protein"	"TTGGTCAGACGTGCGGCTCAT"	-337	8.1	NA	NA	"UPS0492"	8.1
+"SVEN_0645 "	"Ribonuclease BN"	"ATCATCAGATCGTGGCGCCTC"	-199	8.1	NA	NA	"UPS0518"	8.5
+"SVEN_0644 "	"putative secreted hydrolase"	"ATCATCAGATCGTGGCGCCTC"	-145	8.1	NA	NA	"UPS0518"	8.5
+"SVEN_0766 "	"putative polyketide synthase"	"ATTATCCGATCGCGTGGGCAG"	-94	8.1	NA	NA	"UPS0615"	8.4
+"SVEN_0765 "	"hypothetical protein"	"ATTATCCGATCGCGTGGGCAG"	-87	8.1	NA	NA	"UPS0615"	8.4
+"SVEN_1270 "	"putative small membrane protein"	"TTATTCCTCCTAGTTGGAATG"	-20	8.1	NA	NA	"UPS1023"	9
+"SVEN_1311 "	"conserved hypothetical protein"	"CTTGTCCGTTTGCCTTATCTC"	-85	8.1	NA	NA	"UPS1054"	8.8
+"SVEN_1310 "	"Transcriptional regulator%2C TetR family"	"CTTGTCCGTTTGCCTTATCTC"	-58	8.1	NA	NA	"UPS1054"	8.8
+"SVEN_1331 "	"Homogentisate 1%2C2-dioxygenase"	"GTAGAGCAATGTTCATCTTTT"	-185	8.1	"SVEN_1332 "	"putative GntR-family transcriptional regulator"	"UPS1070"	8.9
+"SVEN_1330 "	"hypothetical protein"	"GTAGAGCAATGTTCATCTTTT"	-31	8.1	"SVEN_1329 ; SVEN_1328 ; SVEN_1327 "	"hypothetical protein; hypothetical protein; Transcriptional regulator%2C TetR family"	"UPS1070"	8.9
+"SVEN_1534 "	"hypothetical hydrophilic protein"	"AAAGAATATTCATATGACGGA"	-40	8.1	"SVEN_1535 "	"Tellurium resistance protein TerD"	"UPS1222"	12.1
+"SVEN_1533 "	"transcriptional regulator%2C AraC family"	"AAAGAATATTCATATGACGGA"	-81	8.1	NA	NA	"UPS1222"	12.1
+"SVEN_1723 "	"hypothetical protein"	"ATGATCTCTTCTGTTAACGGG"	-330	8.1	NA	NA	"UPS1361"	8.1
+"SVEN_2180 "	"Integral membrane protein"	"GTTTTCAGAACCACTGTCTAC"	-7	8.1	NA	NA	"UPS1713"	8.1
+"SVEN_2250 "	"Small hypothetical protein Hyp1"	"ATTATGAGTCCGCTGCTCTAA"	-527	8.1	"SVEN_2251 "	"Xylulose kinase"	"UPS1771"	8.1
+"SVEN_2291 "	"Aldo-keto reductase"	"AGGAATGACAGATATTGAAAT"	-90	8.1	"SVEN_2292 "	"Transcriptional regulator%2C TetR family"	"UPS1805"	9.6
+"SVEN_2348 "	"regulatory protein%2C ArsR"	"TTTAGAAAGACTTCTTTACAA"	-36	8.1	"SVEN_2347 ; SVEN_2346 "	"major facilitator superfamily MFS_1 protein; N-hydroxyarylamine O-acetyltransferase"	"UPS1855"	10.2
+"SVEN_2406 "	"putative membrane protein"	"GTAGAGCACTAGTCTTCCAAA"	103	8.1	NA	NA	"UPS1903"	8.1
+"SVEN_2405 "	"hypothetical protein"	"GTAGAGCACTAGTCTTCCAAA"	36	8.1	NA	NA	"UPS1903"	8.1
+"SVEN_2434 "	"Transcriptional regulator%2C MarR family"	"ATTAACTTACCACTAAGCTAC"	-76	8.1	NA	NA	"UPS1928"	8.1
+"SVEN_2433 "	"Permease of the drug or metabolite transporter (DMT) superfamily"	"ATTAACTTACCACTAAGCTAC"	-89	8.1	NA	NA	"UPS1928"	8.1
+"SVEN_2604 "	"putative sensory box or GGDEF family protein"	"ATGATCGGCACACTTTCCTTG"	-73	8.1	NA	NA	"UPS2064"	8.1
+"SVEN_2603 "	"putative secreted protein"	"ATGATCGGCACACTTTCCTTG"	-302	8.1	NA	NA	"UPS2064"	8.1
+"SVEN_2729 "	"hypothetical protein"	"ATGTCCGAAAGATCATTACTT"	-190	8.1	NA	NA	"UPS2165"	8.1
+"SVEN_2938 "	"cellulose-binding protein"	"TGCTTCATCAGAACGGACAAA"	-59	8.1	NA	NA	"UPS2330"	9.1
+"SVEN_2949 "	"hypothetical protein"	"AACGTACGACTGTACGATCGC"	-26	8.1	NA	NA	"UPS2339"	8.1
+"SVEN_3109 "	"acetyl-CoA acetyltransferase"	"CGTTCCCGTGAATCTGATGTA"	-32	8.1	NA	NA	"UPS2467"	8.1
+"SVEN_3108 "	"acyl-CoA dehydrogenase"	"CGTTCCCGTGAATCTGATGTA"	-94	8.1	"SVEN_3107 "	"hypothetical protein"	"UPS2467"	8.1
+"SVEN_3122 "	"putative acetyltransferase"	"TTCGGTAATAGATAAGGTGTA"	-24	8.1	NA	NA	"UPS2476"	8.1
+"SVEN_3121 "	"putative membrane protein"	"TTCGGTAATAGATAAGGTGTA"	-151	8.1	NA	NA	"UPS2476"	8.1
+"SVEN_3182 "	"Redox-sensitive transcriptional regulator"	"GAAAGCCAACAAAACGTCCAT"	-253	8.1	"SVEN_3181 ; SVEN_3180 ; SVEN_3179 "	"Glutamyl-tRNA reductase; Porphobilinogen deaminase; Uroporphyrinogen-III methyltransferase or Uroporphyrinogen-III synthase"	"UPS2526"	8.1
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"TCTATCAGACTTTTTCGCTCT"	-5397	8.1	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"TCTATCAGACTTTTTCGCTCT"	-5560	8.1	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3501 "	"putative lyase"	"CGTCTCACATGTTGAGACAAT"	-207	8.1	"SVEN_3502 ; SVEN_3503 "	"Transcriptional regulator%2C AraC family; hypothetical protein"	"UPS2781"	8.1
+"SVEN_3500 "	"hypothetical protein"	"CGTCTCACATGTTGAGACAAT"	-46	8.1	"SVEN_3499 "	"oxidoreductase"	"UPS2781"	8.1
+"SVEN_3501 "	"putative lyase"	"ATGTTGAGACAATCTTGCGGT"	-199	8.1	"SVEN_3502 ; SVEN_3503 "	"Transcriptional regulator%2C AraC family; hypothetical protein"	"UPS2781"	8.1
+"SVEN_3500 "	"hypothetical protein"	"ATGTTGAGACAATCTTGCGGT"	-54	8.1	"SVEN_3499 "	"oxidoreductase"	"UPS2781"	8.1
+"SVEN_3563 "	"hypothetical protein"	"GCTGTCCGATATTCATAAAGT"	-27	8.1	NA	NA	"UPS2831"	8.1
+"SVEN_3562 "	"hypothetical protein"	"GCTGTCCGATATTCATAAAGT"	-173	8.1	"SVEN_3561 "	"Aspartyl-tRNA synthetase"	"UPS2831"	8.1
+"SVEN_3731 "	"Dihydrolipoamide dehydrogenase"	"GACACATGATCAATTTCTGAG"	1384	8.1	"SVEN_3732 "	"hypothetical protein"	"UPS2974"	8.1
+"SVEN_3786 "	"RNA polymerase sigma factor SigB"	"GTCATAGCATCACAAGACATG"	-93	8.1	NA	NA	"UPS3019"	8.1
+"SVEN_4008 "	"hypothetical protein"	"TAGGTGTTACAGATTTCTCTA"	-100	8.1	NA	NA	"UPS3196"	8.1
+"SVEN_4043 "	"Alpha%2Calpha-trehalose-phosphate synthase"	"GTAAACGCTCAAACGTACGTA"	-42	8.1	NA	NA	"UPS3230"	8.1
+"SVEN_4174 "	"regulatory protein"	"AGGTGTCATCGTTATGATGAC"	-24	8.1	NA	NA	"UPS3343"	8.9
+"SVEN_4173 "	"Lead%2C cadmium%2C zinc and mercury transporting ATPase %3B Copper-translocating P-type ATPase"	"AGGTGTCATCGTTATGATGAC"	-90	8.1	NA	NA	"UPS3343"	8.9
+"SVEN_4191 "	"hypothetical protein"	"GTCATCGTAAATGTGGCGATC"	-112	8.1	"SVEN_4192 "	"expressed protein"	"UPS3358"	8.1
+"SVEN_4190 "	"hypothetical protein"	"GTCATCGTAAATGTGGCGATC"	-30	8.1	NA	NA	"UPS3358"	8.1
+"SVEN_5749 "	"Short-chain alcohol dehydrogenase family"	"ACACCAAGATCGGCTGATGAT"	-133	8.1	NA	NA	"UPS4594"	8.1
+"SVEN_5748 "	"hypothetical protein"	"ACACCAAGATCGGCTGATGAT"	-285	8.1	NA	NA	"UPS4594"	8.1
+"SVEN_5759 "	"putative oxidoreductase"	"ATCTTAGGTCATCGTTTAGAT"	-81	8.1	NA	NA	"UPS4603"	9.6
+"SVEN_5758 "	"Transcriptional regulator%2C TetR family"	"ATCTTAGGTCATCGTTTAGAT"	-55	8.1	NA	NA	"UPS4603"	9.6
+"SVEN_5759 "	"putative oxidoreductase"	"AGATTGAGGTCGTAATCTAAT"	-64	8.1	NA	NA	"UPS4603"	9.6
+"SVEN_5758 "	"Transcriptional regulator%2C TetR family"	"AGATTGAGGTCGTAATCTAAT"	-72	8.1	NA	NA	"UPS4603"	9.6
+"SVEN_6054 "	"hypothetical protein"	"AGCCATCCACAATCACAAAAT"	-112	8.1	NA	NA	"UPS4836"	8.1
+"SVEN_6086 "	"Catalase"	"GTCAACAGTTTGTTGAAAAGG"	-85	8.1	NA	NA	"UPS4859"	8.1
+"SVEN_6438 "	"Cobalt-zinc-cadmium resistance protein CzcD"	"GTTGTCATATGCTCTGACCTG"	-110	8.1	NA	NA	"UPS5123"	8.1
+"SVEN_6439 "	"putative transferase"	"GTTGTCATATGCTCTGACCTG"	-504	8.1	"SVEN_6440 ; SVEN_6441 ; SVEN_6442 ; SVEN_6443 "	"putative nucleotide sugar-1-phosphate transferase; Glycerol dehydrogenase; CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; hypothetical protein"	"UPS5123"	8.1
+"SVEN_6582 "	"hypothetical protein"	"GTGAAAGGGAGATCATCACAT"	-151	8.1	NA	NA	"UPS5234"	8.8
+"SVEN_6581 "	"hypothetical protein"	"GTGAAAGGGAGATCATCACAT"	-67	8.1	"SVEN_6580 "	"hypothetical protein"	"UPS5234"	8.8
+"SVEN_6970 "	"Endoglucanase celA precursor"	"TTCATCGGTTAGGAAAGTTTC"	-78	8.1	"SVEN_6971 "	"putative prolyl aminopeptidase"	"UPS5530"	8.1
+"SVEN_6981 "	"Nickel ABC transporter%2C periplasmic nickel-binding protein nikA2"	"CTGTTCGCAATAACAGTTGAT"	-43	8.1	"SVEN_6982 ; SVEN_6983 ; SVEN_6984 ; SVEN_6985 "	"Dipeptide transport system permease protein DppB; Oligopeptide transport system permease protein OppC; Dipeptide transport ATP-binding protein DppD; ABC transporter ATP-binding protein"	"UPS5538"	11.3
+"SVEN_7406 "	"conserved repeat domain"	"ATCGACCGAACATCCGGTGAT"	-172	8.1	NA	NA	"UPS5857"	8.1
+"SVEN_7405 "	"hypothetical protein"	"ATCGACCGAACATCCGGTGAT"	-225	8.1	NA	NA	"UPS5857"	8.1
+"SVEN_0005 "	"putative IS6 family transposase"	"CAACCGCATCAAGAAGATCAA"	167	8	NA	NA	"SVEN_0005 "	8
+"SVEN_0091 "	"hypothetical protein"	"CAGATCCAACCAGCCTATGAG"	51	8	NA	NA	"SVEN_0091 "	8
+"SVEN_0228 "	"L-ectoine synthase"	"ATCGTCCGTTCCTTCGACGAA"	3	8	NA	NA	"SVEN_0228 "	8
+"SVEN_0303 "	"hypothetical protein"	"CATGAAGGACAGACACATCAG"	843	8	NA	NA	"SVEN_0303 "	8
+"SVEN_0737 "	"lipoprotein"	"GATGGAAGGTTGGCTGAAAAA"	362	8	NA	NA	"SVEN_0737 "	8
+"SVEN_0833 "	"Urease alpha subunit"	"CTTGCCGAGCAGACCGATGTT"	588	8	NA	NA	"SVEN_0833 "	8
+"SVEN_0847 "	"hypothetical protein"	"TTCAGGAGATCGTCTTCGACT"	13	8	NA	NA	"SVEN_0847 "	8
+"SVEN_1074 "	"hypothetical protein"	"ATCGTCAGACCGTCCGGCTGG"	549	8	NA	NA	"SVEN_1074 "	8
+"SVEN_1190 "	"Phenylalanyl-tRNA synthetase alpha chain"	"GTCGTACGACTTATTGGGTGC"	6	8	"SVEN_1189 "	"Phenylalanyl-tRNA synthetase beta chain"	"SVEN_1190 "	8
+"SVEN_1194 "	"LSU ribosomal protein L35p"	"GAGGGCGGGTGATCAGATCAG"	191	8	NA	NA	"SVEN_1194 "	9.6
+"SVEN_1625 "	"ATP-dependent RNA helicase"	"TTCGTCATATGAACAGGTGGG"	-16	8	NA	NA	"SVEN_1625 "	8
+"SVEN_1733 "	"Possible membrane protein"	"ATGATCATCAGAACGAAGAAG"	227	8	NA	NA	"SVEN_1733 "	9.9
+"SVEN_1842 "	"Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase"	"TCCGTCAACAAGTGCGAAGAT"	-19	8	NA	NA	"SVEN_1842 "	8
+"SVEN_1861 "	"Transmembrane protein"	"CAAGAAGGTCCGTACGACCAT"	533	8	NA	NA	"SVEN_1861 "	8
+"SVEN_2235 "	"hypothetical protein"	"TTGATCCTTACGTTTTGGTCA"	3417	8	NA	NA	"SVEN_2235 "	8
+"SVEN_2286 "	"Pyruvate%2Cphosphate dikinase"	"GTCGTACGACGTCTTGTCGAT"	990	8	NA	NA	"SVEN_2286 "	11.9
+"SVEN_2286 "	"Pyruvate%2Cphosphate dikinase"	"GAAGACCATCGAGCAGACGTT"	813	8	NA	NA	"SVEN_2286 "	11.9
+"SVEN_2384 "	"Adenylate cyclase"	"TTCGTACTTCCGCTCGATCTC"	18	8	NA	NA	"SVEN_2384 "	8
+"SVEN_2399 "	"Valyl-tRNA synthetase"	"CATCGCGTACAGACCGAACAT"	1509	8	NA	NA	"SVEN_2399 "	8
+"SVEN_2892 "	"putative ABC transporter ATP-binding protein"	"TTCATCTTCCAGGCCTTCAAC"	297	8	NA	NA	"SVEN_2892 "	8
+"SVEN_2930 "	"putative ABC transporter ATP-binding protein"	"GTTGAACGCCTGGAAGATGAA"	315	8	"SVEN_2929 "	"putative ABC transporter integral membrane protein"	"SVEN_2930 "	8
+"SVEN_3212 "	"hypothetical protein"	"GCAACAAGTTTTGCCGATGAT"	3	8	NA	NA	"SVEN_3212 "	8
+"SVEN_3448 "	"LysR-family transcriptional regulatory protein"	"TTGATCAGTTCCTCCGCGTTG"	668	8	NA	NA	"SVEN_3448 "	8
+"SVEN_4081 "	"putative Adenosine kinase"	"CGCGACCGACCATCTGATGAC"	26	8	NA	NA	"SVEN_4081 "	8
+"SVEN_4317 "	"NADH-ubiquinone oxidoreductase chain N"	"ATCATCGGCCTCTTCGCCAAG"	1218	8	NA	NA	"SVEN_4317 "	8
+"SVEN_4373 "	"Translation elongation factor G"	"CGAGAATGTCGATCACACGAT"	224	8	NA	NA	"SVEN_4373 "	8
+"SVEN_4493 "	"hypothetical protein"	"GTTCCTGAAGGGTCAGAAGAA"	650	8	NA	NA	"SVEN_4493 "	8
+"SVEN_4727 "	"hypothetical protein"	"GAAGAACGATCAGCCGAAGAA"	80	8	NA	NA	"SVEN_4727 "	8.6
+"SVEN_4863 "	"Transcriptional regulator%2C TetR family"	"ATGACCAGACTGATCGAGACG"	588	8	NA	NA	"SVEN_4864 "	8
+"SVEN_4864 "	"Quaternary ammonium compound-resistance protein sugE"	"ATGACCAGACTGATCGAGACG"	260	8	NA	NA	"SVEN_4864 "	8
+"SVEN_4899 "	"Maltose or maltodextrin ABC transporter%2C permease protein MalG"	"ATGATCCTCATGCTGAACAAG"	669	8	NA	NA	"SVEN_4899 "	8
+"SVEN_4928 "	"hypothetical protein"	"TTCTTGAGTTGATCCATTCGT"	1297	8	"SVEN_4929 "	"hypothetical protein"	"SVEN_4928 "	10.7
+"SVEN_5011 "	"LSU ribosomal protein L31p"	"CTACACGGGCAAGCAGAAGAT"	131	8	NA	NA	"SVEN_5011 "	8
+"SVEN_5025 "	"ATP synthase beta chain"	"AAGATCGGTCTGTTCGGTGGT"	480	8	NA	NA	"SVEN_5025 "	8
+"SVEN_5446 "	"Permease of the drug or metabolite transporter (DMT) superfamily"	"GCTCAACTTCGAGCTGATCAT"	689	8	NA	NA	"SVEN_5446 "	8
+"SVEN_5720 "	"hypothetical protein"	"CTCATCCGACTGGCCGAGAAC"	84	8	NA	NA	"SVEN_5720 "	8
+"SVEN_5984 "	"bifunctional cyclase or dehydrase"	"GATCGCCTACAAGCAGATCAC"	683	8	NA	NA	"SVEN_5984 "	8
+"SVEN_6237 "	"3-oxoacyl-[acyl-carrier-protein] synthase%2C KASII"	"TTCATCCCACCGACGATCAAC"	1065	8	NA	NA	"SVEN_6237 "	8
+"SVEN_6308 "	"Transcriptional regulator%2C TetR family"	"TACATCTTCATGACTTCCTTG"	332	8	NA	NA	"SVEN_6308 "	8
+"SVEN_6394 "	"ATP-dependent DNA ligase LigC"	"ATGAGGCGATTGTCCGGTATG"	35	8	NA	NA	"SVEN_6394 "	8
+"SVEN_6717 "	"ABC transporter periplasmic-binding protein YtfQ"	"CATGCAGGAGAAGAAGATCAA"	824	8	NA	NA	"SVEN_6717 "	8
+"SVEN_6828 "	"putative integral membrane protein"	"ATCATCGTCATGTACTCGATG"	122	8	NA	NA	"SVEN_6828 "	8.5
+"SVEN_7002 "	"hypothetical protein"	"GTGACCAGATGTATCGAATTC"	37	8	"SVEN_7003 ; SVEN_7004 ; SVEN_7005 "	"hypothetical protein; hypothetical protein; hypothetical protein"	"SVEN_7002 "	10.6
+"SVEN_7230 "	"Transcription regulator"	"CATGATGAACGAGCTGAAGAC"	701	8	NA	NA	"SVEN_7230 "	8
+"SVEN_7440 "	"hypothetical protein"	"AAAAGCATATTTTCGCAAACC"	41	8	NA	NA	"SVEN_7440 "	10.1
+"SVEN_0224 "	"Transcriptional regulator%2C AsnC family"	"ATTGCGAAATGGTCCGCAGAA"	-49	8	NA	NA	"UPS0177"	8
+"SVEN_0223 "	"L-asparaginase"	"ATTGCGAAATGGTCCGCAGAA"	-90	8	NA	NA	"UPS0177"	8
+"SVEN_0500 "	"reductase"	"AACTTCGGATCTACTCGAGAT"	-64	8	NA	NA	"UPS0400"	8
+"SVEN_0499 "	"putative transposase"	"AACTTCGGATCTACTCGAGAT"	-60	8	"SVEN_0498 "	"putative transposase"	"UPS0400"	8
+"SVEN_0501 "	"hypothetical protein"	"AACTTCGGATCTACTCGTCTA"	-286	8	NA	NA	"UPS0401"	8
+"SVEN_0617 "	"Cytosine or purine or uracil or thiamine or allantoin permease family protein"	"CCGGTCAACCTTTCTGAAATT"	-136	8	NA	NA	"UPS0494"	8
+"SVEN_0616 "	"Thioredoxin reductase"	"CCGGTCAACCTTTCTGAAATT"	-96	8	NA	NA	"UPS0494"	8
+"SVEN_0770 "	"hypothetical protein"	"ACTTCTCGATCGACACATGAT"	-35	8	"SVEN_0769 "	"hypothetical protein"	"UPS0619"	10.2
+"SVEN_0960 "	"hypothetical protein"	"CGTGAACACGTGTCGTATAAA"	-148	8	NA	NA	"UPS0765"	8
+"SVEN_0959 "	"hypothetical protein"	"CGTGAACACGTGTCGTATAAA"	-351	8	NA	NA	"UPS0765"	8
+"SVEN_0986 "	"hypothetical protein"	"CCTGACGGTTCGTCAGATCAG"	-41	8	"SVEN_0987 "	"Probable nonspecific lipid-transfer protein"	"UPS0788"	8
+"SVEN_1185 "	"3-hydroxybutyryl-CoA dehydrogenase %3B 3-hydroxyacyl-CoA dehydrogenase"	"ATCATCGGTTAATGAGCGGTA"	-94	8	NA	NA	"UPS0945"	8
+"SVEN_1184 "	"predicted glycoside hydrolase"	"ATCATCGGTTAATGAGCGGTA"	-112	8	NA	NA	"UPS0945"	8
+"SVEN_1700 "	"Transcriptional regulator%2C ArsR family"	"AAGAATTGCACAACAGATCTT"	-58	8	"SVEN_1699 "	"putative integral membrane efflux protein"	"UPS1344"	8
+"SVEN_1730 "	"putative DNA-binding protein"	"TTTGTGATCTTGCTCGCGAAT"	-39	8	NA	NA	"UPS1367"	8
+"SVEN_1731 "	"Isoleucyl-tRNA synthetase"	"TTTGTGATCTTGCTCGCGAAT"	-524	8	NA	NA	"UPS1367"	8
+"SVEN_1755 "	"ABC-type multidrug transport system%2C ATPase component"	"GCTATCTTTTGAACTGACCAG"	-53	8	"SVEN_1756 ; SVEN_1757 "	"Phage infection protein; Transcriptional regulator%2C TetR family"	"UPS1385"	8
+"SVEN_1754 "	"hypothetical protein"	"GCTATCTTTTGAACTGACCAG"	-132	8	NA	NA	"UPS1385"	8
+"SVEN_1845 "	"Pyruvate dehydrogenase E1 component"	"TTCAACCCTTTGATCGATCAT"	-127	8	"SVEN_1846 "	"Transcriptional regulator%2C DeoR family"	"UPS1459"	8
+"SVEN_2109 "	"hypothetical protein"	"GTATATACCTCGAAAGATATA"	-22	8	"SVEN_2108 "	"DNA-binding protein"	"UPS1663"	10.2
+"SVEN_2727 "	"Cell division transporter%2C ATP-binding protein FtsE"	"GTTGTCGAATCGGATCACGAA"	-3	8	"SVEN_2726 "	"Cell division protein FtsX"	"UPS2163"	8
+"SVEN_2762 "	"hypothetical protein"	"CTGATCCAAACGAATCAAGTT"	-3587	8	NA	NA	"UPS2192"	9.3
+"SVEN_2956 "	"Transcriptional regulator%2C MarR family"	"CAGGGAAATATATCTCCATAT"	-91	8	NA	NA	"UPS2345"	9.8
+"SVEN_2955 "	"Trans-aconitate 2-methyltransferase"	"CAGGGAAATATATCTCCATAT"	-93	8	NA	NA	"UPS2345"	9.8
+"SVEN_3020 "	"hypothetical protein"	"CTTATGCGATGAATTCTCACA"	-1	8	"SVEN_3019 "	"hypothetical protein"	"UPS2395"	8
+"SVEN_3030 "	"Na(+) or H(+) antiporter"	"TTAAAGATTAGGTAAGGTAAC"	-154	8	NA	NA	"UPS2402"	8
+"SVEN_3029 "	"Penicillin amidase"	"TTAAAGATTAGGTAAGGTAAC"	-158	8	NA	NA	"UPS2402"	8
+"SVEN_3098 "	"putative thiolase"	"GCTGACTATCCGTCAGATTAG"	-68	8	"SVEN_3099 ; SVEN_3100 "	"hypothetical protein; Enoyl-CoA hydratase"	"UPS2458"	8
+"SVEN_3097 "	"Long-chain-fatty-acid--CoA ligase"	"GCTGACTATCCGTCAGATTAG"	-37	8	NA	NA	"UPS2458"	8
+"SVEN_3195 "	"Tryptophanyl-tRNA synthetase"	"CTGATCCAAACGAATCAAGTT"	-1829	8	NA	NA	"UPS2537"	9.3
+"SVEN_3194 "	"putative phosphatase YieH"	"CTGATCCAAACGAATCAAGTT"	-9128	8	"SVEN_3193 ; SVEN_3192 ; SVEN_3191 "	"putative transmembrane transport protein; NAD-independent protein deacetylase AcuC; hypothetical protein"	"UPS2537"	9.3
+"SVEN_3465 "	"putative ATP-dependent RNA helicase"	"TTCGTATTTCATTCGGCCCGT"	-91	8	NA	NA	"UPS2753"	8
+"SVEN_3661 "	"rRNA small subunit methyltransferase%2C glucose inhibited division protein GidB"	"TTTGTCAGCCTGATAGTCAGC"	-47	8	NA	NA	"UPS2911"	8
+"SVEN_4151 "	"Transcriptional regulator%2C MarR family"	"TTGGTATTTAGACAGAGTAAT"	-38	8	"SVEN_4152 "	"putative integral membrane efflux protein"	"UPS3322"	8
+"SVEN_4150 "	"hypothetical protein"	"TTGGTATTTAGACAGAGTAAT"	-174	8	NA	NA	"UPS3322"	8
+"SVEN_4246 "	"hypothetical protein"	"CCTGACGCCTAGTCAGATTAC"	-168	8	NA	NA	"UPS3399"	8.5
+"SVEN_4245 "	"acetyl-CoA synthetase"	"CCTGACGCCTAGTCAGATTAC"	-54	8	"SVEN_4244 "	"Enoyl-CoA hydratase"	"UPS3399"	8.5
+"SVEN_4582 "	"hypothetical protein"	"GTCACCAGTCGAGCATATCTA"	-271	8	NA	NA	"UPS3661"	12.7
+"SVEN_4581 "	"Deoxyribose-phosphate aldolase"	"GTCACCAGTCGAGCATATCTA"	-61	8	"SVEN_4580 ; SVEN_4579 "	"Aldehyde dehydrogenase; aldehyde dehydrogenase"	"UPS3661"	12.7
+"SVEN_4602 "	"putative secreted protein"	"TCGGAAGGGAAAACGGATCAA"	-40	8	NA	NA	"UPS3681"	9.6
+"SVEN_4651 "	"putative small membrane protein"	"TTTTTCGGTTTTCCTCCTTCC"	-120	8	NA	NA	"UPS3723"	8
+"SVEN_4847 "	"Zinc metalloprotease"	"TTAGTCATTCGAATGGTGTGG"	-95	8	NA	NA	"UPS3887"	8
+"SVEN_4846 "	"UBA or THIF-type NAD or FAD binding protein"	"TTAGTCATTCGAATGGTGTGG"	-168	8	"SVEN_4845 "	"Ubiquinone biosynthesis monooxygenase UbiB"	"UPS3887"	8
+"SVEN_5829 "	"Uroporphyrinogen III decarboxylase"	"CCGTCGGAATGATCGGAAAAA"	-132	8	NA	NA	"UPS4656"	10.2
+"SVEN_5828 "	"Uncharacterized protein Q1 colocalized with Q"	"CCGTCGGAATGATCGGAAAAA"	-67	8	NA	NA	"UPS4656"	10.2
+"SVEN_5973 "	"Phosphate regulon transcriptional regulatory protein PhoB"	"ACTGTCAAGTGATGCGATTTC"	-221	8	NA	NA	"UPS4773"	9.5
+"SVEN_5972 "	"TetR-family transcriptional regulator"	"ACTGTCAAGTGATGCGATTTC"	-337	8	NA	NA	"UPS4773"	9.5
+"SVEN_6420 "	"hypothetical protein"	"AAAGTCATAAGAAACGTAAGA"	-269	8	"SVEN_6421 "	"putative carboxypeptidase"	"UPS5109"	8.6
+"SVEN_6419 "	"putative metallopeptidase"	"AAAGTCATAAGAAACGTAAGA"	-30	8	NA	NA	"UPS5109"	8.6
+"SVEN_6427 "	"hypothetical protein"	"CAACCTCCATAAAAGGAAGAT"	-26	8	NA	NA	"UPS5114"	8.3
+"SVEN_6680 "	"cytochrome P450 monooxygenase"	"TCTGGCAGGTAGTCATACCAG"	-223	8	NA	NA	"UPS5303"	8
+"SVEN_6679 "	"putative cytochrome P450 hydroxylase"	"TCTGGCAGGTAGTCATACCAG"	-54	8	"SVEN_6678 "	"methyltransferase type 11"	"UPS5303"	8
+"SVEN_6822 "	"putative lipoprotein"	"GAGATCAATTCGTGTGAACAG"	-55	8	NA	NA	"UPS5412"	10.5
+"SVEN_6821 "	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"GAGATCAATTCGTGTGAACAG"	-247	8	"SVEN_6820 "	"hypothetical protein"	"UPS5412"	10.5
+"SVEN_6822 "	"putative lipoprotein"	"AACAGATGTTCATCCCACGAA"	-39	8	NA	NA	"UPS5412"	10.5
+"SVEN_6821 "	"RNA polymerase sigma-70 factor%2C ECF subfamily"	"AACAGATGTTCATCCCACGAA"	-263	8	"SVEN_6820 "	"hypothetical protein"	"UPS5412"	10.5
+"SVEN_6838 "	"Tyrosinase cofactor precursor"	"ATGATCACTTTCTCCGTAAGA"	-219	8	"SVEN_6839 "	"Tyrosinase"	"UPS5425"	8
+"SVEN_7097 "	"Agmatine deiminase"	"CTTTTCATACCCATGGTCTTG"	-74	8	NA	NA	"UPS5630"	8
+"SVEN_7238 "	"Alkyldihydroxyacetonephosphate synthase"	"GATATTATCAGTAAGTAATTT"	-63	8	NA	NA	"UPS5727"	10.5
+"SVEN_7237 "	"Transcriptional regulator%2C TetR family"	"GATATTATCAGTAAGTAATTT"	-89	8	NA	NA	"UPS5727"	10.5

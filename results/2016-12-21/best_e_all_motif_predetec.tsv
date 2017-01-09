@@ -1,0 +1,11 @@
+"gene_locus"	"gene_product"	"tbfs_seq"	"tbfs_dist"	"tbfs_score"	"cotr_locus"	"cotr_product"	"region_name"	"region_maxscore"
+"SVEN_5395 "	"regulatory protein"	"AGATCATCTGATAAA"	1819	14.1	NA	NA	"UPS4328"	14.1
+"SVEN_5394 "	"Zn-dependent hydrolase%2C RNA-metabolising%2C CPSF 100 kDa analog"	"AGATCATCTGATAAA"	156	14.1	NA	NA	"UPS4328"	14.1
+"SVEN_1372 "	"hypothetical protein"	"ACTTTCATATTTTCA"	-208	12.7	NA	NA	"UPS1098"	12.7
+"SVEN_1371 "	"putative regulator"	"ACTTTCATATTTTCA"	-130	12.7	NA	NA	"UPS1098"	12.7
+"SVEN_6931 "	"hypothetical protein"	"TCAATCAGATCATCG"	13	12.3	NA	NA	"SVEN_6931 "	12.3
+"SVEN_3573 "	"hypothetical protein"	"GGATCATCTGAACAT"	27	11.8	NA	NA	"SVEN_3573 "	11.8
+"SVEN_1733 "	"Possible membrane protein"	"TGATCATCAGAACGA"	232	11.5	NA	NA	"SVEN_1733 "	11.5
+"SVEN_4305 "	"putative two-component system response regulator"	"AGTGTCAGATGATCA"	729	11.5	NA	NA	"SVEN_4305 "	11.5
+"SVEN_4756 "	"putative lipoprotein"	"TGATCATCTCCAAAT"	-45	11.5	NA	NA	"UPS3811"	11.5
+"SVEN_4755 "	"hypothetical protein"	"TGATCATCTCCAAAT"	-218	11.5	NA	NA	"UPS3811"	11.5
